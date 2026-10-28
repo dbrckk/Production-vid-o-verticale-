@@ -369,6 +369,9 @@ class Painter:
         self.text(d,format_distance(thickness_mm(fold)),288,909,16,(*MINT,245),bold=True)
 
     def frame(self, t: float, cfg: dict) -> Image.Image:
+        if cfg.get('mode') == 'universal':
+            from universal import frame
+            return frame(self,t,cfg)
         if cfg.get('mode') == 'storyboard':
             from storyboard import draw_storyboard
             return draw_storyboard(self,t,cfg)
@@ -407,7 +410,7 @@ def make_audio(path: Path, duration: float, cfg: dict):
         # Soft synthesized tick with no external sound samples.
         arr[a:b]+=(.12*np.sin(2*np.pi*(380+1500*tt)*tt)+.035*np.sin(2*np.pi*880*tt))*np.exp(-tt*38)
     markers = ([float(scene['start']) for scene in cfg['scenes'][1:]]
-               if cfg.get('mode') == 'storyboard' else [7.5,14.5,21.8,24.0,28.5])
+               if cfg.get('mode') in ('storyboard','universal') else [7.5,14.5,21.8,24.0,28.5])
     for when in markers:
         a=int(when*sr);b=min(n,a+int(.8*sr));tt=np.arange(b-a,dtype=np.float32)/sr
         arr[a:b]+=.10*np.sin(2*np.pi*(170*tt+300*tt**2))*np.sin(np.pi*np.minimum(1,tt/.8))
@@ -424,7 +427,10 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     if duration<=0 or fps<1:raise ValueError('duration and fps must be positive')
     if width%9:raise ValueError('width must be a multiple of 9 for exact 9:16')
     height=width*16//9
-    if cfg.get('mode') == 'storyboard':
+    if cfg.get('mode') == 'universal':
+        from topic_engine import validate_universal
+        validate_universal(cfg)
+    elif cfg.get('mode') == 'storyboard':
         from storyboard import validate_storyboard
         validate_storyboard(cfg)
     elif cfg.get('mode', 'paper') != 'paper':
@@ -464,7 +470,10 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     painter.frame(min(7.3,duration*.45),cfg).save(cover)
     info={'output':str(output),'cover':str(cover),'width':width,'height':height,'fps':fps,
           'duration':duration,'frames':frames,'mode':cfg.get('mode','paper')}
-    if info['mode']=='storyboard':
+    if info['mode']=='universal':
+        info.update(topic=cfg['topic'],evidence=cfg.get('evidence','unsourced'),
+                    sources=cfg.get('sources',[]),scenes=cfg['scenes'])
+    elif info['mode']=='storyboard':
         info['scenes']=[{'start':scene['start'],'end':scene['end'],'headline':scene['headline'],
                          'visual':scene['visual']} for scene in cfg['scenes']]
     else:
@@ -487,8 +496,8 @@ def main():
     a=p.parse_args()
     cfg=json.loads(Path(a.config).read_text(encoding='utf8'))
     if a.title:
-        if cfg.get('mode') == 'storyboard':
-            cfg['scenes'][0]['headline'] = a.title
+        if cfg.get('mode') in ('storyboard','universal'):
+            cfg['scenes'][0]['headline'] = a.title[:200]
         else:
             cfg['title_lines'] = [a.title, *cfg['title_lines'][1:]]
     print(json.dumps(render(cfg,Path(a.output),a.width,a.fps,a.duration,a.preview,a.voice),ensure_ascii=False,indent=2))
