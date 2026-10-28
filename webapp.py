@@ -20,6 +20,16 @@ class State:
         self.jobs={}
         self.lock=Lock()
         self.busy=False
+    def prune(self,max_outputs:int=5):
+        with self.lock:
+            finished=[key for key,value in self.jobs.items() if value['status'] in ('ready','error')]
+            expired=finished[:-max_outputs]
+            for key in expired:self.jobs.pop(key,None)
+        for key in expired:
+            for suffix in ('.mp4','.json','.sound.wav'):
+                (self.directory/f'{key}{suffix}').unlink(missing_ok=True)
+        # cover.png is shared with the legacy renderer and may be in use.
+
     def start(self,topic:str,article:dict|None,quality:str):
         if quality not in ('preview','720p','1080p'):raise ValueError('Qualité inconnue')
         cfg=create_story(topic,article=article) if article else build(topic,False,30)
@@ -38,6 +48,7 @@ class State:
                 with self.lock:self.jobs[job].update(status='error',error=str(error)[:200])
             finally:
                 with self.lock:self.busy=False
+                self.prune()
         Thread(target=worker,daemon=True).start()
         return self.jobs[job].copy()
 
@@ -125,6 +136,6 @@ def serve(host='127.0.0.1',port=8765,output_dir=None):
 if __name__=='__main__':
     import argparse
     p=argparse.ArgumentParser()
-    p.add_argument('--host',default='127.0.0.1');p.add_argument('--port',type=int,default=8765)
+    p.add_argument('--host',default='127.0.0.1');p.add_argument('--port',type=int,default=int(os.environ.get('PORT','8765')))
     args=p.parse_args()
     serve(args.host,args.port)
