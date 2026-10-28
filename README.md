@@ -21,7 +21,7 @@ Pour créer un autre sujet, duplique le preset `sun-vanished.json`, change les t
 ## Utilisation depuis Android (sans ordinateur)
 
 1. Ouvrir **Actions → Render vertical science video → Run workflow** dans ce dépôt.
-2. Choisir le sujet `sun-vanished` ou `paper-to-moon`, puis `1080p`, `720p` ou `preview`. Le titre personnalisé reste disponible pour le mode papier.
+2. Choisir le sujet `sun-vanished` ou `paper-to-moon`, puis `1080p`, `720p` ou `preview`. Le titre personnalisé modifie l'ouverture du modèle sélectionné.
 3. Ouvrir l'exécution terminée et télécharger l'artefact `vertical-science-...` : il contient `science.mp4`, `cover.png` et `science.json`.
 
 À chaque push sur `main`, GitHub exécute uniquement les tests et un court rendu de vérification. Le rendu complet 1080p ne démarre que sur demande manuelle, pour économiser les minutes GitHub Actions. Il utilise uniquement GitHub Actions, Python, Pillow, NumPy et FFmpeg. Les minutes GitHub Actions restent soumises aux limites de votre compte.
