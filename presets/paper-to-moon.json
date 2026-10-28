@@ -1,0 +1,12 @@
+{
+  "title_lines": ["Combien de plis pour", "atteindre la Lune ?"],
+  "reveal_text": "Seulement 42 plis !",
+  "paper_mm": 0.1,
+  "target_folds": 42,
+  "max_folds": 103,
+  "duration": 31,
+  "start_at": 0.6,
+  "reveal_at": 22,
+  "burst_at": 24,
+  "cosmic_end_at": 29
+}
