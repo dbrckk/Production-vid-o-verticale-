@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       title:
-        description: 'Title first line (leave blank for default)'
+        description: 'Custom opening title (leave blank for default)'
         type: string
         required: false
       subject:
@@ -54,7 +54,7 @@ jobs:
           esac
           CONFIG="presets/${SUBJECT:-sun-vanished}.json"
           test -f "$CONFIG"
-          if [ -n "$TITLE" ] && [ "${SUBJECT:-sun-vanished}" = "paper-to-moon" ]; then
+          if [ -n "$TITLE" ]; then
             python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --title "$TITLE"
           else
             python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH"
