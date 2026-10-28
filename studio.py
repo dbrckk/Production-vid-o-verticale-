@@ -369,6 +369,9 @@ class Painter:
         self.text(d,format_distance(thickness_mm(fold)),288,909,16,(*MINT,245),bold=True)
 
     def frame(self, t: float, cfg: dict) -> Image.Image:
+        if cfg.get('mode') == 'storyboard':
+            from storyboard import draw_storyboard
+            return draw_storyboard(self,t,cfg)
         im=self.base.copy()
         fold=fold_at(t,cfg)
         if t < 14.5:
@@ -403,7 +406,9 @@ def make_audio(path: Path, duration: float, cfg: dict):
         a=int(beat*sr);b=min(n,a+int(.11*sr));tt=np.arange(b-a,dtype=np.float32)/sr
         # Soft synthesized tick with no external sound samples.
         arr[a:b]+=(.12*np.sin(2*np.pi*(380+1500*tt)*tt)+.035*np.sin(2*np.pi*880*tt))*np.exp(-tt*38)
-    for when in (7.5,14.5,21.8,24.0,28.5):
+    markers = ([float(scene['start']) for scene in cfg['scenes'][1:]]
+               if cfg.get('mode') == 'storyboard' else [7.5,14.5,21.8,24.0,28.5])
+    for when in markers:
         a=int(when*sr);b=min(n,a+int(.8*sr));tt=np.arange(b-a,dtype=np.float32)/sr
         arr[a:b]+=.10*np.sin(2*np.pi*(170*tt+300*tt**2))*np.sin(np.pi*np.minimum(1,tt/.8))
     arr=np.tanh(arr*2.6)*.85
@@ -419,7 +424,12 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     if duration<=0 or fps<1:raise ValueError('duration and fps must be positive')
     if width%9:raise ValueError('width must be a multiple of 9 for exact 9:16')
     height=width*16//9
-    if float(cfg.get("paper_mm", PAPER_MM)) <= 0:
+    if cfg.get('mode') == 'storyboard':
+        from storyboard import validate_storyboard
+        validate_storyboard(cfg)
+    elif cfg.get('mode', 'paper') != 'paper':
+        raise ValueError('Unknown video mode')
+    elif float(cfg.get("paper_mm", PAPER_MM)) <= 0:
         raise ValueError("paper_mm must be positive")
     painter=Painter(width,height)
     output.parent.mkdir(parents=True,exist_ok=True)
@@ -453,8 +463,13 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     cover=output.with_name('cover.png')
     painter.frame(min(7.3,duration*.45),cfg).save(cover)
     info={'output':str(output),'cover':str(cover),'width':width,'height':height,'fps':fps,
-          'duration':duration,'frames':frames,'target_folds':cfg.get('target_folds',42),
-          'moon_distance_km':MOON_KM,'fold42_distance_km':thickness_mm(42)/1e6}
+          'duration':duration,'frames':frames,'mode':cfg.get('mode','paper')}
+    if info['mode']=='storyboard':
+        info['scenes']=[{'start':scene['start'],'end':scene['end'],'headline':scene['headline'],
+                         'visual':scene['visual']} for scene in cfg['scenes']]
+    else:
+        info.update(target_folds=cfg.get('target_folds',42),moon_distance_km=MOON_KM,
+                    fold42_distance_km=thickness_mm(42)/1e6)
     output.with_suffix('.json').write_text(json.dumps(info,ensure_ascii=False,indent=2),encoding='utf8')
     return info
 
