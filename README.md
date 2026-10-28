@@ -96,6 +96,11 @@ Les sujets d'actualité sont tirés de flux RSS fixes (franceinfo, France 24, Le
 
 Pour un sujet encyclopédique, le système tente une récupération de résumé Wikipédia et conserve son lien. Un texte ou brief détaillé fourni directement par l'utilisateur peut alimenter les scènes. Si aucune preuve n'est disponible, le mode reste **exploratoire**, sans invention de chiffres ou de faits. Le moteur universel constitue une base d'infographies génériques, **pas encore** un système de documentaire automatiquement illustré de manière unique sur chaque thème. Il n'ajoute pas encore automatiquement de voix naturelle : la piste \`--voice\` existante permet d'intégrer une narration produite séparément.
 
+
+### Publication de l'interface sur Render (facultative)
+
+Un \`render.yaml\` officiel prépare un service Docker sur le plan \`free\` (sous réserve d'éligibilité et des quotas Render), région Francfort, avec déploiement seulement après réussite des tests GitHub Actions. Pour l'activer, importer ce dépôt comme **Blueprint** dans l'espace Render autorisé et saisir \`STUDIO_TOKEN\` comme secret (16 caractères minimum). Aucun jeton n'est présent dans le dépôt. Après déploiement, le site fournit les boutons de génération et de sélection d'actualités directement depuis Android. Le service utilise un stockage temporaire et ne promet pas de conserver les MP4 après redémarrage.
+
 ### Sécurité et coûts
 
 - Application locale par défaut ; un serveur accessible publiquement exige \`STUDIO_TOKEN\` et HTTPS.
