@@ -6,6 +6,12 @@ on:
         description: 'Title first line (leave blank for default)'
         type: string
         required: false
+      subject:
+        description: 'Video storyboard'
+        type: choice
+        required: true
+        default: 'sun-vanished'
+        options: ['sun-vanished', 'paper-to-moon']
       quality:
         description: 'Choose output resolution'
         type: choice
@@ -14,7 +20,7 @@ on:
         options: ['1080p', '720p', 'preview']
   push:
     branches: [main]
-    paths: ['studio.py', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
+    paths: ['studio.py', 'storyboard.py', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
 permissions:
   contents: read
 jobs:
@@ -39,16 +45,19 @@ jobs:
         env:
           TITLE: ${{ inputs.title }}
           QUALITY: ${{ inputs.quality }}
+          SUBJECT: ${{ inputs.subject }}
         run: |
           case "${QUALITY:-1080p}" in
             preview) WIDTH=540 ;;
             720p) WIDTH=720 ;;
             *) WIDTH=1080 ;;
           esac
-          if [ -n "$TITLE" ]; then
-            python studio.py --config presets/paper-to-moon.json --output output/science.mp4 --width "$WIDTH" --title "$TITLE"
+          CONFIG="presets/${SUBJECT:-sun-vanished}.json"
+          test -f "$CONFIG"
+          if [ -n "$TITLE" ] && [ "${SUBJECT:-sun-vanished}" = "paper-to-moon" ]; then
+            python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --title "$TITLE"
           else
-            python studio.py --config presets/paper-to-moon.json --output output/science.mp4 --width "$WIDTH"
+            python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH"
           fi
       - name: Validate output video and audio
         if: github.event_name == 'workflow_dispatch'
@@ -60,7 +69,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: github.event_name == 'workflow_dispatch'
         with:
-          name: vertical-science-${{ inputs.quality || '1080p' }}
+          name: vertical-science-${{ inputs.subject || 'sun-vanished' }}-${{ inputs.quality || '1080p' }}
           path: |
             output/science.mp4
             output/science.json
