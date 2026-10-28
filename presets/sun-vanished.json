@@ -1,0 +1,58 @@
+{
+  "mode": "storyboard",
+  "duration": 30,
+  "title_lines": [
+    "Et si le Soleil",
+    "disparaissait ?"
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4.5,
+      "headline": "ET SI LE SOLEIL DISPARAISSAIT ?",
+      "caption": "La Terre ne le remarquerait pas immédiatement.",
+      "visual": "sun",
+      "metric": "UNE EXPÉRIENCE DE PENSÉE"
+    },
+    {
+      "start": 4.5,
+      "end": 9,
+      "headline": "LA LUMIÈRE A BESOIN DE TEMPS",
+      "caption": "Elle met environ 8 minutes 20 secondes pour arriver jusqu'à nous.",
+      "visual": "light_path",
+      "metric": "149,6 MILLIONS DE KM"
+    },
+    {
+      "start": 9,
+      "end": 13.5,
+      "headline": "8 MINUTES ET 20 SECONDES",
+      "caption": "Puis la lumière du Soleil disparaîtrait de notre ciel.",
+      "visual": "countdown",
+      "metric": "AUCUN CHANGEMENT IMMÉDIAT"
+    },
+    {
+      "start": 13.5,
+      "end": 19,
+      "headline": "L'ORBITE DE LA TERRE CHANGERAIT",
+      "caption": "L'effet gravitationnel nous parviendrait au même moment que la dernière lumière.",
+      "visual": "orbit",
+      "metric": "LA GRAVITATION SE PROPAGE À LA VITESSE DE LA LUMIÈRE"
+    },
+    {
+      "start": 19,
+      "end": 24.5,
+      "headline": "LE FROID GAGNERAIT LA TERRE",
+      "caption": "Les températures chuteraient progressivement, sans congélation instantanée.",
+      "visual": "ice",
+      "metric": "DES HEURES, DES JOURS, DES SEMAINES…"
+    },
+    {
+      "start": 24.5,
+      "end": 30,
+      "headline": "NOTRE MONDE SANS SOLEIL",
+      "caption": "La lumière, l'énergie et la plupart des écosystèmes seraient bouleversés.",
+      "visual": "galaxy",
+      "metric": "UNE PLANÈTE PLONGÉE DANS LA NUIT"
+    }
+  ]
+}
