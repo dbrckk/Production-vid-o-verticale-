@@ -88,7 +88,8 @@ def current_headlines(fetcher=None,now:datetime|None=None) -> list[dict]:
 def random_important_news(fetcher=None,rng=None,now=None) -> dict:
     items=current_headlines(fetcher,now)
     if not items:raise RuntimeError('Aucune actualité récente vérifiable : flux indisponibles ou obsolètes')
-    candidates=items[:min(15,len(items))]
+    french=[item for item in items if item['source'] in ('France 24','franceinfo','Le Monde')]
+    candidates=(french if french else items)[:15]
     rng=rng or random.SystemRandom()
     return rng.choices(candidates,weights=[max(.01,item['importance']-.75)**2 for item in candidates],k=1)[0]
 
@@ -173,8 +174,18 @@ def wikipedia_context(topic:str,fetcher=None) -> dict|None:
 
 def research_story(topic:str,duration:int=30,*,fetcher=None) -> dict:
     cfg=create_story(topic,duration=duration)
+    # A user's detailed briefing is an equally valid input for any subject.
+    # Extract its own sentences rather than filling the video with generic slogans.
+    brief=_phrases(topic)
+    if len(topic)>145 and len(brief)>=2:
+        cfg['topic']=clean(brief[0],145)
+        cfg['scenes'][0]['headline']=cfg['topic']
+        for i,phrase in enumerate(brief[:5],start=1):
+            cfg['scenes'][i]['caption']=phrase[:175]
+            cfg['scenes'][i]['metric']='BRIEF FOURNI PAR L’UTILISATEUR'
+        cfg['evidence']='user_provided'
     source=wikipedia_context(topic,fetcher)
-    if source:
+    if source and cfg['evidence']!='user_provided':
         phrases=_phrases(source['summary'])
         for i in range(1,min(6,len(phrases)+1)):
             cfg['scenes'][i]['caption']=phrases[i-1][:175]
