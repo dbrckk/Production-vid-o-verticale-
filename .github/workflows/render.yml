@@ -10,7 +10,7 @@ on:
         description: 'preset = existing animations, custom = any topic, random_news = recent sourced news'
         type: choice
         required: true
-        default: 'custom'
+        default: 'random_news'
         options: ['preset', 'custom', 'random_news']
       custom_topic:
         description: 'For custom mode: the subject of your video'
