@@ -35,6 +35,7 @@ jobs:
       - name: Tests and playable smoke video
         run: python -m pytest tests/ -q
       - name: Render completed vertical MP4
+        if: github.event_name == 'workflow_dispatch'
         env:
           TITLE: ${{ inputs.title }}
           QUALITY: ${{ inputs.quality }}
@@ -50,12 +51,14 @@ jobs:
             python studio.py --config presets/paper-to-moon.json --output output/science.mp4 --width "$WIDTH"
           fi
       - name: Validate output video and audio
+        if: github.event_name == 'workflow_dispatch'
         run: |
           ffprobe -v error -select_streams v:0 -show_entries stream=width,height,codec_name -of default=noprint_wrappers=1 output/science.mp4
           ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 output/science.mp4
           test -s output/science.mp4
           test -s output/cover.png
       - uses: actions/upload-artifact@v4
+        if: github.event_name == 'workflow_dispatch'
         with:
           name: vertical-science-${{ inputs.quality || '1080p' }}
           path: |
