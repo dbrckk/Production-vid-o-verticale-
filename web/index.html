@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vertical Science Studio</title><style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,sans-serif;background:#100b1f;color:#f8f6ff}*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 10%,#271b45,#100b1f 65%);min-height:100vh}
+main{width:min(680px,100%);margin:auto;padding:36px 20px 60px}
+small,.hint{color:#b9b4ce}h1{font-size:clamp(30px,6vw,43px);letter-spacing:-1.4px;margin:8px 0 6px}
+.subtitle{color:#79efd0;margin:0 0 28px}.panel{border:1px solid #48395c;background:#201631cc;padding:23px;border-radius:23px;box-shadow:0 14px 50px #07040e77}
+label{display:block;font-size:14px;font-weight:700;margin:17px 0 8px}
+textarea,input,select{width:100%;padding:13px 15px;border:1px solid #60516e;border-radius:12px;background:#140e24;color:white;font:inherit}
+textarea{resize:vertical;min-height:112px}
+button{font:inherit;cursor:pointer;border:0;border-radius:12px;padding:13px 16px;font-weight:700}
+button:disabled{opacity:.5;cursor:wait}
+.primary{background:#79ebcb;color:#10251d}.alternate{background:#372849;color:#f1d4ff;border:1px solid #806593}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:17px}.actions button{flex:1;min-width:180px}
+#info{font-size:13px;color:#cec9dc;line-height:1.5;margin-top:12px}
+#status{white-space:pre-line;margin-top:18px;font-size:14px;color:#e5dfec}
+a{color:#82ecd1;word-wrap:break-word}video{width:100%;max-width:340px;aspect-ratio:9/16;background:black;border-radius:14px;margin-top:16px}
+#result{display:none;margin-top:20px}.tag{font-size:13px;color:#80e8d1}
+footer{font-size:12px;color:#b3aac9;margin-top:28px;line-height:1.5}</style></head>
+<body><main><div class="tag">STUDIO / 9:16 / SANS CLÉ IA</div><h1>Crée tes vidéos<br>sur n'importe quel sujet</h1>
+<p class="subtitle">Motion design scientifique, animations originales, actualités sourcées.</p>
+<section class="panel">
+<label for="token">Clé d'accès (uniquement si serveur distant)</label>
+<input id="token" type="password" autocomplete="off" placeholder="STUDIO_TOKEN">
+<label for="topic">Sujet à expliquer</label>
+<textarea id="topic" maxlength="500" placeholder="Ex. Pourquoi les océans sont-ils salés ?"></textarea>
+<div class="actions"><button id="random" class="alternate">Actualité importante au hasard</button>
+<button id="create" class="primary">Créer la vidéo</button></div>
+<div id="info" role="status">Le bouton aléatoire sélectionne un sujet récent dans des flux d'information datés. Il refuse de proposer une actualité non vérifiable.</div>
+<label for="quality">Qualité du rendu</label><select id="quality">
+<option value="preview">Aperçu rapide (540p)</option><option value="720p">720p</option>
+<option value="1080p">Full HD 1080p</option></select>
+<div id="status" role="status" aria-live="polite"></div>
+<div id="result"><video id="player" controls playsinline preload="metadata"></video>
+<p><a id="download" download>Récupérer la vidéo MP4</a></p></div></section>
+<footer>Les sujets libres utilisent des sources encyclopédiques quand elles sont accessibles. Sans sources, la vidéo reste exploratoire et ne doit pas être présentée comme un reportage factuel. Aucune actualité fictive n'est générée.</footer></main>
+<script>
+const topic=document.querySelector('#topic'),info=document.querySelector('#info'),status=document.querySelector('#status');
+const random=document.querySelector('#random'),create=document.querySelector('#create'),token=document.querySelector('#token');
+let selectedArticle=null;
+const headers=()=>({'X-Studio-Token':token.value.trim()});
+const showError=(error)=>{status.textContent='Erreur : '+error;};
+async function request(url,init={}) {
+ const r=await fetch(url,{...init,headers:{...headers(),...(init.headers||{})}});
+ const data=await r.json();if(!r.ok)throw Error(data.error||'Erreur serveur');return data;
+}
+random.addEventListener('click',async()=>{
+ random.disabled=true;status.textContent='Recherche d’actualités récentes…';
+ try{
+  const data=await request('/api/random');selectedArticle=data.article;topic.value=selectedArticle.title;
+  info.replaceChildren();
+  const t=document.createElement('span');
+  t.textContent=selectedArticle.source+' · '+new Date(selectedArticle.published).toLocaleString('fr-FR')+' · ';
+  const a=document.createElement('a');a.href=selectedArticle.url;a.textContent='Lire l’article source';
+  a.target='_blank';a.rel='noopener noreferrer';info.append(t,a);
+  status.textContent='Sujet sélectionné. Lance la création quand tu veux.';
+ }catch(e){showError(e.message);}finally{random.disabled=false;}
+});
+topic.addEventListener('input',()=>{
+ if(selectedArticle&&topic.value!==selectedArticle.title){
+  selectedArticle=null;info.textContent='Sujet personnalisé : recherche encyclopédique si disponible.';
+ }
+});
+create.addEventListener('click',async()=>{
+ create.disabled=true;status.textContent='Préparation du scénario…';document.querySelector('#result').style.display='none';
+ try{
+  const data=await request('/api/render',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({topic:topic.value,quality:document.querySelector('#quality').value,
+                         article:selectedArticle?{url:selectedArticle.url}:null})});
+  const id=data.id;status.textContent='Rendu en cours. Laisse cet onglet ouvert pour récupérer le résultat.';
+  while(true){
+   await new Promise(resolve=>setTimeout(resolve,3500));
+   const state=await request('/api/status/'+id);
+   if(state.status==='error')throw Error(state.error);
+   if(state.status==='ready'){
+    const response=await fetch('/api/video/'+id,{headers:headers()});
+    if(!response.ok)throw Error('Téléchargement MP4 impossible');
+    const fileURL=URL.createObjectURL(await response.blob());
+    document.querySelector('#player').src=fileURL;
+    document.querySelector('#download').href=fileURL;
+    document.querySelector('#download').download='vertical-science.mp4';
+    document.querySelector('#result').style.display='block';
+    status.textContent='Vidéo générée : '+state.info.width+' × '+state.info.height+' px. Sources : '+state.sources.length;
+    break;
+   }
+  }
+ }catch(e){showError(e.message);}finally{create.disabled=false;}
+});
+</script></body></html>
