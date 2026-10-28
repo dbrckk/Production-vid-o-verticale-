@@ -176,14 +176,12 @@ def draw_storyboard(p, t: float, cfg: dict):
     start,end = float(scene['start']),float(scene['end'])
     phase=max(0,min(1,(t-start)/(end-start)))
     im = p.base.copy()
-    fade = min(1,(t-start)/.35) if ix else 1
-    if ix and fade < 1:
-        prev = cfg['scenes'][ix-1]
-        old = p.base.copy()
-        visual(p,old,prev['visual'],t,1)
-        im.alpha_composite(old) if False else None
-        im = Image.blend(old,im,fade)
     visual(p,im,scene['visual'],t,phase)
+    fade = min(1,(t-start)/.45) if ix else 1
+    if ix and fade < 1:
+        previous = p.base.copy()
+        visual(p,previous,cfg['scenes'][ix-1]['visual'],t,1)
+        im = Image.blend(previous,im,fade)
     d=ImageDraw.Draw(im,'RGBA')
     # Header and safe margins match the parent 9:16 design vocabulary.
     p.text(d, 'SCIENCE  /  EXPLIQUÉE EN 30 S',288,62,13,(*CYAN,180),bold=True)
