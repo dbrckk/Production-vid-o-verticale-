@@ -15,14 +15,14 @@ def validate_storyboard(cfg: dict) -> None:
         raise ValueError('mode must be storyboard')
     duration = float(cfg.get('duration', 0))
     scenes = cfg.get('scenes')
-    if not 1 <= duration <= 180 or not isinstance(scenes, list) or not scenes:
+    if not math.isfinite(duration) or not 1 <= duration <= 180 or not isinstance(scenes, list) or not scenes:
         raise ValueError('Storyboard requires a duration (1-180s) and scenes')
     previous = 0.0
     for scene in scenes:
         if not isinstance(scene, dict) or scene.get('visual') not in ALLOWED_VISUALS:
             raise ValueError('Invalid scene or visual')
         start, end = float(scene.get('start', -1)), float(scene.get('end', -1))
-        if abs(start - previous) > .0001 or end <= start or end > duration + .0001:
+        if not math.isfinite(start) or not math.isfinite(end) or abs(start - previous) > .0001 or end <= start or end > duration + .0001:
             raise ValueError('Scenes must cover the timeline without gaps or overlaps')
         for key in ('headline', 'caption'):
             val = scene.get(key)
@@ -184,7 +184,7 @@ def draw_storyboard(p, t: float, cfg: dict):
         im = Image.blend(previous,im,fade)
     d=ImageDraw.Draw(im,'RGBA')
     # Header and safe margins match the parent 9:16 design vocabulary.
-    p.text(d, 'SCIENCE  /  EXPLIQUÉE EN 30 S',288,62,13,(*CYAN,180),bold=True)
+    p.text(d, f'SCIENCE  /  EXPLIQUÉE EN {float(cfg["duration"]):g} S',288,62,13,(*CYAN,180),bold=True)
     write_lines(p,d,scene['headline'],288,160,490,3,26,(*INK,250),True)
     p.line(d,[(60,247),(516,247)],(148,145,186,120),2)
     prog=60+456*(min(t,float(cfg['duration']))/float(cfg['duration']))
