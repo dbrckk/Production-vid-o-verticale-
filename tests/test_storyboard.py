@@ -27,6 +27,8 @@ def test_six_scenes_cover_exactly_thirty_seconds():
     lambda c: c['scenes'][1].update(visual='unknown'),
     lambda c: c['scenes'][3].update(caption=''),
     lambda c: c.update(duration=28),
+    lambda c: c['scenes'][2].update(start=float('nan')),
+    lambda c: c.update(duration=float('inf')),
 ])
 def test_invalid_storyboards_are_rejected(change):
     cfg = json.loads(json.dumps(CONFIG))
@@ -44,9 +46,9 @@ def test_all_scenes_and_crossfades_produce_full_frames():
             assert len(im.getcolors(288*512) or []) > 150
 
 
-def test_render_sun_mp4_with_audio_and_manifest(tmp_path):
+def test_render_entire_sun_timeline_with_audio_and_manifest(tmp_path):
     mp4 = tmp_path / 'sun.mp4'
-    info = render(CONFIG, mp4, width=288, fps=6, duration=2.0, preview=True)
+    info = render(CONFIG, mp4, width=288, fps=2, duration=30.0, preview=True)
     assert info['mode'] == 'storyboard' and len(info['scenes']) == 6
     assert mp4.stat().st_size > 2000
     assert (tmp_path / 'cover.png').stat().st_size > 1000
@@ -55,4 +57,5 @@ def test_render_sun_mp4_with_audio_and_manifest(tmp_path):
         check=True,capture_output=True,text=True).stdout)['streams']
     assert any(s['codec_type']=='video' and s['width']==288 and s['height']==512 for s in streams)
     assert any(s['codec_type']=='audio' and s['codec_name']=='aac' for s in streams)
-    assert math.isclose(info['duration'],2.0)
+    assert info['frames'] == 60
+    assert math.isclose(info['duration'],30.0)
