@@ -76,3 +76,61 @@ def test_server_refuses_parallel_and_unknown_quality(tmp_path):
     state.busy=True
     with pytest.raises(RuntimeError):state.start('Formation des étoiles',None,'preview')
     with pytest.raises(ValueError):state.start('Formation des étoiles',None,'ultra-8k')
+
+
+@pytest.mark.parametrize(('topic','category'),[
+    ('Comment se forment les volcans ?','volcano'),
+    ('Pourquoi les océans sont-ils salés ?','ocean'),
+    ('Comment fonctionne une IA ?','tech'),
+    ('Comprendre la santé humaine','health'),
+    ('Pourquoi les prix augmentent-ils ?','economy'),
+    ('Les planètes de notre système solaire','space'),
+    ('Histoire du papier','general'),
+])
+def test_semantic_topic_category_and_frame(topic,category):
+    from universal import topic_category
+    assert topic_category(topic)==category
+    frame=Painter(288,512).frame(0.8,create_story(topic))
+    assert frame.size==(288,512)
+
+def test_mobile_web_app_serves_ui_and_authenticated_news(tmp_path,monkeypatch):
+    from http.server import ThreadingHTTPServer
+    from threading import Thread
+    from urllib.request import Request,urlopen
+    from urllib.error import HTTPError
+    import webapp
+    from webapp import Handler,State
+    item=parse_rss(RSS,'Test News',NOW)[0]
+    monkeypatch.setattr(webapp,'random_important_news',lambda:item)
+    server=ThreadingHTTPServer(('127.0.0.1',0),Handler)
+    server.state=State(tmp_path)
+    server.token='super-secret-access-token'
+    server.news_provider=lambda:[item]
+    worker=Thread(target=server.serve_forever,daemon=True)
+    worker.start()
+    base='http://127.0.0.1:'+str(server.server_port)
+    try:
+        with urlopen(base+'/') as response:
+            html=response.read().decode()
+            assert 'Actualité importante au hasard' in html
+            assert 'Créer la vidéo' in html
+        with pytest.raises(HTTPError) as exc:
+            urlopen(base+'/api/random')
+        assert exc.value.code==401
+        req=Request(base+'/api/random',headers={'X-Studio-Token':server.token})
+        with urlopen(req) as response:
+            news=json.load(response)
+            assert news['article']['title']==item['title']
+    finally:
+        server.shutdown()
+        server.server_close()
+        worker.join(timeout=4)
+
+def test_user_brief_becomes_factual_content_without_fabrication():
+    from topic_engine import research_story
+    briefing=('Comprendre notre entreprise. Nous avons créé un outil pour organiser les données. '
+              'L’équipe travaille depuis plusieurs années à améliorer sa stabilité. '
+              'Les résultats de cette semaine montrent une baisse du temps de réponse.')
+    cfg=research_story(briefing,fetcher=lambda _:b'{"query":{"pages":{}}}')
+    assert cfg['evidence']=='user_provided'
+    assert 'organiser les données' in cfg['scenes'][2]['caption']
