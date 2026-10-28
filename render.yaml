@@ -1,0 +1,15 @@
+# Import this Blueprint from Render after selecting the intended workspace.
+# Deployment does not occur merely by committing this file.
+services:
+  - type: web
+    name: vertical-science-studio
+    runtime: docker
+    repo: https://github.com/dbrckk/Production-vid-o-verticale-
+    branch: main
+    plan: free
+    region: frankfurt
+    healthCheckPath: /
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: STUDIO_TOKEN
+        sync: false
