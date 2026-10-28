@@ -486,7 +486,11 @@ def main():
     p.add_argument('--preview',action='store_true',help='Fast encoding (resolution still configurable)')
     a=p.parse_args()
     cfg=json.loads(Path(a.config).read_text(encoding='utf8'))
-    if a.title:cfg['title_lines']=[a.title, *cfg['title_lines'][1:]]
+    if a.title:
+        if cfg.get('mode') == 'storyboard':
+            cfg['scenes'][0]['headline'] = a.title
+        else:
+            cfg['title_lines'] = [a.title, *cfg['title_lines'][1:]]
     print(json.dumps(render(cfg,Path(a.output),a.width,a.fps,a.duration,a.preview,a.voice),ensure_ascii=False,indent=2))
 
 
