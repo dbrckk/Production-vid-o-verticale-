@@ -14,7 +14,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont
 
 BASE_W, BASE_H = 576, 1024
 PAPER_MM = 0.1
@@ -239,7 +239,7 @@ class Painter:
         for k in range(3):
             self.circle(d,x+40+k*26,y-h*.74+25*k,8,None,(188,189,235,100),1)
 
-    def icon_comparison(self, im, fold):
+    def icon_comparison(self, im, fold, initial_mm):
         # Fixed semantic landmarks, with size indicating relative scale.
         landmarks=[(8,'Dé',16,'dice'),(10,'Tasse',95,'mug'),(12,'Chat',300,'cat'),
                    (14,'Humain',1750,'person'),(18,'Maison',10000,'house'),
@@ -248,7 +248,7 @@ class Painter:
         candidate=max((v for v in landmarks if v[0]<=fold),key=lambda v:v[0])
         first,label,height_mm,kind=candidate
         d=ImageDraw.Draw(im,'RGBA')
-        curr_mm=thickness_mm(fold)
+        curr_mm=thickness_mm(fold, initial_mm)
         h=clamp(height_mm/curr_mm, .035, 1.9)*248
         h=max(10,min(355,h))
         x,y=186,720
@@ -269,9 +269,9 @@ class Painter:
         self.text(d,label,x,clamp(y-h-42,345,665),13,(*WHITE,240),bold=True)
         self.text(d,format_distance(height_mm),x,clamp(y-h-23,364,682),11,(*MINT,235))
 
-    def terrestrial(self, im, t, fold):
+    def terrestrial(self, im, t, fold, initial_mm):
         self.ground(im,t)
-        self.icon_comparison(im,fold)
+        self.icon_comparison(im,fold,initial_mm)
         # Actual exponential height mapped by a scene-following camera to maintain frame composition.
         h=210+34*math.sin(t*.7)
         if fold<6:h=max(5,8*2**(fold/2))
@@ -372,7 +372,7 @@ class Painter:
         im=self.base.copy()
         fold=fold_at(t,cfg)
         if t < 14.5:
-            self.terrestrial(im,t,fold)
+            self.terrestrial(im,t,fold,float(cfg.get("paper_mm",.1)))
         elif t < 24:
             self.orbit_scene(im,t,fold)
         else:
@@ -406,7 +406,7 @@ def make_audio(path: Path, duration: float, cfg: dict):
     for when in (7.5,14.5,21.8,24.0,28.5):
         a=int(when*sr);b=min(n,a+int(.8*sr));tt=np.arange(b-a,dtype=np.float32)/sr
         arr[a:b]+=.10*np.sin(2*np.pi*(170*tt+300*tt**2))*np.sin(np.pi*np.minimum(1,tt/.8))
-    arr=np.tanh(arr*1.3)*.78
+    arr=np.tanh(arr*2.6)*.85
     path.parent.mkdir(parents=True,exist_ok=True)
     with wave.open(str(path),'wb') as wav:
         wav.setnchannels(1);wav.setsampwidth(2);wav.setframerate(sr)
@@ -419,6 +419,8 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     if duration<=0 or fps<1:raise ValueError('duration and fps must be positive')
     if width%9:raise ValueError('width must be a multiple of 9 for exact 9:16')
     height=width*16//9
+    if float(cfg.get("paper_mm", PAPER_MM)) <= 0:
+        raise ValueError("paper_mm must be positive")
     painter=Painter(width,height)
     output.parent.mkdir(parents=True,exist_ok=True)
     audio=output.with_suffix('.sound.wav')
