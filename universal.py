@@ -86,6 +86,64 @@ def _geometry(p,im,kind,phase,seed):
             p.glow_disc(im,cx+157*math.cos(a),cy+157*math.sin(a),2,MINT)
         p.text(d,'?',cx,cy,151,(*LIGHT,255),bold=True)
 
+def topic_category(topic: str) -> str:
+    text=topic.casefold()
+    categories=(
+        ('ocean',('océan','mer ','vague','marin','ocean','sea ','corail','plage','eau ')),
+        ('volcano',('volcan','magma','lave','eruption','éruption')),
+        ('space',('soleil','planète','lune','galax','espace','astron','univers','satellite','mars')),
+        ('health',('santé','médec','soin','cœur','coeur','virus','health','vaccin','maladie')),
+        ('tech',('informat','numéri','intelligence artificielle','logiciel','robot','ia ','technolog','ordinateur','cyber')),
+        ('economy',('économie','budget','argent','entreprise','bourse','trade','prix','inflation','finance')),
+    )
+    for category,keys in categories:
+        if any(k in text for k in keys):return category
+    return 'general'
+
+def topic_symbol(p,im,category,phase):
+    """Distinct topic-led procedural motifs. No stock imagery, no external models."""
+    if category=='general':return
+    d=ImageDraw.Draw(im,'RGBA')
+    x,y=288,579
+    if category=='ocean':
+        for row in range(4):
+            yy=y-70+row*54
+            points=[(65+k*9,yy+11*math.sin(k*.31+phase*math.tau+row*.7)) for k in range(51)]
+            p.glow_line(im,points,MINT if row%2==0 else BLUE,3.8,2)
+        p.circle(d,420,493,27,(233,191,111,135),(255,216,128,230),1.7)
+    elif category=='volcano':
+        p.line(d,[(70,724),(197,588),(252,520),(314,520),(370,593),(505,724)],(*MINT,230),4)
+        p.glow_line(im,[(288,520),(272,570),(242,613),(230,710)],GOLD,8,6)
+        for k in range(22):
+            px=x+math.sin(k*2.4)*max(8,95-k*2)
+            py=506-k*7+(phase*42)%28
+            p.circle(d,px,py,1.5+(k%3),(*GOLD,160))
+    elif category=='space':
+        p.planet(im,x,y,117)
+        p.circle(d,x,y,170,None,(*BLUE,170),1.7)
+        for i in range(14):
+            angle=i*math.tau/14+phase*.4
+            p.glow_disc(im,x+170*math.cos(angle),y+170*math.sin(angle),2,MINT)
+    elif category=='health':
+        points=[(73,560),(168,560),(204,530),(233,626),(276,470),(317,573),(355,550),(500,550)]
+        p.glow_line(im,points,MINT,5,3.7)
+        for r in range(3):
+            p.circle(d,x,y,140+r*29,None,(*BLUE,90-r*23),1.3)
+    elif category=='tech':
+        p.circle(d,x,y,115,(21,29,55,215),(*MINT,220),2)
+        for i in range(8):
+            offset=-89+i*26
+            p.line(d,[(x+offset,y-150),(x+offset,y-114)],(*BLUE,160),2)
+            p.line(d,[(x+offset,y+114),(x+offset,y+150)],(*BLUE,160),2)
+            p.line(d,[(x-150,y+offset),(x-114,y+offset)],(*BLUE,160),2)
+            p.line(d,[(x+114,y+offset),(x+150,y+offset)],(*BLUE,160),2)
+        p.glow_line(im,[(245,580),(272,610),(321,545)],GOLD,5,4)
+    elif category=='economy':
+        points=[(90,696),(156,645),(226,670),(291,562),(355,596),(420,504),(489,436)]
+        p.glow_line(im,points,MINT,6,3)
+        for px,py in points:p.glow_disc(im,px,py,5,GOLD)
+        p.line(d,[(84,732),(502,732)],(*BLUE,100),1.5)
+
 def frame(p,t:float,cfg:dict):
     scenes=cfg['scenes']
     ix=next((i for i,s in enumerate(scenes) if t<float(s['end'])),len(scenes)-1)
@@ -95,6 +153,9 @@ def frame(p,t:float,cfg:dict):
     seed=int(hashlib.sha256(cfg['topic'].encode()).hexdigest()[:8],16)%101
     im=p.base.copy()
     _geometry(p,im,scene['visual'],phase,seed)
+    # Add a category-specific original diagram without changing the shared HUD.
+    if scene['visual'] in ('focus','question'):
+        topic_symbol(p,im,topic_category(cfg['topic']),phase)
     if ix and phase<.08:
         old=p.base.copy()
         _geometry(p,old,scenes[ix-1]['visual'],1,seed)
