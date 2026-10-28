@@ -8,7 +8,7 @@ Générateur de vidéos scientifiques néon **9:16**, hors ligne, créé pour re
 2. Choisir `1080p`, `720p` ou `preview`, et éventuellement un titre.
 3. Ouvrir l'exécution terminée et télécharger l'artefact `vertical-science-...` : il contient `science.mp4`, `cover.png` et `science.json`.
 
-Le workflow déclenché sur `main` lance aussi les tests et un rendu de vérification. Il utilise uniquement GitHub Actions, Python, Pillow, NumPy et FFmpeg. Les minutes GitHub Actions restent soumises aux limites de votre compte.
+À chaque push sur `main`, GitHub exécute uniquement les tests et un court rendu de vérification. Le rendu complet 1080p ne démarre que sur demande manuelle, pour économiser les minutes GitHub Actions. Il utilise uniquement GitHub Actions, Python, Pillow, NumPy et FFmpeg. Les minutes GitHub Actions restent soumises aux limites de votre compte.
 
 ## En local ou sur serveur
 
