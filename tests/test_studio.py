@@ -48,3 +48,11 @@ def test_render_mp4(tmp_path):
     r=subprocess.run(['ffprobe','-v','error','-show_entries','format=duration',
           '-of','default=noprint_wrappers=1:nokey=1',str(out)],capture_output=True,text=True,check=True)
     assert math.isclose(float(r.stdout),1.5,abs_tol=.2)
+
+
+def test_custom_paper_thickness(tmp_path):
+    cfg={**CFG, 'paper_mm': 0.2}
+    assert thickness_mm(42,cfg['paper_mm']) == 2 * thickness_mm(42)
+    Painter(288,512).frame(8,cfg)
+    with pytest.raises(ValueError):
+        render({**CFG,'paper_mm':0},tmp_path/'invalid.mp4',288,6,1)
