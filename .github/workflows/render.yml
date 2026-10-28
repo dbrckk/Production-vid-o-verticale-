@@ -6,6 +6,16 @@ on:
         description: 'Custom opening title (leave blank for default)'
         type: string
         required: false
+      mode:
+        description: 'preset = existing animations, custom = any topic, random_news = recent sourced news'
+        type: choice
+        required: true
+        default: 'custom'
+        options: ['preset', 'custom', 'random_news']
+      custom_topic:
+        description: 'For custom mode: the subject of your video'
+        type: string
+        required: false
       subject:
         description: 'Video storyboard'
         type: choice
@@ -20,7 +30,7 @@ on:
         options: ['1080p', '720p', 'preview']
   push:
     branches: [main]
-    paths: ['studio.py', 'storyboard.py', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
+    paths: ['studio.py', 'storyboard.py', 'universal.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
 permissions:
   contents: read
 jobs:
@@ -46,14 +56,30 @@ jobs:
           TITLE: ${{ inputs.title }}
           QUALITY: ${{ inputs.quality }}
           SUBJECT: ${{ inputs.subject }}
+          MODE: ${{ inputs.mode }}
+          CUSTOM_TOPIC: ${{ inputs.custom_topic }}
         run: |
           case "${QUALITY:-1080p}" in
             preview) WIDTH=540 ;;
             720p) WIDTH=720 ;;
             *) WIDTH=1080 ;;
           esac
-          CONFIG="presets/${SUBJECT:-sun-vanished}.json"
-          test -f "$CONFIG"
+          case "${MODE:-custom}" in
+            preset)
+              CONFIG="presets/${SUBJECT:-sun-vanished}.json"
+              test -f "$CONFIG"
+              ;;
+            custom)
+              test -n "$CUSTOM_TOPIC" || { echo 'A topic is required for custom mode' >&2; exit 1; }
+              python generate_topic.py --topic "$CUSTOM_TOPIC" --output output/topic.json
+              CONFIG='output/topic.json'
+              ;;
+            random_news)
+              python generate_topic.py --random-news --output output/topic.json
+              CONFIG='output/topic.json'
+              ;;
+            *) echo 'Invalid mode' >&2; exit 1 ;;
+          esac
           if [ -n "$TITLE" ]; then
             python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --title "$TITLE"
           else
@@ -69,9 +95,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: github.event_name == 'workflow_dispatch'
         with:
-          name: vertical-science-${{ inputs.subject || 'sun-vanished' }}-${{ inputs.quality || '1080p' }}
+          name: vertical-science-${{ inputs.mode || 'custom' }}-${{ inputs.quality || '1080p' }}
           path: |
             output/science.mp4
             output/science.json
             output/cover.png
+            output/topic.json
           retention-days: 14
