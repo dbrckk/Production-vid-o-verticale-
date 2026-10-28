@@ -52,3 +52,54 @@ Pour ajouter une narration dont vous possédez les droits : `--voice narration.w
 ## Qualité et limites
 
 Le moteur produit un MP4 H.264/AAC avec une musique originale générée localement, une couverture et un manifeste. Les tests vérifient le calcul, la continuité temporelle, l'image, le son et un rendu FFmpeg de bout en bout. Les deux moteurs couvrent maintenant les pliages exponentiels et six types de scènes astronomiques réutilisables ; les autres familles de sciences demanderont des visuels supplémentaires. La synthèse vocale automatique n'est pas intégrée : une piste de narration existante peut être ajoutée via `--voice`.
+
+## Moteur universel : n'importe quel sujet, actualités et éditeur Android
+
+Un troisième mode **universal** génère un storyboard vertical original avec six visualisations animées : ouverture lumineuse, globe, chronologie, réseau, comparaison et conclusion. Il ne dépend d'aucun service d'IA payant. Il est compatible avec les deux anciens modèles du dépôt.
+
+### Depuis GitHub Actions sur Android (aucun serveur nécessaire)
+
+Ouvrir [Render vertical science video](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/render.yml), puis **Run workflow** :
+- **mode = custom** : saisir \`custom_topic\` (ex. « Pourquoi la mer est salée ? »), puis choisir \`quality\`.
+- **mode = random_news** : sélectionner automatiquement une actualité importante et récente parmi les flux disponibles ; les sources sont conservées dans \`science.json\`. Le workflow échoue explicitement si les flux ne renvoient aucune actualité fraîche.
+- **mode = preset** : choisir \`subject = sun-vanished\` ou \`paper-to-moon\`.
+
+Le fichier vidéo, la couverture et les métadonnées sont déposés dans les artefacts de l'exécution. La génération complète ne se déclenche **pas** automatiquement à chaque push : les pushes exécutent seulement les tests.
+
+### Interface mobile avec bouton « Actualité importante au hasard »
+
+Sur une machine avec Python 3.11+, Pillow, NumPy, FFmpeg et les polices DejaVu :
+
+\`\`\`bash
+pip install -r requirements.txt
+python webapp.py
+\`\`\`
+
+Ouvrir \`http://127.0.0.1:8765\`. L'interface propose un champ sujet libre, un bouton **Actualité importante au hasard**, un choix de résolution, un bouton **Créer la vidéo** et un lecteur avec téléchargement MP4.
+
+Pour exposer l'interface depuis un serveur distant, définir un mot de passe/token long de 16 caractères minimum via \`STUDIO_TOKEN\`. Par exemple dans la configuration secrète de l'hébergeur, **jamais dans Git**. Démarrer \`python webapp.py --host 0.0.0.0 --port 10000\`, avec HTTPS devant le service. Le Dockerfile permet une installation sur Render ou tout hébergeur acceptant Docker. **Le dépôt ne déploie pas automatiquement un service public.** La sortie locale est éphémère et conserve au maximum les cinq derniers rendus.
+
+### Génération libre par ligne de commande
+
+\`\`\`bash
+python generate_topic.py --topic "Comment fonctionnent les volcans ?" --output output/topic.json
+python studio.py --config output/topic.json --width 1080 --fps 30 --output output/science.mp4
+
+# Sélection pondérée parmi les actualités publiées depuis moins de 72 heures
+python generate_topic.py --random-news --output output/topic.json
+python studio.py --config output/topic.json --width 1080 --fps 30 --output output/news.mp4
+\`\`\`
+
+### Fiabilité éditoriale
+
+Les sujets d'actualité sont tirés de flux RSS fixes (franceinfo, France 24, Le Monde, BBC et Guardian), dédoublonnés, filtrés par **date de publication** (72 h), classés par fraîcheur et indices d'importance, puis tirés au sort parmi les sujets les mieux classés. Les sources francophones sont privilégiées. Le classement est **heuristique** : il n'est pas une validation journalistique indépendante de chaque information.
+
+Pour un sujet encyclopédique, le système tente une récupération de résumé Wikipédia et conserve son lien. Un texte ou brief détaillé fourni directement par l'utilisateur peut alimenter les scènes. Si aucune preuve n'est disponible, le mode reste **exploratoire**, sans invention de chiffres ou de faits. Le moteur universel constitue une base d'infographies génériques, **pas encore** un système de documentaire automatiquement illustré de manière unique sur chaque thème. Il n'ajoute pas encore automatiquement de voix naturelle : la piste \`--voice\` existante permet d'intégrer une narration produite séparément.
+
+### Sécurité et coûts
+
+- Application locale par défaut ; un serveur accessible publiquement exige \`STUDIO_TOKEN\` et HTTPS.
+- Une seule vidéo en cours à la fois ; contrôle de la qualité, du format et de la taille des requêtes ; nettoyage des anciens MP4.
+- Aucun téléchargement d'images depuis des adresses soumises par l'utilisateur. Les actualités proviennent uniquement d'une liste fixe de flux. Les vidéos contiennent des graphismes procéduraux originaux.
+- GitHub Actions et hébergement gratuit éventuel soumis aux quotas et conditions du compte. Un rendu 1080p de 30 s peut être lourd en ressources ; préférer \`preview\` pour un essai.
+
