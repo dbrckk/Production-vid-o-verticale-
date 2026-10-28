@@ -1,0 +1,65 @@
+name: Render vertical science video
+on:
+  workflow_dispatch:
+    inputs:
+      title:
+        description: 'Title first line (leave blank for default)'
+        type: string
+        required: false
+      quality:
+        description: 'Choose output resolution'
+        type: choice
+        required: true
+        default: '1080p'
+        options: ['1080p', '720p', 'preview']
+  push:
+    branches: [main]
+    paths: ['studio.py', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install system tools and Python dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Tests and playable smoke video
+        run: python -m pytest tests/ -q
+      - name: Render completed vertical MP4
+        env:
+          TITLE: ${{ inputs.title }}
+          QUALITY: ${{ inputs.quality }}
+        run: |
+          case "${QUALITY:-1080p}" in
+            preview) WIDTH=540 ;;
+            720p) WIDTH=720 ;;
+            *) WIDTH=1080 ;;
+          esac
+          if [ -n "$TITLE" ]; then
+            python studio.py --config presets/paper-to-moon.json --output output/science.mp4 --width "$WIDTH" --title "$TITLE"
+          else
+            python studio.py --config presets/paper-to-moon.json --output output/science.mp4 --width "$WIDTH"
+          fi
+      - name: Validate output video and audio
+        run: |
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,codec_name -of default=noprint_wrappers=1 output/science.mp4
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 output/science.mp4
+          test -s output/science.mp4
+          test -s output/cover.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vertical-science-${{ inputs.quality || '1080p' }}
+          path: |
+            output/science.mp4
+            output/science.json
+            output/cover.png
+          retention-days: 14
