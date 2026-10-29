@@ -397,6 +397,28 @@ def make_audio(path: Path, duration: float, cfg: dict):
     write_soundscape(path, duration, cfg)
 
 
+def export_preset(width:int, fps:int, preview:bool=False) -> dict:
+    """High-quality social delivery or efficient review, with testable settings.
+
+    Publication is 1080x1920 or higher, at least 30 FPS, H.264 High 4:2:0,
+    BT.709 and 48 kHz AAC. Draft files are never reported as publication grade.
+    """
+    publishing = width >= 1080 and fps >= 30 and not preview
+    return {
+        'name': 'publication_1080p' if publishing else 'review',
+        'preset': 'slow' if publishing else ('veryfast' if preview else 'medium'),
+        'crf': 16 if publishing else (21 if preview else 18),
+        'audio_bitrate_kbps': 256 if publishing else 192,
+        'frame_rate': fps,
+        'gop_frames': 2 * fps,
+        'color_space': 'bt709',
+        'codec_profile': 'high',
+        'pixel_format': 'yuv420p',
+        'watermark': False,
+        'chapter_numbers': False,
+    }
+
+
 def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|None=None,
            preview:bool=False, voice:Path|None=None):
     duration=duration or float(cfg.get('duration',31))
@@ -424,9 +446,16 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
         from audio_mastering import narration_mix
         cmd+=['-i',str(voice),'-filter_complex',narration_mix(),'-map','0:v','-map','[a]']
     else:cmd+=['-map','0:v','-map','1:a']
-    cmd+=['-c:v','libx264','-preset','medium' if not preview else 'veryfast',
-          '-crf','18' if not preview else '21','-pix_fmt','yuv420p','-movflags','+faststart',
-          '-c:a','aac','-b:a','192k','-ar','48000','-t',str(duration),str(output)]
+    delivery=export_preset(width,fps,preview)
+    cmd+=['-c:v','libx264','-preset',delivery['preset'],
+          '-crf',str(delivery['crf']),'-tune','animation',
+          '-vf','scale=in_range=pc:out_range=tv:out_color_matrix=bt709',
+          '-pix_fmt','yuv420p','-profile:v','high',
+          '-g',str(delivery['gop_frames']),'-keyint_min',str(fps),
+          '-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709',
+          '-movflags','+faststart',
+          '-c:a','aac','-b:a',str(delivery['audio_bitrate_kbps'])+'k',
+          '-ar','48000','-t',str(duration),str(output)]
     frames=round(duration*fps)
     proc=subprocess.Popen(cmd,stdin=subprocess.PIPE,stderr=subprocess.PIPE)
     try:
@@ -446,7 +475,8 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     cover=output.with_name('cover.png')
     painter.frame(min(7.3,duration*.45),cfg).save(cover)
     info={'output':str(output),'cover':str(cover),'width':width,'height':height,'fps':fps,
-          'duration':duration,'frames':frames,'mode':cfg.get('mode','paper')}
+          'duration':duration,'frames':frames,'mode':cfg.get('mode','paper'),
+          'export_profile':delivery['name'],'encoding':delivery}
     if info['mode']=='universal':
         from audio_mastering import quality_targets
         info.update(audio_mastering=quality_targets() if voice else {'dialogue_primary':False},
