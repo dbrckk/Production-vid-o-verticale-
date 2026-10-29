@@ -26,6 +26,12 @@ on:
         required: true
         default: 'sun-vanished'
         options: ['sun-vanished', 'paper-to-moon']
+      voice_provider:
+        description: 'English neural narrator (Kokoro works offline on GitHub; Edge is lightweight)'
+        type: choice
+        required: true
+        default: 'kokoro'
+        options: ['kokoro', 'edge']
       quality:
         description: 'Choose output resolution'
         type: choice
@@ -56,6 +62,27 @@ jobs:
         run: |
           python -m pytest tests/ -q
           node --check hf_space/app.js
+      - name: Install offline Kokoro narrator
+        if: github.event_name == 'workflow_dispatch' && inputs.voice_provider == 'kokoro'
+        run: python -m pip install -r requirements-voice.txt
+      - name: Cache Kokoro full-quality model
+        if: github.event_name == 'workflow_dispatch' && inputs.voice_provider == 'kokoro'
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-onnx-v1.0-model-files-v1.1-full
+      - name: Download English model only if absent
+        if: github.event_name == 'workflow_dispatch' && inputs.voice_provider == 'kokoro'
+        run: |
+          mkdir -p models
+          if [ ! -s models/kokoro-v1.0.onnx ]; then
+            curl --fail --location --retry 3 --output models/kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.onnx
+          fi
+          if [ ! -s models/voices-v1.0.bin ]; then
+            curl --fail --location --retry 3 --output models/voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin
+          fi
+          test -s models/kokoro-v1.0.onnx
+          test -s models/voices-v1.0.bin
       - name: Render completed vertical MP4
         if: github.event_name == 'workflow_dispatch'
         env:
@@ -65,6 +92,7 @@ jobs:
           MODE: ${{ inputs.mode }}
           CUSTOM_TOPIC: ${{ inputs.custom_topic }}
           ARTICLE_URL: ${{ inputs.article_url }}
+          VOICE_PROVIDER: ${{ inputs.voice_provider }}
         run: |
           case "${QUALITY:-1080p}" in
             preview) WIDTH=540 ;;
@@ -92,10 +120,13 @@ jobs:
               ;;
             *) echo 'Invalid mode' >&2; exit 1 ;;
           esac
-          if [ -n "$TITLE" ]; then
-            python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --title "$TITLE"
+          ARGS=(--config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --fps 30)
+          if [ -n "$TITLE" ]; then ARGS+=(--title "$TITLE"); fi
+          if [ "${SUBJECT:-sun-vanished}" = "paper-to-moon" ] && [ "${MODE:-random_news}" = "preset" ]; then
+            # Legacy exponential preset is kept as an opt-in; all new videos are narrated.
+            python studio.py "${ARGS[@]}"
           else
-            python studio.py --config "$CONFIG" --output output/science.mp4 --width "$WIDTH"
+            python studio.py "${ARGS[@]}" --narrate --tts-provider "${VOICE_PROVIDER:-kokoro}"
           fi
       - name: Validate output video and audio
         if: github.event_name == 'workflow_dispatch'
@@ -113,4 +144,5 @@ jobs:
             output/science.json
             output/cover.png
             output/topic.json
+            output/science.voice.wav
           retention-days: 14
