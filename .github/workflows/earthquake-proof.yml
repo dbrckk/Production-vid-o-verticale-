@@ -8,6 +8,7 @@ on:
       - 'kinetic.py'
       - 'universal.py'
       - 'cinematic.py'
+      - 'qa_video.py'
       - 'motion_layers.py'
       - 'studio.py'
       - 'subtitle_design.py'
@@ -76,6 +77,11 @@ jobs:
           assert len(audio)==1 and audio[0]['sample_rate']=='48000',audio
           print('Neural English voice, full duration and adaptive soundtrack: PASS')
           PY
+      - name: Reject silent, static or badly synced finished videos
+        run: |
+          python qa_video.py --video output/earthquake-proof.mp4 \
+            --manifest output/earthquake-proof.json \
+            --report output/earthquake-quality.json
       - name: Downloadable review footage and synchronized cue manifest
         uses: actions/upload-artifact@v4
         if: success()
@@ -86,5 +92,6 @@ jobs:
             output/earthquake-proof.json
             output/earthquake-proof.voice.wav
             output/earthquake-topic.json
+            output/earthquake-quality.json
             output/cover.png
           retention-days: 7
