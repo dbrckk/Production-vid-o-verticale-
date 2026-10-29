@@ -156,12 +156,12 @@ class Painter:
 
     def hud(self, im: Image.Image, t: float, fold: int, cfg: dict):
         d=ImageDraw.Draw(im,'RGBA')
-        lines=cfg.get('title_lines', ['Combien de folds pour', 'atteindre la Lune ?'])
+        lines=cfg.get('title_lines', ['How many folds would it take', 'to reach the Moon?'])
         for idx, line in enumerate(lines[:2]):
             self.text(d,line,288,76+29*idx,22,(*WHITE,255),bold=True)
         goal=int(cfg.get('target_folds',42))
         if 22 <= t < 29.7:
-            status=cfg.get('reveal_text','Seulement 42 folds !')
+            status=cfg.get('reveal_text','Just 42 folds!')
             self.text(d,status,288,151,20,(*MINT,255),bold=True)
         else:
             subtitle=f'{fold} folds  =  {format_distance(thickness_mm(fold,float(cfg.get("paper_mm",.1))))}'
@@ -337,7 +337,7 @@ class Painter:
         self.text(d,'EARTH',cx,cy+earth_r+34,14,(*MINT,220),bold=True)
         self.text(d,'MOON',x2,moon_y-45,14,(*WHITE,230),bold=True)
         self.text(d,'384 400 km',x2,moon_y-23,11,(*MINT,200))
-        footer='42 folds : plus loin que la Lune !' if t>=22 else 'From the atmosphere into deep space…'
+        footer='42 folds: farther than the Moon!' if t>=22 else 'From the atmosphere into deep space…'
         self.text(d,footer,288,871,17,(*WHITE,242),bold=True)
 
     def cosmic(self, im, t, fold):
