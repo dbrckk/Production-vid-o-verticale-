@@ -84,6 +84,44 @@ def _motion(movie:Path, duration:float):
     }
 
 
+
+def _temporal_motion(movie:Path, duration:float, frame_rate:float):
+    """Inspect actual adjacent 30/60 FPS frames, not only 1 FPS snapshots.
+
+    A small image sampling window keeps runtime and memory bounded even on
+    constrained free Render instances. Distinguishes true new frames from
+    repeated/frozen frames that were merely tagged as 60 FPS.
+    """
+    if frame_rate<29.5 or duration<1.8:
+        return None
+    w,h=90,160
+    frame_size=w*h*3
+    fps=min(60,round(frame_rate))
+    begin=.45
+    seconds=min(1.5,max(.1,duration-begin-.15))
+    cmd=[
+        "ffmpeg","-nostdin","-hide_banner","-loglevel","error",
+        "-ss",str(begin),"-i",str(movie),"-t",str(seconds),
+        "-an","-vf",f"fps={fps},scale={w}:{h}:flags=fast_bilinear",
+        "-pix_fmt","rgb24","-f","rawvideo","pipe:1",
+    ]
+    output=subprocess.run(cmd,capture_output=True,check=True).stdout
+    count=len(output)//frame_size
+    if count<max(12,round(fps*.6)):
+        raise QualityFailure("Not enough adjacent publication frames")
+    frames=np.frombuffer(output[:count*frame_size],dtype=np.uint8).reshape(count,h,w,3)
+    # Crop the actual scientific animation, not captions or station labels.
+    crop=frames[:,50:132,10:80].astype(np.int16)
+    changed=(np.abs(np.diff(crop,axis=0))>7).any(axis=3)
+    pixel_fraction=changed.mean(axis=(1,2))
+    active=float(np.mean(pixel_fraction>.002))
+    return {
+        "sampled_adjacent_frames":int(count),
+        "adjacent_frame_activity":round(active,3),
+        "mean_adjacent_motion_ratio":round(float(pixel_fraction.mean()),4),
+    }
+
+
 def inspect(movie:Path, manifest_path:Path):
     movie=Path(movie)
     manifest=json.loads(Path(manifest_path).read_text(encoding="utf-8"))
@@ -151,13 +189,17 @@ def inspect(movie:Path, manifest_path:Path):
     movement=_motion(movie,duration)
     if movement["active_intervals"]<.65 or movement["mean_motion_ratio"]<.025:
         raise QualityFailure("The picture behaves like a slideshow, not live motion")
+    temporal=_temporal_motion(movie,duration,real_fps if publication else
+        float(manifest.get("fps",15)))
+    if publication and temporal is not None and temporal["adjacent_frame_activity"]<.55:
+        raise QualityFailure("High-FPS output contains too many repeated or frozen frames")
     return {
         "passed":True,"width":width,"height":height,
         "publication_spec":publication,"export_profile":manifest.get("export_profile","review"),
         "duration_seconds":round(duration,3),"audio_language":"en",
         "narrated_words":len(cues),"loudness_lufs":round(integrated,2),
         "true_peak_dbtp":round(peak,2),"word_alignment":voice.get("word_alignment"),
-        **movement,
+        **movement,**(temporal or {}),
     }
 
 
