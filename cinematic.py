@@ -22,7 +22,9 @@ def camera_parameters(scene_index: int, phase: float) -> tuple[float, float, flo
     Positive zoom prevents empty edges; offsets are intentionally small enough
     to preserve the scientific diagram and 9:16 safe area.
     """
-    v = ease(phase)
+    # Cosine trajectory has continuous acceleration and no perceptible
+    # abrupt camera velocity change at shot boundaries.
+    v = (1.0 - math.cos(math.pi * max(0.0, min(1.0, phase)))) * .5
     odd = scene_index % 2
     zoom = (1.045 + 0.026 * v) if not odd else (1.071 - 0.026 * v)
     pan_x = (4.0 * (2 * v - 1)) * (-1 if odd else 1)
@@ -56,7 +58,7 @@ def move_camera(painter, image: Image.Image, scene_index: int, phase: float,
     )
     return image.transform(
         image.size, Image.Transform.AFFINE, matrix,
-        resample=Image.Resampling.BILINEAR,
+        resample=Image.Resampling.BICUBIC,
         fillcolor=(14, 9, 31, 255),
     )
 
@@ -82,9 +84,13 @@ def render_cinematic_art(painter, cfg: dict, t: float, scene_index: int, phase: 
 
     previous = painter.base.copy()
     old_scene = cfg["scenes"][scene_index - 1]
-    old_t = float(old_scene["end"]) - .001
-    draw_scene(painter, previous, category, old_t, scene_index - 1, 1.0)
-    previous = move_camera(painter, previous, scene_index - 1, 1.0, category)
+    # Never freeze the outgoing animation during a dissolve. Keep its
+    # particles and seismic waves moving until the final blend frame.
+    old_t = float(old_scene["end"]) - .001 + elapsed
+    old_duration=max(.001,float(old_scene['end'])-float(old_scene['start']))
+    old_phase=min(1.0,max(0.0,(old_t-float(old_scene['start']))/old_duration))
+    draw_scene(painter, previous, category, old_t, scene_index - 1, old_phase)
+    previous = move_camera(painter, previous, scene_index - 1, old_phase, category)
     return Image.blend(previous, current, ease(elapsed / fade_length))
 
 
