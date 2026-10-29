@@ -40,7 +40,7 @@ on:
         options: ['1080p', '720p', 'preview']
   push:
     branches: [main]
-    paths: ['studio.py', 'storyboard.py', 'universal.py', 'cinematic.py', 'semantic_motion.py', 'kinetic.py', 'motion_layers.py', 'subtitle_design.py', 'soundscape.py', 'audio_mastering.py', 'narration.py', 'editorial.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
+    paths: ['studio.py', 'storyboard.py', 'universal.py', 'cinematic.py', 'semantic_motion.py', 'kinetic.py', 'motion_layers.py', 'subtitle_design.py', 'soundscape.py', 'audio_mastering.py', 'qa_video.py', 'narration.py', 'editorial.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
 permissions:
   contents: read
 jobs:
@@ -130,6 +130,7 @@ jobs:
           ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 output/science.mp4
           test -s output/science.mp4
           test -s output/cover.png
+          python qa_video.py --video output/science.mp4 --manifest output/science.json --report output/quality.json
       - uses: actions/upload-artifact@v4
         if: github.event_name == 'workflow_dispatch'
         with:
@@ -137,6 +138,7 @@ jobs:
           path: |
             output/science.mp4
             output/science.json
+            output/quality.json
             output/cover.png
             output/topic.json
             output/science.voice.wav
