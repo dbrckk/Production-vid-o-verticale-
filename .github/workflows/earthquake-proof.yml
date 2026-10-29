@@ -6,6 +6,9 @@ on:
     paths:
       - '.github/workflows/earthquake-proof.yml'
       - 'kinetic.py'
+      - 'universal.py'
+      - 'cinematic.py'
+      - 'motion_layers.py'
       - 'studio.py'
       - 'subtitle_design.py'
       - 'audio_mastering.py'
