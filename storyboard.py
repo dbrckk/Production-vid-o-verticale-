@@ -183,17 +183,13 @@ def draw_storyboard(p, t: float, cfg: dict):
         visual(p,previous,cfg['scenes'][ix-1]['visual'],t,1)
         im = Image.blend(previous,im,fade)
     d=ImageDraw.Draw(im,'RGBA')
-    # Header and safe margins match the parent 9:16 design vocabulary.
-    p.text(d, f'SCIENCE  /  EXPLAINED IN {float(cfg["duration"]):g} S',288,62,13,(*CYAN,180),bold=True)
-    write_lines(p,d,scene['headline'],288,160,490,3,26,(*INK,250),True)
-    p.line(d,[(60,247),(516,247)],(148,145,186,120),2)
-    prog=60+456*(min(t,float(cfg['duration']))/float(cfg['duration']))
-    p.glow_line(im,[(60,247),(prog,247)],CYAN,3,2)
-    p.glow_disc(im,prog,247,3,AMBER)
+    # The chapter is an invisible production concept, never a number on video.
+    write_lines(p,d,scene['headline'],288,173,490,3,28,(*INK,250),True)
+    from subtitle_design import caption_backdrop
+    caption_backdrop(p,im)
     d=ImageDraw.Draw(im,'RGBA')
-    write_lines(p,d,scene['caption'],288,862,490,3,21,(*INK,245),False)
+    write_lines(p,d,scene['caption'],288,785,430,3,21,(*INK,245),False)
     stamp=scene.get('metric')
     if stamp:
         write_lines(p,d,str(stamp),288,315,480,2,19,(*CYAN,245),True)
-    p.text(d,f'{ix+1:02d}  /  {len(cfg["scenes"]):02d}',288,961,11,(165,155,197,185),bold=True)
     return im.convert('RGB')
