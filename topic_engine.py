@@ -88,7 +88,9 @@ def random_important_news(fetcher=None,rng=None,now=None) -> dict:
     items=current_headlines(fetcher,now)
     if not items:raise RuntimeError('No recent verifiable news available: feeds are unavailable or stale')
     # English-language outlets only: narration and on-screen text stay in English.
-    candidates=items[:20]
+    candidates=[item for item in items[:40] if len(item.get('summary','').strip())>=24][:20]
+    if not candidates:
+        raise RuntimeError('No recent verifiable news has enough reporting for a narrated video')
     rng=rng or random.SystemRandom()
     return rng.choices(candidates,weights=[max(.01,item['importance']-.75)**2 for item in candidates],k=1)[0]
 
