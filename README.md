@@ -168,5 +168,5 @@ python studio.py --config output/story.json --output output/science.mp4 --narrat
 # and voices into models/, then use --tts-provider kokoro
 ```
 
-The JSON manifest stores voice information, per-word approximate subtitle timings and source citations. **Caveat:** highlighted word times are estimated proportionally from each spoken scene; they are not forced-aligned phoneme timestamps. Scientific validity depends on the underlying sources: arbitrary unsourced prompts are exploratory, not independent fact-checked documentaries. The generic animation category cannot yet recreate every possible real-world event faithfully.
+The JSON manifest stores voice information, per-word approximate subtitle timings and source citations. **Subtitle timing:** Edge Neural provides actual word-boundary metadata, which drives word-by-word highlighted subtitles. Kokoro ONNX uses a clearly identified estimated timing fallback until a local forced-aligner is integrated. Scientific validity depends on the underlying sources: arbitrary unsourced prompts are exploratory, not independent fact-checked documentaries. The generic animation category cannot yet recreate every possible real-world event faithfully.
 
