@@ -40,7 +40,7 @@ on:
         options: ['1080p', '720p', 'preview']
   push:
     branches: [main]
-    paths: ['studio.py', 'storyboard.py', 'universal.py', 'kinetic.py', 'narration.py', 'editorial.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
+    paths: ['studio.py', 'storyboard.py', 'universal.py', 'cinematic.py', 'semantic_motion.py', 'kinetic.py', 'motion_layers.py', 'subtitle_design.py', 'soundscape.py', 'audio_mastering.py', 'narration.py', 'editorial.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
 permissions:
   contents: read
 jobs:
