@@ -38,8 +38,25 @@ def _pcm_from_file(path: Path) -> np.ndarray:
 
 
 async def _edge(text: str, output: Path, voice: str):
+    """Write neural MP3 and collect provider-authored word boundaries."""
     import edge_tts
-    await edge_tts.Communicate(text, voice=voice, rate="-2%", volume="+0%").save(str(output))
+    marks=[]
+    communication=edge_tts.Communicate(
+        text, voice=voice, rate="-2%", volume="+0%", boundary="WordBoundary",
+    )
+    with output.open("wb") as stream:
+        async for chunk in communication.stream():
+            if chunk["type"] == "audio":
+                stream.write(chunk["data"])
+            elif chunk["type"] == "WordBoundary":
+                marks.append({
+                    "text":chunk["text"],
+                    "offset":chunk["offset"] / 10_000_000,
+                    "duration":chunk["duration"] / 10_000_000,
+                })
+    if not output.exists() or output.stat().st_size < 1000:
+        raise RuntimeError("English neural narrator returned no audio")
+    return marks
 
 
 def _kokoro(text: str, engine, voice: str) -> np.ndarray:
@@ -86,8 +103,10 @@ def make_narration(
         engine = Kokoro(str(model), str(voices))
     try:
         with tempfile.TemporaryDirectory(prefix="vss-narration-") as temp:
+            timing_mode="estimated"
             for index, scene in enumerate(scenes):
                 text = script_for_scene(scene, cfg)
+                boundaries=[]
                 if synthesizer is not None:
                     samples = np.asarray(synthesizer(text, index), dtype=np.float32)
                     samples = (np.clip(samples, -1, 1) * 32767).astype("<i2")
@@ -95,7 +114,7 @@ def make_narration(
                     samples = (_kokoro(text, engine, voice or DEFAULT_KOKORO_VOICE) * 32767).astype("<i2")
                 else:
                     temp_mp3 = Path(temp) / f"{index:02d}.mp3"
-                    asyncio.run(_edge(text, temp_mp3, voice or DEFAULT_EDGE_VOICE))
+                    boundaries=asyncio.run(_edge(text, temp_mp3, voice or DEFAULT_EDGE_VOICE))
                     samples = _pcm_from_file(temp_mp3)
                 if len(samples) < SAMPLE_RATE // 10:
                     raise RuntimeError(f"Speech was empty or too short for scene {index + 1}")
@@ -103,18 +122,35 @@ def make_narration(
                 # alignment; unlike phoneme alignment, no false per-word precision).
                 words = text.split()
                 length = len(samples) / SAMPLE_RATE
-                boundaries = [sum(max(1, len(word.strip('.,!?'))) for word in words[:i]) for i in range(len(words)+1)]
-                total = boundaries[-1] or 1
+                boundaries_est = [sum(max(1, len(word.strip('.,!?'))) for word in words[:i]) for i in range(len(words)+1)]
+                total = boundaries_est[-1] or 1
                 scene["start"] = round(clock, 4)
                 scene["end"] = round(clock + length + 0.28, 4)
                 scene["narration"] = text
-                for word_index, word in enumerate(words):
-                    cues.append({
-                        "start": round(clock + .08*length + .84*length*boundaries[word_index]/total, 3),
-                        "end": round(clock + .08*length + .84*length*boundaries[word_index+1]/total, 3),
-                        "word": word,
-                        "scene": index,
-                    })
+                if boundaries:
+                    # Provider timestamps are in 100-ns ticks, aligned with
+                    # spoken audio. Clamp to the decoded clip duration.
+                    timing_mode="provider_word_boundaries"
+                    for marker in boundaries:
+                        begin=max(0,min(length,float(marker["offset"])))
+                        finish=min(length,begin+max(.07,float(marker["duration"])))
+                        if finish>begin:
+                            cues.append({
+                                "start":round(clock+begin,3),
+                                "end":round(clock+finish,3),
+                                "word":marker["text"].strip(),
+                                "scene":index,
+                            })
+                else:
+                    # Kokoro currently has no phoneme alignment provider;
+                    # keep an explicit proportional fallback for those renders.
+                    for word_index, word in enumerate(words):
+                        cues.append({
+                            "start":round(clock + .08*length + .84*length*boundaries_est[word_index]/total,3),
+                            "end":round(clock + .08*length + .84*length*boundaries_est[word_index+1]/total,3),
+                            "word":word,
+                            "scene":index,
+                        })
                 pieces.append(samples)
                 gap = np.zeros(round(.28 * SAMPLE_RATE), dtype="<i2")
                 pieces.append(gap)
@@ -128,7 +164,7 @@ def make_narration(
         cfg["duration"] = round(len(all_audio) / SAMPLE_RATE, 4)
         cfg["scenes"][-1]["end"] = cfg["duration"]
         cfg["word_cues"] = cues
-        cfg["voice"] = {"provider":provider, "voice":voice or (DEFAULT_KOKORO_VOICE if provider=="kokoro" else DEFAULT_EDGE_VOICE), "language":"en"}
+        cfg["voice"] = {"provider":provider, "voice":voice or (DEFAULT_KOKORO_VOICE if provider=="kokoro" else DEFAULT_EDGE_VOICE), "language":"en","word_alignment":timing_mode}
         with wave.open(str(dest),"wb") as out:
             out.setnchannels(1)
             out.setsampwidth(2)
