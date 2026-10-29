@@ -33,12 +33,12 @@ footer{font-size:12px;color:#b3aac9;margin-top:28px;line-height:1.5}</style></he
 <option value="en-US-AriaNeural">Aria · expressive storyteller (US)</option>
 <option value="en-GB-RyanNeural">Ryan · documentary presenter (UK)</option>
 </select>
-<label for="quality">Video quality</label><select id="quality">
-<option value="preview">Preview (540p)</option><option value="720p">720p</option>
-<option value="1080p" selected>Full HD 1080p</option></select>
+<label for="quality">Export quality</label><select id="quality">
+<option value="1080p" selected>Publish · Full HD 1080 × 1920 · 30 fps</option>
+<option value="720p">Review · HD 720p</option><option value="preview">Fast review · 540p</option></select>
 <div id="status" role="status" aria-live="polite"></div>
 <div id="result"><p>English neural narration with animated captions</p><video id="player" controls playsinline preload="metadata"></video>
-<p><a id="download" download>Download narrated MP4</a></p></div></section>
+<p><a id="download" download>Download vertical MP4 (no watermark or scene numbers)</a></p></div></section>
 <footer>Video language: English only. Neural voice narration is required for new renders. An unsupported topic or unavailable voice service returns an error rather than a silent slideshow. Always verify news against the linked original reporting.</footer></main>
 <script>
 const topic=document.querySelector('#topic'),info=document.querySelector('#info'),status=document.querySelector('#status');
@@ -100,7 +100,8 @@ create.addEventListener('click',async()=>{
     document.querySelector('#download').download='vertical-science.mp4';
     document.querySelector('#result').style.display='block';
     const qa=state.quality||{};
-    status.textContent='Video ready · '+state.info.width+' × '+state.info.height+' · '+state.info.duration.toFixed(1)+' s · English narration · '+(qa.loudness_lufs!==undefined?qa.loudness_lufs+' LUFS · motion checked':'quality reviewed')+'. Sources: '+state.sources.length;
+    const grade=qa.publication_spec?'Full HD export verified':'Review export';
+    status.textContent=grade+' · '+state.info.width+' × '+state.info.height+' · '+state.info.fps+' fps · '+state.info.duration.toFixed(1)+' s · English narration · '+(qa.loudness_lufs!==undefined?qa.loudness_lufs+' LUFS · motion checked':'quality reviewed')+'. Sources: '+state.sources.length;
     break;
    }
   }
