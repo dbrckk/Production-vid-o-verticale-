@@ -11,9 +11,13 @@ on:
         type: choice
         required: true
         default: 'random_news'
-        options: ['preset', 'custom', 'random_news']
+        options: ['preset', 'custom', 'random_news', 'article_url']
       custom_topic:
         description: 'For custom mode: the subject of your video'
+        type: string
+        required: false
+      article_url:
+        description: 'For article_url mode: exact news link from the news picker'
         type: string
         required: false
       subject:
@@ -58,13 +62,14 @@ jobs:
           SUBJECT: ${{ inputs.subject }}
           MODE: ${{ inputs.mode }}
           CUSTOM_TOPIC: ${{ inputs.custom_topic }}
+          ARTICLE_URL: ${{ inputs.article_url }}
         run: |
           case "${QUALITY:-1080p}" in
             preview) WIDTH=540 ;;
             720p) WIDTH=720 ;;
             *) WIDTH=1080 ;;
           esac
-          case "${MODE:-custom}" in
+          case "${MODE:-random_news}" in
             preset)
               CONFIG="presets/${SUBJECT:-sun-vanished}.json"
               test -f "$CONFIG"
@@ -76,6 +81,11 @@ jobs:
               ;;
             random_news)
               python generate_topic.py --random-news --output output/topic.json
+              CONFIG='output/topic.json'
+              ;;
+            article_url)
+              test -n "$ARTICLE_URL" || { echo 'An article_url is required' >&2; exit 1; }
+              python generate_topic.py --article-url "$ARTICLE_URL" --output output/topic.json
               CONFIG='output/topic.json'
               ;;
             *) echo 'Invalid mode' >&2; exit 1 ;;
