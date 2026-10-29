@@ -1,0 +1,40 @@
+name: Publish static studio to Hugging Face
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'hf_space/**'
+      - '.github/workflows/publish-hf.yml'
+permissions:
+  contents: read
+concurrency:
+  group: vertical-hf-space-sync
+  cancel-in-progress: true
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Hugging Face authorization
+        id: authorization
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          if [ -z "$HF_TOKEN" ]; then
+            echo "No HF_TOKEN configured. Static site is ready; add a repo-scoped token with Space write permission to publish it."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Mirror static website to Space
+        if: steps.authorization.outputs.ready == 'true'
+        uses: huggingface/hub-sync@v0.3.0
+        with:
+          github_repo_id: ${{ github.repository }}
+          huggingface_repo_id: Dbrzck/vertical-science-studio
+          hf_token: ${{ secrets.HF_TOKEN }}
+          repo_type: space
+          space_sdk: static
+          subdirectory: hf_space
