@@ -308,11 +308,8 @@ def earthquake(p, im, t, ix, phase):
         path(p,d,tips,color,3.6,230)
 
     def plate(x0,x1,shift=0,tint=(40,79,106,230)):
-        polygon([(x0,590+shift),(x1,593+shift),(x1,780),(x0,780)],tint)
-        for depth in (630,684,738):
-            path(p,d,[(x0+4,depth+shift*.5),(x1-4,depth+shift*.5)],
-                 BLUE,2.0,75)
-        path(p,d,[(x0,590+shift),(x1,593+shift)],CYAN,3.6,215)
+        from geology_premium import mineral_plate
+        mineral_plate(p,im,d,x0,x1,shift,tint,t)
 
     if ix == 0:
         # Plate margins actually drift; convection cells move beneath them.
@@ -351,7 +348,12 @@ def earthquake(p, im, t, ix, phase):
 
     elif ix == 2:
         # The rupture is a visible relative displacement along a jagged fault.
-        slip=12+26*(.5+.5*math.sin(t*2.0))
+        # An actual one-way rupture with damped aftershocks, not a block
+        # oscillating back and forth with the same displacement forever.
+        onset=max(0,min(1,(phase-.12)/.26))
+        rupture=onset*onset*(3-2*onset)
+        aftershock=8*math.sin(max(0,phase-.38)*29)*math.exp(-max(0,phase-.38)*6)
+        slip=3+32*rupture+aftershock
         plate(30,274,-slip,(33,100,103,230))
         plate(295,546,slip,(75,65,97,230))
         path(p,d,[(273,555-slip),(290,605),(272,649),(296,701),(278,779)],
@@ -445,6 +447,8 @@ def earthquake(p, im, t, ix, phase):
         sx=440
         sy=601+65*math.sin(t*7)
         p.glow_disc(im,sx,sy,4,GOLD)
+    from geology_premium import earthquake_art
+    earthquake_art(p,im,t,ix,phase)
     moving_particles(p,im,t,ix,16,385,818)
 
 
