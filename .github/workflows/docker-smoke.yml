@@ -55,7 +55,7 @@ jobs:
       - name: Live English neural voice provider check
         continue-on-error: true
         run: |
-          docker exec studio-smoke python -c "import asyncio, edge_tts; asyncio.run(edge_tts.Communicate('Natural English narration is enabled.', voice='en-US-AriaNeural').save('/tmp/english-voice.mp3'))"
+          docker exec studio-smoke python -c "import asyncio; from pathlib import Path; from narration import _edge; marks=asyncio.run(_edge('Natural English narration is enabled.',Path('/tmp/english-voice.mp3'),'en-US-AriaNeural')); assert len(marks)>=3, marks; print('Live timed speech words:',len(marks))"
           docker exec studio-smoke sh -c 'test -s /tmp/english-voice.mp3'
           echo "Edge English neural voice service: audio created successfully"
       - name: Container diagnostics
