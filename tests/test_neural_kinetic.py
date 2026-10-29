@@ -111,3 +111,39 @@ def test_real_edge_word_boundaries_are_used_for_subtitles(tmp_path, monkeypatch)
     assert cfg["word_cues"][0]["start"] == pytest.approx(.15,abs=.01)
     assert cfg["word_cues"][1]["start"] == pytest.approx(.40,abs=.01)
     assert cfg["word_cues"][2]["start"] > cfg["word_cues"][1]["end"]
+
+
+def test_transient_neural_voice_outage_retries_without_silent_video(tmp_path, monkeypatch):
+    import asyncio
+    import sys
+    import types
+    import narration
+
+    attempt = {"count": 0}
+
+    class FakeCommunicate:
+        def __init__(self, text, voice, **options):
+            assert voice == "en-US-AndrewNeural"
+            assert options["boundary"] == "WordBoundary"
+
+        async def stream(self):
+            attempt["count"] += 1
+            if attempt["count"] == 1:
+                yield {"type": "audio", "data": b"partial"}
+                raise RuntimeError("temporary voice service interruption")
+            yield {"type": "audio", "data": b"audio-data" * 250}
+            yield {"type": "WordBoundary",
+                   "text": "Earthquake", "offset": 1000000, "duration": 2500000}
+
+    monkeypatch.setitem(sys.modules, "edge_tts", types.SimpleNamespace(Communicate=FakeCommunicate))
+
+    async def no_wait(_):
+        return None
+
+    monkeypatch.setattr(narration.asyncio, "sleep", no_wait)
+    target = tmp_path / "voice.mp3"
+    marks = asyncio.run(narration._edge("Earthquake", target, "en-US-AndrewNeural"))
+    assert attempt["count"] == 2
+    assert target.read_bytes().startswith(b"audio-data")
+    assert len(marks) == 1
+    assert marks[0]["text"] == "Earthquake"
