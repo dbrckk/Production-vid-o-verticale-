@@ -1,0 +1,60 @@
+name: Proof render - Cinematic volcano 2D and natural English narration
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/volcano-proof.yml
+permissions:
+  contents: read
+concurrency:
+  group: volcanic-documentary-review
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Prepare original 2D motion renderer and FFmpeg
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Create documentary with animated strata ash and flowing lava
+        run: |
+          python generate_topic.py --topic "Why do volcanoes erupt?" --output output/volcano-topic.json
+          python studio.py --config output/volcano-topic.json --narrate \
+            --tts-provider edge --tts-voice en-US-BrianMultilingualNeural \
+            --width 720 --fps 24 --preview --output output/volcano-proof.mp4
+      - name: Validate actual moving frames English narration and soundtrack
+        run: |
+          python qa_video.py --video output/volcano-proof.mp4 \
+            --manifest output/volcano-proof.json --report output/volcano-quality.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          meta=json.loads(Path('output/volcano-proof.json').read_text())
+          assert meta['voice']['delivery_style']=='continuous_documentary'
+          assert meta['voice']['language']=='en'
+          assert len(meta['word_cues'])>=40
+          assert meta['width']==720 and meta['height']==1280
+          report=json.loads(Path('output/volcano-quality.json').read_text())
+          assert report['passed'] and report['mean_motion_ratio']>.025
+          print('Premium animated volcano with English narration: PASS')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: english-volcano-animated-2d-review
+          path: |
+            output/volcano-proof.mp4
+            output/volcano-proof.json
+            output/volcano-quality.json
+            output/volcano-topic.json
+            output/cover.png
+          retention-days: 7
