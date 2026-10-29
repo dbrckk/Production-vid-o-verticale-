@@ -59,6 +59,28 @@ def test_static_slideshow_fails_even_when_audio_exists(playable,tmp_path):
         inspect(still,metadata)
 
 
+
+def test_adjacent_frame_motion_detects_real_30_fps_vs_fake_smoothness(tmp_path):
+    from qa_video import _temporal_motion
+    def movie(path,source):
+        subprocess.run([
+            "ffmpeg","-hide_banner","-loglevel","error","-y",
+            "-f","lavfi","-i",source,
+            "-c:v","libx264","-preset","ultrafast",
+            "-pix_fmt","yuv420p","-t","3",str(path),
+        ],check=True,capture_output=True)
+    moving=tmp_path/"motion.mp4"
+    still=tmp_path/"static.mp4"
+    movie(moving,"testsrc2=s=90x160:r=30:d=3")
+    movie(still,"color=c=black:s=90x160:r=30:d=3")
+    good=_temporal_motion(moving,3,30)
+    bad=_temporal_motion(still,3,30)
+    assert good["sampled_adjacent_frames"]>35
+    assert good["adjacent_frame_activity"]>.8
+    assert bad["adjacent_frame_activity"]<.05
+    assert _temporal_motion(moving,3,15) is None
+
+
 def test_missing_narration_fails(playable,tmp_path):
     video,metadata=playable
     data=json.loads(metadata.read_text())
