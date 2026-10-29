@@ -285,32 +285,172 @@ def general(p,im,t,ix,phase):
 
 
 def earthquake(p, im, t, ix, phase):
-    """Fault slip, outward seismic waves and a scrolling seismograph."""
-    d=ImageDraw.Draw(im,"RGBA")
-    pulse=max(0.0,math.sin(t*3.2+ix*.35))
-    shift=(3+ix*1.5)*math.sin(t*2.8) if ix>=2 else math.sin(t*.8)*1.7
-    left=[(28,613+shift),(265,600+shift),(275,724),(28,751)]
-    right=[(286,602-shift),(550,628-shift),(550,750),(276,724)]
-    d.polygon([p.p(*xy) for xy in left],fill=(39,72,90,210))
-    d.polygon([p.p(*xy) for xy in right],fill=(62,58,91,210))
-    path(p,d,[(25,612+shift),(265,600+shift)],CYAN,4,210)
-    path(p,d,[(286,602-shift),(550,628-shift)],BLUE,4,210)
-    path(p,d,[(272,600),(285,632),(267,664),(286,702),(275,724)],GOLD,4,220)
-    for ring in range(6):
-        age=(t*.54+ring/6+ix*.08)%1
-        p.circle(d,276,608,30+age*205,None,(*GOLD,int((1-age)**1.4*170)),2.8)
-    for i in range(50):
-        x=40+(i*91.31)%505
-        y=395+(i*37.2)%150
-        dot(p,d,x+3*math.sin(t*2+i),y+7*pulse*math.sin(i*1.7),
-            1+(i%3)*.5,CYAN if i%4 else GOLD,65)
-    graph=[]
-    for i in range(101):
-        x=40+i*4.95
-        q=i/100*9-t*2.5
-        amp=(6+45*pulse)*math.exp(-((q%3.2)-1.2)**2/.12)
-        graph.append((x,831+amp*math.sin(q*16)))
-    path(p,d,graph,CYAN,2.6,235)
+    """Six visually distinct continuous physical sequences of a real earthquake.
+
+    0 drifting plates; 1 accumulating frictional stress; 2 rapid fault slip;
+    3 radiating seismic energy; 4 site-dependent building vibration;
+    5 live seismometer recording. Every diagram is recomputed over time.
+    """
+    d = ImageDraw.Draw(im, "RGBA")
+    cx,cy = 288,570
+    wave = math.sin(t*3.8+ix*.3)
+    pulse = .5+.5*wave
+
+    def polygon(coords,fill):
+        d.polygon([p.p(*pt) for pt in coords],fill=fill)
+
+    def arrow(a,b,color=CYAN):
+        path(p,d,[a,b],color,3.6,220)
+        direction=math.atan2(b[1]-a[1],b[0]-a[0])
+        r=13
+        tips=[(b[0]-r*math.cos(direction-.50),b[1]-r*math.sin(direction-.50)),
+              b,(b[0]-r*math.cos(direction+.50),b[1]-r*math.sin(direction+.50))]
+        path(p,d,tips,color,3.6,230)
+
+    def plate(x0,x1,shift=0,tint=(40,79,106,230)):
+        polygon([(x0,590+shift),(x1,593+shift),(x1,780),(x0,780)],tint)
+        for depth in (630,684,738):
+            path(p,d,[(x0+4,depth+shift*.5),(x1-4,depth+shift*.5)],
+                 BLUE,2.0,75)
+        path(p,d,[(x0,590+shift),(x1,593+shift)],CYAN,3.6,215)
+
+    if ix == 0:
+        # Plate margins actually drift; convection cells move beneath them.
+        drift=6*math.sin(t*.42)
+        plate(30,272,-drift,(27,91,102,223))
+        plate(299,546,drift,(58,64,104,227))
+        path(p,d,[(272,590-drift),(288,630),(299,593+drift)],GOLD,3,230)
+        for k in range(9):
+            x=70+k*54
+            y=454+16*math.sin(t*.55+k*.6)
+            direction=1 if k<4 else -1
+            arrow((x,y),(x+direction*30,y),CYAN if k%2 else BLUE)
+        for k in range(16):
+            a=k*TAU/16+t*.35
+            x=288+140*math.cos(a)
+            y=810+52*math.sin(a)
+            if 740<y<874:dot(p,d,x,y,3,GOLD,140)
+        p.text(d,"SLOW MOVEMENT",288,410,14,(*CYAN,210),bold=True)
+
+    elif ix == 1:
+        # Stationary fault, but animated compression and a rising stress gauge.
+        plate(30,271,0,(28,78,108,240))
+        plate(301,546,0,(77,65,101,240))
+        for k in range(6):
+            yy=502+k*43
+            x=270+6*math.sin(t*.7+k)
+            path(p,d,[(x,yy),(292,yy+19),(x+4,yy+35)],GOLD,2.8,115+int(pulse*100))
+        compression=20+10*pulse
+        arrow((90+compression,470),(226+compression,470),GOLD)
+        arrow((485-compression,470),(350-compression,470),GOLD)
+        path(p,d,[(101,825),(475,825)],BLUE,3,70)
+        progress=(phase*.92+.08)
+        p.glow_line(im,[(103,825),(103+370*progress,825)],GOLD,5,3)
+        p.text(d,"STRESS BUILDS",288,398,14,(*GOLD,245),bold=True)
+        for k in range(8):
+            x=271+(k%3)*12;y=555+k*22
+            dot(p,d,x,y,2.2,GOLD,130+round(100*pulse))
+
+    elif ix == 2:
+        # The rupture is a visible relative displacement along a jagged fault.
+        slip=12+26*(.5+.5*math.sin(t*2.0))
+        plate(30,274,-slip,(33,100,103,230))
+        plate(295,546,slip,(75,65,97,230))
+        path(p,d,[(273,555-slip),(290,605),(272,649),(296,701),(278,779)],
+             GOLD,5,250)
+        p.glow_disc(im,288,599,6+8*pulse,GOLD)
+        for k in range(38):
+            age=(t*(.5+k%4*.05)+k/38)%1
+            a=k*2.399
+            distance=18+age*130
+            x=287+math.cos(a)*distance
+            y=600+math.sin(a)*distance*.78
+            dot(p,d,x,y,max(.8,(1-age)*4.2),GOLD if k%2 else CYAN,
+                round(155*(1-age)))
+        arrow((76,458),(212,458),CYAN)
+        arrow((500,490),(371,490),CYAN)
+        p.text(d,"SUDDEN FAULT SLIP",288,394,14,(*GOLD,235),bold=True)
+
+    elif ix == 3:
+        # Seismic waves travel away from the epicentre, not static rings.
+        polygon([(47,680),(110,644),(175,676),(245,640),
+                 (328,655),(400,628),(529,660),(529,808),(47,808)],
+                (37,70,93,185))
+        path(p,d,[(47,680),(110,644),(175,676),(245,640),
+                  (328,655),(400,628),(529,660)],CYAN,2.5,190)
+        origin=(280,605)
+        p.glow_disc(im,*origin,7,GOLD)
+        for i in range(7):
+            age=(t*.26+i/7)%1
+            r=16+age*265
+            p.circle(d,*origin,r,None,(*GOLD,round((1-age)**.8*220)),3)
+            a=i*TAU/7+t*.25
+            dot(p,d,origin[0]+r*math.cos(a),origin[1]+r*.8*math.sin(a),
+                max(1,5*(1-age)),CYAN,200)
+        arrow((110,493),(79,453),BLUE)
+        arrow((461,478),(494,444),BLUE)
+        p.text(d,"ENERGY TRAVELS",288,403,14,(*GOLD,240),bold=True)
+
+    elif ix == 4:
+        # Compare site response: two different buildings and soil foundations.
+        for side in (0,1):
+            bx=169 if side==0 else 410
+            gain=2.8 if side==0 else 10
+            shake=gain*math.sin(t*12.4+side*1.2)
+            soil=(56,77,94,215) if side==0 else (111,91,70,195)
+            polygon([(bx-102,699),(bx+103,699),(bx+103,787),(bx-102,787)],soil)
+            for k in range(4):
+                y=721+k*18
+                path(p,d,[(bx-97,y),(bx+97,y+3*math.sin(t*.7+k))],
+                     BLUE if side==0 else GOLD,1.4,95)
+            height=214 if side==0 else 160
+            x0,y0=p.p(bx-53+shake,699-height)
+            x1,y1=p.p(bx+53+shake,699)
+            d.rounded_rectangle((x0,y0,x1,y1),radius=max(2,round(3*p.s)),
+                                fill=(36,70,90,240),outline=(*CYAN,240),
+                                width=max(1,round(2*p.s)))
+            for row in range(5 if side==0 else 4):
+                for col in range(3):
+                    wx=bx-33+col*32+shake
+                    wy=523+(row*30 if side==0 else 25+row*30)
+                    if 482<wy<696:
+                        p.circle(d,wx,wy,6,(125,222,207,140))
+            p.text(d,"FIRM GROUND" if side==0 else "SOFT SOIL",
+                   bx,831,12,(*CYAN if side==0 else GOLD,235),bold=True)
+        for k in range(18):
+            x=51+k*27
+            y=690+2*math.sin(t*10+k)
+            dot(p,d,x,y,2.0,GOLD,100)
+        p.text(d,"THE GROUND MATTERS",288,397,14,(*CYAN,240),bold=True)
+
+    else:
+        # A recording device with a dynamically scrolling real-valued trace.
+        x0,y0=p.p(77,434);x1,y1=p.p(501,746)
+        d.rounded_rectangle((x0,y0,x1,y1),
+                            radius=max(5,round(15*p.s)),
+                            fill=(18,36,65,245),outline=(*BLUE,230),
+                            width=max(1,round(2*p.s)))
+        for k in range(6):
+            y=486+k*43
+            path(p,d,[(94,y),(482,y)],BLUE,1.4,65)
+        for k in range(10):
+            x=100+k*42
+            path(p,d,[(x,451),(x,731)],BLUE,1.4,55)
+        points=[]
+        for j in range(180):
+            u=j/179
+            x=99+381*u
+            a=u*24-t*2.7
+            burst=math.exp(-((a%6)-2.1)**2/.38)
+            y=601+math.sin(a*16)*(7+75*burst)+3*math.sin(a*5)
+            points.append((x,y))
+        path(p,d,points,CYAN,3.1,230)
+        sx=440
+        sy=601+65*math.sin(t*7)
+        p.glow_disc(im,sx,sy,4,GOLD)
+        p.text(d,"SEISMOMETER",288,392,15,(*CYAN,240),bold=True)
+        p.text(d,"RECORDING GROUND MOTION",288,805,12,(*GOLD,230),bold=True)
+    moving_particles(p,im,t,ix,16,385,818)
 
 
 def weather(p, im, t, ix, phase):
