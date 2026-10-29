@@ -63,7 +63,25 @@ def fish(p,d,x,y,r,direction,t,identity):
     p.circle(d,x-direction*r*.15+gleam*r*.46,y-r*.28,1.3,(*SEA_FLASH,round(60+70*gleam)))
 
 
-def volcanic_structure(p,im,t,scene_index=4):
+def _revealed_path(points, fraction):
+    """Arc-length-based one-way lava advance; never jumps back to the vent."""
+    q=max(0.0,min(1.0,float(fraction)))
+    lengths=[math.dist(points[i],points[i+1]) for i in range(len(points)-1)]
+    limit=sum(lengths)*q
+    result=[points[0]]
+    for i,length in enumerate(lengths):
+        if limit<=0:
+            break
+        step=min(1.0,limit/max(length,1e-6))
+        a,b=points[i],points[i+1]
+        result.append((a[0]+(b[0]-a[0])*step,a[1]+(b[1]-a[1])*step))
+        limit-=length
+        if step<1:
+            break
+    return result
+
+
+def volcanic_structure(p,im,t,scene_index=4,phase=1.0):
     """Layered volcanic cone and directional lava fractures behind main data.
 
     Cliffs, rim and fracture zones have distinct silhouettes and internally
@@ -95,6 +113,19 @@ def volcanic_structure(p,im,t,scene_index=4):
         p.line(d,points,(141,115,115,110),1.1)
         rpoints=[(405+row*9,y-24),(436+row*9,y-11),(465+row*9,y+5)]
         p.line(d,rpoints,(166,115,108,105),1)
+    # Fine rock facets: original irregular polygons add depth to the cone.
+    for j in range(32):
+        side=-1 if j%2 else 1
+        x=288+side*(35+(j*23)%172)
+        y=581+(j*43)%205
+        if not (578<y<791):
+            continue
+        opacity=38+(j%4)*13
+        facet=[(x-4,y+4),(x+2,y-7),(x+13,y-1),(x+7,y+7)]
+        d.polygon([p.p(*point) for point in facet],
+                  fill=((140,125,117,opacity) if side<0 else (166,111,91,opacity)))
+        if j%3==0:
+            p.line(d,[(x-5,y+6),(x+11,y+7)],(199,143,111,65),.9)
     # Stage-specific geology prevents identical volcanic slides across the story.
     # Magma is trapped for the first three beats and only reaches the outer
     # slopes when the narrative actually introduces an eruption.
@@ -104,18 +135,34 @@ def volcanic_structure(p,im,t,scene_index=4):
             [(287,528),(273,580),(246,643),(221,700),(183,757)],
             [(314,555),(347,611),(364,656),(389,718),(422,768)],
         )
+        q=max(0.0,min(1.0,float(phase)))
+        q=q*q*(3-2*q)
+        # One lifecycle: emergence, downslope advance and cooling.
+        # The leading front never jumps back to the crater.
+        advance=(.045+.34*q) if scene_index==3 else (
+            (.385+.615*q) if scene_index==4 else 1.0)
         for branch,points in enumerate(branches):
-            hot=1.0 if scene_index in (3,4) else .45
-            p.line(d,points,(111,52,43,236),7.5-branch*.7)
-            p.line(d,points,(min(255,round(122+119*hot)),round(78+34*hot),48,215),4.3-branch*.3)
-            p.line(d,points,(255,round(104+99*hot),88,round(110+106*hot)),
+            progress=max(.0,min(1.,advance-branch*.12))
+            visible=_revealed_path(points,progress)
+            if len(visible)<2:
+                continue
+            cooling=(.42+.43*(1-q)) if scene_index==5 else 1.0
+            alpha=max(42,round(226*cooling))
+            p.line(d,visible,(111,52,43,236),7.5-branch*.7)
+            p.line(d,visible,(round(115+128*cooling),round(64+49*cooling),48,alpha),
+                   4.3-branch*.3)
+            p.line(d,visible,(255,round(100+105*cooling),88,round(150*cooling)),
                    max(1.2,2.2-branch*.3))
-            progress=(t*(.13+branch*.018)+branch*.28)%1
-            i=min(len(points)-2,int(progress*(len(points)-1)))
-            q=progress*(len(points)-1)-i
-            xx=points[i][0]*(1-q)+points[i+1][0]*q
-            yy=points[i][1]*(1-q)+points[i+1][1]*q
-            p.circle(d,xx,yy,4.6,(*LAVA,round(220*hot)))
+            if scene_index in (3,4):
+                tip=visible[-1]
+                p.circle(d,*tip,5.1,(*LAVA,225))
+                p.circle(d,*tip,2.2,(255,237,149,245))
+                for k in range(8):
+                    a=(t*(.11+.025*branch)+k/8)%1
+                    segment=_revealed_path(visible,a)
+                    if segment:
+                        px,py=segment[-1]
+                        p.circle(d,px,py,1.0+(k%3)*.5,(*LAVA,90+(k%3)*32))
     rim_hot=scene_index>=2
     x0,y0=p.p(249,519)
     x1,y1=p.p(311,536)
