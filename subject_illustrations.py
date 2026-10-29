@@ -63,7 +63,7 @@ def fish(p,d,x,y,r,direction,t,identity):
     p.circle(d,x-direction*r*.15+gleam*r*.46,y-r*.28,1.3,(*SEA_FLASH,round(60+70*gleam)))
 
 
-def volcanic_structure(p,im,t):
+def volcanic_structure(p,im,t,scene_index=4):
     """Layered volcanic cone and directional lava fractures behind main data.
 
     Cliffs, rim and fracture zones have distinct silhouettes and internally
@@ -95,34 +95,43 @@ def volcanic_structure(p,im,t):
         p.line(d,points,(141,115,115,110),1.1)
         rpoints=[(405+row*9,y-24),(436+row*9,y-11),(465+row*9,y+5)]
         p.line(d,rpoints,(166,115,108,105),1)
-    # Visible flowing magma follows the right cliff, advancing continuously
-    # along the rock contour rather than a vertical linear progress bar.
-    branches=(
-        [(286,525),(306,563),(337,628),(371,693),(402,756),(452,813)],
-        [(287,528),(273,580),(246,643),(221,700),(183,757)],
-        [(314,555),(347,611),(364,656),(389,718),(422,768)],
-    )
-    for branch,points in enumerate(branches):
-        p.line(d,points,(111,52,43,236),7.5-branch*.7)
-        p.line(d,points,(241,112,48,204),4.3-branch*.3)
-        p.line(d,points,(255,203,88,216),max(1.2,2.2-branch*.3))
-        # Small lava beads visibly run along the corresponding physical path.
-        progress=(t*(.13+branch*.018)+branch*.28)%1
-        i=min(len(points)-2,int(progress*(len(points)-1)))
-        q=progress*(len(points)-1)-i
-        xx=points[i][0]*(1-q)+points[i+1][0]*q
-        yy=points[i][1]*(1-q)+points[i+1][1]*q
-        p.circle(d,xx,yy,4.6,(*LAVA,234))
-    # Crater is a horizontal incandescent ellipse rim, not a simple line.
-    x0,y0=p.p(249,519);x1,y1=p.p(311,536)
-    d.ellipse((x0,y0,x1,y1),fill=(213,87,42,243),outline=(255,198,90,250),
+    # Stage-specific geology prevents identical volcanic slides across the story.
+    # Magma is trapped for the first three beats and only reaches the outer
+    # slopes when the narrative actually introduces an eruption.
+    if scene_index>=3:
+        branches=(
+            [(286,525),(306,563),(337,628),(371,693),(402,756),(452,813)],
+            [(287,528),(273,580),(246,643),(221,700),(183,757)],
+            [(314,555),(347,611),(364,656),(389,718),(422,768)],
+        )
+        for branch,points in enumerate(branches):
+            hot=1.0 if scene_index in (3,4) else .45
+            p.line(d,points,(111,52,43,236),7.5-branch*.7)
+            p.line(d,points,(min(255,round(122+119*hot)),round(78+34*hot),48,215),4.3-branch*.3)
+            p.line(d,points,(255,round(104+99*hot),88,round(110+106*hot)),
+                   max(1.2,2.2-branch*.3))
+            progress=(t*(.13+branch*.018)+branch*.28)%1
+            i=min(len(points)-2,int(progress*(len(points)-1)))
+            q=progress*(len(points)-1)-i
+            xx=points[i][0]*(1-q)+points[i+1][0]*q
+            yy=points[i][1]*(1-q)+points[i+1][1]*q
+            p.circle(d,xx,yy,4.6,(*LAVA,round(220*hot)))
+    rim_hot=scene_index>=2
+    x0,y0=p.p(249,519)
+    x1,y1=p.p(311,536)
+    d.ellipse((x0,y0,x1,y1),
+              fill=(213,87,42,243) if rim_hot else (69,65,75,244),
+              outline=(255,198,90,245) if rim_hot else (126,124,133,210),
               width=max(1,round(2*p.s)))
-    # Directional vents and embers respond to buoyant rising gas.
-    for j in range(37):
-        age=(t*(.4+j%3*.08)+j*.31)%3.1
-        xx=281+math.sin(j*3.3+age*.75)*(13+age*25)
-        yy=526-age*(64+(j%4)*6)+age*age*3.8
-        if yy<262:
-            continue
-        size=1+(j%3)*.4
-        p.circle(d,xx,yy,size,(250,159+(j%3)*16,88,round(100+115*(1-age/3.2))))
+    if scene_index>=3:
+        # Rising cinders are strongest during the explosive scene, restrained
+        # during cooling, and absent while the chamber is still sealed.
+        count=50 if scene_index==3 else (22 if scene_index==4 else 9)
+        for j in range(count):
+            age=(t*(.4+j%3*.08)+j*.31)%3.1
+            xx=281+math.sin(j*3.3+age*.75)*(13+age*25)
+            yy=526-age*(64+(j%4)*6)+age*age*3.8
+            if yy<262:
+                continue
+            p.circle(d,xx,yy,1+(j%3)*.4,
+                     (250,159+(j%3)*16,88,round(100+115*(1-age/3.2))))
