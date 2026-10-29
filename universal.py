@@ -23,7 +23,7 @@ def _wrap(p,d,text,y,*,size=24,max_lines=4,color=LIGHT,bold=False):
             for i,s in enumerate(lines):
                 p.text(d,s,288,y+(i-(len(lines)-1)/2)*sz*1.48,sz,(*color,250),bold=bold)
             return
-    p.text(d,'SUJET LONG : VOIR DESCRIPTION',288,y,15,(*color,240),bold=True)
+    p.text(d,'CONTINUE WATCHING',288,y,15,(*color,240),bold=True)
 
 def _geometry(p,im,kind,phase,seed):
     d=ImageDraw.Draw(im,'RGBA')
@@ -145,29 +145,51 @@ def topic_symbol(p,im,category,phase):
         p.line(d,[(84,732),(502,732)],(*BLUE,100),1.5)
 
 def frame(p,t:float,cfg:dict):
+    """True continuous animation and synced spoken-word captions."""
+    from kinetic import draw
     scenes=cfg['scenes']
     ix=next((i for i,s in enumerate(scenes) if t<float(s['end'])),len(scenes)-1)
     scene=scenes[ix]
     start,end=float(scene['start']),float(scene['end'])
-    phase=max(0,min(1,(t-start)/(end-start)))
-    seed=int(hashlib.sha256(cfg['topic'].encode()).hexdigest()[:8],16)%101
+    phase=max(0,min(1,(t-start)/max(.001,end-start)))
     im=p.base.copy()
-    _geometry(p,im,scene['visual'],phase,seed)
-    # Add a category-specific original diagram without changing the shared HUD.
-    if scene['visual'] in ('focus','question'):
-        topic_symbol(p,im,topic_category(cfg['topic']),phase)
-    if ix and phase<.08:
-        old=p.base.copy()
-        _geometry(p,old,scenes[ix-1]['visual'],1,seed)
-        im=Image.blend(old,im,phase/.08)
+    category=topic_category(cfg['topic'])
+    draw(p,im,category,t,ix,phase)
     d=ImageDraw.Draw(im,'RGBA')
-    p.text(d,'VERTICAL  /  EXPLAINER',288,64,13,(*MINT,235),bold=True)
-    _wrap(p,d,scene['headline'],161,size=28,max_lines=3,bold=True)
+    p.text(d,'ENGLISH  /  MOTION DOCUMENTARY',288,64,12,(*MINT,230),bold=True)
+    # The title reveals smoothly as narration begins; it never jumps between slides.
+    alpha=round(245*min(1,(t-start)/.30)) if ix else 245
+    title=scene['headline']
+    # Hide the title during the opening few frames rather than drawing static slides.
+    if alpha>0:
+        _wrap(p,d,title,157,size=27,max_lines=3,bold=True,color=LIGHT)
     p.line(d,[(48,255),(528,255)],(*BLUE,95),2)
     p.glow_line(im,[(48,255),(48+480*min(t/float(cfg['duration']),1),255)],MINT,3.1,2.1)
     p.glow_disc(im,48+480*min(t/float(cfg['duration']),1),255,3,GOLD)
     d=ImageDraw.Draw(im,'RGBA')
-    if scene.get('metric'):_wrap(p,d,scene['metric'],323,size=15,max_lines=2,color=MINT,bold=True)
-    _wrap(p,d,scene['caption'],860,size=20,max_lines=4)
-    p.text(d,f'{ix+1:02d} / {len(scenes):02d}',288,968,12,(*LIGHT,165),bold=True)
+    if scene.get('metric'):
+        _wrap(p,d,scene['metric'],322,size=14,max_lines=2,color=MINT,bold=True)
+    # Voice-driven karaoke. Falls back to English scene captions for silent preview.
+    cues=cfg.get('word_cues') or []
+    if cues:
+        matching=[c for c in cues if c['scene']==ix]
+        selected=next((i for i,c in enumerate(matching) if c['start']<=t<c['end']),None)
+        if selected is None:
+            selected=next((i for i,c in enumerate(matching) if t<c['start']),len(matching)-1)
+        if matching and selected>=0:
+            lo=max(0,selected-2);hi=min(len(matching),selected+3)
+            block=matching[lo:hi]
+            widths=[d.textbbox((0,0),c['word'],font=p.font(18,True))[2]/p.s for c in block]
+            total=sum(widths)+12*max(0,len(block)-1)
+            if total>516:
+                block=[matching[selected]]
+                widths=[d.textbbox((0,0),block[0]['word'],font=p.font(18,True))[2]/p.s]
+                total=sum(widths)
+            x=288-total/2
+            for c,w in zip(block,widths):
+                p.text(d,c['word'],x+w/2,858,18,(*(GOLD if c is matching[selected] else LIGHT),255),bold=True)
+                x+=w+12
+    else:
+        _wrap(p,d,scene['caption'],858,size=19,max_lines=4)
+    p.text(d,f'{ix+1:02d} / {len(scenes):02d}',288,969,12,(*LIGHT,165),bold=True)
     return im.convert('RGB')
