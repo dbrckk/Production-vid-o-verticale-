@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - .github/workflows/volcano-proof.yml
+      - volcano_story.py
+      - scene_backdrops.py
+      - subject_illustrations.py
+      - kinetic.py
 permissions:
   contents: read
 concurrency:
