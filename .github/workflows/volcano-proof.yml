@@ -9,6 +9,10 @@ on:
       - scene_backdrops.py
       - subject_illustrations.py
       - kinetic.py
+      - cinematic.py
+      - universal.py
+      - narration.py
+      - subtitle_design.py
 permissions:
   contents: read
 concurrency:
@@ -44,6 +48,7 @@ jobs:
           from pathlib import Path
           meta=json.loads(Path('output/volcano-proof.json').read_text())
           assert meta['voice']['delivery_style']=='continuous_documentary'
+          assert len(set(scene['headline'] for scene in meta['scenes']))>=5
           assert meta['voice']['language']=='en'
           assert len(meta['word_cues'])>=40
           assert meta['width']==720 and meta['height']==1280
