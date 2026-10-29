@@ -132,31 +132,9 @@ def ocean(p, im, t, ix, phase):
         moving_particles(p,im,t,ix,26,400,760)
 
 def volcano(p,im,t,ix,phase):
-    # Geological painter creates persistent terrain, lava fractures and ember
-    # flight before the explanatory animated eruption geometry is laid over it.
-    from subject_illustrations import volcanic_structure
-    volcanic_structure(p,im,t)
-    d=ImageDraw.Draw(im,"RGBA")
-    crater=513
-    path(p,d,[(28,775),(174,615),(235,520),(275,crater),(317,520),(391,627),(550,775)],CYAN,5,230)
-    path(p,d,[(248,523),(277,521),(302,528)],GOLD,9,235)
-    # Animated molten lava pours down both slopes.
-    for k in range(10):
-        yy=545+k*21
-        xx=288+math.sin(k*.3+t*.33)*8 + (k*8)%28
-        path(p,d,[(xx,yy),(xx+5+4*math.sin(t*2+k),yy+18)],GOLD,5.5,225)
-    # Ballistic rock particles in different stages of flight.
-    for k in range(70):
-        age=(t*1.0+k*.193) % 3.7
-        vx=math.sin(k*4.123)*110+math.sin(k*1.7)*55
-        px=288+vx*age/1.55
-        py=515-195*age+62*age*age
-        if 285<py<830:
-            dot(p,d,px,py,1.9+(k%4),GOLD if k%3 else CYAN,150+(k%3)*30)
-    # Volcano periodically illuminates the surroundings.
-    pulse=(math.sin(t*2.8)+1)/2
-    p.circle(d,285,515,24+15*pulse,None,(*GOLD,int(35+80*pulse)),3)
-    moving_particles(p,im,t,ix,25,370,810)
+    """Scene-dependent physical eruption, not the same animated volcano six times."""
+    from volcano_story import draw as draw_volcanic_chapter
+    draw_volcanic_chapter(p,im,t,ix,phase)
 
 
 def space(p,im,t,ix,phase):
