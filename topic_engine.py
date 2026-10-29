@@ -122,7 +122,7 @@ def require_english_topic(topic: str):
     if not isinstance(topic,str) or len(topic.strip())<3:
         raise ValueError("Enter a topic in English")
     value=topic.casefold()
-    french_words=re.findall(r"\b(?:pourquoi|comment|quelles|quels|est-ce|sont-ils|sommes|avez-vous|les|des|une|dans|nous|vous|notre|aujourd'hui|commentaire|expliquer|étude|découverte|réchauffement)\b",value)
+    french_words=re.findall(r"\b(?:pourquoi|comment|fonctionne|fonctionnent|le|la|du|de|quelles|quels|est-ce|sont-ils|sommes|avez-vous|les|des|une|dans|nous|vous|notre|aujourd'hui|commentaire|expliquer|étude|découverte|réchauffement)\b",value)
     if len(french_words)>=2 or re.search(r"[éèêëàâîïôûùçœ]", value):
         raise ValueError("English only: please enter or select an English-language topic")
 
