@@ -1,8 +1,24 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T10:38:33.490541+00:00",
+  "generated_at": "2026-10-29T10:39:05.892447+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "Lloyds executive criticises Healey for linking bank tax rises to energy bill support",
+      "summary": "Bank’s chief financial officer hopes measure in budget is temporary as sector provides loans that could fuel growth A top Lloyds Banking Group executive has criticised the chancellor for linking bank tax increases to energy bill support for UK households, as he warned the government against extending the",
+      "source": "The Guardian",
+      "published": "2026-10-29T10:31:55+00:00",
+      "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
+      "importance": 2.548
+    },
+    {
+      "title": "Treasury denies Healey plan to cut welfare bill before election, claiming his comments were misinterpreted – UK politics live",
+      "summary": "Asked earlier if there would be a cut to the welfare bill before the next election, the chancellor said: ‘There will be a reduction in the benefits bill’ The Resolution Foundation has now published its full 48-page report on the budget. Some of its main arguments were covered earlier. (See 8.36am .) Here are",
+      "source": "The Guardian",
+      "published": "2026-10-29T10:21:33+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/oct/29/budget-john-healey-labour-uk-politics-latest-news",
+      "importance": 2.546
+    },
     {
       "title": "Poundland's future hangs in the balance as chain edges towards collapse",
       "summary": "Poundland's bosses have filed a notice of intention to appoint administrators to the business.",
@@ -20,12 +36,12 @@
       "importance": 2.542
     },
     {
-      "title": "Treasury denies Healey plan to cut welfare bill before election, claiming his comments were misinterpreted – UK politics live",
-      "summary": "Asked earlier if there would be a cut to the welfare bill before the next election, the chancellor said: ‘There will be a reduction in the benefits bill’ John Healey has denied postponing difficult decisions on the welfare system, insisting the government is making changes “now”. Thinktanks and opposition",
-      "source": "The Guardian",
-      "published": "2026-10-29T09:50:22+00:00",
-      "url": "https://www.theguardian.com/politics/live/2026/oct/29/budget-john-healey-labour-uk-politics-latest-news",
-      "importance": 2.539
+      "title": "How could Israel break election deadlock? Here are four scenarios",
+      "summary": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+      "source": "BBC World",
+      "published": "2026-10-29T09:06:48+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.529
     },
     {
       "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
@@ -33,14 +49,6 @@
       "source": "The Guardian",
       "published": "2026-10-29T09:10:22+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
-      "importance": 2.53
-    },
-    {
-      "title": "How could Israel break election deadlock? Here are four scenarios",
-      "summary": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
-      "source": "BBC World",
-      "published": "2026-10-29T09:06:48+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
       "importance": 2.529
     },
     {
@@ -58,14 +66,6 @@
       "published": "2026-10-29T08:00:37+00:00",
       "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
       "importance": 2.513
-    },
-    {
-      "title": "Healey vows to cut welfare bill before next election with ‘tough’ approach to young people",
-      "summary": "Chancellor’s comments come as fiscal watchdog says disability benefits will cost £100bn a year before end of decade Business live – latest updates John Healey had said there will be a reduction in the welfare bill before the next election, with a “tough” approach to young people who do not accept support to",
-      "source": "The Guardian",
-      "published": "2026-10-29T07:54:05+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/29/healey-cut-welfare-bill-tough-approach-young-people-accept-jobs",
-      "importance": 2.512
     },
     {
       "title": "Albanese concedes savings needed as he faces internal Labor pressure on cost-of-living crisis",
@@ -145,7 +145,7 @@
       "source": "The Guardian",
       "published": "2026-10-28T09:37:49+00:00",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-      "importance": 2.203
+      "importance": 2.202
     },
     {
       "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
@@ -220,14 +220,6 @@
       "importance": 1.989
     },
     {
-      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
-      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
-      "source": "BBC Technology",
-      "published": "2026-10-29T09:31:44+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.985
-    },
-    {
       "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
       "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
       "source": "BBC World",
@@ -241,6 +233,14 @@
       "source": "The Guardian",
       "published": "2026-10-29T09:29:30+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+      "importance": 1.984
+    },
+    {
+      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
+      "source": "BBC Technology",
+      "published": "2026-10-29T09:31:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
       "importance": 1.984
     },
     {
@@ -273,7 +273,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T08:26:51+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/one-nation-accuses-pm-of-trying-to-exert-undue-political-influence-by-offering-david-farley-extra-staffer-ntwnfb",
-      "importance": 1.97
+      "importance": 1.969
     },
     {
       "title": "Police investigate gang links as woman, 19, dies after drive-by shooting at Brisbane pub",
@@ -321,7 +321,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T07:22:28+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/peptide-actor-richard-norton-death-coroner-tga-review-ntwnfb",
-      "importance": 1.955
+      "importance": 1.954
     },
     {
       "title": "Lambie scolded by ADF chief over hidden camera revelation – as it happened",
@@ -356,14 +356,6 @@
       "importance": 1.941
     },
     {
-      "title": "RAF base chemical contamination worst in UK, report says",
-      "summary": "Testing at RAF Upper Heyford finds \"unacceptable\" levels of polyfluoroalkyl substances (PFAS).",
-      "source": "BBC Science",
-      "published": "2026-10-29T06:13:24+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.939
-    },
-    {
       "title": "Haulier blames fuel prices for diesel theft",
       "summary": "Martin Pinches said someone had stolen 400 litres of diesel from two of his lorries",
       "source": "BBC Business",
@@ -372,12 +364,20 @@
       "importance": 1.939
     },
     {
+      "title": "RAF base chemical contamination worst in UK, report says",
+      "summary": "Testing at RAF Upper Heyford finds \"unacceptable\" levels of polyfluoroalkyl substances (PFAS).",
+      "source": "BBC Science",
+      "published": "2026-10-29T06:13:24+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.938
+    },
+    {
       "title": "Cambodian police and soldiers helped guard abusive scam compounds, Amnesty alleges",
       "summary": "Survivors tell rights group that serving officers who worked as guards administered electric shocks and beatings Cambodian police and military officers worked as private security guards in scam compounds where thousands were forced to work in the online fraud industry, according to a report by Amnesty",
       "source": "The Guardian",
       "published": "2026-10-29T06:00:26+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/29/cambodian-police-scam-compounds-amnesty-international",
-      "importance": 1.936
+      "importance": 1.935
     },
     {
       "title": "Regular spaceplane flights planned in project",
