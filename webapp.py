@@ -8,6 +8,7 @@ from urllib.parse import urlsplit
 import hmac,json,os,secrets
 from generate_topic import build
 from studio import render
+from narration import make_narration
 from topic_engine import random_important_news,create_story,current_headlines
 
 ROOT=Path(__file__).resolve().parent
@@ -26,7 +27,7 @@ class State:
             expired=finished[:-max_outputs]
             for key in expired:self.jobs.pop(key,None)
         for key in expired:
-            for suffix in ('.mp4','.json','.sound.wav'):
+            for suffix in ('.mp4','.json','.sound.wav','.voice.wav'):
                 (self.directory/f'{key}{suffix}').unlink(missing_ok=True)
         # cover.png is shared with the legacy renderer and may be in use.
 
@@ -42,8 +43,12 @@ class State:
             with self.lock:self.jobs[job]['status']='rendering'
             try:
                 width,fps={'preview':(540,15),'720p':(720,24),'1080p':(1080,30)}[quality]
-                result=render(cfg,self.directory/f'{job}.mp4',width,fps,preview=quality=='preview')
-                with self.lock:self.jobs[job].update(status='ready',info=result)
+                with self.lock:self.jobs[job]['status']='narrating'
+                voice_file=self.directory/f'{job}.voice.wav'
+                voice_info=make_narration(cfg,voice_file,provider='edge',voice='en-US-AriaNeural')
+                with self.lock:self.jobs[job]['status']='rendering'
+                result=render(cfg,self.directory/f'{job}.mp4',width,fps,preview=quality=='preview',voice=voice_file)
+                with self.lock:self.jobs[job].update(status='ready',info=result,voice=voice_info)
             except Exception as error:
                 with self.lock:self.jobs[job].update(status='error',error=str(error)[:200])
             finally:
