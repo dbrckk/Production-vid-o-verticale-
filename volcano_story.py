@@ -37,7 +37,7 @@ def draw(p,im,t,scene_index,phase):
 
     stage=min(5,max(0,int(scene_index)))
     q=ease(phase)
-    volcanic_structure(p,im,t,stage)
+    volcanic_structure(p,im,t,stage,phase)
     d=ImageDraw.Draw(im,"RGBA")
 
     if stage==0:
@@ -62,7 +62,8 @@ def draw(p,im,t,scene_index,phase):
     elif stage==1:
         # Dissolved gases expand within a magma chamber as overburden
         # pressure evolves. Upward flux is encoded by moving bubbles.
-        pressure=60+22*math.sin(t*.65)
+        # Stage pressure grows with the narrated process, not a repeating loop.
+        pressure=48+34*q+1.7*math.sin(t*.45)
         _ellipse(p,d,288,741,100,62,(128,54,50,240),(255,162,75,240),3)
         _ellipse(p,d,288,745,75,40,(227,103,55,217))
         _ellipse(p,d,288,741,pressure+42,pressure*.70+40,None,(253,164,90,101),2)
@@ -116,7 +117,7 @@ def draw(p,im,t,scene_index,phase):
     elif stage==3:
         # Explosive column: ash volume expands with buoyancy, rocks follow
         # ballistic trajectories, and seismic ripples spread from the vent.
-        for j in range(28):
+        for j in range(4+round(24*q)):
             age=(t*.44+j*.27)%3.0
             px=287+math.sin(age*.95+j*2.7)*(11+age*29)
             py=516-age*100+13*math.sin(j*.93)
@@ -135,28 +136,32 @@ def draw(p,im,t,scene_index,phase):
             p.circle(d,288,530,radius,None,(255,183,108,round(85*(1-radius/165))),2.4)
 
     elif stage==4:
-        # Slow, persistent effusive flow is brighter near its moving front
-        # and darker in cooled regions; no unnecessary explosive particles.
-        flow=[
+        # Keep molten pockets moving *within* lava already laid down by the
+        # physically advancing front in volcanic_structure. No independent
+        # repeated 'start again from the vent' position, which used to read
+        # as a looping GIF rather than a long-lived eruptive event.
+        from subject_illustrations import _revealed_path
+        paths=(
             [(287,527),(306,567),(337,634),(374,696),(407,758),(459,811)],
             [(287,527),(273,578),(249,633),(223,693),(188,761)],
-        ]
-        for j,pts in enumerate(flow):
-            front=(t*.12+j*.25)%1
-            position=front*(len(pts)-1)
-            segment=min(len(pts)-2,int(position))
-            frac=position-segment
-            x=pts[segment][0]*(1-frac)+pts[segment+1][0]*frac
-            y=pts[segment][1]*(1-frac)+pts[segment+1][1]*frac
-            p.circle(d,x,y,9,(*LAVA,186))
-            p.circle(d,x,y,4,(*AMBER,249))
-            for k in range(10):
-                age=(t*.24+k*.19+j*.13)%1
-                a=min(len(pts)-2,int(age*(len(pts)-1)))
-                f=age*(len(pts)-1)-a
-                xx=pts[a][0]*(1-f)+pts[a+1][0]*f
-                yy=pts[a][1]*(1-f)+pts[a+1][1]*f
-                p.circle(d,xx,yy,1.7,(254,154,72,192))
+        )
+        progress=.385+.615*q
+        for branch,pts in enumerate(paths):
+            visible=_revealed_path(pts,max(0,progress-branch*.12))
+            if len(visible)<2:
+                continue
+            for k in range(12):
+                location=(t*.065+k/12+branch*.04)%1
+                position=_revealed_path(visible,location)[-1]
+                px,py=position
+                pulse=.5+.5*math.sin(t*1.8+k*.9)
+                p.circle(d,px,py,1.8+.9*pulse,
+                         (255,185,96,round(80+105*pulse)))
+        # Slight hot-air distortion cues confined to the visible summit.
+        for j in range(7):
+            x=257+j*10
+            y=492-12*math.sin(t*.55+j*.77)
+            p.line(d,[(x,y+8),(x+3,y-6)],(*AMBER,45+round(30*q)),1.1)
 
     else:
         # After eruption, hot rock cools while steam slowly rises. The magma
