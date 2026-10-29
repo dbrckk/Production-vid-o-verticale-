@@ -255,3 +255,31 @@ a synthetic voice is indistinguishable from a human narrator. Unsupported
 news remains source-constrained and thin reports are rejected rather than
 filled with invented events or statistics. GitHub tests and production Docker
 smoke checks must pass before considering a code revision ready.
+
+
+## Social publishing profile — clean 1080p master
+
+The **Publish** option in the Render mobile interface is selected by default:
+1080 × 1920 (exact 9:16), 30 FPS, H.264 **High** (`libx264` slow preset,
+CRF 16, 2-second GOP), limited-range YUV420p with explicit **BT.709** color
+primaries / transfer / matrix, faststart MP4, and AAC LC at 48 kHz / 256 kbit/s.
+The mastering filter targets about **−17 LUFS** and automatically ducks the
+original music under English narration. Lower-resolution modes are clearly
+marked **Review**, not publication masters.
+
+**Clean social layout:** the delivery image intentionally contains no
+`01/06` or other chapter counter, no studio branding label, no watermark,
+no playback progress bar and no extraneous end-card. Word-timed subtitles
+stay within the horizontal phone-safe area, with the bottom **170 reference
+pixels (about 16.6% of the full vertical image)** left clear for social-app
+controls and captions. Paper-fold metrics remain when they actually explain
+the science, but unrelated bottom footers were removed. The storyboard,
+universal and classic paper formats all support English narrated subtitles.
+
+To validate the complete publication pipeline, run the GitHub workflow:
+[Publish-grade 1080p English documentary proof](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/publication-proof.yml).
+It renders a complete English-voice documentary in full HD and blocks the
+export unless the format, color tags, motion, word cues and audio pass the
+QA gate. The generated `publication-quality.json` records the objective
+measurements. A passing technical report does not substitute for a human
+editorial and factual review before actually posting on a social network.
