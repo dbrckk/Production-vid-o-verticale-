@@ -518,12 +518,15 @@ ANIMATORS = {
 
 
 def draw(p,im,category: str,t:float,scene_index:int,phase:float,visual:str|None=None):
-    # Slow camera drift: starfield and a second independent parallax layer.
-    d=ImageDraw.Draw(im,"RGBA")
-    for i in range(35):
-        x=25+(i*73+(t*(i%3+1)*3))%528
-        y=310+(i*83+(t*(i%5+1)*2))%480
-        dot(p,d,x,y,.7+(i%3)*.4,BLUE,32+(i%3)*20)
+    # Stars belong in astronomy, not in a bright ocean or a volcanic sky.
+    # Physical subjects already have appropriate, moving environmental
+    # parallax from scene_backdrops; no generic decorative UI particles.
+    if category in ("space","general"):
+        d=ImageDraw.Draw(im,"RGBA")
+        for i in range(35):
+            x=25+(i*73+(t*(i%3+1)*3))%528
+            y=310+(i*83+(t*(i%5+1)*2))%480
+            dot(p,d,x,y,.7+(i%3)*.4,BLUE,32+(i%3)*20)
     if category == 'general' and visual is not None:
         from semantic_motion import draw as draw_semantic
         draw_semantic(p,im,visual,t,phase,scene_index)
@@ -534,6 +537,3 @@ def draw(p,im,category: str,t:float,scene_index:int,phase:float,visual:str|None=
         if category not in ANIMATORS or category == 'general':
             from motion_layers import animate
             animate(p,im,t,scene_index,phase)
-    # A physically moving highlight sweeps behind the active diagram.
-    x=72+432*(phase**.8)
-    path(p,d,[(x,821),(x+12,821)],CYAN,2.8,230)
