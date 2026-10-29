@@ -416,7 +416,7 @@ def earthquake(p, im, t, ix, phase):
                     if 482<wy<696:
                         p.circle(d,wx,wy,6,(125,222,207,140))
             p.text(d,"FIRM GROUND" if side==0 else "SOFT SOIL",
-                   bx,831,12,(*CYAN if side==0 else GOLD,235),bold=True)
+                   bx,831,12,(*(CYAN if side==0 else GOLD),235),bold=True)
         for k in range(18):
             x=51+k*27
             y=690+2*math.sin(t*10+k)
