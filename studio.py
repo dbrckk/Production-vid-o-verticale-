@@ -445,7 +445,8 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
          '-s',f'{width}x{height}','-r',str(fps),'-i','pipe:0','-i',str(audio)]
     if voice:
         if not voice.exists():raise FileNotFoundError(voice)
-        cmd+=['-i',str(voice),'-filter_complex','[1:a]volume=0.13[bed];[2:a]highpass=f=65,acompressor=threshold=0.12:ratio=2.2:attack=10:release=160,volume=1.05[vox];[bed][vox]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.92[a]','-map','0:v','-map','[a]']
+        from audio_mastering import narration_mix
+        cmd+=['-i',str(voice),'-filter_complex',narration_mix(),'-map','0:v','-map','[a]']
     else:cmd+=['-map','0:v','-map','1:a']
     cmd+=['-c:v','libx264','-preset','medium' if not preview else 'veryfast',
           '-crf','18' if not preview else '21','-pix_fmt','yuv420p','-movflags','+faststart',
@@ -471,7 +472,9 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     info={'output':str(output),'cover':str(cover),'width':width,'height':height,'fps':fps,
           'duration':duration,'frames':frames,'mode':cfg.get('mode','paper')}
     if info['mode']=='universal':
-        info.update(topic=cfg['topic'],evidence=cfg.get('evidence','unsourced'),
+        from audio_mastering import quality_targets
+        info.update(audio_mastering=quality_targets() if voice else {'dialogue_primary':False},
+                    topic=cfg['topic'],evidence=cfg.get('evidence','unsourced'),
                     sources=cfg.get('sources',[]),scenes=cfg['scenes'],
                     voice=cfg.get('voice'),word_cues=cfg.get('word_cues',[]))
     elif info['mode']=='storyboard':
