@@ -404,17 +404,10 @@ def earthquake(p, im, t, ix, phase):
                 path(p,d,[(bx-97,y),(bx+97,y+3*math.sin(t*.7+k))],
                      BLUE if side==0 else GOLD,1.4,95)
             height=214 if side==0 else 160
-            x0,y0=p.p(bx-53+shake,699-height)
-            x1,y1=p.p(bx+53+shake,699)
-            d.rounded_rectangle((x0,y0,x1,y1),radius=max(2,round(3*p.s)),
-                                fill=(36,70,90,240),outline=(*CYAN,240),
-                                width=max(1,round(2*p.s)))
-            for row in range(5 if side==0 else 4):
-                for col in range(3):
-                    wx=bx-33+col*32+shake
-                    wy=523+(row*30 if side==0 else 25+row*30)
-                    if 482<wy<696:
-                        p.circle(d,wx,wy,6,(125,222,207,140))
+            from geology_premium import building_response
+            # Amplification is illustrative, not a universal site-specific
+            # seismic prediction; the floors flex rather than sliding rigidly.
+            building_response(p,d,bx,699,height,t,3.8 if side==0 else 12.5,side)
             # Keep factual comparisons above the illustration; the subtitle
             # band occupies the lower 16% of the publishing-safe frame.
             p.text(d,"FIRM GROUND" if side==0 else "SOFT SOIL",
