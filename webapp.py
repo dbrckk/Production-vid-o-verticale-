@@ -32,10 +32,10 @@ class State:
         # cover.png is shared with the legacy renderer and may be in use.
 
     def start(self,topic:str,article:dict|None,quality:str):
-        if quality not in ('preview','720p','1080p'):raise ValueError('Qualité inconnue')
+        if quality not in ('preview','720p','1080p'):raise ValueError('Unknown video quality')
         cfg=create_story(topic,article=article) if article else build(topic,False,30)
         with self.lock:
-            if self.busy:raise RuntimeError('Une vidéo est déjà en cours de calcul')
+            if self.busy:raise RuntimeError('Another video is rendering')
             self.busy=True
             job=secrets.token_hex(12)
             self.jobs[job]={'id':job,'status':'queued','topic':cfg['topic'],'sources':cfg['sources']}
@@ -45,7 +45,7 @@ class State:
                 width,fps={'preview':(540,15),'720p':(720,24),'1080p':(1080,30)}[quality]
                 with self.lock:self.jobs[job]['status']='narrating'
                 voice_file=self.directory/f'{job}.voice.wav'
-                voice_info=make_narration(cfg,voice_file,provider='edge',voice='en-US-AriaNeural')
+                voice_info=make_narration(cfg,voice_file,provider='edge',voice='en-US-AndrewNeural')
                 with self.lock:self.jobs[job]['status']='rendering'
                 result=render(cfg,self.directory/f'{job}.mp4',width,fps,preview=quality=='preview',voice=voice_file)
                 with self.lock:self.jobs[job].update(status='ready',info=result,voice=voice_info)
@@ -80,7 +80,7 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header('Content-Length',str(len(data)))
             self.send_header('X-Content-Type-Options','nosniff')
             self.end_headers();self.wfile.write(data);return
-        if not self._auth():return self.send_json(401,{'error':'Token requis'})
+        if not self._auth():return self.send_json(401,{'error':'Access key required'})
         if route=='/api/random':
             try:return self.send_json(200,{'article':random_important_news()})
             except RuntimeError as e:return self.send_json(503,{'error':str(e)})
@@ -90,11 +90,11 @@ class Handler(BaseHTTPRequestHandler):
             if len(job)!=24 or not all(c in '0123456789abcdef' for c in job):
                 return self.send_json(404,{'error':'Identifiant inconnu'})
             with self.server.state.lock:state=self.server.state.jobs.get(job)
-            if not state:return self.send_json(404,{'error':'Vidéo introuvable'})
+            if not state:return self.send_json(404,{'error':'Video not found'})
             if parts[2]=='status':return self.send_json(200,state)
-            if state['status']!='ready':return self.send_json(409,{'error':'Vidéo non terminée'})
+            if state['status']!='ready':return self.send_json(409,{'error':'Video is still rendering'})
             video=self.server.state.directory/f'{job}.mp4'
-            if not video.is_file():return self.send_json(404,{'error':'MP4 introuvable'})
+            if not video.is_file():return self.send_json(404,{'error':'MP4 not found'})
             self.send_response(200)
             self.send_header('Content-Type','video/mp4')
             self.send_header('Content-Disposition',f'attachment; filename="vertical-{job}.mp4"')
@@ -104,24 +104,24 @@ class Handler(BaseHTTPRequestHandler):
             with video.open('rb') as stream:
                 while chunk:=stream.read(1<<18):self.wfile.write(chunk)
             return
-        self.send_json(404,{'error':'Route inconnue'})
+        self.send_json(404,{'error':'Unknown route'})
     def do_POST(self):
-        if not self._auth():return self.send_json(401,{'error':'Token requis'})
-        if urlsplit(self.path).path!='/api/render':return self.send_json(404,{'error':'Route inconnue'})
+        if not self._auth():return self.send_json(401,{'error':'Access key required'})
+        if urlsplit(self.path).path!='/api/render':return self.send_json(404,{'error':'Unknown route'})
         try:
             length=int(self.headers.get('Content-Length','0'))
-            if not 0<length<=4096:raise ValueError('Requête invalide')
+            if not 0<length<=4096:raise ValueError('Invalid request')
             body=json.loads(self.rfile.read(length))
             topic=body.get('topic','')
-            if not isinstance(topic,str) or not 3<=len(topic)<=500:raise ValueError('Sujet invalide')
+            if not isinstance(topic,str) or not 3<=len(topic)<=500:raise ValueError('Invalid topic')
             article=body.get('article')
             if article is not None:
                 if not isinstance(article,dict) or not isinstance(article.get('url'),str):
-                    raise ValueError('Article invalide')
+                    raise ValueError('Invalid article')
                 matches=[x for x in self.server.news_provider() if x['url']==article['url']]
-                if not matches:raise ValueError('Article non vérifié ou trop ancien')
+                if not matches:raise ValueError('Article is unverified or too old')
                 article=matches[0]
-                if topic!=article['title']:raise ValueError('Le titre ne correspond pas à la source')
+                if topic!=article['title']:raise ValueError('Topic does not match the source article')
             result=self.server.state.start(topic,article,body.get('quality','preview'))
             self.send_json(202,result)
         except (ValueError,TypeError,KeyError,json.JSONDecodeError) as e:self.send_json(400,{'error':str(e)})
