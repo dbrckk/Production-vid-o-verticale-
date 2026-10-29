@@ -1,4 +1,4 @@
-name: Publish-grade 1080p English documentary proof
+name: Cinematic 1080p60 English documentary proof
 on:
   workflow_dispatch:
   push:
@@ -25,12 +25,12 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg fonts-dejavu-core
           python -m pip install -r requirements.txt
-      - name: Render complete English 1080 x 1920, 30 FPS social master
+      - name: Render a full natural-English 1080 x 1920 60 FPS documentary
         run: |
           python generate_topic.py --topic "What causes earthquakes?" --output output/publication-topic.json
           python studio.py --config output/publication-topic.json \
-            --narrate --tts-provider edge --tts-voice en-US-AndrewNeural \
-            --width 1080 --fps 30 --output output/publish-master.mp4
+            --narrate --tts-provider edge --tts-voice en-US-BrianMultilingualNeural \
+            --width 1080 --fps 60 --output output/publish-master.mp4
       - name: Validate clean platform-safe final master and original sound
         run: |
           python qa_video.py --video output/publish-master.mp4 \
@@ -41,10 +41,12 @@ jobs:
           from pathlib import Path
           manifest=json.loads(Path("output/publish-master.json").read_text())
           report=json.loads(Path("output/publication-quality.json").read_text())
-          assert manifest["export_profile"]=="publication_1080p"
+          assert manifest["export_profile"]=="publication_1080p60"
           assert report["publication_spec"] is True
           assert report["width"]==1080 and report["height"]==1920
-          assert manifest["fps"]==30
+          assert manifest["fps"]==60
+          assert manifest["voice"]["voice"]=="en-US-BrianMultilingualNeural"
+          assert manifest["voice"]["delivery_style"]=="continuous_documentary"
           assert manifest["encoding"]["chapter_numbers"] is False
           assert manifest["encoding"]["watermark"] is False
           assert report["audio_language"]=="en"
@@ -56,7 +58,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: success()
         with:
-          name: publish-ready-english-1080p30-2d
+          name: premium-english-1080p60-continuous-voice-2d
           path: |
             output/publish-master.mp4
             output/publish-master.json
