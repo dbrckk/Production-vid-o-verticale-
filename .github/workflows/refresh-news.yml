@@ -1,0 +1,43 @@
+name: Update verified news selection
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */8 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh-news.yml'
+      - 'topic_engine.py'
+      - 'scripts/export_news.py'
+permissions:
+  contents: write
+concurrency:
+  group: vertical-news-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build trusted news feed
+        run: |
+          python scripts/export_news.py --output hf_space/news.json
+          python -m json.tool hf_space/news.json >/dev/null
+      - name: Commit changes only when content differs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- hf_space/news.json; then
+            echo "No new data"
+            exit 0
+          fi
+          git add hf_space/news.json
+          git commit -m "Update recent sourced stories for Hugging Face static studio"
+          git pull --rebase origin main
+          git push origin HEAD:main
