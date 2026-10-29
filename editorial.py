@@ -159,7 +159,7 @@ def compose_news_story(title: str, article: dict, duration: int) -> dict:
     except (ValueError, TypeError) as exc:
         raise ValueError("News publication date is invalid") from exc
     # Preserve full sentences when possible; split lengthy briefs at punctuation.
-    phrases = [s.strip() for s in re.split(r"(?<=[.!?])\\s+", description) if len(s.strip()) > 10]
+    phrases = [s.strip() for s in re.split(r"(?<=[.!?])\s+", description) if len(s.strip()) > 10]
     if not phrases:
         phrases = [description]
     beats = [(title.upper()[:145], f"Here is the latest from {source}. {title}.", "NEWS UPDATE")]
