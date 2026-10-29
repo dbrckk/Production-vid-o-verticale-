@@ -24,7 +24,8 @@ def narration_mix() -> str:
         "[bed][key]sidechaincompress="
         "threshold=0.018:ratio=7:attack=24:release=420[ducked];"
         "[ducked][narrator]amix=inputs=2:duration=first:normalize=0,"
-        "alimiter=limit=0.92:attack=6:release=90[a]"
+        "alimiter=limit=0.92:attack=6:release=90,"
+        "loudnorm=I=-17:TP=-1.5:LRA=9,alimiter=limit=0.95[a]"
     )
 
 def quality_targets() -> dict:
@@ -33,6 +34,8 @@ def quality_targets() -> dict:
         "music_ducking": "voice_sidechain",
         "speech_highpass_hz": 75,
         "speech_lowpass_hz": 11500,
-        "mix_peak_limit": 0.92,
+        "mix_peak_limit": 0.95,
+        "integrated_target_lufs": -17,
+        "true_peak_target_dbtp": -1.5,
         "voice_language": "en",
     }
