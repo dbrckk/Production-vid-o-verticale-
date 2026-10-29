@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - 'presets/ocean-currents.json'
+      - 'scene_backdrops.py'
+      - 'subject_illustrations.py'
+      - 'kinetic.py'
+      - 'cinematic.py'
       - '.github/workflows/ocean-proof.yml'
 permissions:
   contents: read
