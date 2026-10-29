@@ -284,9 +284,95 @@ def general(p,im,t,ix,phase):
     p.circle(d,288,560,38,(28,69,82,210),(*CYAN,230),2.2)
 
 
+def earthquake(p, im, t, ix, phase):
+    """Fault slip, outward seismic waves and a scrolling seismograph."""
+    d=ImageDraw.Draw(im,"RGBA")
+    pulse=max(0.0,math.sin(t*3.2+ix*.35))
+    shift=(3+ix*1.5)*math.sin(t*2.8) if ix>=2 else math.sin(t*.8)*1.7
+    left=[(28,613+shift),(265,600+shift),(275,724),(28,751)]
+    right=[(286,602-shift),(550,628-shift),(550,750),(276,724)]
+    d.polygon([p.p(*xy) for xy in left],fill=(39,72,90,210))
+    d.polygon([p.p(*xy) for xy in right],fill=(62,58,91,210))
+    path(p,d,[(25,612+shift),(265,600+shift)],CYAN,4,210)
+    path(p,d,[(286,602-shift),(550,628-shift)],BLUE,4,210)
+    path(p,d,[(272,600),(285,632),(267,664),(286,702),(275,724)],GOLD,4,220)
+    for ring in range(6):
+        age=(t*.54+ring/6+ix*.08)%1
+        p.circle(d,276,608,30+age*205,None,(*GOLD,int((1-age)**1.4*170)),2.8)
+    for i in range(50):
+        x=40+(i*91.31)%505
+        y=395+(i*37.2)%150
+        dot(p,d,x+3*math.sin(t*2+i),y+7*pulse*math.sin(i*1.7),
+            1+(i%3)*.5,CYAN if i%4 else GOLD,65)
+    graph=[]
+    for i in range(101):
+        x=40+i*4.95
+        q=i/100*9-t*2.5
+        amp=(6+45*pulse)*math.exp(-((q%3.2)-1.2)**2/.12)
+        graph.append((x,831+amp*math.sin(q*16)))
+    path(p,d,graph,CYAN,2.6,235)
+
+
+def weather(p, im, t, ix, phase):
+    """Moving convection cells, cloud banks, rain and wind trajectories."""
+    d=ImageDraw.Draw(im,"RGBA")
+    for band in range(3):
+        y=429+band*130
+        pts=[(x,y+16*math.sin(x*.012-t*(.55+band*.15)+band))
+             for x in range(45,551,8)]
+        path(p,d,pts,BLUE if band%2 else CYAN,2.4,125)
+    for j in range(4):
+        x=(j*162+t*(17+j*4))%760-85
+        y=397+(j%2)*105+10*math.sin(t*.4+j)
+        for dx,dy,r in [(-32,7,27),(-5,-8,37),(32,4,29),(60,14,22)]:
+            p.circle(d,x+dx,y+dy,r,(86,126,166,140),(*BLUE,70),1.4)
+        if ix>=2:
+            for k in range(12):
+                rx=x-35+(k%6)*23
+                ry=y+44+(t*(65+k%4*7)+k*39)%220
+                if 380<ry<782:path(p,d,[(rx,ry),(rx-5,ry+12)],CYAN,1.6,150)
+    for k in range(15):
+        x=(t*80+k*71)%680-40
+        y=639+(k%4)*45
+        path(p,d,[(x,y),(x+47+10*math.sin(t+k),y-7)],
+             GOLD if k%5==0 else CYAN,2.0,105+(k%3)*32)
+    for k in range(12):
+        a=t*(.75+k%3*.11)+k*TAU/12
+        dot(p,d,289+111*math.cos(a),603+145*math.sin(a),2.5,
+            GOLD if k%2 else CYAN,195)
+
+
+def biology(p, im, t, ix, phase):
+    """Leaf photosynthesis with moving photons, transported water and oxygen."""
+    d=ImageDraw.Draw(im,"RGBA")
+    leaf=[(288,734),(215,688),(173,584),(186,470),(288,399),
+          (394,470),(410,577),(355,690)]
+    d.polygon([p.p(*xy) for xy in leaf],fill=(20,103,82,165))
+    path(p,d,leaf+[leaf[0]],CYAN,3.4,225)
+    path(p,d,[(288,727),(288,421)],GOLD,3,165)
+    for side in (-1,1):
+        for k in range(4):
+            y=470+k*58
+            path(p,d,[(288,y+49),(288+side*(30+k*8),y)],CYAN,1.7,120)
+    for k in range(24):
+        x=225+(k%6)*25+5*math.sin(t*.8+k)
+        y=489+(k//6)*42+5*math.cos(t*.7+k)
+        dot(p,d,x,y,max(1,4.5+1.4*math.sin(t*2+k)),CYAN,125+(k%3)*26)
+    for k in range(19):
+        progress=(t*.33+k/19)%1
+        dot(p,d,59+progress*224,341+progress*170,2.6,GOLD,210)
+    for k in range(20):
+        progress=(t*.38+k/20)%1
+        dot(p,d,284+5*math.sin(k+t),857-progress*130,2.2,BLUE,185)
+    for k in range(19):
+        age=(t*.28+k/19)%1
+        dot(p,d,328+age*145+19*math.sin(k+t*.4),584-age*223,2.5,WHITE,150)
+
+
 ANIMATORS = {
     "ocean":ocean,"volcano":volcano,"space":space,"tech":technology,
     "health":health,"economy":economy,"general":general,
+    "weather":weather,"earthquake":earthquake,"biology":biology,
 }
 
 
