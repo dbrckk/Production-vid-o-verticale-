@@ -1,4 +1,4 @@
-name: Cinematic 1080p60 English documentary proof
+name: Final cinematic 1080p60 English documentary proof
 on:
   workflow_dispatch:
   push:
@@ -31,7 +31,7 @@ jobs:
           python studio.py --config output/publication-topic.json \
             --narrate --tts-provider edge --tts-voice en-US-BrianMultilingualNeural \
             --width 1080 --fps 60 --output output/publish-master.mp4
-      - name: Validate clean platform-safe final master and original sound
+      - name: Validate reframed premium 2D art, one-take narration and publication master
         run: |
           python qa_video.py --video output/publish-master.mp4 \
             --manifest output/publish-master.json \
