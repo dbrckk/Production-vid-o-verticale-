@@ -40,20 +40,20 @@ def test_any_topic_renders_all_scenes(topic):
 
 def test_wikipedia_factual_context():
     response={'query':{'pages':{'1':{'pageid':123,'title':'Océan',
-      'extract':'Les océans sont de vastes étendues d’eau salée. Leur salinité varie en fonction de plusieurs facteurs et conditions naturelles.'}}}}
+      'extract':'Oceans are large bodies of saline water on our planet. Salinity varies due to currents, evaporation, and multiple natural processes.'}}}}
     fetch=lambda _:json.dumps(response).encode()
     assert wikipedia_context('océan',fetcher=fetch)['url'].endswith('123')
-    cfg=research_story('océan',fetcher=fetch)
+    cfg=research_story('ocean',fetcher=fetch)
     assert cfg['evidence']=='wikipedia'
-    assert 'océans' in cfg['scenes'][1]['caption']
-    assert cfg['sources'][0]['source']=='Wikipédia'
+    assert 'Oceans' in cfg['scenes'][1]['caption']
+    assert cfg['sources'][0]['source']=='Wikipedia'
 
 def test_news_video_has_source():
     item=parse_rss(RSS,'Test News',NOW)[0]
     cfg=create_story(item['title'],article=item)
     assert cfg['evidence']=='rss'
     assert cfg['sources'][0]['url']==item['url']
-    assert cfg['scenes'][-1]['caption'].startswith('Publication')
+    assert cfg['scenes'][-1]['caption'].startswith('Reported')
 
 def test_reject_invalid_timeline():
     cfg=create_story('Histoire du papier')
@@ -74,8 +74,8 @@ def test_mp4_audio_manifest(tmp_path):
 def test_server_refuses_parallel_and_unknown_quality(tmp_path):
     state=State(tmp_path)
     state.busy=True
-    with pytest.raises(RuntimeError):state.start('Formation des étoiles',None,'preview')
-    with pytest.raises(ValueError):state.start('Formation des étoiles',None,'ultra-8k')
+    with pytest.raises(RuntimeError):state.start('Star formation',None,'preview')
+    with pytest.raises(ValueError):state.start('Star formation',None,'ultra-8k')
 
 
 @pytest.mark.parametrize(('topic','category'),[
@@ -112,8 +112,8 @@ def test_mobile_web_app_serves_ui_and_authenticated_news(tmp_path,monkeypatch):
     try:
         with urlopen(base+'/') as response:
             html=response.read().decode()
-            assert 'Actualité importante au hasard' in html
-            assert 'Créer la vidéo' in html
+            assert 'Random important news' in html
+            assert 'Create video' in html
         with pytest.raises(HTTPError) as exc:
             urlopen(base+'/api/random')
         assert exc.value.code==401
@@ -128,9 +128,9 @@ def test_mobile_web_app_serves_ui_and_authenticated_news(tmp_path,monkeypatch):
 
 def test_user_brief_becomes_factual_content_without_fabrication():
     from topic_engine import research_story
-    briefing=('Comprendre notre entreprise. Nous avons créé un outil pour organiser les données. '
-              'L’équipe travaille depuis plusieurs années à améliorer sa stabilité. '
-              'Les résultats de cette semaine montrent une baisse du temps de réponse.')
+    briefing=('Understanding our company. We built a tool to organize complex data. '
+              'Our team has improved reliability over several years. '
+              'This week, measurements show faster response times.')
     cfg=research_story(briefing,fetcher=lambda _:b'{"query":{"pages":{}}}')
     assert cfg['evidence']=='user_provided'
-    assert 'organiser les données' in cfg['scenes'][2]['caption']
+    assert 'organize complex data' in cfg['scenes'][2]['caption']
