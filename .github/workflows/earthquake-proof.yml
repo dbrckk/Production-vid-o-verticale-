@@ -1,0 +1,59 @@
+name: Proof render - Earthquake documentary with live English narration
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/earthquake-proof.yml'
+permissions:
+  contents: read
+jobs:
+  documentary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install FFmpeg and English neural narrator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Compose and render an actual physical-motion documentary
+        run: |
+          python generate_topic.py --topic "What causes earthquakes?" --output output/earthquake-topic.json
+          python studio.py --config output/earthquake-topic.json \
+            --narrate --tts-provider edge --tts-voice en-US-AndrewNeural \
+            --width 540 --fps 15 --preview --output output/earthquake-proof.mp4
+      - name: Verify spoken English, motion category, word cues and audio
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          cfg=json.loads(Path('output/earthquake-proof.json').read_text())
+          assert cfg['mode']=='universal'
+          assert cfg['voice']['language']=='en'
+          assert cfg['voice']['voice']=='en-US-AndrewNeural'
+          assert cfg['voice']['word_alignment']=='provider_word_boundaries'
+          assert cfg['width']==540 and cfg['height']==960
+          assert len(cfg['word_cues'])>=50
+          assert len(cfg['scenes'])==6
+          assert Path('output/earthquake-proof.mp4').stat().st_size>80000
+          print('English neural documentary, active earthquake diagram and captions: PASS')
+          PY
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 output/earthquake-proof.mp4
+      - name: Downloadable review footage and synchronized cue manifest
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: english-earthquake-real-motion-neural-voice
+          path: |
+            output/earthquake-proof.mp4
+            output/earthquake-proof.json
+            output/earthquake-proof.voice.wav
+            output/earthquake-topic.json
+            output/cover.png
+          retention-days: 7
