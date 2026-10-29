@@ -8,7 +8,7 @@ MINT=(96,238,202)
 GOLD=(251,188,104)
 BLUE=(117,160,246)
 
-def _wrap(p,d,text,y,*,size=24,max_lines=4,color=LIGHT,bold=False):
+def _wrap(p,d,text,y,*,size=24,max_lines=4,color=LIGHT,bold=False,opacity=250):
     words=text.split()
     for sz in range(size,11,-1):
         font=p.font(sz,bold)
@@ -21,9 +21,13 @@ def _wrap(p,d,text,y,*,size=24,max_lines=4,color=LIGHT,bold=False):
         if line:lines.append(line)
         if len(lines)<=max_lines and all(d.textbbox((0,0),s,font=font)[2]<=492*p.s for s in lines):
             for i,s in enumerate(lines):
-                p.text(d,s,288,y+(i-(len(lines)-1)/2)*sz*1.48,sz,(*color,250),bold=bold)
+                p.text(d,s,288,y+(i-(len(lines)-1)/2)*sz*1.48,sz,(*color,opacity),bold=bold)
             return
-    p.text(d,'CONTINUE WATCHING',288,y,15,(*color,240),bold=True)
+    # Preserve genuine text rather than substituting meaningless placeholder copy.
+    truncated=' '.join(words)[:76].rstrip()
+    while len(truncated)>12 and d.textbbox((0,0),truncated+'…',font=p.font(12,bold))[2]>492*p.s:
+        truncated=truncated[:-1].rstrip()
+    p.text(d,truncated+'…',288,y,12,(*color,opacity),bold=bold)
 
 def _geometry(p,im,kind,phase,seed):
     d=ImageDraw.Draw(im,'RGBA')
@@ -152,18 +156,21 @@ def frame(p,t:float,cfg:dict):
     scene=scenes[ix]
     start,end=float(scene['start']),float(scene['end'])
     phase=max(0,min(1,(t-start)/max(.001,end-start)))
-    im=p.base.copy()
+    from cinematic import render_cinematic_art, title_motion
     category=cfg.get('motion_category') or topic_category(cfg['topic'])
-    draw(p,im,category,t,ix,phase)
+    im=render_cinematic_art(p,cfg,t,ix,phase,draw,category)
     d=ImageDraw.Draw(im,'RGBA')
     p.text(d,'ENGLISH  /  MOTION DOCUMENTARY',288,64,12,(*MINT,230),bold=True)
-    # The title reveals smoothly as narration begins; it never jumps between slides.
-    alpha=round(245*min(1,(t-start)/.30)) if ix else 245
-    title=scene['headline']
-    # Hide the title during the opening few frames rather than drawing static slides.
-    if alpha>0:
-        _wrap(p,d,title,157,size=27,max_lines=3,bold=True,color=LIGHT)
+    # Titles ease in above the animated scene; typography never follows camera zoom.
+    title_alpha,title_shift=title_motion(t-start)
+    if title_alpha>0:
+        _wrap(p,d,scene['headline'],157+title_shift,size=29,max_lines=3,
+              bold=True,color=LIGHT,opacity=round(245*title_alpha))
     p.line(d,[(48,255),(528,255)],(*BLUE,95),2)
+    # Chapter ticks make editorial structure visible without decorative clutter.
+    for cut in scenes[1:]:
+        at=48+480*float(cut['start'])/max(.01,float(cfg['duration']))
+        p.line(d,[(at,250),(at,260)],(*LIGHT,85),1.2)
     p.glow_line(im,[(48,255),(48+480*min(t/float(cfg['duration']),1),255)],MINT,3.1,2.1)
     p.glow_disc(im,48+480*min(t/float(cfg['duration']),1),255,3,GOLD)
     d=ImageDraw.Draw(im,'RGBA')
