@@ -28,6 +28,11 @@ footer{font-size:12px;color:#b3aac9;margin-top:28px;line-height:1.5}</style></he
 <div class="actions"><button id="random" class="alternate">Random important news</button>
 <button id="create" class="primary">Create video</button></div>
 <div id="info" role="status">Random picks a timely report from dated English-language news feeds. Stories without verifiable sources are not generated.</div>
+<label for="voice">Narrator (natural English)</label><select id="voice">
+<option value="en-US-AndrewNeural" selected>Andrew · warm documentary voice (US)</option>
+<option value="en-US-AriaNeural">Aria · expressive storyteller (US)</option>
+<option value="en-GB-RyanNeural">Ryan · documentary presenter (UK)</option>
+</select>
 <label for="quality">Video quality</label><select id="quality">
 <option value="preview">Preview (540p)</option><option value="720p">720p</option>
 <option value="1080p" selected>Full HD 1080p</option></select>
@@ -43,7 +48,7 @@ const headers=()=>({'X-Studio-Token':token.value.trim()});
 const showError=(error)=>{status.textContent='Error: '+error;};
 async function request(url,init={}) {
  const r=await fetch(url,{...init,headers:{...headers(),...(init.headers||{})}});
- const data=await r.json();if(!r.ok)throw Error(data.error||'Erreur serveur');return data;
+ const data=await r.json();if(!r.ok)throw Error(data.error||'Server error');return data;
 }
 random.addEventListener('click',async()=>{
  random.disabled=true;status.textContent='Searching recent English-language news…';
@@ -51,7 +56,7 @@ random.addEventListener('click',async()=>{
   const data=await request('/api/random');selectedArticle=data.article;topic.value=selectedArticle.title;
   info.replaceChildren();
   const t=document.createElement('span');
-  t.textContent=selectedArticle.source+' · '+new Date(selectedArticle.published).toLocaleString('fr-FR')+' · ';
+  t.textContent=selectedArticle.source+' · '+new Date(selectedArticle.published).toLocaleString('en-US')+' · ';
   const a=document.createElement('a');a.href=selectedArticle.url;a.textContent='Read original article';
   a.target='_blank';a.rel='noopener noreferrer';info.append(t,a);
   status.textContent='Story selected. Create a narrated video when ready.';
@@ -67,6 +72,7 @@ create.addEventListener('click',async()=>{
  try{
   const data=await request('/api/render',{method:'POST',headers:{'Content-Type':'application/json'},
     body:JSON.stringify({topic:topic.value,quality:document.querySelector('#quality').value,
+                         voice:document.querySelector('#voice').value,
                          article:selectedArticle?{url:selectedArticle.url}:null})});
   const id=data.id;status.textContent='Generating speech and animation. Keep this tab open for the finished video.';
   while(true){
