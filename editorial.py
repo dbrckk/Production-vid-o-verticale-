@@ -189,3 +189,33 @@ def compose_news_story(title: str, article: dict, duration: int) -> dict:
     }
     validate_universal(cfg)
     return cfg
+
+
+def apply_encyclopedia_brief(cfg: dict, source: dict) -> bool:
+    """Convert factual reference sentences to actual narrative beats, never filler."""
+    from topic_engine import _phrases, VISUALS, validate_universal, clean
+    facts = _phrases(source.get("summary", ""))[:4]
+    if not facts:
+        return False
+    title = clean(source.get("title", cfg["topic"]), 100)
+    beats = [(cfg["topic"].upper()[:145], f"{title}. Here is what the reference explains.")]
+    for i, text in enumerate(facts):
+        heads = ("THE KEY IDEA", "HOW IT CONNECTS", "A CLOSER LOOK", "THE BIG PICTURE")
+        beats.append((heads[i], text))
+    beats.append(("REFERENCE", f"This explanation draws on the Wikipedia article about {title}."))
+    duration = float(cfg["duration"])
+    count = len(beats)
+    cfg["scenes"] = [{
+        "start": round(duration*i/count,3),
+        "end": round(duration*(i+1)/count,3) if i+1<count else duration,
+        "headline": heading[:145],
+        "caption": speech[:180],
+        "narration": speech[:180],
+        "visual": VISUALS[i%len(VISUALS)],
+        "metric": "REFERENCE: WIKIPEDIA",
+    } for i,(heading,speech) in enumerate(beats)]
+    cfg["sources"] = [{key:source[key] for key in ("title","source","url")}]
+    cfg["evidence"] = "wikipedia"
+    cfg["editorial_policy"] = "reference_sentences_only"
+    validate_universal(cfg)
+    return True
