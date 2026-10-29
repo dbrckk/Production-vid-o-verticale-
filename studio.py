@@ -337,7 +337,6 @@ class Painter:
         self.text(d,'EARTH',cx,cy+min(earth_r,75)+22,14,(*MINT,220),bold=True)
         self.text(d,'MOON',x2,moon_y-45,14,(*WHITE,230),bold=True)
         self.text(d,'384 400 km',x2,moon_y-23,11,(*MINT,200))
-        footer='42 folds: farther than the Moon!' if t>=22 else 'From the atmosphere into deep space…'
         # Explanatory copy is carried by narration; no footer in social UI area.
 
     def cosmic(self, im, t, fold):
