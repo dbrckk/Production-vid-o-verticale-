@@ -39,16 +39,16 @@ function showArticle(article) {
   link.href = article.url;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
-  link.textContent = "Consulter l'article original";
+  link.textContent = "Read the original article";
   sourceBox.append(byline, link);
   sourceBox.hidden = false;
 }
 
 async function loadNews() {
   const response = await fetch("./news.json", {cache:"no-store"});
-  if (!response.ok) throw Error("Les informations récentes ne sont pas disponibles.");
+  if (!response.ok) throw Error("Fresh news is not currently available.");
   const feed = await response.json();
-  if (feed.schema !== 1 || !Array.isArray(feed.items)) throw Error("Format des actualités incorrect.");
+  if (feed.schema !== 1 || !Array.isArray(feed.items)) throw Error("News feed format is invalid.");
   articles = feed.items.filter(item => isFresh(item));
   return articles;
 }
@@ -69,12 +69,12 @@ randomButton.addEventListener("click", async () => {
   randomButton.disabled = true;
   manual.hidden = true;
   launched.hidden = true;
-  message("Vérification des actualités récentes…");
+  message("Checking recent English-language news…");
   try {
     const pool = await loadNews();
-    if (!pool.length) throw Error("Aucun article récent n'est disponible : lance le mode random_news depuis GitHub Actions.");
+    if (!pool.length) throw Error("No recent English news found. Use the random_news mode on GitHub Actions.");
     showArticle(pickImportant(pool));
-    message("Actualité sélectionnée. Le lien source et la date figurent ci-dessus.");
+    message("News selected. The source and date are linked above.");
   } catch (error) {
     message(error.message, true);
   } finally {
@@ -88,7 +88,7 @@ topic.addEventListener("input", () => {
 
 function inputs() {
   const text = topic.value.trim();
-  if (text.length < 3 || text.length > 500) throw Error("Le sujet doit contenir entre 3 et 500 caractères.");
+  if (text.length < 3 || text.length > 500) throw Error("Enter an English topic between 3 and 500 characters.");
   const article = selectedArticle && text === selectedArticle.title && isFresh(selectedArticle)
     ? selectedArticle : null;
   if (selectedArticle && !article) resetArticle();
@@ -105,8 +105,8 @@ function showManual(data) {
   const articleMode = data.mode === "article_url";
   valueToCopy = articleMode ? data.article_url : data.custom_topic;
   $("#manual-help").textContent = articleMode
-    ? "Dans GitHub Actions, sélectionne mode = article_url et colle l'adresse copiée dans article_url."
-    : "Dans GitHub Actions, sélectionne mode = custom et colle le sujet copié dans custom_topic.";
+    ? "In GitHub Actions, choose mode = article_url and paste the news URL."
+    : "In GitHub Actions, choose mode = custom and paste your English topic.";
   manual.hidden = false;
   launched.hidden = true;
 }
@@ -114,9 +114,9 @@ function showManual(data) {
 $("#copy").addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText(valueToCopy);
-    message("Valeur copiée. Ouvre GitHub Actions et lance le workflow.");
+    message("Copied. Open GitHub Actions and start the workflow.");
   } catch {
-    message("Copie manuellement le sujet ou l'URL dans le champ GitHub Actions.", true);
+    message("Copy the topic or URL manually into GitHub Actions.", true);
   }
 });
 
@@ -129,10 +129,10 @@ createButton.addEventListener("click", async () => {
     const secret = token.value.trim();
     if (!secret) {
       showManual(data);
-      message("Le rendu est prêt à être lancé depuis GitHub Actions, sans jeton.");
+      message("Ready to render via GitHub Actions without a browser token.");
       return;
     }
-    message("Envoi sécurisé directement à GitHub…");
+    message("Sending directly to GitHub securely…");
     const response = await fetch(API_URL, {
       method:"POST",
       headers:{
@@ -145,14 +145,14 @@ createButton.addEventListener("click", async () => {
     });
     if (!response.ok) {
       const code = response.status;
-      if (code === 401 || code === 403) throw Error("Le jeton n'a pas les permissions GitHub Actions nécessaires. Vérifie les droits ou lance le workflow manuellement.");
-      throw Error("Déclenchement refusé par GitHub (HTTP " + code + "). Lance le workflow manuellement.");
+      if (code === 401 || code === 403) throw Error("Your token lacks GitHub Actions permissions. Check the scopes or start manually.");
+      throw Error("GitHub rejected the workflow request (HTTP " + code + "). Start the workflow manually.");
     }
     token.value = "";
     launched.hidden = false;
-    message("La demande a été acceptée par GitHub. Ouvre les exécutions pour suivre le rendu.");
+    message("GitHub accepted the request. Check workflow runs for your English-narrated MP4.");
   } catch (error) {
-    message(error.message + " Aucune vidéo n'est confirmée.", true);
+    message(error.message + " No video has been confirmed.", true);
     try { showManual(inputs()); } catch {}
   } finally {
     createButton.disabled = false;
@@ -160,8 +160,8 @@ createButton.addEventListener("click", async () => {
 });
 
 loadNews().then(pool => {
-  if (pool.length) message(pool.length + " actualités récentes sourcées disponibles.");
-  else message("Aucune actualité récente préchargée. Le mode random_news reste disponible depuis GitHub Actions.");
+  if (pool.length) message(pool.length + " recent sourced stories available.");
+  else message("No recent stories are cached. The random_news mode is available on GitHub Actions.");
 }).catch(() => {
-  message("Actualités momentanément indisponibles. Tu peux créer une vidéo sur un sujet libre.");
+  message("News is temporarily unavailable. You can still create a custom English video.");
 });
