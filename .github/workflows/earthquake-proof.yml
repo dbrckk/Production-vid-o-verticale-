@@ -6,11 +6,13 @@ on:
     paths:
       - '.github/workflows/earthquake-proof.yml'
       - 'kinetic.py'
+      - 'geology_premium.py'
       - 'universal.py'
       - 'cinematic.py'
       - 'qa_video.py'
       - 'motion_layers.py'
       - 'studio.py'
+      - 'narration.py'
       - 'subtitle_design.py'
       - 'audio_mastering.py'
       - 'soundscape.py'
@@ -38,7 +40,7 @@ jobs:
         run: |
           python generate_topic.py --topic "What causes earthquakes?" --output output/earthquake-topic.json
           python studio.py --config output/earthquake-topic.json \
-            --narrate --tts-provider edge --tts-voice en-US-AndrewNeural \
+            --narrate --tts-provider edge --tts-voice en-US-BrianMultilingualNeural \
             --width 540 --fps 15 --preview --output output/earthquake-proof.mp4
       - name: Verify spoken English, motion category, word cues and audio
         run: |
@@ -48,8 +50,9 @@ jobs:
           cfg=json.loads(Path('output/earthquake-proof.json').read_text())
           assert cfg['mode']=='universal'
           assert cfg['voice']['language']=='en'
-          assert cfg['voice']['voice']=='en-US-AndrewNeural'
+          assert cfg['voice']['voice']=='en-US-BrianMultilingualNeural'
           assert cfg['voice']['word_alignment']=='provider_word_boundaries'
+          assert cfg['voice']['delivery_style']=='continuous_documentary'
           assert cfg['width']==540 and cfg['height']==960
           assert len(cfg['word_cues'])>=50
           assert len(cfg['scenes'])==6
