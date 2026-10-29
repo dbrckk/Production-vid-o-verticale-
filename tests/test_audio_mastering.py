@@ -54,7 +54,7 @@ def test_voice_over_music_is_ducked_not_clipped(tmp_path):
         "-f", "lavfi", "-i", "color=c=black:s=32x32:r=1:d=3",
         "-i", str(bed), "-i", str(voice),
         "-filter_complex", narration_mix(), "-map", "[a]",
-        "-ac", "1", "-ar", str(SR), "-c:a", "pcm_s16le", str(mixed)
+        "-ac", "1", "-ar", str(SR), "-t", "3", "-c:a", "pcm_s16le", str(mixed)
     ]
     subprocess.run(cmd, check=True, capture_output=True)
     audio = _read_mono(mixed)
