@@ -121,3 +121,16 @@ def test_encyclopedia_video_uses_only_retrieved_facts_not_generic_slides():
     assert all("We start by identifying" not in sc["narration"] for sc in cfg["scenes"])
     assert cfg["sources"][0]["source"] == "Wikipedia"
     validate_universal(cfg)
+
+
+def test_earthquake_scenes_show_six_different_visual_actions():
+    cfg = research_story("What causes earthquakes?",fetcher=lambda _:b"{}")
+    painter=Painter(288,512)
+    frames=[]
+    for index in range(6):
+        t=cfg["scenes"][index]["start"]+2.0
+        image=np.asarray(painter.frame(t,cfg))
+        frames.append(image[195:418,22:266])
+    for i in range(5):
+        changed=np.any(frames[i]!=frames[i+1],axis=2).sum()
+        assert changed>900, (i,changed)
