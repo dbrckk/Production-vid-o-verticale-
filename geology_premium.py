@@ -147,6 +147,57 @@ def building_facades(p,im,d,t,phase):
 
 
 
+
+def building_response(p,d,bx,base_y,height,t,amplitude,seed=0):
+    """Draw a flexible frame building, with a continuous damped shear response.
+
+    Each floor has a different lateral displacement (zero at the foundation,
+    maximum at the roof), unlike a rigid rectangular block translated as one.
+    The illustration shows qualitative relative shaking, not a measured model.
+    """
+    floors=5 if height>=200 else 4
+    width=100
+    def floor_shift(level):
+        fraction=level/floors
+        # Smooth time-dependent structural displacement with mild harmonic
+        # response; zero displacement at the soil/foundation interface.
+        return amplitude*fraction**1.55*(
+            math.sin(t*(5.4+seed*.27)+seed*.8)
+            +.22*math.sin(t*(10.1+seed*.31)+seed*1.7)
+        )
+    left=bx-width/2
+    right=bx+width/2
+    levels=[]
+    for k in range(floors+1):
+        y=base_y-height*k/floors
+        dx=floor_shift(k)
+        levels.append((y,dx))
+    # Lit sidewall follows the actual deforming structure rather than
+    # a flat moving rectangle.
+    poly=[(left+dx,y) for y,dx in levels]
+    poly += [(right+dx,y) for y,dx in reversed(levels)]
+    _polygon(p,d,poly,(29,56,77,225))
+    for k in range(floors):
+        y0,dx0=levels[k]
+        y1,dx1=levels[k+1]
+        p.line(d,[(left+dx0,y0),(left+dx1,y1)],(*BLUE,185),2.2)
+        p.line(d,[(right+dx0,y0),(right+dx1,y1)],(*BLUE,185),2.2)
+        # Interior bracing illustrates the load path through each storey.
+        p.line(d,[(left+dx0,y0),(right+dx1,y1)],(*TEAL,66),1)
+        p.line(d,[(right+dx0,y0),(left+dx1,y1)],(*TEAL,66),1)
+        p.line(d,[(left+dx1,y1),(right+dx1,y1)],(*LIME,175),2.0)
+        window_y=(y0+y1)/2
+        window_dx=(dx0+dx1)/2
+        for column in (-1,0,1):
+            x=bx+column*26+window_dx
+            p.circle(d,x,window_y,4.0,(*((241,187,114) if (k+column+seed)%4==0 else (107,207,204)),168))
+    yroof,roofshift=levels[-1]
+    p.line(d,[(left-5+roofshift,yroof),(right+5+roofshift,yroof)],(*LIME,220),3.1)
+    # Foundation anchors stay fixed to the soil.
+    p.line(d,[(left-12,base_y+2),(right+12,base_y+2)],(*DUST,180),2.4)
+    return roofshift
+
+
 def seismic_wavefield(p,im,t,phase):
     """Moving P/S wave trains, refracted rays and attenuating ground motion.
 
