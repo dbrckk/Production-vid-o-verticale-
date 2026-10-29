@@ -9,6 +9,7 @@ import hmac,json,os,secrets
 from generate_topic import build
 from studio import render
 from narration import make_narration
+from qa_video import inspect as inspect_video_quality
 from topic_engine import random_important_news,create_story,current_headlines
 
 ROOT=Path(__file__).resolve().parent
@@ -50,7 +51,9 @@ class State:
                 voice_info=make_narration(cfg,voice_file,provider='edge',voice=voice)
                 with self.lock:self.jobs[job]['status']='rendering'
                 result=render(cfg,self.directory/f'{job}.mp4',width,fps,preview=quality=='preview',voice=voice_file)
-                with self.lock:self.jobs[job].update(status='ready',info=result,voice=voice_info)
+                with self.lock:self.jobs[job]['status']='quality_check'
+                qa=inspect_video_quality(Path(result['output']),Path(result['output']).with_suffix('.json'))
+                with self.lock:self.jobs[job].update(status='ready',info=result,voice=voice_info,quality=qa)
             except Exception as error:
                 with self.lock:self.jobs[job].update(status='error',error=str(error)[:200])
             finally:
