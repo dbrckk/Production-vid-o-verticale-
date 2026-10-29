@@ -61,8 +61,8 @@ def format_distance(mm: float) -> str:
     if ly < 1:
         return f'{km / 1e6:,.0f} M km'.replace(',', ' ')
     if ly < 1e6:
-        return f'{ly:,.0f} a.l.'.replace(',', ' ')
-    return f'{ly / 1e9:,.1f} Md a.l.'.replace(',', ' ')
+        return f'{ly:,.0f} ly'.replace(',', ' ')
+    return f'{ly / 1e9:,.1f} Md ly'.replace(',', ' ')
 
 
 def fold_at(t: float, cfg: dict) -> int:
@@ -156,15 +156,15 @@ class Painter:
 
     def hud(self, im: Image.Image, t: float, fold: int, cfg: dict):
         d=ImageDraw.Draw(im,'RGBA')
-        lines=cfg.get('title_lines', ['Combien de plis pour', 'atteindre la Lune ?'])
+        lines=cfg.get('title_lines', ['Combien de folds pour', 'atteindre la Lune ?'])
         for idx, line in enumerate(lines[:2]):
             self.text(d,line,288,76+29*idx,22,(*WHITE,255),bold=True)
         goal=int(cfg.get('target_folds',42))
         if 22 <= t < 29.7:
-            status=cfg.get('reveal_text','Seulement 42 plis !')
+            status=cfg.get('reveal_text','Seulement 42 folds !')
             self.text(d,status,288,151,20,(*MINT,255),bold=True)
         else:
-            subtitle=f'{fold} plis  =  {format_distance(thickness_mm(fold,float(cfg.get("paper_mm",.1))))}'
+            subtitle=f'{fold} folds  =  {format_distance(thickness_mm(fold,float(cfg.get("paper_mm",.1))))}'
             self.text(d,subtitle,288,151,17,(*MINT,245),bold=True)
         self.line(d,[(40,204),(536,204)],(140,135,173,126),2)
         for i in range(11):
@@ -175,7 +175,7 @@ class Painter:
         self.glow_line(im,[(40,204),(x,204)],MINT,3.5,2.4)
         self.glow_disc(im,x,204,3.5,GOLD)
         self.glow_disc(im,536,204,5.2,(188,174,255))
-        self.text(d,'LUNE',536,222,10,(195,176,227,220),bold=True)
+        self.text(d,'MOON',536,222,10,(195,176,227,220),bold=True)
 
     def draw_stars(self, im, t, amount=1):
         d=ImageDraw.Draw(im,'RGBA')
@@ -241,9 +241,9 @@ class Painter:
 
     def icon_comparison(self, im, fold, initial_mm):
         # Fixed semantic landmarks, with size indicating relative scale.
-        landmarks=[(8,'Dé',16,'dice'),(10,'Tasse',95,'mug'),(12,'Chat',300,'cat'),
-                   (14,'Humain',1750,'person'),(18,'Maison',10000,'house'),
-                   (22,'Tour Eiffel',330000,'tower'),(26,'Everest',8849000,'mountain')]
+        landmarks=[(8,'Die',16,'dice'),(10,'Cup',95,'mug'),(12,'Cat',300,'cat'),
+                   (14,'Person',1750,'person'),(18,'House',10000,'house'),
+                   (22,'Eiffel Tower',330000,'tower'),(26,'Everest',8849000,'mountain')]
         if fold < 8: return
         candidate=max((v for v in landmarks if v[0]<=fold),key=lambda v:v[0])
         first,label,height_mm,kind=candidate
@@ -288,8 +288,8 @@ class Painter:
             self.glow_line(gl,[(x,y),(x,y-h)],GOLD,8,10)
         im.alpha_composite(gl)
         d=ImageDraw.Draw(im,'RGBA')
-        self.text(d,'Chaque pli double l’épaisseur',288,803,17,(*WHITE,235),bold=True)
-        self.text(d,'UNE CROISSANCE EXPONENTIELLE',288,839,11,(*MINT,170),bold=True)
+        self.text(d,'Every fold doubles the thickness',288,803,17,(*WHITE,235),bold=True)
+        self.text(d,'EXPONENTIAL GROWTH',288,839,11,(*MINT,170),bold=True)
 
     def planet(self, im, x, y, r, moon=False):
         # Crisp vector globe with atmospheric halo, latitudes and procedural landmasses.
@@ -334,10 +334,10 @@ class Painter:
         gl=Image.new('RGBA',im.size,(0,0,0,0))
         self.glow_line(gl,[(352,720),(352,465)],GOLD,7,7)
         im.alpha_composite(gl)
-        self.text(d,'TERRE',cx,cy+earth_r+34,14,(*MINT,220),bold=True)
-        self.text(d,'LUNE',x2,moon_y-45,14,(*WHITE,230),bold=True)
+        self.text(d,'EARTH',cx,cy+earth_r+34,14,(*MINT,220),bold=True)
+        self.text(d,'MOON',x2,moon_y-45,14,(*WHITE,230),bold=True)
         self.text(d,'384 400 km',x2,moon_y-23,11,(*MINT,200))
-        footer='42 plis : plus loin que la Lune !' if t>=22 else 'De l’atmosphère jusqu’à l’espace…'
+        footer='42 folds : plus loin que la Lune !' if t>=22 else 'From the atmosphere into deep space…'
         self.text(d,footer,288,871,17,(*WHITE,242),bold=True)
 
     def cosmic(self, im, t, fold):
@@ -360,12 +360,12 @@ class Painter:
         self.glow_line(gl,[(288,728),(288,410)],GOLD,7,6)
         im.alpha_composite(gl)
         if fold < 70:
-            scale='LE SOLEIL' if fold<60 else 'ÉTOILES PROCHES'
-        elif fold<89: scale='AU-DELÀ DES ÉTOILES'
-        elif fold<103:scale='AUTRES GALAXIES'
-        else:scale='L’UNIVERS OBSERVABLE'
+            scale='THE SUN' if fold<60 else 'NEARBY STARS'
+        elif fold<89: scale='BEYOND THE STARS'
+        elif fold<103:scale='OTHER GALAXIES'
+        else:scale='THE OBSERVABLE UNIVERSE'
         self.text(d,scale,288,368,14,(*MINT,235),bold=True)
-        self.text(d,f'{fold} PLIS',288,870,23,(*WHITE,252),bold=True)
+        self.text(d,f'{fold} FOLDS',288,870,23,(*WHITE,252),bold=True)
         self.text(d,format_distance(thickness_mm(fold)),288,909,16,(*MINT,245),bold=True)
 
     def frame(self, t: float, cfg: dict) -> Image.Image:
@@ -387,7 +387,7 @@ class Painter:
         if t>=29.8:
             # Final legibility hold & subtle fade rather than external platform outro.
             d=ImageDraw.Draw(im,'RGBA')
-            self.text(d,'42 PLIS POUR ATTEINDRE LA LUNE',288,963,12,(*WHITE,205),bold=True)
+            self.text(d,'42 FOLDS TO REACH THE MOON',288,963,12,(*WHITE,205),bold=True)
         return im.convert('RGB')
 
 
@@ -511,7 +511,24 @@ def main():
             p.error('Cannot use --voice and --narrate at the same time')
         from narration import make_narration
         voice=Path(a.output).with_suffix('.voice.wav')
-        print(json.dumps(make_narration(cfg,voice,a.tts_provider,a.tts_voice),ensure_ascii=False),flush=True)
+        if cfg.get('mode','paper')=='paper':
+            # Match the classic fixed-duration paper timeline with a short
+            # spoken script; never silently deliver music-only output.
+            lines=[
+                'Imagine folding a single sheet of paper again and again.',
+                'Every fold doubles its thickness. The growth is exponential.',
+                'Soon the paper is taller than a house, and then a mountain.',
+                'Keep folding. Just forty two folds would theoretically surpass the average distance to the Moon.',
+                'Beyond that, the numbers become almost impossible to imagine.'
+            ]
+            voice_cfg={'mode':'storyboard','language':'en','scenes':[
+                {'caption':line,'narration':line,'start':i,'end':i+1} for i,line in enumerate(lines)
+            ],'duration':30}
+            speech=make_narration(voice_cfg,voice,a.tts_provider,a.tts_voice)
+            cfg['voice']=voice_cfg['voice']
+            print(json.dumps(speech,ensure_ascii=False),flush=True)
+        else:
+            print(json.dumps(make_narration(cfg,voice,a.tts_provider,a.tts_voice),ensure_ascii=False),flush=True)
     print(json.dumps(render(cfg,Path(a.output),a.width,a.fps,a.duration,a.preview,voice),ensure_ascii=False,indent=2))
 
 
