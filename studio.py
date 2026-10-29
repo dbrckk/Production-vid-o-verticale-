@@ -384,6 +384,11 @@ class Painter:
         else:
             self.cosmic(im,t,fold)
         self.hud(im,t,fold,cfg)
+        if cfg.get('word_cues'):
+            from subtitle_design import render_captions
+            bounds=cfg.get('voice_scene_bounds') or [(0,float(cfg.get('duration',31)))]
+            selected=next((i for i,(_,end) in enumerate(bounds) if t<float(end)),len(bounds)-1)
+            render_captions(self,im,cfg['word_cues'],t,selected)
         return im.convert('RGB')
 
 
@@ -474,6 +479,13 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     info={'output':str(output),'cover':str(cover),'width':width,'height':height,'fps':fps,
           'duration':duration,'frames':frames,'mode':cfg.get('mode','paper'),
           'export_profile':delivery['name'],'encoding':delivery}
+    if voice:
+        # Every template is expected to provide English word cues and voice
+        # provenance, so a public download never silently becomes music-only.
+        from audio_mastering import quality_targets
+        info.update(voice=cfg.get('voice'),
+                    word_cues=cfg.get('word_cues',[]),
+                    audio_mastering=quality_targets())
     if info['mode']=='universal':
         from audio_mastering import quality_targets
         info.update(audio_mastering=quality_targets() if voice else {'dialogue_primary':False},
@@ -532,6 +544,13 @@ def main():
             ],'duration':30}
             speech=make_narration(voice_cfg,voice,a.tts_provider,a.tts_voice)
             cfg['voice']=voice_cfg['voice']
+            cfg['word_cues']=voice_cfg.get('word_cues',[])
+            cfg['voice_scene_bounds']=[
+                (scene['start'],scene['end']) for scene in voice_cfg['scenes']
+            ]
+            # The paper reveal is 31 seconds, but a longer real narration must
+            # never be truncated merely because the old template was shorter.
+            cfg['duration']=max(float(cfg.get('duration',31)),float(voice_cfg['duration']))
             print(json.dumps(speech,ensure_ascii=False),flush=True)
         else:
             print(json.dumps(make_narration(cfg,voice,a.tts_provider,a.tts_voice),ensure_ascii=False),flush=True)
