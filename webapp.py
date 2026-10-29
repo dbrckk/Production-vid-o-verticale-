@@ -33,9 +33,9 @@ class State:
         # cover.png is shared with the legacy renderer and may be in use.
 
     def start(self,topic:str,article:dict|None,quality:str,voice:str='en-US-AndrewNeural'):
-        if voice not in ('en-US-AndrewNeural','en-US-AriaNeural','en-GB-RyanNeural'):
+        if voice not in ('en-US-AndrewNeural','en-US-BrianMultilingualNeural','en-US-EmmaMultilingualNeural','en-US-AriaNeural','en-GB-RyanNeural'):
             raise ValueError('Unsupported English narrator')
-        if quality not in ('preview','720p','1080p'):raise ValueError('Unknown video quality')
+        if quality not in ('preview','720p','1080p','1080p60'):raise ValueError('Unknown video quality')
         cfg=create_story(topic,article=article) if article else build(topic,False,30)
         with self.lock:
             if self.busy:raise RuntimeError('Another video is rendering')
@@ -45,7 +45,7 @@ class State:
         def worker():
             with self.lock:self.jobs[job]['status']='rendering'
             try:
-                width,fps={'preview':(540,15),'720p':(720,24),'1080p':(1080,30)}[quality]
+                width,fps={'preview':(540,15),'720p':(720,24),'1080p':(1080,30),'1080p60':(1080,60)}[quality]
                 with self.lock:self.jobs[job]['status']='narrating'
                 voice_file=self.directory/f'{job}.voice.wav'
                 voice_info=make_narration(cfg,voice_file,provider='edge',voice=voice)
