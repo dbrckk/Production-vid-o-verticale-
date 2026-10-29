@@ -122,12 +122,7 @@ jobs:
           esac
           ARGS=(--config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --fps 30)
           if [ -n "$TITLE" ]; then ARGS+=(--title "$TITLE"); fi
-          if [ "${SUBJECT:-sun-vanished}" = "paper-to-moon" ] && [ "${MODE:-random_news}" = "preset" ]; then
-            # Legacy exponential preset is kept as an opt-in; all new videos are narrated.
-            python studio.py "${ARGS[@]}"
-          else
-            python studio.py "${ARGS[@]}" --narrate --tts-provider "${VOICE_PROVIDER:-kokoro}"
-          fi
+          python studio.py "${ARGS[@]}" --narrate --tts-provider "${VOICE_PROVIDER:-kokoro}"
       - name: Validate output video and audio
         if: github.event_name == 'workflow_dispatch'
         run: |
