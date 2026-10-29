@@ -9,6 +9,8 @@ on:
       - 'geology_premium.py'
       - 'universal.py'
       - 'cinematic.py'
+      - 'scene_backdrops.py'
+      - 'subject_illustrations.py'
       - 'qa_video.py'
       - 'motion_layers.py'
       - 'studio.py'
