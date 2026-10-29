@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -13,47 +13,47 @@
 <main>
   <header>
     <div class="eyebrow">STUDIO / VIDÉO VERTICALE / 9:16</div>
-    <h1>Une idée. Une vidéo.</h1>
-    <p>Anime tes connaissances, explique un sujet ou transforme une actualité importante en vidéo verticale. Rendu vidéo gratuit via GitHub Actions.</p>
+    <h1>One idea. One video.</h1>
+    <p>Explore a topic or transform important news into an English-narrated 9:16 animation. Videos render on GitHub Actions.</p>
   </header>
   <section class="panel" aria-labelledby="create-heading">
-    <h2 id="create-heading">Créer une vidéo</h2>
-    <label for="topic">Sujet à traiter</label>
-    <textarea id="topic" maxlength="500" placeholder="Ex. Pourquoi l'océan est-il salé ?"></textarea>
-    <button type="button" id="random" class="secondary">Choisir une actualité importante au hasard</button>
+    <h2 id="create-heading">Create video</h2>
+    <label for="topic">Topic (English only)</label>
+    <textarea id="topic" maxlength="500" placeholder="Example: How do ocean currents work?"></textarea>
+    <button type="button" id="random" class="secondary">Random important news</button>
     <div id="article" class="source" hidden></div>
-    <label for="quality">Qualité</label>
+    <label for="quality">Video quality</label>
     <select id="quality">
-      <option value="preview">Aperçu rapide · 540p</option>
+      <option value="preview">Preview · 540p</option>
       <option value="720p">HD · 720p</option>
       <option value="1080p" selected>Full HD · 1080p</option>
     </select>
     <details>
-      <summary>Déclencher automatiquement depuis cette page (facultatif)</summary>
-      <p>Cette option demande un jeton GitHub à permissions minimales : <strong>Actions : lecture et écriture</strong>, uniquement pour le dépôt <code>Production-vid-o-verticale-</code>. Il n'est pas enregistré ni envoyé au Space.</p>
-      <label for="token">Jeton GitHub (gardé uniquement dans cet onglet)</label>
+      <summary>Start directly from this page (optional)</summary>
+      <p>This requires a limited-scope GitHub access token: <strong>Actions : lecture et écriture</strong>, only for the repository <code>Production-vid-o-verticale-</code>. The token is never stored or sent to this Space.</p>
+      <label for="token">GitHub access token (held only in this tab)</label>
       <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
     </details>
-    <button type="button" id="create" class="primary">Créer la vidéo</button>
-    <p id="status" role="status" aria-live="polite">Prêt à créer une vidéo.</p>
+    <button type="button" id="create" class="primary">Create video</button>
+    <p id="status" role="status" aria-live="polite">Ready to create an English-narrated video.</p>
     <section id="manual" hidden>
-      <h3>Lancement sans jeton</h3>
+      <h3>Launch without a token</h3>
       <p id="manual-help"></p>
       <div class="actions">
-        <button type="button" id="copy" class="secondary">Copier la valeur</button>
-        <a class="link-button" id="workflow" href="https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/render.yml" target="_blank" rel="noopener noreferrer">Ouvrir GitHub Actions</a>
+        <button type="button" id="copy" class="secondary">Copy value</button>
+        <a class="link-button" id="workflow" href="https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/render.yml" target="_blank" rel="noopener noreferrer">Open GitHub Actions</a>
       </div>
-      <small>Dans « Run workflow », colle la valeur indiquée, choisis la qualité et lance l'exécution. Le MP4 sera dans les artefacts de l'exécution.</small>
+      <small>In Run workflow, paste the specified value, choose quality, and start. Download the MP4 from the run artifacts.</small>
     </section>
     <section id="launched" hidden>
-      <h3>Rendu demandé sur GitHub</h3>
-      <p>La génération s'exécute dans GitHub Actions. Récupère le MP4 dans les artefacts de l'exécution.</p>
-      <a href="https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/render.yml" target="_blank" rel="noopener noreferrer">Voir les rendus et télécharger le MP4</a>
+      <h3>Video requested on GitHub</h3>
+      <p>Rendering runs in GitHub Actions. Download your narrated MP4 from the completed run artifacts.</p>
+      <a href="https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/render.yml" target="_blank" rel="noopener noreferrer">View runs and download MP4</a>
     </section>
   </section>
   <footer>
-    <p>Les événements proviennent de flux d'information publics datés. Aucun résultat d'actualité n'est inventé. L'exactitude d'un article doit être vérifiée dans sa source avant publication.</p>
-    <p>Les vidéos sont réalisées par un moteur libre de motion design procédural. <a href="https://github.com/dbrckk/Production-vid-o-verticale-" target="_blank" rel="noopener noreferrer">Code source et workflows</a>.</p>
+    <p>News stories come from dated English-language feeds. Reports are not invented; verify the primary source before publication.</p>
+    <p>All new videos use English narration and continuous procedural motion. <a href="https://github.com/dbrckk/Production-vid-o-verticale-" target="_blank" rel="noopener noreferrer">Source code and workflows</a>.</p>
   </footer>
 </main>
 </body>
