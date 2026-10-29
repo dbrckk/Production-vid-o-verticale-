@@ -162,22 +162,16 @@ def frame(p,t:float,cfg:dict):
         draw(painter,canvas,kind,at,chapter,progress,visual=scenes[chapter]['visual'])
     im=render_cinematic_art(p,cfg,t,ix,phase,draw_story_scene,category)
     d=ImageDraw.Draw(im,'RGBA')
-    p.text(d,'ENGLISH  /  MOTION DOCUMENTARY',288,64,12,(*MINT,230),bold=True)
+    # Editorial frame: no studio watermark, chapter counter or playback HUD.
     # Titles ease in above the animated scene; typography never follows camera zoom.
     title_alpha,title_shift=title_motion(t-start)
     if title_alpha>0:
         _wrap(p,d,scene['headline'],157+title_shift,size=29,max_lines=3,
               bold=True,color=LIGHT,opacity=round(245*title_alpha))
-    p.line(d,[(48,255),(528,255)],(*BLUE,95),2)
-    # Chapter ticks make editorial structure visible without decorative clutter.
-    for cut in scenes[1:]:
-        at=48+480*float(cut['start'])/max(.01,float(cfg['duration']))
-        p.line(d,[(at,250),(at,260)],(*LIGHT,85),1.2)
-    p.glow_line(im,[(48,255),(48+480*min(t/float(cfg['duration']),1),255)],MINT,3.1,2.1)
-    p.glow_disc(im,48+480*min(t/float(cfg['duration']),1),255,3,GOLD)
     d=ImageDraw.Draw(im,'RGBA')
-    if scene.get('metric'):
-        _wrap(p,d,scene['metric'],322,size=14,max_lines=2,color=MINT,bold=True)
+    metric=scene.get('metric')
+    if metric and metric not in ('ANIMATED EXPLAINER','USER-PROVIDED BRIEF'):
+        _wrap(p,d,metric,310,size=14,max_lines=2,color=MINT,bold=True)
     # Voice-timed captions float above a stable mobile-safe contrast panel.
     # A pause in the waveform does not highlight a word that has not been said.
     from subtitle_design import render_captions, caption_backdrop
@@ -187,6 +181,4 @@ def frame(p,t:float,cfg:dict):
     else:
         caption_backdrop(p,im)
         _wrap(p,ImageDraw.Draw(im,'RGBA'),scene['caption'],857,size=19,max_lines=3)
-    d=ImageDraw.Draw(im,'RGBA')
-    p.text(d,f'{ix+1:02d} / {len(scenes):02d}',288,969,12,(*LIGHT,165),bold=True)
     return im.convert('RGB')
