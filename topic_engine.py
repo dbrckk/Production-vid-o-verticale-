@@ -86,7 +86,7 @@ def current_headlines(fetcher=None,now:datetime|None=None) -> list[dict]:
 
 def random_important_news(fetcher=None,rng=None,now=None) -> dict:
     items=current_headlines(fetcher,now)
-    if not items:raise RuntimeError('Aucune actualité récente vérifiable : flux indisponibles ou obsolètes')
+    if not items:raise RuntimeError('No recent verifiable news available: feeds are unavailable or stale')
     # English-language outlets only: narration and on-screen text stay in English.
     candidates=items[:20]
     rng=rng or random.SystemRandom()
@@ -122,16 +122,16 @@ def require_english_topic(topic: str):
     if not isinstance(topic,str) or len(topic.strip())<3:
         raise ValueError("Enter a topic in English")
     value=topic.casefold()
-    french_words=re.findall(r"\\b(?:pourquoi|comment|quelles|quels|est-ce|sont-ils|sommes|avez-vous|les|des|une|dans|nous|vous|notre|aujourd'hui|commentaire|expliquer|étude|découverte|réchauffement)\\b",value)
+    french_words=re.findall(r"\b(?:pourquoi|comment|quelles|quels|est-ce|sont-ils|sommes|avez-vous|les|des|une|dans|nous|vous|notre|aujourd'hui|commentaire|expliquer|étude|découverte|réchauffement)\b",value)
     if len(french_words)>=2 or re.search(r"[éèêëàâîïôûùçœ]", value):
         raise ValueError("English only: please enter or select an English-language topic")
 
 def create_story(topic:str, *,article:dict|None=None,duration:int=30) -> dict:
     title=clean(topic,145)
-    if not title or len(title)<3 or len(topic)>500:raise ValueError('Le sujet doit contenir entre 3 et 500 caractères')
-    if not isinstance(duration,int) or not 12<=duration<=90:raise ValueError('Durée autorisée : 12 à 90 secondes')
+    if not title or len(title)<3 or len(topic)>500:raise ValueError('Enter a topic between 3 and 500 characters')
+    if not isinstance(duration,int) or not 12<=duration<=90:raise ValueError('Duration must be between 12 and 90 seconds')
     if article:
-        if not all(article.get(k) for k in ('url','source','published')):raise ValueError('Actualité sans source ou date')
+        if not all(article.get(k) for k in ('url','source','published')):raise ValueError('News item needs a source and publication date')
         sentences=_phrases(article.get('summary',''))
         captions=[
             f"Today’s headline: {title}.",
@@ -186,6 +186,7 @@ def wikipedia_context(topic:str,fetcher=None) -> dict|None:
     except (OSError,TimeoutError,ValueError,KeyError,TypeError):return None
 
 def research_story(topic:str,duration:int=30,*,fetcher=None) -> dict:
+    require_english_topic(topic)
     cfg=create_story(topic,duration=duration)
     # A user's detailed briefing is an equally valid input for any subject.
     # Extract its own sentences rather than filling the video with generic slogans.
