@@ -2,57 +2,64 @@
   "mode": "storyboard",
   "duration": 30,
   "title_lines": [
-    "Et si le Soleil",
-    "disparaissait ?"
+    "What if the Sun",
+    "disappeared?"
   ],
   "scenes": [
     {
       "start": 0,
       "end": 4.5,
-      "headline": "ET SI LE SOLEIL DISPARAISSAIT ?",
-      "caption": "La Terre ne le remarquerait pas immédiatement.",
+      "headline": "WHAT IF THE SUN DISAPPEARED?",
+      "caption": "Earth would not notice instantly. Light and gravity both take time to reach us.",
       "visual": "sun",
-      "metric": "UNE EXPÉRIENCE DE PENSÉE"
+      "metric": "A THOUGHT EXPERIMENT",
+      "narration": "Earth would not notice instantly. Light and gravity both take time to reach us."
     },
     {
       "start": 4.5,
       "end": 9,
-      "headline": "LA LUMIÈRE A BESOIN DE TEMPS",
-      "caption": "Elle met environ 8 minutes 20 secondes pour arriver jusqu'à nous.",
+      "headline": "SUNLIGHT TAKES TIME",
+      "caption": "Light from the Sun travels for about eight minutes and twenty seconds before reaching Earth.",
       "visual": "light_path",
-      "metric": "149,6 MILLIONS DE KM"
+      "metric": "149.6 MILLION KM",
+      "narration": "Light from the Sun travels for about eight minutes and twenty seconds before reaching Earth."
     },
     {
       "start": 9,
       "end": 13.5,
-      "headline": "8 MINUTES ET 20 SECONDES",
-      "caption": "Puis la lumière du Soleil disparaîtrait de notre ciel.",
+      "headline": "THE LAST 8 MINUTES AND 20 SECONDS",
+      "caption": "After that delay, the final rays of sunlight would reach our planet.",
       "visual": "countdown",
-      "metric": "AUCUN CHANGEMENT IMMÉDIAT"
+      "metric": "THE DELAY IS REAL",
+      "narration": "After that delay, the final rays of sunlight would reach our planet."
     },
     {
       "start": 13.5,
       "end": 19,
-      "headline": "L'ORBITE DE LA TERRE CHANGERAIT",
-      "caption": "L'effet gravitationnel nous parviendrait au même moment que la dernière lumière.",
+      "headline": "EARTH'S ORBIT WOULD CHANGE",
+      "caption": "Changes to the Sun's gravity would reach Earth at the speed of light.",
       "visual": "orbit",
-      "metric": "LA GRAVITATION SE PROPAGE À LA VITESSE DE LA LUMIÈRE"
+      "metric": "GRAVITY PROPAGATES AT LIGHT SPEED",
+      "narration": "Changes to the Sun's gravity would reach Earth at the speed of light."
     },
     {
       "start": 19,
       "end": 24.5,
-      "headline": "LE FROID GAGNERAIT LA TERRE",
-      "caption": "Les températures chuteraient progressivement, sans congélation instantanée.",
+      "headline": "EARTH WOULD START TO COOL",
+      "caption": "Temperatures would fall gradually. Oceans would not freeze solid in a single night.",
       "visual": "ice",
-      "metric": "DES HEURES, DES JOURS, DES SEMAINES…"
+      "metric": "A LONG-TERM COOLING PROCESS",
+      "narration": "Temperatures would fall gradually. Oceans would not freeze solid in a single night."
     },
     {
       "start": 24.5,
       "end": 30,
-      "headline": "NOTRE MONDE SANS SOLEIL",
-      "caption": "La lumière, l'énergie et la plupart des écosystèmes seraient bouleversés.",
+      "headline": "A WORLD WITHOUT OUR STAR",
+      "caption": "Our ecosystems and the flow of energy through life would be transformed.",
       "visual": "galaxy",
-      "metric": "UNE PLANÈTE PLONGÉE DANS LA NUIT"
+      "metric": "A PLANET IN THE DARK",
+      "narration": "Our ecosystems and the flow of energy through life would be transformed."
     }
-  ]
+  ],
+  "language": "en"
 }
