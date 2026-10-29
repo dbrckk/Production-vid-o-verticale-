@@ -16,6 +16,81 @@ import numpy as np
 SAMPLE_RATE = 24000
 DEFAULT_EDGE_VOICE = "en-US-AndrewNeural"
 DEFAULT_KOKORO_VOICE = "af_heart"
+# Slightly faster, grounded presenter cadence instead of the uniformly slow
+# narration that makes short explainers sound assembled from separate slides.
+DOCUMENTARY_RATE = "-1%"
+DOCUMENTARY_PITCH = "+0Hz"
+
+def continuous_scene_bounds(cues: list[dict], scenes: list[dict], length: float):
+    """Assign real TTS word marks to contiguous story beats without guessing time.
+
+    TTS services may tokenize apostrophes and numbers differently from Python.
+    We allocate boundaries proportionally, while rejecting any too-short or
+    wildly inconsistent output rather than claiming precise synchronization.
+    """
+    words=[len((scene.get("narration") or scene.get("caption") or "").split()) for scene in scenes]
+    if not cues or not words or any(count==0 for count in words):
+        return None
+    count=len(cues)
+    if count < max(len(words), round(sum(words)*.72)) or count > sum(words)*1.30:
+        return None
+    boundaries=[0]
+    total=sum(words)
+    for step in range(1,len(words)):
+        index=round(sum(words[:step])*count/total)
+        index=max(boundaries[-1]+1,min(index,count-(len(words)-step)))
+        boundaries.append(index)
+    boundaries.append(count)
+    if any(b<=a for a,b in zip(boundaries,boundaries[1:])):
+        return None
+    ends=[]
+    for ix in range(len(scenes)):
+        if ix+1<len(scenes):
+            ends.append(min(length,max(.001,float(cues[boundaries[ix+1]]["offset"]))))
+        else:
+            ends.append(length+.52)
+    return boundaries,ends
+
+
+async def _continuous_documentary(scenes, dest: Path, voice: str, temp: Path):
+    """One voice performance for the whole story avoids choppy TTS scene joins.
+
+    A timing contract makes every word retain its provider-native offset.
+    Returns None when the provider's word segmentation isn't trustworthy;
+    the caller can then use the proven per-scene synthesis path.
+    """
+    segments=[script_for_scene(scene, {"language":"en"}) for scene in scenes]
+    complete="\n\n".join(segments)
+    mp3=temp/"continuous.mp3"
+    markers=await _edge(complete,mp3,voice)
+    samples=_pcm_from_file(mp3)
+    length=len(samples)/SAMPLE_RATE
+    if length<1:
+        raise RuntimeError("Continuous English narration is empty")
+    bounds=continuous_scene_bounds(markers,scenes,length)
+    if bounds is None:
+        return None
+    edges,ends=bounds
+    timed=[]
+    for index,scene in enumerate(scenes):
+        start=0. if index==0 else ends[index-1]
+        end=ends[index]
+        if end<=start:
+            return None
+        scene["start"]=round(start,4)
+        scene["end"]=round(end,4)
+        scene["narration"]=segments[index]
+        for marker in markers[edges[index]:edges[index+1]]:
+            beginning=max(start,min(end,float(marker["offset"])))
+            ending=min(end,beginning+max(.05,float(marker["duration"])))
+            if ending>beginning:
+                timed.append({
+                    "start":round(beginning,3),"end":round(ending,3),
+                    "word":marker["text"].strip(),"scene":index,
+                })
+    tail=np.zeros(round(.52*SAMPLE_RATE),dtype="<i2")
+    audio=np.concatenate((samples,tail))
+    return audio,timed
 
 
 def script_for_scene(scene: dict, cfg: dict) -> str:
@@ -49,7 +124,8 @@ async def _edge(text: str, output: Path, voice: str):
         marks = []
         try:
             communication = edge_tts.Communicate(
-                text, voice=voice, rate="-4%", volume="+0%", boundary="WordBoundary",
+                text, voice=voice, rate=DOCUMENTARY_RATE, pitch=DOCUMENTARY_PITCH,
+                volume="+0%", boundary="WordBoundary",
             )
             with output.open("wb") as stream:
                 async for chunk in communication.stream():
@@ -119,6 +195,35 @@ def make_narration(
     try:
         with tempfile.TemporaryDirectory(prefix="vss-narration-") as temp:
             timing_mode="estimated"
+            # The actual online voice records the *whole* explanation in one
+            # performance: natural continuation, without six hard audio edits.
+            # Test synthesizers and offline Kokoro retain their stable contract.
+            if provider=="edge" and synthesizer is None:
+                result=asyncio.run(_continuous_documentary(
+                    scenes,dest,voice or DEFAULT_EDGE_VOICE,Path(temp)))
+                if result is not None:
+                    all_audio,cues=result
+                    cfg["duration"]=round(len(all_audio)/SAMPLE_RATE,4)
+                    scenes[-1]["end"]=cfg["duration"]
+                    cfg["word_cues"]=cues
+                    cfg["voice"]={
+                        "provider":"edge",
+                        "voice":voice or DEFAULT_EDGE_VOICE,
+                        "language":"en",
+                        "word_alignment":"provider_word_boundaries",
+                        "delivery_style":"continuous_documentary",
+                        "prosody":{"rate":DOCUMENTARY_RATE,"pitch":DOCUMENTARY_PITCH},
+                    }
+                    with wave.open(str(dest),"wb") as output:
+                        output.setnchannels(1)
+                        output.setsampwidth(2)
+                        output.setframerate(SAMPLE_RATE)
+                        output.writeframes(all_audio.tobytes())
+                    return {"file":str(dest),"duration":cfg["duration"],
+                            "words":len(cues),"provider":"edge",
+                            "delivery_style":"continuous_documentary"}
+                # Providers can occasionally return unexpected word tokenization.
+                # In that case synthesize each scene rather than invent timings.
             for index, scene in enumerate(scenes):
                 text = script_for_scene(scene, cfg)
                 boundaries=[]
