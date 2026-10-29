@@ -184,7 +184,7 @@ def economy(p,im,t,ix,phase):
         target=50+33*k+42*math.sin(k*1.8+ix*.2)
         rise=min(1,max(0,phase*3-k*.10))
         h=max(4,target*rise)
-        p.line(d,[(x,766),(x,766-h)],(*CYAN if k%2 else GOLD,210),18)
+        p.line(d,[(x,766),(x,766-h)],(*(CYAN if k%2 else GOLD),210),18)
         chart.append((x,766-h))
         dot(p,d,x,766-h,3,WHITE,240)
     shown=int(1+phase*7)
