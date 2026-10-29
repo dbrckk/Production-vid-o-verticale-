@@ -100,7 +100,8 @@ def inspect(movie:Path, manifest_path:Path):
         raise QualityFailure("Exact vertical 9:16 video is required")
     if not audio or audio.get("codec_name")!="aac" or audio.get("sample_rate")!="48000":
         raise QualityFailure("48 kHz AAC narration audio track is required")
-    publication=manifest.get("export_profile")=="publication_1080p"
+    profile_name=manifest.get("export_profile","")
+    publication=profile_name in ("publication_1080p","publication_1080p60")
     if publication:
         rate=video.get("avg_frame_rate","0/1")
         try:
@@ -108,8 +109,9 @@ def inspect(movie:Path, manifest_path:Path):
             real_fps=numerator/denominator
         except (ValueError,ZeroDivisionError):
             real_fps=0.
-        if width < 1080 or real_fps < 29.5:
-            raise QualityFailure("Publication requires full-HD 9:16 at 30 FPS or higher")
+        minimum_fps=59.5 if profile_name=="publication_1080p60" else 29.5
+        if width < 1080 or real_fps < minimum_fps:
+            raise QualityFailure("Publication requires full-HD 9:16 at the declared frame rate")
         if video.get("profile")!="High" or video.get("pix_fmt")!="yuv420p":
             raise QualityFailure("Publication requires H.264 High, yuv420p compatibility")
         for key in ("color_space","color_primaries","color_transfer"):
