@@ -110,7 +110,7 @@ def building_facades(p,im,d,t,phase):
                                     outline=(*LIME,78),width=max(1,round(p.s)))
                 p.line(d,[(xx,y-7),(xx,y+7)],(*DUST,78),.8)
         # A clear foundation ties the building to the soil motion.
-        p.line(d,[(left-9,703),(right+9,703)],(*AMBER if side else LIME,110),3.2)
+        p.line(d,[(left-9,703),(right+9,703)],(*(AMBER if side else LIME),110),3.2)
 
 
 def earthquake_art(p,im,t,scene,phase):
