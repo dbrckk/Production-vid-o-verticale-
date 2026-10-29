@@ -130,6 +130,9 @@ def create_story(topic:str, *,article:dict|None=None,duration:int=30) -> dict:
     title=clean(topic,145)
     if not title or len(title)<3 or len(topic)>500:raise ValueError('Enter a topic between 3 and 500 characters')
     if not isinstance(duration,int) or not 12<=duration<=90:raise ValueError('Duration must be between 12 and 90 seconds')
+    if article is not None:
+        from editorial import compose_news_story
+        return compose_news_story(title, article, duration)
     if article:
         if not all(article.get(k) for k in ('url','source','published')):raise ValueError('News item needs a source and publication date')
         sentences=_phrases(article.get('summary',''))
