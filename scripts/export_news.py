@@ -9,6 +9,8 @@ import argparse
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from topic_engine import current_headlines, MAX_AGE_HOURS
 
 
