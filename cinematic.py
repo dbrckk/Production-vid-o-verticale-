@@ -70,7 +70,9 @@ def render_cinematic_art(painter, cfg: dict, t: float, scene_index: int, phase: 
     The previous scene is rendered at its final pose and blended for a short
     380-ms boundary; title and subtitles are composited after this operation.
     """
-    current = painter.base.copy()
+    from scene_backdrops import environment, add_parallax
+    current = environment(painter,category)
+    add_parallax(painter,current,category,t,scene_index)
     draw_scene(painter, current, category, t, scene_index, phase)
     current = move_camera(painter, current, scene_index, phase, category)
 
@@ -82,13 +84,14 @@ def render_cinematic_art(painter, cfg: dict, t: float, scene_index: int, phase: 
     if elapsed >= fade_length:
         return current
 
-    previous = painter.base.copy()
+    previous = environment(painter,category)
     old_scene = cfg["scenes"][scene_index - 1]
     # Never freeze the outgoing animation during a dissolve. Keep its
     # particles and seismic waves moving until the final blend frame.
     old_t = float(old_scene["end"]) - .001 + elapsed
     old_duration=max(.001,float(old_scene['end'])-float(old_scene['start']))
     old_phase=min(1.0,max(0.0,(old_t-float(old_scene['start']))/old_duration))
+    add_parallax(painter,previous,category,old_t,scene_index-1)
     draw_scene(painter, previous, category, old_t, scene_index - 1, old_phase)
     previous = move_camera(painter, previous, scene_index - 1, old_phase, category)
     return Image.blend(previous, current, ease(elapsed / fade_length))
