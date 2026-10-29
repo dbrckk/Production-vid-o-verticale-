@@ -1,0 +1,59 @@
+name: Proof render - English ocean animation and neural narration
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'presets/ocean-currents.json'
+      - '.github/workflows/ocean-proof.yml'
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install English narration and video tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Render continuous 9:16 ocean scene with real neural voice
+        run: |
+          python studio.py --config presets/ocean-currents.json \
+            --narrate --tts-provider edge --width 540 --fps 15 --preview \
+            --output output/ocean-proof.mp4
+          ffprobe -v error -select_streams v:0 \
+            -show_entries stream=codec_name,width,height \
+            -of default=noprint_wrappers=1 output/ocean-proof.mp4
+          ffprobe -v error -select_streams a:0 \
+            -show_entries stream=codec_name \
+            -of default=noprint_wrappers=1 output/ocean-proof.mp4
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('output/ocean-proof.json').read_text())
+          assert d['voice']['language']=='en'
+          assert d['voice']['provider']=='edge'
+          assert d['voice']['word_alignment']=='provider_word_boundaries'
+          assert len(d['word_cues'])>=40
+          assert d['width']==540 and d['height']==960
+          assert Path('output/ocean-proof.mp4').stat().st_size>50000
+          print('Real narrated English MP4, true moving scene, timed captions: PASS')
+          PY
+      - name: Upload narrated video and manifest
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: english-ocean-animated-neural-voice
+          path: |
+            output/ocean-proof.mp4
+            output/ocean-proof.json
+            output/ocean-proof.voice.wav
+            output/cover.png
+          retention-days: 7
