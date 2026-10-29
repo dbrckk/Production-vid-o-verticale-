@@ -137,3 +137,14 @@ Le site sera accessible sur **https://huggingface.co/spaces/Dbrzck/vertical-scie
 - Le mode `article_url` du workflow prend en charge exactement l'actualité choisie, en vérifiant à nouveau que son URL figure dans les flux RSS récents. Les autres modes `custom`, `random_news` et `preset` restent disponibles.
 
 **Limites explicites :** l'interface statique ne peut pas exécuter directement Python/FFmpeg ni conserver des travaux sur serveur. Le rendu a lieu sur GitHub ; la récupération du MP4 s'effectue depuis les artefacts GitHub Actions. Une source RSS fraîche indique l'origine de l'information, mais ne remplace pas une vérification éditoriale indépendante. Les thèmes libres restent des animations procédurales générées par le moteur actuel et ne sont pas des reportages garantis factuels sans sources.
+
+### Dépannage : « Failed deploy » sur Render
+
+La validation Docker indépendante de Render est assurée par [Validate Render Docker deployment](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/docker-smoke.yml). Elle reconstruit l'image de production, démarre le serveur sur le port `10000`, puis vérifie `GET /` et les accès authentifiés / non authentifiés à l'API.
+
+Un service créé avec l'ancienne version de `render.yaml` pouvait démarrer sans `STUDIO_TOKEN`. Dans ce cas, le serveur refuse de s'exposer publiquement et termine avec l'erreur `STUDIO_TOKEN (16 caractères minimum) obligatoire hors localhost`.
+
+**Service Render existant :** dans le dashboard du service → **Environment**, vérifier que `STUDIO_TOKEN` existe et contient au moins 16 caractères (ne jamais publier sa valeur). Sinon, ajouter la variable, puis choisir **Save, rebuild, and deploy**. Le `render.yaml` actuel contient `generateValue: true` pour que **les nouvelles créations** de Blueprint reçoivent automatiquement un secret de 256 bits. La modification du Blueprint ne garantit pas l'ajout rétroactif d'une variable manquante sur un service déjà créé.
+
+Si le jeton est déjà configuré et que le service échoue encore, ouvrir **Deploys → déploiement échoué → Logs** : distinguer **Build failed** (téléchargement d'image, apt/pip, clonage) de **Runtime failed** (exception, port, erreur de processus). Ne pas supprimer ou recréer le service sans connaître l'erreur. Vérifier aussi que **Runtime = Docker**, **Branch = main**, **Port = 10000** (le Dockerfile et `webapp.py` le définissent déjà).
+
