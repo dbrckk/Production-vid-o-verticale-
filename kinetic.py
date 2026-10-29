@@ -525,6 +525,8 @@ def draw(p,im,category: str,t:float,scene_index:int,phase:float):
         dot(p,d,x,y,.7+(i%3)*.4,BLUE,32+(i%3)*20)
     fn=ANIMATORS.get(category,general)
     fn(p,im,t,scene_index,phase)
+    from motion_layers import animate
+    animate(p,im,t,scene_index,phase)
     # A physically moving highlight sweeps behind the active diagram.
     x=72+432*(phase**.8)
     path(p,d,[(x,821),(x+12,821)],CYAN,2.8,230)
