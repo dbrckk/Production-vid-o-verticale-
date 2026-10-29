@@ -14,7 +14,7 @@ import wave
 import numpy as np
 
 SAMPLE_RATE = 24000
-DEFAULT_EDGE_VOICE = "en-US-AriaNeural"
+DEFAULT_EDGE_VOICE = "en-US-AndrewNeural"
 DEFAULT_KOKORO_VOICE = "af_heart"
 
 
@@ -42,7 +42,7 @@ async def _edge(text: str, output: Path, voice: str):
     import edge_tts
     marks=[]
     communication=edge_tts.Communicate(
-        text, voice=voice, rate="-2%", volume="+0%", boundary="WordBoundary",
+        text, voice=voice, rate="-4%", volume="+0%", boundary="WordBoundary",
     )
     with output.open("wb") as stream:
         async for chunk in communication.stream():
