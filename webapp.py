@@ -31,7 +31,9 @@ class State:
                 (self.directory/f'{key}{suffix}').unlink(missing_ok=True)
         # cover.png is shared with the legacy renderer and may be in use.
 
-    def start(self,topic:str,article:dict|None,quality:str):
+    def start(self,topic:str,article:dict|None,quality:str,voice:str='en-US-AndrewNeural'):
+        if voice not in ('en-US-AndrewNeural','en-US-AriaNeural','en-GB-RyanNeural'):
+            raise ValueError('Unsupported English narrator')
         if quality not in ('preview','720p','1080p'):raise ValueError('Unknown video quality')
         cfg=create_story(topic,article=article) if article else build(topic,False,30)
         with self.lock:
@@ -45,7 +47,7 @@ class State:
                 width,fps={'preview':(540,15),'720p':(720,24),'1080p':(1080,30)}[quality]
                 with self.lock:self.jobs[job]['status']='narrating'
                 voice_file=self.directory/f'{job}.voice.wav'
-                voice_info=make_narration(cfg,voice_file,provider='edge',voice='en-US-AndrewNeural')
+                voice_info=make_narration(cfg,voice_file,provider='edge',voice=voice)
                 with self.lock:self.jobs[job]['status']='rendering'
                 result=render(cfg,self.directory/f'{job}.mp4',width,fps,preview=quality=='preview',voice=voice_file)
                 with self.lock:self.jobs[job].update(status='ready',info=result,voice=voice_info)
@@ -122,7 +124,7 @@ class Handler(BaseHTTPRequestHandler):
                 if not matches:raise ValueError('Article is unverified or too old')
                 article=matches[0]
                 if topic!=article['title']:raise ValueError('Topic does not match the source article')
-            result=self.server.state.start(topic,article,body.get('quality','preview'))
+            result=self.server.state.start(topic,article,body.get('quality','preview'),body.get('voice','en-US-AndrewNeural'))
             self.send_json(202,result)
         except (ValueError,TypeError,KeyError,json.JSONDecodeError) as e:self.send_json(400,{'error':str(e)})
         except RuntimeError as e:self.send_json(409,{'error':str(e)})
