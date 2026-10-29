@@ -210,11 +210,6 @@ def research_story(topic:str,duration:int=30,*,fetcher=None) -> dict:
             return cfg
     source=wikipedia_context(topic,fetcher)
     if source and cfg['evidence']!='user_provided':
-        phrases=_phrases(source['summary'])
-        for i in range(1,min(6,len(phrases)+1)):
-            cfg['scenes'][i]['caption']=phrases[i-1][:175]
-            cfg['scenes'][i]['metric']='SOURCE: WIKIPEDIA'
-            cfg['scenes'][i]['narration']=phrases[i-1][:175]
-        cfg['sources']=[{k:source[k] for k in ('title','source','url')}]
-        cfg['evidence']='wikipedia'
+        from editorial import apply_encyclopedia_brief
+        apply_encyclopedia_brief(cfg, source)
     return cfg
