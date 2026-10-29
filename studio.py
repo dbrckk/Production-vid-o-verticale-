@@ -405,7 +405,7 @@ def export_preset(width:int, fps:int, preview:bool=False) -> dict:
     """
     publishing = width >= 1080 and fps >= 30 and not preview
     return {
-        'name': 'publication_1080p' if publishing else 'review',
+        'name': ('publication_1080p60' if fps>=60 else 'publication_1080p') if publishing else 'review',
         'preset': 'slow' if publishing else ('veryfast' if preview else 'medium'),
         'crf': 16 if publishing else (21 if preview else 18),
         'audio_bitrate_kbps': 256 if publishing else 192,
