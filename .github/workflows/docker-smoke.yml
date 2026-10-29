@@ -52,6 +52,12 @@ jobs:
             http://127.0.0.1:18080/api/status/aaaaaaaaaaaaaaaaaaaaaaaa)
           test "$code" = "404"
           echo "Docker production image, homepage and token-protected API: OK"
+      - name: Live English neural voice provider check
+        continue-on-error: true
+        run: |
+          docker exec studio-smoke python -c "import asyncio, edge_tts; asyncio.run(edge_tts.Communicate('Natural English narration is enabled.', voice='en-US-AriaNeural').save('/tmp/english-voice.mp3'))"
+          docker exec studio-smoke sh -c 'test -s /tmp/english-voice.mp3'
+          echo "Edge English neural voice service: audio created successfully"
       - name: Container diagnostics
         if: always()
         run: |
