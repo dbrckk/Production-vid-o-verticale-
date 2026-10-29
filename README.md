@@ -314,3 +314,39 @@ to any other applicable rights. See:
 - https://learn.microsoft.com/en-us/answers/questions/5925556/commercial-use-of-edge-read-aloud-voices-via-edge
 - https://huggingface.co/hexgrad/Kokoro-82M
 
+
+
+## Depth-painted 2D science subjects and adjacent-frame 60 FPS QC
+
+The premium all-2D scene renderer combines **science-specific physical motion**
+with an original cached painted atmosphere:
+
+- `scene_backdrops.py` builds bounded, deterministic **volumetric light fields**
+  and environmental palettes (ocean, earthquakes, volcanoes, space, weather,
+  biology). Each full-resolution backing image is generated once per render
+  and reused rather than recomputed on every 60 FPS frame.
+- Its analytic parallax layer adds underwater kelp, ash smoke, fault contours
+  and contextual stars, all moving continuously at subsecond times.
+- `subject_illustrations.py` adds fish with independently moving caudal fins,
+  dorsal fins, gill details, specular highlights, as well as a layered volcanic
+  cross-section with branching lava, flying cinders and rising smoke.
+- `geology_premium.py` draws illuminated faults, mineral strata,
+  sediment grains and aftershock details behind the narration.
+- `cinematic.py` uses smoother camera easing, bicubic image transforms
+  and continuously animated cross-fades, while keeping text fixed and legible.
+- `audio_mastering.py` softens synthetic speech presence with restrained
+  EQ and gentler voice compression while preserving automatic ducking
+  and the existing `-17 LUFS` target.
+
+The **production QA** checks more than the declared frame rate:
+`qa_video.py` decodes a short sample of *adjacent* full-motion frames to
+reject duplicated 30/60 FPS frames. The check supplements the one-FPS
+slideshow detector and the voice timing/audio loudness checks.
+
+Two further automated live-narration proofs are available:
+[underwater ocean proof](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/ocean-proof.yml)
+and [volcanic motion proof](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/volcano-proof.yml).
+The [Full HD 60 FPS publication proof](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/publication-proof.yml)
+remains the final export contract. These validations demonstrate working
+technical outputs; aesthetic suitability and voice usage rights must still be
+reviewed before publishing.
