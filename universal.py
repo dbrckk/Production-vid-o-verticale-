@@ -180,5 +180,5 @@ def frame(p,t:float,cfg:dict):
         render_captions(p,im,cues,t,ix)
     else:
         caption_backdrop(p,im)
-        _wrap(p,ImageDraw.Draw(im,'RGBA'),scene['caption'],857,size=19,max_lines=3)
+        _wrap(p,ImageDraw.Draw(im,'RGBA'),scene['caption'],785,size=19,max_lines=3)
     return im.convert('RGB')
