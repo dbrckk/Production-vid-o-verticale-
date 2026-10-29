@@ -125,7 +125,6 @@ def visual(p, im, kind: str, t: float, phase: float):
             v = ((n/11+phase*2.6)%1)
             x = 169+v*239
             p.glow_disc(im,x,576,2.1,(255,222,116))
-        write_lines(p,d,'149.6 MILLION KM',288,748,470,1,17,(*CYAN,250),True)
     elif kind == 'countdown':
         p.draw_stars(im,t,.65)
         earth(p,im,288,584,102,night=phase>.50)
@@ -136,7 +135,6 @@ def visual(p, im, kind: str, t: float, phase: float):
         x0,y0=p.p(288-162,584-162);x1,y1=p.p(288+162,584+162)
         d.arc((x0,y0,x1,y1),start=-90,end=-90+max(1,round(360*phase)),
               fill=(*AMBER,235),width=max(2,round(5*p.s)))
-        write_lines(p,d,'8 MIN 20 SEC',288,769,475,1,28,(*CYAN,255),True)
     elif kind == 'orbit':
         p.draw_stars(im,t,.85)
         sun(p,im,185,556,47,t,opacity=.28)
@@ -146,7 +144,6 @@ def visual(p, im, kind: str, t: float, phase: float):
         py=640-phase*145
         earth(p,im,px,py,39,night=True)
         p.glow_line(im,[(px-95,py+74),(px+65,py-53)],CYAN,3.8,2)
-        write_lines(p,d,'EARTH MOVES THROUGH SPACE',288,787,495,2,17,(*CYAN,245),True)
     elif kind == 'ice':
         p.draw_stars(im,t,.8)
         earth(p,im,288,583,124,frozen=True,night=True)
@@ -156,7 +153,6 @@ def visual(p, im, kind: str, t: float, phase: float):
             sx=288+rr*math.cos(math.radians(a)+t*.035)
             sy=583+rr*math.sin(math.radians(a))+t*(i%3+1)*3
             p.circle(d,sx,sy,1+(i%3)*.5,(191,238,255,135))
-        write_lines(p,d,'GRADUAL COOLING',288,788,495,2,15,(202,242,255,250),True)
     elif kind == 'galaxy':
         p.draw_stars(im,t,1)
         for n in range(90):
