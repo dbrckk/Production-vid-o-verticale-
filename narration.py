@@ -38,26 +38,41 @@ def _pcm_from_file(path: Path) -> np.ndarray:
 
 
 async def _edge(text: str, output: Path, voice: str):
-    """Write neural MP3 and collect provider-authored word boundaries."""
-    import edge_tts
-    marks=[]
-    communication=edge_tts.Communicate(
-        text, voice=voice, rate="-4%", volume="+0%", boundary="WordBoundary",
-    )
-    with output.open("wb") as stream:
-        async for chunk in communication.stream():
-            if chunk["type"] == "audio":
-                stream.write(chunk["data"])
-            elif chunk["type"] == "WordBoundary":
-                marks.append({
-                    "text":chunk["text"],
-                    "offset":chunk["offset"] / 10_000_000,
-                    "duration":chunk["duration"] / 10_000_000,
-                })
-    if not output.exists() or output.stat().st_size < 1000:
-        raise RuntimeError("English neural narrator returned no audio")
-    return marks
+    """Write natural English audio and word boundaries; retry transient TTS outages.
 
+    A missing speech stream is never treated as successful. Each retry uses
+    a new session and removes partial MP3 data before attempting again.
+    """
+    import edge_tts
+    last_error = None
+    for attempt in range(3):
+        marks = []
+        try:
+            communication = edge_tts.Communicate(
+                text, voice=voice, rate="-4%", volume="+0%", boundary="WordBoundary",
+            )
+            with output.open("wb") as stream:
+                async for chunk in communication.stream():
+                    if chunk["type"] == "audio":
+                        stream.write(chunk["data"])
+                    elif chunk["type"] == "WordBoundary":
+                        marks.append({
+                            "text": chunk["text"],
+                            "offset": chunk["offset"] / 10_000_000,
+                            "duration": chunk["duration"] / 10_000_000,
+                        })
+            if not output.exists() or output.stat().st_size < 1000:
+                raise RuntimeError("Neural narrator returned empty audio")
+            if not marks:
+                raise RuntimeError("Neural narrator returned no timed words")
+            return marks
+        except Exception as exc:
+            last_error = exc
+            output.unlink(missing_ok=True)
+            if attempt < 2:
+                print(f"English neural TTS retry {attempt + 1}/2 for {voice}: {type(exc).__name__}", flush=True)
+                await asyncio.sleep(1.5 * (attempt + 1))
+    raise RuntimeError(f"English neural narration unavailable after 3 attempts ({voice})") from last_error
 
 def _kokoro(text: str, engine, voice: str) -> np.ndarray:
     audio, sr = engine.create(text, voice=voice, speed=1.03, lang="en-us")
