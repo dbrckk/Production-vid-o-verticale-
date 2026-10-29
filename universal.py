@@ -153,7 +153,7 @@ def frame(p,t:float,cfg:dict):
     start,end=float(scene['start']),float(scene['end'])
     phase=max(0,min(1,(t-start)/max(.001,end-start)))
     im=p.base.copy()
-    category=topic_category(cfg['topic'])
+    category=cfg.get('motion_category') or topic_category(cfg['topic'])
     draw(p,im,category,t,ix,phase)
     d=ImageDraw.Draw(im,'RGBA')
     p.text(d,'ENGLISH  /  MOTION DOCUMENTARY',288,64,12,(*MINT,230),bold=True)
