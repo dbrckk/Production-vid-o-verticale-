@@ -472,7 +472,8 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
           'duration':duration,'frames':frames,'mode':cfg.get('mode','paper')}
     if info['mode']=='universal':
         info.update(topic=cfg['topic'],evidence=cfg.get('evidence','unsourced'),
-                    sources=cfg.get('sources',[]),scenes=cfg['scenes'])
+                    sources=cfg.get('sources',[]),scenes=cfg['scenes'],
+                    voice=cfg.get('voice'),word_cues=cfg.get('word_cues',[]))
     elif info['mode']=='storyboard':
         info['scenes']=[{'start':scene['start'],'end':scene['end'],'headline':scene['headline'],
                          'visual':scene['visual']} for scene in cfg['scenes']]
@@ -492,6 +493,10 @@ def main():
     p.add_argument('--duration',type=float)
     p.add_argument('--title',type=str,help='Replace first line of the title')
     p.add_argument('--voice',type=Path,help='Optional owned narration audio file')
+    p.add_argument('--narrate',action='store_true',help='Create English neural narration and synced subtitles automatically')
+    p.add_argument('--tts-provider',choices=('edge','kokoro'),default='edge',
+                   help='Neural voice: lightweight Edge or offline Kokoro ONNX')
+    p.add_argument('--tts-voice',type=str,help='Optional English voice name')
     p.add_argument('--preview',action='store_true',help='Fast encoding (resolution still configurable)')
     a=p.parse_args()
     cfg=json.loads(Path(a.config).read_text(encoding='utf8'))
@@ -500,7 +505,14 @@ def main():
             cfg['scenes'][0]['headline'] = a.title[:200]
         else:
             cfg['title_lines'] = [a.title, *cfg['title_lines'][1:]]
-    print(json.dumps(render(cfg,Path(a.output),a.width,a.fps,a.duration,a.preview,a.voice),ensure_ascii=False,indent=2))
+    voice=a.voice
+    if a.narrate:
+        if a.voice:
+            p.error('Cannot use --voice and --narrate at the same time')
+        from narration import make_narration
+        voice=Path(a.output).with_suffix('.voice.wav')
+        print(json.dumps(make_narration(cfg,voice,a.tts_provider,a.tts_voice),ensure_ascii=False),flush=True)
+    print(json.dumps(render(cfg,Path(a.output),a.width,a.fps,a.duration,a.preview,voice),ensure_ascii=False,indent=2))
 
 
 if __name__=='__main__':main()
