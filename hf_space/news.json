@@ -1,55 +1,127 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T12:01:26.546560+00:00",
+  "generated_at": "2026-10-29T21:13:03.570724+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "Israel election results live: president warns against ‘tarnishing an entire community’ in defence of Palestinian vote",
-      "summary": "Isaac Herzog responds to Netanyahu’s claim of foreign interference in election as count of absentee ballots continues Full report: Coalition talks loom in Israel Analysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Gadi Eisenkot, leader of the Yashar party and Benjamin",
+      "title": "Patrick Stewart, Star Trek actor and acclaimed thespian, dies aged 86",
+      "summary": "Star Trek: the Next Generation and X-Men actor died at his home after ‘a brief and poignant journey with Alzheimer’s disease and Lewy body dementia’ Patrick Stewart dies aged 86 – latest updates Patrick Stewart, the acclaimed British stage and screen actor renowned for both Shakespeare and sci-fi, has died.",
       "source": "The Guardian",
-      "published": "2026-10-29T11:49:56+00:00",
+      "published": "2026-10-29T21:02:36+00:00",
+      "url": "https://www.theguardian.com/culture/2026/oct/29/patrick-stewart-dead",
+      "importance": 2.548
+    },
+    {
+      "title": "BBC Inside Science",
+      "summary": "Time is running out for one of the most ambitious environmental pledges in history.",
+      "source": "BBC Science",
+      "published": "2026-10-29T21:00:00+00:00",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
+      "importance": 2.547
+    },
+    {
+      "title": "Healey backs away from cutting welfare cost despite warnings of public finance shortfall",
+      "summary": "Experts round on chancellor over ‘scattergun’ budget, saying he ducked big tax and spending decisions John Healey has backed away from cutting the cost of welfare this parliament, amid dire warnings his first budget could lead to brutal spending cuts because of a £28bn shortfall in public finances. Experts",
+      "source": "The Guardian",
+      "published": "2026-10-29T20:02:16+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/john-healey-budget-backs-away-from-cutting-welfare-public-finance-shortfall",
+      "importance": 2.534
+    },
+    {
+      "title": "Met refers itself to police watchdog over Meghan warning letter",
+      "summary": "Move comes as Philippines police investigate alleged child sexual abuse images reportedly found at Thomas Markle Sr’s former home The Metropolitan police has referred itself to the police watchdog over potential errors in its handling of a 2019 letter warning of dangers to the security of the Duchess of",
+      "source": "The Guardian",
+      "published": "2026-10-29T19:55:58+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/metropolitan-police-refers-itself-to-watchdog-over-meghan-warning-letter",
+      "importance": 2.532
+    },
+    {
+      "title": "Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US",
+      "summary": "Tankers, tracked by Greenpeace, are first phase of Trump-Putin deal – but there is uncertainty over whether they will unload Seven oil tankers carrying an estimated 288,000 tonnes of Russian diesel are now sailing towards the US, though it is uncertain if the vessels will be able to unload amid a political",
+      "source": "The Guardian",
+      "published": "2026-10-29T19:04:17+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
+      "importance": 2.52
+    },
+    {
+      "title": "Israel election results: Qatar says accusations of election interference in Israel ‘ridiculous and dangerous’ – as it happened",
+      "summary": "Netanyahu’s claim of interference in election also dismissed by Israeli police and opposition parties Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Gadi Eisenkot, leader of the Yashar party and Benjamin Netanyahu’s main rival, has warned political opponents against",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:49:57+00:00",
       "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
-      "importance": 3.097
+      "importance": 2.503
     },
     {
-      "title": "Trump and Obama trade barbs on campaign trail in final days before midterm election – US politics live",
-      "summary": "Former president says ‘these are not serious people’ in Georgia rally as Trump defended his White House decor in Ohio rally ‘They mobilized a whole government response to that joke’: Obama laughs off Trump attacks Sign up for the Breaking News US email Donald Trump has demanded that Democratic Senate",
-      "source": "The Guardian",
-      "published": "2026-10-29T11:43:01+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
-      "importance": 2.546
-    },
-    {
-      "title": "Treasury denies Healey plan to cut welfare bill before election, claiming his comments were misinterpreted – UK politics live",
-      "summary": "Asked earlier if there would be a cut to the welfare bill before the next election, the chancellor said: ‘There will be a reduction in the benefits bill’ Continue reading...",
-      "source": "The Guardian",
-      "published": "2026-10-29T11:29:44+00:00",
-      "url": "https://www.theguardian.com/politics/live/2026/oct/29/budget-john-healey-labour-uk-politics-latest-news",
-      "importance": 2.543
+      "title": "US interest rates held steady and economy grows - what it means for you",
+      "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "source": "BBC Business",
+      "published": "2026-10-29T17:15:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.495
     },
     {
       "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-      "summary": "With 93% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
+      "summary": "With 99% of ballots counted, Netanyahu's Likud party and its allies are set to win 53 seats in the 120-seat Knesset.",
       "source": "BBC World",
-      "published": "2026-10-29T11:22:18+00:00",
+      "published": "2026-10-29T15:47:20+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.541
+      "importance": 2.475
     },
     {
-      "title": "Poundland's future hangs in the balance as chain edges towards collapse",
-      "summary": "Poundland's bosses is filing a notice of intention to appoint administrators to the business.",
+      "title": "Your pay, energy bills and savings: How the Budget affects you",
+      "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
       "source": "BBC Business",
-      "published": "2026-10-29T11:19:10+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.54
+      "published": "2026-10-29T15:11:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.466
     },
     {
-      "title": "Lloyds executive criticises Healey for linking bank tax rises to energy bill support",
-      "summary": "Chief financial officer says he hopes budget measure is temporary as sector provides loans that fuel growth Business live – latest updates A senior Lloyds Banking Group executive has criticised the chancellor for linking bank tax increases to energy bill support for UK households, as he warned the government",
+      "title": "DoorDash to buy Instacart in $17bn deal it says will expand customer options",
+      "summary": "Instacart shoppers will be able to buy from 150,000 stores, compared to the 100,000 currently available on the platform, the firms said.",
+      "source": "BBC Business",
+      "published": "2026-10-29T15:05:15+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.465
+    },
+    {
+      "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+      "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
+      "source": "BBC World",
+      "published": "2026-10-29T14:58:28+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.463
+    },
+    {
+      "title": "Study of 100,000 Australians seeks causes of mental health disorders and early onset cancer",
+      "summary": "Sax Institute is recruiting for 18 and Up, an intergenerational study of wellbeing and ageing that follows its landmark 45 and Up study Get our breaking news email , free app or daily news podcast Researchers hope to better understand the drivers of major health challenges facing younger people, such as",
       "source": "The Guardian",
-      "published": "2026-10-29T10:31:55+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
-      "importance": 2.529
+      "published": "2026-10-29T14:00:48+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/30/study-of-100000-australians-seeks-causes-of-mental-health-disorders-and-early-onset-cancer",
+      "importance": 2.45
+    },
+    {
+      "title": "Island Energy: No plans to remove gas standing charge",
+      "summary": "The provider said any change would need support from the community, the regulator and government.",
+      "source": "BBC Business",
+      "published": "2026-10-29T13:39:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwy7l1375d74o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.445
+    },
+    {
+      "title": "Philippine police obtain warrant to search Thomas Markle's devices",
+      "summary": "Images of child sexual abuse allegedly belonging to Meghan's father had reportedly been found in his former home in the Philippines.",
+      "source": "BBC World",
+      "published": "2026-10-29T13:25:07+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.442
+    },
+    {
+      "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
+      "summary": "Budget forecasts show growth in living standards grinding almost to a halt.",
+      "source": "BBC Business",
+      "published": "2026-10-29T13:19:24+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.44
     },
     {
       "title": "How could Israel break election deadlock? Here are four scenarios",
@@ -57,15 +129,7 @@
       "source": "BBC World",
       "published": "2026-10-29T09:06:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.51
-    },
-    {
-      "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
-      "summary": "Healey’s attempt to provide ‘breathing space’ gives rich almost as much as poor, says Resolution Foundation Business live – latest updates Budget 2026: what it means for your wallet, your mortgage and your pay John Healey delivered a “scattergun” budget that did little to boost living standards and left",
-      "source": "The Guardian",
-      "published": "2026-10-29T09:10:22+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
-      "importance": 2.51
+      "importance": 2.382
     },
     {
       "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
@@ -73,23 +137,7 @@
       "source": "BBC World",
       "published": "2026-10-29T08:23:31+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.5
-    },
-    {
-      "title": "Shell profits double to $10.8bn as Iran war pushes up margin on oil",
-      "summary": "Energy firm to return $5bn to shareholders as climate campaigners criticise high profits Business live – latest updates Shell has doubled its profits in the last quarter after the Middle East conflict drove up the price of oil and gas and created shortages in the global market. Shell reported on Thursday",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:00:37+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
-      "importance": 2.494
-    },
-    {
-      "title": "Albanese concedes savings needed as he faces internal Labor pressure on cost-of-living crisis",
-      "summary": "Prime minister vows not to slash health and education funding amid political problem over handling of economy Get our daily political email , free app or daily news podcast Anthony Albanese has ruled out major cuts to health, education and essential services in December’s mid-year budget update, but conceded",
-      "source": "The Guardian",
-      "published": "2026-10-29T07:31:41+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/29/albanese-concedes-savings-needed-as-he-faces-internal-labor-pressure-on-cost-of-living-crisis",
-      "importance": 2.488
+      "importance": 2.372
     },
     {
       "title": "What we now know about the UK economy in four charts",
@@ -97,7 +145,15 @@
       "source": "BBC Business",
       "published": "2026-10-28T20:08:45+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.329
+      "importance": 2.202
+    },
+    {
+      "title": "Healey provides some breathing space but things still set to get worse for most",
+      "summary": "The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.",
+      "source": "BBC Business",
+      "published": "2026-10-28T19:51:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.198
     },
     {
       "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
@@ -105,7 +161,7 @@
       "source": "BBC World",
       "published": "2026-10-28T19:15:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.317
+      "importance": 2.19
     },
     {
       "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
@@ -113,7 +169,7 @@
       "source": "BBC Business",
       "published": "2026-10-28T18:45:09+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
-      "importance": 2.31
+      "importance": 2.182
     },
     {
       "title": "Will I get the £100 energy payment and when will I receive it?",
@@ -121,23 +177,7 @@
       "source": "BBC Business",
       "published": "2026-10-28T17:47:37+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.297
-    },
-    {
-      "title": "Your pay, energy bills and savings: How the Budget affects you",
-      "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-      "source": "BBC Business",
-      "published": "2026-10-28T16:43:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.282
-    },
-    {
-      "title": "Israel's election result is messy - here's why",
-      "summary": "Despite having the highest voter turnout in nearly three decades, Israel's elections have had no clear winner. What does this mean for the country, asks the BBC's Yolande Knell.",
-      "source": "BBC World",
-      "published": "2026-10-28T14:26:24+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
-      "importance": 2.25
+      "importance": 2.169
     },
     {
       "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
@@ -145,7 +185,167 @@
       "source": "The Guardian",
       "published": "2026-10-28T09:37:49+00:00",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-      "importance": 2.183
+      "importance": 2.056
+    },
+    {
+      "title": "Trump again calls for prosecution of Mary Peltola as turmoil grows over Alaska campaign investigation – live",
+      "summary": "‘This is voter fraud at the highest level,’ president tells rally crowd in South Carolina; Alaska governor orders inquiry into Peltola campaign amid Republican outcry Alaska governor orders investigation into Peltola’s Senate campaign Sign up for the Breaking News US email With days until the midterm",
+      "source": "The Guardian",
+      "published": "2026-10-29T20:54:07+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
+      "importance": 1.996
+    },
+    {
+      "title": "DHS cites risk to more than 40,000 personnel in effort to take leaked data offline",
+      "summary": "The Department of Homeland Security asked an Icelandic hosting company to take down data obtained through hack The US Department of Homeland Security (DHS) asked ⁠an Icelandic hosting company on Thursday to take down or limit access to data related to thousands ⁠of agency personnel, saying ⁠the content ​put",
+      "source": "The Guardian",
+      "published": "2026-10-29T20:35:54+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/dhs-personnel-data-leak",
+      "importance": 1.991
+    },
+    {
+      "title": "DoJ reportedly issues subpoenas over same name Alaska candidates",
+      "summary": "Democrat Mary Peltola’s campaign allegedly collaborated with party operatives to confuse voters in midterms The US justice department on Thursday is reported to have issued subpoenas in response to a report that the Alaska Democrat Mary Peltola’s campaign collaborated with party operatives to get a",
+      "source": "The Guardian",
+      "published": "2026-10-29T20:29:55+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/alaska-senate-race-subpoenas",
+      "importance": 1.99
+    },
+    {
+      "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
+      "summary": "The Republican governor was responding to allegations in the New York Times that Democrats recruited a spoiler candidate, Dan Sullivan.",
+      "source": "BBC World",
+      "published": "2026-10-29T20:15:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+      "summary": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
+      "source": "BBC World",
+      "published": "2026-10-29T20:05:57+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "JD Vance letter may offer last chance to avert fresh conflict between US and Iran",
+      "summary": "US vice-president writes to top Iranian security official in sign Washington has not abandoned diplomacy Hopes of averting a major new conflagration between Iran and the US soon after Tuesday’s midterm elections could rest on Iran’s response to a personal letter from the US vice-president, JD Vance, offering",
+      "source": "The Guardian",
+      "published": "2026-10-29T19:32:24+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/jd-vance-letter-may-offer-last-chance-to-avert-fresh-conflict-between-us-and-iran",
+      "importance": 1.977
+    },
+    {
+      "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
+      "summary": "Poundland's bosses are filing a notice of intention to appoint administrators to the business.",
+      "source": "BBC Business",
+      "published": "2026-10-29T19:11:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.972
+    },
+    {
+      "title": "More prisoners recalled to jail than released in England and Wales",
+      "summary": "Ministry of Justice figures show recalls rose 27% in year to June despite emergency measures to ease overcrowding More people were recalled to jails in England and Wales in the first half of this year than were released, despite government efforts to reduce the prison population, according to figures",
+      "source": "The Guardian",
+      "published": "2026-10-29T18:55:24+00:00",
+      "url": "https://www.theguardian.com/society/2026/oct/29/more-prisoners-recalled-than-released-england-wales",
+      "importance": 1.968
+    },
+    {
+      "title": "Firefighters celebrate rain during Indonesia wildfires",
+      "summary": "A number of clips show firefighters celebrating in the rain.",
+      "source": "BBC Science",
+      "published": "2026-10-29T18:31:27+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cm93zere04plo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.963
+    },
+    {
+      "title": "Hong Kong’s leader apologises for residential fire that killed 168 people",
+      "summary": "Blaze was world’s deadliest residential fire since 1980, but some survivors and bereaved families say justice has yet to be served Hong Kong’s leader has apologised for government shortcomings that contributed to a fire that killed 168 people in the city last year, a rare sign of public contrition that",
+      "source": "The Guardian",
+      "published": "2026-10-29T18:14:21+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/hong-kong-john-lee-apologises-wang-fuk-court-fire-killed-168-people",
+      "importance": 1.959
+    },
+    {
+      "title": "The South West reacts to Budget announcements",
+      "summary": "Tourism and business leaders have been reacting to John Healey's first Budget as chancellor.",
+      "source": "BBC Business",
+      "published": "2026-10-29T18:07:26+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm62yle1g2wyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.957
+    },
+    {
+      "title": "Spain begins mourning period as search continues for train crash victims",
+      "summary": "Emergency services, drones and dog unit continue to comb carriages as Civil Guard sets up clinics for relatives to provide DNA samples How did the Spain train crash happen and what will investigators be asking? Spain began three days of mourning on Thursday for at least 69 people who died in a high-speed",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:59:03+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+      "importance": 1.955
+    },
+    {
+      "title": "Female Lib Dem MP accuses Nigel Farage of shoving her in parliament",
+      "summary": "Caroline Voaden says Reform UK leader grabbed her by the arm and tried to push past her in incident in May A female Liberal Democrat MP has accused Nigel Farage of shoving her aside at the state opening of parliament after which one of her male colleagues intervened. Caroline Voaden gave her account of the",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:54:23+00:00",
+      "url": "https://www.theguardian.com/politics/2026/oct/29/nigel-farage-accused-shoving-female-lib-dem-parliament",
+      "importance": 1.954
+    },
+    {
+      "title": "Cuts like a knife: Canadian rocker Bryan Adams trolls Trump with new song",
+      "summary": "Musician wrote a ‘love letter’ to Canada with a new album – and some pointed commentary about the US president Lake Ontario, the vast body of water that straddles the US-Canada border, has gone by many names over the centuries: Lac Saint-Louis, Lacus Ontarius, Skaniadorio, Cataraqui Lake. But one thing it",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:49:47+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/bryan-adams-donald-trump-song",
+      "importance": 1.953
+    },
+    {
+      "title": "Brazil’s victory for the planet and democracy: seven lessons from Lula’s win",
+      "summary": "The trouncing of the far right provides a playbook for social and environmental movements in other countries facing elections, including the US, Spain and France Thank you, Brazil, for demonstrating how the far right can be trounced while protection for the Amazon is strengthened. In a world where nature and",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:46:38+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/brazil-victory-planet-democracy-lessons-lula-win",
+      "importance": 1.952
+    },
+    {
+      "title": "UK politics: Burnham denies preventing ministers from speaking about plans for closer relationship with EU – as it happened",
+      "summary": "Prime minister wrote to ministers saying he did not want them to ‘advocate for specific options or opine on the likely outcome of the process’ Selling nicotine-free vapes to children under the age of 18 has become illegal from today, the government has said. Children were already banned from buying vapes",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:30:39+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/oct/29/budget-john-healey-labour-uk-politics-latest-news",
+      "importance": 1.949
+    },
+    {
+      "title": "Israeli leader Netanyahu accused of using ‘ugly’ smear tactics to cling to power",
+      "summary": "Prime minister claims Arab Israeli parties used foreign backing to steal elections, in which his coalition lost its majority Benjamin Netanyahu has been accused of using smear tactics to cling to power, after he claimed that Arab Israeli parties had used foreign backing to “steal” Tuesday’s election, in",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:26:06+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power",
+      "importance": 1.947
+    },
+    {
+      "title": "Meta discussed ‘whisper strategy’ against social media critic Jonathan Haidt, files show",
+      "summary": "Court documents reveal staff considered ways to ‘get academic community to disavow’ influential US author Meta staff discussed deploying a “whisper strategy” to undermine the influential US academic whose work has inspired a global social media crackdown , according to court documents. Employees at the",
+      "source": "The Guardian",
+      "published": "2026-10-29T17:20:57+00:00",
+      "url": "https://www.theguardian.com/technology/2026/oct/29/meta-staff-us-social-media-critic-jonathan-haidt-court-documents",
+      "importance": 1.946
+    },
+    {
+      "title": "Watch: Hundreds queue for city's new Lego store",
+      "summary": "Fans queued for hours ahead of the opening of a new Lego Store in Norwich.",
+      "source": "BBC Business",
+      "published": "2026-10-29T17:10:34+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cw1m4k1nx5r0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.944
+    },
+    {
+      "title": "EU chief lays out vision for new Canada partnership at Montreal summit",
+      "summary": "Ursula von der Leyen continued to use the term \"associate member\" for Canada despite some opposition of the bloc's members, including Germany.",
+      "source": "BBC World",
+      "published": "2026-10-29T17:02:59+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.942
     },
     {
       "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
@@ -153,255 +353,55 @@
       "source": "BBC Science",
       "published": "2026-10-28T01:01:02+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.064
+      "importance": 1.936
     },
     {
-      "title": "Weather warning lifted as third storm to hit Scotland eases off",
-      "summary": "Energy provider SSEN says 2,000 properties in the north of Scotland are still without power after days of high winds and heavy rain.",
-      "source": "BBC Science",
-      "published": "2026-10-27T21:20:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.013
-    },
-    {
-      "title": "Mini-gardens for bees on bus stop roofs approved",
-      "summary": "Living Roofs aimed at boosting biodiversity in urban areas will be installed under a new bus stop contract.",
-      "source": "BBC Science",
-      "published": "2026-10-29T11:58:00+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c62e9vynyvdpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.999
-    },
-    {
-      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-      "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
-      "source": "BBC Business",
-      "published": "2026-10-29T11:52:55+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.998
-    },
-    {
-      "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-      "summary": "Xi's anti-corruption campaign has become \"an effort to consolidate and maintain authority\", observers say.",
-      "source": "BBC World",
-      "published": "2026-10-29T11:34:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
-    },
-    {
-      "title": "South West Water given lowest environmental rating",
-      "summary": "The water firm is performing \"significantly below target\" for pollution, the Environment Agency says.",
-      "source": "BBC Science",
-      "published": "2026-10-29T11:31:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.993
-    },
-    {
-      "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-      "summary": "The Republican governor was responding to allegations in the New York Times that Democrats recruited a spoiler candidate, Dan Sullivan.",
-      "source": "BBC World",
-      "published": "2026-10-29T11:27:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
-      "importance": 1.992
-    },
-    {
-      "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
-      "summary": "Emergency services, drones and dog unit continue to comb carriages as Civil Guard sets up clinics for relatives to provide DNA samples Spain has begun three days of mourning to commemorate the 69 people who died in a high-speed rail collision as hospitals continue to treat dozens of injured passengers and",
+      "title": "Elke Sommer, prolific German star of A Shot in the Dark and And Then There Were None, dies aged 85",
+      "summary": "The Berlin-born performer had a gift for languages that took her to Hollywood, landing roles alongside Peter Sellers, Dick Van Dyke and Paul Newman Elke Sommer, the prolific German star of the Pink Panther film A Shot in the Dark, early 70s Agatha Christie adaptation And Then there Were None, and British sex",
       "source": "The Guardian",
-      "published": "2026-10-29T11:11:52+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
-      "importance": 1.989
+      "published": "2026-10-29T16:36:52+00:00",
+      "url": "https://www.theguardian.com/film/2026/oct/29/elke-sommer-prolific-german-star-of-a-shot-in-the-dark-and-and-then-there-were-none-dies",
+      "importance": 1.936
     },
     {
-      "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
-      "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
-      "source": "BBC World",
-      "published": "2026-10-29T11:07:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.988
-    },
-    {
-      "title": "Rare love letters to French aristocrat shed light on Louis XVI maritime mystery",
-      "summary": "‘Miracle’ cache of letters written by French scientist who died in ill-fated La Pérouse mission give personal account of 1785 voyage As he prepared to climb the scaffolding to be publicly executed by guillotine on 21 January 1793, Louis XVI is reported to have asked: “Is there news of Monsieur de la",
+      "title": "Europe’s central bank chief, Christine Lagarde, steps down for ‘freedom of speech’",
+      "summary": "Possible candidate to run World Economic Forum departs ECB nine months early, saying she wants to speak her mind about world affairs Christine Lagarde, the eurozone’s top central banker, has said she is stepping down nine months early to speak her mind about world affairs and confront the “misrepresentation",
       "source": "The Guardian",
-      "published": "2026-10-29T11:00:30+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/29/rare-love-letters-french-aristocrat-la-perouse-maritime-mystery",
-      "importance": 1.986
-    },
-    {
-      "title": "Europe’s central bank chief Christine Lagarde to step down nine months early",
-      "summary": "Departure of Lagarde, seen as candidate to take over World Economic Forum, comes as eurozone struggles with weak growth and inflation Christine Lagarde, the eurozone’s top central banker, is stepping down nine months early, ending months of speculation about her future. The European Central Bank (ECB)",
-      "source": "The Guardian",
-      "published": "2026-10-29T10:56:12+00:00",
+      "published": "2026-10-29T16:05:50+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early",
-      "importance": 1.985
+      "importance": 1.929
     },
     {
-      "title": "Poundland on brink of administration, with 12,000 jobs at risk",
-      "summary": "Owner Gordon Brothers is filing notice of intent to begin process after rejecting management-backed rescue bid Business live – latest updates The owner of Poundland has said it is preparing to appoint administrators, putting up to 12,000 jobs at risk at the retail chain across the UK and Ireland. Gordon",
-      "source": "The Guardian",
-      "published": "2026-10-29T10:56:37+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/29/poundland-brink-administration-12000-jobs-at-risk",
-      "importance": 1.985
-    },
-    {
-      "title": "Serious pollution by water industry remains high despite £5bn investment",
-      "summary": "All but one of England's water companies were rated as \"poor\" or \"requiring improvement\" for environmental targets.",
-      "source": "BBC Science",
-      "published": "2026-10-29T10:45:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw5ynxepy4gno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.982
-    },
-    {
-      "title": "What we know so far about deadly Spain train crash",
-      "summary": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
-      "source": "BBC World",
-      "published": "2026-10-29T10:02:37+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.972
-    },
-    {
-      "title": "Democratic lawmakers decry Osha’s push to roll back worker respiratory protections",
-      "summary": "Elizabeth Warren and others joined by unions and industry experts in warning against the weakening of regulations The senator Elizabeth Warren , the congresswoman Ilhan Omar and several other Democratic lawmakers are calling on the Occupational Safety and Health Administration (Osha) to abandon a rollback of",
-      "source": "The Guardian",
-      "published": "2026-10-29T10:00:30+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/warren-lawmakers-osha-worker-respiratory-protection",
-      "importance": 1.972
-    },
-    {
-      "title": "New elementary school in Texas named after beloved longtime school custodian",
-      "summary": "Marilyn Hampton, who regularly bought supplies for and gave rides to children, was honored at public meeting US schools are often named after presidents, historical figures and civil rights leaders. And soon joining those ranks is a retired longtime Texas school custodian known for going above and beyond her",
-      "source": "The Guardian",
-      "published": "2026-10-29T10:00:29+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/texas-school-custodian-name",
-      "importance": 1.972
-    },
-    {
-      "title": "New Mexico megachurch endorses Republican candidates, testing federal ban",
-      "summary": "Legacy Church’s endorsements violate law banning tax-exempt nonprofits from endorsing political candidates A megachurch in New Mexico has endorsed two Republican candidates running in this year’s midterms, including a Donald Trump-backed candidate running in one of the blue state’s few competitive races. The",
-      "source": "The Guardian",
-      "published": "2026-10-29T10:00:29+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/new-mexico-church-endorses-republicans",
-      "importance": 1.972
-    },
-    {
-      "title": "FTC orders Delta, Uber and others to hand over data on algorithmic pricing",
-      "summary": "Regulator demands companies explain how and why they charge different prices for the same product or service The Federal Trade Commission (FTC) is demanding some of the US’s biggest airlines, ride-share companies and retailers divulge how they are using algorithms and loyalty programs to target customers and",
-      "source": "The Guardian",
-      "published": "2026-10-29T10:00:29+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/delta-uber-ftc-pricing",
-      "importance": 1.972
-    },
-    {
-      "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
-      "summary": "The term \"associate member\" is reportedly off the table as officials discuss deeper economic and defence ties.",
-      "source": "BBC World",
-      "published": "2026-10-29T09:51:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.97
-    },
-    {
-      "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
-      "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
-      "source": "BBC World",
-      "published": "2026-10-29T09:30:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.965
-    },
-    {
-      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
-      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
-      "source": "BBC Technology",
-      "published": "2026-10-29T09:31:44+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.965
-    },
-    {
-      "title": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
-      "summary": "The jailbreak began with a fake seizure and ended 36 hours later with all the inmates back behind bars.",
-      "source": "BBC World",
-      "published": "2026-10-29T09:17:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmx2qrgy591ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.962
-    },
-    {
-      "title": "‘I earn £126,000 – but nothing’s left at the end of the month’: readers react to the budget",
-      "summary": "From a young chef and a single father to business owners and a pensioner, Guardian readers reveal how John Healey’s measures will affect them What the budget means for you Louie, 24, a chef living in London, says a lot of people have “written off the idea of even considering getting a property” in their 20s.",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:32:35+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
-      "importance": 1.952
-    },
-    {
-      "title": "One Nation accuses PM of trying to ‘exert undue political influence’ by offering David Farley an extra staffer",
-      "summary": "Pauline Hanson says Anthony Albanese made ‘unsolicited’ offer of adviser with $200,000 salary to one of her MPs Get our daily political email , free app or daily news podcast The prime minister, Anthony Albanese, offered the One Nation MP David Farley an additional staff member in what the party has called",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:26:51+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/29/one-nation-accuses-pm-of-trying-to-exert-undue-political-influence-by-offering-david-farley-extra-staffer-ntwnfb",
-      "importance": 1.95
-    },
-    {
-      "title": "Police investigate gang links as woman, 19, dies after drive-by shooting at Brisbane pub",
-      "summary": "Vana-Reese Schuster-Togiatau was injured during the shooting outside Fitzy’s Loganholme in the city’s south on Saturday Get our breaking news email , free app or daily news podcast Potential gang involvement in the fatal drive-by shooting of a 19-year-old woman is being investigated by police. Vana-Reese",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:14:40+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/29/woman-19-dies-after-masked-gunmen-opened-fire-outside-brisbane-pub-ntwnfb",
-      "importance": 1.948
-    },
-    {
-      "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
-      "summary": "Sanrio ends association with TV drama Vivant after China says portrayal of ruthless Chinese agents is ‘deliberate smear’ The company behind the successful Hello Kitty franchise has apologised and ended its commercial tie-up with a Japanese TV drama after Chinese state media and netizens condemned the show’s",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:03:00+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
-      "importance": 1.945
-    },
-    {
-      "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
-      "summary": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
-      "source": "BBC World",
-      "published": "2026-10-29T07:54:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.943
-    },
-    {
-      "title": "BBC in the Philippines where Thomas Markle is expected to be investigated",
-      "summary": "Jonathan Head is in Cebu, reporting from outside the home where Markle last resided.",
-      "source": "BBC World",
-      "published": "2026-10-29T07:28:26+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cm0rlxxpng5eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.937
-    },
-    {
-      "title": "Coroner calls for TGA to review unapproved peptides after death of Australian actor",
-      "summary": "Richard Norton, 75, went into cardiac arrest in March 2025 after injecting prescribed but unapproved CJC1295 and ipamorelin Get our breaking news email , free app or daily news podcast The death of an Australian actor after injecting unapproved peptides could result in tougher restrictions on the substances.",
-      "source": "The Guardian",
-      "published": "2026-10-29T07:22:28+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/29/peptide-actor-richard-norton-death-coroner-tga-review-ntwnfb",
-      "importance": 1.935
-    },
-    {
-      "title": "Chancellor says government has 'moral duty' to help young people out of work",
-      "summary": "Chancellor John Healey says any cuts to welfare will be done \"in a Labour way\".",
+      "title": "Faisal Islam: This Budget was micro and that was deliberate",
+      "summary": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
       "source": "BBC Business",
-      "published": "2026-10-29T06:56:58+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c3j47008yl7vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.93
+      "published": "2026-10-29T15:48:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.925
     },
     {
-      "title": "'We need help for small businesses, not punishment'",
-      "summary": "People in Bilston react to the new Budget set out by Chancellor John Healey.",
+      "title": "Nvidia CEO reportedly targeted by an alleged Chinese spy",
+      "summary": "Jensen Huang reported to have had close relationship with tech company executive suspected of passing intel to China US intelligence agencies believe the Nvidia chief executive, Jensen Huang, has been targeted by an alleged Chinese spy who had done business with him, according to a new report by the New York",
+      "source": "The Guardian",
+      "published": "2026-10-29T15:23:48+00:00",
+      "url": "https://www.theguardian.com/technology/2026/oct/29/nvidia-ceo-targeted-chinese-spy",
+      "importance": 1.919
+    },
+    {
+      "title": "Bereaved families will not face tax bill over pension delays under new rules",
+      "summary": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
       "source": "BBC Business",
-      "published": "2026-10-29T06:27:28+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6kglwxplv1zo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.923
+      "published": "2026-10-29T15:18:04+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.918
     },
     {
-      "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
-      "summary": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
-      "source": "BBC World",
-      "published": "2026-10-29T06:24:56+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.922
+      "title": "Finland launches criminal investigation into Google’s clearing of forest for datacentre site",
+      "summary": "Authorities allege company may have breached Finnish environmental laws by forgoing required impact assessment ‘Pure arrogance’: anger in Finland as Google illegally fells 250,000 trees for datacentre Finnish ⁠police have launched a criminal investigation into possible breaches ⁠of the country’s",
+      "source": "The Guardian",
+      "published": "2026-10-29T14:51:45+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/finland-criminal-investigation-google-clearing-forest-datacentre",
+      "importance": 1.912
     }
   ]
 }
