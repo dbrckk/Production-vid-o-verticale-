@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import asyncio
 import math
+import re
+from difflib import SequenceMatcher
 from pathlib import Path
 import subprocess
 import tempfile
@@ -22,35 +24,77 @@ DOCUMENTARY_RATE = "-1%"
 DOCUMENTARY_PITCH = "+0Hz"
 
 def continuous_scene_bounds(cues: list[dict], scenes: list[dict], length: float):
-    """Assign real TTS word marks to contiguous story beats without guessing time.
+    """Align each narrated scene to the provider's actual spoken words.
 
-    TTS services may tokenize apostrophes and numbers differently from Python.
-    We allocate boundaries proportionally, while rejecting any too-short or
-    wildly inconsistent output rather than claiming precise synchronization.
+    Proportional cue counts can drift badly when a neural voice separates
+    abbreviations, punctuation or numerals differently. Global sequence
+    alignment uses the *words* at the scene boundary. If the provider's text
+    differs too much, refuse the continuous pass and use the scene-by-scene
+    fallback rather than displaying confidently wrong subtitles.
     """
-    words=[len((scene.get("narration") or scene.get("caption") or "").split()) for scene in scenes]
-    if not cues or not words or any(count==0 for count in words):
+    def normalized(token):
+        return re.sub(r"[^a-z0-9]", "", str(token).casefold())
+
+    scripts=[
+        [w for w in (normalized(token) for token in
+         (scene.get("narration") or scene.get("caption") or "").split()) if w]
+        for scene in scenes
+    ]
+    expected=[word for script in scripts for word in script]
+    heard=[normalized(mark.get("text","")) for mark in cues]
+    count=len(heard)
+    if not expected or not cues or any(not script for script in scripts):
         return None
-    count=len(cues)
-    if count < max(len(words), round(sum(words)*.72)) or count > sum(words)*1.30:
+    if not .70*len(expected) <= count <= 1.35*len(expected):
         return None
-    boundaries=[0]
-    total=sum(words)
-    for step in range(1,len(words)):
-        index=round(sum(words[:step])*count/total)
-        index=max(boundaries[-1]+1,min(index,count-(len(words)-step)))
-        boundaries.append(index)
-    boundaries.append(count)
-    if any(b<=a for a,b in zip(boundaries,boundaries[1:])):
+    offsets=[]
+    for mark in cues:
+        try:
+            offset=float(mark["offset"])
+        except (TypeError,ValueError,KeyError):
+            return None
+        if not math.isfinite(offset) or not 0<=offset<=length+.15:
+            return None
+        offsets.append(offset)
+    if any(a>b+.002 for a,b in zip(offsets,offsets[1:])):
         return None
+
+    pairs=[]
+    for block in SequenceMatcher(
+            None,expected,heard,autojunk=False).get_matching_blocks():
+        pairs.extend((block.a+i,block.b+i) for i in range(block.size))
+    if len(pairs)<.70*min(len(expected),count):
+        return None
+
+    bounds=[0]
+    boundary=0
+    for script in scripts[:-1]:
+        boundary+=len(script)
+        preceding=next(((e,m) for e,m in reversed(pairs) if e<boundary),None)
+        following=next(((e,m) for e,m in pairs if e>=boundary),None)
+        if following is not None and following[0]-boundary<=2:
+            index=following[1]
+        elif preceding is not None and boundary-1-preceding[0]<=2:
+            index=preceding[1]+1
+        else:
+            return None
+        if index<=bounds[-1] or index>=count:
+            return None
+        bounds.append(index)
+    bounds.append(count)
+
     ends=[]
     for ix in range(len(scenes)):
         if ix+1<len(scenes):
-            ends.append(min(length,max(.001,float(cues[boundaries[ix+1]]["offset"]))))
+            cut=offsets[bounds[ix+1]]
+            if ends and cut<=ends[-1]+.025:
+                return None
+            ends.append(min(length,max(.001,cut)))
         else:
             ends.append(length+.52)
-    return boundaries,ends
-
+    if any(b<=a for a,b in zip([0.]+ends[:-1],ends)):
+        return None
+    return bounds,ends
 
 async def _continuous_documentary(scenes, dest: Path, voice: str, temp: Path):
     """One voice performance for the whole story avoids choppy TTS scene joins.
