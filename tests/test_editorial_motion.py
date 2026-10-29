@@ -102,3 +102,22 @@ def test_news_rejects_thin_reporting_not_fake_padding():
     }
     with pytest.raises(ValueError,match="Not enough sourced information"):
         create_story(article["title"], article=article)
+
+
+def test_encyclopedia_video_uses_only_retrieved_facts_not_generic_slides():
+    import json
+    from topic_engine import research_story
+    source = {
+        "query": {"pages": {"1": {
+            "pageid": 12, "title": "The Atlantic Ocean",
+            "extract": "The Atlantic Ocean is one of Earth's five oceans. It separates the Americas from Europe and Africa. Ocean currents transport heat across its basin."
+        }}}
+    }
+    cfg = research_story("Tell me about the Atlantic Ocean",fetcher=lambda _:json.dumps(source).encode())
+    assert cfg["evidence"] == "wikipedia"
+    assert cfg["editorial_policy"] == "reference_sentences_only"
+    assert len(cfg["scenes"]) == 5
+    assert "transport heat" in cfg["scenes"][3]["narration"]
+    assert all("We start by identifying" not in sc["narration"] for sc in cfg["scenes"])
+    assert cfg["sources"][0]["source"] == "Wikipedia"
+    validate_universal(cfg)
