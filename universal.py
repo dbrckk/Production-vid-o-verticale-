@@ -186,8 +186,18 @@ def frame(p,t:float,cfg:dict):
                 widths=[d.textbbox((0,0),block[0]['word'],font=p.font(18,True))[2]/p.s]
                 total=sum(widths)
             x=288-total/2
+            # Stable, mobile-safe subtitle backing and an accented active word.
+            left,top=p.p(x-18,828)
+            right,bottom=p.p(x+total+18,888)
+            d.rounded_rectangle((left,top,right,bottom),
+                                radius=max(5,round(13*p.s)),
+                                fill=(8,12,29,205),
+                                outline=(*BLUE,95),width=max(1,round(p.s)))
             for c,w in zip(block,widths):
-                p.text(d,c['word'],x+w/2,858,18,(*(GOLD if c is matching[selected] else LIGHT),255),bold=True)
+                active=c is matching[selected]
+                p.text(d,c['word'],x+w/2,858,18,(*(GOLD if active else LIGHT),255),bold=True)
+                if active:
+                    p.line(d,[(x,877),(x+w,877)],(*GOLD,225),2.4)
                 x+=w+12
     else:
         _wrap(p,d,scene['caption'],858,size=19,max_lines=4)
