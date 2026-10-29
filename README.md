@@ -214,3 +214,44 @@ static-card slideshow for supported subjects, but this is not yet automatic
 photorealistic cinematic footage for any arbitrary topic. Realistic assets,
 subject-specific 3D simulation and editorial verification still require
 further work.
+
+## Cinematic 2D production quality (English only)
+
+Production uses procedural **animated 2D illustrations**, never static slides or
+a mandatory 3D engine. The edited scene layers are handled by `cinematic.py`:
+camera push/pull, eased 380-ms art dissolves and separate motion-safe captions.
+Curated science subjects retain their specific physics diagrams; arbitrary
+source-backed stories use six distinct and data-honest visual treatments from
+`semantic_motion.py` rather than overlays of unrelated charts.
+
+**English narration:** `en-US-AndrewNeural` via Edge is the default on Render
+and GitHub Actions. Its actual provider word boundaries drive stable, large
+two-to-three-word English captions (`subtitle_design.py`). Other authorized
+English narrators remain selectable from the mobile UI; Kokoro ONNX remains
+an optional offline GitHub alternative with estimated word timings.
+
+**Sound:** the `soundscape.py` score uses original, locally synthesized
+ambient music with scene cues; `audio_mastering.py` applies dialogue-triggered
+music ducking, voice dynamics and a mobile-focused target near -17 LUFS.
+Deliverables use H.264 and AAC 48 kHz with the exact 9:16 aspect ratio.
+
+**Mandatory checks:** `qa_video.py` runs after narration and rendering,
+before the Render service marks a job ready and before GitHub manual exports.
+It rejects missing or unsynchronized voice, wrong video/audio formats, loudness
+outside the accepted range, and nearly static visuals. Its inspectable JSON
+report includes integrated loudness, true peak, narration word count,
+sampled animation activity and video dimensions.
+
+Run on an existing generated output:
+
+```bash
+python qa_video.py --video output/science.mp4 \
+  --manifest output/science.json --report output/quality.json
+```
+
+A passing technical QA report **does not guarantee** that an arbitrary topic
+is factually complete, that the artwork is aesthetically premium, or that
+a synthetic voice is indistinguishable from a human narrator. Unsupported
+news remains source-constrained and thin reports are rejected rather than
+filled with invented events or statistics. GitHub tests and production Docker
+smoke checks must pass before considering a code revision ready.
