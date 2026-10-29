@@ -30,8 +30,8 @@ on:
         description: 'English neural narrator (Kokoro works offline on GitHub; Edge is lightweight)'
         type: choice
         required: true
-        default: 'kokoro'
-        options: ['kokoro', 'edge']
+        default: 'edge'
+        options: ['edge', 'kokoro']
       quality:
         description: 'Choose output resolution'
         type: choice
@@ -122,7 +122,7 @@ jobs:
           esac
           ARGS=(--config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --fps 30)
           if [ -n "$TITLE" ]; then ARGS+=(--title "$TITLE"); fi
-          python studio.py "${ARGS[@]}" --narrate --tts-provider "${VOICE_PROVIDER:-kokoro}"
+          python studio.py "${ARGS[@]}" --narrate --tts-provider "${VOICE_PROVIDER:-edge}"
       - name: Validate output video and audio
         if: github.event_name == 'workflow_dispatch'
         run: |
