@@ -89,12 +89,12 @@ def _geometry(p,im,kind,phase,seed):
 def topic_category(topic: str) -> str:
     text=topic.casefold()
     categories=(
-        ('ocean',('océan','mer ','vague','marin','ocean','sea ','corail','plage','eau ')),
-        ('volcano',('volcan','magma','lave','eruption','éruption')),
-        ('space',('soleil','planète','lune','galax','espace','astron','univers','satellite','mars')),
-        ('health',('santé','médec','soin','cœur','coeur','virus','health','vaccin','maladie')),
-        ('tech',('informat','numéri','intelligence artificielle','logiciel','robot','ia ','technolog','ordinateur','cyber')),
-        ('economy',('économie','budget','argent','entreprise','bourse','trade','prix','inflation','finance')),
+        ('ocean',('océan','mer ','vague','marin','ocean','sea ','corail','plage','eau ','water','wave','coral','reef','fish','tide','marine')),
+        ('volcano',('volcan','volcano','magma','lava','lave','eruption','éruption')),
+        ('space',('soleil','planète','lune','galax','espace','astron','univers','satellite','mars','sun','solar','planet','moon','orbit','galaxy','star ','stars','cosmos','space','telescope')),
+        ('health',('santé','médec','soin','cœur','coeur','virus','health','vaccin','maladie','heart','blood','brain','human body','cell','medicine','medical','hospital','disease')),
+        ('tech',('informat','numéri','intelligence artificielle','logiciel','robot','ia ','technolog','ordinateur','cyber','computer','software','artificial intelligence','machine learning','internet','neural network','processor','microchip','data')),
+        ('economy',('économie','budget','argent','entreprise','bourse','trade','prix','inflation','finance','market','stock','money','economy','business','bank','investment','price','interest rate')),
     )
     for category,keys in categories:
         if any(k in text for k in keys):return category
