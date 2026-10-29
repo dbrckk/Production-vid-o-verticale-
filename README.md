@@ -1,5 +1,11 @@
 # Vertical Science Studio
 
+## Déployer en un clic sur Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/dbrckk/Production-vid-o-verticale-)
+
+En cas de connexion Render indisponible dans ChatGPT, le bouton ouvre directement la création du service à partir du `render.yaml` déjà inclus. **Sélectionner le bon compte Render avant de valider**, choisir le plan **Free** et saisir un secret personnel aléatoire d'au moins 16 caractères pour `STUDIO_TOKEN` (à conserver dans votre gestionnaire de mots de passe). Ne pas communiquer ce secret dans un dépôt, une issue ou une capture publique. Le service sera créé sur le compte effectivement sélectionné ; cette procédure n'est pas une migration des anciens services.
+
 Générateur de vidéos scientifiques néon **9:16**, hors ligne, créé pour reproduire le langage visuel des vidéos à progression exponentielle : compteur dynamique, silhouettes vectorielles, croissance du papier, zoom Terre/Lune, orbites, halos, particules spatiales et musique/effets originaux synchronisés. Le projet utilise des illustrations procédurales originales et non des images copiées d'une vidéo ou des logos de plateformes.
 
 ## Deux modes de création (sans clé API)
