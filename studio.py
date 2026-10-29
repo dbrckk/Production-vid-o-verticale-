@@ -392,33 +392,9 @@ class Painter:
 
 
 def make_audio(path: Path, duration: float, cfg: dict):
-    """Original ambient pulse + scale-dependent rising sweeps, deterministic WAV."""
-    import wave
-    sr=24000
-    n=round(duration*sr)
-    arr=np.zeros(n,np.float32)
-    chords=[(146.83,174.61,220.0),(130.81,164.81,196.0),(110.0,146.83,174.61),(130.81,164.81,220.0)]
-    for start in np.arange(0,duration,4):
-        a=int(start*sr);b=min(n,a+sr*4)
-        tt=np.arange(b-a,dtype=np.float32)/sr
-        # Smooth drifting original ambient chord.
-        env=np.minimum(1,tt/.55)*np.minimum(1,(4-tt)/.65)
-        for j,f in enumerate(chords[int(start//4)%4]):
-            arr[a:b]+=(.035/(j+1)) *np.sin(2*np.pi*f*tt+0.15*np.sin(tt*1.1))*env
-    for beat in np.arange(.6,duration-.2,.5):
-        a=int(beat*sr);b=min(n,a+int(.11*sr));tt=np.arange(b-a,dtype=np.float32)/sr
-        # Soft synthesized tick with no external sound samples.
-        arr[a:b]+=(.12*np.sin(2*np.pi*(380+1500*tt)*tt)+.035*np.sin(2*np.pi*880*tt))*np.exp(-tt*38)
-    markers = ([float(scene['start']) for scene in cfg['scenes'][1:]]
-               if cfg.get('mode') in ('storyboard','universal') else [7.5,14.5,21.8,24.0,28.5])
-    for when in markers:
-        a=int(when*sr);b=min(n,a+int(.8*sr));tt=np.arange(b-a,dtype=np.float32)/sr
-        arr[a:b]+=.10*np.sin(2*np.pi*(170*tt+300*tt**2))*np.sin(np.pi*np.minimum(1,tt/.8))
-    arr=np.tanh(arr*2.6)*.85
-    path.parent.mkdir(parents=True,exist_ok=True)
-    with wave.open(str(path),'wb') as wav:
-        wav.setnchannels(1);wav.setsampwidth(2);wav.setframerate(sr)
-        wav.writeframes((arr*32767).astype('<i2').tobytes())
+    """Original topic-aware score; generated locally, no external music samples."""
+    from soundscape import write_soundscape
+    write_soundscape(path, duration, cfg)
 
 
 def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|None=None,
