@@ -31,7 +31,8 @@ def _execute(args):
 def _probe(movie:Path):
     stdout,_=_execute([
         "ffprobe","-v","error","-show_entries",
-        "format=duration:stream=codec_type,codec_name,width,height,sample_rate",
+        "format=duration:stream=codec_type,codec_name,profile,pix_fmt,avg_frame_rate,"
+        "color_space,color_primaries,color_transfer,width,height,sample_rate",
         "-of","json",str(movie),
     ])
     return json.loads(stdout)
@@ -99,6 +100,24 @@ def inspect(movie:Path, manifest_path:Path):
         raise QualityFailure("Exact vertical 9:16 video is required")
     if not audio or audio.get("codec_name")!="aac" or audio.get("sample_rate")!="48000":
         raise QualityFailure("48 kHz AAC narration audio track is required")
+    publication=manifest.get("export_profile")=="publication_1080p"
+    if publication:
+        rate=video.get("avg_frame_rate","0/1")
+        try:
+            numerator,denominator=map(int,rate.split("/"))
+            real_fps=numerator/denominator
+        except (ValueError,ZeroDivisionError):
+            real_fps=0.
+        if width < 1080 or real_fps < 29.5:
+            raise QualityFailure("Publication requires full-HD 9:16 at 30 FPS or higher")
+        if video.get("profile")!="High" or video.get("pix_fmt")!="yuv420p":
+            raise QualityFailure("Publication requires H.264 High, yuv420p compatibility")
+        for key in ("color_space","color_primaries","color_transfer"):
+            if video.get(key)!="bt709":
+                raise QualityFailure("Publication color metadata must be BT.709")
+        encoding=manifest.get("encoding") or {}
+        if encoding.get("chapter_numbers") is not False or encoding.get("watermark") is not False:
+            raise QualityFailure("Publication must not include scene numbers or watermarks")
 
     duration=float(probe["format"]["duration"])
     if not math.isfinite(duration) or duration<=2:
@@ -132,6 +151,7 @@ def inspect(movie:Path, manifest_path:Path):
         raise QualityFailure("The picture behaves like a slideshow, not live motion")
     return {
         "passed":True,"width":width,"height":height,
+        "publication_spec":publication,"export_profile":manifest.get("export_profile","review"),
         "duration_seconds":round(duration,3),"audio_language":"en",
         "narrated_words":len(cues),"loudness_lufs":round(integrated,2),
         "true_peak_dbtp":round(peak,2),"word_alignment":voice.get("word_alignment"),
