@@ -134,3 +134,58 @@ def apply_explainer(cfg: dict, topic: str) -> bool:
     cfg["editorial_template"] = name
     cfg["motion_category"] = item["category"]
     return True
+
+
+def compose_news_story(title: str, article: dict, duration: int) -> dict:
+    """A source-bound English news brief: fewer factual scenes beat six empty slides.
+
+    Source date and attribution are mandatory, and the narration consists only
+    of the title, the RSS description and editorial attribution. Never invent
+    quotations, casualty figures, consequences, or future developments.
+    """
+    from datetime import datetime
+    from topic_engine import VISUALS, clean, validate_universal
+    source = clean(article.get("source", ""), 70)
+    description = clean(article.get("summary", ""), 330)
+    published = article.get("published", "")
+    url = article.get("url", "")
+    if not source or not published or not str(url).startswith("https://"):
+        raise ValueError("A current news documentary requires an identified source")
+    if len(description) < 24:
+        raise ValueError("Not enough sourced information to narrate this news story")
+    date = str(published)[:10]
+    try:
+        datetime.fromisoformat(date)
+    except (ValueError, TypeError) as exc:
+        raise ValueError("News publication date is invalid") from exc
+    # Preserve full sentences when possible; split lengthy briefs at punctuation.
+    phrases = [s.strip() for s in re.split(r"(?<=[.!?])\\s+", description) if len(s.strip()) > 10]
+    if not phrases:
+        phrases = [description]
+    beats = [(title.upper()[:145], f"Here is the latest from {source}. {title}.", "NEWS UPDATE")]
+    for ix, phrase in enumerate(phrases[:3]):
+        headlines = ("THE VERIFIED REPORT", "WHAT ELSE WAS REPORTED", "MORE FROM THE SOURCE")
+        beats.append((headlines[ix], phrase[:180], "SOURCE: " + source.upper()))
+    beats.append(("SOURCE AND DATE",
+                  f"Reported on {date} by {source}. Read the original report for continuing updates.",
+                  "ORIGINAL REPORT LINKED"))
+    count = len(beats)
+    scenes = []
+    for ix, (headline, spoken, stamp) in enumerate(beats):
+        scenes.append({
+            "start": round(duration * ix / count, 3),
+            "end": round(duration * (ix+1) / count, 3) if ix+1 < count else float(duration),
+            "headline": headline,
+            "caption": spoken[:180],
+            "narration": spoken[:180],
+            "metric": stamp,
+            "visual": VISUALS[ix % len(VISUALS)],
+        })
+    cfg = {
+        "mode": "universal", "language": "en", "topic": title,
+        "duration": duration, "scenes": scenes, "evidence": "rss",
+        "editorial_policy": "source_only_no_fabricated_details",
+        "sources": [{key: article[key] for key in ("title", "source", "published", "url")}],
+    }
+    validate_universal(cfg)
+    return cfg
