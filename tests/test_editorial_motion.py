@@ -70,3 +70,35 @@ def test_active_spoken_word_caption_render_has_high_contrast_background():
     img = Painter(288,512).frame(.38,cfg)
     assert img.size == (288,512)
     assert np.asarray(img).std() > 8
+
+
+def test_news_brief_uses_only_verifiable_source_text():
+    from topic_engine import create_story
+    story = {
+        "title": "Major research mission launches into orbit",
+        "summary": "A new research spacecraft launched from the coastal spaceport. Its mission will study Earth's upper atmosphere.",
+        "source": "Verified Science News",
+        "published": "2026-10-29T10:00:00+00:00",
+        "url": "https://news.example.org/research-mission",
+    }
+    cfg = create_story(story["title"], article=story, duration=30)
+    assert cfg["evidence"] == "rss"
+    assert cfg["editorial_policy"] == "source_only_no_fabricated_details"
+    assert len(cfg["scenes"]) == 4  # lead, two substantive facts, attribution
+    assert cfg["scenes"][-1]["narration"].startswith("Reported on")
+    assert all("We should not invent" not in sc["narration"] for sc in cfg["scenes"])
+    assert any("upper atmosphere" in sc["narration"] for sc in cfg["scenes"])
+    assert cfg["sources"][0]["url"] == story["url"]
+    assert cfg["scenes"][-1]["end"] == 30
+    validate_universal(cfg)
+
+
+def test_news_rejects_thin_reporting_not_fake_padding():
+    from topic_engine import create_story
+    article = {
+        "title":"Minor event", "summary":"Soon.",
+        "source":"A source", "url":"https://news.example.org/event",
+        "published":"2026-10-29T10:00:00+00:00",
+    }
+    with pytest.raises(ValueError,match="Not enough sourced information"):
+        create_story(article["title"], article=article)
