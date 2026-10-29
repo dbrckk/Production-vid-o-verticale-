@@ -14,7 +14,7 @@ import wave
 import numpy as np
 
 SAMPLE_RATE = 24000
-DEFAULT_EDGE_VOICE = "en-US-AndrewNeural"
+DEFAULT_EDGE_VOICE = "en-US-BrianMultilingualNeural"
 DEFAULT_KOKORO_VOICE = "af_heart"
 # Slightly faster, grounded presenter cadence instead of the uniformly slow
 # narration that makes short explainers sound assembled from separate slides.
