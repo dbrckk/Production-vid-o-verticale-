@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/earthquake-proof.yml'
       - 'kinetic.py'
+      - 'studio.py'
       - 'subtitle_design.py'
       - 'audio_mastering.py'
       - 'soundscape.py'
@@ -64,6 +65,12 @@ jobs:
           actual=float(probe['format']['duration'])
           expected=float(data['duration'])
           assert abs(actual-expected)<.25,(actual,expected)
+          audio=json.loads(subprocess.run([
+              'ffprobe','-v','error','-select_streams','a:0',
+              '-show_entries','stream=sample_rate,codec_name','-of','json',
+              'output/earthquake-proof.mp4'
+          ],check=True,capture_output=True,text=True).stdout)['streams']
+          assert len(audio)==1 and audio[0]['sample_rate']=='48000',audio
           print('Neural English voice, full duration and adaptive soundtrack: PASS')
           PY
       - name: Downloadable review footage and synchronized cue manifest
