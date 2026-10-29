@@ -74,21 +74,41 @@ def ocean(p, im, t, ix, phase):
             y=703-205*pos
             p.glow_disc(im,x,y,3.6,GOLD)
     elif ix==2:
-        # Cooling and salinity change density: particles sink vertically.
-        p.circle(d,130,414,55,(38,149,186,75),(*BLUE,185),2)
-        p.circle(d,440,414,55,(235,155,59,65),(*GOLD,180),2)
-        for k in range(55):
-            x=70+(k*83)%455
-            if k%2:
-                y=425+(t*42+k*26)%330  # dense cool particles sink
-                dot(p,d,x,y,2+(k%3),BLUE,170)
-            else:
-                y=746-(t*31+k*34)%310  # lighter warm fluid rises
-                dot(p,d,x,y,2+(k%3),GOLD,155)
-        for k in range(6):
-            x=130+56*k
-            path(p,d,[(x,486),(x-16*math.sin(t+k*.7),694)],BLUE,2,85)
-        path(p,d,[(140,758),(433,758)],CYAN,2.5,185)
+        # Two continuously advecting water masses. Cold dense seawater sinks
+        # along a curved blue pathway; warmer lighter water rises in amber.
+        # This is a schematic mechanism, not a measured depth or speed scale.
+        p.circle(d,133,425,56,(30,122,162,70),(*BLUE,164),2)
+        p.circle(d,434,425,56,(203,137,66,72),(*GOLD,174),2)
+        cold=[]
+        warm=[]
+        for j in range(49):
+            f=j/48
+            y=475+249*f
+            x_c=140+43*math.sin(math.pi*f*.86)+7*math.sin(t*.34+f*5)
+            x_w=434-45*math.sin(math.pi*f*.94)+8*math.cos(t*.31+f*4)
+            cold.append((x_c,y))
+            warm.append((x_w,724-249*f))
+        for coords,color in ((cold,BLUE),(warm,GOLD)):
+            path(p,d,coords,color,11,54)
+            path(p,d,coords,color,4.4,170)
+            path(p,d,coords,WHITE,1.1,86)
+        for k in range(26):
+            # Each tracer travels on the same current field as the ribbon:
+            # no independent particles teleporting in arbitrary directions.
+            u=(t*(.055+(k%4)*.007)+k/26)%1
+            index=min(47,int(u*48))
+            frac=u*48-index
+            trace=cold if k%2 else warm
+            x=trace[index][0]*(1-frac)+trace[index+1][0]*frac
+            y=trace[index][1]*(1-frac)+trace[index+1][1]*frac
+            rad=1.9+(k%3)*.46
+            dot(p,d,x,y,rad,BLUE if k%2 else GOLD,175+(k%3)*21)
+        # The horizontal return flow closes the explanatory cutaway without
+        # claiming a particular global circulation rate.
+        for j in range(4):
+            y=727+j*7
+            pts=[(195,y),(253+5*math.sin(t*.5+j),y+3),(365,y)]
+            path(p,d,pts,CYAN,1.1,57)
     elif ix==3:
         # Global thermohaline circulation: a deep looping conveyor with moving tracers.
         pts=[(90,463),(177,431),(291,460),(414,519),(475,612),
