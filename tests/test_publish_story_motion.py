@@ -83,3 +83,39 @@ def test_badly_mismatched_voice_boundaries_are_rejected():
           for i,word in enumerate(["Nothing","in","this","audio","matches",
                                    "any","of","the","original","story","at","all"])]
     assert continuous_scene_bounds(cues,scenes,3.1) is None
+
+def test_volcano_magma_chamber_visible_above_social_subtitles():
+    from topic_engine import research_story
+    cfg=research_story("Why do volcanoes erupt?",fetcher=lambda _: b"{}")
+    assert cfg["evidence"]=="curated_science"
+    p=Painter(288,512)
+    # Stage zero shows underground magma, which must not be hidden
+    # behind the bottom platform-safe subtitle area (starts at y=726).
+    first=cfg["scenes"][0]
+    frame=np.asarray(p.frame((first["start"]+first["end"])/2,cfg))
+    chamber=frame[280:355,85:205,:].astype(np.int16)
+    hot=(chamber[:,:,0]>120)&(chamber[:,:,0]>chamber[:,:,1]+30)&(
+        chamber[:,:,1]>60)&(chamber[:,:,2]<145)
+    assert hot.sum()>100
+
+
+def test_repeated_topic_label_not_burned_into_video():
+    from topic_engine import research_story
+    cfg=research_story("Why do volcanoes erupt?",fetcher=lambda _: b"{}")
+    p=Painter(288,512)
+    written=[]
+    original=p.text
+    def record(d,text,x,y,size,fill,anchor="mm",bold=False):
+        written.append(str(text))
+        return original(d,text,x,y,size,fill,anchor=anchor,bold=bold)
+    p.text=record
+    p.frame(1.4,cfg)
+    assert "VOLCANO ERUPTION" not in written
+    # Sourced explanatory labels are still retained when meaningful.
+    from topic_engine import create_story
+    good=create_story("Why do ocean currents move?")
+    good["evidence"]="noaa-sourced"
+    good["scenes"][0]["metric"]="NOAA National Ocean Service"
+    written.clear()
+    p.frame(.5,good)
+    assert "NOAA National Ocean Service" in written
