@@ -97,7 +97,7 @@ def mineral_depth(p,d,x0,x1,y0,shift,t):
         r=.7+(k%3)*.32
         p.circle(d,x,y,r,(*((225,191,140) if k%5==0 else (117,186,185)),75))
         if k%4==0:
-            p.line(d,[(x-1.5,y-1.5),(x+2,y+1)],(*WHITE if 'WHITE' in globals() else DUST,52),.8)
+            p.line(d,[(x-1.5,y-1.5),(x+2,y+1)],(*DUST,52),.8)
 
 
 def stress_highlights(p,im,d,t,scene,phase):
