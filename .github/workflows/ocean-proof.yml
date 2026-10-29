@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - 'presets/ocean-currents.json'
+      - 'kinetic.py'
+      - 'narration.py'
+      - 'universal.py'
       - '.github/workflows/ocean-proof.yml'
 permissions:
   contents: read
