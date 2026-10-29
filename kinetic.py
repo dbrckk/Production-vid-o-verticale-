@@ -42,18 +42,18 @@ def ocean(p, im, t, ix, phase):
                 for x in range(20,561,8)]
         path(p,d,coords,BLUE if layer%2 else CYAN,1.6,55+layer*13)
     if ix==0:
-        # Opening life: independent fish with undulating tails in moving flow.
-        for k in range(5):
+        # Physical fish silhouettes: tapered bodies, gills, dorsal/ventral fins,
+        # articulated tails and reflected caustics. No moving clip-art circles.
+        from subject_illustrations import fish
+        for k in range(8):
             direction=1 if k%2==0 else -1
-            px=(t*(45+k*10)+k*133+20)%700-65
-            if direction<0:px=576-px
-            py=460+k*64+20*math.sin(t*1.2+k)
-            r=10+2*k
-            p.circle(d,px,py,r,(31,156,181,210),(*CYAN,240),2)
-            tail=[(px-direction*r,py),(px-direction*(r+22),py-15+7*math.sin(t*7+k)),
-                  (px-direction*(r+22),py+15+7*math.sin(t*7+k))]
-            d.polygon([p.p(*q) for q in tail],fill=(*CYAN,190))
-            dot(p,d,px+direction*4,py-3,2,WHITE,255)
+            speed=37+k*4.8
+            px=(t*speed+k*93+16)%760-92
+            if direction<0:
+                px=576-px
+            py=420+(k%5)*59+15*math.sin(t*.81+k*1.3)
+            r=10.5+(k%4)*2.6
+            fish(p,d,px,py,r,direction,t,k)
         moving_particles(p,im,t,ix,38,410,760)
     elif ix==1:
         # Wind over the sea: gust streaks and wind-driven surface drift.
@@ -132,6 +132,10 @@ def ocean(p, im, t, ix, phase):
         moving_particles(p,im,t,ix,26,400,760)
 
 def volcano(p,im,t,ix,phase):
+    # Geological painter creates persistent terrain, lava fractures and ember
+    # flight before the explanatory animated eruption geometry is laid over it.
+    from subject_illustrations import volcanic_structure
+    volcanic_structure(p,im,t)
     d=ImageDraw.Draw(im,"RGBA")
     crater=513
     path(p,d,[(28,775),(174,615),(235,520),(275,crater),(317,520),(391,627),(550,775)],CYAN,5,230)
