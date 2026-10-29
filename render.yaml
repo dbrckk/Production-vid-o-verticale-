@@ -12,4 +12,4 @@ services:
     autoDeployTrigger: checksPass
     envVars:
       - key: STUDIO_TOKEN
-        sync: false
+        generateValue: true
