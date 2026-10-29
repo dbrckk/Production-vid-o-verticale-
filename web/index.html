@@ -29,12 +29,15 @@ footer{font-size:12px;color:#b3aac9;margin-top:28px;line-height:1.5}</style></he
 <button id="create" class="primary">Create video</button></div>
 <div id="info" role="status">Random picks a timely report from dated English-language news feeds. Stories without verifiable sources are not generated.</div>
 <label for="voice">Narrator (natural English)</label><select id="voice">
-<option value="en-US-AndrewNeural" selected>Andrew · warm documentary voice (US)</option>
+<option value="en-US-BrianMultilingualNeural" selected>Brian · natural documentary (US, multilingual)</option>
+<option value="en-US-EmmaMultilingualNeural">Emma · warm narration (US, multilingual)</option>
+<option value="en-US-AndrewNeural">Andrew · familiar documentary voice (US)</option>
 <option value="en-US-AriaNeural">Aria · expressive storyteller (US)</option>
 <option value="en-GB-RyanNeural">Ryan · documentary presenter (UK)</option>
 </select>
 <label for="quality">Export quality</label><select id="quality">
-<option value="1080p" selected>Publish · Full HD 1080 × 1920 · 30 fps</option>
+<option value="1080p60" selected>Ultra Smooth · Full HD 1080 × 1920 · 60 fps</option>
+<option value="1080p">Publish · Full HD 1080 × 1920 · 30 fps (faster render)</option>
 <option value="720p">Review · HD 720p</option><option value="preview">Fast review · 540p</option></select>
 <div id="status" role="status" aria-live="polite"></div>
 <div id="result"><p>English neural narration with animated captions</p><video id="player" controls playsinline preload="metadata"></video>
