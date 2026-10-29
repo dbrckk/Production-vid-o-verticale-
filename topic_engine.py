@@ -199,6 +199,10 @@ def research_story(topic:str,duration:int=30,*,fetcher=None) -> dict:
             cfg['scenes'][i]['metric']='USER-PROVIDED BRIEF'
             cfg['scenes'][i]['narration']=phrase[:175]
         cfg['evidence']='user_provided'
+    if cfg['evidence'] != 'user_provided':
+        from editorial import apply_explainer
+        if apply_explainer(cfg, topic):
+            return cfg
     source=wikipedia_context(topic,fetcher)
     if source and cfg['evidence']!='user_provided':
         phrases=_phrases(source['summary'])
