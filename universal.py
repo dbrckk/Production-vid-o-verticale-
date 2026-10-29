@@ -158,7 +158,9 @@ def frame(p,t:float,cfg:dict):
     phase=max(0,min(1,(t-start)/max(.001,end-start)))
     from cinematic import render_cinematic_art, title_motion
     category=cfg.get('motion_category') or topic_category(cfg['topic'])
-    im=render_cinematic_art(p,cfg,t,ix,phase,draw,category)
+    def draw_story_scene(painter,canvas,kind,at,chapter,progress):
+        draw(painter,canvas,kind,at,chapter,progress,visual=scenes[chapter]['visual'])
+    im=render_cinematic_art(p,cfg,t,ix,phase,draw_story_scene,category)
     d=ImageDraw.Draw(im,'RGBA')
     p.text(d,'ENGLISH  /  MOTION DOCUMENTARY',288,64,12,(*MINT,230),bold=True)
     # Titles ease in above the animated scene; typography never follows camera zoom.
