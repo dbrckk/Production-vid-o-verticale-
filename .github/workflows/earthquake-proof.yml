@@ -7,6 +7,9 @@ on:
       - '.github/workflows/earthquake-proof.yml'
 permissions:
   contents: read
+concurrency:
+  group: earthquake-documentary-quality-check
+  cancel-in-progress: true
 jobs:
   documentary:
     runs-on: ubuntu-latest
