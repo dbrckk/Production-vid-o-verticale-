@@ -1,21 +1,17 @@
 name: Final cinematic 1080p60 English documentary proof
 on:
   workflow_dispatch:
+  # Expensive 1080p60 release proof: run only on explicit workflow changes
+  # or manually. Normal code commits use fast tests + shorter narrated proofs.
   push:
     branches: [main]
     paths:
       - .github/workflows/publication-proof.yml
-      - scene_backdrops.py
-      - subject_illustrations.py
-      - cinematic.py
-      - kinetic.py
-      - geology_premium.py
-      - audio_mastering.py
 permissions:
   contents: read
 concurrency:
   group: publication-grade-proof
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   publication:
     runs-on: ubuntu-latest
