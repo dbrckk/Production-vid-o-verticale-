@@ -32,15 +32,21 @@ on:
         required: true
         default: 'edge'
         options: ['edge', 'kokoro']
-      quality:
-        description: 'Choose output resolution'
+      voice_name:
+        description: 'English narrator for Edge synthesis'
         type: choice
         required: true
-        default: '1080p'
-        options: ['1080p', '720p', 'preview']
+        default: 'en-US-BrianMultilingualNeural'
+        options: ['en-US-BrianMultilingualNeural', 'en-US-EmmaMultilingualNeural', 'en-US-AndrewNeural', 'en-US-AriaNeural', 'en-GB-RyanNeural']
+      quality:
+        description: 'Choose frame rate and resolution'
+        type: choice
+        required: true
+        default: '1080p60'
+        options: ['1080p60', '1080p', '720p', 'preview']
   push:
     branches: [main]
-    paths: ['studio.py', 'storyboard.py', 'universal.py', 'cinematic.py', 'semantic_motion.py', 'kinetic.py', 'motion_layers.py', 'subtitle_design.py', 'soundscape.py', 'audio_mastering.py', 'qa_video.py', 'narration.py', 'editorial.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
+    paths: ['studio.py', 'storyboard.py', 'universal.py', 'cinematic.py', 'semantic_motion.py', 'kinetic.py', 'geology_premium.py', 'motion_layers.py', 'subtitle_design.py', 'soundscape.py', 'audio_mastering.py', 'qa_video.py', 'narration.py', 'editorial.py', 'topic_engine.py', 'generate_topic.py', 'webapp.py', 'web/**', 'presets/**', 'requirements.txt', 'tests/**', '.github/workflows/render.yml']
 permissions:
   contents: read
 jobs:
@@ -93,11 +99,14 @@ jobs:
           CUSTOM_TOPIC: ${{ inputs.custom_topic }}
           ARTICLE_URL: ${{ inputs.article_url }}
           VOICE_PROVIDER: ${{ inputs.voice_provider }}
+          VOICE_NAME: ${{ inputs.voice_name }}
         run: |
-          case "${QUALITY:-1080p}" in
-            preview) WIDTH=540 ;;
-            720p) WIDTH=720 ;;
-            *) WIDTH=1080 ;;
+          case "${QUALITY:-1080p60}" in
+            preview) WIDTH=540; FPS=15 ;;
+            720p) WIDTH=720; FPS=24 ;;
+            1080p60) WIDTH=1080; FPS=60 ;;
+            1080p) WIDTH=1080; FPS=30 ;;
+            *) echo 'Unknown export quality' >&2; exit 1 ;;
           esac
           case "${MODE:-random_news}" in
             preset)
@@ -120,9 +129,13 @@ jobs:
               ;;
             *) echo 'Invalid mode' >&2; exit 1 ;;
           esac
-          ARGS=(--config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --fps 30)
+          ARGS=(--config "$CONFIG" --output output/science.mp4 --width "$WIDTH" --fps "$FPS")
           if [ -n "$TITLE" ]; then ARGS+=(--title "$TITLE"); fi
-          python studio.py "${ARGS[@]}" --narrate --tts-provider "${VOICE_PROVIDER:-edge}"
+          ARGS+=(--narrate --tts-provider "${VOICE_PROVIDER:-edge}")
+          if [ "${VOICE_PROVIDER:-edge}" = edge ]; then
+            ARGS+=(--tts-voice "${VOICE_NAME:-en-US-BrianMultilingualNeural}")
+          fi
+          python studio.py "${ARGS[@]}"
       - name: Validate output video and audio
         if: github.event_name == 'workflow_dispatch'
         run: |
