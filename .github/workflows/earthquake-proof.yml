@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/earthquake-proof.yml'
+      - 'kinetic.py'
 permissions:
   contents: read
 concurrency:
