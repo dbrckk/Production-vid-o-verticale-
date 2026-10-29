@@ -170,7 +170,12 @@ def frame(p,t:float,cfg:dict):
               bold=True,color=LIGHT,opacity=round(245*title_alpha))
     d=ImageDraw.Draw(im,'RGBA')
     metric=scene.get('metric')
-    if metric and metric not in ('ANIMATED EXPLAINER','USER-PROVIDED BRIEF'):
+    boilerplate=(cfg.get('evidence')=='curated_science' and
+                 all(other.get('metric')==metric for other in scenes))
+    # Do not stamp the same generic topic label on all six shots. Preserve
+    # real facts, stage-specific labels and source attribution where provided.
+    if metric and not boilerplate and metric not in (
+            'ANIMATED EXPLAINER','USER-PROVIDED BRIEF'):
         _wrap(p,d,metric,310,size=14,max_lines=2,color=MINT,bold=True)
     # Voice-timed captions float above a stable mobile-safe contrast panel.
     # A pause in the waveform does not highlight a word that has not been said.
