@@ -170,3 +170,47 @@ python studio.py --config output/story.json --output output/science.mp4 --narrat
 
 The JSON manifest stores voice information, per-word approximate subtitle timings and source citations. **Subtitle timing:** Edge Neural provides actual word-boundary metadata, which drives word-by-word highlighted subtitles. Kokoro ONNX uses a clearly identified estimated timing fallback until a local forced-aligner is integrated. Scientific validity depends on the underlying sources: arbitrary unsourced prompts are exploratory, not independent fact-checked documentaries. The generic animation category cannot yet recreate every possible real-world event faithfully.
 
+
+
+## English motion-documentary engine (2026-10-29)
+
+The public Render interface runs **English only**, offers three neural narrator voices
+(Andrew US, Aria US, Ryan UK), and produces MP4 files with real animated vector motion
+and spoken-word subtitle timings. A missing voice stream is an error, not silent video.
+Transient neural voice service outages are retried up to three times. The music bed is
+lowered underneath speech, with compression and an output limiter.
+
+**Evidence-backed story direction**
+
+- For eight narrowly recognized scientific subjects (ocean currents, ocean tides,
+  volcanic eruptions, photosynthesis, the solar system, heartbeats, earthquakes and
+  meteorology), the `editorial.py` script supplies six distinct English explanatory
+  beats. This is documented science content, **not** an AI claim to know any subject.
+- News stories only narrate information present in the article headline/summary plus
+  the named source and publication date. Thin RSS reports are rejected; enough
+  information for three beats does not get padded with six generic slides.
+- For other topics with usable English Wikipedia context, the script dynamically uses
+  the available evidence to produce the number of meaningful scenes supported by it.
+  Unverified subjects may still remain exploratory.
+- `kinetic.py` implements time-continuous diagrams; the six earthquake scenes now
+  separately depict drifting plates, accumulating stress, sudden slip, propagating
+  seismic waves, site response, and a moving seismometer trace.
+- `tests/test_editorial_motion.py` checks physical movement and scene-to-scene visual
+  differentiation; neural integration tests cover English voice audio and word timing.
+
+**Download playable quality proofs** from GitHub Actions (log in to GitHub to access
+the artifacts):
+[Ocean currents + English narration](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/ocean-proof.yml) ·
+[Earthquake documentary + English narration](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/earthquake-proof.yml).
+
+For a finished **Full HD 1080 × 1920** video, use the main
+[Render vertical science video workflow](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/render.yml)
+with `mode=custom`, `quality=1080p` and `voice_provider=kokoro` (offline).
+The Render free instance uses lighter Edge neural voices for its interactive UI,
+and available CPU/RAM and storage limits apply.
+
+**Visual limitation:** physical vector animation and narration have replaced the
+static-card slideshow for supported subjects, but this is not yet automatic
+photorealistic cinematic footage for any arbitrary topic. Realistic assets,
+subject-specific 3D simulation and editorial verification still require
+further work.
