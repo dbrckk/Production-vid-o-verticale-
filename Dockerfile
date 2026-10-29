@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg fonts-de
 WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-COPY studio.py storyboard.py universal.py kinetic.py narration.py topic_engine.py generate_topic.py webapp.py ./
+COPY studio.py storyboard.py universal.py kinetic.py narration.py editorial.py topic_engine.py generate_topic.py webapp.py ./
 COPY web ./web
 COPY presets ./presets
 RUN mkdir -p /app/output && chown -R 10001:10001 /app/output
