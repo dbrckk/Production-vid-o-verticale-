@@ -36,7 +36,7 @@ EXPLAINERS = {
         ],
     },
     "ocean_tides": {
-        "triggers": (r"\bocean tides?\b", r"\bsea tides?\b", r"\bhigh tide\b", r"\blow tide\b"),
+        "triggers": (r"\bocean tides?\b", r"\bsea tides?\b", r"\bhigh tide\b", r"\blow tide\b", r"\btides?\b"),
         "category": "ocean",
         "beats": [
             ("WHY THE SEA RISES", "Across the planet, coastlines experience the rhythmic rise and fall we call tides."),
