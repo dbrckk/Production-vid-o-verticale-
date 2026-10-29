@@ -1,7 +1,8 @@
-"""English documentary captions: mobile-safe contrast and word-level timing.
+"""Narration-synchronised large-format captions for mobile documentary video.
 
-Unlike slide captions, highlighted words are placed by neural speech timestamps.
-The backdrop remains stable while individual word illumination is continuous.
+Words stay in fixed chunks, instead of the entire sentence shifting on every
+word. A current word is highlighted using provider timestamps. Deliberate
+silences hide the panel and do not suggest speech that isn't being spoken.
 """
 from __future__ import annotations
 
@@ -12,68 +13,102 @@ MINT=(113,242,208)
 GOLD=(255,201,114)
 
 
-def _background(p, image):
+def _background(p,image):
     d=ImageDraw.Draw(image,"RGBA")
-    a=p.p(35,801)
-    b=p.p(541,917)
-    d.rounded_rectangle((*a,*b), radius=max(10,round(21*p.s)),
-                        fill=(11,14,30,229),outline=(121,178,176,110),
-                        width=max(1,round(1.25*p.s)))
-    p.line(d,[(55,815),(521,815)],(*MINT,70),1.1)
+    a=p.p(32,785)
+    b=p.p(544,926)
+    d.rounded_rectangle(
+        (*a,*b),radius=max(10,round(23*p.s)),
+        fill=(9,12,28,225),outline=(102,164,165,115),
+        width=max(1,round(1.5*p.s)),
+    )
+    p.line(d,[(56,802),(520,802)],(*MINT,82),1.5)
     return d
 
 
-def render_captions(p,image,cues,t,scene_index):
-    """Return true when speech cues exist for this scene.
+def _chunks(cues):
+    """Keep 2–3 spoken words still on screen for each short phrase."""
+    groups=[]
+    active=[]
+    for i,cue in enumerate(cues):
+        if active:
+            preceding=cues[active[-1]]
+            gap=float(cue["start"])-float(preceding["end"])
+            punctuation=str(preceding["word"]).rstrip().endswith((".","!","?",":",";"))
+            if len(active)>=3 or gap>.42 or punctuation:
+                groups.append(active)
+                active=[]
+        active.append(i)
+    if active:
+        groups.append(active)
+    return groups
 
-    During pauses over 250ms the text is suppressed, preventing a narrator
-    from appearing to speak when the actual waveform has no words.
-    """
-    matching=[cue for cue in cues if cue.get("scene")==scene_index
-              and cue.get("word","").strip()]
+
+def _font_and_widths(p,d,words):
+    for size in range(25,15,-1):
+        font=p.font(size,True)
+        widths=[max(2,d.textbbox((0,0),str(c["word"]),font=font)[2]/p.s) for c in words]
+        if sum(widths)+15*max(0,len(widths)-1)<=456:
+            return size,widths
+    # A single unusually long name must fit the mobile safe area.
+    size=16
+    font=p.font(size,True)
+    widths=[max(2,d.textbbox((0,0),str(c["word"]),font=font)[2]/p.s) for c in words]
+    return size,widths
+
+
+def render_captions(p,image,cues,t,scene_index):
+    """Render a stable multiword subtitle group; return whether cues exist."""
+    matching=[
+        c for c in cues if c.get("scene")==scene_index and str(c.get("word","")).strip()
+    ]
     if not matching:
         return False
-    selection=next((i for i,cue in enumerate(matching)
-                    if cue["start"]<=t<cue["end"]),None)
-    if selection is None:
-        recent=[i for i,cue in enumerate(matching) if cue["end"]<=t
-                and t-cue["end"]<=.25]
-        if recent:
-            selection=recent[-1]
-        else:
+    selected=next(
+        (i for i,c in enumerate(matching) if float(c["start"])<=t<float(c["end"])),
+        None,
+    )
+    if selected is None:
+        recent=[
+            i for i,c in enumerate(matching)
+            if 0<=t-float(c["end"])<=.18
+        ]
+        if not recent:
             return True
-    anchor=matching[selection]
-    progress=min(1,max(0,(t-anchor["start"])/max(.01,anchor["end"]-anchor["start"])))
-    # Three spoken / upcoming words show useful context without covering artwork.
-    left=max(0,selection-2)
-    right=min(len(matching),selection+3)
-    words=matching[left:right]
+        selected=recent[-1]
+
+    group=next(g for g in _chunks(matching) if selected in g)
+    words=[matching[i] for i in group]
 
     d=_background(p,image)
-    base_font=p.font(19,True)
-    sizes=[max(2,d.textbbox((0,0),cue["word"],font=base_font)[2]/p.s) for cue in words]
-    total=sum(sizes)+13*max(0,len(words)-1)
-    if total>461:
-        words=[anchor]
-        sizes=[max(2,d.textbbox((0,0),anchor["word"],font=base_font)[2]/p.s)]
-        total=sum(sizes)
-    x=288-total/2
-    for cue,width in zip(words,sizes):
-        active=cue is anchor
-        xpos=x+width/2
-        y=857-3*(1-progress)*int(active)
-        if active:
-            p.text(d,cue["word"],xpos+1,y+2,19,(0,0,0,200),bold=True)
-        color=(*GOLD,255) if active else (*WHITE,188 if cue["start"]>t else 240)
-        p.text(d,cue["word"],xpos,y,19,color,bold=True)
-        x+=width+13
-    # Underline shows elapsed progress of the currently spoken word.
-    x0=288-min(200,total/2)
-    d.line([p.p(x0,889),p.p(x0+min(400,total)*progress,889)],
-           fill=(*MINT,215),width=max(2,round(3*p.s)))
+    size,widths=_font_and_widths(p,d,words)
+    total=sum(widths)+15*max(0,len(words)-1)
+    left=288-total/2
+    if total>472:
+        words=[matching[selected]]
+        size,widths=_font_and_widths(p,d,words)
+        total=sum(widths)
+        left=288-total/2
+
+    for cue,width in zip(words,widths):
+        is_active=cue is matching[selected]
+        xpos=left+width/2
+        y=855
+        shadow_alpha=190 if is_active else 145
+        p.text(d,cue["word"],xpos+1.2,y+2.2,size,(0,0,0,shadow_alpha),bold=True)
+        fill=(*GOLD,255) if is_active else (*WHITE,228)
+        p.text(d,cue["word"],xpos,y,size,fill,bold=True)
+        if is_active:
+            start=float(cue["start"])
+            end=float(cue["end"])
+            phase=min(1,max(0,(t-start)/max(.025,end-start)))
+            x0=left+2
+            x1=x0+max(3,width-4)*phase
+            p.line(d,[(x0,892),(x1,892)],(*MINT,235),3)
+        left+=width+15
     return True
 
 
 def caption_backdrop(p,image):
-    """Contrast panel for unsynchronized/preview narration captions."""
+    """High contrast when synchronized cues are not yet available."""
     return _background(p,image)
