@@ -1,0 +1,64 @@
+name: Publish-grade 1080p English documentary proof
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publication-proof.yml
+permissions:
+  contents: read
+concurrency:
+  group: publication-grade-proof
+  cancel-in-progress: false
+jobs:
+  publication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install original 2D render and English speech dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Render complete English 1080 x 1920, 30 FPS social master
+        run: |
+          python generate_topic.py --topic "What causes earthquakes?" --output output/publication-topic.json
+          python studio.py --config output/publication-topic.json \
+            --narrate --tts-provider edge --tts-voice en-US-AndrewNeural \
+            --width 1080 --fps 30 --output output/publish-master.mp4
+      - name: Require publication-grade audio, animation, color and no scene counters
+        run: |
+          python qa_video.py --video output/publish-master.mp4 \
+            --manifest output/publish-master.json \
+            --report output/publication-quality.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          manifest=json.loads(Path("output/publish-master.json").read_text())
+          report=json.loads(Path("output/publication-quality.json").read_text())
+          assert manifest["export_profile"]=="publication_1080p"
+          assert report["publication_spec"] is True
+          assert report["width"]==1080 and report["height"]==1920
+          assert manifest["fps"]==30
+          assert manifest["encoding"]["chapter_numbers"] is False
+          assert manifest["encoding"]["watermark"] is False
+          assert report["audio_language"]=="en"
+          assert report["narrated_words"]>=40
+          print("Publication-grade social video validated:",json.dumps(report))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: publish-ready-english-1080p30-2d
+          path: |
+            output/publish-master.mp4
+            output/publish-master.json
+            output/publication-quality.json
+            output/publication-topic.json
+            output/cover.png
+          retention-days: 14
