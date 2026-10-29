@@ -8,6 +8,8 @@ on:
       - 'kinetic.py'
       - 'narration.py'
       - 'universal.py'
+      - 'editorial.py'
+      - 'topic_engine.py'
       - '.github/workflows/ocean-proof.yml'
 permissions:
   contents: read
