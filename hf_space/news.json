@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T11:58:30.991543+00:00",
+  "generated_at": "2026-10-29T12:00:06.994757+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -33,7 +33,7 @@
       "source": "BBC World",
       "published": "2026-10-29T11:22:18+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.542
+      "importance": 2.541
     },
     {
       "title": "Poundland's future hangs in the balance as chain edges towards collapse",
@@ -113,7 +113,7 @@
       "source": "BBC Business",
       "published": "2026-10-28T18:45:09+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
-      "importance": 2.311
+      "importance": 2.31
     },
     {
       "title": "Will I get the £100 energy payment and when will I receive it?",
@@ -129,7 +129,7 @@
       "source": "BBC Business",
       "published": "2026-10-28T16:43:35+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.283
+      "importance": 2.282
     },
     {
       "title": "Israel's election result is messy - here's why",
@@ -161,7 +161,7 @@
       "source": "BBC Science",
       "published": "2026-10-27T21:20:52+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.014
+      "importance": 2.013
     },
     {
       "title": "Mini-gardens for bees on bus stop roofs approved",
@@ -177,7 +177,7 @@
       "source": "BBC Business",
       "published": "2026-10-29T11:52:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.999
+      "importance": 1.998
     },
     {
       "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
@@ -193,7 +193,7 @@
       "source": "BBC Science",
       "published": "2026-10-29T11:31:23+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c574p7r0xnvpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
+      "importance": 1.993
     },
     {
       "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
@@ -201,7 +201,7 @@
       "source": "BBC World",
       "published": "2026-10-29T11:27:05+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
-      "importance": 1.993
+      "importance": 1.992
     },
     {
       "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
@@ -225,7 +225,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T11:00:30+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/29/rare-love-letters-french-aristocrat-la-perouse-maritime-mystery",
-      "importance": 1.987
+      "importance": 1.986
     },
     {
       "title": "Europe’s central bank chief Christine Lagarde to step down nine months early",
@@ -233,7 +233,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:56:12+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/29/european-central-bank-chief-christine-lagarde-to-step-down-nine-months-early",
-      "importance": 1.986
+      "importance": 1.985
     },
     {
       "title": "Poundland on brink of administration, with 12,000 jobs at risk",
@@ -241,7 +241,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:56:37+00:00",
       "url": "https://www.theguardian.com/business/2026/oct/29/poundland-brink-administration-12000-jobs-at-risk",
-      "importance": 1.986
+      "importance": 1.985
     },
     {
       "title": "Serious pollution by water industry remains high despite £5bn investment",
@@ -265,7 +265,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:00:30+00:00",
       "url": "https://www.theguardian.com/us-news/2026/oct/29/warren-lawmakers-osha-worker-respiratory-protection",
-      "importance": 1.973
+      "importance": 1.972
     },
     {
       "title": "New elementary school in Texas named after beloved longtime school custodian",
@@ -273,7 +273,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:00:29+00:00",
       "url": "https://www.theguardian.com/us-news/2026/oct/29/texas-school-custodian-name",
-      "importance": 1.973
+      "importance": 1.972
     },
     {
       "title": "New Mexico megachurch endorses Republican candidates, testing federal ban",
@@ -281,7 +281,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:00:29+00:00",
       "url": "https://www.theguardian.com/us-news/2026/oct/29/new-mexico-church-endorses-republicans",
-      "importance": 1.973
+      "importance": 1.972
     },
     {
       "title": "FTC orders Delta, Uber and others to hand over data on algorithmic pricing",
@@ -289,7 +289,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:00:29+00:00",
       "url": "https://www.theguardian.com/us-news/2026/oct/29/delta-uber-ftc-pricing",
-      "importance": 1.973
+      "importance": 1.972
     },
     {
       "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
@@ -297,15 +297,7 @@
       "source": "BBC World",
       "published": "2026-10-29T09:51:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.971
-    },
-    {
-      "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
-      "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
-      "source": "BBC World",
-      "published": "2026-10-29T09:30:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.966
+      "importance": 1.97
     },
     {
       "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
@@ -316,12 +308,20 @@
       "importance": 1.966
     },
     {
+      "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
+      "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+      "source": "BBC World",
+      "published": "2026-10-29T09:30:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.965
+    },
+    {
       "title": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
       "summary": "The jailbreak began with a fake seizure and ended 36 hours later with all the inmates back behind bars.",
       "source": "BBC World",
       "published": "2026-10-29T09:17:05+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmx2qrgy591ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.963
+      "importance": 1.962
     },
     {
       "title": "‘I earn £126,000 – but nothing’s left at the end of the month’: readers react to the budget",
@@ -361,7 +361,7 @@
       "source": "BBC World",
       "published": "2026-10-29T07:54:33+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.944
+      "importance": 1.943
     },
     {
       "title": "BBC in the Philippines where Thomas Markle is expected to be investigated",
@@ -388,20 +388,20 @@
       "importance": 1.93
     },
     {
-      "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
-      "summary": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
-      "source": "BBC World",
-      "published": "2026-10-29T06:24:56+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.923
-    },
-    {
       "title": "'We need help for small businesses, not punishment'",
       "summary": "People in Bilston react to the new Budget set out by Chancellor John Healey.",
       "source": "BBC Business",
       "published": "2026-10-29T06:27:28+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6kglwxplv1zo?at_medium=RSS&at_campaign=rss",
       "importance": 1.923
+    },
+    {
+      "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
+      "summary": "The troops are trying to recover four military personnel who went missing in an ambush on the outskirts of the Haitian capital Port-au-Prince.",
+      "source": "BBC World",
+      "published": "2026-10-29T06:24:56+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.922
     }
   ]
 }
