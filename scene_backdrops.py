@@ -107,14 +107,17 @@ def add_parallax(p,im,category:str,t:float,scene_index:int):
             y=410+32*math.sin(t*.45+j*2)
             _stroke(p,d,[(x,y),(x+21,y-2)],(110,212,205,37),1.2)
     elif category=="volcano":
-        # Atmospheric ash billows rise from a coherent eruptive vent.
-        for j in range(19):
-            age=(t*.34+j*.15)%2.5
-            x=288+57*math.sin(age*1.6+j*2.4)*(.5+age*.4)
-            y=526-age*105+14*math.sin(j*1.7)
-            r=8+age*14+(j%4)*3
-            alpha=max(17,int(70*(1-age/3.2)))
-            p.circle(d,x,y,r,(76+int(age*9),73,83,alpha))
+        # No plume while magma is still trapped inside the volcano.
+        # Ash appears only in explosive chapters, then dissipates.
+        if scene_index>=3:
+            n=19 if scene_index==3 else (8 if scene_index==4 else 5)
+            for j in range(n):
+                age=(t*.34+j*.15)%2.5
+                x=288+57*math.sin(age*1.6+j*2.4)*(.5+age*.4)
+                y=526-age*105+14*math.sin(j*1.7)
+                r=8+age*14+(j%4)*3
+                alpha=max(17,int(70*(1-age/3.2)))
+                p.circle(d,x,y,r,(76+int(age*9),73,83,alpha))
         for j in range(13):
             x=31+j*45
             shimmer=.5+.5*math.sin(t*.42+j*.8)
