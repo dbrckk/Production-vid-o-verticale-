@@ -119,3 +119,16 @@ def test_repeated_topic_label_not_burned_into_video():
     written.clear()
     p.frame(.5,good)
     assert "NOAA National Ocean Service" in written
+
+def test_rock_facets_never_float_outside_volcano():
+    p=Painter(288,512)
+    baseline=np.asarray(p.base.copy())
+    image=p.base.copy()
+    volcanic_structure(p,image,2.7,1,.55)
+    pixels=np.asarray(image)
+    # At this altitude the cone is narrower than the side sky regions.
+    # Its decorative facets may not bleed outside the solid rock silhouette.
+    y0,y1=round(552*p.s),round(630*p.s)
+    for x0,x1 in ((40,155),(425,537)):
+        a,b=round(x0*p.s),round(x1*p.s)
+        assert np.array_equal(pixels[y0:y1,a:b],baseline[y0:y1,a:b])
