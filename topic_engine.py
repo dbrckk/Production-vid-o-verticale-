@@ -14,10 +14,9 @@ from xml.etree import ElementTree as ET
 FEEDS = (
     ('BBC World','https://feeds.bbci.co.uk/news/world/rss.xml'),
     ('BBC Science','https://feeds.bbci.co.uk/news/science_and_environment/rss.xml'),
-    ('France 24','https://www.france24.com/fr/rss'),
-    ('franceinfo','https://www.francetvinfo.fr/titres.rss'),
-    ('Le Monde','https://www.lemonde.fr/rss/une.xml'),
     ('The Guardian','https://www.theguardian.com/world/rss'),
+    ('BBC Technology','https://feeds.bbci.co.uk/news/technology/rss.xml'),
+    ('BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
 )
 IMPACT_WORDS = ('élection','guerre','climat','séisme','accord','santé','énergie','économie',
                 'espace','science','crise','urgence','election','war','climate','earthquake',
@@ -88,8 +87,8 @@ def current_headlines(fetcher=None,now:datetime|None=None) -> list[dict]:
 def random_important_news(fetcher=None,rng=None,now=None) -> dict:
     items=current_headlines(fetcher,now)
     if not items:raise RuntimeError('Aucune actualité récente vérifiable : flux indisponibles ou obsolètes')
-    french=[item for item in items if item['source'] in ('France 24','franceinfo','Le Monde')]
-    candidates=(french if french else items)[:15]
+    # English-language outlets only: narration and on-screen text stay in English.
+    candidates=items[:20]
     rng=rng or random.SystemRandom()
     return rng.choices(candidates,weights=[max(.01,item['importance']-.75)**2 for item in candidates],k=1)[0]
 
@@ -114,6 +113,19 @@ def validate_universal(cfg:dict) -> None:
         last=b
     if abs(last-duration)>.001:raise ValueError('Scenes do not cover duration')
 
+
+def require_english_topic(topic: str):
+    """Fail closed on obviously French input instead of generating mixed-language videos.
+
+    An arbitrary-language translation service is intentionally NOT simulated here.
+    """
+    if not isinstance(topic,str) or len(topic.strip())<3:
+        raise ValueError("Enter a topic in English")
+    value=topic.casefold()
+    french_words=re.findall(r"\\b(?:pourquoi|comment|quelles|quels|est-ce|sont-ils|sommes|avez-vous|les|des|une|dans|nous|vous|notre|aujourd'hui|commentaire|expliquer|étude|découverte|réchauffement)\\b",value)
+    if len(french_words)>=2 or re.search(r"[éèêëàâîïôûùçœ]", value):
+        raise ValueError("English only: please enter or select an English-language topic")
+
 def create_story(topic:str, *,article:dict|None=None,duration:int=30) -> dict:
     title=clean(topic,145)
     if not title or len(title)<3 or len(topic)>500:raise ValueError('Le sujet doit contenir entre 3 et 500 caractères')
@@ -122,32 +134,33 @@ def create_story(topic:str, *,article:dict|None=None,duration:int=30) -> dict:
         if not all(article.get(k) for k in ('url','source','published')):raise ValueError('Actualité sans source ou date')
         sentences=_phrases(article.get('summary',''))
         captions=[
-            f'À la une : {title}',
-            sentences[0] if sentences else f"Actualité publiée par {article['source']}.",
-            sentences[1] if len(sentences)>1 else f"Source : {article['source']}.",
-            sentences[2] if len(sentences)>2 else 'Retrouvez les informations détaillées dans la source.',
-            'Cette synthèse présente les éléments publiés, sans prédire leurs conséquences.',
-            f"Publication : {article['published'][:10]}. Source : {article['source']}.",
+            f"Today’s headline: {title}.",
+            ("According to "+article['source']+", "+sentences[0]) if sentences else f"This development was reported by {article['source']}.",
+            sentences[1] if len(sentences)>1 else "This is an emerging story. Details can change as reporting continues.",
+            sentences[2] if len(sentences)>2 else "The source article provides the context for this development.",
+            "This short video summarizes the available reporting, not unverified predictions.",
+            f"Reported on {article['published'][:10]} by {article['source']}. Check the original article for updates.",
         ]
     else:
         captions=[
-            f'Explorons cette question : {title}',
-            'D’abord, identifions les éléments essentiels du sujet.',
-            'Observons la chronologie et les liens entre les événements.',
-            'Comparons les différents facteurs et leurs interactions.',
-            'Les réponses précises nécessitent des sources fiables.',
-            'Un point de départ pour approfondir le sujet.',
+            f"Let's explore the question: {title}.",
+            "We start by identifying the key ideas and the processes involved.",
+            "Follow how these parts change over time and influence one another.",
+            "Notice the patterns, the connections, and the causes behind the outcome.",
+            "Reliable evidence matters. We should not invent facts or numbers.",
+            "Use the original source to explore the topic in more depth.",
         ]
-    heads=[title,'LES FAITS ESSENTIELS','LE CONTEXTE','LES LIENS',
-           'CE QU’IL FAUT RETENIR','POUR ALLER PLUS LOIN']
+    heads=[title,'WHAT WE KNOW','HOW IT WORKS','THE CONNECTIONS',
+           'WHY IT MATTERS','THE BIGGER PICTURE']
     lengths=[.16,.20,.19,.18,.16,.11]
     bounds=[0.]
     for v in lengths[:-1]:bounds.append(round(bounds[-1]+duration*v,3))
     bounds.append(float(duration))
     scenes=[dict(start=bounds[i],end=bounds[i+1],headline=heads[i],
                  caption=clean(captions[i],175),visual=VISUALS[i],
-                 metric=article['source'] if article else 'EXPLICATION VISUELLE') for i in range(6)]
-    cfg=dict(mode='universal',topic=title,duration=duration,scenes=scenes,
+                 metric=article['source'] if article else 'ANIMATED EXPLAINER',
+                 narration=captions[i]) for i in range(6)]
+    cfg=dict(mode='universal',language='en',topic=title,duration=duration,scenes=scenes,
              evidence='rss' if article else 'unsourced',
              sources=[{k:article[k] for k in ('title','source','published','url')}] if article else [])
     validate_universal(cfg)
@@ -157,7 +170,7 @@ def wikipedia_context(topic:str,fetcher=None) -> dict|None:
     query=urlencode(dict(action='query',generator='search',gsrsearch=topic[:150],
                          gsrlimit=1,prop='extracts',exintro=1,explaintext=1,
                          exsectionformat='plain',format='json'))
-    url='https://fr.wikipedia.org/w/api.php?'+query
+    url='https://en.wikipedia.org/w/api.php?'+query
     if fetcher is None:
         def fetcher(address):
             with urlopen(Request(address,headers={'User-Agent':'VerticalScienceStudio/1.0 (educational video)'}),timeout=6) as r:
@@ -168,8 +181,8 @@ def wikipedia_context(topic:str,fetcher=None) -> dict|None:
         page=next(iter(pages.values()))
         summary=clean(page.get('extract',''),700)
         if len(summary)<60 or not isinstance(page.get('pageid'),int):return None
-        return dict(title=page['title'],summary=summary,source='Wikipédia',
-                    url='https://fr.wikipedia.org/?curid='+str(page['pageid']))
+        return dict(title=page['title'],summary=summary,source='Wikipedia',
+                    url='https://en.wikipedia.org/?curid='+str(page['pageid']))
     except (OSError,TimeoutError,ValueError,KeyError,TypeError):return None
 
 def research_story(topic:str,duration:int=30,*,fetcher=None) -> dict:
@@ -182,14 +195,16 @@ def research_story(topic:str,duration:int=30,*,fetcher=None) -> dict:
         cfg['scenes'][0]['headline']=cfg['topic']
         for i,phrase in enumerate(brief[:5],start=1):
             cfg['scenes'][i]['caption']=phrase[:175]
-            cfg['scenes'][i]['metric']='BRIEF FOURNI PAR L’UTILISATEUR'
+            cfg['scenes'][i]['metric']='USER-PROVIDED BRIEF'
+            cfg['scenes'][i]['narration']=phrase[:175]
         cfg['evidence']='user_provided'
     source=wikipedia_context(topic,fetcher)
     if source and cfg['evidence']!='user_provided':
         phrases=_phrases(source['summary'])
         for i in range(1,min(6,len(phrases)+1)):
             cfg['scenes'][i]['caption']=phrases[i-1][:175]
-            cfg['scenes'][i]['metric']='SOURCE : WIKIPÉDIA'
+            cfg['scenes'][i]['metric']='SOURCE: WIKIPEDIA'
+            cfg['scenes'][i]['narration']=phrases[i-1][:175]
         cfg['sources']=[{k:source[k] for k in ('title','source','url')}]
         cfg['evidence']='wikipedia'
     return cfg
