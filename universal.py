@@ -169,37 +169,15 @@ def frame(p,t:float,cfg:dict):
     d=ImageDraw.Draw(im,'RGBA')
     if scene.get('metric'):
         _wrap(p,d,scene['metric'],322,size=14,max_lines=2,color=MINT,bold=True)
-    # Voice-driven karaoke. Falls back to English scene captions for silent preview.
+    # Voice-timed captions float above a stable mobile-safe contrast panel.
+    # A pause in the waveform does not highlight a word that has not been said.
+    from subtitle_design import render_captions, caption_backdrop
     cues=cfg.get('word_cues') or []
     if cues:
-        matching=[c for c in cues if c['scene']==ix]
-        selected=next((i for i,c in enumerate(matching) if c['start']<=t<c['end']),None)
-        if selected is None:
-            selected=next((i for i,c in enumerate(matching) if t<c['start']),len(matching)-1)
-        if matching and selected>=0:
-            lo=max(0,selected-2);hi=min(len(matching),selected+3)
-            block=matching[lo:hi]
-            widths=[d.textbbox((0,0),c['word'],font=p.font(18,True))[2]/p.s for c in block]
-            total=sum(widths)+12*max(0,len(block)-1)
-            if total>516:
-                block=[matching[selected]]
-                widths=[d.textbbox((0,0),block[0]['word'],font=p.font(18,True))[2]/p.s]
-                total=sum(widths)
-            x=288-total/2
-            # Stable, mobile-safe subtitle backing and an accented active word.
-            left,top=p.p(x-18,828)
-            right,bottom=p.p(x+total+18,888)
-            d.rounded_rectangle((left,top,right,bottom),
-                                radius=max(5,round(13*p.s)),
-                                fill=(8,12,29,205),
-                                outline=(*BLUE,95),width=max(1,round(p.s)))
-            for c,w in zip(block,widths):
-                active=c is matching[selected]
-                p.text(d,c['word'],x+w/2,858,18,(*(GOLD if active else LIGHT),255),bold=True)
-                if active:
-                    p.line(d,[(x,877),(x+w,877)],(*GOLD,225),2.4)
-                x+=w+12
+        render_captions(p,im,cues,t,ix)
     else:
-        _wrap(p,d,scene['caption'],858,size=19,max_lines=4)
+        caption_backdrop(p,im)
+        _wrap(p,ImageDraw.Draw(im,'RGBA'),scene['caption'],857,size=19,max_lines=3)
+    d=ImageDraw.Draw(im,'RGBA')
     p.text(d,f'{ix+1:02d} / {len(scenes):02d}',288,969,12,(*LIGHT,165),bold=True)
     return im.convert('RGB')
