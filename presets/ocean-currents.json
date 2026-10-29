@@ -1,0 +1,70 @@
+{
+  "mode": "universal",
+  "language": "en",
+  "topic": "Why do ocean currents move?",
+  "duration": 30,
+  "evidence": "noaa-sourced",
+  "sources": [
+    {
+      "title": "What is a current?",
+      "source": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/current.html"
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 5,
+      "headline": "WHY DOES THE OCEAN MOVE?",
+      "caption": "Ocean currents are enormous rivers of moving seawater. Some flow at the surface. Others travel deep below.",
+      "narration": "Ocean currents are enormous rivers of moving seawater. Some flow at the surface. Others travel deep below.",
+      "visual": "focus",
+      "metric": "WATER IS ALWAYS MOVING"
+    },
+    {
+      "start": 5,
+      "end": 10,
+      "headline": "WINDS DRIVE THE SURFACE",
+      "caption": "Wind pushes surface currents, while Earth's rotation helps curve their paths around the planet.",
+      "narration": "Wind pushes surface currents, while Earth's rotation helps curve their paths around the planet.",
+      "visual": "globe",
+      "metric": "WIND + EARTH'S ROTATION"
+    },
+    {
+      "start": 10,
+      "end": 15,
+      "headline": "COLD WATER SINKS",
+      "caption": "In colder regions, seawater can become denser and sink toward the deep ocean.",
+      "narration": "In colder regions, seawater can become denser and sink toward the deep ocean.",
+      "visual": "timeline",
+      "metric": "DENSITY IN MOTION"
+    },
+    {
+      "start": 15,
+      "end": 20,
+      "headline": "THE DEEP OCEAN CIRCULATES",
+      "caption": "Temperature and salinity differences help power deep circulation across entire ocean basins.",
+      "narration": "Temperature and salinity differences help power deep circulation across entire ocean basins.",
+      "visual": "network",
+      "metric": "THERMOHALINE CIRCULATION"
+    },
+    {
+      "start": 20,
+      "end": 25,
+      "headline": "CURRENTS SHAPE CLIMATE",
+      "caption": "Ocean currents transport heat, oxygen, and nutrients. They shape marine ecosystems and influence regional climates.",
+      "narration": "Ocean currents transport heat, oxygen, and nutrients. They shape marine ecosystems and influence regional climates.",
+      "visual": "compare",
+      "metric": "HEAT + LIFE + CLIMATE"
+    },
+    {
+      "start": 25,
+      "end": 30,
+      "headline": "A PLANET IN MOTION",
+      "caption": "Scientists measure these moving waters to understand our changing planet and the ocean's vital role.",
+      "narration": "Scientists measure these moving waters to understand our changing planet and the ocean's vital role.",
+      "visual": "question",
+      "metric": "FOLLOW THE FLOW"
+    }
+  ]
+}
