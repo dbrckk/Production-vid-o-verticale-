@@ -447,6 +447,7 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
           '-crf',str(delivery['crf']),'-tune','animation',
           '-vf','scale=in_range=pc:out_range=tv:out_color_matrix=bt709',
           '-pix_fmt','yuv420p','-profile:v','high',
+          '-x264-params','colorprim=bt709:transfer=bt709:colormatrix=bt709:fullrange=off',
           '-g',str(delivery['gop_frames']),'-keyint_min',str(fps),
           '-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709',
           '-movflags','+faststart',
