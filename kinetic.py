@@ -32,39 +32,104 @@ def moving_particles(p,im,t,ix,count=44,lower=385,upper=770):
         dot(p,d,vx,vy,rad,CYAN if i%3 else GOLD,62+(i%3)*42)
 
 
-def ocean(p,im,t,ix,phase):
-    d=ImageDraw.Draw(im,"RGBA")
-    # Actual water particles follow 3 phase-shifted, depth-dependent sine waves.
-    for layer in range(6):
-        baseline=410+layer*58
-        amp=8+layer*2.5
-        coords=[(x,baseline+amp*math.sin(x*.021-t*(1.0+layer*.13)+layer*.65))
+def ocean(p, im, t, ix, phase):
+    """Six physically animated editorial treatments of a single ocean subject."""
+    d = ImageDraw.Draw(im, "RGBA")
+    # Continuously moving water surface persists across all six chapters.
+    for layer in range(4):
+        baseline=400+layer*102
+        coords=[(x,baseline+(7+layer*2)*math.sin(x*.022-t*(1.2+layer*.16)+layer*.7))
                 for x in range(20,561,8)]
-        path(p,d,coords,BLUE if layer%2 else CYAN,1.7,55+layer*19)
-    for j in range(6):
-        x=75+j*92+13*math.sin(t*.36+j)
-        path(p,d,[(x-95,310),(x+65,825)],BLUE,3,25)
-    moving_particles(p,im,t,ix,45)
-    # A swimming fish, fins beating at 4 Hz and speed depending on scene.
-    for k in range(3):
-        direction=1 if k%2==0 else -1
-        px=(t*(48+15*k)+k*180+45) % 720-70
-        if direction<0:px=576-px
-        py=520+k*75+19*math.sin(t*1.6+k)
-        s=(.8+k*.23)
-        p.circle(d,px,py,16*s,(43,177,175,190),(184,252,225,235),2)
-        swing=math.sin(t*9+k)*12
-        tail=[(px-direction*14*s,py),(px-direction*43*s,py-17*s+swing),
-              (px-direction*43*s,py+17*s+swing)]
-        d.polygon([p.p(*q) for q in tail],fill=(*CYAN,170))
-        dot(p,d,px+direction*7*s,py-4*s,2.1,WHITE,255)
-        path(p,d,[(px-6*s,py+13*s),(px+3*s,py+24*s),(px+10*s,py+10*s)],GOLD,1.8,165)
-    # The visible level rises and falls rather than translating static images.
-    for k in range(20):
-        px=35+((k*97+t*(6+k%4*4))%520)
-        py=760-((t*29+k*39)%350)
-        dot(p,d,px,py,2.5+(k%3),BLUE,92)
-
+        path(p,d,coords,BLUE if layer%2 else CYAN,1.6,55+layer*13)
+    if ix==0:
+        # Opening life: independent fish with undulating tails in moving flow.
+        for k in range(5):
+            direction=1 if k%2==0 else -1
+            px=(t*(45+k*10)+k*133+20)%700-65
+            if direction<0:px=576-px
+            py=460+k*64+20*math.sin(t*1.2+k)
+            r=10+2*k
+            p.circle(d,px,py,r,(31,156,181,210),(*CYAN,240),2)
+            tail=[(px-direction*r,py),(px-direction*(r+22),py-15+7*math.sin(t*7+k)),
+                  (px-direction*(r+22),py+15+7*math.sin(t*7+k))]
+            d.polygon([p.p(*q) for q in tail],fill=(*CYAN,190))
+            dot(p,d,px+direction*4,py-3,2,WHITE,255)
+        moving_particles(p,im,t,ix,38,410,760)
+    elif ix==1:
+        # Wind over the sea: gust streaks and wind-driven surface drift.
+        for k in range(12):
+            x=(k*89+t*78)%700-95
+            y=380+k%4*58
+            length=38+(k%4)*20
+            path(p,d,[(x,y),(x+length,y-8*math.sin(t*.8+k))],CYAN,2.8,160)
+        for k in range(25):
+            x=35+(k*97+t*40)%506
+            y=508+(k%5)*45+8*math.sin(t*2+k)
+            dot(p,d,x,y,2,BLUE,145)
+        path(p,d,[(76,703),(144,669),(213,636),(282,606),
+                  (350,573),(420,540),(491,498)],GOLD,4,215)
+        for k in range(4):
+            pos=(t*.2+k*.25)%1
+            x=76+415*pos
+            y=703-205*pos
+            p.glow_disc(im,x,y,3.6,GOLD)
+    elif ix==2:
+        # Cooling and salinity change density: particles sink vertically.
+        p.circle(d,130,414,55,(38,149,186,75),(*BLUE,185),2)
+        p.circle(d,440,414,55,(235,155,59,65),(*GOLD,180),2)
+        for k in range(55):
+            x=70+(k*83)%455
+            if k%2:
+                y=425+(t*42+k*26)%330  # dense cool particles sink
+                dot(p,d,x,y,2+(k%3),BLUE,170)
+            else:
+                y=746-(t*31+k*34)%310  # lighter warm fluid rises
+                dot(p,d,x,y,2+(k%3),GOLD,155)
+        for k in range(6):
+            x=130+56*k
+            path(p,d,[(x,486),(x-16*math.sin(t+k*.7),694)],BLUE,2,85)
+        path(p,d,[(140,758),(433,758)],CYAN,2.5,185)
+    elif ix==3:
+        # Global thermohaline circulation: a deep looping conveyor with moving tracers.
+        pts=[(90,463),(177,431),(291,460),(414,519),(475,612),
+             (426,711),(293,752),(159,704),(96,602),(90,463)]
+        path(p,d,pts,BLUE,4,185)
+        for k in range(12):
+            progress=(t*.055+k/12)%1
+            segment=progress*(len(pts)-1)
+            i=int(segment)
+            q=segment-i
+            x=pts[i][0]*(1-q)+pts[i+1][0]*q
+            y=pts[i][1]*(1-q)+pts[i+1][1]*q
+            p.glow_disc(im,x,y,4,CYAN if k%2 else GOLD)
+        p.circle(d,288,581,75,None,(*CYAN,95),2)
+        moving_particles(p,im,t,ix,12,430,740)
+    elif ix==4:
+        # Ocean heat transfer: warm and cold tracers exchange along moving streams.
+        path(p,d,[(56,702),(182,642),(288,565),(391,480),(518,405)],GOLD,5,185)
+        path(p,d,[(56,421),(184,491),(288,573),(390,647),(518,722)],BLUE,5,185)
+        for k in range(22):
+            progress=(t*.13+k/22)%1
+            x=56+462*progress
+            hot_y=702-297*progress+8*math.sin(t+progress*6)
+            cold_y=421+301*progress-8*math.sin(t+progress*6)
+            dot(p,d,x,hot_y,3+(k%3),GOLD,175)
+            dot(p,d,x,cold_y,3+(k%3),BLUE,175)
+        p.circle(d,288,564,92,None,(*CYAN,100),1.7)
+    else:
+        # Concluding map-like streams: dynamic spiralling currents around a globe.
+        cx,cy=288,575
+        p.planet(im,cx,cy,100)
+        for ring in range(3):
+            rr=128+ring*27
+            pts=[(cx+rr*math.cos(j*.09+t*.12+ring*.6),
+                  cy+.67*rr*math.sin(j*.09+t*.12+ring*.6)) for j in range(71)]
+            path(p,d,pts,CYAN if ring%2 else GOLD,2,75)
+            for k in range(5):
+                a=t*(.6+ring*.13)+k*TAU/5
+                dot(p,d,cx+rr*math.cos(a),cy+.67*rr*math.sin(a),3.5,
+                    CYAN if ring%2 else GOLD,225)
+        moving_particles(p,im,t,ix,26,400,760)
 
 def volcano(p,im,t,ix,phase):
     d=ImageDraw.Draw(im,"RGBA")
