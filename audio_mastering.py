@@ -17,9 +17,14 @@ def narration_mix() -> str:
     """
     return (
         "[1:a]volume=0.42,highpass=f=36,apad=pad_dur=1.5[bed];"
-        "[2:a]highpass=f=75,lowpass=f=11500,"
-        "acompressor=threshold=0.08:ratio=2.3:attack=12:release=160,"
-        "volume=1.22[speech];"
+        # Light proximity EQ and softer compression retain a natural
+        # presenter timbre rather than a harsh, synthetic broadcast voice.
+        "[2:a]highpass=f=72,lowpass=f=14500,"
+        "equalizer=f=185:t=q:w=0.9:g=1.2,"
+        "equalizer=f=3250:t=q:w=1.3:g=-1.8,"
+        "equalizer=f=6100:t=q:w=1.4:g=-1.4,"
+        "acompressor=threshold=0.11:ratio=1.8:attack=18:release=235,"
+        "volume=1.18[speech];"
         "[speech]asplit=2[key][narrator];"
         "[bed][key]sidechaincompress="
         "threshold=0.018:ratio=7:attack=24:release=420[ducked];"
@@ -32,8 +37,8 @@ def quality_targets() -> dict:
     return {
         "dialogue_primary": True,
         "music_ducking": "voice_sidechain",
-        "speech_highpass_hz": 75,
-        "speech_lowpass_hz": 11500,
+        "speech_highpass_hz": 72,
+        "speech_lowpass_hz": 14500,
         "mix_peak_limit": 0.95,
         "integrated_target_lufs": -17,
         "true_peak_target_dbtp": -1.5,
