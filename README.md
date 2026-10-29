@@ -283,3 +283,34 @@ export unless the format, color tags, motion, word cues and audio pass the
 QA gate. The generated `publication-quality.json` records the objective
 measurements. A passing technical report does not substitute for a human
 editorial and factual review before actually posting on a social network.
+
+## 2026 cinematic 2D: 60 FPS and one-take English narration
+
+- **Smoother real motion:** 1080 × 1920 H.264, 60 distinct frames per second and
+  2-second GOP; the 30fps mode remains available to conserve Render free-tier
+  CPU resources. GitHub Actions defaults to 1080p60 for manual exports.
+- **Stronger original artwork:** tectonic cross-sections use animated layered
+  sediments, mineral grain, geological fault highlights and detailed facades.
+  The rupture moves once and relaxes with damped aftershocks; cinematic framing
+  brings the actual explanatory diagrams closer rather than enlarging the UI.
+- **More natural English voice:** Microsoft Brian Multilingual is the default
+  narrator after a successful real proof render. Edge narration runs as one
+  continuous passage with the provider's word boundaries, eliminating abrupt
+  joins between six independently spoken scenes. A timing-aware fallback
+  remains in place when the provider's word metadata is incomplete.
+- **Sound remains balanced:** voice-sidechain music ducking, a near −17 LUFS
+  mobile mix and 48kHz AAC remain required by the finished-video QA gate.
+- **Clean presentation:** all three visual modes remove scene counters,
+  slide numbering and watermarks, with captions in social-safe margins.
+
+**Rights before monetization.** The official Microsoft Q&A moderation response
+in June 2026 says that no public document explicitly clarifies commercial
+rights for Edge Read Aloud / edge-tts output. Do not assume Edge-generated
+speech is cleared for monetized redistribution merely because it is accessible.
+Microsoft support can clarify a particular use; a licensed commercial TTS
+provider is another option. The optional local Kokoro model's *weights* carry
+an Apache-2.0 licence (see the model card), although publishing remains subject
+to any other applicable rights. See:
+- https://learn.microsoft.com/en-us/answers/questions/5925556/commercial-use-of-edge-read-aloud-voices-via-edge
+- https://huggingface.co/hexgrad/Kokoro-82M
+
