@@ -30,9 +30,23 @@ def camera_parameters(scene_index: int, phase: float) -> tuple[float, float, flo
     return zoom, pan_x, pan_y
 
 
-def move_camera(painter, image: Image.Image, scene_index: int, phase: float) -> Image.Image:
-    """Transform only the animated art layer; never resize UI text."""
+def move_camera(painter, image: Image.Image, scene_index: int, phase: float,
+                category: str | None = None) -> Image.Image:
+    """Subject-adaptive art framing; subtitles and editorial titles stay still.
+
+    The original diagram occupies the bottom half of the canvas. Physical
+    science drawings benefit from an art-only push-in and upward offset.
+    """
     zoom, pan_x, pan_y = camera_parameters(scene_index, phase)
+    if category == "earthquake":
+        zoom += .095
+        pan_y += 60.
+    elif category in ("ocean","volcano","weather"):
+        zoom += .048
+        pan_y += 24.
+    elif category in ("biology","health","space"):
+        zoom += .028
+        pan_y += 10.
     a = 1.0 / zoom
     center_x = 288.0 * painter.s
     center_y = 570.0 * painter.s
@@ -56,7 +70,7 @@ def render_cinematic_art(painter, cfg: dict, t: float, scene_index: int, phase: 
     """
     current = painter.base.copy()
     draw_scene(painter, current, category, t, scene_index, phase)
-    current = move_camera(painter, current, scene_index, phase)
+    current = move_camera(painter, current, scene_index, phase, category)
 
     if scene_index <= 0:
         return current
@@ -70,7 +84,7 @@ def render_cinematic_art(painter, cfg: dict, t: float, scene_index: int, phase: 
     old_scene = cfg["scenes"][scene_index - 1]
     old_t = float(old_scene["end"]) - .001
     draw_scene(painter, previous, category, old_t, scene_index - 1, 1.0)
-    previous = move_camera(painter, previous, scene_index - 1, 1.0)
+    previous = move_camera(painter, previous, scene_index - 1, 1.0, category)
     return Image.blend(previous, current, ease(elapsed / fade_length))
 
 
