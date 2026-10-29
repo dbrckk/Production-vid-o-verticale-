@@ -43,7 +43,14 @@ def move_camera(painter, image: Image.Image, scene_index: int, phase: float,
     if category == "earthquake":
         zoom += .095
         pan_y += 60.
-    elif category in ("ocean","volcano","weather"):
+    elif category == "volcano":
+        # The first three shots explain the *underground* magma chamber.
+        # Moving the art upwards keeps that essential cross-section visible
+        # above platform-safe subtitles, while the explosive stage frames
+        # the vent and the lava-flow stage preserves the full mountain.
+        zoom += .035 if scene_index<=2 else .048
+        pan_y += 112. if scene_index<=2 else (37. if scene_index==3 else 59.)
+    elif category in ("ocean","weather"):
         zoom += .048
         pan_y += 24.
     elif category in ("biology","health","space"):
