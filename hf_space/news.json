@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T12:00:06.994757+00:00",
+  "generated_at": "2026-10-29T12:01:26.546560+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T11:49:56+00:00",
       "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
-      "importance": 3.098
+      "importance": 3.097
     },
     {
       "title": "Trump and Obama trade barbs on campaign trail in final days before midterm election – US politics live",
@@ -41,7 +41,7 @@
       "source": "BBC Business",
       "published": "2026-10-29T11:19:10+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.541
+      "importance": 2.54
     },
     {
       "title": "Lloyds executive criticises Healey for linking bank tax rises to energy bill support",
@@ -49,15 +49,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T10:31:55+00:00",
       "url": "https://www.theguardian.com/business/2026/oct/29/lloyds-executive-criticises-healey-for-linking-bank-tax-rises-to-energy-bill-support",
-      "importance": 2.53
-    },
-    {
-      "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
-      "summary": "Healey’s attempt to provide ‘breathing space’ gives rich almost as much as poor, says Resolution Foundation Business live – latest updates Budget 2026: what it means for your wallet, your mortgage and your pay John Healey delivered a “scattergun” budget that did little to boost living standards and left",
-      "source": "The Guardian",
-      "published": "2026-10-29T09:10:22+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
-      "importance": 2.511
+      "importance": 2.529
     },
     {
       "title": "How could Israel break election deadlock? Here are four scenarios",
@@ -65,6 +57,14 @@
       "source": "BBC World",
       "published": "2026-10-29T09:06:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.51
+    },
+    {
+      "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
+      "summary": "Healey’s attempt to provide ‘breathing space’ gives rich almost as much as poor, says Resolution Foundation Business live – latest updates Budget 2026: what it means for your wallet, your mortgage and your pay John Healey delivered a “scattergun” budget that did little to boost living standards and left",
+      "source": "The Guardian",
+      "published": "2026-10-29T09:10:22+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
       "importance": 2.51
     },
     {
@@ -81,7 +81,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T08:00:37+00:00",
       "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
-      "importance": 2.495
+      "importance": 2.494
     },
     {
       "title": "Albanese concedes savings needed as he faces internal Labor pressure on cost-of-living crisis",
@@ -97,7 +97,7 @@
       "source": "BBC Business",
       "published": "2026-10-28T20:08:45+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.33
+      "importance": 2.329
     },
     {
       "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
@@ -105,7 +105,7 @@
       "source": "BBC World",
       "published": "2026-10-28T19:15:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.318
+      "importance": 2.317
     },
     {
       "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
@@ -137,7 +137,7 @@
       "source": "BBC World",
       "published": "2026-10-28T14:26:24+00:00",
       "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
-      "importance": 2.251
+      "importance": 2.25
     },
     {
       "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
@@ -145,7 +145,7 @@
       "source": "The Guardian",
       "published": "2026-10-28T09:37:49+00:00",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-      "importance": 2.184
+      "importance": 2.183
     },
     {
       "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
@@ -169,7 +169,7 @@
       "source": "BBC Science",
       "published": "2026-10-29T11:58:00+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c62e9vynyvdpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.0
+      "importance": 1.999
     },
     {
       "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
@@ -249,7 +249,7 @@
       "source": "BBC Science",
       "published": "2026-10-29T10:45:01+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw5ynxepy4gno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.983
+      "importance": 1.982
     },
     {
       "title": "What we know so far about deadly Spain train crash",
@@ -257,7 +257,7 @@
       "source": "BBC World",
       "published": "2026-10-29T10:02:37+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.973
+      "importance": 1.972
     },
     {
       "title": "Democratic lawmakers decry Osha’s push to roll back worker respiratory protections",
@@ -300,19 +300,19 @@
       "importance": 1.97
     },
     {
-      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
-      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
-      "source": "BBC Technology",
-      "published": "2026-10-29T09:31:44+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.966
-    },
-    {
       "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
       "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
       "source": "BBC World",
       "published": "2026-10-29T09:30:03+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.965
+    },
+    {
+      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
+      "source": "BBC Technology",
+      "published": "2026-10-29T09:31:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
       "importance": 1.965
     },
     {
@@ -337,7 +337,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T08:26:51+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/one-nation-accuses-pm-of-trying-to-exert-undue-political-influence-by-offering-david-farley-extra-staffer-ntwnfb",
-      "importance": 1.951
+      "importance": 1.95
     },
     {
       "title": "Police investigate gang links as woman, 19, dies after drive-by shooting at Brisbane pub",
@@ -377,7 +377,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T07:22:28+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/peptide-actor-richard-norton-death-coroner-tga-review-ntwnfb",
-      "importance": 1.936
+      "importance": 1.935
     },
     {
       "title": "Chancellor says government has 'moral duty' to help young people out of work",
