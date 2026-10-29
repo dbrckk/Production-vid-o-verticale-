@@ -10,6 +10,9 @@ on:
       - studio.py
       - storyboard.py
       - universal.py
+      - kinetic.py
+      - narration.py
+      - editorial.py
       - topic_engine.py
       - generate_topic.py
       - requirements.txt
