@@ -108,3 +108,26 @@ Un \`render.yaml\` officiel prépare un service Docker sur le plan \`free\` (sou
 - Aucun téléchargement d'images depuis des adresses soumises par l'utilisateur. Les actualités proviennent uniquement d'une liste fixe de flux. Les vidéos contiennent des graphismes procéduraux originaux.
 - GitHub Actions et hébergement gratuit éventuel soumis aux quotas et conditions du compte. Un rendu 1080p de 30 s peut être lourd en ressources ; préférer \`preview\` pour un essai.
 
+
+
+## Hébergement sans abonnement : Hugging Face Static Space + GitHub Actions
+
+Le code de l'interface mobile est dans `hf_space/` (HTML, CSS, JavaScript, pas de backend Python). Cette version utilise un **Static Space**, car Hugging Face exige actuellement un abonnement pour créer de nouveaux Spaces Docker/Gradio sur CPU Basic. Les Static Spaces restent gratuits.
+
+### Mise en service (compte Hugging Face Dbrzck)
+
+1. Sur https://huggingface.co/new-space, créer un Space nommé **vertical-science-studio** sous **Dbrzck**, avec **SDK: Static HTML**. Choisir Public (le contenu du site sera public ; les jetons ne doivent jamais figurer dans le dépôt ou dans l'interface).
+2. Sur https://huggingface.co/settings/tokens, créer un **fine-grained access token** autorisant l'écriture sur **Dbrzck/vertical-science-studio** uniquement.
+3. Sur https://github.com/dbrckk/Production-vid-o-verticale-/settings/secrets/actions, créer un secret de dépôt nommé **HF_TOKEN** contenant ce jeton.
+4. Lancer une fois [Publish static studio to Hugging Face](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/publish-hf.yml) avec « Run workflow ». Les changements du dossier `hf_space/` seront ensuite synchronisés automatiquement. Le workflow refuse silencieusement la publication si le secret est absent et explique ce manque dans les logs.
+
+Le site sera accessible sur **https://huggingface.co/spaces/Dbrzck/vertical-science-studio** après création et publication effective. Ne pas considérer cette URL comme opérationnelle avant un premier déploiement réussi.
+
+### Utilisation du site
+
+- Saisir un sujet libre, ou cliquer sur **Choisir une actualité importante au hasard** : le site utilise `hf_space/news.json`, régénéré par le workflow [Update verified news selection](https://github.com/dbrckk/Production-vid-o-verticale-/actions/workflows/refresh-news.yml) toutes les huit heures. Les articles de plus de 72 heures ne sont jamais proposés par l'interface. S'il n'y a pas d'article récent, la sélection échoue explicitement, sans inventer une actualité.
+- Choisir Preview, 720p ou 1080p, puis **Créer la vidéo**. Par défaut, l'interface prépare la valeur à copier et ouvre le workflow GitHub Actions ; aucune autorisation supplémentaire n'est nécessaire.
+- Pour lancer un rendu directement depuis le navigateur, saisir facultativement un **GitHub fine-grained personal access token** limité au seul dépôt, avec permission **Actions: read and write**. Le jeton est envoyé **uniquement** à `api.github.com` et n'est jamais enregistré (ni en localStorage ni sur Hugging Face) ; il est effacé de la zone de saisie après le déclenchement accepté. GitHub Actions exécute le rendu et livre l'artefact MP4.
+- Le mode `article_url` du workflow prend en charge exactement l'actualité choisie, en vérifiant à nouveau que son URL figure dans les flux RSS récents. Les autres modes `custom`, `random_news` et `preset` restent disponibles.
+
+**Limites explicites :** l'interface statique ne peut pas exécuter directement Python/FFmpeg ni conserver des travaux sur serveur. Le rendu a lieu sur GitHub ; la récupération du MP4 s'effectue depuis les artefacts GitHub Actions. Une source RSS fraîche indique l'origine de l'information, mais ne remplace pas une vérification éditoriale indépendante. Les thèmes libres restent des animations procédurales générées par le moteur actuel et ne sont pas des reportages garantis factuels sans sources.
