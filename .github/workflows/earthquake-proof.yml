@@ -6,6 +6,9 @@ on:
     paths:
       - '.github/workflows/earthquake-proof.yml'
       - 'kinetic.py'
+      - 'subtitle_design.py'
+      - 'audio_mastering.py'
+      - 'soundscape.py'
 permissions:
   contents: read
 concurrency:
@@ -49,6 +52,20 @@ jobs:
           print('English neural documentary, active earthquake diagram and captions: PASS')
           PY
           ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=noprint_wrappers=1 output/earthquake-proof.mp4
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          data=json.loads(Path('output/earthquake-proof.json').read_text())
+          assert data['audio_mastering']['music_ducking']=='voice_sidechain'
+          probe=json.loads(subprocess.run([
+              'ffprobe','-v','error','-show_entries','format=duration',
+              '-of','json','output/earthquake-proof.mp4'
+          ],check=True,capture_output=True,text=True).stdout)
+          actual=float(probe['format']['duration'])
+          expected=float(data['duration'])
+          assert abs(actual-expected)<.25,(actual,expected)
+          print('Neural English voice, full duration and adaptive soundtrack: PASS')
+          PY
       - name: Downloadable review footage and synchronized cue manifest
         uses: actions/upload-artifact@v4
         if: success()
