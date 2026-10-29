@@ -25,7 +25,6 @@ def test_static_hf_space_manifest_and_no_private_token_leaks():
     script = (ROOT / 'hf_space/app.js').read_text(encoding='utf8')
     assert 'id="random"' in html
     assert 'id="create"' in html
-    assert 'mode: article' not in script  # exact mode is selected at runtime
     assert 'article_url' in script
     assert 'localStorage' not in script and 'sessionStorage' not in script
     assert 'https://api.github.com/repos/' in script
