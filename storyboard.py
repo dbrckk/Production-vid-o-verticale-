@@ -185,10 +185,15 @@ def draw_storyboard(p, t: float, cfg: dict):
     d=ImageDraw.Draw(im,'RGBA')
     # The chapter is an invisible production concept, never a number on video.
     write_lines(p,d,scene['headline'],288,173,490,3,28,(*INK,250),True)
-    from subtitle_design import caption_backdrop
-    caption_backdrop(p,im)
+    from subtitle_design import caption_backdrop, render_captions
+    cues=cfg.get('word_cues') or []
+    if cues:
+        render_captions(p,im,cues,t,ix)
+    else:
+        caption_backdrop(p,im)
+        d=ImageDraw.Draw(im,'RGBA')
+        write_lines(p,d,scene['caption'],288,785,430,3,21,(*INK,245),False)
     d=ImageDraw.Draw(im,'RGBA')
-    write_lines(p,d,scene['caption'],288,785,430,3,21,(*INK,245),False)
     stamp=scene.get('metric')
     if stamp:
         write_lines(p,d,str(stamp),288,315,480,2,19,(*CYAN,245),True)
