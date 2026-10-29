@@ -12,17 +12,24 @@ WHITE=(244,246,255)
 MINT=(113,242,208)
 GOLD=(255,201,114)
 
+# Reference layout is 576 x 1024. Keep the bottom ~16% clear for the
+# TikTok / Reels / Shorts description and playback controls.
+CAPTION_PANEL=(43,726,503,854)
+CAPTION_BASELINE=788
+CAPTION_UNDERLINE=829
+CAPTION_SAFE_BOTTOM=1024-CAPTION_PANEL[3]
+
 
 def _background(p,image):
     d=ImageDraw.Draw(image,"RGBA")
-    a=p.p(32,785)
-    b=p.p(544,926)
+    a=p.p(CAPTION_PANEL[0],CAPTION_PANEL[1])
+    b=p.p(CAPTION_PANEL[2],CAPTION_PANEL[3])
     d.rounded_rectangle(
         (*a,*b),radius=max(10,round(23*p.s)),
         fill=(9,12,28,225),outline=(102,164,165,115),
         width=max(1,round(1.5*p.s)),
     )
-    p.line(d,[(56,802),(520,802)],(*MINT,82),1.5)
+    p.line(d,[(64,CAPTION_PANEL[1]+14),(482,CAPTION_PANEL[1]+14)],(*MINT,70),1.5)
     return d
 
 
@@ -45,13 +52,13 @@ def _chunks(cues):
 
 
 def _font_and_widths(p,d,words):
-    for size in range(25,15,-1):
+    for size in range(27,14,-1):
         font=p.font(size,True)
         widths=[max(2,d.textbbox((0,0),str(c["word"]),font=font)[2]/p.s) for c in words]
-        if sum(widths)+15*max(0,len(widths)-1)<=456:
+        if sum(widths)+13*max(0,len(widths)-1)<=424:
             return size,widths
     # A single unusually long name must fit the mobile safe area.
-    size=16
+    size=14
     font=p.font(size,True)
     widths=[max(2,d.textbbox((0,0),str(c["word"]),font=font)[2]/p.s) for c in words]
     return size,widths
@@ -82,9 +89,9 @@ def render_captions(p,image,cues,t,scene_index):
 
     d=_background(p,image)
     size,widths=_font_and_widths(p,d,words)
-    total=sum(widths)+15*max(0,len(words)-1)
+    total=sum(widths)+13*max(0,len(words)-1)
     left=288-total/2
-    if total>472:
+    if total>430:
         words=[matching[selected]]
         size,widths=_font_and_widths(p,d,words)
         total=sum(widths)
@@ -93,7 +100,7 @@ def render_captions(p,image,cues,t,scene_index):
     for cue,width in zip(words,widths):
         is_active=cue is matching[selected]
         xpos=left+width/2
-        y=855
+        y=CAPTION_BASELINE
         shadow_alpha=190 if is_active else 145
         p.text(d,cue["word"],xpos+1.2,y+2.2,size,(0,0,0,shadow_alpha),bold=True)
         fill=(*GOLD,255) if is_active else (*WHITE,228)
@@ -104,8 +111,8 @@ def render_captions(p,image,cues,t,scene_index):
             phase=min(1,max(0,(t-start)/max(.025,end-start)))
             x0=left+2
             x1=x0+max(3,width-4)*phase
-            p.line(d,[(x0,892),(x1,892)],(*MINT,235),3)
-        left+=width+15
+            p.line(d,[(x0,CAPTION_UNDERLINE),(x1,CAPTION_UNDERLINE)],(*MINT,235),3)
+        left+=width+13
     return True
 
 
