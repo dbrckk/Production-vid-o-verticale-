@@ -2,7 +2,7 @@
 
 The narrator is the primary signal. The music bed is automatically ducked
 under active speech and recovers naturally during the editorial pauses.
-All final audio is peak limited; no separate paid mixing service is required.
+The music input is padded to prevent FFmpeg sidechain tail truncation.\nAll final audio is peak limited; no separate paid mixing service is required.
 """
 from __future__ import annotations
 
@@ -16,7 +16,7 @@ def narration_mix() -> str:
     retained for the final mix (FFmpeg pads cannot be consumed twice).
     """
     return (
-        "[1:a]volume=0.42,highpass=f=36[bed];"
+        "[1:a]volume=0.42,highpass=f=36,apad=pad_dur=1.5[bed];"
         "[2:a]highpass=f=75,lowpass=f=11500,"
         "acompressor=threshold=0.08:ratio=2.3:attack=12:release=160,"
         "volume=1.22[speech];"
