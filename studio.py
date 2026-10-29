@@ -334,11 +334,11 @@ class Painter:
         gl=Image.new('RGBA',im.size,(0,0,0,0))
         self.glow_line(gl,[(352,720),(352,465)],GOLD,7,7)
         im.alpha_composite(gl)
-        self.text(d,'EARTH',cx,cy+earth_r+34,14,(*MINT,220),bold=True)
+        self.text(d,'EARTH',cx,cy+min(earth_r,75)+22,14,(*MINT,220),bold=True)
         self.text(d,'MOON',x2,moon_y-45,14,(*WHITE,230),bold=True)
         self.text(d,'384 400 km',x2,moon_y-23,11,(*MINT,200))
         footer='42 folds: farther than the Moon!' if t>=22 else 'From the atmosphere into deep space…'
-        self.text(d,footer,288,871,17,(*WHITE,242),bold=True)
+        # Explanatory copy is carried by narration; no footer in social UI area.
 
     def cosmic(self, im, t, fold):
         self.draw_stars(im,t,1)
@@ -365,8 +365,8 @@ class Painter:
         elif fold<103:scale='OTHER GALAXIES'
         else:scale='THE OBSERVABLE UNIVERSE'
         self.text(d,scale,288,368,14,(*MINT,235),bold=True)
-        self.text(d,f'{fold} FOLDS',288,870,23,(*WHITE,252),bold=True)
-        self.text(d,format_distance(thickness_mm(fold)),288,909,16,(*MINT,245),bold=True)
+        self.text(d,f'{fold} FOLDS',288,295,23,(*WHITE,252),bold=True)
+        self.text(d,format_distance(thickness_mm(fold)),288,335,16,(*MINT,245),bold=True)
 
     def frame(self, t: float, cfg: dict) -> Image.Image:
         if cfg.get('mode') == 'universal':
@@ -384,10 +384,6 @@ class Painter:
         else:
             self.cosmic(im,t,fold)
         self.hud(im,t,fold,cfg)
-        if t>=29.8:
-            # Final legibility hold & subtle fade rather than external platform outro.
-            d=ImageDraw.Draw(im,'RGBA')
-            self.text(d,'42 FOLDS TO REACH THE MOON',288,963,12,(*WHITE,205),bold=True)
         return im.convert('RGB')
 
 
