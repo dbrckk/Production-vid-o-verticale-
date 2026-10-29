@@ -426,7 +426,7 @@ def render(cfg:dict, output:Path, width:int=1080, fps:int=30, duration:float|Non
     else:cmd+=['-map','0:v','-map','1:a']
     cmd+=['-c:v','libx264','-preset','medium' if not preview else 'veryfast',
           '-crf','18' if not preview else '21','-pix_fmt','yuv420p','-movflags','+faststart',
-          '-c:a','aac','-b:a','192k','-t',str(duration),str(output)]
+          '-c:a','aac','-b:a','192k','-ar','48000','-t',str(duration),str(output)]
     frames=round(duration*fps)
     proc=subprocess.Popen(cmd,stdin=subprocess.PIPE,stderr=subprocess.PIPE)
     try:
