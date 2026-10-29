@@ -47,7 +47,7 @@ Pour un rendu de vérification rapide :
 python3 studio.py --width 540 --fps 15 --duration 8 --preview --output output/preview.mp4
 ```
 
-Pour ajouter une narration dont vous possédez les droits : `--voice narration.wav` (mixage avec la musique originale). Le son synthétique fonctionne sans clé ni fournisseur externe. Le format est strictement **9:16** ; la largeur doit être un multiple de 9.
+Chaque nouvelle vidéo peut désormais recevoir une **narration neuronale anglaise** automatiquement : `--narrate --tts-provider edge` pour un rendu léger, ou `--narrate --tts-provider kokoro` pour une voix ONNX locale. `--voice narration.wav` reste disponible pour une piste personnelle. La musique et les effets sont produits localement ; le fournisseur Edge nécessite une connexion Internet. Le format est strictement **9:16** ; la largeur doit être un multiple de 9.
 
 ## Personnalisation
 
@@ -57,7 +57,7 @@ Pour ajouter une narration dont vous possédez les droits : `--voice narration.w
 
 ## Qualité et limites
 
-Le moteur produit un MP4 H.264/AAC avec une musique originale générée localement, une couverture et un manifeste. Les tests vérifient le calcul, la continuité temporelle, l'image, le son et un rendu FFmpeg de bout en bout. Les deux moteurs couvrent maintenant les pliages exponentiels et six types de scènes astronomiques réutilisables ; les autres familles de sciences demanderont des visuels supplémentaires. La synthèse vocale automatique n'est pas intégrée : une piste de narration existante peut être ajoutée via `--voice`.
+Le moteur produit un MP4 H.264/AAC avec une musique originale générée localement, une couverture et un manifeste. Les tests vérifient le calcul, la continuité temporelle, l'image, le son et un rendu FFmpeg de bout en bout. Les deux moteurs couvrent maintenant les pliages exponentiels et six types de scènes astronomiques réutilisables ; les autres familles de sciences demanderont des visuels supplémentaires. La synthèse vocale anglaise est intégrée à la génération, avec mise en évidence progressive des sous-titres et adaptation des durées de scènes à la narration. La qualité dépend du moteur vocal choisi et du fonctionnement de son service.
 
 ## Moteur universel : n'importe quel sujet, actualités et éditeur Android
 
@@ -100,7 +100,7 @@ python studio.py --config output/topic.json --width 1080 --fps 30 --output outpu
 
 Les sujets d'actualité sont tirés de flux RSS fixes (franceinfo, France 24, Le Monde, BBC et Guardian), dédoublonnés, filtrés par **date de publication** (72 h), classés par fraîcheur et indices d'importance, puis tirés au sort parmi les sujets les mieux classés. Les sources francophones sont privilégiées. Le classement est **heuristique** : il n'est pas une validation journalistique indépendante de chaque information.
 
-Pour un sujet encyclopédique, le système tente une récupération de résumé Wikipédia et conserve son lien. Un texte ou brief détaillé fourni directement par l'utilisateur peut alimenter les scènes. Si aucune preuve n'est disponible, le mode reste **exploratoire**, sans invention de chiffres ou de faits. Le moteur universel constitue une base d'infographies génériques, **pas encore** un système de documentaire automatiquement illustré de manière unique sur chaque thème. Il n'ajoute pas encore automatiquement de voix naturelle : la piste \`--voice\` existante permet d'intégrer une narration produite séparément.
+Pour un sujet encyclopédique, le système tente une récupération de résumé Wikipédia et conserve son lien. Un texte ou brief détaillé fourni directement par l'utilisateur peut alimenter les scènes. Si aucune preuve n'est disponible, le mode reste **exploratoire**, sans invention de chiffres ou de faits. Le moteur universel constitue une base d'infographies génériques, **pas encore** un système de documentaire automatiquement illustré de manière unique sur chaque thème. Il génère désormais une voix neuronale anglaise et des sous-titres animés. Les 7 familles d'animations sont procédurales et animées image par image ; cela ne signifie pas que chaque sujet dispose d'une reconstitution 3D spécifique.
 
 
 ### Publication de l'interface sur Render (facultative)
@@ -147,4 +147,26 @@ Un service créé avec l'ancienne version de `render.yaml` pouvait démarrer san
 **Service Render existant :** dans le dashboard du service → **Environment**, vérifier que `STUDIO_TOKEN` existe et contient au moins 16 caractères (ne jamais publier sa valeur). Sinon, ajouter la variable, puis choisir **Save, rebuild, and deploy**. Le `render.yaml` actuel contient `generateValue: true` pour que **les nouvelles créations** de Blueprint reçoivent automatiquement un secret de 256 bits. La modification du Blueprint ne garantit pas l'ajout rétroactif d'une variable manquante sur un service déjà créé.
 
 Si le jeton est déjà configuré et que le service échoue encore, ouvrir **Deploys → déploiement échoué → Logs** : distinguer **Build failed** (téléchargement d'image, apt/pip, clonage) de **Runtime failed** (exception, port, erreur de processus). Ne pas supprimer ou recréer le service sans connaître l'erreur. Vérifier aussi que **Runtime = Docker**, **Branch = main**, **Port = 10000** (le Dockerfile et `webapp.py` le définissent déjà).
+
+
+## English Neural Narration + Kinetic Motion
+
+**New output standard:** English-only source research, English headlines and captions, neural voiceover, dynamic word highlights, and 9:16 MP4 with AAC audio.
+
+**True motion, not slide transitions.** The `kinetic.py` engine renders new geometry at every timestamp: ocean wave phase and swimming fish, volcanic lava and ballistic particles, orbiting planets and moons, pulsing circuits, an animated heartbeat and ECG, expanding financial charts, and a continuously moving causal diagram for other categories. Scenes keep moving between cuts.
+
+**Voice choices.** On the small Render web service, Edge Neural (`en-US-AriaNeural`) produces English voiceover without a paid API key. It requires a working external service; if synthesis fails, the job explicitly reports an error rather than silently outputting a music-only slideshow. On GitHub Actions, `voice_provider=kokoro` uses the permissively licensed [Kokoro ONNX](https://github.com/thewh1teagle/kokoro-onnx) model. Its weight files are downloaded and cached **only when a manually dispatched video uses Kokoro**. Use `voice_provider=edge` to save bandwidth. The one-minute GitHub smoke test verifies actual Edge speech audio on the exact production Docker image.
+
+Commands:
+
+```bash
+# Install ffmpeg + fonts first; Python dependencies are in requirements.txt.
+python generate_topic.py --topic "How do ocean currents shape the climate?" --output output/story.json
+python studio.py --config output/story.json --output output/science.mp4 --narrate --tts-provider edge --width 1080 --fps 30
+
+# Optional: install requirements-voice.txt and download official Kokoro model
+# and voices into models/, then use --tts-provider kokoro
+```
+
+The JSON manifest stores voice information, per-word approximate subtitle timings and source citations. **Caveat:** highlighted word times are estimated proportionally from each spoken scene; they are not forced-aligned phoneme timestamps. Scientific validity depends on the underlying sources: arbitrary unsourced prompts are exploratory, not independent fact-checked documentaries. The generic animation category cannot yet recreate every possible real-world event faithfully.
 
