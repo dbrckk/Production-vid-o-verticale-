@@ -1,0 +1,60 @@
+name: Validate Render Docker deployment
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - Dockerfile
+      - render.yaml
+      - webapp.py
+      - studio.py
+      - storyboard.py
+      - universal.py
+      - topic_engine.py
+      - generate_topic.py
+      - requirements.txt
+      - web/**
+      - .github/workflows/docker-smoke.yml
+permissions:
+  contents: read
+jobs:
+  docker-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the exact production Dockerfile
+        run: docker build --pull --tag vertical-science-studio:smoke .
+      - name: Start container with Render-style configuration
+        run: |
+          docker run --detach --name studio-smoke \
+            --publish 127.0.0.1:18080:10000 \
+            --env PORT=10000 \
+            --env STUDIO_TOKEN=ci-only-development-token-that-is-not-secret \
+            vertical-science-studio:smoke
+      - name: Verify homepage and authenticated API
+        run: |
+          set -euo pipefail
+          ready=0
+          for i in {1..45}; do
+            if curl --fail --silent --show-error http://127.0.0.1:18080/ -o /tmp/studio.html; then
+              ready=1
+              break
+            fi
+            sleep 2
+          done
+          test "$ready" -eq 1
+          grep -q 'Vertical Science Studio' /tmp/studio.html
+          code=$(curl --silent --output /tmp/unauth.json --write-out '%{http_code}' http://127.0.0.1:18080/api/random)
+          test "$code" = "401"
+          code=$(curl --silent --output /tmp/auth.json --write-out '%{http_code}' \
+            -H 'X-Studio-Token: ci-only-development-token-that-is-not-secret' \
+            http://127.0.0.1:18080/api/status/aaaaaaaaaaaaaaaaaaaaaaaa)
+          test "$code" = "404"
+          echo "Docker production image, homepage and token-protected API: OK"
+      - name: Container diagnostics
+        if: always()
+        run: |
+          docker ps -a || true
+          docker logs studio-smoke || true
+          docker rm --force studio-smoke || true
