@@ -1,47 +1,63 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-29T08:26:09.056162+00:00",
+  "generated_at": "2026-10-29T10:38:33.490541+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "\"Le prochain gouvernement doit mettre en œuvre l'accord de trêve\" : à Gaza, des habitants espèrent un changement après les élections israéliennes",
-      "summary": "Les résultats des élections israéliennes pourraient peser sur l'avenir de la bande de Gaza. Mais Benyamin Netanyahou et son rival Gadi Eizenkot affichent un même objectif : poursuivre les opérations militaires jusqu’à l’éradication du Hamas.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:31:55+00:00",
-      "url": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/reportage-le-prochain-gouvernement-doit-mettre-en-uvre-l-accord-de-treve-a-gaza-des-habitants-esperent-un-changement-apres-les-elections-israeliennes_8258417.html#xtor=RSS-3-[lestitres]",
-      "importance": 3.087
-    },
-    {
-      "title": "Musée du Louvre : \"La confiance est au rendez-vous\" avec la direction pour signer l'accord de sortie de crise, se félicite la CFDT Culture",
-      "summary": "Un protocole d'accord mettant fin à une grève débutée en décembre 2025 au musée du Louvre a été signé jeudi. Sur France Culture, le secrétaire général de la CFDT Culture assure que \"la confiance est au rendez-vous\".",
-      "source": "franceinfo",
-      "published": "2026-10-29T05:50:19+00:00",
-      "url": "https://www.franceinfo.fr/culture/arts-expos/louvre/musee-du-louvre-la-confiance-est-au-rendez-vous-avec-la-direction-pour-signer-l-accord-de-sortie-de-crise-se-felicite-la-cfdt-culture_8258336.html#xtor=RSS-3-[lestitres]",
-      "importance": 3.064
-    },
-    {
-      "title": "Le changement climatique doit être déclaré «urgence sanitaire mondiale» (scientifiques)",
-      "summary": "Le changement climatique constitue \"la plus grande menace pour l'humanité\". Dans son dixième rapport annuel, la revue médicale The Lancet Countdown appelle à reconnaître le changement climatique comme une «urgence sanitaire mondiale», alors que les phénomènes climatiques extrêmes se multiplient et que les",
-      "source": "France 24",
-      "published": "2026-10-28T17:28:49+00:00",
-      "url": "https://www.france24.com/fr/%C3%A9missions/%C3%A9l%C3%A9ment-terre-la-quotidienne/20261028-le-changement-climatique-doit-%C3%AAtre-d%C3%A9clar%C3%A9-urgence-sanitaire-mondiale-scientifiques",
-      "importance": 2.892
-    },
-    {
-      "title": "Shell profits double to $10.8bn as Iran war pushes up profit margin on oil",
-      "summary": "Energy firm to return $5bn to shareholders as climate campaigners criticise high profits Shell has doubled its profits in the last quarter after the Middle East conflict drove up the price of oil and gas and created shortages in the global market. Shell reported on Thursday morning that it made an adjusted",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:00:37+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
+      "title": "Poundland's future hangs in the balance as chain edges towards collapse",
+      "summary": "Poundland's bosses have filed a notice of intention to appoint administrators to the business.",
+      "source": "BBC Business",
+      "published": "2026-10-29T10:14:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
       "importance": 2.544
     },
     {
-      "title": "Israel election results live: count of absentee ballots under way as coalition talks set to begin",
-      "summary": "With the final count unlikely to shift results significantly, experts say Gadi Eisenkot’s hopes of unseating Benjamin Netanyahu rest on his willingness to work with Palestinian parties Full report: Coalition talks loom in Israel Analysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed",
+      "title": "Israel election results live: Netanyahu accused of ‘ugly delegitimisation campaign’ after his claims about Arab parties",
+      "summary": "Israeli police dismiss Likud’s claim election ‘stolen’ by parties representing Palestinians as count of absentee ballots continues Full report: Coalition talks loom in Israel Analysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Gadi Eisenkot, leader of the Yashar party",
       "source": "The Guardian",
-      "published": "2026-10-29T07:55:16+00:00",
+      "published": "2026-10-29T10:04:39+00:00",
       "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
-      "importance": 2.543
+      "importance": 2.542
+    },
+    {
+      "title": "Treasury denies Healey plan to cut welfare bill before election, claiming his comments were misinterpreted – UK politics live",
+      "summary": "Asked earlier if there would be a cut to the welfare bill before the next election, the chancellor said: ‘There will be a reduction in the benefits bill’ John Healey has denied postponing difficult decisions on the welfare system, insisting the government is making changes “now”. Thinktanks and opposition",
+      "source": "The Guardian",
+      "published": "2026-10-29T09:50:22+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/oct/29/budget-john-healey-labour-uk-politics-latest-news",
+      "importance": 2.539
+    },
+    {
+      "title": "‘Scattergun’ budget will still leave Britons facing higher energy bills, says thinktank",
+      "summary": "Healey’s attempt to provide ‘breathing space’ gives rich almost as much as poor, says Resolution Foundation Business live – latest updates Budget 2026: what it means for your wallet, your mortgage and your pay John Healey delivered a “scattergun” budget that did little to boost living standards and left",
+      "source": "The Guardian",
+      "published": "2026-10-29T09:10:22+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/scattergun-budget-leave-britons-higher-energy-bills-thinktank",
+      "importance": 2.53
+    },
+    {
+      "title": "How could Israel break election deadlock? Here are four scenarios",
+      "summary": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+      "source": "BBC World",
+      "published": "2026-10-29T09:06:48+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.529
+    },
+    {
+      "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
+      "summary": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
+      "source": "BBC World",
+      "published": "2026-10-29T08:23:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.519
+    },
+    {
+      "title": "Shell profits double to $10.8bn as Iran war pushes up margin on oil",
+      "summary": "Energy firm to return $5bn to shareholders as climate campaigners criticise high profits Business live – latest updates Shell has doubled its profits in the last quarter after the Middle East conflict drove up the price of oil and gas and created shortages in the global market. Shell reported on Thursday",
+      "source": "The Guardian",
+      "published": "2026-10-29T08:00:37+00:00",
+      "url": "https://www.theguardian.com/business/2026/oct/29/shell-profits-double-iran-war-pushes-up-profit-margin-on-oil",
+      "importance": 2.513
     },
     {
       "title": "Healey vows to cut welfare bill before next election with ‘tough’ approach to young people",
@@ -49,7 +65,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T07:54:05+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/oct/29/healey-cut-welfare-bill-tough-approach-young-people-accept-jobs",
-      "importance": 2.543
+      "importance": 2.512
     },
     {
       "title": "Albanese concedes savings needed as he faces internal Labor pressure on cost-of-living crisis",
@@ -57,63 +73,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T07:31:41+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/albanese-concedes-savings-needed-as-he-faces-internal-labor-pressure-on-cost-of-living-crisis",
-      "importance": 2.537
-    },
-    {
-      "title": "Petits colis : le patron du prêt-à-porter féminin se réjouit de la chute des envois mais estime que \"la guerre contre Shein n'est absolument pas gagnée\"",
-      "summary": "Le gouvernement a indiqué mercredi que le nombre de petits colis envoyés en France avait chuté entre juin et août, d'après les montants de TVA déclarés, y voyant des \"résultats tangibles\" de la mise en place d'une taxe européenne en juillet.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:01:37+00:00",
-      "url": "https://www.franceinfo.fr/economie/entreprises/shein/petits-colis-le-patron-du-pret-a-porter-feminin-se-rejouit-de-la-chute-des-envois-mais-estime-que-la-guerre-contre-shein-n-est-absolument-pas-gagnee_8258429.html#xtor=RSS-3-[lestitres]",
-      "importance": 2.53
-    },
-    {
-      "title": "EN DIRECT, guerre en Ukraine : une mission humanitaire se prépare à Olechky après cinquante-quatre heures de trêve",
-      "summary": "Volodymyr Zelensky s’est félicité du cessez-le-feu à Olechky, qualifié d’« immense succès ». Le médiateur ukrainien pour les droits humains, Dmytro Lubinets, a annoncé jeudi qu’une cargaison de produits de première nécessité devait être acheminée dans la ville vendredi.",
-      "source": "Le Monde",
-      "published": "2026-10-29T06:43:42+00:00",
-      "url": "https://www.lemonde.fr/international/live/2026/10/29/en-direct-guerre-en-ukraine-immense-succes-pour-le-cessez-le-feu-humanitaire-a-olechky-la-treve-a-kherson-a-egalement-eu-un-effet-tangible_6799896_3210.html",
-      "importance": 2.526
-    },
-    {
-      "title": "\"Une politique qui vise à favoriser le business au détriment de la santé\" : inquiétude dans le Rhône, où un nouveau polluant éternel est autorisé",
-      "summary": "La préfecture du Rhône autorise l'usine Daikin à utiliser une nouvelle substance, de la famille des polluants éternels. Les associations se mobilisent et dénoncent l'absence d'étude indépendante.",
-      "source": "franceinfo",
-      "published": "2026-10-29T06:24:46+00:00",
-      "url": "https://www.franceinfo.fr/environnement/pollution/pfas/une-politique-qui-vise-a-favoriser-le-business-au-detriment-de-la-sante-inquietude-dans-le-rhone-ou-un-nouveau-polluant-eternel-est-autorise_8257937.html#xtor=RSS-3-[lestitres]",
-      "importance": 2.522
-    },
-    {
-      "title": "Angry Labour MPs urge leadership not to overrule energy secretary on Rosebank",
-      "summary": "Exclusive: Backbenchers voice alarm over ‘intolerable position’ faced by Miatta Fahnbulleh over oilfield decision Furious Labour MPs have been lobbying the prime minister and chancellor not to overrule the energy secretary should she decide to block the Rosebank oilfield. MPs say they are alarmed at the",
-      "source": "The Guardian",
-      "published": "2026-10-29T06:00:26+00:00",
-      "url": "https://www.theguardian.com/environment/2026/oct/29/labour-mps-rosebank-oilfield-decision-miatta-fahnbulleh-john-healey",
-      "importance": 2.516
-    },
-    {
-      "title": "Maquillages, déguisements… Pourquoi certains produits d’Halloween peuvent présenter un risque pour la santé",
-      "summary": "Des professionnels de santé alertent face aux risques que peuvent présenter certains maquillages et déguisements, pourtant très prisés pendant les fêtes d'Halloween.",
-      "source": "franceinfo",
-      "published": "2026-10-29T05:21:44+00:00",
-      "url": "https://www.franceinfo.fr/decouverte/halloween/maquillages-deguisements-pourquoi-certains-produits-d-halloween-peuvent-presenter-un-risque-pour-la-sante_8251006.html#xtor=RSS-3-[lestitres]",
       "importance": 2.507
-    },
-    {
-      "title": "Élections en Israël : pas de majorité en vue",
-      "summary": "On revient sur les résultats des élections législatives en Israël. Des élections très importantes, car ce sont les premières depuis les attaques du Hamas, le 7 octobre. Ce soir, aucun des deux blocs n’obtient la majorité : ni celui de Benyamin Netanyahou, ni celui de Gadi Eisenkot.",
-      "source": "France 24",
-      "published": "2026-10-28T21:40:38+00:00",
-      "url": "https://www.france24.com/fr/%C3%A9missions/le-d%C3%A9bat/20261028-%C3%A9lections-en-isra%C3%ABl-pas-de-majorit%C3%A9-en-vue",
-      "importance": 2.401
-    },
-    {
-      "title": "Israel's election deadlock is a sign of the country's deep divisions",
-      "summary": "The election was a celebration of democracy in some ways - but it has left Israel with no clear path to a new government, writes James Landale.",
-      "source": "BBC World",
-      "published": "2026-10-28T20:53:02+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqz0ve94ygpjo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.39
     },
     {
       "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
@@ -121,7 +81,15 @@
       "source": "BBC World",
       "published": "2026-10-28T20:24:39+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.383
+      "importance": 2.352
+    },
+    {
+      "title": "What we now know about the UK economy in four charts",
+      "summary": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
+      "source": "BBC Business",
+      "published": "2026-10-28T20:08:45+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.349
     },
     {
       "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
@@ -129,14 +97,30 @@
       "source": "BBC World",
       "published": "2026-10-28T19:15:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.367
+      "importance": 2.336
     },
     {
-      "title": "How could Israel break election deadlock? Here are four scenarios",
-      "summary": "With 85% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
-      "source": "BBC World",
-      "published": "2026-10-28T14:30:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+      "summary": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
+      "source": "BBC Business",
+      "published": "2026-10-28T18:45:09+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "importance": 2.329
+    },
+    {
+      "title": "Will I get the £100 energy payment and when will I receive it?",
+      "summary": "Here is what you need to know about the payment that millions will receive from January.",
+      "source": "BBC Business",
+      "published": "2026-10-28T17:47:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.316
+    },
+    {
+      "title": "Your pay, energy bills and savings: How the Budget affects you",
+      "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
+      "source": "BBC Business",
+      "published": "2026-10-28T16:43:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
       "importance": 2.301
     },
     {
@@ -145,7 +129,7 @@
       "source": "BBC World",
       "published": "2026-10-28T14:26:24+00:00",
       "url": "https://www.bbc.co.uk/news/videos/c893zeknlvnno?at_medium=RSS&at_campaign=rss",
-      "importance": 2.3
+      "importance": 2.269
     },
     {
       "title": "Tanzania celebrates first natural gas discovery in more than 10 years",
@@ -153,7 +137,7 @@
       "source": "BBC World",
       "published": "2026-10-28T10:18:40+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c5m2dry2xwwvo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.243
+      "importance": 2.212
     },
     {
       "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
@@ -161,15 +145,15 @@
       "source": "The Guardian",
       "published": "2026-10-28T09:37:49+00:00",
       "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-      "importance": 2.233
+      "importance": 2.203
     },
     {
       "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
       "summary": "AI has made some awesome scientific discoveries. But now, questions are being raised about its accuracy",
-      "source": "BBC World",
+      "source": "BBC Science",
       "published": "2026-10-28T01:01:02+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.114
+      "importance": 2.083
     },
     {
       "title": "Weather warning lifted as third storm to hit Scotland eases off",
@@ -177,31 +161,119 @@
       "source": "BBC Science",
       "published": "2026-10-27T21:20:52+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c5vgj8xwyj1zo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.063
+      "importance": 2.032
     },
     {
-      "title": "Invoquant le travail forcé des Ouïghours, les Etats-Unis interdisent les importations de trois entreprises génomiques chinoises supplémentaires",
-      "summary": "Pékin dénonce pour sa part \"l'exploitation\" de \"la question des 'droits de l'homme'\" comme \"prétexte pour mener un protectionnisme unilatéral et des pratiques d'intimidation\".",
-      "source": "franceinfo",
-      "published": "2026-10-29T08:19:55+00:00",
-      "url": "https://www.franceinfo.fr/monde/usa/invoquant-le-travail-force-des-ouighours-les-etats-unis-interdisent-les-importations-de-trois-entreprises-genomiques-chinoises-supplementaires_8258459.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.999
+      "title": "Serious pollution by water industry remains high despite £5bn investment",
+      "summary": "All but one of England's water companies were rated as \"poor\" or \"requiring improvement\" for environmental targets.",
+      "source": "BBC Science",
+      "published": "2026-10-29T10:17:28+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw5ynxepy4gno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.995
     },
     {
-      "title": "Coup de pouce au Smic : \"Ce n'est pas un tabou\" pour le ministre du Travail qui \"n'a pas de conviction\" sur la question à ce stade",
-      "summary": "Le ministre du Travail Jean-Pierre Farandou est l'invité de France Inter jeudi. Il revient sur la revalorisation du Smic demandée par les syndicats.",
-      "source": "franceinfo",
-      "published": "2026-10-29T08:14:43+00:00",
-      "url": "https://www.franceinfo.fr/economie/coup-de-pouce-au-smic-ce-n-est-pas-un-tabou-pour-le-ministre-du-travail-qui-n-a-pas-de-conviction-sur-la-question-a-ce-stade_8258462.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.997
+      "title": "What we know so far about deadly Spain train crash",
+      "summary": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
+      "source": "BBC World",
+      "published": "2026-10-29T10:02:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.992
     },
     {
-      "title": "Attentat raciste dans les Yvelines : le patron du parquet national antiterroriste doit s'exprimer à partir de 11 heures au tribunal judiciaire de Paris",
-      "summary": "Kevin T., suspecté d'être l'auteur de l'attentat, a été transféré au tribunal judiciaire de Paris après la levée de sa garde à vue en vue de sa possible mise en examen, a appris jeudi l'Agence Radio France auprès du Pnat.",
-      "source": "franceinfo",
-      "published": "2026-10-29T08:12:30+00:00",
-      "url": "https://www.franceinfo.fr/societe/trappes/direct-attentat-raciste-a-trappes-le-suspect-a-ete-transfere-dans-la-nuit-au-tribunal-judiciaire-de-paris-en-vue-de-sa-mise-en-examen_8258192.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.997
+      "title": "Democratic lawmakers decry Osha’s push to roll back worker respiratory protections",
+      "summary": "Elizabeth Warren and others joined by unions and industry experts in warning against the weakening of regulations The senator Elizabeth Warren , the congresswoman Ilhan Omar and several other Democratic lawmakers are calling on the Occupational Safety and Health Administration (Osha) to abandon a rollback of",
+      "source": "The Guardian",
+      "published": "2026-10-29T10:00:30+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/warren-lawmakers-osha-worker-respiratory-protection",
+      "importance": 1.991
+    },
+    {
+      "title": "New elementary school in Texas named after beloved longtime school custodian",
+      "summary": "Marilyn Hampton, who regularly bought supplies for and gave rides to children, was honored at public meeting US schools are often named after presidents, historical figures and civil rights leaders. And soon joining those ranks is a retired longtime Texas school custodian known for going above and beyond her",
+      "source": "The Guardian",
+      "published": "2026-10-29T10:00:29+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/texas-school-custodian-name",
+      "importance": 1.991
+    },
+    {
+      "title": "New Mexico megachurch endorses Republican candidates, testing federal ban",
+      "summary": "Legacy Church’s endorsements violate law banning tax-exempt nonprofits from endorsing political candidates A megachurch in New Mexico has endorsed two Republican candidates running in this year’s midterms, including a Donald Trump-backed candidate running in one of the blue state’s few competitive races. The",
+      "source": "The Guardian",
+      "published": "2026-10-29T10:00:29+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/new-mexico-church-endorses-republicans",
+      "importance": 1.991
+    },
+    {
+      "title": "FTC orders Delta, Uber and others to hand over data on algorithmic pricing",
+      "summary": "Regulator demands companies explain how and why they charge different prices for the same product or service The Federal Trade Commission (FTC) is demanding some of the US’s biggest airlines, ride-share companies and retailers divulge how they are using algorithms and loyalty programs to target customers and",
+      "source": "The Guardian",
+      "published": "2026-10-29T10:00:29+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/29/delta-uber-ftc-pricing",
+      "importance": 1.991
+    },
+    {
+      "title": "Carney to push for closer ties at Canada-EU summit in Montreal",
+      "summary": "The term \"associate member\" is reportedly off the table as officials discuss deeper economic and defence ties.",
+      "source": "BBC World",
+      "published": "2026-10-29T09:51:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezj7jylrzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
+      "source": "BBC Technology",
+      "published": "2026-10-29T09:31:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.985
+    },
+    {
+      "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
+      "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+      "source": "BBC World",
+      "published": "2026-10-29T09:30:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "Spain begins mourning period after train crash as search continues for victims in wreckage",
+      "summary": "Emergency services, drones and dog unit continue to comb carriages as Civil Guard sets up clinics for relatives to provide DNA samples Spain has begun three days of mourning to commemorate the 68 people who died in a high-speed rail collision as hospitals continue to treat scores of injured passengers and",
+      "source": "The Guardian",
+      "published": "2026-10-29T09:29:30+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+      "importance": 1.984
+    },
+    {
+      "title": "Audacious Indian jailbreak saga ends with 17 prisoners recaptured",
+      "summary": "The jailbreak began with a fake seizure and ended 36 hours later with all the inmates back behind bars.",
+      "source": "BBC World",
+      "published": "2026-10-29T09:17:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2qrgy591ro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.981
+    },
+    {
+      "title": "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+      "summary": "The recordings appear to show one high-speed train was given clearance to move even though another up ahead had stalled.",
+      "source": "BBC World",
+      "published": "2026-10-29T08:38:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.972
+    },
+    {
+      "title": "‘I earn £126,000 – but nothing’s left at the end of the month’: readers react to the budget",
+      "summary": "From a young chef and a single father to business owners and a pensioner, Guardian readers reveal how John Healey’s measures will affect them What the budget means for you Louie, 24, a chef living in London, says a lot of people have “written off the idea of even considering getting a property” in their 20s.",
+      "source": "The Guardian",
+      "published": "2026-10-29T08:32:35+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
+      "importance": 1.971
+    },
+    {
+      "title": "One Nation accuses PM of trying to ‘exert undue political influence’ by offering David Farley an extra staffer",
+      "summary": "Pauline Hanson says Anthony Albanese made ‘unsolicited’ offer of adviser with $200,000 salary to one of her MPs Get our daily political email , free app or daily news podcast The prime minister, Anthony Albanese, offered the One Nation MP David Farley an additional staff member in what the party has called",
+      "source": "The Guardian",
+      "published": "2026-10-29T08:26:51+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/29/one-nation-accuses-pm-of-trying-to-exert-undue-political-influence-by-offering-david-farley-extra-staffer-ntwnfb",
+      "importance": 1.97
     },
     {
       "title": "Police investigate gang links as woman, 19, dies after drive-by shooting at Brisbane pub",
@@ -209,23 +281,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T08:14:40+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/woman-19-dies-after-masked-gunmen-opened-fire-outside-brisbane-pub-ntwnfb",
-      "importance": 1.997
-    },
-    {
-      "title": "‘I earn £126,000 – but nothing’s left at the end of the month’: readers react to the budget",
-      "summary": "From a young chef and a single father to business owners and a pensioner, Guardian readers reveal how John Healey’s measures will affect them What the budget means for you Louie, 24, a chef living in London, says a lot of people have “written off the idea of even considering getting a property” in their 20s.",
-      "source": "The Guardian",
-      "published": "2026-10-29T08:12:42+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/29/readers-react-to-budget-2026",
-      "importance": 1.997
-    },
-    {
-      "title": "Arrêts maladie : \"Le moment est venu de changer les paramètres profonds de l'Assurance maladie\", déclare le ministre du Travail et des Solidarités",
-      "summary": "Jean-Pierre Farandou demande sur France Inter jeudi aux partenaires sociaux de \"revoir en profondeur le système\" des arrêts maladies pour \"protéger les salariés\" mais aussi que \"ça coûte moins cher à la Sécurité sociale.\"",
-      "source": "franceinfo",
-      "published": "2026-10-29T08:06:22+00:00",
-      "url": "https://www.franceinfo.fr/economie/emploi/carriere/vie-professionnelle/sante-au-travail/arrets-maladie-le-moment-est-venu-de-changer-les-parametres-profonds-de-l-assurance-maladie-declare-le-ministre-du-travail-et-des-solidarites_8258480.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.995
+      "importance": 1.967
     },
     {
       "title": "Hello Kitty company cuts ties with Japanese spy show after China outcry",
@@ -233,31 +289,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T08:03:00+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/29/hello-kitty-japanese-spy-show-vivant-china-outcry",
-      "importance": 1.995
-    },
-    {
-      "title": "What we know so far about deadly Spain train crash",
-      "summary": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
-      "source": "BBC World",
-      "published": "2026-10-29T07:59:20+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm8xz7pkd0jjo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
-    },
-    {
-      "title": "Le ministre de l'Enseignement supérieur estime qu'il est \"essentiel\" que les cours puissent reprendre lundi \"en présentiel\" mais assure que la discussion",
-      "summary": "Philippe Baptiste, ministre de l'Enseignement supérieur, appelle sur franceinfo jeudi à \"l'arrêt des blocages et des violences\".",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:59:48+00:00",
-      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/le-ministre-de-l-enseignement-superieur-estime-qu-il-est-essentiel-que-les-cours-puissent-reprendre-lundi-en-presentiel-mais-assure-que-la-discussion-reste-ouverte_8258474.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.994
-    },
-    {
-      "title": "Le parquet de Toulouse saisit l'IGPN après la plainte d'un manifestant grièvement blessé à la main le 24 octobre",
-      "summary": "Entendu dimanche dans le cadre d'une enquête pour \"recherche des causes de blessures graves\", le jeune homme de 20 ans a porté plainte pendant l'audition, a déclaré à l'AFP le procureur de la République à Toulouse, David Charmatz.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:59:09+00:00",
-      "url": "https://www.franceinfo.fr/societe/manifestations/le-parquet-de-toulouse-saisit-l-igpn-apres-la-plainte-du-manifestant-grievement-blesse-a-la-main-le-24-octobre_8258207.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.994
+      "importance": 1.964
     },
     {
       "title": "Reader Q&A: Our money and economics correspondents answer your Budget 2026 questions",
@@ -265,7 +297,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T08:00:27+00:00",
       "url": "https://www.theguardian.com/uk-news/live/2026/oct/29/budget-2026-reader-questions-john-healey-chancellor-hilary-osborne-heather-stewart",
-      "importance": 1.994
+      "importance": 1.963
     },
     {
       "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
@@ -273,47 +305,15 @@
       "source": "BBC World",
       "published": "2026-10-29T07:54:33+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cry4x177jlnyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.993
+      "importance": 1.962
     },
     {
-      "title": "Un niveau inédit, mais \"bien en deçà des objectifs\" : plus de 250 millions d'hectares de nature sont restaurés dans le monde, rapporte l'ONU",
-      "summary": "Cela représente la taille d'un territoire comme l'Algérie, ou l'Argentine, précisent les Nations unies. Les efforts de restauration de la nature enregistrés dans 149 pays ont surtout été réalisés sur les aires terrestres. Le rythme doit encore \"tripler\" pour atteindre les objectifs fixés.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:46:28+00:00",
-      "url": "https://www.franceinfo.fr/environnement/crise-climatique/quelques-252-millions-d-hectares-de-nature-restaures-un-niveau-inedit-selon-l-onu-mais-insuffisant-pour-respecter-les-objectifs-mondiaux-pour-2030_8258396.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.991
-    },
-    {
-      "title": "Attentat de Trappes : Macron renvoie dos à dos le RN et LFI sur le racisme et l'antisémitisme",
-      "summary": "À six mois de la présidentielle, Emmanuel Macron a dénoncé, mercredi, une \"désinhibition du racisme\" du Rassemblement national et une \"désinhibition de l'antisémitisme\" de La France insoumise. Après l'attentat \"terroriste raciste\" perpétré à Trappes, qui a coûté la vie à un Français d'origine africaine, le",
-      "source": "France 24",
-      "published": "2026-10-29T07:39:19+00:00",
-      "url": "https://www.france24.com/fr/france/20261029-attentat-de-trappes-macron-renvoie-dos-%C3%A0-dos-le-rn-et-lfi-sur-le-racisme-et-l-antis%C3%A9mitisme",
-      "importance": 1.989
-    },
-    {
-      "title": "\"Lourdaud\", \"bouillie numérique\"... Elon Musk dévoile un extrait de son \"Odyssée\", entièrement généré avec son IA Grok",
-      "summary": "Le milliardaire ultraconservateur a publié un premier épisode de sept minutes généré avec son outil IA de génération vidéo. Il avait promis de répondre au blockbuster de Christopher Nolan, sorti en juillet, dont il a détesté la vision.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:38:59+00:00",
-      "url": "https://www.franceinfo.fr/culture/cinema/lourdaud-bouillie-numerique-elon-musk-devoile-un-extrait-de-son-odyssee-entierement-genere-avec-son-ia-grok_8257165.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.989
-    },
-    {
-      "title": "La police américaine a-t-elle vraiment été appelée parce qu'un petit garçon jouait \"trop bien\" au foot ?",
-      "summary": "Certaines publications sur les réseaux sociaux assurent que des policiers de Winter Park, en Floride, ont interrompu un tournoi de foot, samedi. La réalité est un peu plus complexe.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:35:24+00:00",
-      "url": "https://www.franceinfo.fr/sports/foot/la-police-americaine-a-t-elle-vraiment-ete-appelee-parce-qu-un-petit-garcon-jouait-trop-bien-au-foot_8257712.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.988
-    },
-    {
-      "title": "League Cup : Liverpool élimine Chelsea au bout du suspense",
-      "summary": "Liverpool s’est qualifié pour les quarts de finale de la League Cup en éliminant Chelsea aux tirs au but (6-5), après un match nul (1-1). Wesley Fofana a précipité l’élimination des Blues en expédiant sa tentative largement au-dessus. Autre défenseur français de Chelsea, Maxence Lacroix est sorti sur",
-      "source": "France 24",
-      "published": "2026-10-29T07:31:43+00:00",
-      "url": "https://www.france24.com/fr/%C3%A9missions/sports/20261029-league-cup-liverpool-%C3%A9limine-chelsea-au-bout-du-suspense",
-      "importance": 1.987
+      "title": "BBC in the Philippines where Thomas Markle is expected to be investigated",
+      "summary": "Jonathan Head is in Cebu, reporting from outside the home where Markle last resided.",
+      "source": "BBC World",
+      "published": "2026-10-29T07:28:26+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cm0rlxxpng5eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.956
     },
     {
       "title": "Coroner calls for TGA to review unapproved peptides after death of Australian actor",
@@ -321,23 +321,7 @@
       "source": "The Guardian",
       "published": "2026-10-29T07:22:28+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/oct/29/peptide-actor-richard-norton-death-coroner-tga-review-ntwnfb",
-      "importance": 1.985
-    },
-    {
-      "title": "Collision meurtrière entre deux trains en Espagne : l'enchaînement de circonstances qui ont conduit à l'accident s'éclaircit peu à peu",
-      "summary": "Le Premier ministre Pedro Sanchez a décrété trois jours de deuil national, de jeudi à samedi, alors que le bilan ne cesse de s'alourdir. Il s'établit désormais à 68 morts et 108 blessés, selon le président de la région.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:19:11+00:00",
-      "url": "https://www.franceinfo.fr/monde/espagne/direct-collision-meurtriere-entre-deux-trains-en-espagne-l-enchainement-de-circonstances-qui-ont-conduit-a-l-accident-s-eclaircit-peu-a-peu_8258189.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.984
-    },
-    {
-      "title": "Attentat raciste à Trappes : le suspect transféré au tribunal après la levée de sa garde à vue",
-      "summary": "L'homme suspecté d'être l'auteur de l'attentat raciste de Trappes vendredi a été transféré au tribunal après la levée de sa garde à vue, a appris jeudi l'Agence Radio France auprès du parquet national antiterroriste.",
-      "source": "franceinfo",
-      "published": "2026-10-29T07:03:44+00:00",
-      "url": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/attentat-raciste-a-trappes-l-assaillant-transfere-au-tribunal-apres-la-levee-de-sa-garde-a-vue-pnat_8258405.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.981
+      "importance": 1.955
     },
     {
       "title": "Lambie scolded by ADF chief over hidden camera revelation – as it happened",
@@ -345,31 +329,23 @@
       "source": "The Guardian",
       "published": "2026-10-29T06:58:35+00:00",
       "url": "https://www.theguardian.com/australia-news/live/2026/oct/29/labor-treasurer-jim-chalmers-social-media-anthony-albanese-coalition-one-nation-ntwnfb",
-      "importance": 1.98
+      "importance": 1.949
     },
     {
-      "title": "Toblerone owner sues British vegan chocolate brand over chunky shape",
-      "summary": "Catherine’s Originals denies Mondelēz claims in London high court of ‘passing off’ and trademark infringement The owner of Toblerone is taking legal action against a tiny British vegan chocolate brand which it claims has been copying the Swiss chocolate bar’s famous chunky shape. Mondelēz has filed papers at",
-      "source": "The Guardian",
-      "published": "2026-10-29T07:00:25+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/29/toblerone-owner-sues-british-vegan-chocolate-brand-over-chunky-shape",
-      "importance": 1.98
+      "title": "Chancellor says government has 'moral duty' to help young people out of work",
+      "summary": "Chancellor John Healey says any cuts to welfare will be done \"in a Labour way\".",
+      "source": "BBC Business",
+      "published": "2026-10-29T06:56:58+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c3j47008yl7vo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.949
     },
     {
-      "title": "Parcoursup : à l’Assemblée nationale, les députés s’opposent sur les solutions pour remplacer la plateforme",
-      "summary": "Le premier ministre, Sébastien Lecornu, a sollicité un débat sans vote au Palais-Bourbon, mercredi, pour « identifier une voie de passage au Parlement » dans l’optique de « remplacer Parcoursup » en 2028. Elus de droite et de gauche défendent des visions profondément différentes du futur système d’accès à",
-      "source": "Le Monde",
-      "published": "2026-10-29T06:30:59+00:00",
-      "url": "https://www.lemonde.fr/societe/article/2026/10/29/parcoursup-a-l-assemblee-nationale-les-deputes-s-opposent-sur-les-solutions-pour-remplacer-la-plateforme_6802158_3224.html",
-      "importance": 1.973
-    },
-    {
-      "title": "La Corée du Nord a tiré « une dizaine de missiles balistiques » dans la mer du Japon, selon Séoul",
-      "summary": "Ce nouvel essai intervient alors que la tension est remontée entre les deux Corées après plusieurs incidents. La garde côtière du Japon a exhorté les navires à faire preuve de « vigilance ».",
-      "source": "Le Monde",
-      "published": "2026-10-29T06:29:51+00:00",
-      "url": "https://www.lemonde.fr/international/article/2026/10/29/la-coree-du-nord-a-tire-une-dizaine-de-missiles-balistiques-dans-la-mer-du-japon-selon-seoul_6802157_3210.html",
-      "importance": 1.973
+      "title": "'We need help for small businesses, not punishment'",
+      "summary": "People in Bilston react to the new Budget set out by Chancellor John Healey.",
+      "source": "BBC Business",
+      "published": "2026-10-29T06:27:28+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6kglwxplv1zo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.942
     },
     {
       "title": "El Salvador sends 2,000 troops to Haiti to rescue four missing soldiers",
@@ -377,31 +353,55 @@
       "source": "BBC World",
       "published": "2026-10-29T06:24:56+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck0e075n79j5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.972
+      "importance": 1.941
     },
     {
-      "title": "\"Plus jamais un enfant victime d'inceste n'entendra qu'il était trop tard pour parler\" : le Sénat approuve l'imprescriptibilité des crimes sexuels commis sur",
-      "summary": "A l'heure actuelle, une victime de viol subi dans l'enfance peut porter plainte jusqu'à 48 ans, le délai de prescription étant de trente ans à compter de sa majorité, un délai jugé insuffisant par certaines associations de protection de l'enfance.",
-      "source": "franceinfo",
-      "published": "2026-10-29T06:26:09+00:00",
-      "url": "https://www.franceinfo.fr/societe/harcelement-sexuel/plus-jamais-un-enfant-victime-d-inceste-n-entendra-qu-il-etait-trop-tard-pour-parler-le-senat-approuve-l-imprescriptibilite-des-crimes-sexuels-commis-sur-les-mineurs_8258195.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.972
+      "title": "RAF base chemical contamination worst in UK, report says",
+      "summary": "Testing at RAF Upper Heyford finds \"unacceptable\" levels of polyfluoroalkyl substances (PFAS).",
+      "source": "BBC Science",
+      "published": "2026-10-29T06:13:24+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1je3034ko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.939
     },
     {
-      "title": "Après la collision de deux trains, l'Espagne entame trois jours de deuil national",
-      "summary": "Au lendemain de la collision de deux trains à grande vitesse à environ 150 km au sud de Madrid, l'Espagne observe trois jours de deuil national, de jeudi à samedi. Au moins 68 personnes sont mortes et 108 autres blessées, selon les autorités. Le gouvernement socialiste fait face à de vives critiques",
-      "source": "France 24",
-      "published": "2026-10-29T06:22:19+00:00",
-      "url": "https://www.france24.com/fr/europe/20261029-apr%C3%A8s-la-collision-de-deux-trains-l-espagne-entame-trois-jours-de-deuil-national",
-      "importance": 1.971
+      "title": "Haulier blames fuel prices for diesel theft",
+      "summary": "Martin Pinches said someone had stolen 400 litres of diesel from two of his lorries",
+      "source": "BBC Business",
+      "published": "2026-10-29T06:17:02+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck9qzdwjp03lo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.939
     },
     {
-      "title": "Le confort thermique, un critère de plus en plus important dans le choix des Français pour la présidentielle 2027",
-      "summary": "Selon un sondage franceinfo-Le Figaro immobilier, le thème du logement semble peser dans le vote de 43% des personnes interrogées.",
-      "source": "franceinfo",
-      "published": "2026-10-29T06:18:26+00:00",
-      "url": "https://www.franceinfo.fr/elections/presidentielle/le-confort-thermique-un-critere-de-plus-en-plus-important-dans-le-choix-des-francais-pour-la-presidentielle-2027-revele-un-sondage_8257793.html#xtor=RSS-3-[lestitres]",
-      "importance": 1.97
+      "title": "Cambodian police and soldiers helped guard abusive scam compounds, Amnesty alleges",
+      "summary": "Survivors tell rights group that serving officers who worked as guards administered electric shocks and beatings Cambodian police and military officers worked as private security guards in scam compounds where thousands were forced to work in the online fraud industry, according to a report by Amnesty",
+      "source": "The Guardian",
+      "published": "2026-10-29T06:00:26+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/cambodian-police-scam-compounds-amnesty-international",
+      "importance": 1.936
+    },
+    {
+      "title": "Regular spaceplane flights planned in project",
+      "summary": "Spaceplanes could take off on regular flights from Cornwall following an agreement.",
+      "source": "BBC Science",
+      "published": "2026-10-27T13:11:50+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmdxwzz7x4pno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.919
+    },
+    {
+      "title": "Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game",
+      "summary": "Bereaved families have urged the publisher of Call of Duty: Modern Warfare 4 to remove a clip from the game that shows a figure performing CPR and bodies lying in the street Bereaved families in South Korea have demanded that the makers of Call of Duty remove harrowing footage of the deadly 2022 Seoul crowd",
+      "source": "The Guardian",
+      "published": "2026-10-29T04:41:41+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/29/call-of-duty-seoul-crowd-crush-video-footage",
+      "importance": 1.917
+    },
+    {
+      "title": "'Like cutting up a Picasso': AI microdrama edit of Neighbours worries actors and crew",
+      "summary": "A micro-drama will use AI-assisted technology to edit old episodes of the Australian TV soap to focus on Margot Robbie's character.",
+      "source": "BBC World",
+      "published": "2026-10-29T03:15:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cj1dw9znd1q1o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.897
     }
   ]
 }
