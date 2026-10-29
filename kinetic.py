@@ -330,7 +330,6 @@ def earthquake(p, im, t, ix, phase):
             x=288+140*math.cos(a)
             y=810+52*math.sin(a)
             if 740<y<874:dot(p,d,x,y,3,GOLD,140)
-        p.text(d,"SLOW MOVEMENT",288,410,14,(*CYAN,210),bold=True)
 
     elif ix == 1:
         # Stationary fault, but animated compression and a rising stress gauge.
@@ -346,7 +345,6 @@ def earthquake(p, im, t, ix, phase):
         path(p,d,[(101,825),(475,825)],BLUE,3,70)
         progress=(phase*.92+.08)
         p.glow_line(im,[(103,825),(103+370*progress,825)],GOLD,5,3)
-        p.text(d,"STRESS BUILDS",288,398,14,(*GOLD,245),bold=True)
         for k in range(8):
             x=271+(k%3)*12;y=555+k*22
             dot(p,d,x,y,2.2,GOLD,130+round(100*pulse))
@@ -369,7 +367,6 @@ def earthquake(p, im, t, ix, phase):
                 round(155*(1-age)))
         arrow((76,458),(212,458),CYAN)
         arrow((500,490),(371,490),CYAN)
-        p.text(d,"SUDDEN FAULT SLIP",288,394,14,(*GOLD,235),bold=True)
 
     elif ix == 3:
         # Seismic waves travel away from the epicentre, not static rings.
@@ -389,7 +386,6 @@ def earthquake(p, im, t, ix, phase):
                 max(1,5*(1-age)),CYAN,200)
         arrow((110,493),(79,453),BLUE)
         arrow((461,478),(494,444),BLUE)
-        p.text(d,"ENERGY TRAVELS",288,403,14,(*GOLD,240),bold=True)
 
     elif ix == 4:
         # Compare site response: two different buildings and soil foundations.
@@ -415,13 +411,14 @@ def earthquake(p, im, t, ix, phase):
                     wy=523+(row*30 if side==0 else 25+row*30)
                     if 482<wy<696:
                         p.circle(d,wx,wy,6,(125,222,207,140))
+            # Keep factual comparisons above the illustration; the subtitle
+            # band occupies the lower 16% of the publishing-safe frame.
             p.text(d,"FIRM GROUND" if side==0 else "SOFT SOIL",
-                   bx,831,12,(*(CYAN if side==0 else GOLD),235),bold=True)
+                   bx,420,13,(*(CYAN if side==0 else GOLD),235),bold=True)
         for k in range(18):
             x=51+k*27
             y=690+2*math.sin(t*10+k)
             dot(p,d,x,y,2.0,GOLD,100)
-        p.text(d,"THE GROUND MATTERS",288,397,14,(*CYAN,240),bold=True)
 
     else:
         # A recording device with a dynamically scrolling real-valued trace.
@@ -448,8 +445,6 @@ def earthquake(p, im, t, ix, phase):
         sx=440
         sy=601+65*math.sin(t*7)
         p.glow_disc(im,sx,sy,4,GOLD)
-        p.text(d,"SEISMOMETER",288,392,15,(*CYAN,240),bold=True)
-        p.text(d,"RECORDING GROUND MOTION",288,805,12,(*GOLD,230),bold=True)
     moving_particles(p,im,t,ix,16,385,818)
 
 
