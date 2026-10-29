@@ -58,6 +58,7 @@ def mineral_plate(p,im,d,x0,x1,shift,tint,t):
         if j%8==0:
             p.line(d,[(rx-5,ry+2),(rx,ry-3),(rx+4,ry+1)],
                    (*BLUE,72),1.1)
+    mineral_depth(p,d,x0,x1,y0,shift,t)
     # Mineral surface has a fine double rim and a moving low-contrast gleam.
     p.line(d,[(x0,y0),(x1,y0+3)],(*LIME,235),3.6)
     p.line(d,[(x0,y0+7),(x1,y0+10)],(*AMBER,53),1.8)
@@ -65,6 +66,38 @@ def mineral_plate(p,im,d,x0,x1,shift,tint,t):
         x=x0+9+((j*49+t*4.6)%(max(15,span-18)))
         y=y0+(j%3)*1.9
         p.circle(d,x,y,1.2,(*LIME,90))
+
+
+
+def mineral_depth(p,d,x0,x1,y0,shift,t):
+    """Sediment grain parallax and stratigraphic microstructure.
+
+    Every geological plate gets layered fault hatching and illuminated
+    sediment seams. All detail is deterministic and smoothly animated.
+    """
+    span=x1-x0
+    if span<30:
+        return
+    for band in range(4):
+        level=625+band*37+shift*(.82-band*.12)
+        coords=[]
+        for j in range(31):
+            x=x0+4+(span-8)*j/30
+            y=level+2.8*math.sin(j*.36+band*1.6+t*.055)
+            coords.append((x,y))
+        p.line(d,coords,(*((110,212,204) if band%2==0 else (191,162,129)),46+band*8),.9)
+        for k in range(9):
+            x=x0+9+((k*79+band*31)%(max(10,int(span)-18)))
+            y=level+6+((k*13+band*7)%17)
+            p.line(d,[(x-2,y+2),(x+3,y-1)],(*DUST,38+(k%3)*16),.8)
+    # Tiny, asymmetrically lit crystal inclusions create geological depth.
+    for k in range(20):
+        x=x0+9+((k*97+19)%(max(10,int(span)-18)))
+        y=611+(k*41%150)+shift*.30
+        r=.7+(k%3)*.32
+        p.circle(d,x,y,r,(*((225,191,140) if k%5==0 else (117,186,185)),75))
+        if k%4==0:
+            p.line(d,[(x-1.5,y-1.5),(x+2,y+1)],(*WHITE if 'WHITE' in globals() else DUST,52),.8)
 
 
 def stress_highlights(p,im,d,t,scene,phase):
