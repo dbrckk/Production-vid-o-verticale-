@@ -113,19 +113,24 @@ def volcanic_structure(p,im,t,scene_index=4,phase=1.0):
         p.line(d,points,(141,115,115,110),1.1)
         rpoints=[(405+row*9,y-24),(436+row*9,y-11),(465+row*9,y+5)]
         p.line(d,rpoints,(166,115,108,105),1)
-    # Fine rock facets: original irregular polygons add depth to the cone.
-    for j in range(32):
-        side=-1 if j%2 else 1
-        x=288+side*(35+(j*23)%172)
-        y=581+(j*43)%205
-        if not (578<y<791):
-            continue
-        opacity=38+(j%4)*13
-        facet=[(x-4,y+4),(x+2,y-7),(x+13,y-1),(x+7,y+7)]
-        d.polygon([p.p(*point) for point in facet],
-                  fill=((140,125,117,opacity) if side<0 else (166,111,91,opacity)))
-        if j%3==0:
-            p.line(d,[(x-5,y+6),(x+11,y+7)],(199,143,111,65),.9)
+    # 2D shale facets stay strictly inside the conical silhouette. Earlier
+    # random square facets spilled into the sky and looked like clip art.
+    # Use muted opaque rock shades rather than RGBA low alpha: PIL's RGBA
+    # draw operations *replace* alpha, so converting to RGB would otherwise
+    # reveal bright, floating geometric patches.
+    for j in range(90):
+        y=550+(j*47%232)
+        safe_half=18+(y-530)*.69
+        centered=((j*73+29)%199)/99.5-1
+        x=288+centered*max(1,safe_half-19)
+        size=2+(j%4)*.9
+        stone=(51+(j*11%26),51+(j*7%15),70+(j*5%15),255) if x<288 else (
+            67+(j*13%24),50+(j*9%18),61+(j*5%15),255)
+        facet=[(x-size,y+size),(x+size*.2,y-size*1.25),
+               (x+size*2.1,y-size*.5),(x+size,y+size*1.4)]
+        d.polygon([p.p(*point) for point in facet],fill=stone)
+        if j%6==0:
+            p.line(d,[(x-4,y+4),(x+7,y+5)],(99,82,84,255),.85)
     # Stage-specific geology prevents identical volcanic slides across the story.
     # Magma is trapped for the first three beats and only reaches the outer
     # slopes when the narrative actually introduces an eruption.
