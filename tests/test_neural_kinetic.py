@@ -90,3 +90,24 @@ def test_empty_voice_rejected(tmp_path):
     with pytest.raises(RuntimeError,match="empty or too short"):
         make_narration(cfg,tmp_path/"bad.wav",synthesizer=lambda t,i:np.zeros(12,np.float32))
     assert not (tmp_path/"bad.wav").exists()
+
+
+def test_real_edge_word_boundaries_are_used_for_subtitles(tmp_path, monkeypatch):
+    import narration
+    cfg=create_story("Why do planets orbit?",duration=12)
+    async def edge_stub(text, target, voice):
+        target.write_bytes(b"stub")
+        return [
+            {"text":"Planets","offset":.15,"duration":.21},
+            {"text":"orbit","offset":.40,"duration":.19},
+        ]
+    monkeypatch.setattr(narration,"_edge",edge_stub)
+    monkeypatch.setattr(narration,"_pcm_from_file",lambda _:np.ones(24000,np.int16)*1600)
+    voice=tmp_path/"speech.wav"
+    info=make_narration(cfg,voice,provider="edge")
+    assert cfg["voice"]["word_alignment"] == "provider_word_boundaries"
+    assert info["words"] == len(cfg["scenes"])*2
+    assert cfg["word_cues"][0]["word"] == "Planets"
+    assert cfg["word_cues"][0]["start"] == pytest.approx(.15,abs=.01)
+    assert cfg["word_cues"][1]["start"] == pytest.approx(.40,abs=.01)
+    assert cfg["word_cues"][2]["start"] > cfg["word_cues"][1]["end"]
