@@ -23,7 +23,7 @@ def test_news_source_freshness_random():
     assert selected['url']=='https://example.org/climat'
 
 def test_no_unverified_random_news():
-    with pytest.raises(RuntimeError,match='Aucune actualité'):
+    with pytest.raises(RuntimeError,match='No recent verifiable news'):
         random_important_news(fetcher=lambda _:b'<rss/>',now=NOW)
 
 @pytest.mark.parametrize('topic',[
