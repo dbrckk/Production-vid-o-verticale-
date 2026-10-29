@@ -32,7 +32,7 @@ class State:
                 (self.directory/f'{key}{suffix}').unlink(missing_ok=True)
         # cover.png is shared with the legacy renderer and may be in use.
 
-    def start(self,topic:str,article:dict|None,quality:str,voice:str='en-US-AndrewNeural'):
+    def start(self,topic:str,article:dict|None,quality:str,voice:str='en-US-BrianMultilingualNeural'):
         if voice not in ('en-US-AndrewNeural','en-US-BrianMultilingualNeural','en-US-EmmaMultilingualNeural','en-US-AriaNeural','en-GB-RyanNeural'):
             raise ValueError('Unsupported English narrator')
         if quality not in ('preview','720p','1080p','1080p60'):raise ValueError('Unknown video quality')
@@ -127,7 +127,7 @@ class Handler(BaseHTTPRequestHandler):
                 if not matches:raise ValueError('Article is unverified or too old')
                 article=matches[0]
                 if topic!=article['title']:raise ValueError('Topic does not match the source article')
-            result=self.server.state.start(topic,article,body.get('quality','preview'),body.get('voice','en-US-AndrewNeural'))
+            result=self.server.state.start(topic,article,body.get('quality','preview'),body.get('voice','en-US-BrianMultilingualNeural'))
             self.send_json(202,result)
         except (ValueError,TypeError,KeyError,json.JSONDecodeError) as e:self.send_json(400,{'error':str(e)})
         except RuntimeError as e:self.send_json(409,{'error':str(e)})
