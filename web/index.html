@@ -44,6 +44,7 @@ footer{font-size:12px;color:#b3aac9;margin-top:28px;line-height:1.5}</style></he
 const topic=document.querySelector('#topic'),info=document.querySelector('#info'),status=document.querySelector('#status');
 const random=document.querySelector('#random'),create=document.querySelector('#create'),token=document.querySelector('#token');
 let selectedArticle=null;
+let lastVideoURL=null;
 const headers=()=>({'X-Studio-Token':token.value.trim()});
 const showError=(error)=>{status.textContent='Error: '+error;};
 async function request(url,init={}) {
@@ -68,7 +69,10 @@ topic.addEventListener('input',()=>{
  }
 });
 create.addEventListener('click',async()=>{
- create.disabled=true;status.textContent='Preparing English narration and motion scenes…';document.querySelector('#result').style.display='none';
+ create.disabled=true;status.textContent='Preparing the English documentary…';
+ document.querySelector('#result').style.display='none';
+ if(lastVideoURL){URL.revokeObjectURL(lastVideoURL);lastVideoURL=null;}
+ const player=document.querySelector('#player');player.pause();player.removeAttribute('src');player.load();
  try{
   const data=await request('/api/render',{method:'POST',headers:{'Content-Type':'application/json'},
     body:JSON.stringify({topic:topic.value,quality:document.querySelector('#quality').value,
@@ -79,15 +83,24 @@ create.addEventListener('click',async()=>{
    await new Promise(resolve=>setTimeout(resolve,3500));
    const state=await request('/api/status/'+id);
    if(state.status==='error')throw Error(state.error);
+   const labels={
+    queued:'Queued for the video engine…',
+    narrating:'Recording natural English narration and aligning the words…',
+    rendering:'Animating each scene and mastering the soundtrack…',
+    quality_check:'Checking motion, audio loudness, subtitles and MP4 integrity…'
+   };
+   if(labels[state.status])status.textContent=labels[state.status];
    if(state.status==='ready'){
     const response=await fetch('/api/video/'+id,{headers:headers()});
     if(!response.ok)throw Error('MP4 download failed');
     const fileURL=URL.createObjectURL(await response.blob());
+    lastVideoURL=fileURL;
     document.querySelector('#player').src=fileURL;
     document.querySelector('#download').href=fileURL;
     document.querySelector('#download').download='vertical-science.mp4';
     document.querySelector('#result').style.display='block';
-    status.textContent='Video ready: '+state.info.width+' × '+state.info.height+' pixels. Sources: '+state.sources.length;
+    const qa=state.quality||{};
+    status.textContent='Video ready · '+state.info.width+' × '+state.info.height+' · '+state.info.duration.toFixed(1)+' s · English narration · '+(qa.loudness_lufs!==undefined?qa.loudness_lufs+' LUFS · motion checked':'quality reviewed')+'. Sources: '+state.sources.length;
     break;
    }
   }
