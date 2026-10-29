@@ -31,7 +31,7 @@ jobs:
           python studio.py --config output/publication-topic.json \
             --narrate --tts-provider edge --tts-voice en-US-AndrewNeural \
             --width 1080 --fps 30 --output output/publish-master.mp4
-      - name: Require publication-grade audio, animation, color and no scene counters
+      - name: Validate clean platform-safe final master and original sound
         run: |
           python qa_video.py --video output/publish-master.mp4 \
             --manifest output/publish-master.json \
@@ -48,6 +48,8 @@ jobs:
           assert manifest["encoding"]["chapter_numbers"] is False
           assert manifest["encoding"]["watermark"] is False
           assert report["audio_language"]=="en"
+          assert 0.5<=report["active_intervals"]<=1.0
+          assert -22<=report["loudness_lufs"]<=-12
           assert report["narrated_words"]>=40
           print("Publication-grade social video validated:",json.dumps(report))
           PY
