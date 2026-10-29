@@ -146,6 +146,47 @@ def building_facades(p,im,d,t,phase):
         p.line(d,[(left-9,703),(right+9,703)],(*(AMBER if side else LIME),110),3.2)
 
 
+
+def seismic_wavefield(p,im,t,phase):
+    """Moving P/S wave trains, refracted rays and attenuating ground motion.
+
+    A physically motivated editorial visualization: wavefronts expand from
+    one hypocentre, weaker transverse trains lag the compressional waves,
+    and short coherent surface displacement follows their arrival.
+    """
+    d=ImageDraw.Draw(im,"RGBA")
+    cx,cy=280,605
+    # Continuous radial fronts with an offset arrival speed for the S wave.
+    for family,speed,color in ((0,130,LIME),(1,77,BLUE)):
+        for front in range(4):
+            travel=(t*speed+front*96) % 460
+            alpha=max(0,round(150*(1-travel/460)**1.35))
+            if alpha<4:
+                continue
+            pts=[]
+            for k in range(79):
+                a=math.tau*k/78
+                distortion=1+0.035*math.sin(5*a+t*.4+front)
+                r=travel*distortion
+                pts.append((cx+r*math.cos(a),cy+r*.70*math.sin(a)))
+            p.line(d,pts,(*color,alpha),1.6 if family==0 else 1.2)
+            # Light only the leading edge; no distracting generic neon rings.
+            a=t*(.12 if family==0 else -.10)+front*1.6
+            p.circle(d,cx+travel*math.cos(a),cy+.70*travel*math.sin(a),
+                     2.2,(*color,min(190,alpha+30)))
+    # Rock strata oscillate in place as a small amplitude travelling wave.
+    for layer in range(4):
+        y0=715+layer*31
+        points=[]
+        for j in range(62):
+            x=38+j*8
+            distance=abs(x-cx)
+            arrival=(t*105-distance)
+            envelope=max(0,1-abs(arrival-115)/180)
+            dy=(5.0-layer*.65)*envelope*math.sin((distance-t*105)*.12)
+            points.append((x,y0+dy))
+        p.line(d,points,(*DUST,46+layer*11),1.0)
+
 def earthquake_art(p,im,t,scene,phase):
     """Publish-ready detailing after the explanatory simulation draws its shapes."""
     d=ImageDraw.Draw(im,"RGBA")
@@ -154,6 +195,7 @@ def earthquake_art(p,im,t,scene,phase):
     elif scene==4:
         building_facades(p,im,d,t,phase)
     elif scene==3:
+        seismic_wavefield(p,im,t,phase)
         # Small travelling P-wave illumination runs above the surface.
         for j in range(21):
             x=70+j*22
