@@ -1,0 +1,75 @@
+{
+  "mode": "universal",
+  "language": "en",
+  "topic": "How does the ocean move heat around Earth?",
+  "duration": 36,
+  "evidence": "noaa-sourced",
+  "sources": [
+    {
+      "title": "What is a current?",
+      "source": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/current.html"
+    },
+    {
+      "title": "What is the global ocean conveyor belt?",
+      "source": "NOAA National Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/conveyor.html"
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 6,
+      "headline": "EARTH'S HIDDEN HEAT ENGINE",
+      "caption": "The ocean stores solar energy and moves it around the planet. This invisible transport helps shape our climate.",
+      "narration": "The ocean stores solar energy and moves it around the planet. This invisible transport helps shape our climate.",
+      "visual": "focus",
+      "metric": "A PLANET CONNECTED BY WATER"
+    },
+    {
+      "start": 6,
+      "end": 12,
+      "headline": "WIND SETS WATER IN MOTION",
+      "caption": "Winds push surface currents. Earth's rotation helps bend their paths, forming enormous circulating systems.",
+      "narration": "Winds push surface currents. Earth's rotation helps bend their paths, forming enormous circulating systems.",
+      "visual": "globe",
+      "metric": "SURFACE CIRCULATION"
+    },
+    {
+      "start": 12,
+      "end": 18,
+      "headline": "COLD, SALTY WATER SINKS",
+      "caption": "In some polar regions, cooling and salinity make seawater dense enough to sink into the deep ocean.",
+      "narration": "In some polar regions, cooling and salinity make seawater dense enough to sink into the deep ocean.",
+      "visual": "timeline",
+      "metric": "DENSITY DRIVES DEEP FLOW"
+    },
+    {
+      "start": 18,
+      "end": 24,
+      "headline": "A SLOW GLOBAL CONNECTION",
+      "caption": "Deep currents link ocean basins over long timescales. The circulation is complex, not one simple conveyor belt.",
+      "narration": "Deep currents link ocean basins over long timescales. The circulation is complex, not one simple conveyor belt.",
+      "visual": "network",
+      "metric": "CONNECTED OCEAN BASINS"
+    },
+    {
+      "start": 24,
+      "end": 30,
+      "headline": "HEAT TRAVELS WITH THE WATER",
+      "caption": "Currents redistribute warmth and influence regional weather, marine life, and the exchange of gases.",
+      "narration": "Currents redistribute warmth and influence regional weather, marine life, and the exchange of gases.",
+      "visual": "compare",
+      "metric": "HEAT • CLIMATE • LIFE"
+    },
+    {
+      "start": 30,
+      "end": 36,
+      "headline": "THE OCEAN IS NEVER STILL",
+      "caption": "Scientists track currents using floats, satellites, and ships to understand how our changing ocean affects Earth.",
+      "narration": "Scientists track currents using floats, satellites, and ships to understand how our changing ocean affects Earth.",
+      "visual": "question",
+      "metric": "MEASURING A MOVING PLANET"
+    }
+  ]
+}
