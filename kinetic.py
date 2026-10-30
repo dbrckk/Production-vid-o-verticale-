@@ -477,30 +477,13 @@ def weather(p, im, t, ix, phase):
 
 
 def biology(p, im, t, ix, phase):
-    """Leaf photosynthesis with moving photons, transported water and oxygen."""
-    d=ImageDraw.Draw(im,"RGBA")
-    leaf=[(288,734),(215,688),(173,584),(186,470),(288,399),
-          (394,470),(410,577),(355,690)]
-    d.polygon([p.p(*xy) for xy in leaf],fill=(20,103,82,165))
-    path(p,d,leaf+[leaf[0]],CYAN,3.4,225)
-    path(p,d,[(288,727),(288,421)],GOLD,3,165)
-    for side in (-1,1):
-        for k in range(4):
-            y=470+k*58
-            path(p,d,[(288,y+49),(288+side*(30+k*8),y)],CYAN,1.7,120)
-    for k in range(24):
-        x=225+(k%6)*25+5*math.sin(t*.8+k)
-        y=489+(k//6)*42+5*math.cos(t*.7+k)
-        dot(p,d,x,y,max(1,4.5+1.4*math.sin(t*2+k)),CYAN,125+(k%3)*26)
-    for k in range(19):
-        progress=(t*.33+k/19)%1
-        dot(p,d,59+progress*224,341+progress*170,2.6,GOLD,210)
-    for k in range(20):
-        progress=(t*.38+k/20)%1
-        dot(p,d,284+5*math.sin(k+t),857-progress*130,2.2,BLUE,185)
-    for k in range(19):
-        age=(t*.28+k/19)%1
-        dot(p,d,328+age*145+19*math.sin(k+t*.4),584-age*223,2.5,WHITE,150)
+    """Narratively matched 2D photosynthesis illustration for every scene.
+
+    Do not reuse one static leaf for six distinct scientific explanations.
+    Every scene is recomputed from real elapsed seconds for genuine 60 FPS.
+    """
+    from biology_story import draw as draw_photosynthesis
+    draw_photosynthesis(p, im, t, ix, phase)
 
 
 ANIMATORS = {
