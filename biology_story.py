@@ -234,9 +234,9 @@ def scene_chloroplast(p,im,d,t):
         circle(p,d,x,y,3.3,SUN,205)
     arrow(p,d,[(389,556),(441,574),(472,613)],LIME)
     for k in range(3):
-        sugar(p,d,463+26*math.sin(k*2+1.4),646+k*39,t,.59)
+        sugar(p,d,463+26*math.sin(k*2+1.4),615+k*35,t,.59)
     # Sugars are a downstream output of a multi-step process, not photons.
-    p.text(d,"SUGARS",461,729,13,(*LIME,225),bold=True)
+    p.text(d,"SUGARS",461,714,13,(*LIME,225),bold=True)
 
 
 def scene_oxygen(p,im,d,t):
