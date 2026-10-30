@@ -1,0 +1,81 @@
+name: New science film - Photosynthesis 1080p60
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/photosynthesis-premiere.yml'
+permissions:
+  contents: read
+concurrency:
+  group: photosynthesis-film-release
+  cancel-in-progress: true
+jobs:
+  premiere:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install video renderer and narrator
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Validate all scenes and existing regression suite
+        run: |
+          python -m pytest tests/ -q
+          node --check hf_space/app.js
+      - name: Generate a new factual English science film
+        run: |
+          python generate_topic.py --topic "How does photosynthesis turn sunlight into food?" --output output/new-topic.json
+          python studio.py --config output/new-topic.json \
+            --narrate --tts-provider edge --tts-voice en-US-EmmaMultilingualNeural \
+            --width 1080 --fps 60 --output output/photosynthesis.mp4
+      - name: Inspect publication-quality final MP4 and narration
+        run: |
+          python qa_video.py --video output/photosynthesis.mp4 \
+            --manifest output/photosynthesis.json \
+            --report output/quality.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          cfg=json.loads(Path('output/new-topic.json').read_text())
+          info=json.loads(Path('output/photosynthesis.json').read_text())
+          report=json.loads(Path('output/quality.json').read_text())
+          assert cfg['editorial_template']=='photosynthesis',cfg.get('editorial_template')
+          assert cfg['motion_category']=='biology',cfg.get('motion_category')
+          assert len(cfg['scenes'])==6
+          assert info['export_profile']=='publication_1080p60'
+          assert info['fps']==60
+          assert info['voice']['voice']=='en-US-EmmaMultilingualNeural'
+          assert info['voice']['delivery_style']=='continuous_documentary'
+          assert info['encoding']['chapter_numbers'] is False
+          assert info['encoding']['watermark'] is False
+          assert report['passed'] and report['publication_spec']
+          assert report['width']==1080 and report['height']==1920
+          assert report['narrated_words']>=65
+          assert report['adjacent_frame_activity']>=.55
+          print('New science documentary is publication-grade:',report)
+          PY
+          ffmpeg -nostdin -hide_banner -loglevel error -y \
+            -i output/photosynthesis.mp4 -an \
+            -vf "fps=1/7,scale=288:512,tile=3x2" \
+            -frames:v 1 output/contact-sheet.jpg
+      - name: Deliver the 9:16 MP4, QA report, cover and contact sheet
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: new-photosynthesis-1080p60-english-emma
+          path: |
+            output/photosynthesis.mp4
+            output/photosynthesis.json
+            output/photosynthesis.voice.wav
+            output/new-topic.json
+            output/quality.json
+            output/cover.png
+            output/contact-sheet.jpg
+          retention-days: 14
