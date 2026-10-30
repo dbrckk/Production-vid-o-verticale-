@@ -1,0 +1,71 @@
+name: New science film - Ocean Heat 1080p60
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ocean-heat-premiere.yml'
+      - 'presets/ocean-heat-earth.json'
+permissions:
+  contents: read
+concurrency:
+  group: ocean-heat-film
+  cancel-in-progress: true
+jobs:
+  premiere:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install renderer and neural voice
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg fonts-dejavu-core
+          python -m pip install -r requirements.txt
+      - name: Validate video generator
+        run: |
+          python -m pytest tests/ -q
+      - name: Render new ocean documentary with natural English narration
+        run: |
+          mkdir -p output
+          python studio.py --config presets/ocean-heat-earth.json \
+            --narrate --tts-provider edge --tts-voice en-US-EmmaMultilingualNeural \
+            --width 1080 --fps 60 --output output/ocean-heat-earth.mp4
+      - name: Inspect final publication video
+        run: |
+          python qa_video.py --video output/ocean-heat-earth.mp4 \
+            --manifest output/ocean-heat-earth.json --report output/ocean-heat-quality.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('output/ocean-heat-earth.json').read_text())
+          q=json.loads(Path('output/ocean-heat-quality.json').read_text())
+          assert m['export_profile']=='publication_1080p60'
+          assert m['fps']==60 and m['width']==1080 and m['height']==1920
+          assert m['voice']['language']=='en'
+          assert len(m['word_cues'])>=65
+          assert not m['encoding']['watermark'] and not m['encoding']['chapter_numbers']
+          assert q['passed'] and q['publication_spec']
+          print('Ocean heat film publication checks passed')
+          PY
+          ffmpeg -nostdin -hide_banner -loglevel error -y \
+            -i output/ocean-heat-earth.mp4 -an \
+            -vf "fps=1/7,scale=288:512,tile=3x2" \
+            -frames:v 1 output/ocean-heat-contact.jpg
+      - name: Upload finished film, narration and quality report
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: ocean-heat-earth-1080p60-english-emma
+          path: |
+            output/ocean-heat-earth.mp4
+            output/ocean-heat-earth.json
+            output/ocean-heat-earth.voice.wav
+            output/ocean-heat-quality.json
+            output/ocean-heat-contact.jpg
+            output/cover.png
+          retention-days: 14
