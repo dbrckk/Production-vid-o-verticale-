@@ -1,15 +1,71 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-30T05:59:26.112705+00:00",
+  "generated_at": "2026-10-30T15:06:28.686259+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "Climate academic Andreas Malm barred from entering UK",
-      "summary": "Swedish author was due to speak alongside Palestine Action co-founder at event discussing ban on the group Andreas Malm, the climate academic and author of How to Blow Up a Pipeline, has been blocked from entering the UK before he was due to speak alongside a co-founder of the banned group Palestine Action.",
+      "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
+      "summary": "Turkey has been hit by powerful thunderstorms and a fatal tornado this week with more heavy rain expected Heavy rain and strong winds will continue to affect parts of south-eastern Europe and Turkey over the next few days, as an area of low pressure in the region has allowed for the formation of powerful",
       "source": "The Guardian",
-      "published": "2026-10-30T05:00:45+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/30/climate-academic-andreas-malm-barred-from-entering-uk",
-      "importance": 3.086
+      "published": "2026-10-30T10:07:16+00:00",
+      "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
+      "importance": 3.031
+    },
+    {
+      "title": "Police watchdog to investigate Met’s handling of Meghan warning letter",
+      "summary": "IOPC launches independent investigation after referral by Scotland Yard over 2019 letter about Thomas Markle Scotland Yard faces an independent investigation into its failure in 2019 to pass claims alleging wrongdoing by Thomas Markle, the father of the Duchess of Sussex, to law enforcement agencies",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:53:26+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/30/iopc-watchdog-investigate-met-police-meghan-warning-letter",
+      "importance": 2.547
+    },
+    {
+      "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
+      "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
+      "source": "BBC World",
+      "published": "2026-10-30T14:48:22+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.546
+    },
+    {
+      "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
+      "summary": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email , free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:00:18+00:00",
+      "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
+      "importance": 2.535
+    },
+    {
+      "title": "‘His honesty gave courage to survivors’: domestic abuse charities praise Patrick Stewart’s legacy",
+      "summary": "Actor first shared his childhood experiences as part of Amnesty International campaign and became Refuge ambassador When Patrick Stewart was growing up in the 1940s, he witnessed how, after his father beat his mother, home doctors and ambulance workers would tell her: “You must have done something to provoke",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:00:18+00:00",
+      "url": "https://www.theguardian.com/culture/2026/oct/30/domestic-abuse-charities-patrick-stewart-amnesty-international-refuge",
+      "importance": 2.535
+    },
+    {
+      "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+      "summary": "IISS study questions overreliance on American support and ‘overdependence on expensive, high-end systems’ Gulf states are going to have to reconfigure their trillion-dollar defences given the damage inflicted on their economies and the questionable continued value of US bases in the face of Iranian attack",
+      "source": "The Guardian",
+      "published": "2026-10-30T12:49:56+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
+      "importance": 2.518
+    },
+    {
+      "title": "Hazardous driving conditions for Friday as fog warning issued by Met Office",
+      "summary": "Foggy conditions likely to bring tricky conditions for the Friday morning commute as severe weather warning issued.",
+      "source": "BBC Science",
+      "published": "2026-10-30T06:18:35+00:00",
+      "url": "https://www.bbc.co.uk/weather/articles/c6ly075l742ro?at_medium=RSS&at_campaign=rss",
+      "importance": 2.428
+    },
+    {
+      "title": "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
+      "summary": "End of subsidies and rising prices drive discontent, testing support for Ahmed al-Sharaa's government.",
+      "source": "BBC World",
+      "published": "2026-10-30T06:02:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmn4egvez1yzo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.424
     },
     {
       "title": "Feral deer will become Australia’s next feral pig problem without prompt action, report warns",
@@ -17,7 +73,15 @@
       "source": "The Guardian",
       "published": "2026-10-30T03:30:42+00:00",
       "url": "https://www.theguardian.com/environment/2026/oct/30/australia-feral-deer-problem-report-national-action-plan",
-      "importance": 2.516
+      "importance": 2.389
+    },
+    {
+      "title": "Democrats have an identity crisis - it won't be an easy fix",
+      "summary": "Whatever the result of the midterm elections, the party is facing tough questions over what they stand for and who should represent them.",
+      "source": "BBC World",
+      "published": "2026-10-30T02:14:41+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cknv08980d3vo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.371
     },
     {
       "title": "El Niño-driven drought in Papua New Guinea a ‘national crisis’ as rivers dry up and local farms fail",
@@ -25,23 +89,31 @@
       "source": "The Guardian",
       "published": "2026-10-30T01:45:56+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea",
-      "importance": 2.491
+      "importance": 2.365
     },
     {
-      "title": "Manosphere and online misogyny should be treated as public health issues, say UK experts",
-      "summary": "Report calls for an effort to tackle harms in similar way to obesity and smoking, and stresses need to ‘offer boys something better’ The manosphere and online misogyny should be treated by the government as a public health issue, in the same way as obesity or smoking, experts have said. Writing in the",
-      "source": "The Guardian",
-      "published": "2026-10-29T23:30:37+00:00",
-      "url": "https://www.theguardian.com/society/2026/oct/29/manosphere-online-misogyny-public-health-policy-lancet-report",
-      "importance": 2.46
+      "title": "Student-backed election winners demand sweeping resignations in Serbia",
+      "summary": "Days after ousting Aleksandar Vučić's party from power, Student List MPs call for top figures to stand down.",
+      "source": "BBC World",
+      "published": "2026-10-30T00:17:28+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2dwzp0z0vo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.344
+    },
+    {
+      "title": "Venezuela opposition leader María Machado calls for elections upon return",
+      "summary": "Machado, who was in exile for nearly a year, said the transition in Venezuela's government would be \"irreversible, organised, pacific\".",
+      "source": "BBC World",
+      "published": "2026-10-29T21:05:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.3
     },
     {
       "title": "BBC Inside Science",
       "summary": "Time is running out for one of the most ambitious environmental pledges in history.",
       "source": "BBC Science",
       "published": "2026-10-29T21:00:00+00:00",
-      "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service_south_asia?at_medium=RSS&at_campaign=rss",
-      "importance": 2.425
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
+      "importance": 2.299
     },
     {
       "title": "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
@@ -49,23 +121,7 @@
       "source": "BBC World",
       "published": "2026-10-29T20:21:54+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckdd8qdl9e0eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.416
-    },
-    {
-      "title": "Seven oil tankers carrying 288,000 tonnes of Russian diesel sail towards US",
-      "summary": "Tankers, tracked by Greenpeace, are first phase of Trump-Putin deal – but there is uncertainty over whether they will unload Seven oil tankers carrying an estimated 288,000 tonnes of Russian diesel are now sailing towards the US, though it is uncertain if the vessels will be able to unload amid a political",
-      "source": "The Guardian",
-      "published": "2026-10-29T19:04:17+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/seven-oil-tankers-288000-tonnes-russian-diesel-sail-us-putin-trump",
-      "importance": 2.398
-    },
-    {
-      "title": "Israel election results: Qatar says accusations of election interference in Israel ‘ridiculous and dangerous’ – as it happened",
-      "summary": "Netanyahu’s claim of interference in election also dismissed by Israeli police and opposition parties Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalition Gadi Eisenkot, leader of the Yashar party and Benjamin Netanyahu’s main rival, has warned political opponents against",
-      "source": "The Guardian",
-      "published": "2026-10-29T17:49:57+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/oct/29/israel-election-results-live-updates-poll-netanyahu-eisenkot-bloc-coalition-latest-news",
-      "importance": 2.381
+      "importance": 2.29
     },
     {
       "title": "US interest rates held steady and economy grows - what it means for you",
@@ -73,7 +129,7 @@
       "source": "BBC Business",
       "published": "2026-10-29T17:15:05+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.373
+      "importance": 2.246
     },
     {
       "title": "Your pay, energy bills and savings: How the Budget affects you",
@@ -81,7 +137,7 @@
       "source": "BBC Business",
       "published": "2026-10-29T15:11:35+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.344
+      "importance": 2.218
     },
     {
       "title": "DoorDash to buy Instacart in $17bn deal it says will expand customer options",
@@ -89,7 +145,7 @@
       "source": "BBC Business",
       "published": "2026-10-29T15:05:15+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.343
+      "importance": 2.216
     },
     {
       "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
@@ -97,7 +153,7 @@
       "source": "BBC World",
       "published": "2026-10-29T14:58:28+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.341
+      "importance": 2.215
     },
     {
       "title": "Island Energy: No plans to remove gas standing charge",
@@ -105,7 +161,7 @@
       "source": "BBC Business",
       "published": "2026-10-29T13:39:54+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwy7l1375d74o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.323
+      "importance": 2.197
     },
     {
       "title": "Philippine police obtain warrant to search Thomas Markle's devices",
@@ -113,7 +169,7 @@
       "source": "BBC World",
       "published": "2026-10-29T13:25:07+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm0j06y3pn75o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.32
+      "importance": 2.193
     },
     {
       "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
@@ -121,23 +177,199 @@
       "source": "BBC Business",
       "published": "2026-10-29T13:19:24+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.319
+      "importance": 2.192
     },
     {
-      "title": "How could Israel break election deadlock? Here are four scenarios",
-      "summary": "With more than 90% of votes counted, all signs point to an impasse. The most likely outcome may be new elections.",
+      "title": "Six dead after helicopter crashes in northern Indian state",
+      "summary": "The aircraft reportedly took off from the Hindu pilgrimage site of Badrinath on Friday afternoon before losing contact.",
       "source": "BBC World",
-      "published": "2026-10-29T09:06:48+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.26
+      "published": "2026-10-30T15:06:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr93zxyn9eqeo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.0
     },
     {
-      "title": "Ethiopia acquires Russian fighter jets and air defence systems amid war in Tigray",
-      "summary": "The acquisition of the warplanes comes amid ongoing fighting in northern Tigray region that started last month.",
+      "title": "Spain transport minister says he won't resign over high-speed rail disaster",
+      "summary": "Óscar Puente has been facing calls to resign after two high-speed trains collided earlier in the week, killing at least 69 people.",
       "source": "BBC World",
-      "published": "2026-10-29T08:23:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw78prj801pvo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.25
+      "published": "2026-10-30T15:03:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.999
+    },
+    {
+      "title": "US tech stocks see sharp falls over AI cost concerns",
+      "summary": "Shares in Intel have continued to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "source": "BBC Technology",
+      "published": "2026-10-30T15:01:56+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.999
+    },
+    {
+      "title": "People of 27 nationalities may be among those killed or injured in Spain train crash, Sánchez says – Europe live",
+      "summary": "Some 69 people have been confirmed dead but the toll may rise further, with at least 70 people reported missing Peunte begins by paying tribute to all affected by the incident. He says that “at present, evidence points to a failure within Adif’s command and control centre,” but adds that investigators are",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:52:48+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/oct/30/spain-investigates-toledo-crash-pedro-sanchez-france-italy-protests-latest-news-updates",
+      "importance": 1.997
+    },
+    {
+      "title": "Reader Q&A: How can we radically change the way we live? Ask Aditya Chakrabortty",
+      "summary": "Guardian columnist, senior economics commentator and host of the new Radical Thinking podcast Aditya Chakrabortty is answering your questions on the big ideas around economics, society and democracy, and his new podcast Send your questions to conversations@theguardian.com or join the discussion on Friday",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:55:09+00:00",
+      "url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
+      "importance": 1.997
+    },
+    {
+      "title": "Business secretary says UK needs to understand direction of EU before signing up to closer relationship – UK politics live",
+      "summary": "The prime minister has suggested that he wants a public debate on the UK’s partnership with the EU. Downing Street has paid tribute to Patrick Stewart following the actor’s death. At the daily lobby briefing, the PM’s spokesperson gave a comment that was a bit more extensive than the usual No 10 contribution",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:47:15+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/oct/30/andy-burnham-labour-conservatives-devolution-scotland-wales-latest-news-updates",
+      "importance": 1.996
+    },
+    {
+      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+      "summary": "Activists call for people to make their anger known over poor public services including education and housing Europe live – latest updates Street protests sweeping Europe are expected to spread to Germany and reignite in France on Saturday, with police mobilised to stop potential looting and rioting on the",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:42:46+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+      "importance": 1.995
+    },
+    {
+      "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+      "summary": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
+      "source": "BBC World",
+      "published": "2026-10-30T14:19:43+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Spain’s trust in high-speed rail ‘broken’ after second deadly crash this year, says PM",
+      "summary": "Pedro Sánchez vows to investigate crash that killed 69 people – and rebuild public confidence Europe live – latest updates Spain’s prime minister, Pedro Sánchez, has admitted “trust in high-speed rail has been broken” after Wednesday’s train collision that killed at least 69 people, injured more than 100 and",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:13:52+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/30/spain-trust-high-speed-rail-broken-after-second-deadly-crash-this-year-says-pedro-sanchez",
+      "importance": 1.988
+    },
+    {
+      "title": "Christa Pike makes first public comments since failed execution: ‘There is pain in my mind and in my soul’",
+      "summary": "Pike is facing death penalty for 1995 murder of classmate, despite surviving a botched execution last month Christa Pike has marked a month since her failed execution by Tennessee and released a statement in which she laments the “incompetence” that has led to this moment, adding that despite ongoing healing",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:15:48+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/30/christa-pike-statement-tennessee-execution",
+      "importance": 1.988
+    },
+    {
+      "title": "Congressional Democrats demand answers over ICE treatment of hunger strikers",
+      "summary": "Immigrants at Texas detention facility, protesting against harsh conditions, say they face threats of force-feeding Members of Congress sent a scathing letter to federal immigration officials this week demanding answers about conditions inside a Texas immigration jail, as detained immigrants on a prolonged",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:13:13+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/30/congressional-democrats-letter-ice-dhs-hunger-strikers",
+      "importance": 1.988
+    },
+    {
+      "title": "‘Amateur morons’: Flávio Bolsonaro’s short-lived ‘president-elect’ claim met with mockery",
+      "summary": "Brazilian media ridicule defeated candidate over ‘shameful’ absconsion to US and bizarre letter with wrong coat of arms Flávio Bolsonaro had hoped that by Sunday night people would be calling him the next president of Brazil. Instead, the far-right politician’s decision to flee to the United States after",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:08:41+00:00",
+      "url": "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
+      "importance": 1.987
+    },
+    {
+      "title": "Andreas Malm condemns UK travel ban as ‘drift into authoritarianism’",
+      "summary": "Swedish climate academic says he has been ‘kept in the dark’ over Home Office decision to revoke his travel authorisation The Swedish climate academic Andreas Malm has condemned a travel ban imposed on him by the UK government as a “drift into authoritarianism” amid criticism of the move. Malm, the author of",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:06:23+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/30/andreas-malm-uk-travel-ban-drift-authoritarianism",
+      "importance": 1.986
+    },
+    {
+      "title": "Serial killers, set designers, and hordes of skeletons: welcome to the Halloween capital of America",
+      "summary": "In the placid LA suburb of Burbank, residents spend months – and thousands of dollars – turning their homes into Disney-style attractions. Why does it go so hard for Halloween – and is it becoming too popular for its own good? Every night, starting in mid-September, Diego Linares puts on a serial killer",
+      "source": "The Guardian",
+      "published": "2026-10-30T14:00:15+00:00",
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/30/burbank-california-los-angeles-halloween-capital",
+      "importance": 1.985
+    },
+    {
+      "title": "Yorkshire Water boss resigns after firm downgraded",
+      "summary": "Nicola Shaw, who has led the company since 2022, will step down in January, it is announced.",
+      "source": "BBC Business",
+      "published": "2026-10-30T13:59:16+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "Ousted 60 Minutes correspondent Cecilia Vega on overhaul at CBS News: ‘It hurts to watch’",
+      "summary": "Vega said she still doesn’t know why she was fired from the show, which has experienced a slump in ratings Cecilia Vega, the 60 Minutes correspondent fired as part of a dramatic overhaul of the CBS News show this spring, said it “hurts” to see what has happened to the storied newsmagazine and other segments",
+      "source": "The Guardian",
+      "published": "2026-10-30T13:53:14+00:00",
+      "url": "https://www.theguardian.com/media/2026/oct/30/60-minutes-correspondent-cecilia-vega-cbs-news",
+      "importance": 1.983
+    },
+    {
+      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+      "summary": "Dan S Sullivan, the incumbent Republican senator running for re-election, and allies have accused the Democrats of trying to confuse voters by recruiting Dan J Sullivan to also stand in the race.",
+      "source": "BBC World",
+      "published": "2026-10-30T13:46:16+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.981
+    },
+    {
+      "title": "British student pilot among three dead after two helicopters collide in Oregon",
+      "summary": "Flight instructor, 22, and pilot, 38, among other fatalities after mid-air collision occurs near small airport Three people have been killed after two helicopters collided in mid-air near a small airport in Oregon on Thursday, authorities have confirmed. The Yamhill county sheriff’s office said on Thursday",
+      "source": "The Guardian",
+      "published": "2026-10-30T13:41:00+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/oct/30/oregon-two-helicopters-collide",
+      "importance": 1.98
+    },
+    {
+      "title": "Swedish academic says he has been barred from UK over event with Palestine Action founder",
+      "summary": "Andreas Malm was due to appear on a panel alongside a co-founder of the proscribed group next week.",
+      "source": "BBC World",
+      "published": "2026-10-30T12:36:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l32jdlvl1o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.965
+    },
+    {
+      "title": "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+      "summary": "Several hundred people are understood to have decided to stay in the frontline town, despite the lack of gas, electricity and running water.",
+      "source": "BBC World",
+      "published": "2026-10-30T12:25:53+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.963
+    },
+    {
+      "title": "What we know about Binance's $6.3bn hack",
+      "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+      "source": "BBC World",
+      "published": "2026-10-30T12:27:28+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.963
+    },
+    {
+      "title": "China denies allegations of spy operation targeting Nvidia CEO",
+      "summary": "US intelligence officials believe a Chinese businesswoman was gathering information for Beijing on the US chip-making giant, The New York Times reports.",
+      "source": "BBC World",
+      "published": "2026-10-30T12:20:04+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckgj9plnlxdeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.961
+    },
+    {
+      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
+      "source": "BBC World",
+      "published": "2026-10-30T12:04:02+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.958
+    },
+    {
+      "title": "Who could be behind the Binance hack and what we know so far",
+      "summary": "Binance has been hit by what could be the biggest crypto hack ever - here's what we know so far",
+      "source": "BBC Technology",
+      "published": "2026-10-30T11:57:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yn8eqg3npo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.956
     },
     {
       "title": "What we now know about the UK economy in four charts",
@@ -145,7 +377,15 @@
       "source": "BBC Business",
       "published": "2026-10-28T20:08:45+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.08
+      "importance": 1.953
+    },
+    {
+      "title": "From Bitcoin to Binance: Crypto terms and what they mean",
+      "summary": "The Binance hack has thrust cryptocurrencies back into headlines - but what are they and how do they work?",
+      "source": "BBC Technology",
+      "published": "2026-10-30T11:35:51+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.951
     },
     {
       "title": "Healey provides some breathing space but things still set to get worse for most",
@@ -153,255 +393,15 @@
       "source": "BBC Business",
       "published": "2026-10-28T19:51:01+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.076
+      "importance": 1.949
     },
     {
-      "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
-      "summary": "The Russian President praised Musk and said they are in \"close\" contact.",
-      "source": "BBC Science",
-      "published": "2026-10-28T19:15:58+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.068
-    },
-    {
-      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
-      "summary": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
-      "source": "BBC Business",
-      "published": "2026-10-28T18:45:09+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
-      "importance": 2.061
-    },
-    {
-      "title": "Erin Patterson to die in prison after losing appeal against mushroom murder convictions",
-      "summary": "Victorian court of appeal rules Patterson should be jailed for life with no parole over deadly beef wellington lunch that killed three people Erin Patterson mushroom murders appeal – live updates Get our breaking news email , free app or daily news podcast Erin Patterson has lost her bid to overturn her",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:31:26+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/29/erin-patterson-mushroom-murders-appeal-ruling-ntwnfb",
-      "importance": 1.994
-    },
-    {
-      "title": "Crypto giant Binance hit by hack suspected to be largest in history",
-      "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+      "title": "Prominent Russian newspaper shuts down under pressure from authorities",
+      "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
       "source": "BBC World",
-      "published": "2026-10-30T05:15:16+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.99
-    },
-    {
-      "title": "Former Sydney childcare worker Ashley Paul Griffith hit with 202 more abuse charges",
-      "summary": "NSW police say charges include child rape and relate to 23 alleged victims aged between one and five at a Sydney childcare centre Get our breaking news email , free app or daily news podcast One of Australia’s most notorious paedophiles is facing hundreds more child abuse charges, including for the alleged",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:14:17+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/30/ashley-paul-griffith-queensland-paedophile-childcare-worker-additional-charges-ntwnfb",
-      "importance": 1.99
-    },
-    {
-      "title": "Crypto exchange Binance freezes billions in funds amid potential $6.3bn security breach",
-      "summary": "Breach may have started with a hacked laptop belonging to engineer, in incident analysts say could be of the most significant intrusions on record Binance, the world’s largest cryptocurrency exchange, has said it’s investigating reports of a potential $6.3bn security breach that analysts said could amount to",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:06:47+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/29/binance-crypto-exchange-hack",
-      "importance": 1.988
-    },
-    {
-      "title": "Sinkholes, scarred land and scapegoats: the scourge of illegal gold mining in Johannesburg",
-      "summary": "There is no end in sight for the drivers of illegal mining, while police action appears ineffective Cora Bailey has been encountering illegal miners ever since she first started treating injured animals in the townships around Roodepoort, west of Johannesburg, in 1991. But as the price of gold has soared, so",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:00:45+00:00",
-      "url": "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
-      "importance": 1.986
-    },
-    {
-      "title": "Sudanese diaspora and human rights groups denounce UAE nominee for UN top job",
-      "summary": "Critics cite Lana Nusseibeh’s denial of accusations the UAE is fuelling Sudan war by supporting paramilitary RSF Members of the Sudanese diaspora and international human rights monitors have denounced the candidature of an Emirati diplomat for the top job at the UN, citing her denial of accusations that the",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:00:45+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
-      "importance": 1.986
-    },
-    {
-      "title": "Electrocutions, disease and no pay: how workers risk exploitation in Europe’s datacentres",
-      "summary": "As thousands of datacentres are constructed across Europe, the Guardian and Investigate Europe have uncovered disturbing evidence that some workers building them are exposed to dangerous conditions and living in fear of speaking out Sandu* checked his watch. He was winding down the last 15 minutes of his",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:00:46+00:00",
-      "url": "https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres",
-      "importance": 1.986
-    },
-    {
-      "title": "British Council’s £197m debt should mostly be written off, MPs say",
-      "summary": "Commons report calls on Foreign Office to bail out soft-power flagship reeling from job cuts and asset sales Ministers should explore writing off a crippling £197m loan to the British Council by converting as much of it as possible into “a grant or similar”, MPs have said. The Commons public accounts",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:00:46+00:00",
-      "url": "https://www.theguardian.com/politics/2026/oct/30/british-council-debt-should-mostly-be-written-off-say-mps",
-      "importance": 1.986
-    },
-    {
-      "title": "Wildlife Trusts hit £30m target to buy and rewild huge Northumberland estate",
-      "summary": "About 25,000 members of public chip in £17m towards 3,800-hectare Rothbury estate, described as ‘once-in-a-generation opportunity’ One of the most ambitious nature recovery projects ever undertaken in England can go ahead after campaigners announced they had raised £30m to buy an estate in Northumberland.",
-      "source": "The Guardian",
-      "published": "2026-10-30T05:00:44+00:00",
-      "url": "https://www.theguardian.com/environment/2026/oct/30/wildlife-trusts-northumberland-nature-recovery-rothbury-estate",
-      "importance": 1.986
-    },
-    {
-      "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-      "summary": "Xi's anti-corruption campaign has become \"an effort to consolidate and maintain authority\", observers say.",
-      "source": "BBC World",
-      "published": "2026-10-30T03:24:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.964
-    },
-    {
-      "title": "Three dead after two helicopters collide midair near Oregon airport",
-      "summary": "The collision involving a Robinson R22 and an Airbus helicopter occurred on Thursday afternoon, with both aircraft crashing in a field adjacent to a highway.",
-      "source": "BBC World",
-      "published": "2026-10-30T03:05:17+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cked3p81303yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.96
-    },
-    {
-      "title": "China expels a record number from Communist party amid Xi’s intensified purges of top officials",
-      "summary": "The unprecedented number of empty seats at the fifth plenum – a symbol of expulsions – serve as a symbol for the scale of the purges under Xi Jinping China expelled a record number of officials from the Chinese Communist party (CCP) as it concluded a major political gathering , which saw an unprecedented",
-      "source": "The Guardian",
-      "published": "2026-10-30T02:56:46+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/30/china-expels-record-number-communist-party-xi-jinping-purges-officials-fifth-plenum",
-      "importance": 1.958
-    },
-    {
-      "title": "Former Bachelor star Sam Wood to remain in custody after another failed bail bid over domestic violence charges",
-      "summary": "Former Bachelor star and wellness influencer stands accused of choking and assaulting wife at Noosa in Queensland Get our breaking news email , free app or daily news podcast Former Bachelor star Sam Wood will remain in custody while he awaits trial on domestic violence charges , after he was refused bail",
-      "source": "The Guardian",
-      "published": "2026-10-30T02:47:58+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/30/sam-wood-bail-bid-court-wife-szezana-ntwnfb",
-      "importance": 1.956
-    },
-    {
-      "title": "Trump again calls for prosecution of Mary Peltola as turmoil grows over Alaska campaign investigation – as it happened",
-      "summary": "This live blog is now closed. Alaska governor orders investigation into Peltola’s Senate campaign Sign up for the Breaking News US email With days until the midterm elections, a new poll from CNN places Democrats well in the lead in key Senate races in Texas and Michigan, while projecting tighter contests in",
-      "source": "The Guardian",
-      "published": "2026-10-30T01:59:25+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/oct/29/midterm-elections-politics-trump-obama-california-alaska-latest-news-updates",
-      "importance": 1.944
-    },
-    {
-      "title": "Mushroom murderer fails to overturn convictions in Australian court challenge",
-      "summary": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all.",
-      "source": "BBC World",
-      "published": "2026-10-30T01:35:40+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck8dz8j5n993o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.939
-    },
-    {
-      "title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
-      "summary": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatment The “unprecedented” spread of the Ebola outbreak means it could reach the UK and other countries, according to one of Africa’s top health officials. As the",
-      "source": "The Guardian",
-      "published": "2026-10-28T09:37:49+00:00",
-      "url": "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-      "importance": 1.934
-    },
-    {
-      "title": "Vivek Ramaswamy discontinues attack ad that prompted wave of revulsion",
-      "summary": "Candidate for Ohio governor confirms campaign no longer airing ad that smeared rival and was defended by Trump Vivek Ramaswamy, the Republican nominee for Ohio governor, confirmed on Thursday that his campaign is no longer airing an attack ad that features the estranged mother of his Democratic opponent, Amy",
-      "source": "The Guardian",
-      "published": "2026-10-30T01:10:33+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/vivek-ramaswamy-attack-ad-ohio-governor-race-republican",
-      "importance": 1.933
-    },
-    {
-      "title": "Antisemitism envoy proposes ‘external ombudsman’ to monitor ABC and SBS coverage of Israel and Middle East",
-      "summary": "Jillian Segal says perception of link between coverage of conflicts and hostility towards Jewish Australians ‘is itself a matter of public importance’ Get our breaking news email , free app or daily news podcast The federal government’s antisemitism envoy has proposed an “external independent ombudsman” to",
-      "source": "The Guardian",
-      "published": "2026-10-30T00:37:36+00:00",
-      "url": "https://www.theguardian.com/media/2026/oct/30/jillian-segal-antisemitism-envoy-plan-report-priorities-ntwnfb",
-      "importance": 1.926
-    },
-    {
-      "title": "From workshops to the catwalk - why mended clothes are going mainstream",
-      "summary": "A new generation is embracing eye-catching patching and visible mends.",
-      "source": "BBC Science",
-      "published": "2026-10-30T00:00:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy9qe5r1z3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.917
-    },
-    {
-      "title": "Polymarket temporarily suspends trading on international platform due to security incident",
-      "summary": "Security incident linked to performance-monitoring tool spurred platform to halt trading for about an hour Polymarket temporarily halted trading on its international platform on Thursday because of a security incident that compromised a third-party provider, the company said. Trading was paused for about an",
-      "source": "The Guardian",
-      "published": "2026-10-29T23:20:16+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/29/polymarket-temporarily-suspends-trading-security-incident",
-      "importance": 1.908
-    },
-    {
-      "title": "Netanyahu accused of smearing Arab voters to hold on to power",
-      "summary": "Prime minister claims Arab Israeli parties used foreign backing to steal elections, in which his coalition lost its majority Benjamin Netanyahu has been accused of using smear tactics to cling to power, after he claimed that Arab Israeli parties had used foreign backing to “steal” Tuesday’s election, in",
-      "source": "The Guardian",
-      "published": "2026-10-29T23:14:53+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/29/israeli-leader-netanyahu-accused-of-using-ugly-smear-tactics-to-cling-to-power",
-      "importance": 1.906
-    },
-    {
-      "title": "Hyrox athlete who soiled herself in race tells BBC she put others at risk but says backlash was traumatic",
-      "summary": "In her first interview since the incident, Joanna Wietrzyk told the BBC she takes responsibility for it but did not deserve such a severe backlash.",
-      "source": "BBC World",
-      "published": "2026-10-29T23:03:39+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6gr8l15k744o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.904
-    },
-    {
-      "title": "What makes this golden eagle chick so important?",
-      "summary": "The bird's arrival on a managed grouse moor in southern Scotland is seen as a key moment for the species.",
-      "source": "BBC Science",
-      "published": "2026-10-29T23:00:41+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq4g1jyj9dv7o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.903
-    },
-    {
-      "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
-      "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.",
-      "source": "BBC World",
-      "published": "2026-10-29T22:17:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.893
-    },
-    {
-      "title": "Hegseth reportedly fires high-ranking army strategist over alleged leaks",
-      "summary": "Pentagon says it has referred leak case to justice department for criminal investigation The US defense secretary, Pete Hegseth, has reportedly dismissed Lt Gen Brett Sylvia, a high-ranking army strategist serving on the Pentagon’s joint staff, following allegations that he disclosed classified information",
-      "source": "The Guardian",
-      "published": "2026-10-29T22:01:56+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/hegseth-fires-general-leak-inquiry-pentagon",
-      "importance": 1.889
-    },
-    {
-      "title": "Young athlete and former minister among victims of Spain train crash",
-      "summary": "As some of the victims' names are released publicly, an outpouring of grief and anger is sweeping across Spain.",
-      "source": "BBC World",
-      "published": "2026-10-29T21:33:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.883
-    },
-    {
-      "title": "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-      "summary": "The Republican governor was responding to allegations in the New York Times that Democrats recruited a spoiler candidate, Dan Sullivan.",
-      "source": "BBC World",
-      "published": "2026-10-29T21:31:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c8vgx0zrpk6no?at_medium=RSS&at_campaign=rss",
-      "importance": 1.882
-    },
-    {
-      "title": "Watch: What leaked audio reveals about Spain train crash",
-      "summary": "Recordings between a control centre and the train drivers appear to show one train was given clearance to move even though another train had stalled on the track.",
-      "source": "BBC World",
-      "published": "2026-10-29T20:50:25+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c6vgjeg0myzgo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.873
-    },
-    {
-      "title": "DHS cites risk to more than 40,000 personnel in effort to take leaked data offline",
-      "summary": "The Department of Homeland Security asked an Icelandic hosting company to take down data obtained through hack The US Department of Homeland Security (DHS) asked ⁠an Icelandic hosting company on Thursday to take down or limit access to data related to thousands ⁠of agency personnel, saying ⁠the content ​put",
-      "source": "The Guardian",
-      "published": "2026-10-29T20:35:54+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/29/dhs-personnel-data-leak",
-      "importance": 1.87
+      "published": "2026-10-30T11:23:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.948
     }
   ]
 }
