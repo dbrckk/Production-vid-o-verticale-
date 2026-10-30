@@ -29,12 +29,12 @@ def test_each_photosynthesis_scene_has_distinct_bespoke_illustration():
 
 
 def test_photon_molecules_and_leaves_animate_between_adjacent_frames():
-    p=Painter(288,512)
+    p=Painter(540,960)
     for index in range(6):
         a=p.base.copy()
         b=p.base.copy()
         draw(p,a,3.0,index,.4)
-        draw(p,b,3.0+1/60,index,.4+1/360)
-        first=np.asarray(a.convert("RGB"))[175:365,22:264].astype(np.int16)
-        second=np.asarray(b.convert("RGB"))[175:365,22:264].astype(np.int16)
+        draw(p,b,3.0+1/30,index,.4+1/180)
+        first=np.asarray(a.convert("RGB"))[330:690,42:494].astype(np.int16)
+        second=np.asarray(b.convert("RGB"))[330:690,42:494].astype(np.int16)
         assert np.abs(first-second).sum()>0,(index,"static scene")
