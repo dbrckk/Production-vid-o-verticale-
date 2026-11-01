@@ -1,39 +1,87 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-01T06:21:47.654778+00:00",
+  "generated_at": "2026-11-01T15:16:38.709924+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "Former NSW Liberal leads overhaul of One Nation candidate selection process",
+      "summary": "Exclusive: Mark Jones, once on track for one of the Liberal party’s most powerful roles, is now instrumental in One Nation’s expansion Get our daily political email , free app or daily news podcast In 2023, a young and ambitious Liberal moderate was on the brink of securing one of the most powerful roles in",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:00:15+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/former-nsw-liberal-leads-overhaul-of-one-nation-candidate-selection-process-ntwnfb",
+      "importance": 2.532
+    },
+    {
+      "title": "Welsh health board considers closing urgent primary care centres at three hospitals",
+      "summary": "Holyhead, Tremadog and Bangor UPCCs may shut as Betsi Cadwaladr University health board struggles with funding A struggling Welsh health board could close urgent primary care centres at three hospitals, citing funding and recruitment issues, prompting widespread criticism. Betsi Cadwaladr University health",
+      "source": "The Guardian",
+      "published": "2026-11-01T13:13:25+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/01/welsh-health-board-urgent-primary-care-centres-upcc-holyhead-tremadog-bangor-betsi-cadwaladr",
+      "importance": 2.521
+    },
+    {
+      "title": "Spirit of 1676: remembering the Native American cataclysm of King Philip’s war",
+      "summary": "The conflict that tore through New England 350 years ago was the bloodiest per capita in colonial or US history Massachusetts is proud of its ties to the American Revolution. From Paul Revere’s Ride to the siege of Boston, the past year-plus has been devoted to celebrating 250 years of US independence. Yet",
+      "source": "The Guardian",
+      "published": "2026-11-01T13:00:13+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/king-philips-war-anniversary-native-american",
+      "importance": 2.518
+    },
+    {
+      "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
+      "summary": "A truce has cooled the trade conflict, but neither country has done anything to limit the outbreak of new hostilities Donald Trump ’s trade wars have largely fallen off the headlines. Fears of new tariffs flare up from time to time when the US president goes off the rails – for instance, threatening to end",
+      "source": "The Guardian",
+      "published": "2026-11-01T12:00:12+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
+      "importance": 2.505
+    },
+    {
+      "title": "English children’s homes are in crisis. Does Denmark hold the answers?",
+      "summary": "UK children’s minister Josh MacAlister has travelled to Copenhagen to see what can be learned from Danish system In a quiet suburb on the outskirts of Copenhagen sits a large white house, set back from the road behind a purple-leaved plum tree. It looks much like the rest of the buildings on the street and",
+      "source": "The Guardian",
+      "published": "2026-11-01T08:00:05+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/01/english-childrens-homes-crisis-denmark-care-system-model",
+      "importance": 2.449
+    },
+    {
+      "title": "Energy bills help 'doesn't go far enough'",
+      "summary": "Families in the West Midlands say they are worried about paying winter energy bills.",
+      "source": "BBC Business",
+      "published": "2026-11-01T07:15:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkvpnj7l7yo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.439
+    },
+    {
+      "title": "India's opposition holds mega rally seeking election chief's resignation",
+      "summary": "Thousands gathered in the heart of delhi, calling for the chief election commissioner to step down.",
+      "source": "BBC World",
+      "published": "2026-11-01T07:00:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.435
+    },
+    {
+      "title": "'Rok' solid recognition for Slovenian space scientist",
+      "summary": "Two men from the Armagh Planetarium and Observatory have had asteroids named in their honour in recognition of their work.",
+      "source": "BBC Science",
+      "published": "2026-11-01T06:35:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqx283v54zd6o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.429
+    },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
       "summary": "Turkey has been hit by powerful thunderstorms and a fatal tornado this week with more heavy rain expected Heavy rain and strong winds will continue to affect parts of south-eastern Europe and Turkey over the next few days, as an area of low pressure in the region has allowed for the formation of powerful",
       "source": "The Guardian",
       "published": "2026-10-30T10:07:16+00:00",
       "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
-      "importance": 2.486
+      "importance": 2.362
     },
     {
-      "title": "India's opposition set to hold mega rally seeking election chief's resignation",
-      "summary": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+      "title": "Judge orders Trump administration to stop threatening US election officials",
+      "summary": "The order comes after election officials received letters demanding they set aside the ballots of possible non-citizen voters.",
       "source": "BBC World",
-      "published": "2026-11-01T00:12:07+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.464
-    },
-    {
-      "title": "Protests under way in Germany and France as minister warns against use of Halloween masks – as it happened",
-      "summary": "France’s interior minister, Laurent Nuñez, has warned protesters that covering their faces with Halloween costumes could result in fines Full report: Police clash with masked rioters after largely peaceful protests across France Protesters in Paris have begun marching from Porte de Bagnolet, with",
-      "source": "The Guardian",
-      "published": "2026-10-31T18:31:38+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/oct/31/france-germany-protests-paris-europe-latest-news-updates",
-      "importance": 2.386
-    },
-    {
-      "title": "Storm warnings for Melbourne, Canberra, Sydney and Brisbane as cold front ‘packs a punch’",
-      "summary": "BoM predicts hail, damaging winds and possible flash flooding across Victoria, NSW and parts of Queensland into Sunday Get our breaking news email , free app or daily news podcast Storm warnings are in place for multiple capital cities across Australia’s east and south-east as a severe weather front sweeps",
-      "source": "The Guardian",
-      "published": "2026-10-31T06:05:20+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/31/weather-bom-storm-warnings-melbourne-canberra-sydney-brisbane",
-      "importance": 2.213
+      "published": "2026-11-01T00:27:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.344
     },
     {
       "title": "Spain train disaster clouds Sánchez chances of re-election",
@@ -41,15 +89,7 @@
       "source": "BBC World",
       "published": "2026-10-31T05:44:21+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.208
-    },
-    {
-      "title": "Responsible or panicked? Meet the people around the world already preparing for crisis",
-      "summary": "Filter straws to a disposable toilet - people in the US, Japan, Sweden and Netherlands on what's in their emergency stashes.",
-      "source": "BBC World",
-      "published": "2026-10-31T01:32:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckreypn92w49o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.15
+      "importance": 2.084
     },
     {
       "title": "Global nature talks reach deal but money remains an issue",
@@ -57,7 +97,175 @@
       "source": "BBC World",
       "published": "2026-10-31T01:27:05+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.148
+      "importance": 2.025
+    },
+    {
+      "title": "Tributes paid to ‘inspiring’ University of Cambridge scientist who died in Spanish train crash",
+      "summary": "Dr Marta Shahbazi was travelling to a conference to receive an award for scientific excellence in developmental biology An “inspiring” University of Cambridge scientist died in the Spanish train collision on Wednesday which killed at least 69 people. Dr Marta Shahbazi , an affiliate associate professor at",
+      "source": "The Guardian",
+      "published": "2026-11-01T15:00:14+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
+      "importance": 1.996
+    },
+    {
+      "title": "John Healey says UK apology over historic role in slave trade won’t lead to financial reparations – UK politics live",
+      "summary": "Ahead of a meeting with Commonwealth leaders, Andy Burnham wrote that Britain needed to ‘acknowledge its complicated history’ At the end of his interview with Kuennsberg, Healey was also asked to comment on a potential apology for Britain’s near-250 years of perpetrating the slave trade and why the",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:47:27+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/01/andy-burnham-uk-historic-slave-trade-financial-reparations-badenoch-budget-defence-latest-politics-news-updates",
+      "importance": 1.993
+    },
+    {
+      "title": "Green party must avoid being taken over by hard left, says former leader",
+      "summary": "Adrian Ramsay says some new members would be ‘more at home’ in Your Party or Socialist Workers party The former Green party leader Adrian Ramsay has said the party must fix its internal democracy to avoid a takeover by the hard left, saying that some new members “might be more at home” in Your Party or the",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:35:39+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/01/green-party-must-avoid-hard-left-takeover-says-former-leader-adrian-ramsay",
+      "importance": 1.991
+    },
+    {
+      "title": "One person killed in shooting outside Magic City Classic football game in Alabama",
+      "summary": "Eight injured in shooting outside Legion Field Annual game draws huge crowds to Birmingham One person was killed and eight others were wounded in a mass shooting outside Legion Field after the annual Magic City Classic football game on Saturday night, police in Birmingham, Alabama, said. Michael Pickett",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:10:57+00:00",
+      "url": "https://www.theguardian.com/sport/2026/nov/01/one-person-killed-in-shooting-outside-magic-city-classic-football-game-in-alabama",
+      "importance": 1.985
+    },
+    {
+      "title": "Home values fall for seventh consecutive month as interest rates dent demand",
+      "summary": "Centre of downturn shifts away from Sydney and Melbourne, but after such strong growth most homeowners still sit on sizeable gains Get our breaking news email , free app or daily news podcast Australian home values have dropped for a seventh consecutive month, with prices in the capital cities now falling at",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:00:18+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
+      "importance": 1.982
+    },
+    {
+      "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
+      "summary": "Exclusive : Move to scrap legal requirement to set aside water for environment is ‘extreme even for the NT CLP government’, green group says Get our breaking news email , free app or daily news podcast The Northern Territory government has been accused of making a “blatant and shameless” attack on nature by",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:00:13+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
+      "importance": 1.982
+    },
+    {
+      "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
+      "summary": "Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email , free app or daily news podcast AI is taking First Nations art and turning it into “Temu slop”, the Pitjantjatjara artist Sally Scales",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:00:13+00:00",
+      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
+      "importance": 1.982
+    },
+    {
+      "title": "‘There’s a lot of hate’: rightwing racism stirs south Asian mobilization in Texas",
+      "summary": "In state that become ‘ground zero’ for discrimination against south Asians, experts say they are seeing voters motivated to fight back Last winter, while Pooja Sethi was canvassing to become the Democratic candidate for the Texas house of representatives, she received a text from a staff member alerting her",
+      "source": "The Guardian",
+      "published": "2026-11-01T14:00:19+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/texas-south-asian-racism",
+      "importance": 1.982
+    },
+    {
+      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+      "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
+      "source": "BBC World",
+      "published": "2026-11-01T13:11:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.971
+    },
+    {
+      "title": "Aquarium shark that helped 'dispel myths' dies",
+      "summary": "Staff at Plymouth's aquarium pay tribute to a sand tiger shark believed to be almost 30 years old.",
+      "source": "BBC Science",
+      "published": "2026-11-01T12:13:50+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c64g18lkz0kno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.958
+    },
+    {
+      "title": "High street ‘slot farms’ could avoid budget tax rise through bingo hall loophole",
+      "summary": "Hundreds of adult gaming centres in England have bingo licences that still qualify them for discounted business rates Hundreds of high street “ slot farms ” could continue claiming a discount on their business rates, unless the government closes a loophole that allows them to pose as bingo halls. John Healey",
+      "source": "The Guardian",
+      "published": "2026-11-01T12:04:59+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/01/high-street-slot-farms-budget-tax-rise-business-rates-bingo-licence-loophole",
+      "importance": 1.956
+    },
+    {
+      "title": "Shops looted as German cost-of-living protests turn violent",
+      "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
+      "source": "BBC World",
+      "published": "2026-11-01T11:57:48+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.954
+    },
+    {
+      "title": "Binance resumes customer withdrawals after record $6.3bn hack",
+      "summary": "Cryptocurrency exchange says 90% of losses covered as FBI blames North Korean state-sponsored group TraderTraitor The cryptocurrency exchange Binance has started to allow its customers to withdraw their funds from the platform, as it recovers from a record $6.3bn (£4.7bn) hack. The exchange was hit by the",
+      "source": "The Guardian",
+      "published": "2026-11-01T11:54:23+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
+      "importance": 1.953
+    },
+    {
+      "title": "Rachel Reeves says UK’s future is in EU as she backs Andy Burnham on Brexit",
+      "summary": "Former chancellor says leaving European Union has made Britain ‘poorer, weaker and less secure’ The former chancellor Rachel Reeves has argued Britain’s future should be back in the European Union, saying Brexit has made the UK “poorer, weaker and less secure”. In her first major intervention since leaving",
+      "source": "The Guardian",
+      "published": "2026-11-01T09:55:20+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/01/rachel-reeves-uk-future-is-in-eu-andy-burnham-brexit",
+      "importance": 1.926
+    },
+    {
+      "title": "Asylum seekers still being sent to France under ‘one in one out’ weeks after scheme ended",
+      "summary": "Guardian understands Home Office continues to detain dozens of people, with one group forcibly removed this week The Home Office is still putting asylum seekers on to planes to France weeks after the controversial scheme to remove them ended, the Guardian has learned. The “one in, one out” scheme was",
+      "source": "The Guardian",
+      "published": "2026-11-01T09:00:07+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/01/asylum-seekers-still-being-sent-to-france-under-one-in-one-out-weeks-after-scheme-ended",
+      "importance": 1.913
+    },
+    {
+      "title": "Spill from vandalised home oil tank kills 13 birds",
+      "summary": "A number of birds are also injured after the spill from the oil tank earlier this week.",
+      "source": "BBC Science",
+      "published": "2026-11-01T08:57:56+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/crwyd2lyj15go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.912
+    },
+    {
+      "title": "Rhino siblings celebrate first birthday with cake",
+      "summary": "Markus and Mo weighed about 70kg (11st) at birth, and now weigh about 500kg (78st) each.",
+      "source": "BBC Science",
+      "published": "2026-11-01T07:11:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.888
+    },
+    {
+      "title": "Diwali hampers to bring hope to families in need",
+      "summary": "The Diwali Basket Brigade volunteers want to help vulnerable households with rising food prices.",
+      "source": "BBC Business",
+      "published": "2026-11-01T07:11:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm20wyg8j121o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.888
+    },
+    {
+      "title": "'Fascinating' rare beetle found in Wales again after 60 years",
+      "summary": "It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys",
+      "source": "BBC Science",
+      "published": "2026-11-01T07:08:04+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.887
+    },
+    {
+      "title": "Jacinda Ardern in Sydney Opera House talk advises politicians to ‘rebuild trust by building financial security’",
+      "summary": "Former New Zealand prime minister has moved to Australia and is lecturing at University of Sydney – and from stage of city’s famous landmark Jacinda Ardern, who now calls Sydney home, has delivered a message to Australian politicians from the stage of the city’s Opera House. Politicians, the former New",
+      "source": "The Guardian",
+      "published": "2026-11-01T06:53:22+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/01/jacinda-ardern-sydney-opera-house-talk-advises-politicians-to-rebuild-trust",
+      "importance": 1.884
+    },
+    {
+      "title": "Oil tank vandalism results in waterfowl park 'nightmare'",
+      "summary": "The popular attraction in County Down has been forced to close while efforts continue to remove oil from the pond.",
+      "source": "BBC Science",
+      "published": "2026-11-01T06:42:13+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c64g14ene2epo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.881
     },
     {
       "title": "Rare damselfly spotted by restored chalk river",
@@ -65,7 +273,15 @@
       "source": "BBC Science",
       "published": "2026-11-01T06:19:16+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c617kvqjd81jo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.999
+      "importance": 1.876
+    },
+    {
+      "title": "Indian forces tighten security in Delhi ahead of big opposition protest",
+      "summary": "Opposition says hundreds of thousands of people expected to participate in march demanding election chief resign over voter list changes Indian security personnel carrying batons and shields and accompanied by riot control vehicles surrounded the site of a planned opposition ⁠protest in Delhi on Sunday that",
+      "source": "The Guardian",
+      "published": "2026-11-01T06:20:58+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
+      "importance": 1.876
     },
     {
       "title": "Democrats are used to heartbreak in Texas - could Talarico turn the tide?",
@@ -73,15 +289,15 @@
       "source": "BBC World",
       "published": "2026-11-01T06:03:57+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmy0r2y6zeddo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.996
+      "importance": 1.872
     },
     {
-      "title": "High street ‘slot farms’ could evade budget tax rise through bingo hall loophole",
-      "summary": "Hundreds of adult gaming centres in England have bingo licences that still qualify them for discounted business rates Hundreds of high street “ slot farms ” could continue claiming a discount on their business rates, unless the government closes a loophole that allows them to pose as bingo halls. John Healey",
-      "source": "The Guardian",
-      "published": "2026-11-01T06:00:03+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/01/high-street-slot-farms-budget-tax-rise-business-rates-bingo-licence-loophole",
-      "importance": 1.995
+      "title": "Watch: Heidi Klum as giant severed hand for Halloween bash",
+      "summary": "The supermodel and TV host provided a gory new shock at her New York event.",
+      "source": "BBC World",
+      "published": "2026-11-01T05:26:02+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cj040yd1xdrlo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.863
     },
     {
       "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
@@ -89,7 +305,7 @@
       "source": "The Guardian",
       "published": "2026-10-30T12:49:56+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
-      "importance": 1.973
+      "importance": 1.849
     },
     {
       "title": "Haley Stevens advised to stay away from Abdul El-Sayed campaign events to limit ‘distractions’",
@@ -97,23 +313,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T03:56:49+00:00",
       "url": "https://www.theguardian.com/us-news/2026/oct/31/abdul-el-sayed-haley-stevens-disinvited-from-events",
-      "importance": 1.966
-    },
-    {
-      "title": "Binance says 90% of losses from $6.3bn hack covered as FBI says North Korea behind attack",
-      "summary": "Cryptocurrency exchange says withdrawals expected to resume on Sunday as FBI blames North Korean state-sponsored group TraderTraitor Cryptocurrency exchange Binance says it has replaced 90% of the ⁠amount stolen after a record $6.3bn hack of its platform by a group the FBI identified as being backed by North",
-      "source": "The Guardian",
-      "published": "2026-11-01T02:41:34+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
-      "importance": 1.949
-    },
-    {
-      "title": "Shops looted as German cost of living protests turn violent",
-      "summary": "Police in Frankfurt say \"violent riots\" took place in the city centre, with unrest also reported in Berlin, Hamburg and Cologne.",
-      "source": "BBC World",
-      "published": "2026-11-01T01:59:57+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.939
+      "importance": 1.843
     },
     {
       "title": "Police clash with masked rioters after largely peaceful protests across France",
@@ -121,7 +321,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T01:43:02+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/31/police-clash-rioters-after-largely-peaceful-protests-across-france",
-      "importance": 1.935
+      "importance": 1.812
     },
     {
       "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
@@ -129,7 +329,7 @@
       "source": "BBC World",
       "published": "2026-11-01T01:37:26+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.934
+      "importance": 1.81
     },
     {
       "title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
@@ -137,7 +337,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T01:14:06+00:00",
       "url": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
-      "importance": 1.929
+      "importance": 1.805
     },
     {
       "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
@@ -145,7 +345,31 @@
       "source": "BBC World",
       "published": "2026-11-01T00:55:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.924
+      "importance": 1.801
+    },
+    {
+      "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+      "summary": "The incumbent Republican running for re-election and allies have accused the Democrats of trying to confuse voters by recruiting a second Dan Sullivan to also stand in the race.",
+      "source": "BBC World",
+      "published": "2026-11-01T00:46:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.799
+    },
+    {
+      "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+      "summary": "Trump had sued the media outlet after it published a letter to Epstein purportedly written and signed by the president as part of a birthday book.",
+      "source": "BBC World",
+      "published": "2026-11-01T00:41:24+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.797
+    },
+    {
+      "title": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
+      "summary": "Airbnb hosts must stop asking guests to wash-up or take out bins under rules coming into force in November.",
+      "source": "BBC Business",
+      "published": "2026-11-01T00:17:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.792
     },
     {
       "title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
@@ -153,31 +377,7 @@
       "source": "BBC World",
       "published": "2026-10-31T23:06:13+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmq5npz5l5geo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.899
-    },
-    {
-      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-      "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
-      "source": "BBC World",
-      "published": "2026-10-31T22:11:45+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.887
-    },
-    {
-      "title": "'Fascinating' rare beetle found in Wales again after 60 years",
-      "summary": "It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys",
-      "source": "BBC Science",
-      "published": "2026-10-31T22:07:56+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.886
-    },
-    {
-      "title": "Hazardous driving conditions for Friday as fog warning issued by Met Office",
-      "summary": "Foggy conditions likely to bring tricky conditions for the Friday morning commute as severe weather warning issued.",
-      "source": "BBC Science",
-      "published": "2026-10-30T06:18:35+00:00",
-      "url": "https://www.bbc.co.uk/weather/articles/c6ly075l742ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.883
+      "importance": 1.775
     },
     {
       "title": "Thousands demonstrate in Paris as protests spread across Europe",
@@ -185,15 +385,7 @@
       "source": "BBC World",
       "published": "2026-10-31T21:29:01+00:00",
       "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.877
-    },
-    {
-      "title": "Man in Belfast charged with possessing explosives and firearms",
-      "summary": "The 35-year-old was charged after police searched properties in Shankill Road and Edwina Street areas A man has been charged under the Explosives Act and Firearms Order after police searched properties in Belfast. The 35-year-old was charged with offences including two counts of possessing explosives under",
-      "source": "The Guardian",
-      "published": "2026-10-31T20:21:08+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/31/man-belfast-charged-possessing-explosives-firearms",
-      "importance": 1.861
+      "importance": 1.753
     },
     {
       "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
@@ -201,31 +393,7 @@
       "source": "BBC World",
       "published": "2026-10-31T19:22:26+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.847
-    },
-    {
-      "title": "Oleshky evacuees reunite with families after truce allows crossing back into Ukraine",
-      "summary": "Residents of nearby villages line highway waving flags to greet the evacuees’ convoy from the Russian-occupied city Evacuees from Russian-occupied Oleshky have been reunited with their families after crossing into Ukrainian-held territory on Saturday. The major rescue operation began on Friday and was",
-      "source": "The Guardian",
-      "published": "2026-10-31T19:17:22+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/31/oleshky-evacuees-reunite-with-families-after-truce-allows-crossing-into-ukraine",
-      "importance": 1.846
-    },
-    {
-      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
-      "summary": "Inner west Sydney seat has long been safely held by the PM – but potential changes to copyright laws are angering its large creative community Get our daily political email , free app or daily news podcast The prime minister is facing growing discontent within his own electorate as creatives push back",
-      "source": "The Guardian",
-      "published": "2026-10-31T19:00:52+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
-      "importance": 1.842
-    },
-    {
-      "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
-      "summary": "Met alleges demonstrators ‘meeting to purposefully commit a crime’ in largest such gathering under Burnham Almost 140 people have been arrested at the largest mass demonstrations under Andy Burnham’s premiership opposing the proscription of Palestine Action. Hundreds of people gathered outside the US embassy",
-      "source": "The Guardian",
-      "published": "2026-10-31T18:28:30+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
-      "importance": 1.835
+      "importance": 1.724
     },
     {
       "title": "Virginia and DC sue to stop Trump’s arch as government looks to start construction",
@@ -233,175 +401,7 @@
       "source": "The Guardian",
       "published": "2026-10-31T17:57:45+00:00",
       "url": "https://www.theguardian.com/us-news/2026/oct/31/trump-arch-lawsuits-dc-virginia",
-      "importance": 1.828
-    },
-    {
-      "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
-      "summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
-      "source": "BBC World",
-      "published": "2026-10-31T17:53:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.827
-    },
-    {
-      "title": "El Niño-driven drought in Papua New Guinea a ‘national crisis’ as rivers dry up and local farms fail",
-      "summary": "As many as 8 million people have been affected by food shortages, electricity blackouts and health clinic closures Extreme drought driven by an historic El Niño is affecting as many as 8 million people in Papua New Guinea, causing a cascade of issues from shortages of food and water, to electricity scarcity",
-      "source": "The Guardian",
-      "published": "2026-10-30T01:45:56+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/30/png-el-nino-drought-papua-new-guinea",
-      "importance": 1.819
-    },
-    {
-      "title": "Emotional reunions with loved ones for Oleshky evacuees",
-      "summary": "The BBC's Dan Johnson travelled to the northern Ukrainian border with Belarus after evacuated Oleshky residents arrived in buses and ambulances following a temporary ceasefire.",
-      "source": "BBC World",
-      "published": "2026-10-31T16:55:47+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cmy83w0jwznpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.813
-    },
-    {
-      "title": "More than 50m Americans cast ballots in early voting with three days to go before midterms",
-      "summary": "Record number of early votes cast, with Democrats outnumbering Republicans in states which collect that information There has been a surge of early voting for the US midterm elections, with millions more Americans going to the polls compared with the last such election amid a series of tight contests that",
-      "source": "The Guardian",
-      "published": "2026-10-31T16:13:17+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms",
-      "importance": 1.804
-    },
-    {
-      "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
-      "summary": "Government data shows that more than 10,000 people have contracted the rare virus.",
-      "source": "BBC World",
-      "published": "2026-10-31T15:16:20+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cj5ynryyep2yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.79
-    },
-    {
-      "title": "UK charity shop profits plummet amid shift in secondhand clothes market",
-      "summary": "British Heart Foundation describes ‘exceptionally challenging’ trading after Oxfam’s retail profit reportedly fell 23% amid rise of platforms such as Vinted Profits at some of the UK’s best-known charity shops have plummeted as they face a number of pressures, including from online secondhand clothes",
-      "source": "The Guardian",
-      "published": "2026-10-31T15:10:52+00:00",
-      "url": "https://www.theguardian.com/society/2026/oct/31/profits-uk-charity-shops-oxfam-shift-secondhand-clothes-market",
-      "importance": 1.789
-    },
-    {
-      "title": "A world-first focus on long-term outcomes could transform UK government – or create new spending fights",
-      "summary": "Tucked away in John Healey’s budget is decision to ringfence preventative projects where future savings outweigh initial cost It merited the briefest of mentions in John Healey’s speech and just one paragraph in the 166-page budget document , but some believe it could revolutionise not just public spending",
-      "source": "The Guardian",
-      "published": "2026-10-31T15:00:46+00:00",
-      "url": "https://www.theguardian.com/politics/2026/oct/31/spending-plan-long-term-focus-uk-government",
-      "importance": 1.787
-    },
-    {
-      "title": "Ads accusing Republican candidates of protecting Epstein fill airwaves in final midterm push",
-      "summary": "But select Democrats, too, are being accused of having ties to the late sex offender as country prepares to vote In races across the country, Democratic candidates or groups that support them have released ads accusing Republicans of protecting pedophiles by voting against legislation to release files",
-      "source": "The Guardian",
-      "published": "2026-10-31T15:00:45+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/31/political-ads-midterms-epstein-republican-candidate",
-      "importance": 1.787
-    },
-    {
-      "title": "Maurene Comey ruling offers hope of check on Trump’s assault on rule of law",
-      "summary": "Legal experts welcome judge’s rejection of firing of James Comey’s daughter prosecutor but warn an appeal is likely A recent legal ruling against an effort to fire the star-prosecutor daughter of a former FBI chief targeted by Donald Trump could send a strong message about politicized firings – and influence",
-      "source": "The Guardian",
-      "published": "2026-10-31T15:00:45+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/oct/31/maurene-comey-firing-ruling-legal-implications",
-      "importance": 1.787
-    },
-    {
-      "title": "Ethiopian PM puts ministers through military training",
-      "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
-      "source": "BBC World",
-      "published": "2026-10-31T14:28:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.779
-    },
-    {
-      "title": "Bute House protested by environmental campaigners",
-      "summary": "A Halloween-themed protest against fossil fuels has targeted the first minister's residence in Edinburgh.",
-      "source": "BBC Science",
-      "published": "2026-10-31T13:41:07+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9rkypk1g7k0o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.768
-    },
-    {
-      "title": "Starmer says UK must get closer to Europe as US relationship changes",
-      "summary": "Shift in dealings with Washington not likely to reset once Trump leaves Oval Office, former PM says The UK and other European nations must draw closer together as the US becomes a less-reliable partner, Keir Starmer has said in his first significant political intervention since leaving No 10. The former",
-      "source": "The Guardian",
-      "published": "2026-10-31T13:32:25+00:00",
-      "url": "https://www.theguardian.com/politics/2026/oct/31/keir-starmer-uk-europe-us-relationship-trump",
-      "importance": 1.766
-    },
-    {
-      "title": "Watch: Blood donors get a Halloween fright in Thailand",
-      "summary": "Thai Red Cross workers dressed up as part of a Halloween-themed blood drive in the country's capital Bangkok.",
-      "source": "BBC World",
-      "published": "2026-10-31T12:50:45+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cmze42el49d9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.757
-    },
-    {
-      "title": "BBC Inside Science",
-      "summary": "Time is running out for one of the most ambitious environmental pledges in history.",
-      "source": "BBC Science",
-      "published": "2026-10-29T21:00:00+00:00",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
-      "importance": 1.753
-    },
-    {
-      "title": "CCTV and zip ties: How US mail-in votes are secured and counted",
-      "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
-      "source": "BBC World",
-      "published": "2026-10-31T09:16:14+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.707
-    },
-    {
-      "title": "US interest rates held steady and economy grows - what it means for you",
-      "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
-      "source": "BBC Business",
-      "published": "2026-10-29T17:15:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.701
-    },
-    {
-      "title": "Rewilding project aims to restore peatland",
-      "summary": "Cumbria Wildlife Trust starts work repairing damage to Skiddaw Forest's peatland.",
-      "source": "BBC Science",
-      "published": "2026-10-31T06:58:30+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crq8nw0q7d5ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.675
-    },
-    {
-      "title": "Your pay, energy bills and savings: How the Budget affects you",
-      "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-      "source": "BBC Business",
-      "published": "2026-10-29T15:11:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.673
-    },
-    {
-      "title": "DoorDash to buy Instacart in $17bn deal it says will expand customer options",
-      "summary": "Instacart shoppers will be able to buy from 150,000 stores, compared to the 100,000 currently available on the platform, the firms said.",
-      "source": "BBC Business",
-      "published": "2026-10-29T15:05:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.671
-    },
-    {
-      "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
-      "summary": "Budget forecasts show growth in living standards grinding almost to a halt.",
-      "source": "BBC Business",
-      "published": "2026-10-29T13:19:24+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.647
-    },
-    {
-      "title": "The fight to save Canadian town threatened by Trump's tariffs",
-      "summary": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work.",
-      "source": "BBC World",
-      "published": "2026-10-31T02:39:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.615
+      "importance": 1.704
     }
   ]
 }
