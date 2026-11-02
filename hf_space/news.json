@@ -1,47 +1,79 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-02T06:23:20.509058+00:00",
+  "generated_at": "2026-11-02T18:30:19.681849+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+      "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
+      "source": "BBC World",
+      "published": "2026-11-02T17:33:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.537
+    },
+    {
+      "title": "Dutch police offer record €2m reward in hunt for drug lord",
+      "summary": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.",
+      "source": "BBC World",
+      "published": "2026-11-02T17:29:49+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.536
+    },
+    {
+      "title": "Oil price falls amid hope of a breakthrough to end Iran war",
+      "summary": "Brent crude drops by more than 6% to $105.55 a barrel, the lowest level in more than two weeks The oil price has fallen to its lowest level in more two weeks amid new hopes of a breakthrough to end the Iran war. Brent crude, the international benchmark, dropped by more than 6.5% to as low as $105.55 a barrel",
+      "source": "The Guardian",
+      "published": "2026-11-02T17:14:23+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
+      "importance": 2.532
+    },
+    {
+      "title": "Trump promised a steel mill in this rural Iowa region. But is it all a midterm election ploy?",
+      "summary": "Residents would welcome the development, but the president’s past false promises cast doubt on the proposal On a Monday afternoon in late September, Donald Trump gathered Iowa Republicans in the Oval Office to make a big announcement: the firm Mesabi Metallics would invest $15bn to make the midwestern state",
+      "source": "The Guardian",
+      "published": "2026-11-02T17:00:23+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/iowa-midterms-steel-mill",
+      "importance": 2.529
+    },
+    {
+      "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
+      "summary": "Neither government has confirmed who was responsible for the cyberattacks on Sunday evening.",
+      "source": "BBC World",
+      "published": "2026-11-02T14:35:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.496
+    },
+    {
+      "title": "What are Americans voting for in this election?",
+      "summary": "The BBC's Maddie Gerber explains what's on the ballot in the 2026 midterm elections in the United States.",
+      "source": "BBC World",
+      "published": "2026-11-02T09:22:55+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.423
+    },
+    {
+      "title": "Award‑winning Australian children’s author Craig Silvey jailed over child exploitation material",
+      "summary": "Jasper Jones writer sent multiple messages about his sexual desire for young boys, Western Australian district court hears Warning: This article contains graphic content Get our breaking news email , free app or daily news podcast The award‑winning author Craig Silvey sent multiple messages about his sexual",
+      "source": "The Guardian",
+      "published": "2026-11-02T08:01:34+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australian-author-craig-silvey-jailed-child-exploitation-material-ntwnfb",
+      "importance": 2.404
+    },
+    {
+      "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
+      "summary": "Australia’s central bank expected to hit mortgage holders again on Tuesday, as war in Middle East combines with collapsing house prices Get our breaking news email , free app or daily news podcast Australia’s economy is set for a “sharper, longer slowdown”, major bank economists say, as the Reserve Bank is",
+      "source": "The Guardian",
+      "published": "2026-11-02T06:57:29+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
+      "importance": 2.39
+    },
     {
       "title": "Woman who flew with swans warns of lead danger",
       "summary": "Sacha Dench, known as the \"human swan\", welcomes new laws banning the sale of lead ammunition.",
       "source": "BBC Science",
       "published": "2026-11-02T06:22:00+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqly0r3kp1mlo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.55
-    },
-    {
-      "title": "Minns warns expected RBA rate rise will see ‘shops close that don’t reopen’ as pressure mounts on PM",
-      "summary": "Frustration grows over the economy with one Labor MP saying voter anger is already high ahead of Reserve Bank of Australia decision Get our daily political email , free app or daily news podcast The NSW premier, Chris Minns, has warned an expected interest rate increase will force job losses and cause",
-      "source": "The Guardian",
-      "published": "2026-11-02T06:08:33+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/minns-warns-rba-rate-rise-job-losses-economy",
-      "importance": 2.547
-    },
-    {
-      "title": "World’s largest early warning system for severe child illness to launch in NHS A&Es across England",
-      "summary": "Paediatric early warning system (Pews) uses a vital signs scoring system to assess whether a child is deteriorating The world’s largest “early warning system” to spot when sick children are dangerously deteriorating is being introduced in A&E departments across England, NHS leaders have said. The national",
-      "source": "The Guardian",
-      "published": "2026-11-02T06:00:35+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/02/nhs-early-warning-system-child-illness-england",
-      "importance": 2.545
-    },
-    {
-      "title": "Millions in UK brace to remortgage on worse deals as rate rise looms",
-      "summary": "More than 2.3m households face jump in payments in 2027, after expected increase in Bank of England rate this week More than 2.3m UK households face a sharp rise in mortgage payments as they come off fixed-rate deals in 2027, with the Bank of England expected to begin raising interest rates this week. The",
-      "source": "The Guardian",
-      "published": "2026-11-02T06:00:34+00:00",
-      "url": "https://www.theguardian.com/money/2026/nov/02/mortgage-payments-rise-2027-interest-rates",
-      "importance": 2.545
-    },
-    {
-      "title": "UK making up China policy ‘as it goes along’, MPs warn",
-      "summary": "Commons committee says lack of coherent strategy is hampering business and leaving national security risks unaddressed The UK is making up policy on China “as it goes along” and risks having its strategy dictated by Washington or Beijing, a parliamentary report has concluded. An investigation by the Commons",
-      "source": "The Guardian",
-      "published": "2026-11-02T05:00:33+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/02/uk-making-up-china-policy-as-it-goes-along-mps",
-      "importance": 2.531
+      "importance": 2.381
     },
     {
       "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
@@ -49,7 +81,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T12:00:12+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
-      "importance": 2.295
+      "importance": 2.126
     },
     {
       "title": "India's opposition holds mega rally seeking election chief's resignation",
@@ -57,7 +89,7 @@
       "source": "BBC World",
       "published": "2026-11-01T07:00:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.225
+      "importance": 2.057
     },
     {
       "title": "'Rok' solid recognition for Slovenian space scientist",
@@ -65,15 +97,135 @@
       "source": "BBC Science",
       "published": "2026-11-01T06:35:37+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqx283v54zd6o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.22
+      "importance": 2.051
     },
     {
-      "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
-      "summary": "Turkey has been hit by powerful thunderstorms and a fatal tornado this week with more heavy rain expected Heavy rain and strong winds will continue to affect parts of south-eastern Europe and Turkey over the next few days, as an area of low pressure in the region has allowed for the formation of powerful",
+      "title": "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
+      "summary": "Local officials say 27 people had been missing after at least nine 3,000kg aerial bombs hit a village in southern Ukraine.",
+      "source": "BBC World",
+      "published": "2026-11-02T18:28:50+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.0
+    },
+    {
+      "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
+      "summary": "Dozens of shops across European countries have been hit by a cyber-attack affecting their fridges.",
+      "source": "BBC World",
+      "published": "2026-11-02T18:25:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.999
+    },
+    {
+      "title": "French pupils resume school blockades as country braces for more protests",
+      "summary": "Minister warns weeks without lessons are putting exams at risk as unions plan nationwide strike on Thursday Dozens of high schools across France were blockaded again on Monday as the government braced for another tense week of protests over school conditions and the high cost of living. The protests come",
       "source": "The Guardian",
-      "published": "2026-10-30T10:07:16+00:00",
-      "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
-      "importance": 2.152
+      "published": "2026-11-02T18:17:33+00:00",
+      "url": "https://www.theguardian.com/education/2026/nov/02/franch-students-school-blockades-protests",
+      "importance": 1.997
+    },
+    {
+      "title": "Charities condemn proposal to make some refugees wait up to 30 years for settlement – UK politics live",
+      "summary": "Executive director of external affairs at the Refugee Council called the proposals ‘unfair and unworkable’ Downing Street has declined to say how much it cost for the plane carrying Andy Burnham and UK delegates to a Commonwealth leaders’ summit to stop in Manchester to pick him up (see 10.28am ), the Press",
+      "source": "The Guardian",
+      "published": "2026-11-02T18:15:42+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/02/andy-burnham-shabana-mahmood-migration-indefinite-leave-to-remain-care-workers-uk-politics-latest-news",
+      "importance": 1.997
+    },
+    {
+      "title": "Abdul El-Sayed’s campaign reports record fundraising day as Haley Stevens faces backlash for endorsing his opponent – live",
+      "summary": "Democratic candidate for Michigan US Senate seat raised $2.4m on Sunday after congresswoman Haley Stevens pulled her endorsement of him in favor of Trump-backed Mike Rogers Sign up for the Breaking News US email Newsletter: How you (yes you) can fight dark money in elections The latest and final New York",
+      "source": "The Guardian",
+      "published": "2026-11-02T18:10:42+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
+      "importance": 1.995
+    },
+    {
+      "title": "Trial of nine men accused of abusing woman drugged and raped by husband begins",
+      "summary": "The husband, who cannot be named to protect his victim, has already pleaded guilty to a number of offences carried out at the couple’s Stockport home Nine men have gone on trial accused of being involved in the abuse of a woman who was drugged, raped and sexually assaulted by her husband while he “lived a",
+      "source": "The Guardian",
+      "published": "2026-11-02T17:56:03+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/02/trial-of-nine-men-accused-of-abusing-woman-drugged-and-raped-by-husband-begins",
+      "importance": 1.992
+    },
+    {
+      "title": "Shop freezers in seven European countries hit by cyber-attack",
+      "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
+      "source": "BBC World",
+      "published": "2026-11-02T17:38:11+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.988
+    },
+    {
+      "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
+      "summary": "Dozens of supermarkets in seven European countries dumped huge quantities of food after refrigerators and freezers were targeted in a cyber-attack.",
+      "source": "BBC World",
+      "published": "2026-11-02T17:34:58+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "Judge tosses case against two officials accused of lying about Hunter Biden",
+      "summary": "The two FBI agents were charged with making false statements to Congress while testifying about the bureau’s role in investigating Biden’s laptop A federal judge dismissed criminal charges against two former FBI officials who were accused of lying about their involvement in the investigation into Hunter",
+      "source": "The Guardian",
+      "published": "2026-11-02T17:33:32+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/judge-tosses-case-fbi-hunter-biden",
+      "importance": 1.987
+    },
+    {
+      "title": "Defendant tells court he believed he had consent of woman drugged by her husband",
+      "summary": "Connor Sanderson-Doyle is one of four men accused of sexually abusing Joanne Young, who was repeatedly assaulted by her husband, Philip Young A man has told a court he believed a woman who was repeatedly raped and drugged by her husband had consented when he answered an advert to have sex with her. Former",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:59:20+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/02/defendant-tells-court-he-believed-he-had-consent-of-woman-drugged-by-her-husband",
+      "importance": 1.979
+    },
+    {
+      "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
+      "summary": "Nathalia Filgueiras was onboard private plane bound for Bahamas that crashed in Palm Beach county Family members on Monday identified a young Florida pilot as one of nine victims of a plane crash in Palm Beach county that occurred during a heavy thunderstorm. Nathalia Filgueiras, 20, was co-pilot of the",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:44:01+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
+      "importance": 1.975
+    },
+    {
+      "title": "Shop fridges and freezers across Europe hit by fresh suspected cyber-attack",
+      "summary": "Chains in seven countries say cooling unit temperatures rose overnight in incident similar to hack of French shops Supermarket chains in at least seven European countries have said the temperatures of refrigerators and freezers in some of their shops soared overnight to as high as 50C (122F), echoing a",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:39:20+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "importance": 1.974
+    },
+    {
+      "title": "Newcastle hospital told woman whose unborn baby had died to go home and ‘book a slot to give birth’",
+      "summary": "Trust admits Danielle Brown’s baby would have survived had she not been sent home from RVI days earlier A woman whose unborn baby had died was sent home from hospital with a booklet for bereaved parents and told to book a slot to give birth. Danielle Brown, 31, was seven months pregnant when she was first",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:36:27+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/02/newcastle-hospital-rvi-woman-sent-home-unborn-baby-died",
+      "importance": 1.974
+    },
+    {
+      "title": "E Jean Carroll fights Trump’s last-ditch push to dismiss $83m damages verdict",
+      "summary": "Lawyers file opposition to Trump’s request, telling supreme court justices they do not need ‘to bail out this president’ E Jean Carroll’s lawyers are fighting Donald Trump’s efforts to toss her $83m damages verdict in the US supreme court, telling the justices that they do not need “to bail out this",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:37:00+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/e-jean-carroll-trump-supreme-court",
+      "importance": 1.974
+    },
+    {
+      "title": "EHRC raises concern with Reform about ‘racial and sexual remarks’ in documentary",
+      "summary": "Watchdog writes to Nigel Farage’s party to ask what action it is taking to comply with the Equality Act The official equalities watchdog has written to Reform UK to raise concerns after an undercover TV documentary showed councillors and candidates for the party expressing racist and misogynistic views, with",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:28:43+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/02/ehrc-raises-concern-with-reform-about-racial-and-sexual-remarks-in-documentary",
+      "importance": 1.972
+    },
+    {
+      "title": "Ikea among shops affected by fridge cyber-hacks – Europe live",
+      "summary": "Supermarkets across Europe have experienced temperature-control meddling The fake nuclear threats to Ukraine came as Russia resumed its attacks on the southern city of Kherson , just hours after the end of a ceasefire during which hundreds of people were evacuated from the nearby Kremlin-controlled town of",
+      "source": "The Guardian",
+      "published": "2026-11-02T16:17:14+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
+      "importance": 1.969
     },
     {
       "title": "Judge orders Trump administration to stop threatening US election officials",
@@ -81,7 +233,127 @@
       "source": "BBC World",
       "published": "2026-11-01T00:27:33+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.134
+      "importance": 1.966
+    },
+    {
+      "title": "'New kit' helps battle against bugs",
+      "summary": "The chemical-free decoys are used while clearing riverside vegetation.",
+      "source": "BBC Science",
+      "published": "2026-11-02T15:05:59+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cm369dep8jwno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.953
+    },
+    {
+      "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
+      "summary": "A Hungarian fighter jet escorted the aircraft to Budapest after the threat was received mid-air.",
+      "source": "BBC World",
+      "published": "2026-11-02T14:35:38+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.946
+    },
+    {
+      "title": "What we know about the alert app hack in Ukraine and Russia",
+      "summary": "Both Ukraine and Russia say their air raid alert apps were cyber-attacked - Joe Tidy explains what we know so far.",
+      "source": "BBC World",
+      "published": "2026-11-02T14:24:25+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.943
+    },
+    {
+      "title": "Guardian Essential poll: record number of Australians are turning their backs on the Melbourne Cup",
+      "summary": "Growing disdain for gambling and animal cruelty concerns drive sliding interest in race that once ‘stopped the nation’ Get our breaking news email , free app or daily news podcast A record number of Australians are turning their backs on the Melbourne Cup, with more than two-thirds surveyed saying they have",
+      "source": "The Guardian",
+      "published": "2026-11-02T14:00:46+00:00",
+      "url": "https://www.theguardian.com/sport/2026/nov/03/melbourne-cup-2026-poll-record-numbers-turn-their-backs",
+      "importance": 1.938
+    },
+    {
+      "title": "Reddit and libertarian group challenge Australia’s under-16s social media ban in high court",
+      "summary": "Social network and Digital Freedom Project, led by NSW state MP John Ruddick, seek to overturn ban on grounds of implied freedom of political communication Australia’s world-leading under-16s social media ban will face its first major legal challenge on Tuesday, as Reddit and an advocacy group headed by a",
+      "source": "The Guardian",
+      "published": "2026-11-02T14:00:44+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/australia-social-media-ban-high-court-challenge-reddit-digital-freedom-project",
+      "importance": 1.938
+    },
+    {
+      "title": "NSW council refuses to show world-renowned Gaza artwork over ‘unacceptable’ safety risk",
+      "summary": "Exclusive: Shoalhaven council says Wall of Tears installation by Phil Buehler posed risk to staff, visitors and tenants Get our breaking news email , free app or daily news podcast A New South Wales local council has refused to show a world-renowned artwork about children killed in Gaza after asking",
+      "source": "The Guardian",
+      "published": "2026-11-02T14:00:44+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/shoalhaven-council-refuses-to-show-wall-of-tears-gaza-artwork-safety-risk-ntwnfb",
+      "importance": 1.938
+    },
+    {
+      "title": "A Paralympian vs a former TV news anchor - and other US Senate races to watch",
+      "summary": "All eyes are on a handful of Senate races that will decide control of the prized upper chamber. Here's a quick guide.",
+      "source": "BBC World",
+      "published": "2026-11-02T13:49:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7ljkprvjko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.935
+    },
+    {
+      "title": "Poundland's former owner offers to invest as minister prepares to meet board",
+      "summary": "Wolverhampton's Steve Smith said he wants to put some money back into the firm he started.",
+      "source": "BBC Business",
+      "published": "2026-11-02T13:40:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.933
+    },
+    {
+      "title": "Ryanair faces clash with unions as it mulls pay freezes amid soaring fuel costs",
+      "summary": "Airline also weighs up reducing crew on flights and increasing use of AI as part of cost-cutting measures Business live – latest updates Ryanair has said it is considering implementing pay freezes, setting the scene for a confrontation with unions as the airline tries to offset soaring fuel costs driven by",
+      "source": "The Guardian",
+      "published": "2026-11-02T12:57:53+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
+      "importance": 1.923
+    },
+    {
+      "title": "Ryanair says it may freeze workers' pay and raise airfares",
+      "summary": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
+      "source": "BBC World",
+      "published": "2026-11-02T12:22:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.915
+    },
+    {
+      "title": "Uganda begins withdrawing troops from Somalia after 20 years",
+      "summary": "Uganda has been helping Somalia battle an insurgency led by the al-Shabab militant group since 2007.",
+      "source": "BBC World",
+      "published": "2026-11-02T12:05:34+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.911
+    },
+    {
+      "title": "Hackers send fake nuclear threat alert to Ukraine emergency app",
+      "summary": "Residents in Kyiv also warned of chemical attack and street-to-street fighting in false message sent by unknown party Europe live – latest updates Unknown hackers have targeted Ukraine’s nationwide emergency alert mobile app, sending residents in Kyiv a warning that they were at risk of an imminent nuclear",
+      "source": "The Guardian",
+      "published": "2026-11-02T11:11:28+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/02/hackers-fake-nuclear-chemical-threat-alert-kyiv-ukraine-emergency-app",
+      "importance": 1.898
+    },
+    {
+      "title": "Five arrested after South African farmer shot and tortured",
+      "summary": "The attack on Donovan Marx, 50, comes as right-wing groups say there is a genocide of white people - a claim widely discredited.",
+      "source": "BBC World",
+      "published": "2026-11-02T10:48:47+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cv4g13z0px8yo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.893
+    },
+    {
+      "title": "Popular Australian children's author jailed over child exploitation offences",
+      "summary": "The author of Jasper Jones and Runt pleaded guilty in May after police raided his home months earlier.",
+      "source": "BBC World",
+      "published": "2026-11-02T08:03:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmjwe9nggp60o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.855
+    },
+    {
+      "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
+      "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
+      "source": "BBC World",
+      "published": "2026-11-02T07:42:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.85
     },
     {
       "title": "Christmas donations gift demand up, charities say",
@@ -89,7 +361,7 @@
       "source": "BBC Business",
       "published": "2026-11-02T06:22:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm5ynrp0lg2yo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.0
+      "importance": 1.832
     },
     {
       "title": "Christmas shoebox appeal launches to help children",
@@ -97,7 +369,7 @@
       "source": "BBC Business",
       "published": "2026-11-02T06:21:09+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cv98zr5wxp21o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.999
+      "importance": 1.831
     },
     {
       "title": "Verdict delayed on controversial sea defences",
@@ -105,7 +377,23 @@
       "source": "BBC Science",
       "published": "2026-11-02T06:16:34+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.998
+      "importance": 1.83
+    },
+    {
+      "title": "'I couldn't be silent': Iranian teen's mother seeking justice after daughter shot dead",
+      "summary": "BBC Panorama follows grieving Samira who - after the killing of Sevda - faces up to the Tehran regime.",
+      "source": "BBC World",
+      "published": "2026-11-02T06:05:34+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cwjdmp25mem9o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.828
+    },
+    {
+      "title": "Iran killed her teenage daughter - now she is facing up to the regime",
+      "summary": "Samira's 16-year-old daughter Sevda was shot dead as they took part in mass protests in January.",
+      "source": "BBC World",
+      "published": "2026-11-02T06:00:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjn8117kwjo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.827
     },
     {
       "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
@@ -113,295 +401,7 @@
       "source": "The Guardian",
       "published": "2026-11-02T06:00:33+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
-      "importance": 1.995
-    },
-    {
-      "title": "Israel has ‘historic’ opportunity to change direction, says leader of Arab coalition",
-      "summary": "Yousef Jabareen says he is ready to join forces with opposition bloc to oust Benjamin Netanyahu after winning record number of seats in Knesset The leader of Israel’s main Palestinian coalition, which holds the balance of power after Tuesday’s elections, has said the country is facing a historic opportunity",
-      "source": "The Guardian",
-      "published": "2026-11-02T06:00:32+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/02/israel-opposition-bloc-arab-coalition-knesset-yousef-jabareen",
-      "importance": 1.995
-    },
-    {
-      "title": "Counsellors and psychotherapists call for UK statutory regulation in ‘watershed moment’",
-      "summary": "Exclusive: Professional bodies call for regulation to boost confidence and protect public from abuse in ‘landmark’ report Ministers should introduce statutory regulation for counsellors and psychotherapists to protect the public from abuse, according to a report that has been hailed as a “watershed moment”",
-      "source": "The Guardian",
-      "published": "2026-11-02T05:01:31+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/02/counsellors-psychotherapists-statutory-regulation-uk-professional-bodies",
-      "importance": 1.981
-    },
-    {
-      "title": "‘I want to slap you around a bit, too’: Victorian magistrate reprimanded over language in court",
-      "summary": "Judicial commission finds against Vicky Prapas over a series of comments, including one made when school children were present Get our breaking news email , free app or daily news podcast A magistrate who told a court user “I want to slap you around a bit, too” has come under fire for her offensive and",
-      "source": "The Guardian",
-      "published": "2026-11-02T04:05:01+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/victorian-magistrate-reprimanded-over-language-in-court-ntwnfb",
-      "importance": 1.968
-    },
-    {
-      "title": "Million-dollar fish caught by Darwin man ‘just fishing and talking’ at night with brother",
-      "summary": "‘I’m just happy to catch fish,’ Matthew Maurice says after landing 80cm barramundi as part of Northern Territory competition Get our breaking news email , free app or daily news podcast A Darwin man is $1m richer after angling an 80cm, red-tagged barramundi during a night-time fishing trip with his brother.",
-      "source": "The Guardian",
-      "published": "2026-11-02T03:45:51+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/million-dollar-fish-caught-by-darwin-man-just-fishing-and-talking-at-night-with-brother",
-      "importance": 1.964
-    },
-    {
-      "title": "Binance users withdraw $3.6bn after record crypto hack",
-      "summary": "The exchange froze transactions in the wake of the incident, which impacted $6.3bn worth of digital assets.",
-      "source": "BBC Technology",
-      "published": "2026-11-02T03:32:14+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.96
-    },
-    {
-      "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
-      "summary": "Deployments of surveillance vans over five months result in nine false alerts and led officers to engage with 146 registered sex offenders Get our breaking news email , free app or daily news podcast More than a million people have had their faces scanned in a trial of real-time facial recognition technology",
-      "source": "The Guardian",
-      "published": "2026-11-02T02:02:34+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
-      "importance": 1.94
-    },
-    {
-      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-      "summary": "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
-      "source": "BBC World",
-      "published": "2026-11-02T01:45:42+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.936
-    },
-    {
-      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
-      "summary": "Hours later Russian authorities said its app was also hacked, with fake warnings sent inside the country.",
-      "source": "BBC World",
-      "published": "2026-11-02T01:18:27+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.929
-    },
-    {
-      "title": "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
-      "summary": "The train disaster, one of Europe’s deadliest rail incidents this century, killed 69 people, including 54 Spaniards Four US citizens and one each from Canada, Japan, Argentina, Mexico, Tunisia and the Czech Republic were among the 69 killed in last week’s high-speed train collision in Spain, authorities",
-      "source": "The Guardian",
-      "published": "2026-11-02T01:06:13+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/02/spain-train-crash-us-citizens-japan-canada-dead",
-      "importance": 1.927
-    },
-    {
-      "title": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
-      "summary": "President again took aim at progressive Senate candidate and lauded Haley Stevens for endorsing Mike Rogers Donald Trump railed against Democratic US senate hopeful Abdul El-Sayed at a campaign event in Iowa Sunday, repeatedly referring to the Michigan progressive as a “jihadist”. Trump’s comments aimed to",
-      "source": "The Guardian",
-      "published": "2026-11-02T01:07:23+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
-      "importance": 1.927
-    },
-    {
-      "title": "Democrats have high hopes for midterms, but polls have let them down before",
-      "summary": "Polls have been predicting a Democratic surge, but last-minute deciders and sampling issues mean there's no guarantee.",
-      "source": "BBC World",
-      "published": "2026-11-02T00:25:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmg47p3edv4do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.917
-    },
-    {
-      "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-      "summary": "There were hundreds of arrests as protesters took to the streets in cities across France for the third weekend in a row.",
-      "source": "BBC World",
-      "published": "2026-11-02T00:15:30+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.915
-    },
-    {
-      "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
-      "summary": "Endorsement was met with backlash from the party, condemning Stevens for her ‘betrayal’ Congresswoman Haley Stevens, who lost the Michigan Democratic Senate primary to Abdul El-Sayed, endorsed his Republican rival, Mike Rogers, in an extraordinary rebuke of her party’s nominee on the eve of the midterm",
-      "source": "The Guardian",
-      "published": "2026-11-02T00:12:17+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate",
-      "importance": 1.914
-    },
-    {
-      "title": "Don't get caught out by new Buy Now Pay Later rules",
-      "summary": "New affordability checks mean you could be blocked from using Buy Now Pay Later but here are ways to avoid it.",
-      "source": "BBC Business",
-      "published": "2026-11-01T23:34:49+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crpdgp4y017go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.905
-    },
-    {
-      "title": "Pauline Hanson and James Ashby rule out running against Nationals leader Matt Canavan in Capricornia",
-      "summary": "‘My political career may die,’ senator says after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email , free app or daily news podcast The Nationals leader, Matt Canavan, will run for a lower house Queensland seat at the next federal election but",
-      "source": "The Guardian",
-      "published": "2026-11-01T23:05:05+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/nationals-leader-matt-canavan-one-nation-james-ashby-capricornia-election-ntwnfb",
-      "importance": 1.899
-    },
-    {
-      "title": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI",
-      "summary": "Bowen Wan was on anti-seizure medication, and chatbot provided her with a tapering schedule to reduce dosage A woman’s death from an epileptic seizure after she received dangerous advice from a chatbot has prompted her parents to sue OpenAI earlier this week. The legal action is the latest lawsuit that in",
-      "source": "The Guardian",
-      "published": "2026-11-01T22:37:36+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai",
-      "importance": 1.892
-    },
-    {
-      "title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
-      "summary": "British prime minister has now agreed to structured dialogue on reparatory justice but issue remains off formal Chogm agenda British officials reportedly insisted that discussions of reparations for slavery should not be on the agenda of the Commonwealth leaders’ summit in Antigua and Barbuda – and even",
-      "source": "The Guardian",
-      "published": "2026-11-01T22:26:11+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
-      "importance": 1.89
-    },
-    {
-      "title": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
-      "summary": "The BBC's Clive Myrie travelled to North Caroline where voters voiced their frustrations ahead of midterm elections.",
-      "source": "BBC Business",
-      "published": "2026-11-01T22:25:51+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.889
-    },
-    {
-      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
-      "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-      "source": "BBC World",
-      "published": "2026-11-01T21:55:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.882
-    },
-    {
-      "title": "Spain train disaster clouds Sánchez chances of re-election",
-      "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
-      "source": "BBC World",
-      "published": "2026-10-31T05:44:21+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.874
-    },
-    {
-      "title": "All nine people aboard business jet that crashed in Florida have died",
-      "summary": "Aircraft had departed Austin-Bergstrom international airport and was headed to the Bahamas when it crashed A business jet carrying nine people nose-dived into a South Florida neighborhood Sunday and erupted into a giant fireball that appeared to just miss homes near a busy roadway, killing everyone onboard.",
-      "source": "The Guardian",
-      "published": "2026-11-01T21:13:23+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
-      "importance": 1.873
-    },
-    {
-      "title": "Teenage violinist wins BBC Young Musician 2026, after first all-female final",
-      "summary": "Judges hail Sofia Demetriades’s performance of Tchaikovsky’s Violin Concerto as full of insights, poetry and maturity A teenage violinist has won the BBC Young Musician competition 2026, in the first all-female final in the competition’s 48-year history. The judges, Joanna MacGregor, Ben Gernon and Errollyn",
-      "source": "The Guardian",
-      "published": "2026-11-01T21:00:21+00:00",
-      "url": "https://www.theguardian.com/music/2026/nov/01/bbc-young-musician-teenage-violinist-sofia-demetriades",
-      "importance": 1.87
-    },
-    {
-      "title": "Judge dismisses Trump attempt to block Alaska Senate race results if Republican loses",
-      "summary": "Incumbent Dan Sullivan says he will accept election results after ‘unprecedented intervention’ by Trump’s DoJ A judge has dismissed the Donald Trump-backed lawsuit seeking to block certification of Alaska’s US Senate race if Republican incumbent Dan Sullivan loses. Trump said on 23 October that he had",
-      "source": "The Guardian",
-      "published": "2026-11-01T20:10:27+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/alaska-senate-race-republican-dan-sullivan",
-      "importance": 1.858
-    },
-    {
-      "title": "Tributes paid to ‘inspiring’ Cambridge scientist who died in Spain train crash",
-      "summary": "Dr Marta Shahbazi was travelling to a conference to receive award for scientific excellence in developmental biology An “inspiring” University of Cambridge scientist died in the Spanish train collision on Wednesday that killed at least 69 people. Dr Marta Shahbazi , 41, an affiliate associate professor at",
-      "source": "The Guardian",
-      "published": "2026-11-01T19:36:46+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
-      "importance": 1.85
-    },
-    {
-      "title": "Peaceful protests in Germany spiral into violence and looting",
-      "summary": "Thousands joined largely orderly demonstrations earlier in the day, before violence erupted in Frankfurt, Berlin, Cologne and Hamburg.",
-      "source": "BBC World",
-      "published": "2026-11-01T18:51:56+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cqgm0der7zkmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.84
-    },
-    {
-      "title": "'Fascinating' rare beetle found in Wales again after 60 years",
-      "summary": "It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys",
-      "source": "BBC Science",
-      "published": "2026-11-01T18:04:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.829
-    },
-    {
-      "title": "Armed police start patrols in Sydney after Bondi Beach attack",
-      "summary": "The new police unit is a security measure in response to last year's deadly shooting attack at a Hanukkah festival.",
-      "source": "BBC World",
-      "published": "2026-11-01T17:56:47+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.827
-    },
-    {
-      "title": "Negotiators ‘braced for worst’ over US-Iran talks to reopen strait of Hormuz",
-      "summary": "Third day of indirect talks as Qatar tries to negotiate release of $6bn in Iranian assets that could lead to waterway’s reopening Officials from the Gulf states are “braced for the worst” as they wait for Washington’s response to an Iranian proposal that could reopen the strait of Hormuz before the US",
-      "source": "The Guardian",
-      "published": "2026-11-01T17:49:28+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
-      "importance": 1.825
-    },
-    {
-      "title": "Lindsay Clancy is back in court - where will her case go next?",
-      "summary": "The Massachusetts mother, accused of murdering her three children, is expected back in court as she awaits a decision on whether her case will be retried.",
-      "source": "BBC World",
-      "published": "2026-11-01T17:29:08+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck3r5z3pw928o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.821
-    },
-    {
-      "title": "Ukraine defies Trump to resume attacks on Russian oil refineries",
-      "summary": "Kremlin says Kyiv is ‘simply ignoring’ US wishes days before midterm elections after reported strikes on two oil sites Ukraine has resumed its attacks on Russian oil refineries in defiance of pressure from Donald Trump ahead of the US midterm elections, as a ceasefire in the occupied town of Oleshky ended on",
-      "source": "The Guardian",
-      "published": "2026-11-01T17:20:18+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil",
-      "importance": 1.819
-    },
-    {
-      "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
-      "summary": "Five officers from the Hamas-run police have been killed in Khan Younis and three people, including a child, killed in Gaza City, officials say.",
-      "source": "BBC World",
-      "published": "2026-11-01T17:06:32+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.816
-    },
-    {
-      "title": "University of Cambridge scientist among those who died in Spanish train crash",
-      "summary": "Marta Shahbazi was an \"inspiring, talented and passionate scientist\", says the laboratory where she worked.",
-      "source": "BBC World",
-      "published": "2026-11-01T17:05:18+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.815
-    },
-    {
-      "title": "Global nature talks reach deal but money remains an issue",
-      "summary": "Countries have been trying to get a global agreement to halt nature decline back on track.",
-      "source": "BBC World",
-      "published": "2026-10-31T01:27:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.815
-    },
-    {
-      "title": "UK willing to spend £450m a year on EU students if it can join Made in Europe scheme",
-      "summary": "Exclusive: Plan to allow students from bloc pay same fees as Britons contingent on entry to industrial programme, officials say Ministers are prepared to spend as much as £450m a year to give students from the EU discounted university fees, the Guardian has learned, but only if Brussels allows the UK access",
-      "source": "The Guardian",
-      "published": "2026-11-01T17:00:16+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/01/uk-willing-to-spend-450m-a-year-on-eu-students-if-it-can-join-made-in-europe-scheme",
-      "importance": 1.814
-    },
-    {
-      "title": "Thousands of jobs at Virgin Media O2 to be cut",
-      "summary": "The broadband provider has not finalised the number of roles to be axed but it will likely be a sizeable chunk of its workforce, the BBC understands.",
-      "source": "BBC Business",
-      "published": "2026-11-01T16:57:14+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.813
-    },
-    {
-      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
-      "summary": "Youth-led protests end with street violence in cities across France, Germany, Switzerland, Portugal and Albania French officials have opened an investigation into the attempted murder of a police officer and Germany’s interior minister has called for harsh penalties after peaceful and mainly youth-led",
-      "source": "The Guardian",
-      "published": "2026-11-01T16:24:38+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police",
-      "importance": 1.806
+      "importance": 1.826
     }
   ]
 }
