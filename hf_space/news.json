@@ -1,23 +1,47 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-01T20:35:47.214218+00:00",
+  "generated_at": "2026-11-02T06:23:20.509058+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "Three key takeaways from early voting in midterm elections",
-      "summary": "Voting is particularly high in states with tight Senate races that could determine which party controls the chamber US citizens are casting ballots in record numbers ahead of the midterm elections on Tuesday, another potential indication, analysts say, of voter dissatisfaction with Republicans and Donald",
-      "source": "The Guardian",
-      "published": "2026-11-01T18:19:54+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/key-takeaways-midterm-elections-early-voting",
-      "importance": 2.519
+      "title": "Woman who flew with swans warns of lead danger",
+      "summary": "Sacha Dench, known as the \"human swan\", welcomes new laws banning the sale of lead ammunition.",
+      "source": "BBC Science",
+      "published": "2026-11-02T06:22:00+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqly0r3kp1mlo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.55
     },
     {
-      "title": "Former NSW Liberal leads overhaul of One Nation candidate selection process",
-      "summary": "Exclusive: Mark Jones, once on track for one of the Liberal party’s most powerful roles, is now instrumental in One Nation’s expansion Get our daily political email , free app or daily news podcast In 2023, a young and ambitious Liberal moderate was on the brink of securing one of the most powerful roles in",
+      "title": "Minns warns expected RBA rate rise will see ‘shops close that don’t reopen’ as pressure mounts on PM",
+      "summary": "Frustration grows over the economy with one Labor MP saying voter anger is already high ahead of Reserve Bank of Australia decision Get our daily political email , free app or daily news podcast The NSW premier, Chris Minns, has warned an expected interest rate increase will force job losses and cause",
       "source": "The Guardian",
-      "published": "2026-11-01T14:00:15+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/former-nsw-liberal-leads-overhaul-of-one-nation-candidate-selection-process-ntwnfb",
-      "importance": 2.458
+      "published": "2026-11-02T06:08:33+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/minns-warns-rba-rate-rise-job-losses-economy",
+      "importance": 2.547
+    },
+    {
+      "title": "World’s largest early warning system for severe child illness to launch in NHS A&Es across England",
+      "summary": "Paediatric early warning system (Pews) uses a vital signs scoring system to assess whether a child is deteriorating The world’s largest “early warning system” to spot when sick children are dangerously deteriorating is being introduced in A&E departments across England, NHS leaders have said. The national",
+      "source": "The Guardian",
+      "published": "2026-11-02T06:00:35+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/02/nhs-early-warning-system-child-illness-england",
+      "importance": 2.545
+    },
+    {
+      "title": "Millions in UK brace to remortgage on worse deals as rate rise looms",
+      "summary": "More than 2.3m households face jump in payments in 2027, after expected increase in Bank of England rate this week More than 2.3m UK households face a sharp rise in mortgage payments as they come off fixed-rate deals in 2027, with the Bank of England expected to begin raising interest rates this week. The",
+      "source": "The Guardian",
+      "published": "2026-11-02T06:00:34+00:00",
+      "url": "https://www.theguardian.com/money/2026/nov/02/mortgage-payments-rise-2027-interest-rates",
+      "importance": 2.545
+    },
+    {
+      "title": "UK making up China policy ‘as it goes along’, MPs warn",
+      "summary": "Commons committee says lack of coherent strategy is hampering business and leaving national security risks unaddressed The UK is making up policy on China “as it goes along” and risks having its strategy dictated by Washington or Beijing, a parliamentary report has concluded. An investigation by the Commons",
+      "source": "The Guardian",
+      "published": "2026-11-02T05:00:33+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/02/uk-making-up-china-policy-as-it-goes-along-mps",
+      "importance": 2.531
     },
     {
       "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
@@ -25,15 +49,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T12:00:12+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
-      "importance": 2.431
-    },
-    {
-      "title": "Energy bills help 'doesn't go far enough'",
-      "summary": "Families in the West Midlands say they are worried about paying winter energy bills.",
-      "source": "BBC Business",
-      "published": "2026-11-01T07:15:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqgkvpnj7l7yo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.365
+      "importance": 2.295
     },
     {
       "title": "India's opposition holds mega rally seeking election chief's resignation",
@@ -41,7 +57,7 @@
       "source": "BBC World",
       "published": "2026-11-01T07:00:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.361
+      "importance": 2.225
     },
     {
       "title": "'Rok' solid recognition for Slovenian space scientist",
@@ -49,7 +65,7 @@
       "source": "BBC Science",
       "published": "2026-11-01T06:35:37+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqx283v54zd6o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.356
+      "importance": 2.22
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Turkey",
@@ -57,7 +73,7 @@
       "source": "The Guardian",
       "published": "2026-10-30T10:07:16+00:00",
       "url": "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
-      "importance": 2.288
+      "importance": 2.152
     },
     {
       "title": "Judge orders Trump administration to stop threatening US election officials",
@@ -65,7 +81,191 @@
       "source": "BBC World",
       "published": "2026-11-01T00:27:33+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.27
+      "importance": 2.134
+    },
+    {
+      "title": "Christmas donations gift demand up, charities say",
+      "summary": "Charities collecting Christmas presents for struggling families say demand has gone up.",
+      "source": "BBC Business",
+      "published": "2026-11-02T06:22:48+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ynrp0lg2yo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.0
+    },
+    {
+      "title": "Christmas shoebox appeal launches to help children",
+      "summary": "A gift-filled shoebox campaign launched for children who would otherwise go without this Christmas.",
+      "source": "BBC Business",
+      "published": "2026-11-02T06:21:09+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cv98zr5wxp21o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.999
+    },
+    {
+      "title": "Verdict delayed on controversial sea defences",
+      "summary": "The council have deferred a decision on the building of 17 rock groynes after RNLI safety concerns.",
+      "source": "BBC Science",
+      "published": "2026-11-02T06:16:34+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.998
+    },
+    {
+      "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
+      "summary": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods from illegal settlements was not decisive in how Israelis voted in their general election , but a majority think the Israeli",
+      "source": "The Guardian",
+      "published": "2026-11-02T06:00:33+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
+      "importance": 1.995
+    },
+    {
+      "title": "Israel has ‘historic’ opportunity to change direction, says leader of Arab coalition",
+      "summary": "Yousef Jabareen says he is ready to join forces with opposition bloc to oust Benjamin Netanyahu after winning record number of seats in Knesset The leader of Israel’s main Palestinian coalition, which holds the balance of power after Tuesday’s elections, has said the country is facing a historic opportunity",
+      "source": "The Guardian",
+      "published": "2026-11-02T06:00:32+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/02/israel-opposition-bloc-arab-coalition-knesset-yousef-jabareen",
+      "importance": 1.995
+    },
+    {
+      "title": "Counsellors and psychotherapists call for UK statutory regulation in ‘watershed moment’",
+      "summary": "Exclusive: Professional bodies call for regulation to boost confidence and protect public from abuse in ‘landmark’ report Ministers should introduce statutory regulation for counsellors and psychotherapists to protect the public from abuse, according to a report that has been hailed as a “watershed moment”",
+      "source": "The Guardian",
+      "published": "2026-11-02T05:01:31+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/02/counsellors-psychotherapists-statutory-regulation-uk-professional-bodies",
+      "importance": 1.981
+    },
+    {
+      "title": "‘I want to slap you around a bit, too’: Victorian magistrate reprimanded over language in court",
+      "summary": "Judicial commission finds against Vicky Prapas over a series of comments, including one made when school children were present Get our breaking news email , free app or daily news podcast A magistrate who told a court user “I want to slap you around a bit, too” has come under fire for her offensive and",
+      "source": "The Guardian",
+      "published": "2026-11-02T04:05:01+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/victorian-magistrate-reprimanded-over-language-in-court-ntwnfb",
+      "importance": 1.968
+    },
+    {
+      "title": "Million-dollar fish caught by Darwin man ‘just fishing and talking’ at night with brother",
+      "summary": "‘I’m just happy to catch fish,’ Matthew Maurice says after landing 80cm barramundi as part of Northern Territory competition Get our breaking news email , free app or daily news podcast A Darwin man is $1m richer after angling an 80cm, red-tagged barramundi during a night-time fishing trip with his brother.",
+      "source": "The Guardian",
+      "published": "2026-11-02T03:45:51+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/million-dollar-fish-caught-by-darwin-man-just-fishing-and-talking-at-night-with-brother",
+      "importance": 1.964
+    },
+    {
+      "title": "Binance users withdraw $3.6bn after record crypto hack",
+      "summary": "The exchange froze transactions in the wake of the incident, which impacted $6.3bn worth of digital assets.",
+      "source": "BBC Technology",
+      "published": "2026-11-02T03:32:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.96
+    },
+    {
+      "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
+      "summary": "Deployments of surveillance vans over five months result in nine false alerts and led officers to engage with 146 registered sex offenders Get our breaking news email , free app or daily news podcast More than a million people have had their faces scanned in a trial of real-time facial recognition technology",
+      "source": "The Guardian",
+      "published": "2026-11-02T02:02:34+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
+      "importance": 1.94
+    },
+    {
+      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
+      "summary": "The move by Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, was called a \"despicable betrayal\" by one top Democrat.",
+      "source": "BBC World",
+      "published": "2026-11-02T01:45:42+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.936
+    },
+    {
+      "title": "Ukraine air raid app apparently hacked as users receive false radiation threat, Air Force says",
+      "summary": "Hours later Russian authorities said its app was also hacked, with fake warnings sent inside the country.",
+      "source": "BBC World",
+      "published": "2026-11-02T01:18:27+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.929
+    },
+    {
+      "title": "Spain train crash: US, Japan and Canada citizens among dead, authorities say",
+      "summary": "The train disaster, one of Europe’s deadliest rail incidents this century, killed 69 people, including 54 Spaniards Four US citizens and one each from Canada, Japan, Argentina, Mexico, Tunisia and the Czech Republic were among the 69 killed in last week’s high-speed train collision in Spain, authorities",
+      "source": "The Guardian",
+      "published": "2026-11-02T01:06:13+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/02/spain-train-crash-us-citizens-japan-canada-dead",
+      "importance": 1.927
+    },
+    {
+      "title": "Trump launches racist diatribe against Abdul El-Sayed at Iowa rally",
+      "summary": "President again took aim at progressive Senate candidate and lauded Haley Stevens for endorsing Mike Rogers Donald Trump railed against Democratic US senate hopeful Abdul El-Sayed at a campaign event in Iowa Sunday, repeatedly referring to the Michigan progressive as a “jihadist”. Trump’s comments aimed to",
+      "source": "The Guardian",
+      "published": "2026-11-02T01:07:23+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/trump-iowa-rally",
+      "importance": 1.927
+    },
+    {
+      "title": "Democrats have high hopes for midterms, but polls have let them down before",
+      "summary": "Polls have been predicting a Democratic surge, but last-minute deciders and sampling issues mean there's no guarantee.",
+      "source": "BBC World",
+      "published": "2026-11-02T00:25:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmg47p3edv4do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.917
+    },
+    {
+      "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+      "summary": "There were hundreds of arrests as protesters took to the streets in cities across France for the third weekend in a row.",
+      "source": "BBC World",
+      "published": "2026-11-02T00:15:30+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.915
+    },
+    {
+      "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
+      "summary": "Endorsement was met with backlash from the party, condemning Stevens for her ‘betrayal’ Congresswoman Haley Stevens, who lost the Michigan Democratic Senate primary to Abdul El-Sayed, endorsed his Republican rival, Mike Rogers, in an extraordinary rebuke of her party’s nominee on the eve of the midterm",
+      "source": "The Guardian",
+      "published": "2026-11-02T00:12:17+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate",
+      "importance": 1.914
+    },
+    {
+      "title": "Don't get caught out by new Buy Now Pay Later rules",
+      "summary": "New affordability checks mean you could be blocked from using Buy Now Pay Later but here are ways to avoid it.",
+      "source": "BBC Business",
+      "published": "2026-11-01T23:34:49+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgp4y017go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.905
+    },
+    {
+      "title": "Pauline Hanson and James Ashby rule out running against Nationals leader Matt Canavan in Capricornia",
+      "summary": "‘My political career may die,’ senator says after Michelle Landry announced she will not recontest her Queensland seat of Capricornia Get our daily political email , free app or daily news podcast The Nationals leader, Matt Canavan, will run for a lower house Queensland seat at the next federal election but",
+      "source": "The Guardian",
+      "published": "2026-11-01T23:05:05+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/02/nationals-leader-matt-canavan-one-nation-james-ashby-capricornia-election-ntwnfb",
+      "importance": 1.899
+    },
+    {
+      "title": "Parents of woman who died of seizure after ChatGPT misguidance sue OpenAI",
+      "summary": "Bowen Wan was on anti-seizure medication, and chatbot provided her with a tapering schedule to reduce dosage A woman’s death from an epileptic seizure after she received dangerous advice from a chatbot has prompted her parents to sue OpenAI earlier this week. The legal action is the latest lawsuit that in",
+      "source": "The Guardian",
+      "published": "2026-11-01T22:37:36+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/chatgpt-woman-seizure-lawsuit-openai",
+      "importance": 1.892
+    },
+    {
+      "title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
+      "summary": "British prime minister has now agreed to structured dialogue on reparatory justice but issue remains off formal Chogm agenda British officials reportedly insisted that discussions of reparations for slavery should not be on the agenda of the Commonwealth leaders’ summit in Antigua and Barbuda – and even",
+      "source": "The Guardian",
+      "published": "2026-11-01T22:26:11+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
+      "importance": 1.89
+    },
+    {
+      "title": "'I've had people eating cat food': Rising cost of living top of mind for US voters",
+      "summary": "The BBC's Clive Myrie travelled to North Caroline where voters voiced their frustrations ahead of midterm elections.",
+      "source": "BBC Business",
+      "published": "2026-11-01T22:25:51+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.889
+    },
+    {
+      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+      "summary": "A rare humanitarian ceasefire allowed civilians to evacuate the Russian-occupied city of Oleshky.",
+      "source": "BBC World",
+      "published": "2026-11-01T21:55:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.882
     },
     {
       "title": "Spain train disaster clouds Sánchez chances of re-election",
@@ -73,15 +273,23 @@
       "source": "BBC World",
       "published": "2026-10-31T05:44:21+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.01
+      "importance": 1.874
     },
     {
-      "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat escalates",
-      "summary": "Haley Stevens, who lost out on the Democratic Senate nomination to Abdul El-Sayed, endorses his opponent days before the vote.",
-      "source": "BBC World",
-      "published": "2026-11-01T20:11:26+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
+      "title": "All nine people aboard business jet that crashed in Florida have died",
+      "summary": "Aircraft had departed Austin-Bergstrom international airport and was headed to the Bahamas when it crashed A business jet carrying nine people nose-dived into a South Florida neighborhood Sunday and erupted into a giant fireball that appeared to just miss homes near a busy roadway, killing everyone onboard.",
+      "source": "The Guardian",
+      "published": "2026-11-01T21:13:23+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/01/business-jet-crash-florida",
+      "importance": 1.873
+    },
+    {
+      "title": "Teenage violinist wins BBC Young Musician 2026, after first all-female final",
+      "summary": "Judges hail Sofia Demetriades’s performance of Tchaikovsky’s Violin Concerto as full of insights, poetry and maturity A teenage violinist has won the BBC Young Musician competition 2026, in the first all-female final in the competition’s 48-year history. The judges, Joanna MacGregor, Ben Gernon and Errollyn",
+      "source": "The Guardian",
+      "published": "2026-11-01T21:00:21+00:00",
+      "url": "https://www.theguardian.com/music/2026/nov/01/bbc-young-musician-teenage-violinist-sofia-demetriades",
+      "importance": 1.87
     },
     {
       "title": "Judge dismisses Trump attempt to block Alaska Senate race results if Republican loses",
@@ -89,39 +297,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T20:10:27+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/01/alaska-senate-race-republican-dan-sullivan",
-      "importance": 1.994
-    },
-    {
-      "title": "Northern Territory water plan condemned as ‘blatant and shameless’ attack on nature",
-      "summary": "Exclusive : Move to scrap legal requirement to set aside water for environment is ‘extreme even for the NT CLP government’, green group says Get our breaking news email , free app or daily news podcast The Northern Territory government has been accused of making a “blatant and shameless” attack on nature by",
-      "source": "The Guardian",
-      "published": "2026-11-01T20:02:57+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/northern-territory-water-plan-condemned-as-blatant-and-shameless-attack-on-nature",
-      "importance": 1.992
-    },
-    {
-      "title": "UK was ‘vehement’ slavery reparations should not be on Commonwealth summit agenda",
-      "summary": "British prime minister has now agreed to structured dialogue on reparatory justice but issue remains off formal Chogm agenda British officials initially insisted that discussions of reparations for slavery should not be on the agenda of the Commonwealth leaders’ summit in Antigua and Barbuda – and even",
-      "source": "The Guardian",
-      "published": "2026-11-01T19:50:39+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
-      "importance": 1.99
-    },
-    {
-      "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire to end",
-      "summary": "A rare humanitarian ceasefire has allowed civilians to evacuate the Russian-occupied city of Oleshky.",
-      "source": "BBC World",
-      "published": "2026-11-01T19:48:17+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
-    },
-    {
-      "title": "Home secretary to make some migrants wait 10 years or more for right to settle in UK",
-      "summary": "MPs say Shabana Mahmood’s new rules risk staff shortages in health and social care and second Windrush scandal Shabana Mahmood will announce sweeping new rules on Monday on how long legal migrants must wait for settlement in the UK, with most likely to wait a decade and some up to 15 years. Ministers –",
-      "source": "The Guardian",
-      "published": "2026-11-01T19:47:35+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/01/home-secretary-shabana-mahmood-immigration-leave-to-remain-windrush",
-      "importance": 1.989
+      "importance": 1.858
     },
     {
       "title": "Tributes paid to ‘inspiring’ Cambridge scientist who died in Spain train crash",
@@ -129,23 +305,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T19:36:46+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/tributes-marta-shahbazi-university-of-cambridge-scientist-spanish-train-crash",
-      "importance": 1.986
-    },
-    {
-      "title": "Connecticut senator Chris Murphy hospitalized after stroke",
-      "summary": "Democratic senator was at his son’s hockey game when he felt a numbness in his arm and was in Johns Hopkins Democratic US Senator Chris Murphy has been hospitalized after suffering a stroke. Murphy, 53, started feeling numbness in his arm while attending a his son’s hockey game on Saturday, according to the",
-      "source": "The Guardian",
-      "published": "2026-11-01T19:27:44+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/chris-murphy-stroke-hospitalized",
-      "importance": 1.984
-    },
-    {
-      "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
-      "summary": "Some who worked for Stevens’ campaign also reportedly quit following her endorsement of Rogers Congresswoman Haley Stevens, who lost the Michigan Democratic Senate primary to Abdul El-Sayed, endorsed his Republican rival, Mike Rogers, in an extraordinary rebuke of her party’s nominee on the eve of the",
-      "source": "The Guardian",
-      "published": "2026-11-01T19:17:12+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate",
-      "importance": 1.982
+      "importance": 1.85
     },
     {
       "title": "Peaceful protests in Germany spiral into violence and looting",
@@ -153,23 +313,7 @@
       "source": "BBC World",
       "published": "2026-11-01T18:51:56+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cqgm0der7zkmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.976
-    },
-    {
-      "title": "National Grid to site biggest substation in UK near planned Teesside datacentre",
-      "summary": "New electricity generating capacity would enable north-east to attract investment for large-scale AI infrastructure National Grid has taken a step towards building Britain’s biggest electricity substation on Teesside, which could supply power to a vast neighbouring datacentre as the UK races to expand its AI",
-      "source": "The Guardian",
-      "published": "2026-11-01T18:37:42+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
-      "importance": 1.973
-    },
-    {
-      "title": "Juan Atkins, pioneer of Detroit techno sound, dies aged 64",
-      "summary": "US artist known as Model 500 and as one half of the duo Cybotron had huge influence on dance music worldwide Juan Atkins, one of the pioneers of Detroit techno and a huge influence on dance music more widely, has died aged 64. His agency, Greensmith Artists, confirmed the news to the dance music website",
-      "source": "The Guardian",
-      "published": "2026-11-01T18:31:22+00:00",
-      "url": "https://www.theguardian.com/music/2026/nov/01/juan-atkins-pioneer-of-detroit-techno-sound-dies-aged-64",
-      "importance": 1.971
+      "importance": 1.84
     },
     {
       "title": "'Fascinating' rare beetle found in Wales again after 60 years",
@@ -177,7 +321,7 @@
       "source": "BBC Science",
       "published": "2026-11-01T18:04:52+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.965
+      "importance": 1.829
     },
     {
       "title": "Armed police start patrols in Sydney after Bondi Beach attack",
@@ -185,7 +329,7 @@
       "source": "BBC World",
       "published": "2026-11-01T17:56:47+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.963
+      "importance": 1.827
     },
     {
       "title": "Negotiators ‘braced for worst’ over US-Iran talks to reopen strait of Hormuz",
@@ -193,15 +337,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T17:49:28+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/negotiators-braced-for-worst-over-us-iran-talks-to-reopen-strait-of-hormuz",
-      "importance": 1.961
-    },
-    {
-      "title": "How Rachel Reeves has mapped out economic agenda for Andy Burnham’s government",
-      "summary": "On Brexit, devolution and investment, the former chancellor is eerily in tune with the man who sacked her Reeves says UK’s future is in the EU Which senior politician has argued that “Brexit did deep damage” and that the government seeks “not to turn back the clock but to look toward a new and stable, future",
-      "source": "The Guardian",
-      "published": "2026-11-01T17:47:42+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/01/how-reeves-has-mapped-out-the-agenda-for-burnhams-government",
-      "importance": 1.961
+      "importance": 1.825
     },
     {
       "title": "Lindsay Clancy is back in court - where will her case go next?",
@@ -209,23 +345,15 @@
       "source": "BBC World",
       "published": "2026-11-01T17:29:08+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck3r5z3pw928o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.957
-    },
-    {
-      "title": "Police detain 325 people at pro-Palestine Action protest at US embassy in London",
-      "summary": "Arrests come ahead of Wednesday’s supreme court challenge to the ban on the direct action group Police have said they arrested 325 people on Saturday at a demonstration outside the US embassy in London against the proscription of Palestine Action. In updated arrest figures released on Sunday, the",
-      "source": "The Guardian",
-      "published": "2026-11-01T17:29:20+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/01/police-detain-325-people-at-pro-palestine-action-protest-at-us-embassy-in-london",
-      "importance": 1.957
+      "importance": 1.821
     },
     {
       "title": "Ukraine defies Trump to resume attacks on Russian oil refineries",
-      "summary": "Kremlin says Kyiv is ‘simply ignoring’ US wishes days before midterm elections after reported strikes on two oil sites Ukraine has resumed its attacks on Russian oil refineries in defiance of pressure from Donald Trump ahead of the US midterm elections, with a ceasefire in the occupied town of Oleshky due to",
+      "summary": "Kremlin says Kyiv is ‘simply ignoring’ US wishes days before midterm elections after reported strikes on two oil sites Ukraine has resumed its attacks on Russian oil refineries in defiance of pressure from Donald Trump ahead of the US midterm elections, as a ceasefire in the occupied town of Oleshky ended on",
       "source": "The Guardian",
       "published": "2026-11-01T17:20:18+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil",
-      "importance": 1.955
+      "importance": 1.819
     },
     {
       "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
@@ -233,7 +361,7 @@
       "source": "BBC World",
       "published": "2026-11-01T17:06:32+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.952
+      "importance": 1.816
     },
     {
       "title": "University of Cambridge scientist among those who died in Spanish train crash",
@@ -241,7 +369,7 @@
       "source": "BBC World",
       "published": "2026-11-01T17:05:18+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq5ynzvkn1d8o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.951
+      "importance": 1.815
     },
     {
       "title": "Global nature talks reach deal but money remains an issue",
@@ -249,7 +377,7 @@
       "source": "BBC World",
       "published": "2026-10-31T01:27:05+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.951
+      "importance": 1.815
     },
     {
       "title": "UK willing to spend £450m a year on EU students if it can join Made in Europe scheme",
@@ -257,7 +385,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T17:00:16+00:00",
       "url": "https://www.theguardian.com/politics/2026/nov/01/uk-willing-to-spend-450m-a-year-on-eu-students-if-it-can-join-made-in-europe-scheme",
-      "importance": 1.95
+      "importance": 1.814
     },
     {
       "title": "Thousands of jobs at Virgin Media O2 to be cut",
@@ -265,7 +393,7 @@
       "source": "BBC Business",
       "published": "2026-11-01T16:57:14+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.949
+      "importance": 1.813
     },
     {
       "title": "Attempted murder probe after petrol bomb thrown at French riot police",
@@ -273,135 +401,7 @@
       "source": "The Guardian",
       "published": "2026-11-01T16:24:38+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police",
-      "importance": 1.942
-    },
-    {
-      "title": "Five teenagers hurt in stabbing at Halloween party in Hampshire",
-      "summary": "Police searching for ‘unknown group’ that gained entry to property in Chandler’s Ford on Saturday night Five teenage boys were stabbed at a Halloween party, after an “unknown group” gained entry to the event on a residential road, police have been told. The boys, all aged 16 and 17, were found injured after",
-      "source": "The Guardian",
-      "published": "2026-11-01T16:14:56+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/01/teenagers-stabbing-halloween-party-hampshire",
-      "importance": 1.94
-    },
-    {
-      "title": "Tens of thousands protest against Narendra Modi regime in Delhi",
-      "summary": "Led by Congress party, India’s opposition alliance channels anger over removal of 130 million names from voter roll Thousands of opposition supporters have gathered in Delhi as protests against the Narendra Modi government continue to gather momentum. Led by the Congress party, India’s opposition alliance",
-      "source": "The Guardian",
-      "published": "2026-11-01T16:11:50+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/india-opposition-protest-rally-delhi",
-      "importance": 1.939
-    },
-    {
-      "title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
-      "summary": "Prime minister says shake-up is vital to restore tribunal crippled by years of political disputes Poland’s prime minister, Donald Tusk, has vowed to see through a contested overhaul of the country’s constitutional court, declaring that “in certain matters, there can be no compromise”. In a prime-time",
-      "source": "The Guardian",
-      "published": "2026-11-01T15:44:28+00:00",
-      "url": "https://www.theguardian.com/world/2026/oct/31/donald-tusk-defends-overhaul-poland-constitutional-court-despite-protests",
-      "importance": 1.933
-    },
-    {
-      "title": "Home values fall for seventh consecutive month as interest rates dent demand",
-      "summary": "Centre of downturn shifts away from Sydney and Melbourne, but after such strong growth most homeowners still sit on sizeable gains Get our breaking news email , free app or daily news podcast Australian home values have dropped for a seventh consecutive month, with prices in the capital cities now falling at",
-      "source": "The Guardian",
-      "published": "2026-11-01T14:00:18+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/home-values-fall-for-seventh-month-interest-rates-dent-property-demand",
-      "importance": 1.908
-    },
-    {
-      "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
-      "summary": "Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email , free app or daily news podcast AI is taking First Nations art and turning it into “Temu slop”, the Pitjantjatjara artist Sally Scales",
-      "source": "The Guardian",
-      "published": "2026-11-01T14:00:13+00:00",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
-      "importance": 1.908
-    },
-    {
-      "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
-      "summary": "The Federal Bureau of Investigation (FBI) says North Korea was responsible for the hack.",
-      "source": "BBC World",
-      "published": "2026-11-01T13:11:37+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.897
-    },
-    {
-      "title": "Aquarium shark that helped 'dispel myths' dies",
-      "summary": "Staff at Plymouth's aquarium pay tribute to a sand tiger shark believed to be almost 30 years old.",
-      "source": "BBC Science",
-      "published": "2026-11-01T12:13:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c64g18lkz0kno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.884
-    },
-    {
-      "title": "Shops looted as German cost-of-living protests turn violent",
-      "summary": "The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.",
-      "source": "BBC World",
-      "published": "2026-11-01T11:57:48+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.88
-    },
-    {
-      "title": "Binance resumes customer withdrawals after record $6.3bn hack",
-      "summary": "Cryptocurrency exchange says 90% of losses covered as FBI blames North Korean state-sponsored group TraderTraitor The cryptocurrency exchange Binance has started to allow its customers to withdraw their funds from the platform, as it recovers from a record $6.3bn (£4.7bn) hack. The exchange was hit by the",
-      "source": "The Guardian",
-      "published": "2026-11-01T11:54:23+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/01/binance-losses-covered-hack-fbi-north-korea-cryptocurrency",
-      "importance": 1.879
-    },
-    {
-      "title": "Spill from vandalised home oil tank kills 13 birds",
-      "summary": "A number of birds are also injured after the spill from the oil tank earlier this week.",
-      "source": "BBC Science",
-      "published": "2026-11-01T08:57:56+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/crwyd2lyj15go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.838
-    },
-    {
-      "title": "Rhino siblings celebrate first birthday with cake",
-      "summary": "Markus and Mo weighed about 70kg (11st) at birth, and now weigh about 500kg (78st) each.",
-      "source": "BBC Science",
-      "published": "2026-11-01T07:11:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqrkypljk526o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.814
-    },
-    {
-      "title": "Diwali hampers to bring hope to families in need",
-      "summary": "The Diwali Basket Brigade volunteers want to help vulnerable households with rising food prices.",
-      "source": "BBC Business",
-      "published": "2026-11-01T07:11:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm20wyg8j121o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.814
-    },
-    {
-      "title": "Jacinda Ardern in Sydney Opera House talk advises politicians to ‘rebuild trust by building financial security’",
-      "summary": "Former New Zealand prime minister has moved to Australia and is lecturing at University of Sydney – and from stage of city’s famous landmark Jacinda Ardern, who now calls Sydney home, has delivered a message to Australian politicians from the stage of the city’s Opera House. Politicians, the former New",
-      "source": "The Guardian",
-      "published": "2026-11-01T06:53:22+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/01/jacinda-ardern-sydney-opera-house-talk-advises-politicians-to-rebuild-trust",
-      "importance": 1.81
-    },
-    {
-      "title": "Oil tank vandalism results in waterfowl park 'nightmare'",
-      "summary": "The popular attraction in County Down has been forced to close while efforts continue to remove oil from the pond.",
-      "source": "BBC Science",
-      "published": "2026-11-01T06:42:13+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c64g14ene2epo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.807
-    },
-    {
-      "title": "Rare damselfly spotted by restored chalk river",
-      "summary": "The Herts and Middlesex Trust says it is \"thrilled\" the new wetlands are helping species thrive.",
-      "source": "BBC Science",
-      "published": "2026-11-01T06:19:16+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c617kvqjd81jo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.802
-    },
-    {
-      "title": "Democrats are used to heartbreak in Texas - could Talarico turn the tide?",
-      "summary": "The state's $500m Senate race may be the most closely watched in the US midterms, and is about far more than control of Congress.",
-      "source": "BBC World",
-      "published": "2026-11-01T06:03:57+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0r2y6zeddo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.798
+      "importance": 1.806
     }
   ]
 }
