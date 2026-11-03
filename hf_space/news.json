@@ -1,15 +1,95 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-02T18:30:19.681849+00:00",
+  "generated_at": "2026-11-03T06:57:44.263530+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "Charity warns about damage of over-foraging fungi",
+      "summary": "It says over-foraging, particularly in protected areas, damages habitats and wildlife.",
+      "source": "BBC Science",
+      "published": "2026-11-03T06:37:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6jrw5j7n4dlo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.545
+    },
+    {
+      "title": "Bullock doesn’t see ‘economy cracking at this point’ – as it happened",
+      "summary": "This blog is now closed RBA hikes cash rate for fifth time in blow to mortgage holders Use our loan calculator to check how the rate rise may affect you Get our breaking news email , free app or daily news podcast The Reserve Bank has hiked rates for the fifth time this year, from 4.6% to 4.85%, in a bid to",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:33:51+00:00",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/03/rba-interest-rates-meeting-today-latest-news-australia-reserve-bank-cash-rate-announcement-decision-live-updates",
+      "importance": 2.544
+    },
+    {
+      "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+      "summary": "Iranian state media reported the sound of explosions on the island in the strait of Hormuz, coming on the eve of crucial US midterms The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, ⁠according to reports in US media, hours after vice-president JD Vance said he was optimistic",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:29:19+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "importance": 2.543
+    },
+    {
+      "title": "Public venues offer tea and warm welcome in winter",
+      "summary": "The annual scheme sees community venues and libraries offer hot drinks and the chance to socialise.",
+      "source": "BBC Business",
+      "published": "2026-11-03T06:10:07+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq23d505m555o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.539
+    },
+    {
+      "title": "Do the Shetland Isles need Cold War-style military protection?",
+      "summary": "Calls are being made for the defence of the Shetland Isles to be strengthened after increased sightings of Russian trawlers off the coast of Scotland.",
+      "source": "BBC Science",
+      "published": "2026-11-03T06:07:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cjg47dq6q775o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.538
+    },
+    {
+      "title": "US strikes Iran ahead of midterm elections",
+      "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+      "source": "BBC World",
+      "published": "2026-11-03T03:39:08+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.504
+    },
+    {
+      "title": "Trump to remove Rwanda and South Africa from US trade deal",
+      "summary": "The move comes barely a week after Rwanda's defence ministry was hit with sanctions by the US Treasury.",
+      "source": "BBC World",
+      "published": "2026-11-03T03:00:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.495
+    },
+    {
+      "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+      "summary": "The food deal, ahead of a UK-EU summit later this month, is the most significant part of the so-called Brexit reset agreed so far.",
+      "source": "BBC Business",
+      "published": "2026-11-03T02:11:13+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.484
+    },
+    {
+      "title": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "summary": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The",
+      "source": "The Guardian",
+      "published": "2026-11-03T00:01:32+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+      "importance": 2.454
+    },
+    {
+      "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "summary": "Many Ukrainians, who have faced years of Russian attacks, did not take the messages seriously and doubted their veracity.",
+      "source": "BBC World",
+      "published": "2026-11-02T18:34:24+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
+      "importance": 2.378
+    },
     {
       "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
       "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
       "source": "BBC World",
       "published": "2026-11-02T17:33:19+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.537
+      "importance": 2.364
     },
     {
       "title": "Dutch police offer record €2m reward in hunt for drug lord",
@@ -17,7 +97,7 @@
       "source": "BBC World",
       "published": "2026-11-02T17:29:49+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.536
+      "importance": 2.363
     },
     {
       "title": "Oil price falls amid hope of a breakthrough to end Iran war",
@@ -25,47 +105,7 @@
       "source": "The Guardian",
       "published": "2026-11-02T17:14:23+00:00",
       "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
-      "importance": 2.532
-    },
-    {
-      "title": "Trump promised a steel mill in this rural Iowa region. But is it all a midterm election ploy?",
-      "summary": "Residents would welcome the development, but the president’s past false promises cast doubt on the proposal On a Monday afternoon in late September, Donald Trump gathered Iowa Republicans in the Oval Office to make a big announcement: the firm Mesabi Metallics would invest $15bn to make the midwestern state",
-      "source": "The Guardian",
-      "published": "2026-11-02T17:00:23+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/iowa-midterms-steel-mill",
-      "importance": 2.529
-    },
-    {
-      "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
-      "summary": "Neither government has confirmed who was responsible for the cyberattacks on Sunday evening.",
-      "source": "BBC World",
-      "published": "2026-11-02T14:35:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.496
-    },
-    {
-      "title": "What are Americans voting for in this election?",
-      "summary": "The BBC's Maddie Gerber explains what's on the ballot in the 2026 midterm elections in the United States.",
-      "source": "BBC World",
-      "published": "2026-11-02T09:22:55+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.423
-    },
-    {
-      "title": "Award‑winning Australian children’s author Craig Silvey jailed over child exploitation material",
-      "summary": "Jasper Jones writer sent multiple messages about his sexual desire for young boys, Western Australian district court hears Warning: This article contains graphic content Get our breaking news email , free app or daily news podcast The award‑winning author Craig Silvey sent multiple messages about his sexual",
-      "source": "The Guardian",
-      "published": "2026-11-02T08:01:34+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australian-author-craig-silvey-jailed-child-exploitation-material-ntwnfb",
-      "importance": 2.404
-    },
-    {
-      "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
-      "summary": "Australia’s central bank expected to hit mortgage holders again on Tuesday, as war in Middle East combines with collapsing house prices Get our breaking news email , free app or daily news podcast Australia’s economy is set for a “sharper, longer slowdown”, major bank economists say, as the Reserve Bank is",
-      "source": "The Guardian",
-      "published": "2026-11-02T06:57:29+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/australia-economy-fifth-interest-rate-hike-looms",
-      "importance": 2.39
+      "importance": 2.359
     },
     {
       "title": "Woman who flew with swans warns of lead danger",
@@ -73,7 +113,111 @@
       "source": "BBC Science",
       "published": "2026-11-02T06:22:00+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqly0r3kp1mlo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.381
+      "importance": 2.208
+    },
+    {
+      "title": "Australia’s social media ban ‘ill-thought-out’, Reddit argues in high court challenge",
+      "summary": "Reddit challenges ban on grounds it impinges implied freedom of political communications for teens The Australian government’s rush to pass the under-16s social media ban legislation in 2024 led to “ill-thought-out, over-broad legislation” that has since been narrowed after Reddit sued the government",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:36:58+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/reddit-under-16s-social-media-ban-australia-high-court",
+      "importance": 1.995
+    },
+    {
+      "title": "AI data centres could undermine UK's emissions goals",
+      "summary": "Four planned \"hyperscale\" data centres consider using gas-fired power for their electricity needs.",
+      "source": "BBC Science",
+      "published": "2026-11-03T06:27:17+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqvgrvx6ekl2o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.993
+    },
+    {
+      "title": "North Korea denies being behind record $6.3bn Binance hack",
+      "summary": "US government agencies and cyber analysts have blamed Pyongyang for the record-breaking heist.",
+      "source": "BBC World",
+      "published": "2026-11-03T06:22:29+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.992
+    },
+    {
+      "title": "RBA interest rates: Bullock says ‘some pain now’ will prevent worse pain later as Reserve Bank hikes rates for fifth time",
+      "summary": "Reserve Bank of Australia increases official cash rate to 4.85%, bringing it to highest level since 2008 RBA interest rates live updates: Reserve Bank cash rate decision Get our daily political email , free app or daily news podcast The Reserve Bank governor Michele Bullock has said that “some pain now will",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:14:08+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/rba-interest-rates-decision-cash-rate-november-reserve-bank-australia",
+      "importance": 1.99
+    },
+    {
+      "title": "Judge pauses Alan Jones indecent assault trial so former broadcaster can watch Melbourne Cup",
+      "summary": "Jones, a former radio broadcaster, has pleaded not guilty to 21 charges of indecent assault and sexual touching Get our breaking news email , free app or daily news podcast The evidence of a star reporter whose investigation led to charges against Alan Jones was paused so the former 2GB broadcaster and horse",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:05:00+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/03/kate-mcclymont-evidence-alan-jones-trial-ntwnfb",
+      "importance": 1.988
+    },
+    {
+      "title": "Scientists detect signals at the smallest scale ever explored",
+      "summary": "Researchers have detected signals from the smallest distances ever probed.",
+      "source": "BBC Science",
+      "published": "2026-11-03T06:01:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c5pvgxkkv4dzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "Denmark pushes for EU ban on ‘turbo chickens’ as secret footage causes outrage",
+      "summary": "Minister says government will work towards banning fast-growing breed across country and throughout EU The Danish government is pursuing a national ban on “turbo chickens” and is calling for the fast-growing breed to be prohibited across Europe. The move comes amid widespread outrage over allegations of",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:00:39+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/03/denmark-pushes-for-eu-ban-on-turbo-chickens-as-secret-footage-causes-outrage",
+      "importance": 1.987
+    },
+    {
+      "title": "UK ministers told not to engage formally with Indian mega-zoo after lobbying",
+      "summary": "Guardian and Mongabay reveal approaches to officials and MPs on behalf of Vantara zoo ahead of UK-chaired Cites meeting on endangered animal imports British government ministers were told not to engage formally with Vantara, the controversial mega-zoo run by the Indian billionaire Anant Ambani, after",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:00:39+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/03/uk-ministers-anant-ambani-indian-zoo-vantara-freedom-information-endangered-animals-cites",
+      "importance": 1.987
+    },
+    {
+      "title": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "summary": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice",
+      "source": "The Guardian",
+      "published": "2026-11-03T06:00:40+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
+      "importance": 1.987
+    },
+    {
+      "title": "New York child dies from measles in state’s first fatal case in 30 years",
+      "summary": "New York governor says case is ‘devastating reminder of what’s at stake’ when vaccine protections are eroded A child in rural northern New York has died after contracting measles, marking the state’s first death from the disease in 30 years, state officials announced on Monday. The child died in Lewis",
+      "source": "The Guardian",
+      "published": "2026-11-03T05:48:26+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/03/new-york-child-measles-death-first-in-30-years",
+      "importance": 1.984
+    },
+    {
+      "title": "Boulders dropped off coast to disrupt deep fishing",
+      "summary": "Greenpeace drops nine large rocks to create a barrier to bottom-trawling fishing vessels.",
+      "source": "BBC Science",
+      "published": "2026-11-03T05:44:42+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3j47k8rrkr5o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.983
+    },
+    {
+      "title": "Peacock found in couple’s Brisbane bathroom leads to creative bid to reunite bird with tattoo artist",
+      "summary": "Geoff and Delwyn Ballantyne went out for an evening coffee. When they returned they found Hex admiring himself in the mirror Get our breaking news email , free app or daily news podcast A peacock that seemingly fell hopelessly in love with himself in a bathroom mirror after breaking into a Brisbane house",
+      "source": "The Guardian",
+      "published": "2026-11-03T05:32:30+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/03/hex-the-peacock-found-in-brisbane-bathroom",
+      "importance": 1.98
+    },
+    {
+      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "summary": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots in the state.",
+      "source": "BBC World",
+      "published": "2026-11-03T03:32:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.953
     },
     {
       "title": "The US-China trade war seems to have subsided – but the sense of calm is misleading",
@@ -81,7 +225,127 @@
       "source": "The Guardian",
       "published": "2026-11-01T12:00:12+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/01/us-china-trade-war-trump-xi",
-      "importance": 2.126
+      "importance": 1.953
+    },
+    {
+      "title": "Man and boy arrested after allegedly attacking One Nation volunteer with bat",
+      "summary": "The incident comes amid growing calls for the temperature of political debate in Australia to be turned down.",
+      "source": "BBC World",
+      "published": "2026-11-03T03:30:16+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwly3jd27m9xo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.952
+    },
+    {
+      "title": "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – as it happened",
+      "summary": "This live blog is now closed. Supreme court rules against Trump over bid to force California to set aside ballots Sign up for the Breaking News US email The latest and final New York Times and Siena College poll before the midterm elections also shows Abdul El-Sayed leading Mike Rogers in the US Senate race",
+      "source": "The Guardian",
+      "published": "2026-11-03T03:24:51+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
+      "importance": 1.951
+    },
+    {
+      "title": "Tennessee national guard trained guns on dying man after guard member shot him, video shows",
+      "summary": "Footage from prosecutors shows aftermath of shooting of Tyrin Johnson, 20, shot and killed by national guard in July Tennessee national guard troops in Memphis last summer trained their handguns on a man as he lay dying on a sidewalk after a guard member shot him in the back, video released Monday by county",
+      "source": "The Guardian",
+      "published": "2026-11-03T03:13:06+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/tennessee-shooting-tyrin-johnson-video",
+      "importance": 1.948
+    },
+    {
+      "title": "Christmas 2026 stamps unveiled by Royal Mail",
+      "summary": "The annual Christmas collection of five stamps feature scenes from the Nativity.",
+      "source": "BBC Business",
+      "published": "2026-11-03T02:27:50+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw62yeq7958ro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.938
+    },
+    {
+      "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+      "summary": "Officials say at least nine 3,000kg aerial bombs hit a southern Ukrainian village in what the president called an \"utterly horrific\" attack.",
+      "source": "BBC World",
+      "published": "2026-11-03T01:56:27+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.93
+    },
+    {
+      "title": "Russian bombing of Ukrainian aid centre kills at least 26, Kyiv says",
+      "summary": "Ukrainian president Zelenskyy says attack on aid hub was ‘vile’ and shows Russia does not want to de-escalate Russia on Monday bombed an aid distribution centre and neighbouring shelter in southern Ukraine, killing at least 26 ​people, Ukrainian president Volodymyr Zelenskyy and the country’s emergency",
+      "source": "The Guardian",
+      "published": "2026-11-03T01:13:52+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/03/russia-bombs-ukrainian-aid-centre-komyshuvakha",
+      "importance": 1.92
+    },
+    {
+      "title": "Supreme court rules against Trump over bid to force California to set aside ballots",
+      "summary": "Justice department had ordered state to segregate and not count 20,000 ballots from people it claims are non-citizens US midterms – live updates The supreme court on Monday ruled against the Trump administration and its attempts to force California election officials to segregate and not count ballots from",
+      "source": "The Guardian",
+      "published": "2026-11-03T00:50:37+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/supreme-court-trump-california-ballots",
+      "importance": 1.915
+    },
+    {
+      "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
+      "summary": "The men and women who rummage through commercial bins to take clothes and other items.",
+      "source": "BBC Science",
+      "published": "2026-11-03T00:41:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm86zdp2ygqno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.913
+    },
+    {
+      "title": "Apple unsure when more foldable iPhones will be available after selling out",
+      "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
+      "source": "BBC Technology",
+      "published": "2026-11-03T00:29:00+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.91
+    },
+    {
+      "title": "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+      "summary": "Western officials stress that any force sent to Ukraine would not take part in any offensive operations.",
+      "source": "BBC World",
+      "published": "2026-11-03T00:07:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm3wv085ne6po?at_medium=RSS&at_campaign=rss",
+      "importance": 1.905
+    },
+    {
+      "title": "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+      "summary": "The National Transportation Safety Board also believes weather could have been a factor in the crash, but warns it is too early to determine the cause.",
+      "source": "BBC World",
+      "published": "2026-11-03T00:08:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm369yy7lw73o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.905
+    },
+    {
+      "title": "Bollywood film star Ranbir Kapoor on AI, movies and fatherhood",
+      "summary": "The film star plays the leading role in a major new adaptation of the Indian epic Ramayana.",
+      "source": "BBC World",
+      "published": "2026-11-03T00:09:13+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmvg9w5w2p1no?at_medium=RSS&at_campaign=rss",
+      "importance": 1.905
+    },
+    {
+      "title": "Legal challenge to Australia's social media ban to start in High Court",
+      "summary": "A rights group will argue the world-leading policy robs under-16s of their right to free communication.",
+      "source": "BBC World",
+      "published": "2026-11-02T23:37:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.898
+    },
+    {
+      "title": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
+      "summary": "Stevens’s decision sparked fierce backlash from members of the party, while Donald Trump praised the sudden switch Democrat Haley Stevens’s shocking last-minute endorsement of Mike Rogers, the Michigan Republican Senate candidate, in the run-up to Tuesday’s midterm elections has sparked fierce backlash from",
+      "source": "The Guardian",
+      "published": "2026-11-02T23:22:57+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
+      "importance": 1.895
+    },
+    {
+      "title": "Indonesia's toxic haze is giving its neighbours a political headache",
+      "summary": "Governments in Singapore and Malaysia are split between anxious citizens and an irascible neighbour.",
+      "source": "BBC World",
+      "published": "2026-11-02T23:02:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3dxwzjn2gw8o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.89
     },
     {
       "title": "India's opposition holds mega rally seeking election chief's resignation",
@@ -89,7 +353,15 @@
       "source": "BBC World",
       "published": "2026-11-01T07:00:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60qk92dvlwgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.057
+      "importance": 1.884
+    },
+    {
+      "title": "PM to ask countries affected by UK’s role in slavery to help shape formal apology",
+      "summary": "Andy Burnham to launch ‘structured dialogue’ on issue at Commonwealth summit in Antigua and Barbuda Andy Burnham will ask countries affected by Britain’s role in slavery to help shape an expected formal apology, Downing Street has indicated, arguing that their input is indispensable in crafting an enduring",
+      "source": "The Guardian",
+      "published": "2026-11-02T22:30:30+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/02/andy-burnham-ask-countries-affected-uk-role-slavery-shape-formal-apology",
+      "importance": 1.883
     },
     {
       "title": "'Rok' solid recognition for Slovenian space scientist",
@@ -97,311 +369,39 @@
       "source": "BBC Science",
       "published": "2026-11-01T06:35:37+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqx283v54zd6o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.051
+      "importance": 1.878
     },
     {
-      "title": "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
-      "summary": "Local officials say 27 people had been missing after at least nine 3,000kg aerial bombs hit a village in southern Ukraine.",
+      "title": "US midterms campaign 'shattering' spending records to be most expensive ever",
+      "summary": "The 2026 campaign is projected to cost nearly $12bn - BBC Verify looks into where all that money has come from.",
       "source": "BBC World",
-      "published": "2026-11-02T18:28:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.0
+      "published": "2026-11-02T20:54:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.86
     },
     {
-      "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
-      "summary": "Dozens of shops across European countries have been hit by a cyber-attack affecting their fridges.",
+      "title": "Migration is a moral issue for Burnham – but is he trying to please everyone?",
+      "summary": "PM wants to tie Shabana Mahmood’s hard line on borders to recognition of the value of migration, but he may need to shout his conviction How will UK immigration rules change under Shabana Mahmood’s latest plans? While out on the campaign trail in Makerfield, Andy Burnham gave a glimpse into where he might",
+      "source": "The Guardian",
+      "published": "2026-11-02T20:39:52+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/02/migration-andy-burnham-shabana-mahmood-labour-immigration",
+      "importance": 1.857
+    },
+    {
+      "title": "Man guilty of stealing cash from farm owned by South African president",
+      "summary": "The case, part of the \"Farmgate\" scandal, has left President Cyril Ramaphosa mired in an impeachment saga.",
       "source": "BBC World",
-      "published": "2026-11-02T18:25:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckpqg8lve73go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.999
-    },
-    {
-      "title": "French pupils resume school blockades as country braces for more protests",
-      "summary": "Minister warns weeks without lessons are putting exams at risk as unions plan nationwide strike on Thursday Dozens of high schools across France were blockaded again on Monday as the government braced for another tense week of protests over school conditions and the high cost of living. The protests come",
-      "source": "The Guardian",
-      "published": "2026-11-02T18:17:33+00:00",
-      "url": "https://www.theguardian.com/education/2026/nov/02/franch-students-school-blockades-protests",
-      "importance": 1.997
-    },
-    {
-      "title": "Charities condemn proposal to make some refugees wait up to 30 years for settlement – UK politics live",
-      "summary": "Executive director of external affairs at the Refugee Council called the proposals ‘unfair and unworkable’ Downing Street has declined to say how much it cost for the plane carrying Andy Burnham and UK delegates to a Commonwealth leaders’ summit to stop in Manchester to pick him up (see 10.28am ), the Press",
-      "source": "The Guardian",
-      "published": "2026-11-02T18:15:42+00:00",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/02/andy-burnham-shabana-mahmood-migration-indefinite-leave-to-remain-care-workers-uk-politics-latest-news",
-      "importance": 1.997
-    },
-    {
-      "title": "Abdul El-Sayed’s campaign reports record fundraising day as Haley Stevens faces backlash for endorsing his opponent – live",
-      "summary": "Democratic candidate for Michigan US Senate seat raised $2.4m on Sunday after congresswoman Haley Stevens pulled her endorsement of him in favor of Trump-backed Mike Rogers Sign up for the Breaking News US email Newsletter: How you (yes you) can fight dark money in elections The latest and final New York",
-      "source": "The Guardian",
-      "published": "2026-11-02T18:10:42+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
-      "importance": 1.995
-    },
-    {
-      "title": "Trial of nine men accused of abusing woman drugged and raped by husband begins",
-      "summary": "The husband, who cannot be named to protect his victim, has already pleaded guilty to a number of offences carried out at the couple’s Stockport home Nine men have gone on trial accused of being involved in the abuse of a woman who was drugged, raped and sexually assaulted by her husband while he “lived a",
-      "source": "The Guardian",
-      "published": "2026-11-02T17:56:03+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/02/trial-of-nine-men-accused-of-abusing-woman-drugged-and-raped-by-husband-begins",
-      "importance": 1.992
-    },
-    {
-      "title": "Shop freezers in seven European countries hit by cyber-attack",
-      "summary": "The temperature of freezers in several shops across Europe reportedly rose to as high as 50C.",
-      "source": "BBC World",
-      "published": "2026-11-02T17:38:11+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.988
-    },
-    {
-      "title": "'All this food is now useless': Piles of rubbish after shop freezers hit by cyber-attack",
-      "summary": "Dozens of supermarkets in seven European countries dumped huge quantities of food after refrigerators and freezers were targeted in a cyber-attack.",
-      "source": "BBC World",
-      "published": "2026-11-02T17:34:58+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cmwyvrgk9p0ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.987
-    },
-    {
-      "title": "Judge tosses case against two officials accused of lying about Hunter Biden",
-      "summary": "The two FBI agents were charged with making false statements to Congress while testifying about the bureau’s role in investigating Biden’s laptop A federal judge dismissed criminal charges against two former FBI officials who were accused of lying about their involvement in the investigation into Hunter",
-      "source": "The Guardian",
-      "published": "2026-11-02T17:33:32+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/judge-tosses-case-fbi-hunter-biden",
-      "importance": 1.987
-    },
-    {
-      "title": "Defendant tells court he believed he had consent of woman drugged by her husband",
-      "summary": "Connor Sanderson-Doyle is one of four men accused of sexually abusing Joanne Young, who was repeatedly assaulted by her husband, Philip Young A man has told a court he believed a woman who was repeatedly raped and drugged by her husband had consented when he answered an advert to have sex with her. Former",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:59:20+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/02/defendant-tells-court-he-believed-he-had-consent-of-woman-drugged-by-her-husband",
-      "importance": 1.979
-    },
-    {
-      "title": "Young co-pilot, 20, named as one of nine victims of deadly Florida plane crash",
-      "summary": "Nathalia Filgueiras was onboard private plane bound for Bahamas that crashed in Palm Beach county Family members on Monday identified a young Florida pilot as one of nine victims of a plane crash in Palm Beach county that occurred during a heavy thunderstorm. Nathalia Filgueiras, 20, was co-pilot of the",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:44:01+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/investigators-florida-plane-crash",
-      "importance": 1.975
-    },
-    {
-      "title": "Shop fridges and freezers across Europe hit by fresh suspected cyber-attack",
-      "summary": "Chains in seven countries say cooling unit temperatures rose overnight in incident similar to hack of French shops Supermarket chains in at least seven European countries have said the temperatures of refrigerators and freezers in some of their shops soared overnight to as high as 50C (122F), echoing a",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:39:20+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
-      "importance": 1.974
-    },
-    {
-      "title": "Newcastle hospital told woman whose unborn baby had died to go home and ‘book a slot to give birth’",
-      "summary": "Trust admits Danielle Brown’s baby would have survived had she not been sent home from RVI days earlier A woman whose unborn baby had died was sent home from hospital with a booklet for bereaved parents and told to book a slot to give birth. Danielle Brown, 31, was seven months pregnant when she was first",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:36:27+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/02/newcastle-hospital-rvi-woman-sent-home-unborn-baby-died",
-      "importance": 1.974
-    },
-    {
-      "title": "E Jean Carroll fights Trump’s last-ditch push to dismiss $83m damages verdict",
-      "summary": "Lawyers file opposition to Trump’s request, telling supreme court justices they do not need ‘to bail out this president’ E Jean Carroll’s lawyers are fighting Donald Trump’s efforts to toss her $83m damages verdict in the US supreme court, telling the justices that they do not need “to bail out this",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:37:00+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/e-jean-carroll-trump-supreme-court",
-      "importance": 1.974
-    },
-    {
-      "title": "EHRC raises concern with Reform about ‘racial and sexual remarks’ in documentary",
-      "summary": "Watchdog writes to Nigel Farage’s party to ask what action it is taking to comply with the Equality Act The official equalities watchdog has written to Reform UK to raise concerns after an undercover TV documentary showed councillors and candidates for the party expressing racist and misogynistic views, with",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:28:43+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/02/ehrc-raises-concern-with-reform-about-racial-and-sexual-remarks-in-documentary",
-      "importance": 1.972
-    },
-    {
-      "title": "Ikea among shops affected by fridge cyber-hacks – Europe live",
-      "summary": "Supermarkets across Europe have experienced temperature-control meddling The fake nuclear threats to Ukraine came as Russia resumed its attacks on the southern city of Kherson , just hours after the end of a ceasefire during which hundreds of people were evacuated from the nearby Kremlin-controlled town of",
-      "source": "The Guardian",
-      "published": "2026-11-02T16:17:14+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
-      "importance": 1.969
-    },
-    {
-      "title": "Judge orders Trump administration to stop threatening US election officials",
-      "summary": "The order comes after election officials received letters demanding they set aside the ballots of possible non-citizen voters.",
-      "source": "BBC World",
-      "published": "2026-11-01T00:27:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c8qln1539y37o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.966
-    },
-    {
-      "title": "'New kit' helps battle against bugs",
-      "summary": "The chemical-free decoys are used while clearing riverside vegetation.",
-      "source": "BBC Science",
-      "published": "2026-11-02T15:05:59+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cm369dep8jwno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.953
-    },
-    {
-      "title": "Wizz Air flight from Luton in emergency landing after bomb threat",
-      "summary": "A Hungarian fighter jet escorted the aircraft to Budapest after the threat was received mid-air.",
-      "source": "BBC World",
-      "published": "2026-11-02T14:35:38+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6rryvwre0p5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.946
-    },
-    {
-      "title": "What we know about the alert app hack in Ukraine and Russia",
-      "summary": "Both Ukraine and Russia say their air raid alert apps were cyber-attacked - Joe Tidy explains what we know so far.",
-      "source": "BBC World",
-      "published": "2026-11-02T14:24:25+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/crq5n6204g20o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.943
-    },
-    {
-      "title": "Guardian Essential poll: record number of Australians are turning their backs on the Melbourne Cup",
-      "summary": "Growing disdain for gambling and animal cruelty concerns drive sliding interest in race that once ‘stopped the nation’ Get our breaking news email , free app or daily news podcast A record number of Australians are turning their backs on the Melbourne Cup, with more than two-thirds surveyed saying they have",
-      "source": "The Guardian",
-      "published": "2026-11-02T14:00:46+00:00",
-      "url": "https://www.theguardian.com/sport/2026/nov/03/melbourne-cup-2026-poll-record-numbers-turn-their-backs",
-      "importance": 1.938
-    },
-    {
-      "title": "Reddit and libertarian group challenge Australia’s under-16s social media ban in high court",
-      "summary": "Social network and Digital Freedom Project, led by NSW state MP John Ruddick, seek to overturn ban on grounds of implied freedom of political communication Australia’s world-leading under-16s social media ban will face its first major legal challenge on Tuesday, as Reddit and an advocacy group headed by a",
-      "source": "The Guardian",
-      "published": "2026-11-02T14:00:44+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/03/australia-social-media-ban-high-court-challenge-reddit-digital-freedom-project",
-      "importance": 1.938
-    },
-    {
-      "title": "NSW council refuses to show world-renowned Gaza artwork over ‘unacceptable’ safety risk",
-      "summary": "Exclusive: Shoalhaven council says Wall of Tears installation by Phil Buehler posed risk to staff, visitors and tenants Get our breaking news email , free app or daily news podcast A New South Wales local council has refused to show a world-renowned artwork about children killed in Gaza after asking",
-      "source": "The Guardian",
-      "published": "2026-11-02T14:00:44+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/03/shoalhaven-council-refuses-to-show-wall-of-tears-gaza-artwork-safety-risk-ntwnfb",
-      "importance": 1.938
-    },
-    {
-      "title": "A Paralympian vs a former TV news anchor - and other US Senate races to watch",
-      "summary": "All eyes are on a handful of Senate races that will decide control of the prized upper chamber. Here's a quick guide.",
-      "source": "BBC World",
-      "published": "2026-11-02T13:49:19+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7ljkprvjko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.935
-    },
-    {
-      "title": "Poundland's former owner offers to invest as minister prepares to meet board",
-      "summary": "Wolverhampton's Steve Smith said he wants to put some money back into the firm he started.",
-      "source": "BBC Business",
-      "published": "2026-11-02T13:40:36+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck1wv1j0xgywo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.933
-    },
-    {
-      "title": "Ryanair faces clash with unions as it mulls pay freezes amid soaring fuel costs",
-      "summary": "Airline also weighs up reducing crew on flights and increasing use of AI as part of cost-cutting measures Business live – latest updates Ryanair has said it is considering implementing pay freezes, setting the scene for a confrontation with unions as the airline tries to offset soaring fuel costs driven by",
-      "source": "The Guardian",
-      "published": "2026-11-02T12:57:53+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/02/ryanair-considers-pay-freezes-reducing-crew-on-flights-fuel-costs-soar-ai",
-      "importance": 1.923
-    },
-    {
-      "title": "Ryanair says it may freeze workers' pay and raise airfares",
-      "summary": "The airline says fuel prices may rise by €2bn in 2028 unless there is an end to the US-Israel war with Iran.",
-      "source": "BBC World",
-      "published": "2026-11-02T12:22:10+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr0qkve1x224o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.915
-    },
-    {
-      "title": "Uganda begins withdrawing troops from Somalia after 20 years",
-      "summary": "Uganda has been helping Somalia battle an insurgency led by the al-Shabab militant group since 2007.",
-      "source": "BBC World",
-      "published": "2026-11-02T12:05:34+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.911
-    },
-    {
-      "title": "Hackers send fake nuclear threat alert to Ukraine emergency app",
-      "summary": "Residents in Kyiv also warned of chemical attack and street-to-street fighting in false message sent by unknown party Europe live – latest updates Unknown hackers have targeted Ukraine’s nationwide emergency alert mobile app, sending residents in Kyiv a warning that they were at risk of an imminent nuclear",
-      "source": "The Guardian",
-      "published": "2026-11-02T11:11:28+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/02/hackers-fake-nuclear-chemical-threat-alert-kyiv-ukraine-emergency-app",
-      "importance": 1.898
-    },
-    {
-      "title": "Five arrested after South African farmer shot and tortured",
-      "summary": "The attack on Donovan Marx, 50, comes as right-wing groups say there is a genocide of white people - a claim widely discredited.",
-      "source": "BBC World",
-      "published": "2026-11-02T10:48:47+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cv4g13z0px8yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.893
-    },
-    {
-      "title": "Popular Australian children's author jailed over child exploitation offences",
-      "summary": "The author of Jasper Jones and Runt pleaded guilty in May after police raided his home months earlier.",
-      "source": "BBC World",
-      "published": "2026-11-02T08:03:39+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmjwe9nggp60o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.855
-    },
-    {
-      "title": "Binance users withdraw $3.6bn after largest-ever crypto hack",
-      "summary": "The exchange froze transactions following the incident which has been linked to a North Korean group.",
-      "source": "BBC World",
-      "published": "2026-11-02T07:42:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwj34gdmnly4o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-02T20:08:51+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c9vgrvpk4l6eo?at_medium=RSS&at_campaign=rss",
       "importance": 1.85
     },
     {
-      "title": "Christmas donations gift demand up, charities say",
-      "summary": "Charities collecting Christmas presents for struggling families say demand has gone up.",
-      "source": "BBC Business",
-      "published": "2026-11-02T06:22:48+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm5ynrp0lg2yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.832
-    },
-    {
-      "title": "Christmas shoebox appeal launches to help children",
-      "summary": "A gift-filled shoebox campaign launched for children who would otherwise go without this Christmas.",
-      "source": "BBC Business",
-      "published": "2026-11-02T06:21:09+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cv98zr5wxp21o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.831
-    },
-    {
-      "title": "Verdict delayed on controversial sea defences",
-      "summary": "The council have deferred a decision on the building of 17 rock groynes after RNLI safety concerns.",
-      "source": "BBC Science",
-      "published": "2026-11-02T06:16:34+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq9vz2jj409vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.83
-    },
-    {
-      "title": "'I couldn't be silent': Iranian teen's mother seeking justice after daughter shot dead",
-      "summary": "BBC Panorama follows grieving Samira who - after the killing of Sevda - faces up to the Tehran regime.",
-      "source": "BBC World",
-      "published": "2026-11-02T06:05:34+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cwjdmp25mem9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.828
-    },
-    {
-      "title": "Iran killed her teenage daughter - now she is facing up to the regime",
-      "summary": "Samira's 16-year-old daughter Sevda was shot dead as they took part in mass protests in January.",
-      "source": "BBC World",
-      "published": "2026-11-02T06:00:54+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3qjn8117kwjo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.827
-    },
-    {
-      "title": "Most Israelis think settlements policy should change to avoid more sanctions, poll finds",
-      "summary": "Survey finds UK government’s decision to impose trade ban was not a decisive factor in how Israelis voted in election The UK government’s decision to impose a ban on trade in goods from illegal settlements was not decisive in how Israelis voted in their general election , but a majority think the Israeli",
+      "title": "Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say scientists",
+      "summary": "Chemical tests on Aratasaurus bone identify presence of heme, the organic compound that allows haemoglobin in blood to carry oxygen around body It could be the opening of a Jurassic Park rip-off: scientists examining ancient dinosaur bones find what appear to be fossilised red blood cells, and traces of the",
       "source": "The Guardian",
-      "published": "2026-11-02T06:00:33+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/02/uk-trade-ban-west-bank-settlements-israel-election-poll",
-      "importance": 1.826
+      "published": "2026-11-02T20:00:27+00:00",
+      "url": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
+      "importance": 1.848
     }
   ]
 }
