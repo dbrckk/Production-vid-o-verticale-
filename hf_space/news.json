@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-04T06:39:37.477764+00:00",
+  "generated_at": "2026-11-04T16:24:19.096946+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,55 +9,111 @@
       "source": "BBC Science",
       "published": "2026-11-04T06:11:43+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
-      "importance": 3.094
+      "importance": 2.958
     },
     {
-      "title": "US midterm elections 2026 live updates: Democrats win control of Congress",
-      "summary": "Democrats flip seats in Texas, Iowa, Kansas, North Carolina, South Carolina and Ohio; Trump says he will accept results in a dire night for Republicans Track live results from all 50 states Democrats win control of Senate as US voters reject Trump’s agenda As we bring you the latest from around the country",
+      "title": "Israel's president begins consultations with parties after election deadlock",
+      "summary": "Herzog warns politicians that \"not every commitment and promise can be fulfilled\" if they want to avoid another election.",
+      "source": "BBC World",
+      "published": "2026-11-04T16:18:21+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.549
+    },
+    {
+      "title": "US midterm elections 2026 live updates: Democrats take control of Congress in major setback for Trump",
+      "summary": "Democrats flip seven Senate seats in Kansas, Iowa, Texas, Maine, Ohio, North Carolina and South Carolina; ‘blue wave’ rejects Trump’s agenda Track live results from all 50 states Full report: Democrats win control of Congress Tell us: how do you feel about the midterm results? Wall Street surged at the open",
       "source": "The Guardian",
-      "published": "2026-11-04T06:27:30+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+      "published": "2026-11-04T16:12:08+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
       "importance": 2.547
     },
     {
-      "title": "US midterm elections 2026: live results from Senate, House and governor races in all 50 states",
-      "summary": "Latest results suggest the Democrats are almost certain to win a House majority, having already seized control of the Senate. Find live updating results in full here US midterm elections – live updates The US legislature, Congress, has two chambers: the House of Representatives and the Senate. Continue",
+      "title": "Burnham says US midterm results have created ‘opportunity’ for world to focus on cost of living and ending Iran war – UK politics live",
+      "summary": "‘I think people want to see the world coming together and focusing on the things that matter to people,’ PM says Louise Haigh starts by saying she is standing in for Andy Burnham. She says this weekend the whole country will fall silent to mark Remembrance Sunday. Continue reading...",
       "source": "The Guardian",
-      "published": "2026-11-04T06:25:56+00:00",
-      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races",
-      "importance": 2.547
+      "published": "2026-11-04T16:03:10+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/04/ed-miliband-andy-burnham-king-charles-labour-louise-haigh-alex-burghart-pmqs-conservatives-uk-politics-latest-news",
+      "importance": 2.545
     },
     {
-      "title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says",
-      "summary": "Report led by Peter Garrett and former defence chief Adm Chris Barrie says agreement should be suspended and calls for royal commission Get our daily political email , free app or daily news podcast A public inquiry into the $368bn Aukus nuclear submarine agreement has called the plan “the worst, riskiest",
+      "title": "After the US midterms, what will a lame duck Trump mean for the global economy?",
+      "summary": "Republicans’ crushing setback will play out in stock markets, inflation, interest rates and economic growth Donald Trump’s loss of control of the House of Representatives and the Senate has put the world economy on notice for an unpredictable final two years of his presidential term. After Democrats swept",
       "source": "The Guardian",
-      "published": "2026-11-04T04:38:39+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry",
-      "importance": 2.522
+      "published": "2026-11-04T15:56:30+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/explainer-midterms-trump-us-global-economy-markets",
+      "importance": 2.544
+    },
+    {
+      "title": "CVS Health to split pharmacy chain from health insurance",
+      "summary": "CVS Pharmacy will be separate from CVS Health, housing major insurer Aetna and benefits manager Caremark CVS Health, the largest US healthcare conglomerate valued at $117bn, has announced its plans split off its pharmacy chain from its health insurance and benefits businesses, ending an era in which",
+      "source": "The Guardian",
+      "published": "2026-11-04T15:20:24+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/cvs-health-pharmacy-insurance",
+      "importance": 2.535
+    },
+    {
+      "title": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
+      "summary": "Russian and Ukrainian delegations will meet the US first lady at the White House on Thursday.",
+      "source": "BBC World",
+      "published": "2026-11-04T15:01:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm87zvpzwq0no?at_medium=RSS&at_campaign=rss",
+      "importance": 2.531
     },
     {
       "title": "ANC faces anger over poor services as South Africans vote in local elections",
       "summary": "Party expected to get less than a third of the vote amid frustration over water outages and power cuts The African National Congress is on course for a bruising result in South Africa’s local elections on Wednesday as voters go to the polls amid deep discontent over water outages, power cuts and crumbling",
       "source": "The Guardian",
-      "published": "2026-11-04T04:00:23+00:00",
+      "published": "2026-11-04T14:50:47+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-      "importance": 2.513
+      "importance": 2.528
     },
     {
-      "title": "Public service union refuses to back Labor at Victorian election, condemning job cuts and $1.2bn consultant spend",
-      "summary": "Exclusive: Community and Public Sector Union denounces ‘privatisation by stealth’, joining growing number of unions turning on Carroll government Get our breaking news email , free app or daily news podcast Victoria’s public servants union says it will not support Labor at this month’s state election",
-      "source": "The Guardian",
-      "published": "2026-11-04T02:44:49+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/04/cpsu-public-servants-union-refuses-to-back-labor-at-victorian-election",
-      "importance": 2.496
+      "title": "Everything you need to know from the US midterm elections",
+      "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
+      "source": "BBC World",
+      "published": "2026-11-04T14:05:42+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
+      "importance": 2.518
     },
     {
-      "title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
-      "summary": "Growing number of countries are resisting Russia’s reintegration into international hockey after a sports court lifted a ban on competition Canada has joined a coalition of countries refusing to play ⁠ice ​hockey teams from Russia, with prime minister Mark Carney saying Russian skaters will not be able to",
+      "title": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
+      "summary": "Centre for Public Integrity report says mandatory audit and public register of all automated decision-making needed Get our breaking news email , free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around",
       "source": "The Guardian",
-      "published": "2026-11-04T01:31:46+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/04/canada-bans-russian-players-junior-ice-hockey-championships-ukraine-war",
-      "importance": 2.479
+      "published": "2026-11-04T14:00:37+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
+      "importance": 2.517
+    },
+    {
+      "title": "Muslim Votes Matter softens anti-Labor stance ahead of Victorian election in bid to defeat One Nation in at-risk seats",
+      "summary": "Exclusive: Advocacy group will put volunteers on the ground in Labor-held outer suburban seats that could swing towards Pauline Hanson’s party Get our daily political email , free app or daily news podcast Muslim Votes Matter will relax its anti-Labor position at this month’s Victorian election, putting",
+      "source": "The Guardian",
+      "published": "2026-11-04T14:00:36+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/muslim-votes-matter-softens-anti-labor-stance-victoria-election-one-nation-ntwnfb",
+      "importance": 2.517
+    },
+    {
+      "title": "Iran's chief negotiator says Americans voted 'no to war'",
+      "summary": "\"We endorse this message,\" Mohammed Bagher Ghalibaf says, as Donald Trump acknowledges the conflict's role in the Republican Party's defeat.",
+      "source": "BBC World",
+      "published": "2026-11-04T12:21:21+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.494
+    },
+    {
+      "title": "Israel’s election commission rejects Netanyahu claims of voting fraud",
+      "summary": "Move comes after attorney general blocks Shin Bet call to interrogate politicians from Palestinian-led parties Israel’s election commission on Wednesday confirmed the final results of last week’s vote that stripped Benjamin Netanyahu’s far-right coalition of its governing majority, rejecting claims of mass",
+      "source": "The Guardian",
+      "published": "2026-11-04T12:19:18+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
+      "importance": 2.493
+    },
+    {
+      "title": "BMW warns on profits as it counts cost of plan for 8,000 job cuts",
+      "summary": "German carmaker slashes profit margin to between -0.5% and 0.5% this year in face of competition from China The German carmaker BMW has issued its second profit warning in a year, blaming the costs of a restructuring programme including significant job losses in the face of continuing competition from China.",
+      "source": "The Guardian",
+      "published": "2026-11-04T11:58:19+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/04/bmw-warns-on-profits-counts-cost-plan-for-8000-job-cuts",
+      "importance": 2.488
     },
     {
       "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
@@ -65,7 +121,7 @@
       "source": "BBC Business",
       "published": "2026-11-03T20:53:03+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.414
+      "importance": 2.279
     },
     {
       "title": "Action needed to tackle 'biodiversity crisis'",
@@ -73,7 +129,7 @@
       "source": "BBC Science",
       "published": "2026-11-03T17:25:10+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8wy94ewzw03o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.366
+      "importance": 2.231
     },
     {
       "title": "Charity warns about damage of over-foraging fungi",
@@ -81,7 +137,7 @@
       "source": "BBC Science",
       "published": "2026-11-03T14:36:36+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cmp3gr673zz9o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.327
+      "importance": 2.192
     },
     {
       "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
@@ -89,7 +145,7 @@
       "source": "The Guardian",
       "published": "2026-11-03T13:52:34+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-      "importance": 2.317
+      "importance": 2.182
     },
     {
       "title": "'Quiet quitting' could be hitting the economy - here's why",
@@ -97,7 +153,7 @@
       "source": "BBC Business",
       "published": "2026-11-03T11:15:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.281
+      "importance": 2.145
     },
     {
       "title": "Do the Shetland Isles need Cold War-style military protection?",
@@ -105,303 +161,247 @@
       "source": "BBC Science",
       "published": "2026-11-03T06:07:33+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cjg47dq6q775o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.209
+      "importance": 2.074
     },
     {
-      "title": "Oil price falls amid hope of a breakthrough to end Iran war",
-      "summary": "Brent crude drops by more than 6% to $105.55 a barrel, the lowest level in more than two weeks The oil price has fallen to its lowest level in more two weeks amid new hopes of a breakthrough to end the Iran war. Brent crude, the international benchmark, dropped by more than 6.5% to as low as $105.55 a barrel",
-      "source": "The Guardian",
-      "published": "2026-11-02T17:14:23+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
-      "importance": 2.03
-    },
-    {
-      "title": "Democrats win control of Senate as US voters reject Trump’s agenda",
-      "summary": "Republicans routed as Democrats gain powerful new leverage over Trump for remainder of his presidency US midterm elections – live updates Track live results from all 50 states Tell us: what do you want to know about the midterm election results? Democrats have regained control of the US Senate, routing",
-      "source": "The Guardian",
-      "published": "2026-11-04T06:29:36+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/03/democrats-senate-republicans-midterms-trump",
+      "title": "French blood supplies impacted by freezer hacks as theories swirl about culprits",
+      "summary": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
+      "source": "BBC Technology",
+      "published": "2026-11-04T16:14:57+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
       "importance": 1.998
     },
     {
-      "title": "Ohio Republican Max Miller ousted from Congress amid domestic abuse allegations",
-      "summary": "Despite Trump backing Miller, whom a House committee is investigating, Democrat Brian Poindexter will head to Congress Max Miller was ousted from Congress amid domestic abuse allegations surrounding his divorce to Emily Moreno, the daughter Bernie Moreno, a Republican US senator. Democrat Brian Poindexter",
+      "title": "Zelenskyy says 40 now confirmed dead after ‘insane’ Russian attack on school – Europe live",
+      "summary": "School in Komyshuvakha in the Zaporizhzhia region was struck on Monday Meanwhile, the Kremlin said that ⁠it ​hopes that the ⁠results of the US ⁠midterm ​elections ‌will not impact ‌what it ‌said were president Donald Trump’s “peacemaking efforts\" on Ukraine, Reuters said. In comments ‌broadcast by Russian",
       "source": "The Guardian",
-      "published": "2026-11-04T06:25:44+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/03/max-miller-ohio-election-results",
+      "published": "2026-11-04T16:09:19+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news",
       "importance": 1.997
     },
     {
-      "title": "Amy Acton wins Ohio race for governor, ending 16 years of Republican control of office",
-      "summary": "Democratic doctor wins over Vivek Ramaswamy, the biotech entrepreneur endorsed by Donald Trump US midterm elections – live updates Track live results from all 50 states Democrat Amy Acton was elected governor of Ohio on Tuesday, after an ugly contest in which her rival Vivek Ramaswamy spent millions of",
+      "title": "US stocks rise, dollar slides as investors digest Democrats’ midterm victory",
+      "summary": "Government bond yields fall while initial fears ease over impact of election results on world’s biggest economy Business live – latest updates US midterm elections – live updates After US midterms, what will lame duck Trump mean for global economy? US stocks have surged as investors digest the Democrats’",
       "source": "The Guardian",
-      "published": "2026-11-04T06:25:31+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/03/ohio-governor-amy-acton-vivek-ramaswamy",
-      "importance": 1.997
-    },
-    {
-      "title": "Kate McClymont questioned over ‘nail in the coffin’ and poo emoji texts at Alan Jones trial",
-      "summary": "Award-winning investigative journalist says she ‘probably’ texted an alleged victim’s mother saying ‘I hope the shit does hit the fan for him’, court hears Investigative journalist Kate McClymont has told a Sydney court that an audio recording in which she said new information would be “an absolute nail in",
-      "source": "The Guardian",
-      "published": "2026-11-04T06:23:40+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/04/alan-jones-trial-kate-mcclymont-nail-in-coffin-ntwnfb",
+      "published": "2026-11-04T16:08:12+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/04/us-dollar-slides-democrats-midterm-election-win-growth-fears",
       "importance": 1.996
     },
     {
-      "title": "Ecstatic scenes and historic moments: What's happened so far in the midterms",
-      "summary": "Democrats have taken control of Congress for the rest of Donald Trump's presidency - proving moments of celebration.",
-      "source": "BBC World",
-      "published": "2026-11-04T06:13:09+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
-    },
-    {
-      "title": "Anthony Zurcher: Democrats tear up Trump's political map on historic night",
-      "summary": "Two Senate races that a year ago were thought to be battlegrounds turned out to be slam-dunks for the Democrats.",
-      "source": "BBC World",
-      "published": "2026-11-04T06:14:20+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwz0v5lv30lyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
-    },
-    {
-      "title": "Tiktoker 'super excited' to co-host BBC nature show",
-      "summary": "Naturewatch, hosted by Chris Packham, Megan McCubbin and Kyle Thomas, is being made in Bristol.",
-      "source": "BBC Science",
-      "published": "2026-11-04T06:15:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6y93pgydvzdo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
-    },
-    {
-      "title": "Leisure centre price hikes on the way",
-      "summary": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
-      "source": "BBC Business",
-      "published": "2026-11-04T06:13:19+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvgw8gz1k4o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.994
-    },
-    {
-      "title": "David Jones expected to fall into administration after failed 11th hour talks with biggest landlord",
-      "summary": "Future of 188-year-old department store hangs in balance after no agreement was struck with Westfield owner Scentre Group Get our breaking news email , free app or daily news podcast David Jones is poised to fall into administration after 11th-hour talks between its private equity owner and primary landlord",
+      "title": "Cambridge asks Post Office inquiry barrister to lead review into death of Jason Arday",
+      "summary": "Jason Beer KC will examine ‘policies and procedures’ in tragic case of the university’s youngest black professor The lead barrister for the Post Office Horizon inquiry has been appointed to head an independent review into the death of Cambridge academic Jason Arday. Jason Beer KC will examine the handling of",
       "source": "The Guardian",
-      "published": "2026-11-04T06:08:02+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/04/david-jones-expected-to-fall-into-administration-rent",
+      "published": "2026-11-04T15:54:19+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/cambridge-university-asks-barrister-to-lead-jason-arday-review",
       "importance": 1.993
     },
     {
-      "title": "Trust vows to 'maintain spirit' of nature reserve",
-      "summary": "Flatford Wildlife Garden is bought by the National Trust after being run by the RSPB for 15 years.",
-      "source": "BBC Science",
-      "published": "2026-11-04T05:57:48+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr3wv0ywnvl7o?at_medium=RSS&at_campaign=rss",
+      "title": "BBC attempts to reassure Jewish staff after ex-producer says she faced antisemitism",
+      "summary": "Deputy director general Rhodri Talfan Davies meets staff group after case of Lucie Kon prompted calls for inquiry The BBC has attempted to reassure Jewish staff that discrimination against them will not be tolerated, after a former producer said she had faced antisemitism while employed at the corporation.",
+      "source": "The Guardian",
+      "published": "2026-11-04T15:52:03+00:00",
+      "url": "https://www.theguardian.com/media/2026/nov/04/bbc-attempts-reassure-jewish-staff-antisemitism-rhodri-talfan-davies",
+      "importance": 1.993
+    },
+    {
+      "title": "Palestine Action activists used similar tactics to the suffragettes, court told",
+      "summary": "Lawyers tell supreme court decision to proscribe organisation as terrorist group is attack on freedom of speech and protest Palestine Action was banned as a terrorist group after using tactics similar to – or less extreme than – the suffragettes, the UK’s highest court has heard. Huda Ammori, a co-founder of",
+      "source": "The Guardian",
+      "published": "2026-11-04T15:49:33+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/palestine-action-tactics-suffragettes-uk-supreme-court",
+      "importance": 1.992
+    },
+    {
+      "title": "Elon Musk's millions fail to deliver Texas for the Republicans in fierce midterms",
+      "summary": "The billionaire's political action committee (Pac) contributed $47m (£35m) to Ken Paxton's campaign.",
+      "source": "BBC Technology",
+      "published": "2026-11-04T15:51:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.992
+    },
+    {
+      "title": "Poundland owner in crunch talks as retailer's collapse looms",
+      "summary": "Gordon Brothers will meet Jonathan Reynolds on Wednesday as the investment firm faces scrutiny over Poundland.",
+      "source": "BBC Business",
+      "published": "2026-11-04T15:45:11+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.991
+    },
+    {
+      "title": "Spain’s deadly train crashes have damaged public confidence in the system",
+      "summary": "Pedro Sánchez and his socialist-led coalition government are racing to rebuild trust ahead of a snap election, but the task they face is immense • Don’t get This Is Europe delivered to your inbox? Sign up here A week ago today, for the second time in nine months, I got in my car and drove south from Madrid",
+      "source": "The Guardian",
+      "published": "2026-11-04T15:40:37+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/04/spains-deadly-train-crashes-have-damaged-public-trust-in-the-system",
       "importance": 1.99
+    },
+    {
+      "title": "Mike Johnson says he will not pursue House minority leader role – reports",
+      "summary": "Reported move from Republican speaker of House comes in light of party’s disastrous midterms defeat US midterms 2026 live – latest updates Tell us: what do you want to know about the midterm election results? Mike Johnson, the Republican speaker of the House, has said he is not planning to pursue the role of",
+      "source": "The Guardian",
+      "published": "2026-11-04T15:36:38+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/mike-johnson-house-leadership",
+      "importance": 1.989
+    },
+    {
+      "title": "Don’t let Poundland owner maximise its return at our expense, suppliers say",
+      "summary": "British companies that supply US-owned budget retailer face millions of pounds’ worth of losses if it collapses Suppliers facing millions of pounds in losses if Poundland collapses have said the chain’s US owner should not be permitted to maximise its return at their expense, as ministers attempt to",
+      "source": "The Guardian",
+      "published": "2026-11-04T15:31:45+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/04/poundland-suppliers-facing-losses-gordon-brothers",
+      "importance": 1.988
+    },
+    {
+      "title": "Secret police files released in Hungary, 47 years after fall of communism",
+      "summary": "Critics say the move comes too late, that the files themselves are incomplete, and the move risks sowing division and causing unnecessary anguish.",
+      "source": "BBC World",
+      "published": "2026-11-04T15:28:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c977p01kgmmko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "Mother of Ghanaian boy killed in US 'wants justice' as she flies for funeral",
+      "summary": "Police have not made any arrests and an investigation is ongoing as authorities search for three teenage boys.",
+      "source": "BBC World",
+      "published": "2026-11-04T15:18:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq62yjnmg4ego?at_medium=RSS&at_campaign=rss",
+      "importance": 1.985
+    },
+    {
+      "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
+      "summary": "The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.",
+      "source": "BBC Business",
+      "published": "2026-11-04T15:13:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
     },
     {
       "title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
       "summary": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
       "source": "BBC World",
-      "published": "2026-11-04T05:39:36+00:00",
+      "published": "2026-11-04T14:17:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6n8dnn09jg7o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.986
+      "importance": 1.971
     },
     {
-      "title": "Florida Republicans fend off Democrats as state elects first black governor",
-      "summary": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida.",
-      "source": "BBC World",
-      "published": "2026-11-04T05:04:46+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9146d88pl32o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.978
-    },
-    {
-      "title": "UK apologises to Ukrainian child refugees who were told to study Russian",
-      "summary": "Exclusive: Schools minister launches new Ukrainian GCSE and says she is sorry students were pushed to study Russian in its absence The UK has apologised to Ukrainian child refugees who were told to study Russian in English schools, as it launched funding for a new GCSE in Ukrainian. Ukrainian children who",
+      "title": "Iran unveils ‘We will kill Trump’ banner – but US president may now be tempted to resume bombing",
+      "summary": "Iran celebrates its claimed role in ‘regime change’ amid pressure on Trump to ‘finish the job’ with attack US midterms live – latest updates Iran this week unveiled a huge billboard and banners over Enqelab Square in central Tehran. The billboard pledged in English: “We will kill Trump” – elevating the",
       "source": "The Guardian",
-      "published": "2026-11-04T05:00:25+00:00",
-      "url": "https://www.theguardian.com/education/2026/nov/04/ukrainian-gcse-uk-apologises-child-refugees",
-      "importance": 1.977
+      "published": "2026-11-04T14:07:17+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/joy-iran-trump-defeat-us-midterm-elections-war",
+      "importance": 1.968
     },
     {
-      "title": "How America voted in maps and charts",
-      "summary": "See the maps and charts that show how America voted in the US midterm elections.",
-      "source": "BBC World",
-      "published": "2026-11-04T04:47:08+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.974
-    },
-    {
-      "title": "Alleged attack on One Nation supporter not believed to be politically motivated, Victoria police say",
-      "summary": "Police also allege Torquay man was attacked with a ‘blunt weapon’ rather than a baseball bat as originally reported Get our breaking news email , free app or daily news podcast An alleged attack on a One Nation supporter is not believed to have been politically motivated, Victoria police say, clarifying that",
+      "title": "Endangered giant burrowing frog returns to wild after tadpoles rescued from ashes of black summer fires",
+      "summary": "Tadpoles collected from puddles in East Gippsland were transported to Melbourne zoo, where they were raised to metamorphosis and successfully bred in captivity for the first time After the 2019-20 black summer bushfires , scientists in eastern Victoria stumbled across something they had been after for years",
       "source": "The Guardian",
-      "published": "2026-11-04T04:10:03+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/04/alleged-attack-on-one-nation-volunteer-not-politically-motivated-victoria-police-ntwnfb",
-      "importance": 1.965
+      "published": "2026-11-04T14:01:35+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/giant-burrowing-frog-returns-to-wild-after-tadpoles-rescued-black-summer-fires-australia",
+      "importance": 1.967
     },
     {
-      "title": "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
-      "summary": "Papua New Guinea police had earlier dismissed speculation that the 32kg object was \"merely a dummy\".",
+      "title": "Australia has an especially bad inflation problem. So why are we only middle-of-the pack on the misery index?",
+      "summary": "Comparing Australia to other countries may not be much comfort but does offer some perspective on the economy Get our breaking news email , free app or daily news podcast Is Australia’s inflation problem worse than the rest of the world’s? A day after the Reserve Bank delivered its fifth interest rate hike",
+      "source": "The Guardian",
+      "published": "2026-11-04T14:00:37+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/05/australian-economy-inflation-cost-of-living-misery-index",
+      "importance": 1.967
+    },
+    {
+      "title": "‘Discontent and distrust’: annual social cohesion checkup shows exactly what’s making Australia angry",
+      "summary": "Cost of living and AI outrank climate change and war as top concerns for future, but support for multiculturalism remains strong Get our daily political email , free app or daily news podcast The vast majority of Australians support immigration and multiculturalism despite more feeling poorer – and",
+      "source": "The Guardian",
+      "published": "2026-11-04T14:00:36+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/04/social-cohesion-report-australia-cost-of-living-economy-immigration-multiculturalism-ai-ntwnfb",
+      "importance": 1.967
+    },
+    {
+      "title": "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+      "summary": "Some Republicans tell the BBC the president's focus on his legacy and indifference to voter concerns cost them.",
       "source": "BBC World",
-      "published": "2026-11-04T03:46:10+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm0qkxzv3j99o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-04T13:33:30+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
       "importance": 1.96
     },
     {
-      "title": "South Carolina elects Democratic senator for first time in almost three decades",
-      "summary": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
+      "title": "Nadal set to join Real Madrid board of directors",
+      "summary": "Tennis great Rafael Nadal is set to join the board of Spanish football giants Real Madrid.",
       "source": "BBC World",
-      "published": "2026-11-04T03:24:34+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.955
+      "published": "2026-11-04T13:21:01+00:00",
+      "url": "https://www.bbc.co.uk/sport/articles/cmy56zekeneqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.958
     },
     {
-      "title": "Democratic rising star Ossoff projected to hold Georgia seat",
-      "summary": "Ossoff is seen as a potential leading contender for the Democratic nomination for president in 2028 if he throws his hat in the ring.",
+      "title": "French blood banks hacked in latest cyber-attack on Europe",
+      "summary": "Temperature and defrosting thresholds raised to ‘very high levels’ at three cold stores stocking vital blood products Europe live – latest updates France’s national blood service has said hackers accessed control systems and boosted temperatures at three cold stores stocking vital blood products, in an",
+      "source": "The Guardian",
+      "published": "2026-11-04T13:22:28+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/04/france-national-blood-service-hack-cyber-attack-europe",
+      "importance": 1.958
+    },
+    {
+      "title": "Sharp objects found in Halloween sweets in three European nations",
+      "summary": "Dozens of cases are reported in Austria, Germany and Hungary, including a nine-year-old girl hurting her tongue while eating chocolate containing a pin.",
       "source": "BBC World",
-      "published": "2026-11-04T02:38:07+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqwyrmm2k4mpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.944
+      "published": "2026-11-04T12:34:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cvglw7x239pwo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.947
     },
     {
-      "title": "Killer who escaped Tennessee prison captured after week-long manhunt",
-      "summary": "Jacob Allen Morley was serving a life sentence for murder before he escaped over a prison fence.",
-      "source": "BBC World",
-      "published": "2026-11-04T02:11:40+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmq8nj23v8qqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.938
-    },
-    {
-      "title": "No more rice grains in Kellogg's Rice Krispies due to changing weather",
-      "summary": "The new recipes mean cereal packaging will now include a 'contains wheat gluten' warning.",
-      "source": "BBC Business",
-      "published": "2026-11-04T01:36:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.93
-    },
-    {
-      "title": "Canva announces major job cuts after 'our hardest year yet'",
-      "summary": "CEO Melanie Perkins says more than 1,000 staff will either lose their jobs or be asked to change roles.",
-      "source": "BBC Business",
-      "published": "2026-11-04T00:09:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw77pg7neydmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.91
-    },
-    {
-      "title": "Graduates are managing AI - but are they learning much else?",
-      "summary": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
-      "source": "BBC Technology",
-      "published": "2026-11-04T00:04:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.909
+      "title": "More than 900 academics urge UK to reverse decision to bar Andreas Malm",
+      "summary": "Blocking Swedish writer’s entry for event with Palestine Action co-founder is attack on free expression, letter says More than 900 academics have voiced their opposition to the government’s decision to block the climate academic Andreas Malm from entering the UK, warning that the move represents “a grave",
+      "source": "The Guardian",
+      "published": "2026-11-04T12:00:10+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/04/andreas-malm-academics-letter-uk-reverse-entry-bar",
+      "importance": 1.939
     },
     {
       "title": "ANC under pressure to reverse South Africa decline",
       "summary": "As South Africans vote in local elections, residents tell the BBC they are tired of the poor quality of services they get.",
       "source": "BBC World",
-      "published": "2026-11-04T00:03:19+00:00",
+      "published": "2026-11-04T11:47:44+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr4g1x6l77xyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.908
+      "importance": 1.936
     },
     {
-      "title": "Houses of Parliament at risk of ‘Notre Dame-style fire’ as renovation costs rise",
-      "summary": "Report says cost of maintenance could soon reach £2m a week, including 24-hour patrols to avert fire risk The Palace of Westminster will be at risk of a Notre Dame-style fire or a similar catastrophic event if MPs do not tackle the issue of funding refurbishments, a parliamentary committee has said.",
-      "source": "The Guardian",
-      "published": "2026-11-04T00:01:18+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/04/parliament-notre-dame-style-fire-renovation-costs",
-      "importance": 1.908
+      "title": "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+      "summary": "The US imposed sanctions on Rwanda's army over its role in the conflict in DR Congo.",
+      "source": "BBC World",
+      "published": "2026-11-04T11:46:09+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c699zdx9knmpo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.936
     },
     {
-      "title": "Poundland supplier 'will lose millions' if retailer collapses",
-      "summary": "One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.",
+      "title": "William meets firefighters who tackled summer blazes",
+      "summary": "The prince says 2026 was the first summer he felt \"worried about the scale of the wildfires\".",
+      "source": "BBC Science",
+      "published": "2026-11-04T11:35:08+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c94g1m232pgyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.933
+    },
+    {
+      "title": "What's happening to UK interest rates and what does it mean for mortgages?",
+      "summary": "The interest rate set by the Bank of England affects mortgage, loan and savings rates for millions.",
       "source": "BBC Business",
-      "published": "2026-11-04T00:03:17+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.908
+      "published": "2026-11-04T10:47:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3dky111m40o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.922
     },
     {
-      "title": "'I'm not a quitter': Kim Kardashian on retaking the bar exam",
-      "summary": "The All's Fair star tells the BBC she has not given up, but will be \"more quiet\" about her journey to become a lawyer.",
+      "title": "Left-wing Democrat Abdul El-Sayed wins in Michigan to become first Muslim senator",
+      "summary": "El-Sayed bested Republican Mike Rogers to become the first Muslim senator in US history.",
       "source": "BBC World",
-      "published": "2026-11-03T23:58:36+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cmy4x59kdknwo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.907
+      "published": "2026-11-04T10:03:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c893z55pxrewo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.912
     },
     {
-      "title": "Spanish transport minister resigns days after deadly train crash",
-      "summary": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "title": "How America voted in maps and charts",
+      "summary": "See the maps and charts that show how America voted in the US midterm elections.",
       "source": "BBC World",
-      "published": "2026-11-03T22:45:59+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.89
-    },
-    {
-      "title": "King Charles addresses summit as demands for slavery apology grow",
-      "summary": "Speaking in Antigua, the king did not give explicit support for reparations but said he wanted to ‘address past wrongs’ King Charles has said that deepening his understanding of the horrors of slavery has made him more determined to address the wrongs of the past, as Caribbean leaders and campaigners",
-      "source": "The Guardian",
-      "published": "2026-11-03T22:15:19+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/king-charles-commonwealth-summit-campaigners-apology-slavery",
-      "importance": 1.883
-    },
-    {
-      "title": "One dead and another missing in suspected grizzly bear attack in Canada",
-      "summary": "The incident took place in the same province where a grizzly attacked a group of schoolchildren last November A mother is dead and her daughter is missing in western Canada after a suspected grizzly bear attack in the same community where a bear attacked a group of schoolchildren earlier in the year. On",
-      "source": "The Guardian",
-      "published": "2026-11-03T22:08:50+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
-      "importance": 1.882
-    },
-    {
-      "title": "Reform UK councillor charged with 12 counts of rape and multiple other offences",
-      "summary": "George Madgwick, party leader on Hampshire county council, faces charges related to four teenagers between 2008 and 2021 Reform UK’s leader on Hampshire county council has been charged with 12 counts of rape and one of distributing indecent images of a child. George Madgwick, 37, who is a councillor in",
-      "source": "The Guardian",
-      "published": "2026-11-03T22:04:24+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/reform-uk-councillor-george-madgwick-charged-12-counts-rape",
-      "importance": 1.881
-    },
-    {
-      "title": "NTSB says crucial plane parts found three miles from Florida crash site",
-      "summary": "The NTSB said because the parts were found far from the accident site, they fell off before the crash.",
-      "source": "BBC World",
-      "published": "2026-11-03T21:53:38+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9e8lk5dpj7no?at_medium=RSS&at_campaign=rss",
-      "importance": 1.878
-    },
-    {
-      "title": "Spanish transport minister resigns after deadly train crash",
-      "summary": "Óscar Puente also announces his withdrawal from upcoming election following disaster that killed 69 people Spain’s transport minister handed in his resignation on Tuesday after the train crash that killed 69 people last week, one of the worst railway disasters in Europe this century. Óscar Puente, who had",
-      "source": "The Guardian",
-      "published": "2026-11-03T21:46:02+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
-      "importance": 1.876
-    },
-    {
-      "title": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI",
-      "summary": "Nobel winner warns the tech could be near to triggering major incident such as power or banking shutdown One of the “godfathers of AI”, Geoffrey Hinton, has said it could turn out that humans would have been better off never developing the technology as he warned it could trigger a large-scale incident this",
-      "source": "The Guardian",
-      "published": "2026-11-03T21:35:42+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-      "importance": 1.874
-    },
-    {
-      "title": "British lawyer Dapo Akande elected to UN top court in big diplomatic win",
-      "summary": "Akande joining the international court of justice comes a decade after previous British judge failed to get re-elected A British judge has been elected on to the UN’s international court of justice, in a big British diplomatic victory that comes almost 10 years after a previous British judge failed to get",
-      "source": "The Guardian",
-      "published": "2026-11-03T21:09:39+00:00",
-      "url": "https://www.theguardian.com/law/2026/nov/03/british-lawyer-dapo-akande-elected-to-un-international-court-of-justice-diplomatic-win",
-      "importance": 1.868
-    },
-    {
-      "title": "Seven flights across Europe targeted by suspected bomb threats",
-      "summary": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
-      "source": "BBC World",
-      "published": "2026-11-03T20:42:47+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.862
-    },
-    {
-      "title": "King calls slave trade a 'shameful chapter' during Commonwealth address",
-      "summary": "The speech comes after calls for the UK government to issue a formal apology for Britain's historic role in the trade.",
-      "source": "BBC World",
-      "published": "2026-11-03T20:38:38+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr89znnnn7dno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.861
+      "published": "2026-11-04T09:53:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g1j0n92qdo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.909
     }
   ]
 }
