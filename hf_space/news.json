@@ -1,15 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-05T06:59:06.596919+00:00",
+  "generated_at": "2026-11-05T16:31:41.217608+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "US elections 2026 live: Republicans blast their party’s midterms collapse, blaming Iran war and affordability crisis",
+      "summary": "Ted Cruz and Newt Gingrich call the US midterms election a failure and ‘Watergate-level repudiation’ as Democrats overtake both chambers of Congress Live results | How do you feel about the results? Sign up for Breaking News US email Election night brought a series of dramatic developments, unexpected",
+      "source": "The Guardian",
+      "published": "2026-11-05T16:09:38+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
+      "importance": 3.645
+    },
     {
       "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
       "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
       "source": "BBC World",
       "published": "2026-11-05T03:47:56+00:00",
       "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.056
+      "importance": 2.923
     },
     {
       "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
@@ -17,15 +25,47 @@
       "source": "BBC Science",
       "published": "2026-11-04T06:11:43+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.756
+      "importance": 2.623
     },
     {
-      "title": "US midterm elections 2026 live: Democrats eye historic upset in Mississippi Senate race as Republican blame game begins",
-      "summary": "Democrat Scott Colom is leading Republican incumbent Cindy Hyde-Smith in the southern state; JD Vance pointed to the war in Iran as the ‘obvious’ culprit for Republicans’ loss Live results | How do you feel about the results? Sign up for Breaking News US email Analysis: Is this the beginning of the end for",
+      "title": "Burnham wants to ‘recast’ Chagos Islands deal after US resistance",
+      "summary": "UK PM says he wants ‘a new discussion’ with Washington over the disputed islands UK politics live – latest updates Andy Burnham has said he wants to “recast” the UK’s deal to cede control of the Chagos Islands after resistance from Washington, which said the agreement could instead be modelled on America’s",
       "source": "The Guardian",
-      "published": "2026-11-05T06:44:29+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
+      "published": "2026-11-05T16:17:48+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/05/andy-burnham-recast-chagos-islands-deal-us-resistance",
       "importance": 2.547
+    },
+    {
+      "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
+      "summary": "Dismissals follow Houthi victories and pressure from southern Yemenis for more power The UN-recognised government of Yemen has shaken up its political and military leadership in an attempt to regain territory lost to the Houthis in September and lift the four-week siege of Taiz , the country’s third largest",
+      "source": "The Guardian",
+      "published": "2026-11-05T13:47:00+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
+      "importance": 2.512
+    },
+    {
+      "title": "‘Revenge of the nerds’: US midterms deliver a win for science – and a rebuke of Maha",
+      "summary": "The wins for Democrats come after years of cuts and upheaval to US health and science infrastructure A political organizations behind a wave of Democratic doctors and scientists winning elections up and down the ballot is calling the stunning rebuke of Trumpism the “Stem swing” and “revenge of the nerds”.",
+      "source": "The Guardian",
+      "published": "2026-11-05T13:00:24+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/midterms-science-doctors-maha",
+      "importance": 2.501
+    },
+    {
+      "title": "Bomb threats disrupt at least 15 flights across Europe, raising hybrid war fears",
+      "summary": "Planes forced into emergency landings or diversions two days after hoax alerts affected air travel Europe live – latest updates Bomb threats have caused diversions and emergency landings for at least 15 flights across Europe , renewing questions about a possibly coordinated effort to disrupt travel. The",
+      "source": "The Guardian",
+      "published": "2026-11-05T12:44:30+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+      "importance": 2.497
+    },
+    {
+      "title": "Welsh aviation firm AerFin bought in £475m deal",
+      "summary": "The company, which was majority owned by a private equity firm, said it was beginning a \"new chapter\".",
+      "source": "BBC Business",
+      "published": "2026-11-05T11:01:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq203vjxnln7o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.473
     },
     {
       "title": "British healthcare worker with Ebola evacuated from DR Congo to UK",
@@ -33,23 +73,7 @@
       "source": "The Guardian",
       "published": "2026-11-04T18:18:37+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-      "importance": 2.374
-    },
-    {
-      "title": "Iran's chief negotiator says Americans voted 'no to war'",
-      "summary": "\"We endorse this message,\" Mohammed Bagher Ghalibaf says, as Donald Trump acknowledges the conflict's role in the Republican Party's defeat.",
-      "source": "BBC World",
-      "published": "2026-11-04T16:59:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.356
-    },
-    {
-      "title": "Israel's president begins consultations with parties after election deadlock",
-      "summary": "Herzog warns politicians that \"not every commitment and promise can be fulfilled\" if they want to avoid another election.",
-      "source": "BBC World",
-      "published": "2026-11-04T16:18:21+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.346
+      "importance": 2.241
     },
     {
       "title": "ANC faces anger over poor services as South Africans vote in local elections",
@@ -57,15 +81,7 @@
       "source": "The Guardian",
       "published": "2026-11-04T14:50:47+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-      "importance": 2.326
-    },
-    {
-      "title": "Everything you need to know from the US midterm elections",
-      "summary": "Democrats secured some big wins - and a few historic firsts - earning congratulations from President Trump.",
-      "source": "BBC World",
-      "published": "2026-11-04T14:05:42+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4y92rgd9po?at_medium=RSS&at_campaign=rss",
-      "importance": 2.315
+      "importance": 2.193
     },
     {
       "title": "Israel’s election commission rejects Netanyahu claims of voting fraud",
@@ -73,7 +89,215 @@
       "source": "The Guardian",
       "published": "2026-11-04T12:19:18+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
-      "importance": 2.291
+      "importance": 2.158
+    },
+    {
+      "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – live",
+      "summary": "EU transport commissioner says ‘too early’ to say if bomb threats to 20 flights are linked Tell us: have you been affected by the bomb threats? And the Italian news agency Ansa reported that two more planes with links to Italy were affected by bomb threats this morning: that’s a WizzAir service from Milan",
+      "source": "The Guardian",
+      "published": "2026-11-05T16:24:53+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
+      "importance": 1.998
+    },
+    {
+      "title": "EU presses UK to guarantee discounted university tuition fees for European students",
+      "summary": "Failure to agree lower fees for EU citizens studying in UK should delay prized food and drink deal, members say UK politics live – latest updates The EU is seeking a firmer pledge from the British government to guarantee European students discounted rates on university tuition fees before a much-anticipated",
+      "source": "The Guardian",
+      "published": "2026-11-05T16:22:47+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/05/eu-seeks-firmer-pledge-from-uk-discounted-university-tuition-fees",
+      "importance": 1.998
+    },
+    {
+      "title": "Burnham says long-awaited 10-year plan may be delayed until January – UK politics live",
+      "summary": "The document has been described as the core policy statement coming from No 10 Yesterday the pro-Brexit Guido Fawkes website published a list of items that it said could be banned as a result of Andy Burnham’s reset with the EU. It was based on items that have been banned under EU regulations passed since",
+      "source": "The Guardian",
+      "published": "2026-11-05T16:24:42+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/05/uk-politics-latest-news-updates-andy-burnham-eu-brexit-labour",
+      "importance": 1.998
+    },
+    {
+      "title": "Interest rates hiked to 4% in first increase in over three years",
+      "summary": "Most analysts expected the increase from 3.75% to 4%.",
+      "source": "BBC Business",
+      "published": "2026-11-05T16:08:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.995
+    },
+    {
+      "title": "France holds new strikes and protests as unions demand immediate answers",
+      "summary": "Five of France's unions join a wave of strikes and protests in a national day of action.",
+      "source": "BBC World",
+      "published": "2026-11-05T15:43:15+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Russell Brand is being investigated over two new rape complaints, police say",
+      "summary": "Det Supt Andy Furphy said he hoped other potential victims would gain \"courage\" and \"confidence\" from the guilty verdicts.",
+      "source": "BBC World",
+      "published": "2026-11-05T15:44:49+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6vgx8q09gg4o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Misogyny and sexism of Russell Brand case have not gone away, TV insiders say",
+      "summary": "Concerns remain that media industry is still failing to confront troubling behaviour • The downfall of Russell Brand: from Big Brother and Hollywood to convicted rapist Even within the culture of casual misogyny and sexism that pervaded the TV world in the mid-noughties, Naomi Harvey and her colleagues",
+      "source": "The Guardian",
+      "published": "2026-11-05T15:27:17+00:00",
+      "url": "https://www.theguardian.com/media/2026/nov/05/misogyny-and-sexism-of-russell-brand-case-have-not-gone-away-say-tv-insiders",
+      "importance": 1.985
+    },
+    {
+      "title": "Drunk and dangerous e-bike riders face on-the-spot fines under crackdown",
+      "summary": "A consultation will consider fines and other ways to clamp down on dangerous e-bike riders.",
+      "source": "BBC Business",
+      "published": "2026-11-05T15:27:09+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmze4zk4d789o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.985
+    },
+    {
+      "title": "Pound hits highest level since its crash after 2016 Brexit vote",
+      "summary": "Ten-year high shows sterling’s strength against other currencies following fall of dollar after US midterm elections Business live – latest updates The pound has hit its highest level since its crash after the Brexit referendum a decade ago, as investors welcomed the UK’s push for closer ties with Europe.",
+      "source": "The Guardian",
+      "published": "2026-11-05T15:20:20+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/05/pound-hits-highest-level-since-2016-brexit-vote",
+      "importance": 1.983
+    },
+    {
+      "title": "Why do veterinary fees and sausage rolls vary in price across London?",
+      "summary": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
+      "source": "BBC Business",
+      "published": "2026-11-05T15:19:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmgqw51gdnzyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.983
+    },
+    {
+      "title": "Six dead and others injured in fire at New York City building",
+      "summary": "The cause of the blaze is not yet clear, after 230 fire and emergency medical personnel went to the scene.",
+      "source": "BBC World",
+      "published": "2026-11-05T15:00:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c39wz44411w0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.979
+    },
+    {
+      "title": "Investigation into 'major fish kill' after pollution incident",
+      "summary": "The pollution caused the death of brown and migratory sea trout in the Inler river.",
+      "source": "BBC Science",
+      "published": "2026-11-05T14:51:45+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx1l36y2d941o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.977
+    },
+    {
+      "title": "BT cuts almost 8,000 jobs amid sweeping cost-saving programme",
+      "summary": "Telecoms group reports £1.1bn pre-tax profit in six months to end of September and share price touches five-year high Business live – latest updates BT has cut almost 8,000 jobs since the end of March as it pushes ahead with sweeping cost reductions across the business. The telecoms group said its workforce",
+      "source": "The Guardian",
+      "published": "2026-11-05T14:40:48+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/05/bt-cuts-jobs-cost-saving-programme-profit-share-price",
+      "importance": 1.974
+    },
+    {
+      "title": "Amtrak workers’ union denounces plan to let passengers bring guns on trains: ‘Sheer lunacy’",
+      "summary": "New policy would permit passengers to take firearms to their seats in lockboxes on 1,500 trains a day across the US The Transport Workers Union, which represents 360 onboard service workers at national passenger rail operator Amtrak, has lambasted the planned implementation of a new policy that would permit",
+      "source": "The Guardian",
+      "published": "2026-11-05T14:34:44+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/05/amtrak-workers-union-passengers-guns",
+      "importance": 1.973
+    },
+    {
+      "title": "A bitter end for Ronaldo - the icon who transformed Portugal",
+      "summary": "As Cristiano Ronaldo retires from international football, Guillem Balague looks at why and what is next for the Portugal legend.",
+      "source": "BBC World",
+      "published": "2026-11-05T14:29:40+00:00",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckn9rwr2zzpvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.972
+    },
+    {
+      "title": "Watch: How rapist Brand was never far from controversy",
+      "summary": "BBC correspondent Sima Kotecha explains how the trial unfolded.",
+      "source": "BBC World",
+      "published": "2026-11-05T14:28:21+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c9dr8713zjgyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.971
+    },
+    {
+      "title": "‘It’s kind of a melting pot’: how one US city transformed a highway into a leafy oasis",
+      "summary": "The BLVD is home to 250 enterprises, from banks, tattoo shops and restaurants to museums and a performing arts centre Passing through the Mojave desert on State Route 14, going by landscapes Hollywood uses to represent alien planets, a driver might not expect to find a walkable, tree-lined boulevard. But",
+      "source": "The Guardian",
+      "published": "2026-11-05T14:07:12+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/05/lancaster-california-transformed-highway-leafy-oasis",
+      "importance": 1.967
+    },
+    {
+      "title": "One Nation asks donors at $3,000-a-head Sydney fundraiser to accept ‘non-disclosure agreement’",
+      "summary": "Transparency experts raise concerns about plans to use NDA to gag attendees at event featuring Pauline Hanson in lead-up to NSW election Get our breaking news email , free app or daily news podcast One Nation is attempting to gag donors from ever revealing details of discussions at an invite-only",
+      "source": "The Guardian",
+      "published": "2026-11-05T14:00:26+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/06/one-nation-sydney-fundraiser-pauline-hanson-nda-ntwnfb",
+      "importance": 1.965
+    },
+    {
+      "title": "Australians are yet to see the benefits of AI and datacentres – and US midterms show they could be political kryptonite",
+      "summary": "Albanese should tread carefully as he struggles to make case for how the new technology will benefit ordinary voters Get our daily political email , free app or daily news podcast When will Australia see the benefits of the AI and datacentre boom? So far, all we’ve seen is the possibility of changes to",
+      "source": "The Guardian",
+      "published": "2026-11-05T14:00:26+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/06/ai-datacentre-boom-could-be-political-kryptonite-australia",
+      "importance": 1.965
+    },
+    {
+      "title": "Protesters join street demonstrations across France on day of strike action",
+      "summary": "Hospital workers, air traffic and rail staff expected to join industrial action as 70,000 police officers deployed Hundreds of thousands of people are expected to march in demonstrations across France as trade unions call for a nationwide strike expected to extend to hospital workers, air traffic control",
+      "source": "The Guardian",
+      "published": "2026-11-05T14:00:13+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+      "importance": 1.965
+    },
+    {
+      "title": "What does the raise in interest rates mean?",
+      "summary": "The BBC's cost of living correspondent Kevin Peachey explains what the change could mean for those saving for a holiday or to buying a house.",
+      "source": "BBC Business",
+      "published": "2026-11-05T14:02:24+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c9kgjvmn4vlno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.965
+    },
+    {
+      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "summary": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
+      "source": "BBC World",
+      "published": "2026-11-05T13:51:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.963
+    },
+    {
+      "title": "Europe’s far right has a Trump problem after Republican US midterms wipeout",
+      "summary": "European far-right leaders quick to distance themselves from US president and stress their own priorities Europe live – latest updates US midterms live – latest updates The historic Republican defeat in the US midterm elections has forcibly reminded Europe’s far-right leaders of their perennial Donald Trump",
+      "source": "The Guardian",
+      "published": "2026-11-05T13:36:31+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/republican-wipeout-donald-trump-us-midterms-europe-far-right-message",
+      "importance": 1.959
+    },
+    {
+      "title": "Six people dead and seven injured after fire at Brooklyn home",
+      "summary": "Hundreds of first responders worked to control the blaze, and a lithium-ion battery was found at the scene Six people died in a fire that roared through a residential home in New York City early on Thursday and seven others were injured, including three firefighters, the city’s fire department said. The",
+      "source": "The Guardian",
+      "published": "2026-11-05T13:18:45+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/six-people-dead-brooklyn-fire",
+      "importance": 1.955
+    },
+    {
+      "title": "Faisal Islam: How high will interest rates go?",
+      "summary": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
+      "source": "BBC Business",
+      "published": "2026-11-05T13:17:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.955
+    },
+    {
+      "title": "Three ways the interest rate rise could affect you",
+      "summary": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
+      "source": "BBC Business",
+      "published": "2026-11-05T13:08:30+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx4g1q3vlp62o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.953
     },
     {
       "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
@@ -81,15 +305,79 @@
       "source": "BBC Business",
       "published": "2026-11-03T20:53:03+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.076
+      "importance": 1.944
     },
     {
-      "title": "Action needed to tackle 'biodiversity crisis'",
-      "summary": "The issue is part of wider concerns the government is not focused enough on the environment.",
+      "title": "Google refused 54K-name petition, say campaigners",
+      "summary": "Campaigners oppose the development of a large data centre on a wildlife site at Thurrock.",
       "source": "BBC Science",
-      "published": "2026-11-03T17:25:10+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy94ewzw03o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.028
+      "published": "2026-11-05T11:30:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c5ev3wm3ng42o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.93
+    },
+    {
+      "title": "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
+      "summary": "The widow of ER creator Michael Crichton argues The Pitt is effectively a reboot of the 1990s series.",
+      "source": "BBC World",
+      "published": "2026-11-05T11:21:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq4g1r42jx00o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.928
+    },
+    {
+      "title": "How elderly ‘unsung heroes’ powered Lula’s historic fightback in Brazil",
+      "summary": "Older voters praised for helping tip balance in leftwing president’s favour against far-right Flávio Bolsonaro in runoff It had been nearly a decade since Celia de Oliveira Soares last voted, and months since the 101-year-old great-grandmother last left her home. But on 25 October, when Brazil held what many",
+      "source": "The Guardian",
+      "published": "2026-11-05T11:00:21+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro",
+      "importance": 1.923
+    },
+    {
+      "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+      "summary": "The chef had stated that putting pineapple on pizza was \"offensive to his culture\".",
+      "source": "BBC World",
+      "published": "2026-11-05T10:33:21+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.917
+    },
+    {
+      "title": "Second buyer makes rescue bid for Poundland as retailer faces collapse",
+      "summary": "A little-known investment group has made a bid to buy the business.",
+      "source": "BBC Business",
+      "published": "2026-11-05T09:46:32+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6lykq0kqwn7o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.906
+    },
+    {
+      "title": "India's costliest film retells a beloved Hindu epic - but divides critics",
+      "summary": "Easily the most anticipated Bollywood film of the year, Ramayana: Rise of a Legend is the first of two parts.",
+      "source": "BBC World",
+      "published": "2026-11-05T09:04:42+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm93zv62v1n7o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.897
+    },
+    {
+      "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+      "summary": "Wong, 30, in prison since 2020, is only activist in Hong Kong prosecuted twice under national security law Exclusive: Joshua Wong laments city’s fate from inside maximum security prison The Hong Kong activist Joshua Wong has been sentenced to 10 years in prison after earlier pleading guilty to “foreign",
+      "source": "The Guardian",
+      "published": "2026-11-05T07:56:21+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
+      "importance": 1.881
+    },
+    {
+      "title": "Accused double murderer gives evidence in high-profile case – as it happened",
+      "summary": "This blog is now closed Beau Lamarre-Condon tells double murder trial he went through Jesse Baird’s phone and poured water into his fuel tank Get our breaking news email , free app or daily news podcast The court has adjourned for lunch. Lamarre-Condon will continue giving evidence at 2pm. Public pile in to",
+      "source": "The Guardian",
+      "published": "2026-11-05T06:58:33+00:00",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+      "importance": 1.867
+    },
+    {
+      "title": "Beau Lamarre-Condon tells double murder trial he went through Jesse Baird’s phone and poured water into his fuel tank",
+      "summary": "Former police officer gives evidence in court after pleading not guilty to murdering Baird and Luke Davies in early 2024 The day in court: Beau Lamarre-Condon gives evidence in murder trial Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon has admitted to going through Jesse",
+      "source": "The Guardian",
+      "published": "2026-11-05T06:56:01+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
+      "importance": 1.867
     },
     {
       "title": "Poundland owner in crunch talks as retailer's collapse looms",
@@ -97,79 +385,15 @@
       "source": "BBC Business",
       "published": "2026-11-05T06:58:03+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck240mm3e42do?at_medium=RSS&at_campaign=rss",
-      "importance": 2.0
+      "importance": 1.867
     },
     {
-      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-      "summary": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
-      "source": "BBC World",
-      "published": "2026-11-05T06:35:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.995
-    },
-    {
-      "title": "Charity warns about damage of over-foraging fungi",
-      "summary": "It says over-foraging, particularly in protected areas, damages habitats and wildlife.",
-      "source": "BBC Science",
-      "published": "2026-11-03T14:36:36+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cmp3gr673zz9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
-    },
-    {
-      "title": "Norman conquest castle and Dickens chalet among sites added to heritage at risk register",
-      "summary": "William the Conquerer-built Hastings Castle and Swiss-style writing retreat in Kent two of nearly 200 additions to list A castle built by William the Conquerer, a Swiss-style chalet where Charles Dickens wrote and a swathe of fire-blasted moorland are among sites that have been added to Historic England’s",
-      "source": "The Guardian",
-      "published": "2026-11-05T06:00:56+00:00",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/05/hastings-castle-dickens-chalet-heritage-at-risk-register",
-      "importance": 1.987
-    },
-    {
-      "title": "Democrats won on affordability. Can they deliver it?",
-      "summary": "Democrats will hold Congress but President Donald Trump still has the power to block their plans.",
+      "title": "Food, fuel and taxes – can the Democrats actually make life cheaper?",
+      "summary": "Their message on cost of living resonated with voters. Now they must show they can deliver.",
       "source": "BBC Business",
       "published": "2026-11-05T06:01:05+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck1ex50x5q46o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.987
-    },
-    {
-      "title": "Beau Lamarre-Condon trial live updates: accused double murderer gives evidence in high-profile case",
-      "summary": "The 31-year-old former police officer is accused of fatally shooting couple Jesse Baird and Luke Davies in Sydney in 2024 Former police officer Beau Lamarre-Condon enters witness box in Sydney double murder trial Get our breaking news email , free app or daily news podcast The court has adjourned for lunch.",
-      "source": "The Guardian",
-      "published": "2026-11-05T05:58:24+00:00",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-      "importance": 1.986
-    },
-    {
-      "title": "Why do sausage rolls and veterinary fees vary in price across London?",
-      "summary": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
-      "source": "BBC Business",
-      "published": "2026-11-05T05:56:46+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmgqw51gdnzyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.986
-    },
-    {
-      "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
-      "summary": "Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance, said he was optimistic that diplomatic efforts to end the war were moving in the right",
-      "source": "The Guardian",
-      "published": "2026-11-03T13:52:34+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
-      "importance": 1.979
-    },
-    {
-      "title": "Republican blame game begins as Democrat’s Mississippi lead grows – as it happened",
-      "summary": "This blog has now closed – our live US midterms results coverage continues here Wall Street surged at the open, after Democrats scored historic victories in midterm elections and secured control of US Congress. The Dow Jones rose 2%, while the tech-heavy Nasdaq and the benchmark S&P 500 both gained more than",
-      "source": "The Guardian",
-      "published": "2026-11-05T05:28:47+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-      "importance": 1.979
-    },
-    {
-      "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
-      "summary": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the",
-      "source": "The Guardian",
-      "published": "2026-11-05T05:00:55+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
-      "importance": 1.973
+      "importance": 1.854
     },
     {
       "title": "‘Bring it on’: Pauline Hanson to appeal Mehreen Faruqi racial discrimination ruling in high court",
@@ -177,231 +401,7 @@
       "source": "The Guardian",
       "published": "2026-11-05T05:03:08+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/05/pauline-hanson-to-appeal-mehreen-faruqi-racial-discrimination-ruling-high-court-ntwnfb",
-      "importance": 1.973
-    },
-    {
-      "title": "Protesters to join nationwide march as France braces for day of strike action",
-      "summary": "Hospital workers, air traffic and rail staff expected to join strikes amid renewed protests over education and rising living costs Hundreds of thousands are expected to march in demonstrations across France as trade unions call for a nationwide strike expected to extend to hospital workers, air traffic",
-      "source": "The Guardian",
-      "published": "2026-11-05T05:00:54+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
-      "importance": 1.973
-    },
-    {
-      "title": "Historians say King Verica persuaded Rome to invade Britain. But could Verica actually have been a queen?",
-      "summary": "Controversial theory that Verica, who incited Emperor Claudius’s AD43 landing, was a woman could put a new spin on British history if true It was a moment that changed the course of British history: in AD43, Roman troops under the emperor Claudius landed in Kent. Now, an archaeologist has claimed the British",
-      "source": "The Guardian",
-      "published": "2026-11-05T05:00:54+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/05/verica-rome-invade-britain-queen-or-king",
-      "importance": 1.973
-    },
-    {
-      "title": "The Pitt and ER are similar enough for Michael Crichton’s widow’s lawsuit to proceed, court rules",
-      "summary": "Court finds ‘clear and numerous similarities’ between two medical dramas, allowing lawsuit by ER creator’s widow Sherri to go to jury trial in 2027 The Pitt is similar enough to ER to allow Michael Crichton’s widow to pursue a long-running lawsuit over the award-winning medical drama, a US appeals court has",
-      "source": "The Guardian",
-      "published": "2026-11-05T04:57:41+00:00",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/05/tv-the-pitt-er-michael-crichton-widow-lawsuit-to-proceed",
-      "importance": 1.972
-    },
-    {
-      "title": "‘An insult to his culture’: Italian chef sacked for not putting pineapple on pizza loses bid to get job back",
-      "summary": "Australia’s Fair Work Commission heard that Davide Tamburella was sacked after refusing to use the controversial topping With its sea foam-green and white decor, exposed brick columns and “classic Italian dishes” served atop European oak tables, La Costa was billed as an elegant slice of Italy in the urban",
-      "source": "The Guardian",
-      "published": "2026-11-05T04:53:28+00:00",
-      "url": "https://www.theguardian.com/food/2026/nov/05/italian-chef-sacked-refusing-pineapple-on-pizza-australia-fair-work",
-      "importance": 1.971
-    },
-    {
-      "title": "South Korea says it will expand naval operations closer to strait of Hormuz",
-      "summary": "Seoul to seek parliamentary approval to extend anti-piracy Cheonghae unit’s area to about 650km from the vital strait after criticism from Donald Trump on Iran war support South Korea plans to expand the operations ⁠of its anti-piracy unit to waters closer to the strait of Hormuz, its defence ministry has",
-      "source": "The Guardian",
-      "published": "2026-11-05T04:22:49+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/05/south-korea-to-expand-anti-piracy-unit-strait-of-hormuz",
-      "importance": 1.964
-    },
-    {
-      "title": "Pound rises to its highest level since the Brexit referendum",
-      "summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
-      "source": "BBC Business",
-      "published": "2026-11-05T04:21:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6lykq2qjn2vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.964
-    },
-    {
-      "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
-      "summary": "Wong, 30, has been imprisoned since 2020 and is the only activist in Hong Kong prosecuted twice under national security law Exclusive: Joshua Wong laments city’s fate from inside maximum security prison Hong Kong activist Joshua Wong has been sentenced to 10 years in prison after earlier pleading guilty to",
-      "source": "The Guardian",
-      "published": "2026-11-05T04:04:49+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
-      "importance": 1.96
-    },
-    {
-      "title": "Beau Lamarre-Condon tells double murder trial he suffered ‘daily bullying’ when working for NSW police",
-      "summary": "Lamarre-Condon gives evidence in court after pleading not guilty to murdering Jesse Baird and Luke Davies in early 2024 Live updates: Beau Lamarre-Condon gives evidence in murder trial Get our breaking news email , free app or daily news podcast Former officer Beau Lamarre-Condon has alleged he heard",
-      "source": "The Guardian",
-      "published": "2026-11-05T03:16:08+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
-      "importance": 1.948
-    },
-    {
-      "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
-      "summary": "Future of Australia’s upmarket department store in jeopardy after years of steep losses, and outer suburban and regional locations vulnerable Get our breaking news email , free app or daily news podcast Australia’s premier upmarket department store David Jones has collapsed into voluntary administration",
-      "source": "The Guardian",
-      "published": "2026-11-05T03:12:54+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration",
-      "importance": 1.948
-    },
-    {
-      "title": "Trump has been humbled. Now what? - podcast",
-      "summary": "Journalist Molly Ball reports from Washington DC after the Republicans’ resounding midterms defeat. Will the party finally distance itself from Donald Trump? And what will the Democrats do with the power they’ve just gained? Send your comments and questions to tif.questions@theguardian.com How will Donald",
-      "source": "The Guardian",
-      "published": "2026-11-05T03:00:51+00:00",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/05/trump-has-been-humbled-now-what-podcast",
-      "importance": 1.945
-    },
-    {
-      "title": "'Quiet quitting' could be hitting the economy - here's why",
-      "summary": "Britons have become less engaged with the jobs they do and are less willing to put in extra effort, a report has found.",
-      "source": "BBC Business",
-      "published": "2026-11-03T11:15:51+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw23d5z87drpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.943
-    },
-    {
-      "title": "Pope Leo hosts Bob Dylan at official residence in Rome",
-      "summary": "Pope Leo had previously quoted Dylan's work in the preface of a book warning against nuclear rearmament.",
-      "source": "BBC World",
-      "published": "2026-11-05T02:09:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm0e035n13ylo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.933
-    },
-    {
-      "title": "Elon Musk’s nearly half a billion dollars in midterms spending was a flop",
-      "summary": "The tech billionaire set spending record as he poured $446m into campaigns for failed Republican candidates Elon Musk set a record for election spending this year after pouring nearly half a billion dollars into backing Republicans in the US midterm elections . It turned out to be a poor investment. The",
-      "source": "The Guardian",
-      "published": "2026-11-05T02:00:50+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/04/elon-musk-midterm-spending-analysis",
-      "importance": 1.931
-    },
-    {
-      "title": "Australia's oldest department store David Jones folds after 188 years",
-      "summary": "The brand's 38 physical stores and online site will continue to operate while receivers review its operations.",
-      "source": "BBC Business",
-      "published": "2026-11-05T00:59:22+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cky93z5y0171o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.917
-    },
-    {
-      "title": "Hubert Aiwanger, prominent German politician, found dead in Berlin hotel",
-      "summary": "Police and prosecutors open investigation into death of the 55-year-old Bavarian state deputy leader A prominent German politician was found dead in a Berlin hotel on Wednesday, police said, adding they had launched an investigation. The cause of death of Hubert Aiwanger, 55, who was deputy leader of",
-      "source": "The Guardian",
-      "published": "2026-11-05T00:53:19+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/05/hubert-aiwanger-dead-german-politician-berlin-hotel",
-      "importance": 1.915
-    },
-    {
-      "title": "Milburn review to call for jobs ’revolution’ for young people with disabilities",
-      "summary": "Exclusive: Government should introduce ‘flexi-jobs’ alongside subsidies and skills support, former minister will say The British state should create and subsidise paid jobs for thousands of disabled young people as part of an “opportunity revolution” aimed at reversing years of labour market discrimination",
-      "source": "The Guardian",
-      "published": "2026-11-05T00:01:47+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/05/milburn-review-jobs-revolution-young-people-disabilities-neets",
-      "importance": 1.903
-    },
-    {
-      "title": "Interest rates expected to rise for first time in over three years",
-      "summary": "Most analysts are predicting an increase from 3.75% to 4%, the first increase in more than three years.",
-      "source": "BBC Business",
-      "published": "2026-11-05T00:00:09+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynw45jrgqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.903
-    },
-    {
-      "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
-      "summary": "Authorities in British Columbia say evidence suggests an animal may have been involved in the women's deaths.",
-      "source": "BBC World",
-      "published": "2026-11-04T23:50:40+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.901
-    },
-    {
-      "title": "UK and Caribbean to begin ‘dialogue’ within next year after slavery reparations call",
-      "summary": "Antigua and Barbuda’s prime minister says there was a consensus at Commonwealth summit on way forward The UK has agreed to “structured dialogue” in the next year with Caribbean nations affected by the slave trade and its legacy, Commonwealth leaders have said. Gaston Browne, Antigua and Barbuda’s prime",
-      "source": "The Guardian",
-      "published": "2026-11-04T23:51:58+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/04/debt-relief-aid-no-replacement-slavery-reparations-uk-told-caribbean",
-      "importance": 1.901
-    },
-    {
-      "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
-      "summary": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
-      "source": "BBC World",
-      "published": "2026-11-04T23:12:47+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.892
-    },
-    {
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "summary": "At least 40 people were killed and another 30 may still be under the rubble after Monday's attack on a Ukrainian village, Kyiv says.",
-      "source": "BBC World",
-      "published": "2026-11-04T22:48:43+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.886
-    },
-    {
-      "title": "'Hopefully things get done': Americans react to historic political shift",
-      "summary": "The BBC spoke to voters from different states for their reaction to Democrats taking control of both the Senate and the House of Representatives.",
-      "source": "BBC World",
-      "published": "2026-11-04T22:34:08+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cwj0l61e2927o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.883
-    },
-    {
-      "title": "Do the Shetland Isles need Cold War-style military protection?",
-      "summary": "Calls are being made for the defence of the Shetland Isles to be strengthened after increased sightings of Russian trawlers off the coast of Scotland.",
-      "source": "BBC Science",
-      "published": "2026-11-03T06:07:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cjg47dq6q775o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.871
-    },
-    {
-      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
-      "summary": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
-      "source": "BBC Technology",
-      "published": "2026-11-04T21:41:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.871
-    },
-    {
-      "title": "Serbia detains police officers over alleged use of force against protesters",
-      "summary": "Interior ministry claims suspects tortured and intimidated protesters detained in garage of government compound Serbian authorities detained nine active police officers and one former officer on Wednesday for ⁠allegedly using excessive force against detainees during anti-corruption protests last year in",
-      "source": "The Guardian",
-      "published": "2026-11-04T20:42:14+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
-      "importance": 1.857
-    },
-    {
-      "title": "UK government considers smart glasses ban over secret filming concerns",
-      "summary": "Minister hints at restriction on selling technology ‘to certain users’ amid worries over surreptitious filming of women The government is considering placing restrictions on smart glasses amid concerns the technology is being used to surreptitiously film women, a minister has said. Speaking in the House of",
-      "source": "The Guardian",
-      "published": "2026-11-04T20:43:21+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/04/uk-government-considers-smart-glasses-ban-over-secret-filming-concerns",
-      "importance": 1.857
-    },
-    {
-      "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
-      "summary": "Conservation officers say more than one bear may have been involved in attack on women near their home Search teams in Canada have discovered the body of a 20-year-old woman and confirmed that both she and her mother were killed in an attack that conservation officers now believe could have involved multiple",
-      "source": "The Guardian",
-      "published": "2026-11-04T19:42:47+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
-      "importance": 1.843
-    },
-    {
-      "title": "Kellogg's admits snap, crackle and pop is quieter after uproar over Rice Krispies recipe change",
-      "summary": "The cereal giant has changed the recipes for Rice Krispies and Coco Pops, sparking a backlash online.",
-      "source": "BBC Business",
-      "published": "2026-11-04T19:38:53+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg0y44ym7vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.843
+      "importance": 1.841
     }
   ]
 }
