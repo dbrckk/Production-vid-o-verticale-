@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T14:56:38.245726+00:00",
+  "generated_at": "2026-11-07T20:18:22.416475+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,7 +9,15 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:43:30+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cy4dgp1p3p1o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.341
+      "importance": 3.267
+    },
+    {
+      "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
+      "summary": "Ahead of Cop31, climate change minister dismisses concerns about whether Australia as a major producer can keep the world moving away from fossil fuels Listen to the podcast: Chris Bowen on how he’ll reach consensus at Cop31 Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter",
+      "source": "The Guardian",
+      "published": "2026-11-07T19:00:20+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
+      "importance": 3.082
     },
     {
       "title": "What’s the point? Ten years after the Paris treaty, are climate talks getting anywhere?",
@@ -17,7 +25,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T05:00:02+00:00",
       "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere",
-      "importance": 2.962
+      "importance": 2.887
     },
     {
       "title": "A really simple guide to climate change",
@@ -25,7 +33,31 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:40:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9w15nggj58o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.791
+      "importance": 2.716
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "summary": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+      "source": "BBC World",
+      "published": "2026-11-07T18:14:38+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.521
+    },
+    {
+      "title": "No clear winner after tight New Zealand general election",
+      "summary": "Weeks of coalition talks could follow after preliminary results pointed to a highly divided national parliament.",
+      "source": "BBC World",
+      "published": "2026-11-07T15:56:28+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.489
+    },
+    {
+      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+      "summary": "The former Brexit negotiator says EU countries would reject any British attempts to follow economic rules \"a la carte\".",
+      "source": "BBC World",
+      "published": "2026-11-07T15:19:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.481
     },
     {
       "title": "New Zealand faces weeks of uncertainty with election ‘too close to call’",
@@ -33,7 +65,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:48:18+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-      "importance": 2.534
+      "importance": 2.46
     },
     {
       "title": "New Zealand election coalition talks will likely take weeks – as it happened",
@@ -41,7 +73,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:12:22+00:00",
       "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
-      "importance": 2.526
+      "importance": 2.451
     },
     {
       "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid",
@@ -49,15 +81,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:03:03+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
-      "importance": 2.524
-    },
-    {
-      "title": "Trump may have lost but don’t bet Democrats can fix the economy",
-      "summary": "There’s not much they can do over the next couple of years to alleviate angry voters’ stress over prices It was the economy, again. Although Donald Trump largely ignored it, voters’ acute concerns over the rising cost of living fuelled a political upheaval for the ages that is likely to deliver the biggest",
-      "source": "The Guardian",
-      "published": "2026-11-07T11:00:08+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/07/democrats-economy-affordability-crisis",
-      "importance": 2.495
+      "importance": 2.449
     },
     {
       "title": "Pope in 'pretty good health' as he starts Latin America tour",
@@ -65,15 +89,7 @@
       "source": "BBC World",
       "published": "2026-11-07T06:59:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.44
-    },
-    {
-      "title": "Early release prisoners facing street homelessness, probation staff warn",
-      "summary": "Charities say situation exposes ‘fatal flaw’ in Andy Burnham’s plan to end rough sleeping in England by Christmas In just four days James is facing the prospect of sleeping on the street. He was released from prison in August and given temporary probation accommodation in Somerset, but that is about to",
-      "source": "The Guardian",
-      "published": "2026-11-07T07:00:06+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/07/early-release-prisoners-street-homelessness-england",
-      "importance": 2.44
+      "importance": 2.365
     },
     {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
@@ -81,7 +97,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T01:55:11+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-      "importance": 2.369
+      "importance": 2.295
     },
     {
       "title": "Ben Roberts-Smith collaborates with gym business run by influencer that sold ‘war crimes’ pre-workout supplement",
@@ -89,15 +105,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T00:58:11+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/07/ben-roberts-smith-collaborates-gym-business-influencer-war-crimes-pre-workout-supplement-ntwnfb",
-      "importance": 2.356
-    },
-    {
-      "title": "US rockets firm eyes up mothballed Highland spaceport",
-      "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
-      "source": "BBC Science",
-      "published": "2026-11-06T12:47:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.187
+      "importance": 2.281
     },
     {
       "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
@@ -105,7 +113,15 @@
       "source": "The Guardian",
       "published": "2026-11-06T12:48:37+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-      "importance": 2.187
+      "importance": 2.113
+    },
+    {
+      "title": "US rockets firm eyes up mothballed Highland spaceport",
+      "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
+      "source": "BBC Science",
+      "published": "2026-11-06T12:47:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.112
     },
     {
       "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
@@ -113,7 +129,151 @@
       "source": "The Guardian",
       "published": "2026-11-06T06:16:22+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
-      "importance": 2.096
+      "importance": 2.022
+    },
+    {
+      "title": "What we know so far after Polish gunman opens fire in Krakow main square",
+      "summary": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
+      "source": "BBC World",
+      "published": "2026-11-07T20:08:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.998
+    },
+    {
+      "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
+      "summary": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the horrific mass shooting in Kraków, a savage and murderous attack that’s shattered the peace of",
+      "source": "The Guardian",
+      "published": "2026-11-07T20:07:50+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+      "importance": 1.998
+    },
+    {
+      "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
+      "summary": "Known for sophisticated musical style in band that played significant role in emerging 1970s punk rock movement Richard Lloyd, known for his sophisticated musical style as a founding member and guitarist for the influential punk band Television , has died at the age of 75. His family confirmed that Lloyd",
+      "source": "The Guardian",
+      "published": "2026-11-07T20:06:25+00:00",
+      "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75",
+      "importance": 1.997
+    },
+    {
+      "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+      "summary": "Systems provide 360-degree view of airport operations, but concerns have been raised about the technology The Federal Aviation Administration (FAA) has announced that the first digital air traffic control towers in the US are officially operational, bringing new technology first to smaller airports in",
+      "source": "The Guardian",
+      "published": "2026-11-07T20:03:23+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
+      "importance": 1.997
+    },
+    {
+      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+      "summary": "Knesset has been deadlocked since election last month when Benjamin Netanyahu’s coalition lost its majority Israel’s president has ⁠chosen Gadi Eisenkot, prime minister Benjamin Netanyahu’s ⁠strongest rival, to ⁠try to ​form a new government, following a deadlocked election that left neither man ⁠with a",
+      "source": "The Guardian",
+      "published": "2026-11-07T19:49:39+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+      "importance": 1.993
+    },
+    {
+      "title": "Paraguay's former president charged after bank collapse",
+      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "source": "BBC World",
+      "published": "2026-11-07T19:17:22+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.986
+    },
+    {
+      "title": "A Big Build royal commission helped Ben Carroll become premier. Will it be his downfall?",
+      "summary": "Two weeks of public hearings will begin on Monday morning, right in the middle of the state election campaign Get our daily political email , free app or daily news podcast The commitment that made Ben Carroll premier may ultimately cost him the election. On Monday morning, right in the middle of a state",
+      "source": "The Guardian",
+      "published": "2026-11-07T19:00:19+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/08/big-build-royal-commission-victorian-election-ben-carroll-labor-ntwnfb",
+      "importance": 1.982
+    },
+    {
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "summary": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "source": "BBC World",
+      "published": "2026-11-07T17:58:41+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.968
+    },
+    {
+      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
+      "summary": "Poland’s interior minister says there were indications the gunman was “fascinated by far-right ideology” Kraków shooting – latest updates Six people have been killed and 16 injured after a shooting in a market square in Kraków, Poland. A man who had driven into the square at about 3pm began “firing at random",
+      "source": "The Guardian",
+      "published": "2026-11-07T17:17:23+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "importance": 1.958
+    },
+    {
+      "title": "Houthis say at least 25 killed in Saudi air strike",
+      "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+      "source": "BBC World",
+      "published": "2026-11-07T17:09:24+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.956
+    },
+    {
+      "title": "Rise in NHS birth centre closures ‘shocking’ denial of women’s rights, experts say",
+      "summary": "Twelve midwife-led maternity units have closed in England since 2019 with six closing since Labour came to power in 2024 NHS officials are shutting growing numbers of birth centres in a “shocking” denial of a woman’s right to have a midwife rather than a doctor oversee their baby’s birth, say campaigners.",
+      "source": "The Guardian",
+      "published": "2026-11-07T17:00:16+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/07/nhs-birth-centre-maternity-unit-closures-england-womens-rights",
+      "importance": 1.954
+    },
+    {
+      "title": "Italian foreign minister says hackers leaked his personal data",
+      "summary": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online.",
+      "source": "BBC World",
+      "published": "2026-11-07T16:50:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.952
+    },
+    {
+      "title": "Three teenagers arrested after 17-year-old injured in Gloucester sword attack",
+      "summary": "Armed police attended the scene, which led to two nearby schools going into lockdown Three teenagers have been arrested after a 17-year-old was injured in a suspected sword attack near a school in Gloucester. Officers were called to Chalford Road, near St Peter’s high school, in Tuffley, shortly after 8.50am",
+      "source": "The Guardian",
+      "published": "2026-11-07T16:41:07+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+      "importance": 1.95
+    },
+    {
+      "title": "Stephen Miller, Trump’s incoming chief of staff, pledges ‘total devotion’ to the president",
+      "summary": "Hardline aide offers ‘unwavering commitment’ to president amid fears White House will double down on far-right immigration agenda Stephen Miller, Donald Trump ’s most controversial aide and the architect of his sweeping immigration crackdown, has lavished praise on the president after his appointment as",
+      "source": "The Guardian",
+      "published": "2026-11-07T15:15:11+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-trump-loyalty",
+      "importance": 1.93
+    },
+    {
+      "title": "National Trust votes to seek banking partner more in tune with its environmental policies",
+      "summary": "Charity’s AGM decides overwhelmingly to begin tendering process amid criticism of Barclays’ fossil fuel investments The National Trust has voted overwhelmingly to seek a new banking partner in a significant victory for members who have long argued that its relationship with Barclays was at odds with its",
+      "source": "The Guardian",
+      "published": "2026-11-07T15:06:59+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/07/national-trust-agm-barclays-environment-policies",
+      "importance": 1.928
+    },
+    {
+      "title": "Vetting candidates is a tricky process but Reform can’t seem to get it right",
+      "summary": "Charges against party members and off-piste remarks highlight problems brought about by rapid expansion Speaking to reporters after unveiling his new defence spokesperson this week, Nigel Farage’s jovial and upbeat mood suddenly switched. Why, he was asked, was a Reform UK councillor who was arrested in",
+      "source": "The Guardian",
+      "published": "2026-11-07T15:00:14+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/07/reform-nigel-farage-vetting-candidates-struggle",
+      "importance": 1.926
+    },
+    {
+      "title": "‘Life-changing’: parents welcome £10m UK play centre for disabled children",
+      "summary": "Gympanzees near Bristol will be the first UK site of its type, catering for children unable to use regular playgrounds It has been over a decade since Stephanie Wheen set out to create the UK’s first play and leisure centre specifically designed for disabled children. Over the past 10 years, she and her team",
+      "source": "The Guardian",
+      "published": "2026-11-07T15:00:13+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/life-changing-parents-welcome-10m-uk-play-centre-for-disabled-children",
+      "importance": 1.926
+    },
+    {
+      "title": "LA’s newer, bluer wave: Nithya Raman leads way as city’s progressives make their mark",
+      "summary": "Democratic socialists won the mayorship, a US House seat and powerful positions in Los Angeles – and a large network of volunteers helped them do it As a blue tsunami overtook US politics this week, Los Angeles saw a major shake-up of its own with a wave of democratic socialists elected to key offices. Most",
+      "source": "The Guardian",
+      "published": "2026-11-07T15:00:14+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/07/los-angeles-mayor-nithya-raman-progressives-dsa",
+      "importance": 1.926
     },
     {
       "title": "Court rules against Home Office in asylum seeker kidnapping case",
@@ -121,7 +281,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:00:11+00:00",
       "url": "https://www.theguardian.com/law/2026/nov/07/court-of-appeal-rules-kidnap-for-ransom-libya-exploitation-trafficking-victims-asylum-seeker-home-office",
-      "importance": 1.973
+      "importance": 1.899
     },
     {
       "title": "Trump’s elevation of Stephen Miller a middle finger to millions of voters",
@@ -129,7 +289,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:00:12+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/07/trump-stephen-miller-midterms",
-      "importance": 1.973
+      "importance": 1.899
     },
     {
       "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
@@ -137,7 +297,7 @@
       "source": "BBC World",
       "published": "2026-11-07T12:49:36+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
-      "importance": 1.971
+      "importance": 1.896
     },
     {
       "title": "BBC Inside Science",
@@ -145,15 +305,7 @@
       "source": "BBC Science",
       "published": "2026-11-05T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
-      "importance": 1.967
-    },
-    {
-      "title": "Two men arrested after boy injured in Gloucester sword attack",
-      "summary": "Armed police attended the scene, which led to two nearby schools going into lockdown on Friday Two teenagers have been arrested after a 17-year-old was injured in a suspected sword attack near a school in Gloucester. Officers were called to Chalford Road, near St Peter’s high school, in Tuffley, shortly",
-      "source": "The Guardian",
-      "published": "2026-11-07T12:32:29+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
-      "importance": 1.967
+      "importance": 1.893
     },
     {
       "title": "Four things we learned this week about 2028 White House race",
@@ -161,47 +313,7 @@
       "source": "BBC World",
       "published": "2026-11-07T12:23:28+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.965
-    },
-    {
-      "title": "New ‘high safety’ chemicals in plastic food packaging linked to lower birth weight, study finds",
-      "summary": "Dinch, an allegedly ‘safe’ alternative, used in the EU and US also found to cause fetal development complications Exposure to a new generation of allegedly “safe” plasticizers is linked to lower birth weight and fetal development complications, which could cause serious health problems later in life, a new",
-      "source": "The Guardian",
-      "published": "2026-11-07T12:00:13+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study",
-      "importance": 1.959
-    },
-    {
-      "title": "Florida Republicans survived the ‘blue wave’, but find themselves on shaky ground",
-      "summary": "Sunshine state emerged as the lone flag bearer of the Maga agenda, but even there, the GOP finds itself on the defense After the dust settled on Tuesday night’s near-annihilation of the Republican party nationwide, a single red flag fluttered defiantly in Florida, now a last bastion of the Maga movement that",
-      "source": "The Guardian",
-      "published": "2026-11-07T12:00:10+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/07/florida-republicans-midterm-elections",
-      "importance": 1.959
-    },
-    {
-      "title": "Russell Brand barrister reports himself to watchdog over clash with journalist",
-      "summary": "Ian Winter KC told Rosamund Urwin of the Sunday Times, whose investigation led to Brand’s victims coming forward: ‘I hope you are pleased with yourself’ Russell Brand’s barrister has reported himself to his professional regulator after being accused of launching a tirade at a journalist shortly after his",
-      "source": "The Guardian",
-      "published": "2026-11-07T10:04:01+00:00",
-      "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist",
-      "importance": 1.932
-    },
-    {
-      "title": "Lanarkshire AI datacentre to fully rely on National Grid despite renewables claim",
-      "summary": "DataVita has revised plan for Chapelhall development to be wholly powered by 1GW of renewable energy A datacentre company that said it would power a massive AI development near Glasgow with renewable energy has admitted that the scheme will be entirely served by the National Grid. DataVita, a key plank of",
-      "source": "The Guardian",
-      "published": "2026-11-07T10:00:08+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/07/lanarkshire-ai-datacentre-datavita-chapelhall-national-grid-renewable-energy",
-      "importance": 1.931
-    },
-    {
-      "title": "Trump faces criticism for ‘dangerous’ Stephen Miller appointment as White House chief of staff",
-      "summary": "Democrats and Republicans blast promotion of ‘xenophobe’ who led administration’s immigration crackdown in wake of US midterm elections Democratic lawmakers decried Stephen Miller as a “ hatemonger ”, a “ xenophobe ” and “ vile ” after Donald Trump appointed his most trusted adviser as White House chief of",
-      "source": "The Guardian",
-      "published": "2026-11-07T10:00:08+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-democrats-react",
-      "importance": 1.931
+      "importance": 1.89
     },
     {
       "title": "Home Office sued after stripping almost 1,500 EU citizens of right to live in UK",
@@ -209,23 +321,23 @@
       "source": "The Guardian",
       "published": "2026-11-07T09:15:35+00:00",
       "url": "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled",
-      "importance": 1.921
+      "importance": 1.847
     },
     {
-      "title": "TikTok accused of helping to promote sex industry to girls",
-      "summary": "Researchers say popular performers covertly market OnlyFans content and tell followers about wealthy lifestyle TikTok is helping to promote and normalise the sex industry, allowing “sexfluencers” to post videos aimed at marketing pornographic content they have uploaded elsewhere on sites such as OnlyFans, a",
-      "source": "The Guardian",
-      "published": "2026-11-07T09:00:07+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/07/tiktok-sex-industry-girls-onlyfans",
-      "importance": 1.917
-    },
-    {
-      "title": "Paraguay's president impeached and under house arrest after bank collapse",
-      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "title": "Texas mayor instructs police to limit co-operation with ICE",
+      "summary": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
       "source": "BBC World",
-      "published": "2026-11-07T07:20:00+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.894
+      "published": "2026-11-07T08:15:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.833
+    },
+    {
+      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "summary": "The 82-year-old appeared in court in Florida after the FBI searched two Los Angeles-area storage units he rented.",
+      "source": "BBC World",
+      "published": "2026-11-07T07:27:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.822
     },
     {
       "title": "New Forest wildfire restoration work begins",
@@ -233,7 +345,7 @@
       "source": "BBC Science",
       "published": "2026-11-07T07:14:33+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw98zzn7z04vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.893
+      "importance": 1.819
     },
     {
       "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
@@ -241,7 +353,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T07:00:04+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
-      "importance": 1.89
+      "importance": 1.815
     },
     {
       "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
@@ -249,15 +361,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T06:00:04+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu",
-      "importance": 1.876
-    },
-    {
-      "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
-      "summary": "Dismissals follow Houthi victories and pressure from southern Yemenis for more power The UN-recognised government of Yemen has shaken up its political and military leadership in an attempt to regain territory lost to the Houthis in September and lift the four-week siege of Taiz , the country’s third largest",
-      "source": "The Guardian",
-      "published": "2026-11-05T13:47:00+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
-      "importance": 1.867
+      "importance": 1.801
     },
     {
       "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
@@ -265,7 +369,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T03:07:01+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
-      "importance": 1.836
+      "importance": 1.761
     },
     {
       "title": "Welsh aviation firm AerFin bought in £475m deal",
@@ -273,7 +377,7 @@
       "source": "BBC Business",
       "published": "2026-11-05T11:01:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq203vjxnln7o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.829
+      "importance": 1.754
     },
     {
       "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
@@ -281,15 +385,15 @@
       "source": "BBC Science",
       "published": "2026-11-07T02:03:28+00:00",
       "url": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.821
+      "importance": 1.747
     },
     {
-      "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets",
+      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
       "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
       "source": "BBC Business",
       "published": "2026-11-07T01:41:36+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.816
+      "importance": 1.741
     },
     {
       "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
@@ -297,111 +401,7 @@
       "source": "BBC World",
       "published": "2026-11-07T01:27:47+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cx5ynly549njo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.813
-    },
-    {
-      "title": "The young Somali woman changing how the world sees Mogadishu",
-      "summary": "For some tourists, the contrast between Somalia's reputation and what they experience on the ground can be striking.",
-      "source": "BBC World",
-      "published": "2026-11-07T01:19:49+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq0k0lg48705o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.811
-    },
-    {
-      "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
-      "summary": "Friday's resolution by academic staff is largely symbolic as they do not have the power to remove those in charge of the university.",
-      "source": "BBC World",
-      "published": "2026-11-06T23:46:08+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.789
-    },
-    {
-      "title": "With Stephen Miller pick, Trump readies for a battle",
-      "summary": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
-      "source": "BBC World",
-      "published": "2026-11-06T23:24:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.784
-    },
-    {
-      "title": "When a single vowel stands in the path to victory, the stakes could not be higher for these spelling bee champions",
-      "summary": "Primary school students bested 200,000 competitors across New South Wales to reach the Premier’s Spelling Bee finals in Sydney Get our breaking news email , free app or daily news podcast Competing in a spelling bee is not for the faint of heart. Sometimes, the difference between victory and loss is one",
-      "source": "The Guardian",
-      "published": "2026-11-06T23:06:10+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/when-a-single-vowel-stands-in-the-path-to-victory-the-stakes-could-not-be-higher-for-these-spelling-bee-champions",
-      "importance": 1.78
-    },
-    {
-      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
-      "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
-      "source": "BBC World",
-      "published": "2026-11-06T21:49:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.762
-    },
-    {
-      "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
-      "summary": "Asian and European markets follow US tech rout with many analysts predicting more waves of selling to come European and Asian stock markets fell sharply on Friday after the Democrats’ decisive victory in the midterms triggered a rout in US tech stocks a day earlier. A sell-off on Wall Street on Thursday was",
-      "source": "The Guardian",
-      "published": "2026-11-06T21:23:54+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
-      "importance": 1.756
-    },
-    {
-      "title": "AI stocks climb after trillions wiped from market values",
-      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-      "source": "BBC World",
-      "published": "2026-11-06T21:06:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.752
-    },
-    {
-      "title": "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
-      "summary": "The Chilean film-maker, whose films starred Florence Pugh, Julianne Moore and Rachel Weisz, died at his home in Santiago Chilean film-maker Sebastián Lelio has died at the age of 52. He was best known for the Oscar-winning trans drama A Fantastic Woman and his English-language films included Gloria Bell and",
-      "source": "The Guardian",
-      "published": "2026-11-06T19:23:24+00:00",
-      "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-director-dies",
-      "importance": 1.728
-    },
-    {
-      "title": "Activists break into building site of Microsoft datacentre in Amsterdam",
-      "summary": "Separate actions also take place outside fence and across Europe in backlash against impact of AI boom Activists have stormed the site of a Microsoft datacentre being built in Amsterdam, as the backlash to the social and environmental harms of the AI boom spreads across Europe. Protesters from Geef Tegengas",
-      "source": "The Guardian",
-      "published": "2026-11-06T18:51:37+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
-      "importance": 1.721
-    },
-    {
-      "title": "Why the US midterms sparked an AI stock selloff",
-      "summary": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-      "source": "BBC Technology",
-      "published": "2026-11-06T18:32:16+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.717
-    },
-    {
-      "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
-      "summary": "Prosecutors begin investigating EU funds meant for upgrading the Spanish railway line where a train crash killed 69 people.",
-      "source": "BBC World",
-      "published": "2026-11-06T17:44:02+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.705
-    },
-    {
-      "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
-      "summary": "A post-Brexit deal on food standards has raised questions over the future naming of the classic British snack.",
-      "source": "BBC Business",
-      "published": "2026-11-06T17:19:38+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.7
-    },
-    {
-      "title": "Further bomb threats disrupt at least another 18 flights across Europe",
-      "summary": "Media organisations in Ireland and UK also affected as apparently coordinated effort to cause chaos continues A fresh wave of bomb threats disrupted air traffic across Europe on Friday but the affected aircraft landed safely and searches revealed no explosive devices. The latest alerts affected at least 18",
-      "source": "The Guardian",
-      "published": "2026-11-06T17:14:31+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
-      "importance": 1.699
+      "importance": 1.738
     }
   ]
 }
