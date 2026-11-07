@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T21:35:58.204283+00:00",
+  "generated_at": "2026-11-07T06:11:02.130340+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:43:30+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cy4dgp1p3p1o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.582
+      "importance": 3.463
     },
     {
       "title": "Most Europeans want action to tackle climate crisis but not at any cost, poll shows",
@@ -17,7 +17,15 @@
       "source": "The Guardian",
       "published": "2026-11-06T12:27:54+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/06/europeans-want-action-climate-crisis-yougov-poll",
-      "importance": 3.523
+      "importance": 3.404
+    },
+    {
+      "title": "What’s the point? Ten years after the Paris treaty, are climate talks getting anywhere?",
+      "summary": "Its key temperature goal has been missed but experts say the agreement is still proving a vital moral compass for progress It was a curious way of conducting negotiations. Ahead of the 2025 climate summit, in the Amazonian port of Belém last year, the Brazilian hosts had taken off the table the issue that",
+      "source": "The Guardian",
+      "published": "2026-11-07T05:00:02+00:00",
+      "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere",
+      "importance": 3.084
     },
     {
       "title": "A really simple guide to climate change",
@@ -25,7 +33,23 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:40:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9w15nggj58o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.032
+      "importance": 2.912
+    },
+    {
+      "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+      "summary": "Santiago Peña was detained minutes after he was impeached by Congress, as protesters took to the streets demanding answers after the suspension of the Ueno bank Paraguay’s rightwing president has been placed under house arrest minutes after he was impeached by Congress, amid a severe crisis that left more",
+      "source": "The Guardian",
+      "published": "2026-11-07T01:55:11+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+      "importance": 2.491
+    },
+    {
+      "title": "Ben Roberts-Smith collaborates with gym business run by influencer that sold ‘war crimes’ pre-workout supplement",
+      "summary": "Zero Limits supplements is co-owned by rightwing podcaster and fitness coach Chris Katelaris, also known as ‘Big Chocky’ Get our breaking news email , free app or daily news podcast Ben Roberts-Smith has collaborated with a gym supplements company run by a rightwing influencer which recently sold a",
+      "source": "The Guardian",
+      "published": "2026-11-07T00:58:11+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/07/ben-roberts-smith-collaborates-gym-business-influencer-war-crimes-pre-workout-supplement-ntwnfb",
+      "importance": 2.478
     },
     {
       "title": "Nigerian court rules opposition candidate cannot stand in elections",
@@ -33,7 +57,7 @@
       "source": "BBC World",
       "published": "2026-11-06T17:35:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw8rzzx46jd5o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.494
+      "importance": 2.375
     },
     {
       "title": "EU charges TikTok with failing to protect users’ mental health",
@@ -41,15 +65,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T15:17:08+00:00",
       "url": "https://www.theguardian.com/technology/2026/nov/06/eu-charges-tiktok-failure-to-protect-users-mental-health",
-      "importance": 2.462
-    },
-    {
-      "title": "US rockets firm eyes up mothballed Highland spaceport",
-      "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
-      "source": "BBC Science",
-      "published": "2026-11-06T12:47:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.428
+      "importance": 2.343
     },
     {
       "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
@@ -57,7 +73,15 @@
       "source": "The Guardian",
       "published": "2026-11-06T12:48:37+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-      "importance": 2.428
+      "importance": 2.309
+    },
+    {
+      "title": "US rockets firm eyes up mothballed Highland spaceport",
+      "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
+      "source": "BBC Science",
+      "published": "2026-11-06T12:47:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.308
     },
     {
       "title": "Somalia's top court rejects president's term extension amid political crisis",
@@ -65,7 +89,7 @@
       "source": "BBC World",
       "published": "2026-11-06T08:18:10+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.365
+      "importance": 2.246
     },
     {
       "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
@@ -73,15 +97,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T06:16:22+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
-      "importance": 2.337
-    },
-    {
-      "title": "Did a data centre revolt affect the US midterm election results?",
-      "summary": "BBC Verify examines whether US voters were influenced by the data centre boom - and the impact anti-AI sentiment could have on the industry.",
-      "source": "BBC World",
-      "published": "2026-11-06T06:01:13+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crvg9yyz5437o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.334
+      "importance": 2.218
     },
     {
       "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
@@ -89,7 +105,7 @@
       "source": "BBC Science",
       "published": "2026-11-04T06:11:43+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.219
+      "importance": 2.1
     },
     {
       "title": "BBC Inside Science",
@@ -97,7 +113,23 @@
       "source": "BBC Science",
       "published": "2026-11-05T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
-      "importance": 2.208
+      "importance": 2.089
+    },
+    {
+      "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+      "summary": "Democrats’ sweep could urge Israel’s divided opposition to join forces and remove prime minister closely allied with Trump The Democrats’ sweep of Congress may make it easier for Israel’s splintered opposition to overcome deep internal divisions and form a coalition government, by increasing the urgency of",
+      "source": "The Guardian",
+      "published": "2026-11-07T06:00:04+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu",
+      "importance": 1.997
+    },
+    {
+      "title": "The end of Maga as we know it",
+      "summary": "The Republican party will regroup after their shellacking in the US midterm elections, but it won’t look the same Walking by a tattoo studio and medical spa on the pretty main street of Round Rock , in Texas Hill Country, Tarik Bakir recalled voting for Barack Obama in 2008 and Donald Trump in 2024. But when",
+      "source": "The Guardian",
+      "published": "2026-11-07T06:00:05+00:00",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/07/the-end-of-maga-as-we-know-it",
+      "importance": 1.997
     },
     {
       "title": "Yemen’s president sacks ministers and officers in attempt to turn tide of war",
@@ -105,7 +137,31 @@
       "source": "The Guardian",
       "published": "2026-11-05T13:47:00+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/05/yemen-president-sacks-ministers-and-officers-houthis",
-      "importance": 2.108
+      "importance": 1.989
+    },
+    {
+      "title": "Paraguay's President Santiago Peña impeached and arrested",
+      "summary": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "source": "BBC World",
+      "published": "2026-11-07T03:25:00+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.962
+    },
+    {
+      "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
+      "summary": "The president’s announcement comes days after an earlier attack on Iran was made public, and as diplomatic efforts to end the conflict have accelerated Donald Trump has said the US military on Friday carried out a new round of limited strikes on Iran, targeting an air defence system, describing the action as",
+      "source": "The Guardian",
+      "published": "2026-11-07T03:07:01+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
+      "importance": 1.957
+    },
+    {
+      "title": "Democrats blast Trump’s decision to make Stephen Miller his chief of staff as president defends picking loyal ‘MVP’ - as it happened",
+      "summary": "This live blog is now closed. Stephen Miller, architect of Trump’s immigration crackdown, to become White House chief of staff Sign up for Breaking News US email Donald Trump will begin the day in Washington today. He has closed door meetings for much of the day, and will take part in a Diwali celebration at",
+      "source": "The Guardian",
+      "published": "2026-11-07T03:02:26+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
+      "importance": 1.956
     },
     {
       "title": "Welsh aviation firm AerFin bought in £475m deal",
@@ -113,23 +169,127 @@
       "source": "BBC Business",
       "published": "2026-11-05T11:01:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq203vjxnln7o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.07
+      "importance": 1.95
     },
     {
-      "title": "Several Democrats renew calls for datacenter pauses after blue wave",
-      "summary": "Tech industry fears delays to its multi-trillion dollar infrastructure buildout meant to power artificial intelligence Several newly elected Democrats and Senator Bernie Sanders have renewed calls for datacenter moratoriums in the days after the US midterm elections. The sweeping Democratic victory , which",
-      "source": "The Guardian",
-      "published": "2026-11-06T21:14:46+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/06/democrats-renew-calls-for-datacenter-pauses",
-      "importance": 1.995
+      "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
+      "summary": "The Leonid meteor shower, known for its bright and fast meteors, will kick off this weekend and continue until the end of November.",
+      "source": "BBC Science",
+      "published": "2026-11-07T02:03:28+00:00",
+      "url": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.943
     },
     {
-      "title": "Cornell faculty declares ‘no confidence’ in school leaders in fallout from alleged gang-rape",
-      "summary": "Faculty senate passed resolution expressing deep discontent with school’s response to alleged fraternity rape Cornell University’s faculty senate approved a resolution on Friday declaring “no confidence” in the school’s top leaders, a symbolic gesture reflecting deep discontent on campus in the wake of a",
+      "title": "'My mortgage is going up £200': How rising interest rates are hitting people's pockets",
+      "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
+      "source": "BBC Business",
+      "published": "2026-11-07T01:41:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.938
+    },
+    {
+      "title": "Stephen Miller, architect of Trump’s immigration crackdown, to become White House chief of staff",
+      "summary": "US president confirms Susie Wiles, current chief of staff and first woman to serve in the role, will step down US politics live – latest updates Stephen Miller, Donald Trump ’s most controversial aide and the architect of his sweeping immigration crackdown, will become his new White House chief of staff days",
       "source": "The Guardian",
-      "published": "2026-11-06T21:11:37+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/06/cornell-faculty-declares-no-confidence-school-leaders",
-      "importance": 1.994
+      "published": "2026-11-07T01:38:06+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump",
+      "importance": 1.937
+    },
+    {
+      "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
+      "summary": "Jehovah's Witness leaders relaxed strict rules on blood transfusions, but the change came 23 days too late for Isaac Valdez.",
+      "source": "BBC World",
+      "published": "2026-11-07T01:27:47+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx5ynly549njo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.934
+    },
+    {
+      "title": "The young Somali woman changing how the world sees Mogadishu",
+      "summary": "For some tourists, the contrast between Somalia's reputation and what they experience on the ground can be striking.",
+      "source": "BBC World",
+      "published": "2026-11-07T01:19:49+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq0k0lg48705o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.933
+    },
+    {
+      "title": "How Stephen Miller appointment shows Trump hasn’t learned his lesson on immigration",
+      "summary": "US voters repudiated mass deportation campaign, but choice of new chief of staff shows Trump doesn’t care On Tuesday, voters resoundingly rebuked Donald Trump and his brutal mass deportation campaign that sent military tanks and masked agents though residential streets. But on Friday, the president doubled",
+      "source": "The Guardian",
+      "published": "2026-11-07T01:04:52+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/donald-trump-stephen-miller-immigration",
+      "importance": 1.929
+    },
+    {
+      "title": "Man in custody after being found in vehicle near White House with guns",
+      "summary": "Ronny Yordrix Guanipa Chrinos arrested by secret service after telling officers voices told him to kill Donald Trump The US secret service said a suspect has been taken into custody and charged after officers found him in a vehicle near the White House with multiple guns, claiming he heard voices in his head",
+      "source": "The Guardian",
+      "published": "2026-11-07T00:31:59+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/secret-service-man-in-custody-trump",
+      "importance": 1.922
+    },
+    {
+      "title": "Russell Brand suspected to have attacked at least 10 other women",
+      "summary": "Met police chief says ‘many more’ victims could come forward, as actor and comedian awaits sentencing Police are bracing themselves for more victims of Russell Brand to come forward, with at least 10 more women suspected of having been attacked by the disgraced star. Brand, 51, will be sentenced on Monday to",
+      "source": "The Guardian",
+      "published": "2026-11-07T00:00:47+00:00",
+      "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+      "importance": 1.914
+    },
+    {
+      "title": "Cornell faculty pass no-confidence vote over leadership's handling of Jane Doe allegations",
+      "summary": "Friday's resolution by academic staff is largely symbolic as they do not have the power to remove those in charge of the university.",
+      "source": "BBC World",
+      "published": "2026-11-06T23:46:08+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c933xxl8yv0go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.911
+    },
+    {
+      "title": "With Stephen Miller pick, Trump readies for a battle",
+      "summary": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
+      "source": "BBC World",
+      "published": "2026-11-06T23:24:15+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.906
+    },
+    {
+      "title": "When a single vowel stands in the path to victory, the stakes could not be higher for these spelling bee champions",
+      "summary": "Primary school students bested 200,000 competitors across New South Wales to reach the Premier’s Spelling Bee finals in Sydney Get our breaking news email , free app or daily news podcast Competing in a spelling bee is not for the faint of heart. Sometimes, the difference between victory and loss is one",
+      "source": "The Guardian",
+      "published": "2026-11-06T23:06:10+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/07/when-a-single-vowel-stands-in-the-path-to-victory-the-stakes-could-not-be-higher-for-these-spelling-bee-champions",
+      "importance": 1.902
+    },
+    {
+      "title": "Thomas Markle, Meghan’s father, charged in Florida in connection to child sexual abuse material",
+      "summary": "Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors said Thomas Markle, the father of Meghan, the Duchess of Sussex , was arrested by US federal agents in Florida on Friday and charged in connection with possession of child sexual abuse material, according to the Federal Bureau",
+      "source": "The Guardian",
+      "published": "2026-11-06T22:09:01+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
+      "importance": 1.888
+    },
+    {
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "summary": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "source": "BBC World",
+      "published": "2026-11-06T21:49:50+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.884
+    },
+    {
+      "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
+      "summary": "Asian and European markets follow US tech rout with many analysts predicting more waves of selling to come European and Asian stock markets fell sharply on Friday after the Democrats’ decisive victory in the midterms triggered a rout in US tech stocks a day earlier. A sell-off on Wall Street on Thursday was",
+      "source": "The Guardian",
+      "published": "2026-11-06T21:23:54+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
+      "importance": 1.878
+    },
+    {
+      "title": "Three men charged in US with using AI to impersonate CEOs and steal millions",
+      "summary": "Men allegedly impersonated voices and images of executives to convince employees to send large payments Three foreign nationals were arrested and charged with using AI to allegedly impersonate corporate CEOs and attorneys to steal over $100m, according to an indictment that was newly unsealed by the US",
+      "source": "The Guardian",
+      "published": "2026-11-06T21:20:49+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft",
+      "importance": 1.877
     },
     {
       "title": "AI stocks climb after trillions wiped from market values",
@@ -137,31 +297,7 @@
       "source": "BBC World",
       "published": "2026-11-06T21:06:25+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.993
-    },
-    {
-      "title": "Democrats blast Trump’s decision to appoint Stephen Miller as chief of staff in wake of Republican midterm rout – live",
-      "summary": "Chuck Schumer says the move to promote the controversial immigration hardliner shows that Donald Trump ‘learned nothing from his historic defeat’ in the midterms Stephen Miller, architect of Trump’s immigration crackdown, to become White House chief of staff Sign up for Breaking News US email Donald Trump",
-      "source": "The Guardian",
-      "published": "2026-11-06T21:03:08+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
-      "importance": 1.992
-    },
-    {
-      "title": "Thomas Markle, Meghan’s father, arrested in Florida on charges related to child sexual abuse material",
-      "summary": "Father of the Duchess of Sussex was taken into custody near Tampa, US prosecutors said Thomas Markle, the father of Meghan, the Duchess of Sussex , was arrested by US federal agents in Florida on Friday and charged in connection with possession of child sexual abuse material, according to the Federal Bureau",
-      "source": "The Guardian",
-      "published": "2026-11-06T20:41:11+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
-      "importance": 1.987
-    },
-    {
-      "title": "Stephen Miller, architect of Trump’s immigration crackdown, to become White House chief of staff",
-      "summary": "US president confirms Susie Wiles, current chief of staff and first woman to serve in the role, will step down US politics live – latest updates Stephen Miller, Donald Trump ’s most controversial aide and the architect of his sweeping immigration crackdown, will become his new White House chief of staff days",
-      "source": "The Guardian",
-      "published": "2026-11-06T20:06:11+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump",
-      "importance": 1.979
+      "importance": 1.874
     },
     {
       "title": "Russell Brand barrister reports himself to watchdog over clash with journalist",
@@ -169,15 +305,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T19:59:23+00:00",
       "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist",
-      "importance": 1.978
-    },
-    {
-      "title": "Macklemore says that nine US arenas turned down his Free Palestine tour",
-      "summary": "Rapper called out ‘intimidation, manipulation and suppression’ in a social media post, claiming major arenas refused to host him after the Ed Sheeran controversy Macklemore says that nine major US arenas have refused to host his Free Palestine fundraising tour, calling out “intimidation, manipulation and",
-      "source": "The Guardian",
-      "published": "2026-11-06T19:46:56+00:00",
-      "url": "https://www.theguardian.com/music/2026/nov/06/macklemore-arenas-free-palestine-tour",
-      "importance": 1.975
+      "importance": 1.858
     },
     {
       "title": "Sebastián Lelio, director of A Fantastic Woman and Gloria, dies aged 52",
@@ -185,15 +313,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T19:23:24+00:00",
       "url": "https://www.theguardian.com/film/2026/nov/06/sebastian-lelio-chilean-director-dies",
-      "importance": 1.969
-    },
-    {
-      "title": "Russell Brand suspected to have attacked at least 10 other women",
-      "summary": "Met police chief says ‘many more’ victims could come forward, as actor and comedian awaits sentencing Police are bracing themselves for more victims of Russell Brand to come forward, with at least 10 more women suspected of having been attacked by the disgraced star. Brand, 51, will be sentenced on Monday to",
-      "source": "The Guardian",
-      "published": "2026-11-06T19:23:24+00:00",
-      "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
-      "importance": 1.969
+      "importance": 1.85
     },
     {
       "title": "Want to have a better chat? Scientists say the secret is ‘pink noise’",
@@ -201,15 +321,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T19:00:49+00:00",
       "url": "https://www.theguardian.com/science/2026/nov/06/better-conversation-study-pink-noise",
-      "importance": 1.964
-    },
-    {
-      "title": "Prince Harry and others seek to challenge ruling in Daily Mail privacy case",
-      "summary": "Group including Doreen Lawrence and Elton John face £50m bill after losing claims over alleged unlawful information gathering Prince Harry and five other prominent figures have launched a legal challenge against a judge’s verdict in their unsuccessful claims against the Daily Mail’s publisher, Associated",
-      "source": "The Guardian",
-      "published": "2026-11-06T18:59:04+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/06/prince-harry-others-appeal-daily-mail-phone-hacking-claim",
-      "importance": 1.964
+      "importance": 1.845
     },
     {
       "title": "Activists break into building site of Microsoft datacentre in Amsterdam",
@@ -217,7 +329,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T18:51:37+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/06/activists-break-into-building-site-of-microsoft-datacentre-in-amsterdam",
-      "importance": 1.962
+      "importance": 1.843
     },
     {
       "title": "Why the US midterms sparked an AI stock selloff",
@@ -225,7 +337,15 @@
       "source": "BBC Technology",
       "published": "2026-11-06T18:32:16+00:00",
       "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.957
+      "importance": 1.838
+    },
+    {
+      "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+      "summary": "Prosecutors begin investigating EU funds meant for upgrading the Spanish railway line where a train crash killed 69 people.",
+      "source": "BBC World",
+      "published": "2026-11-06T17:44:02+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.827
     },
     {
       "title": "Why smoky bacon crisps threaten to reignite rows over EU rules",
@@ -233,7 +353,7 @@
       "source": "BBC Business",
       "published": "2026-11-06T17:19:38+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm1dwwqrr1kvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.941
+      "importance": 1.821
     },
     {
       "title": "Further bomb threats disrupt at least another 18 flights across Europe",
@@ -241,7 +361,7 @@
       "source": "The Guardian",
       "published": "2026-11-06T17:14:31+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/06/further-bomb-threats-disrupt-flights-across-europe",
-      "importance": 1.939
+      "importance": 1.82
     },
     {
       "title": "Dozens of Democrats eyeing 2028 presidential run, says former Obama aide",
@@ -249,7 +369,7 @@
       "source": "BBC World",
       "published": "2026-11-06T16:51:01+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.934
+      "importance": 1.815
     },
     {
       "title": "Food bank to close amid rising costs",
@@ -257,7 +377,7 @@
       "source": "BBC Business",
       "published": "2026-11-06T16:42:23+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqrkyyj6rx7ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.932
+      "importance": 1.813
     },
     {
       "title": "What is the Paris Agreement and why does 1.5C matter?",
@@ -265,15 +385,7 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:39:07+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c93d59d4zy1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.931
-    },
-    {
-      "title": "What is net zero and is the UK on track to achieve it?",
-      "summary": "Reaching net zero carbon emissions worldwide is essential to limit global warming, UN scientists say.",
-      "source": "BBC Science",
-      "published": "2026-11-06T16:22:51+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cx238yyr40qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.928
+      "importance": 1.812
     },
     {
       "title": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
@@ -281,127 +393,15 @@
       "source": "The Guardian",
       "published": "2026-11-06T16:26:17+00:00",
       "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
-      "importance": 1.928
+      "importance": 1.809
     },
     {
-      "title": "Winter support for residents facing cost pressures",
-      "summary": "The plans aim to help more people access food, financial advice and help with heating costs.",
-      "source": "BBC Business",
-      "published": "2026-11-06T16:22:18+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm20rrer25ezo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.927
-    },
-    {
-      "title": "Four midterms takeaways for 2028 White House race",
-      "summary": "The buzz about the presidential election is already under way - here's what we learned this week.",
-      "source": "BBC World",
-      "published": "2026-11-06T16:12:22+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.925
-    },
-    {
-      "title": "Global stocks fall amid ‘big worries over AI’ after Democrats’ midterms triumph",
-      "summary": "Asian and European markets follow US tech rout with many analysts predicting more waves of selling to come European and Asian stock markets fell sharply on Friday after the Democrats’ decisive victory in the midterms triggered a rout in US tech stocks a day earlier. A sell-off on Wall Street on Thursday was",
-      "source": "The Guardian",
-      "published": "2026-11-06T15:48:36+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
-      "importance": 1.92
-    },
-    {
-      "title": "Two dead after bus crashes in France, officials say",
-      "summary": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
-      "source": "BBC World",
-      "published": "2026-11-06T15:33:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.916
-    },
-    {
-      "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
-      "summary": "The Trump administration had hoped the construction of the 250-foot arch could begin as early as this week.",
-      "source": "BBC World",
-      "published": "2026-11-06T15:30:42+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.915
-    },
-    {
-      "title": "Wales scraps controversial Uganda tree-planting scheme",
-      "summary": "The Welsh government has given more than £4m to the scheme since 2015, but will end it due to budget pressures.",
+      "title": "What is net zero and is the UK on track to achieve it?",
+      "summary": "Reaching net zero carbon emissions worldwide is essential to limit global warming, UN scientists say.",
       "source": "BBC Science",
-      "published": "2026-11-06T15:27:44+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqm26m2l4p7eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.915
-    },
-    {
-      "title": "New wave of bomb threats hit European airlines",
-      "summary": "No link has been established between the threats against the airlines and those against the media outlets.",
-      "source": "BBC World",
-      "published": "2026-11-06T15:25:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.914
-    },
-    {
-      "title": "PM tells firms to publish salaries in job adverts ahead of new law",
-      "summary": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
-      "source": "BBC Business",
-      "published": "2026-11-06T15:25:43+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.914
-    },
-    {
-      "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
-      "summary": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their families The leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in one of the world’s worst cult disasters in recent",
-      "source": "The Guardian",
-      "published": "2026-11-06T15:08:43+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-      "importance": 1.91
-    },
-    {
-      "title": "Watch: Is it the end of the road for Tesla's Cybertruck?",
-      "summary": "The car company's CEO Elon Musk has said production will halt in Texas, to focus on the firm's self-driving Cybercabs.",
-      "source": "BBC World",
-      "published": "2026-11-06T15:02:03+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.909
-    },
-    {
-      "title": "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
-      "summary": "The 58-year-old, who has been detained since April last year, says the charges are politically motivated.",
-      "source": "BBC World",
-      "published": "2026-11-06T14:57:08+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckp8g4pm0y4lo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.908
-    },
-    {
-      "title": "Workers' rights 'second place' to economic growth",
-      "summary": "Jersey's Economic Development Minister has told the BBC that workers' rights may have to take 'second place' to economic growth.",
-      "source": "BBC Business",
-      "published": "2026-11-06T14:52:49+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cq369l9r634ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.907
-    },
-    {
-      "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-      "summary": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
-      "source": "BBC World",
-      "published": "2026-11-06T14:46:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.905
-    },
-    {
-      "title": "Anti-fire ant eradication activist convicted after using legal arguments ‘similar to sovereign citizens’",
-      "summary": "Legal expert compares Trevor Hold’s failed defence to ‘tried and tested argument’ used by sovereign citizen movement Get our breaking news email , free app or daily news podcast The Queensland leader of a group opposing the eradication of fire ants in Australia has been convicted of obstructing government",
-      "source": "The Guardian",
-      "published": "2026-11-06T14:00:46+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/trevor-hold-activist-convicted-qld-fire-ant-eradication-program-queensland-ntwnfb",
-      "importance": 1.895
-    },
-    {
-      "title": "The Victorian Liberals’ campaign bus was supposed to be a reset. Instead it became the symbol of a rough week",
-      "summary": "Crashing into a shop awning ended the first outing of the Jess Express – but the opposition’s electoral momentum will be harder to stop Get our daily political email , free app or daily news podcast Jess Wilson has barely put a foot wrong since becoming Victorian Liberal leader a little under a year ago.",
-      "source": "The Guardian",
-      "published": "2026-11-06T14:00:45+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/the-victorian-liberals-campaign-bus-was-supposed-to-be-a-reset-instead-it-became-the-symbol-of-a-rough-week",
-      "importance": 1.895
+      "published": "2026-11-06T16:22:51+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx238yyr40qo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.808
     }
   ]
 }
