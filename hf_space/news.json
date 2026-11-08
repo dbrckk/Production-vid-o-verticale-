@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-07T20:18:22.416475+00:00",
+  "generated_at": "2026-11-08T06:16:46.650049+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,7 +9,7 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:43:30+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cy4dgp1p3p1o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.267
+      "importance": 3.128
     },
     {
       "title": "How do you broker UN climate talks when your own country is a big coal and gas exporter? Chris Bowen is about to find out",
@@ -17,7 +17,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T19:00:20+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/08/chris-bowen-cop31-experts-condemn-australia-coal-gas-approvals",
-      "importance": 3.082
+      "importance": 2.943
     },
     {
       "title": "What’s the point? Ten years after the Paris treaty, are climate talks getting anywhere?",
@@ -25,7 +25,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T05:00:02+00:00",
       "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere",
-      "importance": 2.887
+      "importance": 2.749
     },
     {
       "title": "A really simple guide to climate change",
@@ -33,15 +33,31 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:40:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9w15nggj58o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.716
+      "importance": 2.578
+    },
+    {
+      "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
+      "summary": "National party will be largest in parliament but ultimate shape of next government won’t be settled for some time New Zealand could be facing a weeks-long wait to know the shape of its next government, after its nail-biting election failed to hand a decisive victory to either the incumbent rightwing",
+      "source": "The Guardian",
+      "published": "2026-11-08T01:00:48+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
+      "importance": 2.477
+    },
+    {
+      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+      "summary": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
+      "source": "BBC Business",
+      "published": "2026-11-07T21:36:16+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.43
     },
     {
       "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "summary": "Donald Trump has repeatedly raised the prospecting of renewing strikes against Iran's nuclear facilities.",
+      "summary": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
       "source": "BBC World",
       "published": "2026-11-07T18:14:38+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.521
+      "importance": 2.383
     },
     {
       "title": "No clear winner after tight New Zealand general election",
@@ -49,7 +65,7 @@
       "source": "BBC World",
       "published": "2026-11-07T15:56:28+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.489
+      "importance": 2.351
     },
     {
       "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
@@ -57,15 +73,7 @@
       "source": "BBC World",
       "published": "2026-11-07T15:19:35+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.481
-    },
-    {
-      "title": "New Zealand faces weeks of uncertainty with election ‘too close to call’",
-      "summary": "National party will be largest in parliament but ultimate shape of next government won’t be settled for some time New Zealand could be facing a weeks-long wait to know the shape of its next government, after its nail-biting election failed to hand a decisive victory to either the incumbent rightwing",
-      "source": "The Guardian",
-      "published": "2026-11-07T13:48:18+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-      "importance": 2.46
+      "importance": 2.342
     },
     {
       "title": "New Zealand election coalition talks will likely take weeks – as it happened",
@@ -73,7 +81,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:12:22+00:00",
       "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
-      "importance": 2.451
+      "importance": 2.313
     },
     {
       "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid",
@@ -81,7 +89,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:03:03+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
-      "importance": 2.449
+      "importance": 2.311
     },
     {
       "title": "Pope in 'pretty good health' as he starts Latin America tour",
@@ -89,7 +97,7 @@
       "source": "BBC World",
       "published": "2026-11-07T06:59:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.365
+      "importance": 2.227
     },
     {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
@@ -97,23 +105,39 @@
       "source": "The Guardian",
       "published": "2026-11-07T01:55:11+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-      "importance": 2.295
+      "importance": 2.156
     },
     {
-      "title": "Ben Roberts-Smith collaborates with gym business run by influencer that sold ‘war crimes’ pre-workout supplement",
-      "summary": "Zero Limits supplements is co-owned by rightwing podcaster and fitness coach Chris Katelaris, also known as ‘Big Chocky’ Get our breaking news email , free app or daily news podcast Ben Roberts-Smith has collaborated with a gym supplements company run by a rightwing influencer which recently sold a",
+      "title": "Six dead after gunman opens fire in Kraków market square, with three more victims found at suspect’s home",
+      "summary": "Suspect was influenced by far-right ideology and held ‘ultra-nationalistic’ views, says Polish interior minister Six people have been killed and 16 wounded after a gunman opened fire in a busy market square in Kraków, authorities said, in what Poland’s defence minister called an “act of terror” on the people",
       "source": "The Guardian",
-      "published": "2026-11-07T00:58:11+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/07/ben-roberts-smith-collaborates-gym-business-influencer-war-crimes-pre-workout-supplement-ntwnfb",
-      "importance": 2.281
+      "published": "2026-11-08T06:06:46+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
+      "importance": 1.998
     },
     {
-      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
-      "summary": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more",
+      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+      "summary": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd.",
       "source": "The Guardian",
-      "published": "2026-11-06T12:48:37+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-      "importance": 2.113
+      "published": "2026-11-08T06:00:33+00:00",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+      "importance": 1.996
+    },
+    {
+      "title": "Environmentalists criticise choice of Earthshot prize venue owned by fossil fuel firm",
+      "summary": "Mumbai facility is part of Reliance Industries, owner of world’s biggest oil refinery and funder of controversial mega-zoo The Prince of Wales’s Earthshot prize will host its forthcoming annual awards ceremony at a venue owned by the billionaire Ambani family conglomerate, drawing criticism from",
+      "source": "The Guardian",
+      "published": "2026-11-08T06:00:33+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/08/earthshot-prize-venue-criticism-fossil-fuel-firm-reliance-industries-india-mumbai",
+      "importance": 1.996
+    },
+    {
+      "title": "Does Andy Burnham’s pivot from press to social media put scrutiny at risk?",
+      "summary": "A lifestyle podcast or brief TV clip is less taxing than a full press conference – but No 10 insists the PM is not ducking accountability In an interview this week Andy Burnham said he believed the traditional media was less relevant and the world was “not like that any more”. But some people are now asking",
+      "source": "The Guardian",
+      "published": "2026-11-08T06:00:32+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/08/andy-burnham-social-media-traditional-media-scrutiny-at-risk",
+      "importance": 1.996
     },
     {
       "title": "US rockets firm eyes up mothballed Highland spaceport",
@@ -121,7 +145,87 @@
       "source": "BBC Science",
       "published": "2026-11-06T12:47:23+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.112
+      "importance": 1.974
+    },
+    {
+      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "summary": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more",
+      "source": "The Guardian",
+      "published": "2026-11-06T12:48:37+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+      "importance": 1.974
+    },
+    {
+      "title": "Houthis say at least 33 killed in Saudi air strike",
+      "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+      "source": "BBC World",
+      "published": "2026-11-08T04:03:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.969
+    },
+    {
+      "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
+      "summary": "Activists fear Bangkok will give in to pressure from Beijing despite reports of torture and human rights abuses against the mostly muslim ethnic minority The deportation of two more Uyghurs to China from Thailand would put their lives in grave danger, activists have said, with one of the men saying he would",
+      "source": "The Guardian",
+      "published": "2026-11-08T03:00:28+00:00",
+      "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
+      "importance": 1.955
+    },
+    {
+      "title": "Cold blast brings springtime snow to alpine regions as temperatures plummet across Australia’s south-east",
+      "summary": "Thredbo, Perisher and Mount Hotham all recorded falls, along with Kunanyi/Mount Wellington in Tasmania Get our breaking news email , free app or daily news podcast Snow has fallen across parts of NSW, Victoria and Tasmania as an unseasonal cold blast whips through Australia’s south-east. Thredbo, Perisher",
+      "source": "The Guardian",
+      "published": "2026-11-08T02:34:19+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/08/australia-weather-cold-blast-springtime-snow-thredbo-perisher-hotham-victoria-tasmania-el-nino",
+      "importance": 1.949
+    },
+    {
+      "title": "What we know so far after Krakow gun attack",
+      "summary": "Six people were killed in a random shooting in the city's main square, and three bodies were later found at the home of the attacker.",
+      "source": "BBC World",
+      "published": "2026-11-08T01:47:41+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.938
+    },
+    {
+      "title": "Can the Zelda remake capture the magic of the original?",
+      "summary": "Nintendo has released its remake of what is considered one of the best games ever made - the BBC's Tom Gerken gives his verdict.",
+      "source": "BBC Technology",
+      "published": "2026-11-08T00:37:45+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.922
+    },
+    {
+      "title": "Victoria Barracks in Sydney and Melbourne to remain in public hands after partial backtrack on defence property selloff",
+      "summary": "Four heritage-listed defence properties to be preserved for community use after backlash from veterans and former PMs Get our daily political email , free app or daily news podcast Richard Marles has denied claims Australia’s defence will be undermined by its decision to repurpose a historical military base",
+      "source": "The Guardian",
+      "published": "2026-11-08T00:17:28+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/08/victoria-barracks-sydney-and-melbourne-remain-in-public-hands-backtrack-defence-property-sale-albanese-marles",
+      "importance": 1.917
+    },
+    {
+      "title": "Labubu hype seemed unstoppable, now the fluffy monster mania is dying",
+      "summary": "Parent company Pop Mart's revenue has fallen as appetite for the quirky collectible monsters wanes.",
+      "source": "BBC Business",
+      "published": "2026-11-07T23:02:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg652l927lo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.899
+    },
+    {
+      "title": "Kraków shooting latest updates: six killed and more than a dozen injured – as it happened",
+      "summary": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the horrific mass shooting in Kraków, a savage and murderous attack that’s shattered the peace of",
+      "source": "The Guardian",
+      "published": "2026-11-07T22:32:41+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
+      "importance": 1.893
+    },
+    {
+      "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+      "summary": "Neither PM Benjamin Netanyahu's bloc nor that of his rival secured a majority in last week's election.",
+      "source": "BBC World",
+      "published": "2026-11-07T22:19:59+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.89
     },
     {
       "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
@@ -129,23 +233,15 @@
       "source": "The Guardian",
       "published": "2026-11-06T06:16:22+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
-      "importance": 2.022
+      "importance": 1.883
     },
     {
-      "title": "What we know so far after Polish gunman opens fire in Krakow main square",
-      "summary": "At least six people were killed by a gunman in military fatigues who opened fire in Poland's second largest city.",
-      "source": "BBC World",
-      "published": "2026-11-07T20:08:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.998
-    },
-    {
-      "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
-      "summary": "Polish Prime Minister Donald Tusk heads to the city after four women and two men are killed and more than a dozen people injured Tom Rose, the US ambassador to Poland, wrote on X: We are just learning details of the horrific mass shooting in Kraków, a savage and murderous attack that’s shattered the peace of",
-      "source": "The Guardian",
-      "published": "2026-11-07T20:07:50+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
-      "importance": 1.998
+      "title": "Ipswich Town's new club shop 'here to stay'",
+      "summary": "Fans and players are delighted at the new \"activation space\" in the town centre.",
+      "source": "BBC Business",
+      "published": "2026-11-07T21:40:32+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cxnv0455zq5jo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.88
     },
     {
       "title": "Richard Lloyd, founding member and guitarist of punk band Television, dies aged 75",
@@ -153,7 +249,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T20:06:25+00:00",
       "url": "https://www.theguardian.com/music/2026/nov/07/richard-lloyd-punk-band-television-dies-aged-75",
-      "importance": 1.997
+      "importance": 1.859
     },
     {
       "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
@@ -161,15 +257,15 @@
       "source": "The Guardian",
       "published": "2026-11-07T20:03:23+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
-      "importance": 1.997
+      "importance": 1.858
     },
     {
       "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
-      "summary": "Knesset has been deadlocked since election last month when Benjamin Netanyahu’s coalition lost its majority Israel’s president has ⁠chosen Gadi Eisenkot, prime minister Benjamin Netanyahu’s ⁠strongest rival, to ⁠try to ​form a new government, following a deadlocked election that left neither man ⁠with a",
+      "summary": "Knesset has been deadlocked since the election last month when Benjamin Netanyahu’s coalition lost its majority Israel’s president has ⁠chosen Gadi Eisenkot, prime minister Benjamin Netanyahu’s ⁠strongest rival, to ⁠try to ​form a new government, after a deadlocked election that left neither man ⁠with a",
       "source": "The Guardian",
       "published": "2026-11-07T19:49:39+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
-      "importance": 1.993
+      "importance": 1.855
     },
     {
       "title": "Paraguay's former president charged after bank collapse",
@@ -177,7 +273,7 @@
       "source": "BBC World",
       "published": "2026-11-07T19:17:22+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.986
+      "importance": 1.847
     },
     {
       "title": "A Big Build royal commission helped Ben Carroll become premier. Will it be his downfall?",
@@ -185,7 +281,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T19:00:19+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/08/big-build-royal-commission-victorian-election-ben-carroll-labor-ntwnfb",
-      "importance": 1.982
+      "importance": 1.843
     },
     {
       "title": "Gaza wedding festival sees 250 couples married at the same time",
@@ -193,23 +289,7 @@
       "source": "BBC World",
       "published": "2026-11-07T17:58:41+00:00",
       "url": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.968
-    },
-    {
-      "title": "Six dead after gunman opens fire ‘at random’ in Kraków market square",
-      "summary": "Poland’s interior minister says there were indications the gunman was “fascinated by far-right ideology” Kraków shooting – latest updates Six people have been killed and 16 injured after a shooting in a market square in Kraków, Poland. A man who had driven into the square at about 3pm began “firing at random",
-      "source": "The Guardian",
-      "published": "2026-11-07T17:17:23+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-      "importance": 1.958
-    },
-    {
-      "title": "Houthis say at least 25 killed in Saudi air strike",
-      "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-      "source": "BBC World",
-      "published": "2026-11-07T17:09:24+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.956
+      "importance": 1.829
     },
     {
       "title": "Rise in NHS birth centre closures ‘shocking’ denial of women’s rights, experts say",
@@ -217,7 +297,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T17:00:16+00:00",
       "url": "https://www.theguardian.com/society/2026/nov/07/nhs-birth-centre-maternity-unit-closures-england-womens-rights",
-      "importance": 1.954
+      "importance": 1.816
     },
     {
       "title": "Italian foreign minister says hackers leaked his personal data",
@@ -225,7 +305,7 @@
       "source": "BBC World",
       "published": "2026-11-07T16:50:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.952
+      "importance": 1.813
     },
     {
       "title": "Three teenagers arrested after 17-year-old injured in Gloucester sword attack",
@@ -233,7 +313,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T16:41:07+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
-      "importance": 1.95
+      "importance": 1.811
     },
     {
       "title": "Stephen Miller, Trump’s incoming chief of staff, pledges ‘total devotion’ to the president",
@@ -241,7 +321,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T15:15:11+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-trump-loyalty",
-      "importance": 1.93
+      "importance": 1.791
     },
     {
       "title": "National Trust votes to seek banking partner more in tune with its environmental policies",
@@ -249,7 +329,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T15:06:59+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/07/national-trust-agm-barclays-environment-policies",
-      "importance": 1.928
+      "importance": 1.789
     },
     {
       "title": "Vetting candidates is a tricky process but Reform can’t seem to get it right",
@@ -257,15 +337,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T15:00:14+00:00",
       "url": "https://www.theguardian.com/politics/2026/nov/07/reform-nigel-farage-vetting-candidates-struggle",
-      "importance": 1.926
-    },
-    {
-      "title": "‘Life-changing’: parents welcome £10m UK play centre for disabled children",
-      "summary": "Gympanzees near Bristol will be the first UK site of its type, catering for children unable to use regular playgrounds It has been over a decade since Stephanie Wheen set out to create the UK’s first play and leisure centre specifically designed for disabled children. Over the past 10 years, she and her team",
-      "source": "The Guardian",
-      "published": "2026-11-07T15:00:13+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/life-changing-parents-welcome-10m-uk-play-centre-for-disabled-children",
-      "importance": 1.926
+      "importance": 1.788
     },
     {
       "title": "LA’s newer, bluer wave: Nithya Raman leads way as city’s progressives make their mark",
@@ -273,7 +345,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T15:00:14+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/07/los-angeles-mayor-nithya-raman-progressives-dsa",
-      "importance": 1.926
+      "importance": 1.788
     },
     {
       "title": "Court rules against Home Office in asylum seeker kidnapping case",
@@ -281,7 +353,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:00:11+00:00",
       "url": "https://www.theguardian.com/law/2026/nov/07/court-of-appeal-rules-kidnap-for-ransom-libya-exploitation-trafficking-victims-asylum-seeker-home-office",
-      "importance": 1.899
+      "importance": 1.76
     },
     {
       "title": "Trump’s elevation of Stephen Miller a middle finger to millions of voters",
@@ -289,7 +361,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:00:12+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/07/trump-stephen-miller-midterms",
-      "importance": 1.899
+      "importance": 1.76
     },
     {
       "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
@@ -297,7 +369,7 @@
       "source": "BBC World",
       "published": "2026-11-07T12:49:36+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
-      "importance": 1.896
+      "importance": 1.758
     },
     {
       "title": "BBC Inside Science",
@@ -305,7 +377,7 @@
       "source": "BBC Science",
       "published": "2026-11-05T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
-      "importance": 1.893
+      "importance": 1.754
     },
     {
       "title": "Four things we learned this week about 2028 White House race",
@@ -313,15 +385,7 @@
       "source": "BBC World",
       "published": "2026-11-07T12:23:28+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.89
-    },
-    {
-      "title": "Home Office sued after stripping almost 1,500 EU citizens of right to live in UK",
-      "summary": "Campaign group the3million lodges court papers after EU citizens told pre-settled status was an ‘error’ The Home Office is being sued for alleged breach of the Brexit withdrawal agreement after stripping almost 1,500 EU citizens of their full rights to live in the UK. Campaign group the3million lodged papers",
-      "source": "The Guardian",
-      "published": "2026-11-07T09:15:35+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled",
-      "importance": 1.847
+      "importance": 1.752
     },
     {
       "title": "Texas mayor instructs police to limit co-operation with ICE",
@@ -329,7 +393,7 @@
       "source": "BBC World",
       "published": "2026-11-07T08:15:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.833
+      "importance": 1.694
     },
     {
       "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
@@ -337,71 +401,7 @@
       "source": "BBC World",
       "published": "2026-11-07T07:27:44+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.822
-    },
-    {
-      "title": "New Forest wildfire restoration work begins",
-      "summary": "Work begins to restore nature to part of the New Forest destroyed by a summer wildfire.",
-      "source": "BBC Science",
-      "published": "2026-11-07T07:14:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw98zzn7z04vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.819
-    },
-    {
-      "title": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
-      "summary": "Trump still considering new assault on Iran nuclear sites – though threats less credible after Vance remarks Qatar, the lead mediator in the US-Iran conflict, is seeking to persuade Tehran to allow UN nuclear weapons inspectors to visit Iran’s bombed nuclear sites, including those housing the country’s",
-      "source": "The Guardian",
-      "published": "2026-11-07T07:00:04+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
-      "importance": 1.815
-    },
-    {
-      "title": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
-      "summary": "Democrats’ sweep could urge Israel’s divided opposition to join forces and remove prime minister closely allied with Trump The Democrats’ sweep of Congress may make it easier for Israel’s splintered opposition to overcome deep internal divisions and form a coalition government, by increasing the urgency of",
-      "source": "The Guardian",
-      "published": "2026-11-07T06:00:04+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu",
-      "importance": 1.801
-    },
-    {
-      "title": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
-      "summary": "The president’s announcement comes days after an earlier attack on Iran was made public, and as diplomatic efforts to end the conflict have accelerated Donald Trump has said the US military on Friday carried out a new round of limited strikes on Iran, targeting an air defence system, describing the action as",
-      "source": "The Guardian",
-      "published": "2026-11-07T03:07:01+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/us-carries-out-another-round-of-minor-strikes-on-iran-trump-says",
-      "importance": 1.761
-    },
-    {
-      "title": "Welsh aviation firm AerFin bought in £475m deal",
-      "summary": "The company, which was majority owned by a private equity firm, said it was beginning a \"new chapter\".",
-      "source": "BBC Business",
-      "published": "2026-11-05T11:01:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq203vjxnln7o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.754
-    },
-    {
-      "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
-      "summary": "The Leonid meteor shower, known for its bright and fast meteors, will kick off this weekend and continue until the end of November.",
-      "source": "BBC Science",
-      "published": "2026-11-07T02:03:28+00:00",
-      "url": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.747
-    },
-    {
-      "title": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
-      "summary": "With UK interest rates set to rise, mortgages, credit cards and loans could get more expensive for millions.",
-      "source": "BBC Business",
-      "published": "2026-11-07T01:41:36+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.741
-    },
-    {
-      "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
-      "summary": "Jehovah's Witness leaders relaxed strict rules on blood transfusions, but the change came 23 days too late for Isaac Valdez.",
-      "source": "BBC World",
-      "published": "2026-11-07T01:27:47+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cx5ynly549njo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.738
+      "importance": 1.683
     }
   ]
 }
