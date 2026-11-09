@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-09T06:49:48.022315+00:00",
+  "generated_at": "2026-11-09T18:54:32.718688+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,31 +9,79 @@
       "source": "The Guardian",
       "published": "2026-11-08T07:00:34+00:00",
       "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-      "importance": 3.319
+      "importance": 3.151
     },
     {
-      "title": "Fixing UK’s youth jobs crisis demands much more investment, TUC boss warns",
-      "summary": "Paul Nowak also calls on government to avoid arbitrary benefit cuts before much-anticipated Milburn report is published this week Fixing Britain’s youth jobs crisis will require ministers to drastically increase investment in employment support while avoiding arbitrary cuts to benefits, the head of the trade",
+      "title": "High fossil fuel prices spread inflation ‘like a cancer’, UN climate negotiator tells Cop31",
+      "summary": "Simon Stiell makes opening address at summit in Turkey, where talks are under way about speeding up shift to electrification A global fossil fuel price crisis is “spreading inflation like a cancer” around the planet, the UN’s chief climate negotiator, Simon Stiell, told the opening plenary of critical UN",
       "source": "The Guardian",
-      "published": "2026-11-09T06:00:03+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/09/uk-young-people-job-work-employment-crisis-paul-nowak-milburn-review",
-      "importance": 3.088
+      "published": "2026-11-09T17:47:04+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/09/high-fossil-fuel-prices-spread-inflation-like-cancer-cop31egotiator-tells-cop31",
+      "importance": 3.084
     },
     {
-      "title": "How climate change worsens heatwaves, droughts, wildfires and floods",
-      "summary": "Rising global temperatures mean extreme weather events are becoming more common and more intense.",
+      "title": "Scientists predict 2026 hottest year on record as climate talks begin",
+      "summary": "Scientists are predictng this could be the hottest year on record as the COP31 climate summit opens.",
       "source": "BBC Science",
-      "published": "2026-11-06T16:43:30+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cy4dgp1p3p1o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.787
+      "published": "2026-11-09T07:30:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.942
     },
     {
-      "title": "Countryside managers prepare for climate change",
-      "summary": "North Pennines National Landscape's plan includes restoring peatland and wildfire preparedness.",
-      "source": "BBC Science",
-      "published": "2026-11-08T07:16:55+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3ewe99dzdlpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.773
+      "title": "Trump attempts to cast doubt on Democrats’ midterm election victory, questioning early vote numbers and ballot machines – live",
+      "summary": "President questions result in social media post after initially suggesting he would accept Democratic landslide win Trump admits deportation policy was ‘too tough’ Sign up for US Breaking News email Democratic Congressman Hakeem Jeffries , currently the House minority leader who is poised to become new",
+      "source": "The Guardian",
+      "published": "2026-11-09T18:47:17+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
+      "importance": 2.548
+    },
+    {
+      "title": "Senate votes on bill to speed up projects from gas pipelines to clean energy",
+      "summary": "Environmentalists torn over procedural vote to boost infrastructure projects but weaken environmental laws It’s a bill that would make it easier to build big infrastructure projects in America – everything from fossil fuel pipelines to transmission lines that would add more clean energy to the grid. And it",
+      "source": "The Guardian",
+      "published": "2026-11-09T18:42:32+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
+      "importance": 2.547
+    },
+    {
+      "title": "Trump questions midterm elections integrity after previously accepting results",
+      "summary": "Trump made the claims, without evidence, on Truth Social on Monday.",
+      "source": "BBC World",
+      "published": "2026-11-09T17:47:29+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck79p9350zp9o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.534
+    },
+    {
+      "title": "Action on energy costs is my overriding aim, says Fahnbulleh",
+      "summary": "The energy secretary says reducing bills is key to maintaining public support for climate action.",
+      "source": "BBC Business",
+      "published": "2026-11-09T16:01:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmz7x7q7q8vvo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.51
+    },
+    {
+      "title": "There’s more than a whiff of politics to the sudden call to slash Labor’s green energy subsidies",
+      "summary": "EVs and home batteries are in Treasury crosshairs despite a better economic case for scaling back nuclear-powered submarines and diesel fuel rebates for miners Get our breaking news email , free app or daily news podcast As Jim Chalmers, the treasurer, comes under increasing pressure to fight inflation by",
+      "source": "The Guardian",
+      "published": "2026-11-09T14:00:12+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/10/labor-cuts-green-energy-subsidies-inflation",
+      "importance": 2.482
+    },
+    {
+      "title": "Deadly floods hit Iraq as thunderstorms sweep across region",
+      "summary": "Violent storms lash northern Iraq and parts of Iran, while Portugal faces strong winds and Japan braces for further snowfall Deadly flash floods hit northern Iraq on Saturday as severe thunderstorms swept across the region, including in neighbouring Iran. The city of Erbil, in Iraq, was particularly badly",
+      "source": "The Guardian",
+      "published": "2026-11-09T10:59:06+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/09/deadly-floods-iraq-thunderstorms-iran-portugal-japan-snow",
+      "importance": 2.44
+    },
+    {
+      "title": "Four killed in Gaza after sand embankment collapses onto tents, health ministry says",
+      "summary": "Three children are among those killed in the incident that came a day after heavy rain reportedly flooded tens of thousands of tents across Gaza.",
+      "source": "BBC World",
+      "published": "2026-11-09T10:41:57+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqd090ee8px5o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.436
     },
     {
       "title": "Victorian election 2026: Concern and scepticism among Labor MPs as new poll shows party trailing One Nation",
@@ -41,31 +89,183 @@
       "source": "The Guardian",
       "published": "2026-11-09T04:55:15+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/09/victoria-election-2026-labor-mps-new-opinion-poll-one-nation-ntwnfb",
-      "importance": 2.523
+      "importance": 2.356
     },
     {
-      "title": "Teaching GCSE topics younger risks turning schools into ‘early exam factories’, Powell warns",
-      "summary": "Lucy Powell says proposals to end widespread practice will be included in overhaul of England’s national curriculum Pushing GCSE subjects on younger pupils risks turning England’s secondary schools into “early exam factories”, the education secretary has said, warning that it is increasing disengagement from",
+      "title": "How a civil servant got away with juggling five jobs for so long",
+      "summary": "Kashim Chowdhury has been convicted of fraud after pocketing £284,000 of taxpayers' money over three years.",
+      "source": "BBC Business",
+      "published": "2026-11-09T18:40:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw1m4d8vjvppo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.997
+    },
+    {
+      "title": "Witnesses recount struggle to save people buried in ‘horrifying’ Gaza landslide",
+      "summary": "High winds and heavy train triggered collapse of sand bank overlooking camp for displaced families Witnesses have described the frantic struggle to save three members of a family buried by a landslide triggered by high winds and heavy rain in Gaza. A sand bank overlooking a camp for displaced families south",
       "source": "The Guardian",
-      "published": "2026-11-09T00:01:05+00:00",
-      "url": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
-      "importance": 2.455
+      "published": "2026-11-09T18:27:51+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/witnesses-struggle-save-people-buried-gaza-landslide",
+      "importance": 1.994
     },
     {
-      "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
-      "summary": "Culture secretary pushes back against talk of revisiting Brexit but says closer ties would fulfil referendum promises One of Andy Burnham’s cabinet ministers has said she wants to avoid “circular arguments” about whether the UK should rejoin the EU, underlining divisions at the top of government over",
+      "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+      "summary": "The effort will likely fail, but Representative Thomas Massie wants to push Trump to fire Hegseth before Democrats can launch their own impeachment process.",
+      "source": "BBC World",
+      "published": "2026-11-09T18:19:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.992
+    },
+    {
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+      "source": "BBC World",
+      "published": "2026-11-09T18:11:11+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.99
+    },
+    {
+      "title": "Russia's leading independent newspaper closes after eviction",
+      "summary": "The outlet has been evicted from its offices of three decades and says it's been blocked from receiving donations.",
+      "source": "BBC World",
+      "published": "2026-11-09T18:08:07+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cvrlylj9r11go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Turkey steel factory blast kills at least 16 people",
+      "summary": "Eyewitnesses say the explosion shook the ground, with one believing an earthquake had hit near the Habas Demir Celik plant in Aliaga.",
+      "source": "BBC World",
+      "published": "2026-11-09T18:04:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.988
+    },
+    {
+      "title": "Russell Brand sentenced to more than 10 years in prison for rape and sexual assault",
+      "summary": "Judge tells disgraced actor and comedian he had displayed ‘casual, arrogant disregard of any woman’s right to say no’ Russell Brand sentencing – live updates Russell Brand was sentenced to more than 10 years in prison on Monday after a judge praised his victims’ bravery and accused him of living “unhindered",
       "source": "The Guardian",
-      "published": "2026-11-08T18:20:06+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu",
-      "importance": 2.376
+      "published": "2026-11-09T18:03:34+00:00",
+      "url": "https://www.theguardian.com/news/2026/nov/09/russell-brand-sentenced-rape-sexual-assault",
+      "importance": 1.988
     },
     {
-      "title": "A really simple guide to climate change",
-      "summary": "Human activities are causing the world to heat up, posing serious threats to people and nature.",
-      "source": "BBC Science",
-      "published": "2026-11-06T16:40:51+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9w15nggj58o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.237
+      "title": "Mahmood’s ICE-style immigration raid agency accused of ‘fishing expeditions’",
+      "summary": "Exclusive: Almost two-thirds of visits lead to no arrests and nearly three-quarters are conducted without a warrant Shabana Mahmood’s ICE-style raid agency has been accused of engaging in “fishing expeditions” after figures disclosed that almost two-thirds of enforcement visits result in no arrests and",
+      "source": "The Guardian",
+      "published": "2026-11-09T18:00:15+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/09/shabana-mahmood-ice-style-immigration-raid-agency-accused-fishing-expeditions",
+      "importance": 1.987
+    },
+    {
+      "title": "Revealed: Palantir lobbied minister to stretch AI tools’ reach to NHS GP records",
+      "summary": "Exclusive: WhatsApp messages show firm pressuring Zubir Ahmed MP to help bring sensitive data into its platform UK politics live – latest updates Palantir lobbied a health minister to consider extending its AI technology into GP records, stretching its reach into the NHS in a way doctors fear could undermine",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:58:05+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
+      "importance": 1.987
+    },
+    {
+      "title": "Reform UK councillor in Sunderland handed community order after racist ‘joke’ about Nigerians",
+      "summary": "Glenn Gibbins sentenced to 150 hours of unpaid work by South Tyneside magistrates over 2024 Facebook post A Reform party councillor who claimed racist comments about Nigerians were no more than a “bit of fun” has been handed a community order for posting grossly offensive material. Glenn Gibbins, who was",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:57:50+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/09/reform-uk-councillor-sunderland-community-order",
+      "importance": 1.987
+    },
+    {
+      "title": "Iran was behind cyber-attack on French supermarket freezers, Paris says",
+      "summary": "French foreign minister vows European sanctions against Tehran over ‘unprecedented’ hacks last month France has said Iran was responsible for a massive cyber-attack on supermarket freezers and chiller cabinets that was described by its foreign minister as being an act of “unprecedented scale and",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:54:40+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges",
+      "importance": 1.986
+    },
+    {
+      "title": "Air pollution soars as fog traps emissions in England’s urban areas",
+      "summary": "Particles from fireworks and bonfires likely to have contributed to levels well above WHO’s daily guideline Air pollution soared to “very high” levels across urban parts of England on Monday as still, foggy weather kept emissions trapped after a weekend of fireworks and bonfires. Government monitoring showed",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:50:28+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/09/air-pollution-soars-fog-traps-emissions-england-urban-areas",
+      "importance": 1.985
+    },
+    {
+      "title": "Donnie Dunagan, original voice of Disney’s Bambi and triple Purple Heart marine, dies aged 92",
+      "summary": "Dunagan was six when he voiced the young deer in the classic cartoon, with an assistant director instructing him to pretend his own mother had died Donnie Dunagan, who voiced Bambi in the Walt Disney classic, as well as playing the son of Frankenstein opposite Basil Rathbone and Boris Karloff, has died aged",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:48:31+00:00",
+      "url": "https://www.theguardian.com/film/2026/nov/09/donnie-dunagan-bambi-voice-triple-purple-heart-marine-dies",
+      "importance": 1.985
+    },
+    {
+      "title": "‘I know what it’s like to fight’- France’s most popular sportsman says he’s running for president",
+      "summary": "Five-times Olympic judo champion Teddy Riner says he is neither leftwing nor rightwing but would seek to ‘bring people together’ The French judo star and five-times Olympic gold medallist Teddy Riner has announced plans to run in next year’s presidential election, describing himself as someone neither",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:42:51+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/judo-star-teddy-riner-plan-france-presidential-election",
+      "importance": 1.983
+    },
+    {
+      "title": "Only known handwritten final draft of MLK Jr’s I Have A Dream speech to be auctioned",
+      "summary": "The document is expected to fetch more than $10m and the proceeds will be donated to several charities The likely only surviving handwritten final full draft of Martin Luther King Jr’s historic 1963 I Have a Dream speech is set to be auctioned in New York City in January, with proceeds benefiting several",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:13:27+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/mlk-dream-speech-auction",
+      "importance": 1.977
+    },
+    {
+      "title": "Civil servant who secretly held five jobs found guilty of fraud",
+      "summary": "Kashim Chowdhury had secretly held multiple public sector jobs on full-time salaries.",
+      "source": "BBC Business",
+      "published": "2026-11-09T17:17:16+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm70pgnx891do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.977
+    },
+    {
+      "title": "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+      "summary": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
+      "source": "BBC World",
+      "published": "2026-11-09T17:06:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm93z3lp5lnpo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.975
+    },
+    {
+      "title": "Labour’s Brexit red lines ready for ‘dignified retirement’, says their co-author",
+      "summary": "Exclusive: MP Chris Ward believes ditching pledges and forming closer ties with EU would protect it from global threats One of the architects of Keir Stamer’s Brexit red lines has called for Andy Burnham to abandon them at the next election, saying a new relationship with the EU would protect the UK from",
+      "source": "The Guardian",
+      "published": "2026-11-09T17:00:14+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/09/labour-mp-brexit-red-lines-dignified-retirement",
+      "importance": 1.974
+    },
+    {
+      "title": "Watch: Rare insight into France's drug gangs recruiting children to commit violence",
+      "summary": "\"It destroys people, but we all make our own choices\" - Marseille drug-gang members spoke to the BBC.",
+      "source": "BBC World",
+      "published": "2026-11-09T16:59:46+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cwe9l98l5n2po?at_medium=RSS&at_campaign=rss",
+      "importance": 1.973
+    },
+    {
+      "title": "France accuses Iran of supermarket fridge hacking",
+      "summary": "The cyber-attack last month saw fridges and freezers in hundreds of supermarkets across France heated up.",
+      "source": "BBC World",
+      "published": "2026-11-09T16:55:07+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.972
+    },
+    {
+      "title": "Poundland unable to buy new stock as fears over collapse grow",
+      "summary": "The discount chain is continuing to edge towards collapse and is said to be \"running on fumes\", according to one insider.",
+      "source": "BBC Business",
+      "published": "2026-11-09T16:46:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw1l3lmem165o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.97
+    },
+    {
+      "title": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+      "summary": "Elon Musk and other finance moguls defend Jensen Huang after he admitted to the affair in an email to employees Nvidia’s board needs to do some succession planning – sharpish Donald Trump, Elon Musk and prominent finance moguls have expressed their support for embattled Nvidia CEO Jensen Huang, as the head",
+      "source": "The Guardian",
+      "published": "2026-11-09T16:42:35+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
+      "importance": 1.969
     },
     {
       "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
@@ -73,47 +273,127 @@
       "source": "The Guardian",
       "published": "2026-11-08T01:00:48+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-      "importance": 2.136
+      "importance": 1.968
     },
     {
-      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
-      "summary": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
+      "title": "At least 39 die after Europe-bound migrant boat sinks off Senegal",
+      "summary": "The Atlantic crossing to Spain's Canary Islands remains dangerous for migrants seeking a better life",
       "source": "BBC World",
-      "published": "2026-11-07T21:36:16+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.089
+      "published": "2026-11-09T16:33:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.967
     },
     {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "summary": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
-      "source": "BBC World",
-      "published": "2026-11-07T18:14:38+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.042
+      "title": "Polish prosecutors say ‘too early’ to tell if Kraków gunman was motivated by political ideology",
+      "summary": "Terrorism investigation will continue after suspect who killed six after opening fire in market square died Polish prosecutors have said they do not currently have any evidence tying the man who killed six people and injured 16 in a rare mass shooting in Kraków to any particularly political ideology. The",
+      "source": "The Guardian",
+      "published": "2026-11-09T15:52:26+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
+      "importance": 1.958
     },
     {
-      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
-      "summary": "The former Brexit negotiator says EU countries would reject any British attempts to follow economic rules \"a la carte\".",
+      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
       "source": "BBC World",
-      "published": "2026-11-07T15:19:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.001
+      "published": "2026-11-09T15:46:20+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.956
+    },
+    {
+      "title": "French police officers on trial over beating of black man they accused of not wearing Covid mask",
+      "summary": "Assault on Michel Zecler in 2020 is rare case of police brutality reaching court, at time of heightened tensions Three French police officers have gone on trial over the beating of a black music producer who they say was not wearing a face mask during the Covid pandemic, in a rare case of police brutality",
+      "source": "The Guardian",
+      "published": "2026-11-09T15:40:20+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/french-police-officers-face-trial-over-beating-of-black-man-not-wearing-mask-during-covid",
+      "importance": 1.955
+    },
+    {
+      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+      "summary": "Alice Huang, a Chinese businesswoman, had a close relationship with Nvidia boss Jensen Huang, reports say.",
+      "source": "BBC World",
+      "published": "2026-11-09T14:50:35+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.944
+    },
+    {
+      "title": "Birds return to waterfowl park after oil vandalism",
+      "summary": "The vandalism of a nearby home heating oil tank resulted in the death of 13 birds from the park.",
+      "source": "BBC Science",
+      "published": "2026-11-09T14:52:07+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6gqwq1x85e0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.944
+    },
+    {
+      "title": "‘Exceedingly heavy-handed’: ACT police criticised by magistrate for Tasering disabled Aboriginal woman",
+      "summary": "Exclusive: Body-worn camera footage shows woman pulled off bench and a Taser activated despite ‘putting up no resistance’, magistrate says Get our breaking news email , free app or daily news podcast A magistrate has criticised “exceedingly heavy-handed” ACT police officers who Tasered an Aboriginal woman",
+      "source": "The Guardian",
+      "published": "2026-11-09T14:00:13+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/10/exceedingly-heavy-handed-act-police-officers-criticised-by-magistrate-for-taser-arrest-of-disabled-aboriginal-woman-ntwnfb",
+      "importance": 1.932
+    },
+    {
+      "title": "Thirteen migrants die after boat sinks off Crete",
+      "summary": "The Greek coastguard says it has rescued 18 people, all of whom were Sudanese nationals.",
+      "source": "BBC World",
+      "published": "2026-11-09T13:50:01+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c65ynyxrjdyeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.93
+    },
+    {
+      "title": "Rising cost of living tests UK's net zero ambitions",
+      "summary": "From floods to wildfires to heatwaves, 2026 is the year it became hard to ignore the impact of climate change on UK weather. But will soaring living costs affect the government’s commitment to tackling climate change?",
+      "source": "BBC Science",
+      "published": "2026-11-09T13:42:03+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cm1dwd4e4ywvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.928
+    },
+    {
+      "title": "How yesterday's waste is becoming tomorrow's fashion",
+      "summary": "Brands including Dr Martens, Nike and Coach are among those using recycled materials.",
+      "source": "BBC Science",
+      "published": "2026-11-09T13:18:38+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss",
+      "importance": 1.922
+    },
+    {
+      "title": "Government's EV targets expected to be reduced this week",
+      "summary": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
+      "source": "BBC Business",
+      "published": "2026-11-09T12:06:22+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.906
     },
     {
       "title": "Krakow shooting suspect has died in hospital, police say",
-      "summary": "At least six people were killed in the shooting and a dozen more were injured.",
+      "summary": "Six people were killed in the shooting, and three bodies of the suspect's family members were found at their home.",
       "source": "BBC World",
-      "published": "2026-11-09T06:39:25+00:00",
+      "published": "2026-11-09T11:56:25+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.998
+      "importance": 1.903
     },
     {
-      "title": "Kraków shooting suspect who killed six has died, say police in Poland",
-      "summary": "Terrorism investigation was opened after a 24-year-old opened fire in a market square on the weekend A gunman suspected of killing six people in Kraków has died in hospital, police in Poland said early on Monday. The suspect had been wounded in a shootout with police and had been in critical condition in",
-      "source": "The Guardian",
-      "published": "2026-11-09T06:32:55+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
-      "importance": 1.996
+      "title": "Trump says he was 'kidding' about Dana White press secretary offer",
+      "summary": "The president told the Ultimate Fighting Championship boss to \"please take the job\" in a Truth Social post on Saturday.",
+      "source": "BBC World",
+      "published": "2026-11-09T08:49:17+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.86
+    },
+    {
+      "title": "Is it the end of free school milk?",
+      "summary": "Free school milk has been provided to children in Wales since the 1970s, but that could now change.",
+      "source": "BBC Business",
+      "published": "2026-11-09T08:12:30+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c65ynnx2e7kko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.851
+    },
+    {
+      "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
+      "summary": "Adoration for the US tech giant’s CEO Jensen Huang has been labelled “Jensanity”, but can his reputation survive the news of his affair?",
+      "source": "BBC World",
+      "published": "2026-11-09T07:10:11+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.837
     },
     {
       "title": "Print commissioned by Nasa uncovered for exhibition",
@@ -121,287 +401,7 @@
       "source": "BBC Science",
       "published": "2026-11-09T06:18:19+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw98zm084dr3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.993
-    },
-    {
-      "title": "How you can get council's £250 cost of living help",
-      "summary": "Applications for household grants of up to £250 are opening to some Surrey residents.",
-      "source": "BBC Business",
-      "published": "2026-11-09T06:11:28+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmd6dd3652zvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.991
-    },
-    {
-      "title": "Indoor soft play centres struggling to stay open",
-      "summary": "Jessica Harvey from Whitchurch said there were some days in the summer that no-one visited her centre.",
-      "source": "BBC Business",
-      "published": "2026-11-09T06:10:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g11exqqwvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.991
-    },
-    {
-      "title": "How yesterday's waste is becoming tomorrow's fashion",
-      "summary": "Brands including Dr Martens, Nike and Coach are among those using recycled materials.",
-      "source": "BBC Science",
-      "published": "2026-11-09T06:05:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss",
-      "importance": 1.99
-    },
-    {
-      "title": "Inside the French drug gangs recruiting children to kill",
-      "summary": "The BBC enters Marseille's dangerous underworld, where young people are trapped, brutalised and exploited.",
-      "source": "BBC World",
-      "published": "2026-11-09T06:00:26+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
-    },
-    {
-      "title": "Jensen Huang: Silicon Valley superstar engulfed by personal scandal",
-      "summary": "Once lauded as the \"Taylor Swift of tech\", Huang is mired in scandal after an affair with a suspected Chinese spy.",
-      "source": "BBC World",
-      "published": "2026-11-09T06:01:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
-    },
-    {
-      "title": "Charity wants bee, bird and butterfly population boost",
-      "summary": "Berkshire, Buckinghamshire and Oxfordshire Wildlife Trust aims to raise £70,000 for the project.",
-      "source": "BBC Science",
-      "published": "2026-11-09T06:00:40+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckvg77j83p0vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
-    },
-    {
-      "title": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
-      "summary": "‘It’s pretty obvious that there are all sorts of people making all sorts of comments,’ Murray Watt says after budget savings meeting Get our breaking news email , free app or daily news podcast The environment minister, Murray Watt , has urged ministers to stop undermining the treasurer, Jim Chalmers, as",
-      "source": "The Guardian",
-      "published": "2026-11-09T05:47:49+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/09/stop-undermining-treasurer-jim-chalmers-environment-minister-urges-colleagues",
-      "importance": 1.986
-    },
-    {
-      "title": "Pope delivers veiled rebuke of Milei's austerity measures",
-      "summary": "Pope Leo made the comments as he arrived in Argentina on the second leg of his Latin America tour.",
-      "source": "BBC World",
-      "published": "2026-11-09T05:30:37+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.982
-    },
-    {
-      "title": "Burnham’s homelessness pledge to ‘get everyone in for Christmas’ in jeopardy",
-      "summary": "Minister says Labour hoping to offer bed to every rough sleeper in England but cites chronic housing shortage Andy Burnham’s pledge to tackle rough sleeping by getting “everyone in for Christmas” is in jeopardy amid rising numbers of people on the streets and a severe housing shortage. Official figures show",
-      "source": "The Guardian",
-      "published": "2026-11-09T05:01:01+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/09/burnham-homelessness-pledge-rough-sleeping-england",
-      "importance": 1.975
-    },
-    {
-      "title": "Starbucks plans to hire 7,500 staff in major UK expansion plan",
-      "summary": "Coffee shop chain targets growth north of London with extra 500 outlets in big boost for youth employment Starbucks has set out plans to hire 7,500 new baristas over the next five years, in a boost to youth employment as the chain pins hopes for future growth on the north of the country. The US coffee shop",
-      "source": "The Guardian",
-      "published": "2026-11-09T05:01:00+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/09/starbucks-hire-7500-staff-uk-expansion-plan",
-      "importance": 1.975
-    },
-    {
-      "title": "Government's EV targets expected to be reduced this week",
-      "summary": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
-      "source": "BBC Business",
-      "published": "2026-11-09T05:00:43+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.975
-    },
-    {
-      "title": "New Zealand election coalition talks will likely take weeks – as it happened",
-      "summary": "This blog is closed, you can read our report on the New Zealand election here Another update here with 8% of the vote counted . National on 31.2%, Labour 28.4%, the Greens 12.9%, Act 11.2%, NZ First 9.6%, Opportunity 5.7% and Te Pāti Māori 0.4%. On these numbers, we would have a right bloc coalition back in",
-      "source": "The Guardian",
-      "published": "2026-11-07T13:12:22+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
-      "importance": 1.972
-    },
-    {
-      "title": "Trump tells 60 Minutes that deportation policy was ‘too tough’",
-      "summary": "President makes unusual acknowledgement that one of the defining policies of his second administration had become a political liability Donald Trump has admitted that his deportation policy was “too tough” and has offered to strike an immigration deal with Democrats in a concession following the Republicans’",
-      "source": "The Guardian",
-      "published": "2026-11-09T03:59:31+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration",
-      "importance": 1.961
-    },
-    {
-      "title": "Man accused of HungryPanda delivery rider’s stabbing murder yells and exposes himself in Melbourne court",
-      "summary": "Roberto Urbano, 51, appears in court via video link after death of 47-year-old Feng Jianming in the CBD on Friday night Get our breaking news email , free app or daily news podcast A food delivery rider’s alleged murderer has pulled down his pants and exposed himself as he appeared in court. Roberto Urbano",
-      "source": "The Guardian",
-      "published": "2026-11-09T03:47:21+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/09/man-charged-fatal-stabbing-hungrypanda-delivery-driver-jianming-feng-melbourne-ntwnfb",
-      "importance": 1.958
-    },
-    {
-      "title": "‘Outrageous and racist’: premier responds to NSW One Nation candidate’s claim Australians are being ‘demographically replaced’",
-      "summary": "Chris Minns and race discrimination commissioner lambast comments made by Stuart Bonds, who leads party’s NSW upper house ticket Get our breaking news email , free app or daily news podcast The New South Wales premier and the Australian Human Rights Commission have criticised comments by the man who heads",
-      "source": "The Guardian",
-      "published": "2026-11-09T03:33:14+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/09/one-nation-stuart-bonds-slammed-immigration-comments-ntwnfb",
-      "importance": 1.954
-    },
-    {
-      "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-      "summary": "Two US fishermen say they spotted the man treading water around 20 miles (32km) off the Californian coast.",
-      "source": "BBC World",
-      "published": "2026-11-09T02:50:13+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck1wvrrgln13o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.945
-    },
-    {
-      "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
-      "summary": "Pontiff tells Argentina’s president the economy must benefit all on second stop of 12-day Latin America tour Pope Leo XIV has delivered a stinging critique of Argentine president Javier Milei’s harsh austerity measures, insisting growth must benefit all in a speech met with rapturous applause in Buenos",
-      "source": "The Guardian",
-      "published": "2026-11-09T02:11:25+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity",
-      "importance": 1.936
-    },
-    {
-      "title": "‘Homicidal, not suicidal’: Beau Lamarre-Condon allegedly claimed workplace bullying for sympathy, court hears",
-      "summary": "Former police officer has pleaded not guilty to murdering Baird and Luke Davies in Paddington in early 2024 Warning: This article contains graphic content Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon was “homicidal, not suicidal”, a court has heard, as prosecutors in his",
-      "source": "The Guardian",
-      "published": "2026-11-09T01:44:14+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/09/beau-lamarre-condon-trial-reenacts-shooting-jesse-baird-ntwnfb",
-      "importance": 1.929
-    },
-    {
-      "title": "Trump says he was ‘only kidding’ about making UFC’s Dana White next press secretary",
-      "summary": "President says it was ‘just a little fun’ to picture White, UFC boss and Trump’s friend, in briefing room with fighters Donald Trump said on Sunday that he “was only kidding” when he announced a day earlier that he had offered the job of White House press secretary to Dana White, the chief executive of the",
-      "source": "The Guardian",
-      "published": "2026-11-09T01:10:55+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-dana-white-press-secretary",
-      "importance": 1.922
-    },
-    {
-      "title": "A glimmer of good news for Britain's sleepy dormouse",
-      "summary": "New figures suggest hazel dormice may be recovering after decades of decline, with warmer summers boosting survival.",
-      "source": "BBC Science",
-      "published": "2026-11-09T00:56:43+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c85ynn0p5k71o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.918
-    },
-    {
-      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
-      "summary": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
-      "source": "BBC Business",
-      "published": "2026-11-09T00:50:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
-      "importance": 1.917
-    },
-    {
-      "title": "Maya Jama steps down as Love Island host after nine seasons",
-      "summary": "‘Time to throw myself into something new,’ 32-year-old presenter announces on social media while hailing her ‘unforgettable time’ on the show Maya Jama has announced she is stepping down as the host of Love Island after three years. The 32-year-old presenter of the reality TV show made the announcement on",
-      "source": "The Guardian",
-      "published": "2026-11-09T00:43:39+00:00",
-      "url": "https://www.theguardian.com/media/2026/nov/09/maya-jama-steps-down-as-love-island-host-after-nine-seasons",
-      "importance": 1.915
-    },
-    {
-      "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-      "summary": "CEO reportedly ‌had close relationship ‌with a Chinese businesswoman who passed information to ‌Beijing Nvidia said ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort”. The New York",
-      "source": "The Guardian",
-      "published": "2026-11-09T00:25:28+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-      "importance": 1.911
-    },
-    {
-      "title": "Doing these things now will help you save money at Christmas",
-      "summary": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
-      "source": "BBC Business",
-      "published": "2026-11-09T00:09:14+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.907
-    },
-    {
-      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-      "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
-      "source": "BBC World",
-      "published": "2026-11-08T23:34:18+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.899
-    },
-    {
-      "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
-      "summary": "Two doctors were eating near the Polish city's Main Market Square when a gunman began firing at random.",
-      "source": "BBC World",
-      "published": "2026-11-08T22:05:12+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.879
-    },
-    {
-      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-      "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-      "source": "BBC World",
-      "published": "2026-11-08T21:37:36+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.872
-    },
-    {
-      "title": "Two police officers hailed as heroes for confronting Kraków gunman",
-      "summary": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and detained the gunman in Kraków on Saturday have been hailed as heroes. One of them is Jakub Kulik, a former paratrooper and volunteer",
-      "source": "The Guardian",
-      "published": "2026-11-08T21:11:40+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
-      "importance": 1.866
-    },
-    {
-      "title": "‘Seismic shift’: Native American women made significant gains in US midterms",
-      "summary": "Nationwide, voters elected at least 75 Native women or non-binary candidates in Tuesday’s elections, report says The US midterm elections saw voters elect a slew of historic representatives – from the country’s first Muslim senator to the first Black female governor – but among the most significant gains",
-      "source": "The Guardian",
-      "published": "2026-11-08T21:04:49+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/native-american-women-midterm-elections",
-      "importance": 1.865
-    },
-    {
-      "title": "Cruise ship pianist rescued after nine hours treading water miles from shore",
-      "summary": "Man taken to hospital after falling off Royal Caribbean ship in Pacific Ocean, with Coast Guard investigating incident A pianist for a Royal Caribbean cruise ship is expected to survive after two Newport Beach, California , fishermen discovered him treading water in the Pacific Ocean nearly 20 miles (32km)",
-      "source": "The Guardian",
-      "published": "2026-11-08T20:13:09+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/royal-caribbean-cruise-ship-pianist-rescue",
-      "importance": 1.853
-    },
-    {
-      "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-      "summary": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
-      "source": "BBC World",
-      "published": "2026-11-08T19:58:02+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.849
-    },
-    {
-      "title": "Small plane crashes into pickup truck on busy Florida highway",
-      "summary": "No one was injured after emergency landing in Fort Myers 50 minutes after takeoff with two people onboard A small plane crashed into the rear of a pickup truck as it made an emergency landing on a busy Florida highway on Saturday but miraculously no one was injured in the dramatic incident. Video footage",
-      "source": "The Guardian",
-      "published": "2026-11-08T19:29:05+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/florida-plane-crash-truck-highway",
-      "importance": 1.842
-    },
-    {
-      "title": "Collision of two trains in Egypt kills at least seven",
-      "summary": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash occurred in al-Ayyat district in Giza province",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:51:17+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-      "importance": 1.82
-    },
-    {
-      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
-      "summary": "Former military chief says prime minister brought Israel to historic crisis and it is approaching ‘point of no return’ Israel’s former military chief Gadi Eisenkot started the tough task of forming a government on Sunday, reaching out to Benjamin Netanyahu’s allies as he said the veteran prime minister had",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:53:59+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
-      "importance": 1.82
-    },
-    {
-      "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
-      "summary": "Santiago Peña was detained minutes after he was impeached by Congress, as protesters took to the streets demanding answers after the suspension of the Ueno bank Paraguay’s rightwing president has been placed under house arrest minutes after he was impeached by Congress, amid a severe crisis that left more",
-      "source": "The Guardian",
-      "published": "2026-11-07T01:55:11+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-      "importance": 1.815
+      "importance": 1.825
     }
   ]
 }
