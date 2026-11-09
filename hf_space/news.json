@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T20:34:50.890562+00:00",
+  "generated_at": "2026-11-09T06:49:48.022315+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,39 +9,15 @@
       "source": "The Guardian",
       "published": "2026-11-08T07:00:34+00:00",
       "url": "https://www.theguardian.com/business/2026/nov/08/banana-producers-in-latin-america-want-better-pay-to-cope-with-effects-of-climate-crisis",
-      "importance": 3.462
+      "importance": 3.319
     },
     {
-      "title": "Climate always comes second: are green issues slipping down Burnham’s agenda?",
-      "summary": "Prime minister says he’s committed to meeting climate targets, but some believe his actions suggest otherwise Labour expected to cut EV targets for car industry despite MPs’ climate concerns Andy Burnham insists he is committed to the green transition, but his MPs worry that in decision after decision, he is",
+      "title": "Fixing UK’s youth jobs crisis demands much more investment, TUC boss warns",
+      "summary": "Paul Nowak also calls on government to avoid arbitrary benefit cuts before much-anticipated Milburn report is published this week Fixing Britain’s youth jobs crisis will require ministers to drastically increase investment in employment support while avoiding arbitrary cuts to benefits, the head of the trade",
       "source": "The Guardian",
-      "published": "2026-11-08T18:01:01+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/andy-burnham-uk-climate-crisis-rosebank-jackdaw",
-      "importance": 3.064
-    },
-    {
-      "title": "Cop31 must deliver climate progress that people can see is real, host says",
-      "summary": "High-stakes talks involving 190 countries begin on Monday as world grapples with El Niño supercharged by fossil fuels The Cop31 summit must produce progress, “a tangible outcome ... that people can see is real”, its host has said as scores of world leaders and representatives of close to 190 countries gather",
-      "source": "The Guardian",
-      "published": "2026-11-08T13:24:00+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/cop31-climate-summit-deliver-progress-real-host-says",
-      "importance": 3.0
-    },
-    {
-      "title": "Who’s who at Cop31: key players at the climate talks",
-      "summary": "What are the relationships and dominant interests in play, as the summit kicks off after a bitter row over its hosting? Hosting Cop was a key pledge from Australia’s prime minister, Anthony Albanese in 2021 , while in opposition, before his successful election campaign. But arcane rules meant the country had",
-      "source": "The Guardian",
-      "published": "2026-11-08T11:48:56+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/cop31-key-players-climate-talks",
-      "importance": 2.978
-    },
-    {
-      "title": "Cop31: what is at stake at the UN climate summit and what can it achieve?",
-      "summary": "Delegates from more than 190 countries are gathering in Turkey for climate talks, but the US will be absent As the planet faces unprecedented human-caused global heating, heads of government are meeting for the next fortnight for the latest round of climate talks. We ask why it matters and what is likely to",
-      "source": "The Guardian",
-      "published": "2026-11-08T11:00:38+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/cop31-what-is-at-stake-at-the-un-climate-summit-and-what-can-it-achieve",
-      "importance": 2.967
+      "published": "2026-11-09T06:00:03+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/09/uk-young-people-job-work-employment-crisis-paul-nowak-milburn-review",
+      "importance": 3.088
     },
     {
       "title": "How climate change worsens heatwaves, droughts, wildfires and floods",
@@ -49,7 +25,7 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:43:30+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cy4dgp1p3p1o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.93
+      "importance": 2.787
     },
     {
       "title": "Countryside managers prepare for climate change",
@@ -57,7 +33,23 @@
       "source": "BBC Science",
       "published": "2026-11-08T07:16:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c3ewe99dzdlpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.915
+      "importance": 2.773
+    },
+    {
+      "title": "Victorian election 2026: Concern and scepticism among Labor MPs as new poll shows party trailing One Nation",
+      "summary": "Ben Carroll refuses to be drawn on latest opinion poll that puts Labor at all-time low of just 18%, behind One Nation on 21% and the Coalition on 33% Get our daily political email , free app or daily news podcast Victorian Labor MPs are both sceptical and seriously concerned about a new poll ahead of the",
+      "source": "The Guardian",
+      "published": "2026-11-09T04:55:15+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/09/victoria-election-2026-labor-mps-new-opinion-poll-one-nation-ntwnfb",
+      "importance": 2.523
+    },
+    {
+      "title": "Teaching GCSE topics younger risks turning schools into ‘early exam factories’, Powell warns",
+      "summary": "Lucy Powell says proposals to end widespread practice will be included in overhaul of England’s national curriculum Pushing GCSE subjects on younger pupils risks turning England’s secondary schools into “early exam factories”, the education secretary has said, warning that it is increasing disengagement from",
+      "source": "The Guardian",
+      "published": "2026-11-09T00:01:05+00:00",
+      "url": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
+      "importance": 2.455
     },
     {
       "title": "Lisa Nandy wary of ‘circular arguments’ about rejoining EU",
@@ -65,39 +57,7 @@
       "source": "The Guardian",
       "published": "2026-11-08T18:20:06+00:00",
       "url": "https://www.theguardian.com/politics/2026/nov/08/lisa-nandy-wary-of-circular-arguments-about-rejoining-eu",
-      "importance": 2.519
-    },
-    {
-      "title": "Teaching GCSE topics younger risks turning schools into ‘early exam factories’, Powell warns",
-      "summary": "Lucy Powell says proposals to end widespread practice will be included in overhaul of England’s national curriculum Pushing GCSE subjects on younger pupils risks turning England’s secondary schools into “early exam factories”, the education secretary has said, warning that it is increasing disengagement from",
-      "source": "The Guardian",
-      "published": "2026-11-08T18:07:54+00:00",
-      "url": "https://www.theguardian.com/education/2026/nov/08/gcses-teaching-england-curriculum-education-secretary-lucy-powell",
-      "importance": 2.516
-    },
-    {
-      "title": "Trump set to lurch further right, claiming US took ‘giant step back’ in elections",
-      "summary": "Trump poised to double down on immigration crackdown and refuse concessions to new Democratic majority in Congress Donald Trump set the stage for his administration to lurch further to the right this weekend, claiming the US had taken a “giant step back” by widely rejecting his party. The US president’s",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:58:43+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-midterm-elections-loss-democrats-immigration",
-      "importance": 2.514
-    },
-    {
-      "title": "Beef industry quietly squashes part of its own science curriculum after ranchers protest",
-      "summary": "Lesson for teenagers included how cattle’s methane emissions contribute to climate crisis, but it was then scrapped A beef industry-funded effort to teach teenagers about cattle’s climate impact was quietly scrapped following backlash from some ranchers, who disputed the premise that cows contribute to",
-      "source": "The Guardian",
-      "published": "2026-11-08T15:00:43+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/beef-industry-climate-impact-education",
-      "importance": 2.473
-    },
-    {
-      "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
-      "summary": "Exclusive: Head of IFPI says allowing AI companies access to online content would be a ‘huge mistake’ and damage Australia’s reputation Get our breaking news email , free app or daily news podcast Australia weakening copyright protections for AI companies would be “ridiculous and dangerous”, the global peak",
-      "source": "The Guardian",
-      "published": "2026-11-08T14:00:43+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
-      "importance": 2.459
+      "importance": 2.376
     },
     {
       "title": "A really simple guide to climate change",
@@ -105,7 +65,7 @@
       "source": "BBC Science",
       "published": "2026-11-06T16:40:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9w15nggj58o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.379
+      "importance": 2.237
     },
     {
       "title": "NZ election 2026: New Zealand faces weeks of uncertainty with results ‘too close to call’",
@@ -113,7 +73,7 @@
       "source": "The Guardian",
       "published": "2026-11-08T01:00:48+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/new-zealand-election-too-close-to-call-vote-count",
-      "importance": 2.278
+      "importance": 2.136
     },
     {
       "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
@@ -121,7 +81,7 @@
       "source": "BBC World",
       "published": "2026-11-07T21:36:16+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.231
+      "importance": 2.089
     },
     {
       "title": "US offers $20m reward for information about Iran's nuclear programme",
@@ -129,7 +89,7 @@
       "source": "BBC World",
       "published": "2026-11-07T18:14:38+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.184
+      "importance": 2.042
     },
     {
       "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
@@ -137,7 +97,119 @@
       "source": "BBC World",
       "published": "2026-11-07T15:19:35+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.144
+      "importance": 2.001
+    },
+    {
+      "title": "Krakow shooting suspect has died in hospital, police say",
+      "summary": "At least six people were killed in the shooting and a dozen more were injured.",
+      "source": "BBC World",
+      "published": "2026-11-09T06:39:25+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.998
+    },
+    {
+      "title": "Kraków shooting suspect who killed six has died, say police in Poland",
+      "summary": "Terrorism investigation was opened after a 24-year-old opened fire in a market square on the weekend A gunman suspected of killing six people in Kraków has died in hospital, police in Poland said early on Monday. The suspect had been wounded in a shootout with police and had been in critical condition in",
+      "source": "The Guardian",
+      "published": "2026-11-09T06:32:55+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
+      "importance": 1.996
+    },
+    {
+      "title": "Print commissioned by Nasa uncovered for exhibition",
+      "summary": "The Pop Art at Cartwright Hall exhibition tells the story of the British International Print Biennale.",
+      "source": "BBC Science",
+      "published": "2026-11-09T06:18:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw98zm084dr3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.993
+    },
+    {
+      "title": "How you can get council's £250 cost of living help",
+      "summary": "Applications for household grants of up to £250 are opening to some Surrey residents.",
+      "source": "BBC Business",
+      "published": "2026-11-09T06:11:28+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dd3652zvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.991
+    },
+    {
+      "title": "Indoor soft play centres struggling to stay open",
+      "summary": "Jessica Harvey from Whitchurch said there were some days in the summer that no-one visited her centre.",
+      "source": "BBC Business",
+      "published": "2026-11-09T06:10:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g11exqqwvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.991
+    },
+    {
+      "title": "How yesterday's waste is becoming tomorrow's fashion",
+      "summary": "Brands including Dr Martens, Nike and Coach are among those using recycled materials.",
+      "source": "BBC Science",
+      "published": "2026-11-09T06:05:15+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yd1q12g1no?at_medium=RSS&at_campaign=rss",
+      "importance": 1.99
+    },
+    {
+      "title": "Inside the French drug gangs recruiting children to kill",
+      "summary": "The BBC enters Marseille's dangerous underworld, where young people are trapped, brutalised and exploited.",
+      "source": "BBC World",
+      "published": "2026-11-09T06:00:26+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq62y01r2313o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Jensen Huang: Silicon Valley superstar engulfed by personal scandal",
+      "summary": "Once lauded as the \"Taylor Swift of tech\", Huang is mired in scandal after an affair with a suspected Chinese spy.",
+      "source": "BBC World",
+      "published": "2026-11-09T06:01:52+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Charity wants bee, bird and butterfly population boost",
+      "summary": "Berkshire, Buckinghamshire and Oxfordshire Wildlife Trust aims to raise £70,000 for the project.",
+      "source": "BBC Science",
+      "published": "2026-11-09T06:00:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg77j83p0vo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.989
+    },
+    {
+      "title": "Stop undermining Jim Chalmers, environment minister urges Labor colleagues",
+      "summary": "‘It’s pretty obvious that there are all sorts of people making all sorts of comments,’ Murray Watt says after budget savings meeting Get our breaking news email , free app or daily news podcast The environment minister, Murray Watt , has urged ministers to stop undermining the treasurer, Jim Chalmers, as",
+      "source": "The Guardian",
+      "published": "2026-11-09T05:47:49+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/09/stop-undermining-treasurer-jim-chalmers-environment-minister-urges-colleagues",
+      "importance": 1.986
+    },
+    {
+      "title": "Pope delivers veiled rebuke of Milei's austerity measures",
+      "summary": "Pope Leo made the comments as he arrived in Argentina on the second leg of his Latin America tour.",
+      "source": "BBC World",
+      "published": "2026-11-09T05:30:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckj0l082jqzvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.982
+    },
+    {
+      "title": "Burnham’s homelessness pledge to ‘get everyone in for Christmas’ in jeopardy",
+      "summary": "Minister says Labour hoping to offer bed to every rough sleeper in England but cites chronic housing shortage Andy Burnham’s pledge to tackle rough sleeping by getting “everyone in for Christmas” is in jeopardy amid rising numbers of people on the streets and a severe housing shortage. Official figures show",
+      "source": "The Guardian",
+      "published": "2026-11-09T05:01:01+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/09/burnham-homelessness-pledge-rough-sleeping-england",
+      "importance": 1.975
+    },
+    {
+      "title": "Starbucks plans to hire 7,500 staff in major UK expansion plan",
+      "summary": "Coffee shop chain targets growth north of London with extra 500 outlets in big boost for youth employment Starbucks has set out plans to hire 7,500 new baristas over the next five years, in a boost to youth employment as the chain pins hopes for future growth on the north of the country. The US coffee shop",
+      "source": "The Guardian",
+      "published": "2026-11-09T05:01:00+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/09/starbucks-hire-7500-staff-uk-expansion-plan",
+      "importance": 1.975
+    },
+    {
+      "title": "Government's EV targets expected to be reduced this week",
+      "summary": "New petrol or diesel cars are due to be phased out by 2030 and by 2035 all new cars must be zero emission.",
+      "source": "BBC Business",
+      "published": "2026-11-09T05:00:43+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg5g2970epo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.975
     },
     {
       "title": "New Zealand election coalition talks will likely take weeks – as it happened",
@@ -145,15 +217,143 @@
       "source": "The Guardian",
       "published": "2026-11-07T13:12:22+00:00",
       "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
-      "importance": 2.114
+      "importance": 1.972
     },
     {
-      "title": "Pope in 'pretty good health' as he starts Latin America tour",
-      "summary": "Pope Leo travels to Uruguay just three weeks after having surgery for lung cancer.",
+      "title": "Trump tells 60 Minutes that deportation policy was ‘too tough’",
+      "summary": "President makes unusual acknowledgement that one of the defining policies of his second administration had become a political liability Donald Trump has admitted that his deportation policy was “too tough” and has offered to strike an immigration deal with Democrats in a concession following the Republicans’",
+      "source": "The Guardian",
+      "published": "2026-11-09T03:59:31+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration",
+      "importance": 1.961
+    },
+    {
+      "title": "Man accused of HungryPanda delivery rider’s stabbing murder yells and exposes himself in Melbourne court",
+      "summary": "Roberto Urbano, 51, appears in court via video link after death of 47-year-old Feng Jianming in the CBD on Friday night Get our breaking news email , free app or daily news podcast A food delivery rider’s alleged murderer has pulled down his pants and exposed himself as he appeared in court. Roberto Urbano",
+      "source": "The Guardian",
+      "published": "2026-11-09T03:47:21+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/09/man-charged-fatal-stabbing-hungrypanda-delivery-driver-jianming-feng-melbourne-ntwnfb",
+      "importance": 1.958
+    },
+    {
+      "title": "‘Outrageous and racist’: premier responds to NSW One Nation candidate’s claim Australians are being ‘demographically replaced’",
+      "summary": "Chris Minns and race discrimination commissioner lambast comments made by Stuart Bonds, who leads party’s NSW upper house ticket Get our breaking news email , free app or daily news podcast The New South Wales premier and the Australian Human Rights Commission have criticised comments by the man who heads",
+      "source": "The Guardian",
+      "published": "2026-11-09T03:33:14+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/09/one-nation-stuart-bonds-slammed-immigration-comments-ntwnfb",
+      "importance": 1.954
+    },
+    {
+      "title": "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
+      "summary": "Two US fishermen say they spotted the man treading water around 20 miles (32km) off the Californian coast.",
       "source": "BBC World",
-      "published": "2026-11-07T06:59:48+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.028
+      "published": "2026-11-09T02:50:13+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvrrgln13o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.945
+    },
+    {
+      "title": "Pope Leo delivers stinging rebuke of Milei’s austerity measures during Argentina visit",
+      "summary": "Pontiff tells Argentina’s president the economy must benefit all on second stop of 12-day Latin America tour Pope Leo XIV has delivered a stinging critique of Argentine president Javier Milei’s harsh austerity measures, insisting growth must benefit all in a speech met with rapturous applause in Buenos",
+      "source": "The Guardian",
+      "published": "2026-11-09T02:11:25+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/09/pope-leo-argentina-visit-speech-javier-milei-austerity",
+      "importance": 1.936
+    },
+    {
+      "title": "‘Homicidal, not suicidal’: Beau Lamarre-Condon allegedly claimed workplace bullying for sympathy, court hears",
+      "summary": "Former police officer has pleaded not guilty to murdering Baird and Luke Davies in Paddington in early 2024 Warning: This article contains graphic content Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon was “homicidal, not suicidal”, a court has heard, as prosecutors in his",
+      "source": "The Guardian",
+      "published": "2026-11-09T01:44:14+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/09/beau-lamarre-condon-trial-reenacts-shooting-jesse-baird-ntwnfb",
+      "importance": 1.929
+    },
+    {
+      "title": "Trump says he was ‘only kidding’ about making UFC’s Dana White next press secretary",
+      "summary": "President says it was ‘just a little fun’ to picture White, UFC boss and Trump’s friend, in briefing room with fighters Donald Trump said on Sunday that he “was only kidding” when he announced a day earlier that he had offered the job of White House press secretary to Dana White, the chief executive of the",
+      "source": "The Guardian",
+      "published": "2026-11-09T01:10:55+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-dana-white-press-secretary",
+      "importance": 1.922
+    },
+    {
+      "title": "A glimmer of good news for Britain's sleepy dormouse",
+      "summary": "New figures suggest hazel dormice may be recovering after decades of decline, with warmer summers boosting survival.",
+      "source": "BBC Science",
+      "published": "2026-11-09T00:56:43+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c85ynn0p5k71o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.918
+    },
+    {
+      "title": "Nvidia launches investigation into CEO's affair with suspected Chinese spy",
+      "summary": "Jensen Huang also admitted to having been \"unfaithful\" to his wife and says he will cooperate with a security investigation.",
+      "source": "BBC Business",
+      "published": "2026-11-09T00:50:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3dxw10rjn9no?at_medium=RSS&at_campaign=rss",
+      "importance": 1.917
+    },
+    {
+      "title": "Maya Jama steps down as Love Island host after nine seasons",
+      "summary": "‘Time to throw myself into something new,’ 32-year-old presenter announces on social media while hailing her ‘unforgettable time’ on the show Maya Jama has announced she is stepping down as the host of Love Island after three years. The 32-year-old presenter of the reality TV show made the announcement on",
+      "source": "The Guardian",
+      "published": "2026-11-09T00:43:39+00:00",
+      "url": "https://www.theguardian.com/media/2026/nov/09/maya-jama-steps-down-as-love-island-host-after-nine-seasons",
+      "importance": 1.915
+    },
+    {
+      "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+      "summary": "CEO reportedly ‌had close relationship ‌with a Chinese businesswoman who passed information to ‌Beijing Nvidia said ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort”. The New York",
+      "source": "The Guardian",
+      "published": "2026-11-09T00:25:28+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+      "importance": 1.911
+    },
+    {
+      "title": "Doing these things now will help you save money at Christmas",
+      "summary": "Small decisions made now can make a big difference to your festive finances, charities say, so here are some tips.",
+      "source": "BBC Business",
+      "published": "2026-11-09T00:09:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck7vppll151mo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.907
+    },
+    {
+      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+      "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
+      "source": "BBC World",
+      "published": "2026-11-08T23:34:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.899
+    },
+    {
+      "title": "'I treat all these people like they are victims', says doctor who treated Krakow shooting suspect",
+      "summary": "Two doctors were eating near the Polish city's Main Market Square when a gunman began firing at random.",
+      "source": "BBC World",
+      "published": "2026-11-08T22:05:12+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c63elgqqz5y0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.879
+    },
+    {
+      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+      "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
+      "source": "BBC World",
+      "published": "2026-11-08T21:37:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.872
+    },
+    {
+      "title": "Two police officers hailed as heroes for confronting Kraków gunman",
+      "summary": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and detained the gunman in Kraków on Saturday have been hailed as heroes. One of them is Jakub Kulik, a former paratrooper and volunteer",
+      "source": "The Guardian",
+      "published": "2026-11-08T21:11:40+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
+      "importance": 1.866
+    },
+    {
+      "title": "‘Seismic shift’: Native American women made significant gains in US midterms",
+      "summary": "Nationwide, voters elected at least 75 Native women or non-binary candidates in Tuesday’s elections, report says The US midterm elections saw voters elect a slew of historic representatives – from the country’s first Muslim senator to the first Black female governor – but among the most significant gains",
+      "source": "The Guardian",
+      "published": "2026-11-08T21:04:49+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/08/native-american-women-midterm-elections",
+      "importance": 1.865
     },
     {
       "title": "Cruise ship pianist rescued after nine hours treading water miles from shore",
@@ -161,7 +361,7 @@
       "source": "The Guardian",
       "published": "2026-11-08T20:13:09+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/08/royal-caribbean-cruise-ship-pianist-rescue",
-      "importance": 1.995
+      "importance": 1.853
     },
     {
       "title": "Seven dead and more than 100 injured after trains collide in Egypt",
@@ -169,7 +369,7 @@
       "source": "BBC World",
       "published": "2026-11-08T19:58:02+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.991
+      "importance": 1.849
     },
     {
       "title": "Small plane crashes into pickup truck on busy Florida highway",
@@ -177,39 +377,15 @@
       "source": "The Guardian",
       "published": "2026-11-08T19:29:05+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/08/florida-plane-crash-truck-highway",
-      "importance": 1.985
+      "importance": 1.842
     },
     {
-      "title": "Hakeem Jeffries supports impeachment of Pete Hegseth: ‘He has got to go’",
-      "summary": "House Democrat is a ‘hard yes’ on impeachment resolution against defense secretary who ‘has abused his power’ House minority leader Hakeem Jeffries, poised to become majority leader, said on Sunday that he strongly supports impeaching defense secretary Pete Hegseth as a Republican lawmaker prepares to force",
+      "title": "Collision of two trains in Egypt kills at least seven",
+      "summary": "President orders prompt investigation after one train derails in collision in al-Ayyat about 50km from Cairo Seven people were killed and at least 125 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash occurred in al-Ayyat district in Giza province",
       "source": "The Guardian",
-      "published": "2026-11-08T19:11:33+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/pete-hegseth-impeachment-hakeem-jeffries",
-      "importance": 1.981
-    },
-    {
-      "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
-      "summary": "Culture secretary says there is still a problem with exploitation and abuse in the industry and public life The culture secretary, Lisa Nandy, has said there is still a problem with exploitation and abuse in the media industry and a failure to properly deal with allegations after Russell Brand’s conviction",
-      "source": "The Guardian",
-      "published": "2026-11-08T19:05:04+00:00",
-      "url": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
-      "importance": 1.979
-    },
-    {
-      "title": "Riot breaks out at influencer boxing event attended by Tommy Robinson in Ireland",
-      "summary": "Two people arrested after Robinson’s presence inflames tensions in scenes witnessed by many on social media Two people were arrested at an influencer boxing event that descended into a riot in Ireland after the presence of the far-right activist Tommy Robinson inflamed tensions in the crowd. The riot took",
-      "source": "The Guardian",
-      "published": "2026-11-08T18:33:34+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/08/riot-influencer-boxing-event-attended-tommy-robinson-ireland",
-      "importance": 1.972
-    },
-    {
-      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-      "summary": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
-      "source": "BBC World",
-      "published": "2026-11-08T18:22:53+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.969
+      "published": "2026-11-08T17:51:17+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+      "importance": 1.82
     },
     {
       "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
@@ -217,23 +393,7 @@
       "source": "The Guardian",
       "published": "2026-11-08T17:53:59+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
-      "importance": 1.963
-    },
-    {
-      "title": "Collision of two trains in Egypt kills at least seven",
-      "summary": "President orders prompt investigation after one train derails in collision in al-Ayyat about 30 miles from Cairo Seven people were killed and more than 100 injured when two trains collided on Sunday south of the Egyptian capital, Cairo, officials said. The crash occurred in al-Ayyat district in Giza",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:51:17+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
-      "importance": 1.962
-    },
-    {
-      "title": "Labour expected to cut EV targets for UK’s car industry despite MPs’ protests",
-      "summary": "Exclusive: Louise Haigh likely to weaken mandate for sales that forms key part of emission reduction plan Analysis: Climate always comes second – are green issues slipping down Burnham’s agenda? Ministers are expected to make steep cuts to the government’s electric vehicle (EV) targets this week, in a move",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:51:19+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns",
-      "importance": 1.962
+      "importance": 1.82
     },
     {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
@@ -241,167 +401,7 @@
       "source": "The Guardian",
       "published": "2026-11-07T01:55:11+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-      "importance": 1.957
-    },
-    {
-      "title": "Chinese carmaker BYD’s offices in Netherlands raided over JLR ‘copycat car’ claim",
-      "summary": "Bailiffs reportedly seized digital records before court case over alleged intellectual property breaches on Land Rover Defender Bailiffs acting for Jaguar Land Rover raided the Dutch offices of a Chinese “copycat” rival before a legal showdown this week over whether its “Defender clone” infringes",
-      "source": "The Guardian",
-      "published": "2026-11-08T16:50:58+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/08/chinese-carmaker-byd-offices-raided-netherlands-land-rover-copycat-claim",
-      "importance": 1.948
-    },
-    {
-      "title": "Footage shows derailed carriages after fatal train crash in Egypt",
-      "summary": "It is yet unclear what caused the accident but Egyptian President Abdel Fattah al-Sisi said an investigation is underway and will \"hold accountable anyone who proves their negligence\".",
-      "source": "BBC World",
-      "published": "2026-11-08T16:05:57+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.938
-    },
-    {
-      "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
-      "summary": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
-      "source": "BBC Technology",
-      "published": "2026-11-08T15:37:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.931
-    },
-    {
-      "title": "Two police officers hailed as heroes for confronting Kraków gunman",
-      "summary": "Jakub Kulik critically injured and Artur Morański also wounded after actions that ‘prevented further casualties’ Two Polish police officers who were injured as they pursued and detained the gunman in Kraków on Saturday have been hailed as heroes. One of them is Jakub Kulik, a former paratrooper and volunteer",
-      "source": "The Guardian",
-      "published": "2026-11-08T14:49:16+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/two-police-officers-heroes-confronting-krakow-gunman-poland",
-      "importance": 1.92
-    },
-    {
-      "title": "Homes and temples glow across India to mark Diwali",
-      "summary": "Millions of Indians are marking the festival of lights with glowing lamps, fireworks and traditional sweets.",
-      "source": "BBC World",
-      "published": "2026-11-08T14:42:09+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm70pdwz122ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.918
-    },
-    {
-      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
-      "summary": "Knesset has been deadlocked since the election last month when Benjamin Netanyahu’s coalition lost its majority Israel’s president has ⁠chosen Gadi Eisenkot, the prime minister Benjamin Netanyahu’s ⁠strongest rival, to ⁠try to ​form a new government, after a deadlocked election that left neither man ⁠with a",
-      "source": "The Guardian",
-      "published": "2026-11-08T14:26:14+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
-      "importance": 1.915
-    },
-    {
-      "title": "Iran executes three men for 'armed unrest' after January protests",
-      "summary": "It is claimed Hassan Dioband, Hamid Kazemi and Reza Zanganeh were part of anti-government protests earlier this year.",
-      "source": "BBC World",
-      "published": "2026-11-08T13:37:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.903
-    },
-    {
-      "title": "UK spent £100m on zombie Brexit border inspection posts",
-      "summary": "Five of seven facilities in England and Wales never reached operational stage as Tories vacillated over plans to check goods The UK wasted at least £100m in taxpayers’ money to set up zombie Brexit border inspection posts that were never used, it has been revealed. The overall cost of Brexit was put at an",
-      "source": "The Guardian",
-      "published": "2026-11-08T13:32:58+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/08/uk-zombie-brexit-border-inspection-posts-check-goods",
-      "importance": 1.902
-    },
-    {
-      "title": "Dormice 'thrive' at National Trust site",
-      "summary": "Killerton National Trust has 100 nest boxes across its estate in Devon.",
-      "source": "BBC Science",
-      "published": "2026-11-08T12:22:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c50meerl8xp1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.886
-    },
-    {
-      "title": "How African philosophies inspired a new approach to staging film festivals in Manchester",
-      "summary": "See My World, an event highlighting the pan-African thought via film, poetry and dance, builds on momentum sparked by local activists and creatives African philosophies including exploring how lessons from the past can shape the present and near future have inspired a film festival coming to Manchester. See",
-      "source": "The Guardian",
-      "published": "2026-11-08T12:00:39+00:00",
-      "url": "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
-      "importance": 1.881
-    },
-    {
-      "title": "Polish prosecutors open terrorism investigation into Kraków shooting",
-      "summary": "Six people killed in attack probably inspired by far right, according to officials, as police say suspect’s parents and sister found dead at his home Polish prosecutors have opened a terrorism investigation after a 24-year-old man opened fire in a busy market square in Kraków, killing six people including a",
-      "source": "The Guardian",
-      "published": "2026-11-08T11:50:15+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/krakow-shooting-poland-terrorism-investigation",
-      "importance": 1.879
-    },
-    {
-      "title": "How the deadly shooting in Krakow unfolded",
-      "summary": "Video authenticated by BBC Verify shows the moment gunshots rang out in Krakow's main market square.",
-      "source": "BBC World",
-      "published": "2026-11-08T09:29:24+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cq74p2zpwyjmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.846
-    },
-    {
-      "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
-      "summary": "President has opposing views on many issues, and once called Leo’s predecessor the ‘representative of the Evil One’ Trees are being planted in the garden. The brightly coloured buildings are getting another coat of paint. The choir rehearses. Hundreds of other residents, several of them using wheelchairs",
-      "source": "The Guardian",
-      "published": "2026-11-08T09:00:35+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
-      "importance": 1.839
-    },
-    {
-      "title": "Psychiatrists and paediatricians among specialists most likely to charge ‘extreme’ fees, thinktank finds",
-      "summary": "Grattan Institute finds some doctors charge up to triple the fees of their peers – well beyond what can be justified by business running costs Get our breaking news email , free app or daily news podcast More than 2.2 million Australians paid an “extreme” fee to see a specialist last year, with psychiatrists",
-      "source": "The Guardian",
-      "published": "2026-11-08T09:00:35+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/08/psychiatrists-paediatricians-extreme-specialist-fees-health-australia",
-      "importance": 1.839
-    },
-    {
-      "title": "Traders 'priced out' of £12,000 Christmas market pitches",
-      "summary": "Stall holders said they'd met the council leader to express their concerns at high costs since a new operator took over.",
-      "source": "BBC Business",
-      "published": "2026-11-08T07:11:02+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckn8wew92xw1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.814
-    },
-    {
-      "title": "Hundreds of seagrass shoots found in estuary",
-      "summary": "There were fears a restoration trial may not succeed when only six seedlings had emerged in April.",
-      "source": "BBC Science",
-      "published": "2026-11-08T07:06:13+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck1wvx3r9rgeo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.813
-    },
-    {
-      "title": "Environmentalists criticise choice of Earthshot prize venue owned by fossil fuel firm",
-      "summary": "Mumbai facility is part of Reliance Industries, owner of world’s biggest oil refinery and funder of controversial mega-zoo The Prince of Wales’s Earthshot prize will host its forthcoming annual awards ceremony at a venue owned by the billionaire Ambani family conglomerate, drawing criticism from",
-      "source": "The Guardian",
-      "published": "2026-11-08T06:00:33+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/08/earthshot-prize-venue-criticism-fossil-fuel-firm-reliance-industries-india-mumbai",
-      "importance": 1.798
-    },
-    {
-      "title": "US rockets firm eyes up mothballed Highland spaceport",
-      "summary": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
-      "source": "BBC Science",
-      "published": "2026-11-06T12:47:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.775
-    },
-    {
-      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
-      "summary": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more",
-      "source": "The Guardian",
-      "published": "2026-11-06T12:48:37+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
-      "importance": 1.775
-    },
-    {
-      "title": "Houthis say at least 33 killed in Saudi air strike",
-      "summary": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
-      "source": "BBC World",
-      "published": "2026-11-08T04:03:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.77
+      "importance": 1.815
     }
   ]
 }
