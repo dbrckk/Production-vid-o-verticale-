@@ -1,39 +1,55 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T07:23:16.865778+00:00",
+  "generated_at": "2026-11-12T16:52:15.227100+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "UK appoints world’s first special representative for climate security",
-      "summary": "Exclusive: Madeleine Alessandri, chair of the joint intelligence committee, will take on the role of advising No 10 on climate-related national security risks The UK government has appointed the world’s first special representative for climate security, in the strongest sign yet of fears that climate",
-      "source": "The Guardian",
-      "published": "2026-11-11T22:30:01+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/11/uk-appoints-worlds-first-special-representative-for-climate-security",
-      "importance": 2.977
+      "title": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
+      "summary": "PM Andy Burnham was addressing delegates at the COP31 UN climate summit in Antalya, Turkey.",
+      "source": "BBC Science",
+      "published": "2026-11-12T11:03:53+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmg46y7wev42o?at_medium=RSS&at_campaign=rss",
+      "importance": 3.019
     },
     {
-      "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
-      "summary": "Marshall Islands president warns of worsening floods as UN chief calls for a windfall tax on oil and gas firms Failure to provide an overwhelming response to the climate crisis means “the world we know is over”, the president of the embattled Marshall Islands has warned, as dozens of leaders gathered in",
+      "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
+      "summary": "A deadline to secure a buyer was set to expire at midnight, but the retailer now has an extra 10 days to find a buyer.",
+      "source": "BBC Business",
+      "published": "2026-11-12T14:29:59+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "importance": 2.517
+    },
+    {
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "summary": "Witnesses say a missile hit a building containing the surgical wards and intensive care units at Nasser hospital, the largest in southern Gaza.",
+      "source": "BBC World",
+      "published": "2026-11-12T14:27:30+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.516
+    },
+    {
+      "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+      "summary": "The UK is seeing impressive growth, but will it last?",
+      "source": "BBC Business",
+      "published": "2026-11-12T13:27:09+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.503
+    },
+    {
+      "title": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
+      "summary": "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not",
       "source": "The Guardian",
-      "published": "2026-11-11T18:52:08+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
-      "importance": 2.926
+      "published": "2026-11-12T13:08:12+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
+      "importance": 2.498
     },
     {
       "title": "UK economy grows at fastest rate for more than two years",
       "summary": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
       "source": "BBC Business",
-      "published": "2026-11-12T07:16:54+00:00",
+      "published": "2026-11-12T11:20:25+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.549
-    },
-    {
-      "title": "UK economy grows by 0.7% in third quarter despite high oil prices",
-      "summary": "ONS also says GDP rose 0.2% month on month in September, in a boost to the chancellor, John Healey The UK economy grew by 0.7% in the third quarter, as expected by City analysts, confirming that consumers and businesses remained resilient despite high oil and gas prices. The Office for National Statistics",
-      "source": "The Guardian",
-      "published": "2026-11-12T07:07:36+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
-      "importance": 2.546
+      "importance": 2.473
     },
     {
       "title": "'Summer was a wake-up call, winter could be dire' warning over food supplies",
@@ -41,7 +57,7 @@
       "source": "BBC Science",
       "published": "2026-11-12T06:02:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
-      "importance": 2.531
+      "importance": 2.4
     },
     {
       "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
@@ -49,31 +65,7 @@
       "source": "The Guardian",
       "published": "2026-11-12T03:00:07+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
-      "importance": 2.489
-    },
-    {
-      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-      "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
-      "source": "BBC Business",
-      "published": "2026-11-12T00:49:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "importance": 2.459
-    },
-    {
-      "title": "Nigeria's president launches re-election manifesto but can he regain voters' trust?",
-      "summary": "For Nigerians to feel meaningful improvements, reforms will need to go beyond the promises outlined, analysts say.",
-      "source": "BBC World",
-      "published": "2026-11-12T00:36:11+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.456
-    },
-    {
-      "title": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
-      "summary": "Inspectors find some officers acted on potential matches from retrospective searches without making enough checks Police officers risk arresting innocent people, especially from ethnic minorities, if they treat inaccurate facial recognition data as evidence, an official report has found. Although the",
-      "source": "The Guardian",
-      "published": "2026-11-12T00:01:03+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/facial-recognition-errors-put-ethnic-minorities-at-risk-of-wrongful-arrest-police-watchdog-warns",
-      "importance": 2.448
+      "importance": 2.357
     },
     {
       "title": "The swan sanctuary wetland fighting climate change",
@@ -81,7 +73,7 @@
       "source": "BBC Science",
       "published": "2026-11-10T06:30:29+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60rleej7dqgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.421
+      "importance": 2.289
     },
     {
       "title": "African writing award probe finds 'no evidence' winning story was AI generated",
@@ -89,15 +81,7 @@
       "source": "BBC World",
       "published": "2026-11-11T20:00:54+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss",
-      "importance": 2.392
-    },
-    {
-      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-      "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
-      "source": "BBC World",
-      "published": "2026-11-11T18:04:58+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.365
+      "importance": 2.26
     },
     {
       "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
@@ -105,7 +89,7 @@
       "source": "BBC World",
       "published": "2026-11-11T13:25:47+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.301
+      "importance": 2.169
     },
     {
       "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
@@ -113,7 +97,7 @@
       "source": "BBC World",
       "published": "2026-11-11T12:53:11+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.293
+      "importance": 2.161
     },
     {
       "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
@@ -121,7 +105,95 @@
       "source": "The Guardian",
       "published": "2026-11-11T05:33:27+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
-      "importance": 2.191
+      "importance": 2.06
+    },
+    {
+      "title": "How AI visionary Jensen Huang was undone by his own bad decisions",
+      "summary": "Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
+      "source": "BBC Technology",
+      "published": "2026-11-12T16:43:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.998
+    },
+    {
+      "title": "Sadiq Khan joins Labour figures urging PM not to water down electric vehicle targets – UK politics live",
+      "summary": "The mayor of London is the most high-profile figure to weigh into the debate over electric vehicle targets On the Today programme this morning, the Labour MP Bell Ribeiro-Addy , a prominent leftwinger, indicated she might vote against legislation to implement the Alan Milburn proposals. She said she was",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:33:36+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/12/milburn-review-neets-young-people-welfare-work-latest-news-updates",
+      "importance": 1.996
+    },
+    {
+      "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+      "summary": "Later on Thursday, Jared Kushner and Steve Witkoff will travel to Dublin to meet Ukraine's Volodymyr Zelensky.",
+      "source": "BBC World",
+      "published": "2026-11-12T16:31:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.995
+    },
+    {
+      "title": "UK car industry to press EU for two-year delay to Brexit EV tariffs",
+      "summary": "‘Rules of origin’ on vehicle batteries due to come into force on 1 January if deal on new delay is not reached Business live – latest updates The UK car industry is preparing to push for a two-year delay to Brexit tariffs on electric cars traded with the EU, after an initial European proposal suggested a",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:30:27+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-car-industry-rules-of-origin-brexit-ev-tariffs-eu",
+      "importance": 1.995
+    },
+    {
+      "title": "‘I had the courage to believe in Mississippi’ says Scott Colom after historic Senate win – US politics live",
+      "summary": "Colom adds to blue wave of Democrat victories across the US and becomes Mississippi’s first black senator since 1875 after defeating Cindy Hyde-Smith Sign up for the Breaking News US email Perhaps you saw this ad from Scott Colom, who was just elected to serve as Mississippi’s first Democratic senator since",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:31:34+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
+      "importance": 1.995
+    },
+    {
+      "title": "New talks with Russia, Ukraine and European countries agreed, US says - Europe live",
+      "summary": "US envoy Steve Witkoff’s announcement come after his talks with Putin in Moscow Luxembourg’s PM Luc Frieden looks to be absolutely chuffed to be representing all three Benelux countries at today’s summit, as his Belgian and Dutch colleagues are too busy to attend as they face domestic crises. “I have the",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:28:18+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates",
+      "importance": 1.994
+    },
+    {
+      "title": "Washington DC shooting latest updates: one person killed and four injured, police confirm",
+      "summary": "Suspect has died, according to reports, after police said they suffered a gunshot wound; one injured person in critical condition Multiple people shot in Washington DC as police warn people to stay inside The incident is shifting from an active shooter response to a barricaded subject response , a federal",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:27:30+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/12/washington-dc-shooting-logan-circle-latest-updates",
+      "importance": 1.994
+    },
+    {
+      "title": "One dead and four injured in Washington DC shooting, with suspect reportedly dead",
+      "summary": "Authorities identify suspect as ‘white male’ who was a member at VIDA Fitness, the gym where people were shot Washington DC shooting latest updates Four people were injured and one person died after a shooting in Northwest Washington DC on Thursday morning, local police said. In a Thursday morning press",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:26:48+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle",
+      "importance": 1.994
+    },
+    {
+      "title": "Nvidia CEO Jensen Huang resigns over scandal and is replaced by CFO Colette Kress on interim basis – follow live",
+      "summary": "Nvidia shares plunge 10% in pre-market trading after board ousts longtime boss Huang over two affairs, including with a suspected Chinese spy, in big blow to AI boom Too big – and too well-connected – to sack? Huang does not enjoy the supercharged voting rights that are par for the course elsewhere – his",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:25:29+00:00",
+      "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "importance": 1.994
+    },
+    {
+      "title": "‘A second chance’: children guilty of serious offences will no longer have to declare criminal records",
+      "summary": "Government proposal aims to reduce number of children in custody in England and Wales and boost youth employment Children found guilty of robbery, dealing drugs to other children or violent disorder will no longer have to disclose their criminal records to prospective employers under sweeping government",
+      "source": "The Guardian",
+      "published": "2026-11-12T16:11:59+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/12/children-criminal-records-england-wales-labour",
+      "importance": 1.991
+    },
+    {
+      "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+      "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
+      "source": "BBC Technology",
+      "published": "2026-11-12T16:02:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.988
     },
     {
       "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
@@ -129,279 +201,207 @@
       "source": "BBC World",
       "published": "2026-11-11T00:18:07+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.118
+      "importance": 1.987
     },
     {
-      "title": "Scientists predict 2026 hottest year on record as climate talks begin",
-      "summary": "Scientists are predictng this could be the hottest year on record as the COP31 climate summit opens.",
-      "source": "BBC Science",
-      "published": "2026-11-09T07:30:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.102
+      "title": "Florida St Patrick’s Day parade cancelled over Republican anti-DEI law, causing outrage",
+      "summary": "Ron DeSantis signed law prompting the city of Delray Beach to announce it was scrapping its popular Irish celebration A Florida mayor is working to salvage his city’s St Patrick’s Day parade after it was canceled to comply with a new Republican law banning municipalities from hosting events deemed to promote",
+      "source": "The Guardian",
+      "published": "2026-11-12T15:51:29+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/12/florida-st-patricks-day-parade-cancelled-dei",
+      "importance": 1.986
     },
     {
-      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
-      "summary": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78, which is lower than what was expected.",
+      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
+      "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
       "source": "BBC Technology",
-      "published": "2026-11-10T17:56:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.03
+      "published": "2026-11-12T15:26:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.98
     },
     {
-      "title": "Nvidia board reportedly meeting to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
-      "summary": "This live blog is now paused – but you can read the latest report on Nvidia and Jensen Huang’s future as CEO here Too big – and too well-connected – to sack? Huang does not enjoy the supercharged voting rights that are par for the course elsewhere – his shareholding is a plain vanilla 3.6%. On the other",
-      "source": "The Guardian",
-      "published": "2026-11-12T07:06:33+00:00",
-      "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-      "importance": 1.996
-    },
-    {
-      "title": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
-      "summary": "Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for ordinary workers – or make jobs tougher with more burnout and workplace",
-      "source": "The Guardian",
-      "published": "2026-11-12T06:55:44+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
-      "importance": 1.994
-    },
-    {
-      "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
-      "summary": "In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close ties to Nvidia chief Jensen Huang Good morning. Espionage is supposed to be a secretive business, and spies are supposed to",
-      "source": "The Guardian",
-      "published": "2026-11-12T06:43:31+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
-      "importance": 1.991
-    },
-    {
-      "title": "Campaigners want more land protected from housing",
-      "summary": "After parkland was safeguarded from development, residents want the council to change a housing plan.",
-      "source": "BBC Science",
-      "published": "2026-11-12T06:24:44+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmpw48zwnevlo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.986
-    },
-    {
-      "title": "Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges",
-      "summary": "The meeting comes after the executive and co-founder admitted to having a romantic relationship with a woman who is alleged to be a Chinese spy Nvidia’s board of directors met on Wednesday to decide whether to oust Jensen Huang as CEO of the world’s most valuable chip company, according to multiple reports",
-      "source": "The Guardian",
-      "published": "2026-11-12T06:21:20+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair",
-      "importance": 1.986
-    },
-    {
-      "title": "Are branded cold and flu tablets really worth the extra money?",
-      "summary": "Are branded cold and flu tablets REALLY worth the extra money?",
-      "source": "BBC Business",
-      "published": "2026-11-12T06:17:06+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cw4gnxm0y43po?at_medium=RSS&at_campaign=rss",
-      "importance": 1.985
-    },
-    {
-      "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-      "summary": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
+      "title": "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+      "summary": "Medical staff are going unpaid, lack proper training and are struggling with shortages of essential supplies, MSF warns",
       "source": "BBC World",
-      "published": "2026-11-12T06:12:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.984
+      "published": "2026-11-12T15:18:20+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.978
     },
     {
-      "title": "Art trail celebrates arrival of black bears at zoo",
-      "summary": "Jersey Zoo says the art trail will celebrate the world's \"largest inhabitants to its smallest.",
-      "source": "BBC Science",
-      "published": "2026-11-12T06:13:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c39wzv2vqgxvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.984
-    },
-    {
-      "title": "Gas bills to rise as Middle East turmoil persists",
-      "summary": "Gas bills will increase by about 5% from 1 December, Island Energy announces.",
-      "source": "BBC Business",
-      "published": "2026-11-12T06:15:36+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.984
-    },
-    {
-      "title": "Teenager in critical condition after likely ‘train surfing’ on Sydney Harbour Bridge, police say",
-      "summary": "‘You just don’t mess or play with a 400-tonne train’, Sydney Trains says as 17-year-old suffers multiple injuries to head, chest and pelvis Get our breaking news email , free app or daily news podcast A 17-year-old boy is in a critical condition after falling from the outside of a train on the Sydney Harbour",
-      "source": "The Guardian",
-      "published": "2026-11-12T06:09:21+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/12/teenager-in-critical-condition-after-likely-train-surfing-on-sydney-harbour-bridge-police-say",
-      "importance": 1.983
-    },
-    {
-      "title": "Nurdle impact to be researched for a year",
-      "summary": "Research will be carried out on sea-birds and marine life following a microplastic spillage in July.",
-      "source": "BBC Science",
-      "published": "2026-11-12T06:06:41+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4y23zldyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.982
-    },
-    {
-      "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-      "summary": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
+      "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+      "summary": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
       "source": "BBC World",
-      "published": "2026-11-12T05:59:18+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.981
-    },
-    {
-      "title": "Beau Lamarre-Condon says he was diagnosed with cancer by naturopath but doesn’t recall which one, trial hears",
-      "summary": "Former police officer questioned about Instagram message he asked friend to send to Jessie Baird referencing ‘cancerous tumour’ Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon has claimed in court that he was diagnosed with cancer by a naturopath and has been questioned about",
-      "source": "The Guardian",
-      "published": "2026-11-12T05:38:27+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/12/beau-lamarre-condon-jesse-baird-phone-murder-trial-ntwnfb",
+      "published": "2026-11-12T15:10:32+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
       "importance": 1.976
     },
     {
-      "title": "New York building collapse kills at least two, officials say",
-      "summary": "A dangerous search for survivors continues after a three-storey building collapsed in Brooklyn on Wednesday afternoon.",
-      "source": "BBC World",
-      "published": "2026-11-12T05:12:56+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.97
+      "title": "Farage was guest on Brand podcast after sexual assault investigation began",
+      "summary": "Reform leader this week criticised the Labour party for ‘cosying up to’ and ‘promoting’ disgraced comedian UK politics live – latest updates Nigel Farage appeared on Russell Brand’s US podcast nine months after the comedian was investigated by police over allegations of sexual assault, the Guardian has",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:30:17+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/12/farage-was-guest-on-brand-podcast-after-sexual-assault-investigation-began",
+      "importance": 1.967
     },
     {
-      "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
-      "summary": "The billionaire tech executive's future is in question after reports of a second extramarital affair.",
-      "source": "BBC Technology",
-      "published": "2026-11-12T04:18:33+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "title": "What in the World",
+      "summary": "What can you do to protect your personal date?",
+      "source": "BBC Business",
+      "published": "2026-11-12T14:30:00+00:00",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct9955?at_medium=RSS&at_campaign=rss",
+      "importance": 1.967
+    },
+    {
+      "title": "NAZA: how and where to watch the Guardian’s acclaimed Gaza documentary",
+      "summary": "Film features testimony from 24 Israeli officials involved in surveillance and remote killing of Palestinian civilians • NAZA is in cinemas worldwide and will screen for free on the Guardian’s website from early December. Sign up here to be the first to watch it Continue reading...",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:23:50+00:00",
+      "url": "https://www.theguardian.com/global/2026/nov/12/naza-how-to-watch-guardian-acclaimed-gaza-documentary",
+      "importance": 1.966
+    },
+    {
+      "title": "Time running out for young people to receive meningitis B vaccines in UK",
+      "summary": "Just 28% of 18- and 19-year-olds have received their first dose in one-off campaign, UKHSA says The clock is ticking for young people in the UK to receive vaccinations to protect against meningitis B, experts have said, as figures reveal fewer than one in three eligible in a one-off campaign have received",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:16:18+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/12/time-running-out-young-people-meningitis-b-vaccines-uk",
+      "importance": 1.964
+    },
+    {
+      "title": "Before Scott Colom, these two men were the last black US senators in Mississippi",
+      "summary": "The Democratic candidate won in a southern state that had not seated a black senator since 1874.",
+      "source": "BBC World",
+      "published": "2026-11-12T14:12:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.963
+    },
+    {
+      "title": "Two men found guilty of helping Iran try to ‘eliminate’ UK-based journalists",
+      "summary": "Mostafa Sepahvand and Farhad Javadi Manesh carried out surveillance in an effort to inflict violence on targets Two men of Iranian origin who were hired through social media as part of a plan to “eliminate” journalists in the UK have been found guilty of assisting Tehran’s intelligence services. Mostafa",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:07:42+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
+      "importance": 1.962
+    },
+    {
+      "title": "What’s behind Australia’s surge in teen extremism?",
+      "summary": "Young people are being found with ‘hard drives full of what can only be described as gore’, one expert says In March, Guardian Australia revealed that most people who have been charged with the new federal crime of possession of violent extremist material are under 18. This week Australian federal police",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:00:45+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/13/australia-surge-in-teen-extremism-ntwnfb",
+      "importance": 1.96
+    },
+    {
+      "title": "Icac’s drama and dirt files show NSW’s ‘guns for hire’ problem. But neither major party is serious about reform",
+      "summary": "Chris Minns is trying to address the threat of undeclared lobbying but falls well short of what the commission recommended five years ago Get our daily political email , free app or daily news podcast A dirt file on a state minister peddled to journalists. A subterranean campaign to discredit the building",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:00:44+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/13/icac-chris-minns-nsw-undeclared-lobbying-bill-ntwnfb",
+      "importance": 1.96
+    },
+    {
+      "title": "NSW’s latest news Instagram account has an unlikely group behind it: the Labor party",
+      "summary": "Expert warns of ‘huge loophole in political communication laws’ as state government among parties presenting accounts as unaffiliated news sources Get our daily political email , free app or daily news podcast “Breaking,” a reel from the Instagram account nswnewsroom reads. “Another Liberal MP quits, almost",
+      "source": "The Guardian",
+      "published": "2026-11-12T14:00:42+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/13/nsw-newsroom-instagram-account-labor-party",
+      "importance": 1.96
+    },
+    {
+      "title": "Poundland owner secures two extra weeks to ensure retail chain’s survival",
+      "summary": "US investment firm Gordon Brothers is ‘taking due care’ to consider if one of three bidders has enough funds Business live – latest updates Poundland’s owner has said it is “taking due care” to consider if one of three bidders had enough funds to ensure its survival after the troubled budget retail chain",
+      "source": "The Guardian",
+      "published": "2026-11-12T13:46:34+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/12/poundland-owner-secures-two-extra-weeks-ensure-retail-chains-survival",
       "importance": 1.957
     },
     {
-      "title": "Famed ship SS United States sunk off coast of Florida",
-      "summary": "Activists unsuccessfully fought for the historic liner to be preserved and turned into a museum, but it will now become the world's largest artificial ocean reef.",
-      "source": "BBC World",
-      "published": "2026-11-12T04:03:13+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.954
-    },
-    {
-      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
-      "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
-      "source": "BBC World",
-      "published": "2026-11-12T04:00:30+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.953
-    },
-    {
-      "title": "Scott Colom claims victory as he addresses supporters in Mississippi following his historic Senate victory – as it happened",
-      "summary": "Colom beat Republican Cindy Hyde-Smith after race was called eight days after midterm election day Democrat Scott Colom wins race for US Senate in Mississippi How Colom won deep-red Mississippi with little help from Democrats Sign up for the US Breaking News email Some Democrats, out of the 11 who missed the",
+      "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
+      "summary": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ The Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers",
       "source": "The Guardian",
-      "published": "2026-11-12T03:46:55+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+      "published": "2026-11-12T13:14:38+00:00",
+      "url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
       "importance": 1.95
-    },
-    {
-      "title": "US and rest of world must follow China’s lead on green energy, says John Kerry",
-      "summary": "Former US secretary of state says most nations are ‘stumbling along’ while Beijing has ‘hugely accelerated’ Cop31 live – latest updates China is leading the world in moving away from fossil fuels , and the rest of the globe – including the US – must now follow, the former US secretary of state John Kerry has",
-      "source": "The Guardian",
-      "published": "2026-11-10T12:08:23+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
-      "importance": 1.949
-    },
-    {
-      "title": "Historic US ocean liner sinks near Florida to become world’s largest artificial reef",
-      "summary": "SS United States, which set transatlantic speed record during maiden voyage in 1952, is sunk off coast of Destin The historic SS United States has reached the end of its journey at sea, sinking Wednesday off the coast of Destin, Florida, where it will begin a new life underwater as an artificial reef. The",
-      "source": "The Guardian",
-      "published": "2026-11-12T03:07:16+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
-      "importance": 1.941
-    },
-    {
-      "title": "Australian teen missing in bush for six days rescued alive",
-      "summary": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
-      "source": "BBC World",
-      "published": "2026-11-12T02:40:18+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.934
-    },
-    {
-      "title": "‘He is never leaving the house again’: mother reunites with son missing for six days in Victorian bushland",
-      "summary": "William, 17, was reported missing after straying from his camp near Walhalla in Victoria’s Gippsland region Get our breaking news email , free app or daily news podcast A teenager has shared an emotional reunion with his mother after being found alive following almost a week lost in dense bushland. Police",
-      "source": "The Guardian",
-      "published": "2026-11-12T02:30:28+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/12/missing-teenager-walhalla-found-alive-australian-bush",
-      "importance": 1.932
-    },
-    {
-      "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
-      "summary": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping",
-      "source": "The Guardian",
-      "published": "2026-11-12T01:51:00+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
-      "importance": 1.923
-    },
-    {
-      "title": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
-      "summary": "Police called to Lane Cove North on Wednesday after sofa found containing human torso believed to be that of adult man Get our breaking news email , free app or daily news podcast New South Wales police have entered their second day searching for human remains after a human torso was found in bushland on",
-      "source": "The Guardian",
-      "published": "2026-11-12T01:27:01+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb",
-      "importance": 1.918
-    },
-    {
-      "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
-      "summary": "The decline has been put down to severe restrictions placed on the substances' use.",
-      "source": "BBC Science",
-      "published": "2026-11-12T00:12:59+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.9
-    },
-    {
-      "title": "From Paris to DC - why offices are being turned into apartments",
-      "summary": "Office buildings with low occupancy rates are being transformed into flats.",
-      "source": "BBC Business",
-      "published": "2026-11-12T00:05:40+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.899
-    },
-    {
-      "title": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
-      "summary": "Once thought to have been looted by Scottish tribes, the gilded limb is the centrepiece of a new exhibition on Roman Scotland in Edinburgh A large bronze leg found in a bog in rural Scotland more than 200 years ago and then hidden away in a duke’s storeroom is helping to rewrite the history of the Roman",
-      "source": "The Guardian",
-      "published": "2026-11-12T00:01:03+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
-      "importance": 1.898
     },
     {
       "title": "Some under-25s should get fewer benefits, Milburn review to say",
       "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
       "source": "BBC Business",
-      "published": "2026-11-11T23:22:04+00:00",
+      "published": "2026-11-12T13:16:59+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.889
+      "importance": 1.95
     },
     {
-      "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
-      "summary": "Remains believed to have belonged to Africans or Afro-Brazilians repatriated after being flown back by diplomats Two skulls, including that of a man believed to have taken part in Brazil’s greatest slave revolt but whose remains were taken to the United States and used in racist eugenics studies at Harvard",
-      "source": "The Guardian",
-      "published": "2026-11-11T22:50:37+00:00",
-      "url": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
-      "importance": 1.881
-    },
-    {
-      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-      "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+      "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+      "summary": "Dan Johnson visits one of the country's largest power stations, barely left standing after a ballistic missile strike by Russia.",
       "source": "BBC World",
-      "published": "2026-11-11T22:07:37+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.871
+      "published": "2026-11-12T13:02:46+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.947
     },
     {
-      "title": "Poundland owner extracted millions when chain was on ‘knife-edge’, MPs say",
-      "summary": "Retailer’s management to seek two-week extension of legal protection from creditors in high court MPs have accused the owner of Poundland of extracting millions of pounds from the budget retailer when it was on a “knife-edge” as it seeks extra time to secure a rescue deal. The management of Poundland, which",
-      "source": "The Guardian",
-      "published": "2026-11-11T19:10:26+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/11/poundland-owner-chain-mps-claim-high-court",
-      "importance": 1.83
+      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+      "summary": "In a state Trump won two years ago by 22 points, Colom's victory extends a string of Democratic wins in the Senate.",
+      "source": "BBC World",
+      "published": "2026-11-12T12:56:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.946
     },
     {
-      "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
-      "summary": "Leonardo Bertulazzi, 74, awaiting extradition to Italy, reportedly used harness to flee custody A 74-year-old former member of Italy ’s radical Marxist group the Red Brigades has escaped from house arrest in Argentina , the country’s security ministry confirmed on Wednesday, after he reportedly hid his ankle",
+      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+      "summary": "Schools across Italy have received bomb threats for the second day in a row, sparking fresh panic and evacuations.",
+      "source": "BBC World",
+      "published": "2026-11-12T12:39:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.942
+    },
+    {
+      "title": "Israeli airstrike on Nasser hospital in Gaza kills surgeon and five others",
+      "summary": "Hospital director says 28 wounded in attack on one of few remaining medical facilities in the strip An Israeli airstrike on Nasser hospital in southern Gaza killed six people, including a surgeon and a disabled man, and wounded 28 others, according to the hospital director. The Israeli military carried out",
       "source": "The Guardian",
-      "published": "2026-11-11T19:00:33+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
-      "importance": 1.828
+      "published": "2026-11-12T12:19:01+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon",
+      "importance": 1.937
+    },
+    {
+      "title": "Nurdle impact to be researched for a year",
+      "summary": "Research will be carried out on sea-birds and marine life following a microplastic spillage in July.",
+      "source": "BBC Science",
+      "published": "2026-11-12T11:38:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4y23zldyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.927
+    },
+    {
+      "title": "European survey reveals 900m galaxies – and possibly secrets of ‘dark universe’",
+      "summary": "Unprecedented view of cosmos provided by Euclid mission throws up many more cases of gravitational lensing A mission to create the largest ever 3D map of the universe has revealed more than 900m galaxies in its first major data release together with about 15,000 potential cases of a phenomenon that could",
+      "source": "The Guardian",
+      "published": "2026-11-12T11:08:54+00:00",
+      "url": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
+      "importance": 1.921
+    },
+    {
+      "title": "‘Like priests who don’t believe in God’: Italy’s anti-vax medics eye return to frontline duty",
+      "summary": "Progress of bill to reinstate struck-off doctors hinged on support from far right figure Roberto Vannacci, whose rise is shaping politics before 2027 elections Antonio Cremasco contracted Covid at a dinner party on 6 March 2020. Four days later, as Italy became the first European country to go into",
+      "source": "The Guardian",
+      "published": "2026-11-12T10:20:09+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/12/italy-anti-vax-medics-return-vote-meloni",
+      "importance": 1.909
+    },
+    {
+      "title": "British woman missing from cruise ship in Atlantic",
+      "summary": "The 72-year-old was last seen aboard the Tui ship on Monday as it headed towards the Caribbean.",
+      "source": "BBC World",
+      "published": "2026-11-12T10:13:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0enrkwkklo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.908
+    },
+    {
+      "title": "‘He is never leaving the house again’: mother reunites with son missing for six days in Victorian bushland",
+      "summary": "William, 17, was reported missing after straying from his camp near Walhalla in Victoria’s Gippsland region Get our breaking news email , free app or daily news podcast A teenager has shared an emotional reunion with his mother after being found alive following almost a week lost in dense bushland. Police",
+      "source": "The Guardian",
+      "published": "2026-11-12T09:35:44+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/12/missing-teenager-walhalla-found-alive-australian-bush",
+      "importance": 1.899
     }
   ]
 }
