@@ -1,31 +1,103 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T16:18:04.897149+00:00",
+  "generated_at": "2026-11-12T07:23:16.865778+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "UK appoints world’s first special representative for climate security",
+      "summary": "Exclusive: Madeleine Alessandri, chair of the joint intelligence committee, will take on the role of advising No 10 on climate-related national security risks The UK government has appointed the world’s first special representative for climate security, in the strongest sign yet of fears that climate",
+      "source": "The Guardian",
+      "published": "2026-11-11T22:30:01+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/11/uk-appoints-worlds-first-special-representative-for-climate-security",
+      "importance": 2.977
+    },
+    {
+      "title": "‘The world we know is over’ without urgent climate action, leaders tell Cop31",
+      "summary": "Marshall Islands president warns of worsening floods as UN chief calls for a windfall tax on oil and gas firms Failure to provide an overwhelming response to the climate crisis means “the world we know is over”, the president of the embattled Marshall Islands has warned, as dozens of leaders gathered in",
+      "source": "The Guardian",
+      "published": "2026-11-11T18:52:08+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/11/the-world-we-know-is-over-marshall-islands-president-cop31",
+      "importance": 2.926
+    },
+    {
+      "title": "UK economy grows at fastest rate for more than two years",
+      "summary": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
+      "source": "BBC Business",
+      "published": "2026-11-12T07:16:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.549
+    },
+    {
+      "title": "UK economy grows by 0.7% in third quarter despite high oil prices",
+      "summary": "ONS also says GDP rose 0.2% month on month in September, in a boost to the chancellor, John Healey The UK economy grew by 0.7% in the third quarter, as expected by City analysts, confirming that consumers and businesses remained resilient despite high oil and gas prices. The Office for National Statistics",
+      "source": "The Guardian",
+      "published": "2026-11-12T07:07:36+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp",
+      "importance": 2.546
+    },
+    {
+      "title": "'Summer was a wake-up call, winter could be dire' warning over food supplies",
+      "summary": "Wales needs to grow more fruit and veg or it will be at the mercy of wars and climate change, one expert says.",
+      "source": "BBC Science",
+      "published": "2026-11-12T06:02:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
+      "importance": 2.531
+    },
+    {
+      "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
+      "summary": "Since the US war on Iran began in February, there have been hundreds of oil spills, posing a ‘generational’ threat to wildlife The vast, dark slicks in the strait of Hormuz are visible from space. Throughout October, oil tankers were struck by missiles or sea mines in the waterway and spilled crude into the",
+      "source": "The Guardian",
+      "published": "2026-11-12T03:00:07+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+      "importance": 2.489
+    },
+    {
+      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
+      "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
+      "source": "BBC Business",
+      "published": "2026-11-12T00:49:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "importance": 2.459
+    },
+    {
+      "title": "Nigeria's president launches re-election manifesto but can he regain voters' trust?",
+      "summary": "For Nigerians to feel meaningful improvements, reforms will need to go beyond the promises outlined, analysts say.",
+      "source": "BBC World",
+      "published": "2026-11-12T00:36:11+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck5ynyw527wdo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.456
+    },
+    {
+      "title": "Facial recognition errors put ethnic minorities at risk of wrongful arrest, police watchdog warns",
+      "summary": "Inspectors find some officers acted on potential matches from retrospective searches without making enough checks Police officers risk arresting innocent people, especially from ethnic minorities, if they treat inaccurate facial recognition data as evidence, an official report has found. Although the",
+      "source": "The Guardian",
+      "published": "2026-11-12T00:01:03+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/facial-recognition-errors-put-ethnic-minorities-at-risk-of-wrongful-arrest-police-watchdog-warns",
+      "importance": 2.448
+    },
     {
       "title": "The swan sanctuary wetland fighting climate change",
       "summary": "The global campaign to restore the \"soggy secret weapon\" that can combat against climate change.",
       "source": "BBC Science",
       "published": "2026-11-10T06:30:29+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c60rleej7dqgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.631
+      "importance": 2.421
     },
     {
-      "title": "Labour MPs warn against weakening electric vehicle targets ahead of crunch talks",
-      "summary": "Exclusive: Cutting 2030 goal would be a ‘step backwards’, say MPs, as ministers clash over proposed reductions UK politics live – latest updates Cop31 live – latest updates Labour MPs are urging the government not to weaken its electric vehicle targets as divided cabinet ministers prepare for a crunch",
-      "source": "The Guardian",
-      "published": "2026-11-11T16:01:41+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/11/labour-mps-electric-vehicle-targets",
-      "importance": 2.546
+      "title": "African writing award probe finds 'no evidence' winning story was AI generated",
+      "summary": "Zimbabwean writer Simbarashe Kundizeza has also vehemently denied the allegation made in a US magazine.",
+      "source": "BBC World",
+      "published": "2026-11-11T20:00:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss",
+      "importance": 2.392
     },
     {
       "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
       "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
       "source": "BBC World",
-      "published": "2026-11-11T15:05:11+00:00",
+      "published": "2026-11-11T18:04:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.533
+      "importance": 2.365
     },
     {
       "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
@@ -33,7 +105,7 @@
       "source": "BBC World",
       "published": "2026-11-11T13:25:47+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.51
+      "importance": 2.301
     },
     {
       "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
@@ -41,23 +113,7 @@
       "source": "BBC World",
       "published": "2026-11-11T12:53:11+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.503
-    },
-    {
-      "title": "Poundland set for more time to secure a rescue deal as emergency talks continue",
-      "summary": "The BBC understands the discount chain, which has been edging towards administration, will be given more time to find a buyer.",
-      "source": "BBC Business",
-      "published": "2026-11-11T10:03:34+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "importance": 2.463
-    },
-    {
-      "title": "US warns Madagascar over growing military ties with Russia",
-      "summary": "US general warns the Sahel model-like security deal with Russia could lead to greater instability in Africa.",
-      "source": "BBC World",
-      "published": "2026-11-11T07:30:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crkgv58pknyeo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.428
+      "importance": 2.293
     },
     {
       "title": "Ukraine captures first Indonesian prisoner of war amid surge in Russian recruitment",
@@ -65,7 +121,7 @@
       "source": "The Guardian",
       "published": "2026-11-11T05:33:27+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-indonesian-pow-prisoner-of-war-russia",
-      "importance": 2.401
+      "importance": 2.191
     },
     {
       "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
@@ -73,7 +129,7 @@
       "source": "BBC World",
       "published": "2026-11-11T00:18:07+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.328
+      "importance": 2.118
     },
     {
       "title": "Scientists predict 2026 hottest year on record as climate talks begin",
@@ -81,7 +137,7 @@
       "source": "BBC Science",
       "published": "2026-11-09T07:30:12+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.311
+      "importance": 2.102
     },
     {
       "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
@@ -89,7 +145,151 @@
       "source": "BBC Technology",
       "published": "2026-11-10T17:56:12+00:00",
       "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.239
+      "importance": 2.03
+    },
+    {
+      "title": "Nvidia board reportedly meeting to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+      "summary": "This live blog is now paused – but you can read the latest report on Nvidia and Jensen Huang’s future as CEO here Too big – and too well-connected – to sack? Huang does not enjoy the supercharged voting rights that are par for the course elsewhere – his shareholding is a plain vanilla 3.6%. On the other",
+      "source": "The Guardian",
+      "published": "2026-11-12T07:06:33+00:00",
+      "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "importance": 1.996
+    },
+    {
+      "title": "Fewer hours and higher wages – or more burnout and surveillance: employers told to prepare for AI",
+      "summary": "Workplace relations minister Amanda Rishworth launches best practice guide on AI adoption after Qantas and Canva job cuts Entry-level jobs will be the first to be automated due to AI, but it could mean fewer hours and higher wages for ordinary workers – or make jobs tougher with more burnout and workplace",
+      "source": "The Guardian",
+      "published": "2026-11-12T06:55:44+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/fewer-hours-and-higher-wages-or-more-burnout-and-surveillance-employers-told-to-prepare-for-ai",
+      "importance": 1.994
+    },
+    {
+      "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
+      "summary": "In today’s newsletter: US intelligence reportedly believes the former tech executive was recruited by Beijing, raising questions about the security of the AI industry and Trump’s close ties to Nvidia chief Jensen Huang Good morning. Espionage is supposed to be a secretive business, and spies are supposed to",
+      "source": "The Guardian",
+      "published": "2026-11-12T06:43:31+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
+      "importance": 1.991
+    },
+    {
+      "title": "Campaigners want more land protected from housing",
+      "summary": "After parkland was safeguarded from development, residents want the council to change a housing plan.",
+      "source": "BBC Science",
+      "published": "2026-11-12T06:24:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmpw48zwnevlo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.986
+    },
+    {
+      "title": "Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges",
+      "summary": "The meeting comes after the executive and co-founder admitted to having a romantic relationship with a woman who is alleged to be a Chinese spy Nvidia’s board of directors met on Wednesday to decide whether to oust Jensen Huang as CEO of the world’s most valuable chip company, according to multiple reports",
+      "source": "The Guardian",
+      "published": "2026-11-12T06:21:20+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair",
+      "importance": 1.986
+    },
+    {
+      "title": "Are branded cold and flu tablets really worth the extra money?",
+      "summary": "Are branded cold and flu tablets REALLY worth the extra money?",
+      "source": "BBC Business",
+      "published": "2026-11-12T06:17:06+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cw4gnxm0y43po?at_medium=RSS&at_campaign=rss",
+      "importance": 1.985
+    },
+    {
+      "title": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+      "summary": "The strike hit the surgery department of Nasser Hospital, injuring at least 20 people and causing extensive damage, a spokesperson says.",
+      "source": "BBC World",
+      "published": "2026-11-12T06:12:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "Art trail celebrates arrival of black bears at zoo",
+      "summary": "Jersey Zoo says the art trail will celebrate the world's \"largest inhabitants to its smallest.",
+      "source": "BBC Science",
+      "published": "2026-11-12T06:13:52+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c39wzv2vqgxvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "Gas bills to rise as Middle East turmoil persists",
+      "summary": "Gas bills will increase by about 5% from 1 December, Island Energy announces.",
+      "source": "BBC Business",
+      "published": "2026-11-12T06:15:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "Teenager in critical condition after likely ‘train surfing’ on Sydney Harbour Bridge, police say",
+      "summary": "‘You just don’t mess or play with a 400-tonne train’, Sydney Trains says as 17-year-old suffers multiple injuries to head, chest and pelvis Get our breaking news email , free app or daily news podcast A 17-year-old boy is in a critical condition after falling from the outside of a train on the Sydney Harbour",
+      "source": "The Guardian",
+      "published": "2026-11-12T06:09:21+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/12/teenager-in-critical-condition-after-likely-train-surfing-on-sydney-harbour-bridge-police-say",
+      "importance": 1.983
+    },
+    {
+      "title": "Nurdle impact to be researched for a year",
+      "summary": "Research will be carried out on sea-birds and marine life following a microplastic spillage in July.",
+      "source": "BBC Science",
+      "published": "2026-11-12T06:06:41+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4y23zldyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.982
+    },
+    {
+      "title": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+      "summary": "For parents in parts of Ukraine, trying to lead a normal family life with just a few hours of power each day is taking its toll.",
+      "source": "BBC World",
+      "published": "2026-11-12T05:59:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.981
+    },
+    {
+      "title": "Beau Lamarre-Condon says he was diagnosed with cancer by naturopath but doesn’t recall which one, trial hears",
+      "summary": "Former police officer questioned about Instagram message he asked friend to send to Jessie Baird referencing ‘cancerous tumour’ Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon has claimed in court that he was diagnosed with cancer by a naturopath and has been questioned about",
+      "source": "The Guardian",
+      "published": "2026-11-12T05:38:27+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/12/beau-lamarre-condon-jesse-baird-phone-murder-trial-ntwnfb",
+      "importance": 1.976
+    },
+    {
+      "title": "New York building collapse kills at least two, officials say",
+      "summary": "A dangerous search for survivors continues after a three-storey building collapsed in Brooklyn on Wednesday afternoon.",
+      "source": "BBC World",
+      "published": "2026-11-12T05:12:56+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c8zx964glvwxo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.97
+    },
+    {
+      "title": "What we know as pressure builds on embattled Nvidia CEO Jensen Huang",
+      "summary": "The billionaire tech executive's future is in question after reports of a second extramarital affair.",
+      "source": "BBC Technology",
+      "published": "2026-11-12T04:18:33+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.957
+    },
+    {
+      "title": "Famed ship SS United States sunk off coast of Florida",
+      "summary": "Activists unsuccessfully fought for the historic liner to be preserved and turned into a museum, but it will now become the world's largest artificial ocean reef.",
+      "source": "BBC World",
+      "published": "2026-11-12T04:03:13+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.954
+    },
+    {
+      "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+      "summary": "Colom is the first black person from the southern state elected to the US Senate in over 140 years.",
+      "source": "BBC World",
+      "published": "2026-11-12T04:00:30+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.953
+    },
+    {
+      "title": "Scott Colom claims victory as he addresses supporters in Mississippi following his historic Senate victory – as it happened",
+      "summary": "Colom beat Republican Cindy Hyde-Smith after race was called eight days after midterm election day Democrat Scott Colom wins race for US Senate in Mississippi How Colom won deep-red Mississippi with little help from Democrats Sign up for the US Breaking News email Some Democrats, out of the 11 who missed the",
+      "source": "The Guardian",
+      "published": "2026-11-12T03:46:55+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+      "importance": 1.95
     },
     {
       "title": "US and rest of world must follow China’s lead on green energy, says John Kerry",
@@ -97,311 +297,111 @@
       "source": "The Guardian",
       "published": "2026-11-10T12:08:23+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
-      "importance": 2.159
+      "importance": 1.949
     },
     {
-      "title": "Morgan McSweeney calls for rethink of cabinet ministers’ ‘quasi-judicial’ powers",
-      "summary": "Keir Starmer’s former chief of staff also says the ‘thicket of rules’ about how PMs operate should be cleared away Keir Starmer’s former chief of staff, Morgan McSweeney, has called for a rethink of “quasi-judicial” powers given to cabinet ministers such as the energy secretary’s ability to approve future",
+      "title": "Historic US ocean liner sinks near Florida to become world’s largest artificial reef",
+      "summary": "SS United States, which set transatlantic speed record during maiden voyage in 1952, is sunk off coast of Destin The historic SS United States has reached the end of its journey at sea, sinking Wednesday off the coast of Destin, Florida, where it will begin a new life underwater as an artificial reef. The",
       "source": "The Guardian",
-      "published": "2026-11-11T16:12:11+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/11/morgan-mcsweeney-calls-for-rethink-of-cabinet-ministers-quasi-judicial-powers",
-      "importance": 1.999
-    },
-    {
-      "title": "Some Democrats who missed key procedural vote to impeach Pete Hegseth blame traffic jam in DC – US politics live",
-      "summary": "11 Democrats missed vote, which failed 211-204 and effectively killed effort to oust Hegseth for now; Trump hails ‘exoneration of a Great American Patriot’ House Republicans block effort to impeach Hegseth Sign up for the US Breaking News email Some Democrats, out of the 11 who missed the key procedural vote",
-      "source": "The Guardian",
-      "published": "2026-11-11T16:12:35+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
-      "importance": 1.999
-    },
-    {
-      "title": "Protesters gather in Spain for first general strike in 14 years",
-      "summary": "Thousands are protesting across Spain over housing and the high cost of living.",
-      "source": "BBC Business",
-      "published": "2026-11-11T16:12:12+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cwj0587gde88o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.999
-    },
-    {
-      "title": "US envoys to meet Putin and Zelenskyy separately after peace talks see some progress - as it happened",
-      "summary": "This blog is now closed Separately, I am also keeping an eye on Italy, with reports that several schools are being evacuated after receiving bomb threats by emails. According to Rai and Sky TG24 , the email was signed by “Mikhail Andropov” – the same name used in several hoax bomb alarms against European",
-      "source": "The Guardian",
-      "published": "2026-11-11T16:08:20+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
-      "importance": 1.998
-    },
-    {
-      "title": "Argentine lawyer mocks UK’s sovereignty claim in Falklands oil case",
-      "summary": "Lawyer says Britain wrong to believe in historic doctrine that Crown has sovereignty over parts of oceans Britain should not be permitted to act as a 17th century colonial power treating the waters around the Falkland Islands as a Dominium maris Britannici , Argentina has told an international tribunal.",
-      "source": "The Guardian",
-      "published": "2026-11-11T16:05:45+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case",
-      "importance": 1.997
-    },
-    {
-      "title": "BMI alternative for identifying obesity ‘could prevent misdiagnosis in millions’",
-      "summary": "Combining body mass index with other measurements and tests would lead to better care and outcomes, experts say An alternative to BMI for diagnosing obesity could prevent misdiagnosis in millions of people worldwide, according to doctors who found it more accurately distinguished healthy people from those",
-      "source": "The Guardian",
-      "published": "2026-11-11T16:00:53+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/11/bmi-alternative-obesity-diagnosis-body-mass-index",
-      "importance": 1.996
-    },
-    {
-      "title": "Hoax bomb threats made to hundreds of schools in Scotland and Northern Ireland",
-      "summary": "Police assure parents and teachers that warnings were bogus despite pupils being evacuated from some sites Hundreds of schools in Scotland and Northern Ireland were hit by a fresh wave of hoax bomb threats on Wednesday, with some sites evacuated as a precaution. Police said at least 470 schools, from",
-      "source": "The Guardian",
-      "published": "2026-11-11T15:58:39+00:00",
-      "url": "https://www.theguardian.com/education/2026/nov/11/bomb-threats-hoax-schools-scotland-northern-ireland",
-      "importance": 1.996
-    },
-    {
-      "title": "Chancellor confident budget will lead to growth despite OBR not finding evidence to prove it – UK politics live",
-      "summary": "The OBR normally only includes growth measures in their scorecard if they will increase growth by at least 0.1% of GDP Here are some more comments on the report for the Casey commission released today looking at how social care is run in England. (See 9.56am .) This is from Natasha Curry, deputy director of",
-      "source": "The Guardian",
-      "published": "2026-11-11T15:56:38+00:00",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/11/andy-burnham-kemi-badenoch-pmqs-cop31-windfarms-europe-brexit-latest-news-updates",
-      "importance": 1.995
-    },
-    {
-      "title": "The superpower battle over energy – and what it means for your bills",
-      "summary": "A tug-of-war between China and the US could have a big impact on energy costs, but who will win?",
-      "source": "BBC Science",
-      "published": "2026-11-10T00:08:28+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.992
-    },
-    {
-      "title": "Is the US blue wave a turning point for Europe, too?",
-      "summary": "Far-right populists remain insurgent and pro-EU governments are braced for Trump’s betrayal. But the midterms also showed that democracy can fight back • Don’t get This Is Europe delivered to your inbox? Sign up here “Is Maga dead?” asked Margaret, a Guardian reader in Switzerland, in a live Q&A with our",
-      "source": "The Guardian",
-      "published": "2026-11-11T15:40:52+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too",
-      "importance": 1.991
-    },
-    {
-      "title": "David Walliams cameo cut from Australian film after sexual harassment allegations",
-      "summary": "Children’s author and comedian, who wrote the book on which the movie Fing! is based, will also be removed from the publicity tour Revealed: David Walliams accused of using celebrity status to prey on young women for sex What are the key legal issues surrounding the David Walliams case? The distributors of",
-      "source": "The Guardian",
-      "published": "2026-11-11T15:13:23+00:00",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/david-walliams-australian-film-cameo-cut-sexual-harassment-allegations-ntwnfb",
-      "importance": 1.985
-    },
-    {
-      "title": "Dua Lipa, Tame Impala and SZA set to headline Coachella 2027",
-      "summary": "The California festival has unveiled its lineup, which also features Madonna, Phoebe Bridgers and Robyn The lineup for the 2027 Coachella festival has been revealed after months of speculation, with Dua Lipa , SZA and Tame Impala set to headline the California event. The festival will also see Madonna",
-      "source": "The Guardian",
-      "published": "2026-11-11T15:07:38+00:00",
-      "url": "https://www.theguardian.com/music/2026/nov/11/coachella-lineup-2027-dua-lipa",
-      "importance": 1.984
-    },
-    {
-      "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-      "summary": "Leonardo Bertulazzi, a former member of the Marxist guerrilla group the Red Brigades, was about to be extradited to his home country of Italy.",
-      "source": "BBC World",
-      "published": "2026-11-11T14:56:11+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.981
-    },
-    {
-      "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-      "summary": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
-      "source": "BBC World",
-      "published": "2026-11-11T14:51:26+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.98
-    },
-    {
-      "title": "Virginia man convicted of murder says he did not kill wife before dismembering her body",
-      "summary": "Naresh Bhatt, 28, said he dismembered wife’s body after she took her own life, a claim prosecutors called ‘ridiculous’ A Virginia man who claimed he dismembered his wife’s body after she took her own life is facing a life sentence after a jury convicted him of first-degree murder. Prosecutors in Manassas",
-      "source": "The Guardian",
-      "published": "2026-11-11T14:40:16+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/virginia-murder-dismembering",
-      "importance": 1.977
-    },
-    {
-      "title": "‘Hear the goals during the afterlife’: Barça fans get to inter ashes at club’s new memorial",
-      "summary": "Memorial FC Barcelona, part of upgrade to Camp Nou stadium, will consist of 26,000 niches where fans can deposit their ashes Lifelong supporters of Barcelona football club will soon be able to cheer on the club from beyond the grave – but, like everything else at Barça, eternal devotion comes at a price. As",
-      "source": "The Guardian",
-      "published": "2026-11-11T14:30:15+00:00",
-      "url": "https://www.theguardian.com/football/2026/nov/11/barcelona-fc-camp-nou-stadium-memorial-fans-ashes",
-      "importance": 1.975
-    },
-    {
-      "title": "Spain sees widespread disruption in first general strike for 14 years",
-      "summary": "Protests are also expected in the biggest cities less than three weeks before Spaniards vote in parliamentary elections.",
-      "source": "BBC World",
-      "published": "2026-11-11T14:06:27+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.97
-    },
-    {
-      "title": "Toby Jones stars in film about UK Mars mission",
-      "summary": "Mackenzie Crook directs the story of the British professor whose probe lost contact upon touchdown.",
-      "source": "BBC Science",
-      "published": "2026-11-11T14:10:11+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqm2l304w0x9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.97
-    },
-    {
-      "title": "Killing of journalist underscores deteriorating conditions in Ecuador",
-      "summary": "Tomás Beltrán was shot dead amid gang warfare that has turned Latin American country into one of its most violent Tomás Beltrán was manoeuvring his car into his garage on Sunday night when the Ecuadorian journalist was shot dead. Beltrán ran a Facebook page with news about Calceta, a small city in the",
-      "source": "The Guardian",
-      "published": "2026-11-11T14:00:52+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
-      "importance": 1.968
-    },
-    {
-      "title": "First Covid lockdowns, then alcohol to your door: rise in young Victorians with liver diseases prompts fears",
-      "summary": "While young people are drinking less across the board, one expert says a small minority are actually drinking huge and damaging amounts of alcohol Get our breaking news email , free app or daily news podcast Rising numbers of young people are being hospitalised with severe, irreversible liver disease, as",
-      "source": "The Guardian",
-      "published": "2026-11-11T14:00:51+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/12/first-covid-lockdowns-then-alcohol-to-your-door-rise-in-young-victorians-with-liver-diseases-prompts-fears",
-      "importance": 1.968
-    },
-    {
-      "title": "‘We were quite surprised’: Finland’s embassy goes viral with staff training day post on Instagram",
-      "summary": "After a promotion for a ‘Finnish Dinner Date’ went ‘a bit viral’, the Canberra envoy’s next post became an unlikely social media hit Get our daily political email , free app or daily news podcast The embassy of Finland in Canberra was temporarily closed on Tuesday, 10 November. Millions of people across the",
-      "source": "The Guardian",
-      "published": "2026-11-11T14:00:50+00:00",
-      "url": "https://www.theguardian.com/media/2026/nov/11/we-were-quite-surprised-finlands-embassy-goes-viral-with-staff-training-day-post-on-instagram",
-      "importance": 1.968
-    },
-    {
-      "title": "Anthony Albanese fails to mention fossil fuels in Cop summit speech",
-      "summary": "Australian PM boasts of success in renewables but is criticised for not addressing the nation’s huge coal industry Get our breaking news email , free app or daily news podcast Anthony Albanese said governments had a “solemn responsibility” to act on climate change in a historic speech to the UN’s climate",
-      "source": "The Guardian",
-      "published": "2026-11-11T13:57:22+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/11/anthony-albanese-avoids-mention-of-fossil-fuels-in-cop-summit-speech",
-      "importance": 1.967
-    },
-    {
-      "title": "Millions join Spain’s first general strike in 14 years in protest at rising housing costs",
-      "summary": "The 24-hour stoppage has drawn high participation across sectors and comes weeks before election in which far right could gain power Millions of people across Spain have joined the country’s first general strike in 14 years, setting up picket lines to protest against soaring housing prices before an election",
-      "source": "The Guardian",
-      "published": "2026-11-11T13:54:36+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
-      "importance": 1.967
-    },
-    {
-      "title": "Air traffic control boss says he was ‘most disliked person in the UK’ after flight chaos",
-      "summary": "Nats chief says he ‘quite enjoyed’ ignoring calls from Ryanair CEO to quit over system outages in September Business live – latest updates The boss of Nats has said he was “the most disliked person in the UK” after air traffic control systems failed twice in September, disrupting flights for hundreds of",
-      "source": "The Guardian",
-      "published": "2026-11-11T13:35:52+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/11/air-traffic-control-nats-martin-rolfe-outages-ryanair",
-      "importance": 1.962
-    },
-    {
-      "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-      "summary": "The sow and her three cubs were responsible for killing Jennifer Balcarras, 48, and her daughter Selah Reed, 20, earlier this month.",
-      "source": "BBC World",
-      "published": "2026-11-11T13:24:29+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.96
-    },
-    {
-      "title": "US could lose measles-free status soon as RFK Jr’s pushes anti-vaccine agenda",
-      "summary": "Country is in the middle of worst measles outbreak since 1991, with more than 5,400 cases nationally The United States could lose its measles elimination status this week, an event likely to cement health secretary Robert F. Kennedy Jr’s legacy of meddling in vaccine policies amid the worst outbreak of the",
-      "source": "The Guardian",
-      "published": "2026-11-11T13:00:49+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/measles-status-rfk-jr-anti-vaccine-agenda",
-      "importance": 1.954
-    },
-    {
-      "title": "What are cold weather payments and who can get them?",
-      "summary": "Some people in England, Wales and Northern Ireland can get help with heating costs during cold spells.",
-      "source": "BBC Business",
-      "published": "2026-11-11T12:49:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c87470q4w21o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.952
-    },
-    {
-      "title": "Six thousand Italian schools hit by threats in suspected bomb hoax",
-      "summary": "More than 700 schools in Scotland and Northern Ireland also received hoax bomb threats. It is unclear whether the incidents are connected.",
-      "source": "BBC World",
-      "published": "2026-11-11T12:30:29+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.947
-    },
-    {
-      "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang leader",
-      "summary": "The 400 Mawozo gang was targeted by El Salvador's military, which has deployed thousands of troops to combat Haiti's gang violence crisis.",
-      "source": "BBC World",
-      "published": "2026-11-11T12:14:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.944
-    },
-    {
-      "title": "Pete Hegseth survives effort to impeach him | First Thing",
-      "summary": "House Republicans block impeachment resolution that cited US military actions in Iran, Yemen and Venezuela. Plus, SS United States to be sunk to create artificial reef Don’t already get First Thing in your inbox? Sign up here Good morning. House Republicans have blocked an effort to impeach Pete Hegseth .",
-      "source": "The Guardian",
-      "published": "2026-11-11T12:04:36+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/11/first-thing-pete-hegseth-survives-effort-to-impeach-him",
+      "published": "2026-11-12T03:07:16+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
       "importance": 1.941
     },
     {
-      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth",
-      "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
+      "title": "Australian teen missing in bush for six days rescued alive",
+      "summary": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
       "source": "BBC World",
-      "published": "2026-11-11T11:47:22+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.937
-    },
-    {
-      "title": "Transport workers in Chile block highways in protest over surging fuel prices",
-      "summary": "Hundreds of bus and lorry drivers are blocking traffic along major highway routes across the country.",
-      "source": "BBC World",
-      "published": "2026-11-11T11:34:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6e3d895zne7o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-12T02:40:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
       "importance": 1.934
     },
     {
-      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
-      "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
-      "source": "BBC Technology",
-      "published": "2026-11-11T11:33:24+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.934
-    },
-    {
-      "title": "One Nation Victoria candidate apologises for slew of offensive comments about lesbians, Indians and Julia Gillard",
-      "summary": "Exclusive: Chris Moore, running for the party in Greenvale, made derogatory social media comments between 2010 and 2012 Get our daily political email , free app or daily news podcast A One Nation candidate in Victoria has apologised for a series of offensive comments including repeated references to",
+      "title": "‘He is never leaving the house again’: mother reunites with son missing for six days in Victorian bushland",
+      "summary": "William, 17, was reported missing after straying from his camp near Walhalla in Victoria’s Gippsland region Get our breaking news email , free app or daily news podcast A teenager has shared an emotional reunion with his mother after being found alive following almost a week lost in dense bushland. Police",
       "source": "The Guardian",
-      "published": "2026-11-11T10:12:42+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/11/one-nation-candidate-apologises-offensive-comments-ntwnfb",
-      "importance": 1.915
+      "published": "2026-11-12T02:30:28+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/12/missing-teenager-walhalla-found-alive-australian-bush",
+      "importance": 1.932
     },
     {
-      "title": "The Global Story",
-      "summary": "Tracking down the men who have made serious money from internet porn.",
+      "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+      "summary": "Four critical in hospital as firefighters dig through rubble in Flatbush after building next to construction site collapses Firefighters dug through the rubble of a three-story building in Brooklyn on Wednesday after it collapsed at the edge of a construction site, killing at least two people and trapping",
+      "source": "The Guardian",
+      "published": "2026-11-12T01:51:00+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+      "importance": 1.923
+    },
+    {
+      "title": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
+      "summary": "Police called to Lane Cove North on Wednesday after sofa found containing human torso believed to be that of adult man Get our breaking news email , free app or daily news podcast New South Wales police have entered their second day searching for human remains after a human torso was found in bushland on",
+      "source": "The Guardian",
+      "published": "2026-11-12T01:27:01+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb",
+      "importance": 1.918
+    },
+    {
+      "title": "Significant drop in levels of toxic 'forever' chemicals in England's rivers",
+      "summary": "The decline has been put down to severe restrictions placed on the substances' use.",
+      "source": "BBC Science",
+      "published": "2026-11-12T00:12:59+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.9
+    },
+    {
+      "title": "From Paris to DC - why offices are being turned into apartments",
+      "summary": "Office buildings with low occupancy rates are being transformed into flats.",
       "source": "BBC Business",
-      "published": "2026-11-11T10:00:00+00:00",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct8mlr?at_medium=RSS&at_campaign=rss",
-      "importance": 1.912
+      "published": "2026-11-12T00:05:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.899
     },
     {
-      "title": "Tearful Smith switches allegiance to Netherlands",
-      "summary": "Tatjana Smith, South Africa's most decorated Olympian, switches allegiance to the Netherlands.",
-      "source": "BBC World",
-      "published": "2026-11-11T09:45:14+00:00",
-      "url": "https://www.bbc.co.uk/sport/swimming/articles/cmx27n60n3wno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.909
-    },
-    {
-      "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
-      "summary": "Real Madrid player Vinícius Jr sent a surprise message to 13-year-old fan Zaher who lost both his legs after being hit by a drone in Khartoum, in 2024.",
-      "source": "BBC World",
-      "published": "2026-11-11T09:28:36+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cm894wg251pzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.905
-    },
-    {
-      "title": "Woman in Saudi Arabia sentenced to 100 lashes for giving birth outside marriage",
-      "summary": "Rights groups condemn reported punishment of Kenyan migrant worker as an ‘act of violence’ A Kenyan mother in Saudi Arabia has reportedly been sentenced to 100 lashes after giving birth outside marriage. Under the Saudi sharia law system, sex outside marriage is a criminal offence. But it is women who are",
+      "title": "Bronze leg found in Scottish bog sheds new light on Roman occupation",
+      "summary": "Once thought to have been looted by Scottish tribes, the gilded limb is the centrepiece of a new exhibition on Roman Scotland in Edinburgh A large bronze leg found in a bog in rural Scotland more than 200 years ago and then hidden away in a duke’s storeroom is helping to rewrite the history of the Roman",
       "source": "The Guardian",
-      "published": "2026-11-11T09:15:44+00:00",
-      "url": "https://www.theguardian.com/global-development/2026/nov/11/woman-in-saudi-arabia-sentenced-to-100-lashes-for-giving-birth-outside-marriage",
-      "importance": 1.902
+      "published": "2026-11-12T00:01:03+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/12/bronze-leg-scottish-bog-roman-occupation-exhibit",
+      "importance": 1.898
+    },
+    {
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
+      "summary": "The proposed radical overhaul of the welfare system would move under-25s off the main sickness benefits.",
+      "source": "BBC Business",
+      "published": "2026-11-11T23:22:04+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.889
+    },
+    {
+      "title": "Two skulls likely belonging to enslaved people returned to Brazil after Harvard used them in eugenics studies",
+      "summary": "Remains believed to have belonged to Africans or Afro-Brazilians repatriated after being flown back by diplomats Two skulls, including that of a man believed to have taken part in Brazil’s greatest slave revolt but whose remains were taken to the United States and used in racist eugenics studies at Harvard",
+      "source": "The Guardian",
+      "published": "2026-11-11T22:50:37+00:00",
+      "url": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+      "importance": 1.881
+    },
+    {
+      "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+      "summary": "Tens of thousands of people have been taking part in the strike, called by the country's main unions over housing and the high cost of living.",
+      "source": "BBC World",
+      "published": "2026-11-11T22:07:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.871
+    },
+    {
+      "title": "Poundland owner extracted millions when chain was on ‘knife-edge’, MPs say",
+      "summary": "Retailer’s management to seek two-week extension of legal protection from creditors in high court MPs have accused the owner of Poundland of extracting millions of pounds from the budget retailer when it was on a “knife-edge” as it seeks extra time to secure a rescue deal. The management of Poundland, which",
+      "source": "The Guardian",
+      "published": "2026-11-11T19:10:26+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/11/poundland-owner-chain-mps-claim-high-court",
+      "importance": 1.83
+    },
+    {
+      "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
+      "summary": "Leonardo Bertulazzi, 74, awaiting extradition to Italy, reportedly used harness to flee custody A 74-year-old former member of Italy ’s radical Marxist group the Red Brigades has escaped from house arrest in Argentina , the country’s security ministry confirmed on Wednesday, after he reportedly hid his ankle",
+      "source": "The Guardian",
+      "published": "2026-11-11T19:00:33+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
+      "importance": 1.828
     }
   ]
 }
