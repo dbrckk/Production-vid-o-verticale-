@@ -1,15 +1,31 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T06:41:21.103941+00:00",
+  "generated_at": "2026-11-14T15:10:47.761344+00:00",
   "max_age_hours": 72,
   "items": [
+    {
+      "title": "Health is wealth? Polymarket and Kalshi now host bets on measles and other US health crises",
+      "summary": "Experts warn of risks of platforms hosting bets tied to US public health – including vaccine mandates and drug trials The sign was pasted on a construction fence next to an elementary school in the Brooklyn borough of New York City. “Vaccines,” it proclaimed in bold capital letters against a blue",
+      "source": "The Guardian",
+      "published": "2026-11-14T12:00:44+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/14/measles-kalshi-polymarket-betting",
+      "importance": 3.056
+    },
     {
       "title": "Climate action discussed at youth COP meeting",
       "summary": "School children gather to discuss climate issues to coincide with the COP31 conference in Turkey.",
       "source": "BBC Science",
       "published": "2026-11-13T14:39:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.877
+      "importance": 2.759
+    },
+    {
+      "title": "Second catch attempt for SpaceX Starship rocket",
+      "summary": "The attempt follows an unsuccessful effort to catch of the rocket’s booster which instead came down in the ocean.",
+      "source": "BBC World",
+      "published": "2026-11-14T14:18:41+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.538
     },
     {
       "title": "China rules out hosting Cop33 climate summit in 2028",
@@ -17,7 +33,23 @@
       "source": "The Guardian",
       "published": "2026-11-12T22:00:15+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
-      "importance": 2.646
+      "importance": 2.528
+    },
+    {
+      "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
+      "summary": "People around the world have contended with unprecedented weather events and their fatal effects caused by the climate catastrophe After the world’s hottest summer since records began in 1850, the death toll from extreme weather in 2026 is already in the high tens of thousands. That is a conservative",
+      "source": "The Guardian",
+      "published": "2026-11-14T13:00:44+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+      "importance": 2.52
+    },
+    {
+      "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
+      "summary": "Members of Congress and advocates warn that returning people to their home countries could be a death sentence Dozens of Afghans who are currently in the US but fear being deported back to Afghanistan along with a larger group and possibly killed by the Taliban are experiencing “fragile relief” this weekend",
+      "source": "The Guardian",
+      "published": "2026-11-14T13:00:47+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
+      "importance": 2.52
     },
     {
       "title": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
@@ -25,23 +57,7 @@
       "source": "BBC Science",
       "published": "2026-11-12T11:03:53+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmg46y7wev42o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.494
-    },
-    {
-      "title": "SpaceX Starship megarocket blasts off before expected return for reuse",
-      "summary": "Flight 15 expected to orbit Earth about 14 times over 22 hours, before company catches it at Starbase, Texas SpaceX’s Starship megarocket blasted off from Texas on Friday afternoon as the aerospace company sought to make history with a double catch of its reusable rocket, but ultimately fell short. Starship",
-      "source": "The Guardian",
-      "published": "2026-11-14T00:53:52+00:00",
-      "url": "https://www.theguardian.com/science/2026/nov/13/spacex-starship-megarocket-blasts-off-earth-orbit",
-      "importance": 2.47
-    },
-    {
-      "title": "Setback for SpaceX Starship rocket's double-catch test",
-      "summary": "Elon Musk’s company aborted an attempted catch of the rocket’s booster - instead it came down in the ocean.",
-      "source": "BBC World",
-      "published": "2026-11-14T00:01:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.457
+      "importance": 2.376
     },
     {
       "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
@@ -49,7 +65,7 @@
       "source": "The Guardian",
       "published": "2026-11-13T20:38:25+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
-      "importance": 2.41
+      "importance": 2.293
     },
     {
       "title": "Rosalía scoops historic third best album award at Latin Grammys",
@@ -57,7 +73,7 @@
       "source": "BBC World",
       "published": "2026-11-13T11:38:54+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.286
+      "importance": 2.168
     },
     {
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
@@ -65,7 +81,7 @@
       "source": "The Guardian",
       "published": "2026-11-13T08:49:19+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
-      "importance": 2.246
+      "importance": 2.128
     },
     {
       "title": "Flood victim, 95, lived in Wetherspoons until she died after her home was destroyed",
@@ -73,7 +89,7 @@
       "source": "BBC Science",
       "published": "2026-11-13T06:05:49+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.208
+      "importance": 2.091
     },
     {
       "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
@@ -81,7 +97,63 @@
       "source": "BBC Business",
       "published": "2026-11-13T01:17:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.142
+      "importance": 2.024
+    },
+    {
+      "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+      "summary": "‘We have further to go,’ says Huw Pill after increase to 4% last month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next month and again in early 2027 to combat rising inflation, its chief economist has said. Signalling a sharp rise in mortgage",
+      "source": "The Guardian",
+      "published": "2026-11-14T14:42:27+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
+      "importance": 1.993
+    },
+    {
+      "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
+      "summary": "Authorities declined to file charges against napping woman whose truck accelerated on to field during youth game A soccer mom napping in her pickup truck when it suddenly accelerated on to the field at a Kansas youth tournament where her child was playing, killing two people , won’t face criminal charges, a",
+      "source": "The Guardian",
+      "published": "2026-11-14T14:38:36+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
+      "importance": 1.993
+    },
+    {
+      "title": "What we know about the ground stop and what to do if you're affected",
+      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+      "source": "BBC World",
+      "published": "2026-11-14T14:20:57+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.988
+    },
+    {
+      "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
+      "summary": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and alcohol-production plant. The discovery reported",
+      "source": "The Guardian",
+      "published": "2026-11-14T14:13:49+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+      "importance": 1.987
+    },
+    {
+      "title": "Torture survivors may have been sent to Sussex asylum camp unlawfully, documentary reveals",
+      "summary": "Undercover ITV report also shows inadequate welfare checks at ex-military base run by firm of asylum camp billionaire Graham King Asylum seekers accommodated at a controversial military base in East Sussex have been subjected to inadequate welfare checks, and torture survivors may have been placed there",
+      "source": "The Guardian",
+      "published": "2026-11-14T14:07:47+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/14/asylum-seekers-crowborough-torture-survivors-military-camp",
+      "importance": 1.985
+    },
+    {
+      "title": "Milder weekend forecast in UK as autumn freeze eases off",
+      "summary": "Met Office says overnight frost to give way on Saturday to ‘fine day with some sunshine’ in most regions The UK should have a milder weekend as the unusual autumn freeze eases off, after cold health alerts were issued and temperatures plummeted overnight, forecasters have said. After frost on Saturday",
+      "source": "The Guardian",
+      "published": "2026-11-14T13:10:33+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost",
+      "importance": 1.972
+    },
+    {
+      "title": "Underwater salt mine closure in Ohio raises safety and supply concerns for winter",
+      "summary": "Questions remain about reason for leak, safety of drinking water and where salt can be sourced for roads during winter When water last month began gushing through a crack in the ceiling of a Morton Salt mine in Ohio, the company had only one option: shut the mine down for good. For locals in and around",
+      "source": "The Guardian",
+      "published": "2026-11-14T13:00:45+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
+      "importance": 1.97
     },
     {
       "title": "BBC Inside Science",
@@ -89,7 +161,119 @@
       "source": "BBC Science",
       "published": "2026-11-12T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978l?at_medium=RSS&at_campaign=rss",
-      "importance": 2.082
+      "importance": 1.964
+    },
+    {
+      "title": "Microsoft says services fully restored after global outage hits governments",
+      "summary": "Tech company says operations restored to all customers and regions affected by one of worst IT failures in years Microsoft has said its service has been fully restored after a massive outage that saw widespread disruption to governments, businesses and public services around the world. The technology company",
+      "source": "The Guardian",
+      "published": "2026-11-14T11:54:31+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
+      "importance": 1.955
+    },
+    {
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "summary": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
+      "source": "BBC World",
+      "published": "2026-11-14T11:41:20+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.952
+    },
+    {
+      "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+      "summary": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
+      "source": "BBC World",
+      "published": "2026-11-14T11:30:10+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.949
+    },
+    {
+      "title": "Eisenkot condemns Netanyahu’s ‘racist’ campaign against Israel’s Arab citizens",
+      "summary": "Prime ministerial hopeful calls Arab minority ‘an integral part of the Israeli story’ as he seeks to form government Israeli prime ministerial hopeful Gadi Eisenkot condemned a “racist and aggressive campaign of delegitimisation” against the country’s Arab citizens, after the caretaker prime minister",
+      "source": "The Guardian",
+      "published": "2026-11-14T11:11:03+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+      "importance": 1.945
+    },
+    {
+      "title": "How to spot November's planetary parade in the pre-dawn sky",
+      "summary": "The planets of Mercury, Venus, Mars and Jupiter will align in pre-dawn sky throughout November.",
+      "source": "BBC Science",
+      "published": "2026-11-14T11:07:51+00:00",
+      "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.944
+    },
+    {
+      "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
+      "summary": "Activists dumped rocks off Norfolk coast on site of Burnham-backed project in protest against seabed trawling The giant offshore windfarms backed by Andy Burnham this week may face unexpected stumbling blocks after Greenpeace activists unwittingly dumped about 15 tonnes of boulders on to the site as part of",
+      "source": "The Guardian",
+      "published": "2026-11-14T11:00:43+00:00",
+      "url": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms",
+      "importance": 1.942
+    },
+    {
+      "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+      "summary": "Prime Minister Péter Magyar promised a sweeping anti-corruption drive after ousting Orbán in April.",
+      "source": "BBC World",
+      "published": "2026-11-14T10:42:20+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.938
+    },
+    {
+      "title": "Football kit giveaway aims to boost participation",
+      "summary": "Millie Bright helps hand out free kit to young girls to help them keep playing in spite of costs.",
+      "source": "BBC Business",
+      "published": "2026-11-14T08:13:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.903
+    },
+    {
+      "title": "The rise of 'housefishing' by estate agents",
+      "summary": "The rise of 'housefishing' by estate agents.",
+      "source": "BBC Business",
+      "published": "2026-11-14T07:45:50+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.897
+    },
+    {
+      "title": "Extreme weather leaves gardeners hedging their bets",
+      "summary": "Gardeners across Sussex are changing their planting strategies after this year's unprecedented heat.",
+      "source": "BBC Science",
+      "published": "2026-11-14T07:12:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6qj5r2qzqpwo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.889
+    },
+    {
+      "title": "What do Christmas market traders say about rising prices?",
+      "summary": "From £8 bratwursts to £11 Yorkshire pudding wraps, why is the cost of the markets rising year on year?",
+      "source": "BBC Business",
+      "published": "2026-11-14T07:11:26+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c95y152k8erpo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.889
+    },
+    {
+      "title": "UK-EU breakthrough will allow airport-style checks at Eurotunnel to avoid border ‘chaos’",
+      "summary": "Eurotunnel owner Getlink wants to replicate ‘airport experience’ at Folkestone and Calais, without making people get out of cars Airport-style passport and fingerprinting controls are to be introduced at Eurotunnel in an attempt to prevent “short-term and long-term chaos” in Folkestone and Calais. In a",
+      "source": "The Guardian",
+      "published": "2026-11-14T07:00:38+00:00",
+      "url": "https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border",
+      "importance": 1.887
+    },
+    {
+      "title": "Bluetongue virus confirmed on County Down farm",
+      "summary": "Officials from the Department of Agriculture, Environment and Rural Affairs said the virus had been detected in three sheep.",
+      "source": "BBC Science",
+      "published": "2026-11-14T06:56:58+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.886
+    },
+    {
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "summary": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+      "source": "BBC World",
+      "published": "2026-11-14T06:42:27+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.882
     },
     {
       "title": "Food bank sees donations drop by 10% each year",
@@ -97,7 +281,7 @@
       "source": "BBC Business",
       "published": "2026-11-14T06:33:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6702j7e48eno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.998
+      "importance": 1.88
     },
     {
       "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
@@ -105,7 +289,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T06:19:04+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
-      "importance": 1.995
+      "importance": 1.877
     },
     {
       "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
@@ -113,15 +297,7 @@
       "source": "BBC Business",
       "published": "2026-11-12T14:29:59+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.992
-    },
-    {
-      "title": "UK tells blind Nigerian pensioner to go home to India",
-      "summary": "Woman who has lived in UK for 26 years refused indefinite leave to remain under Home Office’s new settlement rules A blind Nigerian pensioner who has lived in the UK for 26 years has been told by the Home Office she can safely “go home” to India. Comfort*, 67, arrived in the UK in 2000, and shortly after",
-      "source": "The Guardian",
-      "published": "2026-11-14T06:00:37+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/14/uk-tells-blind-nigerian-pensioner-to-go-home-to-india",
-      "importance": 1.991
+      "importance": 1.874
     },
     {
       "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
@@ -129,7 +305,7 @@
       "source": "BBC World",
       "published": "2026-11-14T05:52:31+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
+      "importance": 1.871
     },
     {
       "title": "University hounded out of Hungary by Orbán reaches out to new government",
@@ -137,7 +313,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T05:00:35+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/14/university-hungary-orban-soros-ceu",
-      "importance": 1.977
+      "importance": 1.859
     },
     {
       "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
@@ -145,7 +321,7 @@
       "source": "BBC Business",
       "published": "2026-11-12T13:27:09+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.977
+      "importance": 1.859
     },
     {
       "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
@@ -153,31 +329,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T04:56:06+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
-      "importance": 1.976
-    },
-    {
-      "title": "What we know about the longest ground stop since 9/11",
-      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack or a Microsoft outage.",
-      "source": "BBC World",
-      "published": "2026-11-14T03:45:21+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.959
-    },
-    {
-      "title": "US flight outage: FAA lifts nationwide ground stop; Trump officials suggest new tech overwhelmed old equipment – as it happened",
-      "summary": "This live blog is now closed. Follow our latest coverage here. US aviation agency lifts nationwide ground stop affecting all air travel Chaos at US airports as flight stoppage grinds travel plans to a halt Sign up for the Breaking News US email In other tech-related news, the Microsoft outage is still going.",
-      "source": "The Guardian",
-      "published": "2026-11-14T03:11:35+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-      "importance": 1.951
-    },
-    {
-      "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
-      "summary": "No passengers or crew killed or critically hurt after tanker collides with river cruise ship on Mississippi, officials say In what the city’s mayor declared a “miracle on the Mississippi”, all passengers were accounted for – with none killed or critically hurt – after a tanker collided with a river cruise",
-      "source": "The Guardian",
-      "published": "2026-11-14T03:11:28+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
-      "importance": 1.951
+      "importance": 1.858
     },
     {
       "title": "UK economy grows at fastest rate for more than two years",
@@ -185,23 +337,7 @@
       "source": "BBC Business",
       "published": "2026-11-12T11:20:25+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.948
-    },
-    {
-      "title": "‘It’s frustrating’: chaos at US airports as stoppage grinds travel plans to a halt",
-      "summary": "Travelers and crew feeling ‘pissed’ or ‘lucky’ depending on level of upset amid nationwide ground stop The US Federal Aviation Administration’s decision to ground all flights on Friday threw airports and travel plans into chaos across the country, as passengers on planes and in airport terminals were",
-      "source": "The Guardian",
-      "published": "2026-11-14T02:49:59+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage",
-      "importance": 1.946
-    },
-    {
-      "title": "US aviation agency lifts nationwide ground stop affecting all air travel",
-      "summary": "Sean Duffy, the transportation secretary, said the airspace was now open and the problem had been identified Chaos at US airports as stoppage grinds travel plans to a halt What to know about the rare nationwide ground stop issued by the FAA The Federal Aviation Administration (FAA) has lifted a nationwide",
-      "source": "The Guardian",
-      "published": "2026-11-14T02:15:53+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-      "importance": 1.939
+      "importance": 1.83
     },
     {
       "title": "'We'll get home one day' - US travellers impacted by nationwide ground stop",
@@ -209,7 +345,7 @@
       "source": "BBC World",
       "published": "2026-11-14T01:47:36+00:00",
       "url": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.932
+      "importance": 1.814
     },
     {
       "title": "Stuart Bonds made ‘racist’ and ‘divisive’ comments. But One Nation is showing no sign of dumping the NSW candidate",
@@ -217,15 +353,15 @@
       "source": "The Guardian",
       "published": "2026-11-14T01:00:30+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/14/one-nation-nsw-candidate-stuart-bonds-ntwnfb",
-      "importance": 1.921
+      "importance": 1.803
     },
     {
       "title": "Tech Now",
       "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
       "source": "BBC Technology",
       "published": "2026-11-14T01:00:00+00:00",
-      "url": "https://www.bbc.co.uk/iplayer/live/bbcnews?at_medium=RSS&at_campaign=rss",
-      "importance": 1.921
+      "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
+      "importance": 1.803
     },
     {
       "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
@@ -233,15 +369,7 @@
       "source": "BBC Technology",
       "published": "2026-11-14T00:37:01+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.916
-    },
-    {
-      "title": "Bluetongue virus confirmed on County Down farm",
-      "summary": "Officials from the Department of Agriculture, Environment and Rural Affairs said the virus had been detected in three sheep.",
-      "source": "BBC Science",
-      "published": "2026-11-14T00:17:45+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.911
+      "importance": 1.798
     },
     {
       "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
@@ -249,7 +377,7 @@
       "source": "BBC World",
       "published": "2026-11-14T00:03:56+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.908
+      "importance": 1.79
     },
     {
       "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
@@ -257,7 +385,7 @@
       "source": "BBC World",
       "published": "2026-11-14T00:03:52+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.908
+      "importance": 1.79
     },
     {
       "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
@@ -265,7 +393,7 @@
       "source": "BBC World",
       "published": "2026-11-13T23:40:45+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.903
+      "importance": 1.785
     },
     {
       "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
@@ -273,135 +401,7 @@
       "source": "BBC World",
       "published": "2026-11-13T23:11:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.896
-    },
-    {
-      "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
-      "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
-      "source": "BBC World",
-      "published": "2026-11-13T23:00:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.893
-    },
-    {
-      "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
-      "summary": "Statement is rare instance of a prominent Jewish political leader taking a strong stand in defence of Arab Israelis Israeli prime ministerial hopeful Gadi Eisenkot accused caretaker premier Benjamin Netanyahu on Friday of fuelling a “racist” campaign against the country’s Arab minority, after he sought to",
-      "source": "The Guardian",
-      "published": "2026-11-13T22:36:38+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
-      "importance": 1.888
-    },
-    {
-      "title": "US Air Force responds to suspected drone activity at RAF Lakenheath",
-      "summary": "No personnel, aircraft or infrastructure at Suffolk site affected, says US military The US Air Force has said it responded to “suspected unauthorised drone activity” on Friday night at an RAF airbase in the east of England. No personnel, aircraft or infrastructure were affected, the air force said. Continue",
-      "source": "The Guardian",
-      "published": "2026-11-13T22:31:05+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
-      "importance": 1.887
-    },
-    {
-      "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
-      "summary": "Anti-corruption agency carried out searches as part of investigation into Orbán-era minister accused of taking bribes Hungary’s anti-corruption agency said on Friday it had seized cash worth $19.5m (£14.8m) buried in forests and hidden elsewhere while investigating an ex-minister of nationalist former leader",
-      "source": "The Guardian",
-      "published": "2026-11-13T22:12:54+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
-      "importance": 1.882
-    },
-    {
-      "title": "'Summer was a wake-up call, winter could be dire' warning over food supplies",
-      "summary": "Wales needs to grow more fruit and veg or it will be at the mercy of wars and climate change, one expert says.",
-      "source": "BBC Science",
-      "published": "2026-11-12T06:02:55+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.874
-    },
-    {
-      "title": "Rip out ugly clutter to help revive UK high streets, says thinktank",
-      "summary": "Exclusive: Report says restricting cars and freeing up pavement space could be a cheap way to bring shoppers back The long decline of the high street is a problem that has gripped British governments for years. But what if there was a solution no one had considered before – doing it all on the cheap?",
-      "source": "The Guardian",
-      "published": "2026-11-13T21:34:43+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/13/rip-out-clutter-to-retail-revive-high-streets-thinktank",
-      "importance": 1.873
-    },
-    {
-      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
-      "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
-      "source": "BBC World",
-      "published": "2026-11-13T21:14:22+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.869
-    },
-    {
-      "title": "Watch: Cruise ship seen sinking after collision with cargo ship in New Orleans",
-      "summary": "All passengers have been accounted for after a cargo ship collided with a docked cruise ship.",
-      "source": "BBC World",
-      "published": "2026-11-13T21:15:24+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.869
-    },
-    {
-      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-      "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
-      "source": "BBC Technology",
-      "published": "2026-11-13T21:15:41+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.869
-    },
-    {
-      "title": "Probation officers in England and Wales vote to strike over pay and workloads",
-      "summary": "Move deals blow to government’s plans to release thousands of prisoners early to tackle prison overcrowding The government’s plans to release thousands of prisoners early were dealt a blow on Friday after probation officers across England and Wales voted to strike over pay and excessive workloads. Members of",
-      "source": "The Guardian",
-      "published": "2026-11-13T20:51:01+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/13/probation-officers-in-england-and-wales-vote-for-strike-action-over-pay-and-workloads",
-      "importance": 1.863
-    },
-    {
-      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-      "summary": "Scott Bessent suggests Howard Lutnick’s commerce department failed to ban exports of Nvidia's chips to a firm thought to have links with China.",
-      "source": "BBC World",
-      "published": "2026-11-13T19:53:57+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.85
-    },
-    {
-      "title": "Nvidia scandal: US treasury chief blames Lutnick’s commerce department over alleged lack of action",
-      "summary": "US commerce secretary faces sack as questions emerge over senior Trump officials’ knowledge of alleged Chinese spy’s ties to Jensen Huang US politics – live updates The US commerce secretary, Howard Lutnick, is facing growing pressure over his apparent lack of action over the Nvidia spying scandal as other",
-      "source": "The Guardian",
-      "published": "2026-11-13T19:51:28+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "importance": 1.85
-    },
-    {
-      "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
-      "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
-      "source": "BBC Technology",
-      "published": "2026-11-13T19:53:57+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.85
-    },
-    {
-      "title": "Walliams allegations prompt calls for staggered age of consent at 16 and 17",
-      "summary": "Barrister say law does not adequately recognise power imbalance between young people and much older adults Allegations against Russell Brand and, separately, David Walliams, which he denies, have led to calls for greater legal protection for 16- and 17-year-olds from sexual exploitation by older adults. A",
-      "source": "The Guardian",
-      "published": "2026-11-13T19:23:07+00:00",
-      "url": "https://www.theguardian.com/law/2026/nov/13/staggered-age-of-consent-16-17-law",
-      "importance": 1.843
-    },
-    {
-      "title": "Democratic Senate leader Schumer set to face leadership challenge",
-      "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
-      "source": "BBC World",
-      "published": "2026-11-13T19:03:10+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.838
-    },
-    {
-      "title": "What could El Niño mean for winter weather in the US and Canada?",
-      "summary": "El Niño winters typically bring more rain in the southern USA and drier, warmer conditions further north but the impacts on snowfall are complex.",
-      "source": "BBC Science",
-      "published": "2026-11-13T18:50:15+00:00",
-      "url": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.835
+      "importance": 1.778
     }
   ]
 }
