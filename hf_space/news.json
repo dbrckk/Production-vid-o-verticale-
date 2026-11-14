@@ -1,23 +1,23 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-14T15:10:47.761344+00:00",
+  "generated_at": "2026-11-14T20:47:09.119133+00:00",
   "max_age_hours": 72,
   "items": [
-    {
-      "title": "Health is wealth? Polymarket and Kalshi now host bets on measles and other US health crises",
-      "summary": "Experts warn of risks of platforms hosting bets tied to US public health – including vaccine mandates and drug trials The sign was pasted on a construction fence next to an elementary school in the Brooklyn borough of New York City. “Vaccines,” it proclaimed in bold capital letters against a blue",
-      "source": "The Guardian",
-      "published": "2026-11-14T12:00:44+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/14/measles-kalshi-polymarket-betting",
-      "importance": 3.056
-    },
     {
       "title": "Climate action discussed at youth COP meeting",
       "summary": "School children gather to discuss climate issues to coincide with the COP31 conference in Turkey.",
       "source": "BBC Science",
       "published": "2026-11-13T14:39:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.759
+      "importance": 2.681
+    },
+    {
+      "title": "Cold weather health alerts issued for parts of UK on Sunday night",
+      "summary": "UKHSA warns of threat to vulnerable people from frosty conditions expected to last until Thursday More cold health alerts have been issued for parts of the UK on Sunday night and next week. The alerts were issued by the UK Health Security Agency (UKHSA) for the north-west, West Midlands and Yorkshire and the",
+      "source": "The Guardian",
+      "published": "2026-11-14T16:42:04+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost",
+      "importance": 2.493
     },
     {
       "title": "Second catch attempt for SpaceX Starship rocket",
@@ -25,7 +25,7 @@
       "source": "BBC World",
       "published": "2026-11-14T14:18:41+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.538
+      "importance": 2.46
     },
     {
       "title": "China rules out hosting Cop33 climate summit in 2028",
@@ -33,7 +33,7 @@
       "source": "The Guardian",
       "published": "2026-11-12T22:00:15+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/12/china-rules-out-hosting-cop33-climate-summit-in-2028",
-      "importance": 2.528
+      "importance": 2.45
     },
     {
       "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
@@ -41,7 +41,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T13:00:44+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-      "importance": 2.52
+      "importance": 2.442
     },
     {
       "title": "Trump ‘whiplash’ on deportations putting Afghans in turmoil: ‘People already survived a war’",
@@ -49,7 +49,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T13:00:47+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/14/afghan-deportations-trump-administration",
-      "importance": 2.52
+      "importance": 2.442
     },
     {
       "title": "Burnham says climate consensus 'gone' but pledges 'new era of leadership'",
@@ -57,7 +57,7 @@
       "source": "BBC Science",
       "published": "2026-11-12T11:03:53+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmg46y7wev42o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.376
+      "importance": 2.298
     },
     {
       "title": "Russia is ‘setting traps’ in Ukraine talks, EU foreign policy chief warns",
@@ -65,15 +65,7 @@
       "source": "The Guardian",
       "published": "2026-11-13T20:38:25+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/13/russia-ukraine-talks-kaja-kallas-eu-foreign-policy-dublin-summit",
-      "importance": 2.293
-    },
-    {
-      "title": "Rosalía scoops historic third best album award at Latin Grammys",
-      "summary": "The Spanish singer is recognised for her fourth album Lux which was released last year to rave reviews.",
-      "source": "BBC World",
-      "published": "2026-11-13T11:38:54+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.168
+      "importance": 2.215
     },
     {
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
@@ -81,7 +73,7 @@
       "source": "The Guardian",
       "published": "2026-11-13T08:49:19+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
-      "importance": 2.128
+      "importance": 2.051
     },
     {
       "title": "Flood victim, 95, lived in Wetherspoons until she died after her home was destroyed",
@@ -89,7 +81,135 @@
       "source": "BBC Science",
       "published": "2026-11-13T06:05:49+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.091
+      "importance": 2.013
+    },
+    {
+      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+      "summary": "The US has not confirmed the Ukrainian president's comments which follow meetings US envoys had with him and Russia's Vladimir Putin.",
+      "source": "BBC World",
+      "published": "2026-11-14T20:41:45+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.999
+    },
+    {
+      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+      "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
+      "source": "BBC World",
+      "published": "2026-11-14T20:23:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.994
+    },
+    {
+      "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
+      "summary": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and alcohol-production plant. The discovery reported",
+      "source": "The Guardian",
+      "published": "2026-11-14T20:14:27+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+      "importance": 1.992
+    },
+    {
+      "title": "How telecoms upgrade work sparked US flight chaos",
+      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
+      "source": "BBC World",
+      "published": "2026-11-14T20:03:48+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.99
+    },
+    {
+      "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+      "summary": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
+      "source": "BBC World",
+      "published": "2026-11-14T19:14:33+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.979
+    },
+    {
+      "title": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
+      "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
+      "source": "BBC World",
+      "published": "2026-11-14T19:12:25+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.978
+    },
+    {
+      "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+      "summary": "Filipino entry, pop and rap song Sobra-Sobra, takes 19-year-old to victory at grand final in Bangkok Carmelle Collado has won the first Eurovision song contest Asia, taking the Philippines’ entry, Sobra-Sobra , to victory in Bangkok on Saturday night, at the first regional edition of the contest to be staged",
+      "source": "The Guardian",
+      "published": "2026-11-14T19:01:32+00:00",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+      "importance": 1.976
+    },
+    {
+      "title": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
+      "summary": "MPs across factional lines share concerns about policy that legal expert says ‘paints the imprisonment of children as therapeutic’ Get our daily political email , free app or daily news podcast Until December last year, Meena Singh was the Victorian commissioner for Aboriginal children and young people, a",
+      "source": "The Guardian",
+      "published": "2026-11-14T19:00:53+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
+      "importance": 1.975
+    },
+    {
+      "title": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+      "summary": "Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email , free app or daily news podcast Outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of his party and",
+      "source": "The Guardian",
+      "published": "2026-11-14T19:00:52+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+      "importance": 1.975
+    },
+    {
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "summary": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+      "source": "BBC World",
+      "published": "2026-11-14T18:28:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.968
+    },
+    {
+      "title": "Philippines wins first Eurovision Song Contest Asia",
+      "summary": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
+      "source": "BBC World",
+      "published": "2026-11-14T18:17:58+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.965
+    },
+    {
+      "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
+      "summary": "Sotheby's says it will work with the heirs of a family who had previously owned the artwork to try and reach a solution.",
+      "source": "BBC World",
+      "published": "2026-11-14T18:00:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.961
+    },
+    {
+      "title": "Family of Watford woman set alight ‘desperate for answers’ after attack",
+      "summary": "Appeal for information comes after Brenda Raymond, 80, was set on fire outside her flat on Monday The family of an elderly woman who was set on fire outside a block of flats in Watford have said they are “desperate for answers”. Brenda Raymond, 80, was found set alight outside her flat on Caractacus Cottage",
+      "source": "The Guardian",
+      "published": "2026-11-14T17:59:12+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack",
+      "importance": 1.961
+    },
+    {
+      "title": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+      "summary": "Thousands of flights still canceled as officials blamed ageing air control system for nationwide grounding The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) ground stop that delayed or canceled thousands of flight stemmed from routine maintenance. At a news",
+      "source": "The Guardian",
+      "published": "2026-11-14T17:11:18+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
+      "importance": 1.95
+    },
+    {
+      "title": "NHS England on track to miss key cancer treatment target by 10,000 patients",
+      "summary": "Exclusive: 2,850 more patients a month would need to be treated within 62 days to meet March 2027 goal, as experts warn of failure of leadership Nearly 10,000 more cancer patients in England will not be treated on time because the government will fail to meet its targets, amid a failure of leadership, focus",
+      "source": "The Guardian",
+      "published": "2026-11-14T17:00:49+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients",
+      "importance": 1.948
+    },
+    {
+      "title": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+      "summary": "Jonathan Kreiss-Tomkins’ victory means Democrats will now hold 30 US governorships after midterm blowout Democrats have captured Alaska ’s governor’s seat for the first time in nearly three decades, marking another major victory for their party in a midterm election period that has dramatically shifted",
+      "source": "The Guardian",
+      "published": "2026-11-14T16:58:33+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins",
+      "importance": 1.947
     },
     {
       "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
@@ -97,15 +217,47 @@
       "source": "BBC Business",
       "published": "2026-11-13T01:17:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.024
+      "importance": 1.946
     },
     {
-      "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-      "summary": "‘We have further to go,’ says Huw Pill after increase to 4% last month as Bank seeks to tackle rising inflation The Bank of England will probably need to raise interest rates next month and again in early 2027 to combat rising inflation, its chief economist has said. Signalling a sharp rise in mortgage",
+      "title": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
+      "summary": "Raising borrowing costs too far risks laying waste to whatever growth there is in the economy A head of steam is building up behind the Bank of England raising interest rates again. With the latest forecasts by the central bank showing inflation rising to 5% next spring, another increase in the cost of",
       "source": "The Guardian",
-      "published": "2026-11-14T14:42:27+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist",
-      "importance": 1.993
+      "published": "2026-11-14T16:00:48+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy",
+      "importance": 1.934
+    },
+    {
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
+      "source": "BBC World",
+      "published": "2026-11-14T15:53:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.932
+    },
+    {
+      "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
+      "summary": "The foreign ministry in Abuja says 6 Nigerians with underlying health problems have died this year while transiting through Addis Ababa.",
+      "source": "BBC World",
+      "published": "2026-11-14T15:42:54+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.93
+    },
+    {
+      "title": "Andy Burnham says UK has ‘lost more than we gained’ through Brexit",
+      "summary": "PM accuses Tories of burning ‘all our bridges’ and says deal he is pursuing with EU will ‘get food prices down’ Andy Burnham has said the UK has “lost more than we gained” since leaving the EU, the prime minister’s latest in a string of comments criticising Brexit. Outlining his desire to form closer ties",
+      "source": "The Guardian",
+      "published": "2026-11-14T15:34:54+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/14/andy-burnham-says-uk-lost-more-than-we-gained-brexit",
+      "importance": 1.928
+    },
+    {
+      "title": "How a US extradition bid over Hamas allegations put a wealthy activist before a Spanish court",
+      "summary": "James ‘Fergie’ Chambers, a Cox Enterprises heir, faced a two-hour hearing about alleged support for Hamas A two-hour hearing in Spain’s high court Friday on the US extradition request of wealthy leftwing activist and philanthropist James “Fergie” Chambers turned out to be a study in contrasts. Chambers’s",
+      "source": "The Guardian",
+      "published": "2026-11-14T15:00:47+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/14/activist-extradition-gaza-hamas-spanish-court",
+      "importance": 1.92
     },
     {
       "title": "Napping Kansas driver whose truck sped on to soccer field and killed two won’t be charged",
@@ -113,47 +265,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T14:38:36+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/14/kansas-driver-soccer-field-deaths-no-charges",
-      "importance": 1.993
-    },
-    {
-      "title": "What we know about the ground stop and what to do if you're affected",
-      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack.",
-      "source": "BBC World",
-      "published": "2026-11-14T14:20:57+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.988
-    },
-    {
-      "title": "Bomb found at Illinois ethanol plant, prompting evacuations",
-      "summary": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and alcohol-production plant. The discovery reported",
-      "source": "The Guardian",
-      "published": "2026-11-14T14:13:49+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-      "importance": 1.987
-    },
-    {
-      "title": "Torture survivors may have been sent to Sussex asylum camp unlawfully, documentary reveals",
-      "summary": "Undercover ITV report also shows inadequate welfare checks at ex-military base run by firm of asylum camp billionaire Graham King Asylum seekers accommodated at a controversial military base in East Sussex have been subjected to inadequate welfare checks, and torture survivors may have been placed there",
-      "source": "The Guardian",
-      "published": "2026-11-14T14:07:47+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/14/asylum-seekers-crowborough-torture-survivors-military-camp",
-      "importance": 1.985
-    },
-    {
-      "title": "Milder weekend forecast in UK as autumn freeze eases off",
-      "summary": "Met Office says overnight frost to give way on Saturday to ‘fine day with some sunshine’ in most regions The UK should have a milder weekend as the unusual autumn freeze eases off, after cold health alerts were issued and temperatures plummeted overnight, forecasters have said. After frost on Saturday",
-      "source": "The Guardian",
-      "published": "2026-11-14T13:10:33+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost",
-      "importance": 1.972
-    },
-    {
-      "title": "Underwater salt mine closure in Ohio raises safety and supply concerns for winter",
-      "summary": "Questions remain about reason for leak, safety of drinking water and where salt can be sourced for roads during winter When water last month began gushing through a crack in the ceiling of a Morton Salt mine in Ohio, the company had only one option: shut the mine down for good. For locals in and around",
-      "source": "The Guardian",
-      "published": "2026-11-14T13:00:45+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
-      "importance": 1.97
+      "importance": 1.915
     },
     {
       "title": "BBC Inside Science",
@@ -161,31 +273,7 @@
       "source": "BBC Science",
       "published": "2026-11-12T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978l?at_medium=RSS&at_campaign=rss",
-      "importance": 1.964
-    },
-    {
-      "title": "Microsoft says services fully restored after global outage hits governments",
-      "summary": "Tech company says operations restored to all customers and regions affected by one of worst IT failures in years Microsoft has said its service has been fully restored after a massive outage that saw widespread disruption to governments, businesses and public services around the world. The technology company",
-      "source": "The Guardian",
-      "published": "2026-11-14T11:54:31+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
-      "importance": 1.955
-    },
-    {
-      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-      "summary": "The Ukrainian president says US envoys touted the exchange as part of efforts to end the war with Russia.",
-      "source": "BBC World",
-      "published": "2026-11-14T11:41:20+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.952
-    },
-    {
-      "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-      "summary": "Around 130 people were rescued from a cruise ship after it was struck by a tanker while docked in New Orleans, Louisiana on Friday.",
-      "source": "BBC World",
-      "published": "2026-11-14T11:30:10+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.949
+      "importance": 1.886
     },
     {
       "title": "Eisenkot condemns Netanyahu’s ‘racist’ campaign against Israel’s Arab citizens",
@@ -193,7 +281,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T11:11:03+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
-      "importance": 1.945
+      "importance": 1.867
     },
     {
       "title": "How to spot November's planetary parade in the pre-dawn sky",
@@ -201,15 +289,7 @@
       "source": "BBC Science",
       "published": "2026-11-14T11:07:51+00:00",
       "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.944
-    },
-    {
-      "title": "Greenpeace boulders may delay building of £12bn windfarms in North Sea",
-      "summary": "Activists dumped rocks off Norfolk coast on site of Burnham-backed project in protest against seabed trawling The giant offshore windfarms backed by Andy Burnham this week may face unexpected stumbling blocks after Greenpeace activists unwittingly dumped about 15 tonnes of boulders on to the site as part of",
-      "source": "The Guardian",
-      "published": "2026-11-14T11:00:43+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/14/greenpeace-boulders-norfolk-vanguard-windfarms",
-      "importance": 1.942
+      "importance": 1.866
     },
     {
       "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
@@ -217,7 +297,7 @@
       "source": "BBC World",
       "published": "2026-11-14T10:42:20+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.938
+      "importance": 1.86
     },
     {
       "title": "Football kit giveaway aims to boost participation",
@@ -225,7 +305,7 @@
       "source": "BBC Business",
       "published": "2026-11-14T08:13:40+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck20v651473qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.903
+      "importance": 1.826
     },
     {
       "title": "The rise of 'housefishing' by estate agents",
@@ -233,7 +313,7 @@
       "source": "BBC Business",
       "published": "2026-11-14T07:45:50+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cmx295lz17wzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.897
+      "importance": 1.819
     },
     {
       "title": "Extreme weather leaves gardeners hedging their bets",
@@ -241,7 +321,7 @@
       "source": "BBC Science",
       "published": "2026-11-14T07:12:14+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6qj5r2qzqpwo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.889
+      "importance": 1.811
     },
     {
       "title": "What do Christmas market traders say about rising prices?",
@@ -249,7 +329,7 @@
       "source": "BBC Business",
       "published": "2026-11-14T07:11:26+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c95y152k8erpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.889
+      "importance": 1.811
     },
     {
       "title": "UK-EU breakthrough will allow airport-style checks at Eurotunnel to avoid border ‘chaos’",
@@ -257,7 +337,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T07:00:38+00:00",
       "url": "https://www.theguardian.com/travel/2026/nov/14/eurotunnel-drive-in-fingerprint-trial-folkestone-calais-border",
-      "importance": 1.887
+      "importance": 1.809
     },
     {
       "title": "Bluetongue virus confirmed on County Down farm",
@@ -265,7 +345,7 @@
       "source": "BBC Science",
       "published": "2026-11-14T06:56:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.886
+      "importance": 1.808
     },
     {
       "title": "Microsoft says services fully restored after day-long global outage",
@@ -273,7 +353,7 @@
       "source": "BBC World",
       "published": "2026-11-14T06:42:27+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.882
+      "importance": 1.804
     },
     {
       "title": "Food bank sees donations drop by 10% each year",
@@ -281,7 +361,7 @@
       "source": "BBC Business",
       "published": "2026-11-14T06:33:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6702j7e48eno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.88
+      "importance": 1.802
     },
     {
       "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
@@ -289,7 +369,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T06:19:04+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/14/microsoft-deeply-sorry-for-global-disruption-that-could-have-billion-dollar-impact-on-australia",
-      "importance": 1.877
+      "importance": 1.799
     },
     {
       "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
@@ -297,15 +377,7 @@
       "source": "BBC Business",
       "published": "2026-11-12T14:29:59+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.874
-    },
-    {
-      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-      "summary": "Trump will discuss the \"reduction of nuclear weapons\" during the unprecedented talks, a spokeswoman says.",
-      "source": "BBC World",
-      "published": "2026-11-14T05:52:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.871
+      "importance": 1.796
     },
     {
       "title": "University hounded out of Hungary by Orbán reaches out to new government",
@@ -313,7 +385,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T05:00:35+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/14/university-hungary-orban-soros-ceu",
-      "importance": 1.859
+      "importance": 1.781
     },
     {
       "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
@@ -321,7 +393,7 @@
       "source": "BBC Business",
       "published": "2026-11-12T13:27:09+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.859
+      "importance": 1.781
     },
     {
       "title": "US-bound flights out of Australia delayed after telecommunications outage grounded American planes",
@@ -329,79 +401,7 @@
       "source": "The Guardian",
       "published": "2026-11-14T04:56:06+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/14/us-bound-flights-out-of-australia-grounded-as-telecommunications-outage-affects-american-travel",
-      "importance": 1.858
-    },
-    {
-      "title": "UK economy grows at fastest rate for more than two years",
-      "summary": "﻿The UK economy grew by 0.7% in the three months to September, according to official figures.",
-      "source": "BBC Business",
-      "published": "2026-11-12T11:20:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.83
-    },
-    {
-      "title": "'We'll get home one day' - US travellers impacted by nationwide ground stop",
-      "summary": "Passengers throughout the country were impacted over what the Federal Aviation Administration (FAA) describes as “safety and communication issues”.",
-      "source": "BBC World",
-      "published": "2026-11-14T01:47:36+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c893ryz7lw33o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.814
-    },
-    {
-      "title": "Stuart Bonds made ‘racist’ and ‘divisive’ comments. But One Nation is showing no sign of dumping the NSW candidate",
-      "summary": "The former coalminer’s claim Australians are being ‘demographically replaced’ sparked wide criticism, but his party has shown no signs of dumping him Get our breaking news email , free app or daily news podcast In a Facebook video from a Sydney anti-immigration rally on Sunday, as a man dressed like a",
-      "source": "The Guardian",
-      "published": "2026-11-14T01:00:30+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/14/one-nation-nsw-candidate-stuart-bonds-ntwnfb",
-      "importance": 1.803
-    },
-    {
-      "title": "Tech Now",
-      "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
-      "source": "BBC Technology",
-      "published": "2026-11-14T01:00:00+00:00",
-      "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
-      "importance": 1.803
-    },
-    {
-      "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
-      "summary": "The next title in the series is expected to be the biggest video game release ever.",
-      "source": "BBC Technology",
-      "published": "2026-11-14T00:37:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.798
-    },
-    {
-      "title": "Jojo the gorilla has spent his life alone. Can he finally find a companion?",
-      "summary": "Jojo was poached as an infant and grew up in captivity. His keepers want to find him a friend - but it's not straightforward.",
-      "source": "BBC World",
-      "published": "2026-11-14T00:03:56+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwm2mn272nqlo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.79
-    },
-    {
-      "title": "Arrested generals and a threatened VP: President's son fuels Ugandan succession fever",
-      "summary": "The 52-year-old general’s provocative posts and military threats have fuelled rumours of a dynastic succession.",
-      "source": "BBC World",
-      "published": "2026-11-14T00:03:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmlydy0xw45wo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.79
-    },
-    {
-      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-      "summary": "The collision leaves 32 people in hospital with non-critical injuries, but no-one unaccounted for.",
-      "source": "BBC World",
-      "published": "2026-11-13T23:40:45+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.785
-    },
-    {
-      "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
-      "summary": "A new wave of youth dissent swept India this summer, fuelled by frustration and irreverent online satire.",
-      "source": "BBC World",
-      "published": "2026-11-13T23:11:51+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.778
+      "importance": 1.78
     }
   ]
 }
