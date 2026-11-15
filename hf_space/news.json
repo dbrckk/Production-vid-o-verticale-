@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-15T15:42:31.535831+00:00",
+  "generated_at": "2026-11-15T21:05:43.673734+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - Middle East crisis live",
-      "summary": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning. Jordan, Egypt, Saudi Arabia, and Qatar have all",
+      "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
+      "summary": "Prime minister promises ‘root-and-branch rethink’ of support for young people as Milburn report advises sweeping changes to some benefits Andy Burnham: The crisis facing Britain’s young people is politicians’ fault. To fix it, we need a generational response Andy Burnham has pledged to intervene as early as",
       "source": "The Guardian",
-      "published": "2026-11-15T15:24:35+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
-      "importance": 2.546
+      "published": "2026-11-15T17:04:55+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
+      "importance": 2.494
     },
     {
       "title": "Gender-diverse Australian sailors barred from US submarines despite Aukus deal, documents reveal",
@@ -17,23 +17,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T14:00:19+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/16/gender-diverse-australian-sailors-barred-from-us-submarines-despite-aukus-deal-documents-reveal-ntwnfb",
-      "importance": 2.526
-    },
-    {
-      "title": "Cold and health alerts issued for Scotland and northern England as snow and ice expected",
-      "summary": "UKHSA warns of health impact on those vulnerable to cold and urges people to check in with neighbours Cold weather warnings have been issued for parts of the UK, and alerts for the risk to health services are due to begin on Sunday evening. The Met Office issued yellow weather warnings for ice for central",
-      "source": "The Guardian",
-      "published": "2026-11-15T13:30:18+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/15/uk-weather-cold-health-alerts-scotland-northern-england-snow-ice",
-      "importance": 2.519
-    },
-    {
-      "title": "‘Shameless venality’: how a flurry of lawsuits has thwarted Trump’s self-enrichment schemes",
-      "summary": "Courts have issued stinging rebukes to president’s ‘blatant’ financial ploys as pro-democracy groups defend ‘government of laws, not of men’ pillar Donald Trump’s legal and political ploys to increase his wealth and boost Republican electoral prospects have fueled lawsuits by non-partisan groups, prompting",
-      "source": "The Guardian",
-      "published": "2026-11-15T13:00:15+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/15/trump-self-enrichment-lawsuits",
-      "importance": 2.512
+      "importance": 2.452
     },
     {
       "title": "Climate action discussed at youth COP meeting",
@@ -41,7 +25,7 @@
       "source": "BBC Science",
       "published": "2026-11-13T14:39:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckx28ly7y387o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.419
+      "importance": 2.344
     },
     {
       "title": "SpaceX catches part of its Starship rocket on return to Earth",
@@ -49,15 +33,7 @@
       "source": "BBC Science",
       "published": "2026-11-14T23:15:10+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cw23j8pkk421o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.321
-    },
-    {
-      "title": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
-      "summary": "Although booster exploded, company caught upper stage for first time in campaign to make megarocket reusable SpaceX’s megarocket Starship returned to its Texas launch tower on Saturday, a milestone in the company’s efforts to make the craft suitable for human spaceflight. The 171ft (52-meter) bullet-shaped",
-      "source": "The Guardian",
-      "published": "2026-11-14T22:35:06+00:00",
-      "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
-      "importance": 2.312
+      "importance": 2.247
     },
     {
       "title": "SpaceX successfully catches top of huge Starship rocket for first time",
@@ -65,7 +41,7 @@
       "source": "BBC Science",
       "published": "2026-11-14T22:15:52+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.308
+      "importance": 2.233
     },
     {
       "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
@@ -73,7 +49,7 @@
       "source": "BBC World",
       "published": "2026-11-14T22:09:40+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.306
+      "importance": 2.231
     },
     {
       "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather",
@@ -81,7 +57,167 @@
       "source": "The Guardian",
       "published": "2026-11-14T13:00:44+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
-      "importance": 2.179
+      "importance": 2.104
+    },
+    {
+      "title": "Czechs rally against plan to switch funding of public media",
+      "summary": "Protesters say the move will stifle media freedom, while the government insists broadcasters need to cut costs.",
+      "source": "BBC World",
+      "published": "2026-11-15T21:03:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.0
+    },
+    {
+      "title": "LSU star MiLaysia Fulwiley arrested after allegedly striking police officer with car",
+      "summary": "Guard allegedly tried to flee traffic stop in Baton Rouge Tigers say they are aware of situation involving player LSU guard MiLaysia Fulwiley, one of the ninth-ranked Tigers’ leading scorers, was arrested after allegedly striking a police officer while attempting to flee from a traffic stop. LSU’s athletic",
+      "source": "The Guardian",
+      "published": "2026-11-15T19:53:07+00:00",
+      "url": "https://www.theguardian.com/sport/2026/nov/15/lsu-star-milaysia-fulwiley-arrested-after-allegedly-striking-police-officer-with-car",
+      "importance": 1.983
+    },
+    {
+      "title": "‘Pull back the curtain’ on treatment of sexual assault victims in court, says UK government adviser",
+      "summary": "Professor urges ministers to use awareness triggered by Russell Brand conviction to examine use of rape myths in trials The debate triggered by high-profile cases must “pull back the curtain” on the treatment of people making allegations of sexual offences in the criminal justice system in England and Wales",
+      "source": "The Guardian",
+      "published": "2026-11-15T19:40:23+00:00",
+      "url": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
+      "importance": 1.98
+    },
+    {
+      "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+      "summary": "The Ukrainian president says restrictions are still in place and making it difficult to stop Russian attacks.",
+      "source": "BBC World",
+      "published": "2026-11-15T19:32:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.978
+    },
+    {
+      "title": "Ronaldinho makes comeback in Ravenna win",
+      "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
+      "source": "BBC World",
+      "published": "2026-11-15T19:31:48+00:00",
+      "url": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.978
+    },
+    {
+      "title": "Texas puts to death man who beheaded three children, hours after Oklahoma execution",
+      "summary": "Oklahoma man, 73, executed for killing ex’s estranged husband, as US nears 40 executions for second straight year A Texas man convicted of fatally stabbing and beheading his three young children in a squalid, windowless apartment in 2003 was recently executed. John Allen Rubio, 46, was pronounced dead at",
+      "source": "The Guardian",
+      "published": "2026-11-15T19:27:24+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/15/texas-execution-john-allen-rubio-oklahoma-james-pavatt",
+      "importance": 1.977
+    },
+    {
+      "title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+      "summary": "The US transport secretary says that normal air-traffic operations may not be restored until Monday.",
+      "source": "BBC World",
+      "published": "2026-11-15T19:20:53+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.976
+    },
+    {
+      "title": "Trident nuclear submarine concludes record underwater deployment",
+      "summary": "HMS Vengeance’s seven-month patrol prompts fears over slow pace of maintenance of ageing fleet and strain on crew A Trident nuclear submarine has concluded a record seven-month deployment, returning to the Faslane naval base in Scotland where its crew was greeted by the defence secretary, Wes Streeting. HMS",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:50:33+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/15/trident-nuclear-submarine-hms-vengeance-record-tour",
+      "importance": 1.969
+    },
+    {
+      "title": "Senator-elect Scott Colom vows to ensure Trump follows through on his promises",
+      "summary": "Mississippi Democrat points to commitments Trump made: lower prices, halt endless wars and release Epstein files After recently becoming the first Mississippi Democrat elected to the US Senate in more than four decades, Scott Colom pledged to try to ensure Donald Trump “follows through on the commitments” he",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:48:10+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/15/scott-colom-mississippi-senate-trump",
+      "importance": 1.968
+    },
+    {
+      "title": "Chris Van Hollen says he has path to win Senate leader over Chuck Schumer",
+      "summary": "Progressive US senator calling for more inclusion within Democratic caucus cites openness to change among peers Democratic US senator Chris Van Hollen on Sunday escalated his bid to lead his party’s incoming Senate majority rather than Chuck Schumer , asserting that he has a path to victory amid a dedicated",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:46:49+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/15/chris-van-hollen-senate-majority-leader",
+      "importance": 1.968
+    },
+    {
+      "title": "Pope Leo rides in helicopter cockpit during Peru trip",
+      "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
+      "source": "BBC World",
+      "published": "2026-11-15T18:38:11+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.966
+    },
+    {
+      "title": "Labour rebellion over Rosebank oilfield expected to top 100 MPs",
+      "summary": "Total of 75 have already signed letter to Burnham opposing plans as discontent also grows over Europe and welfare changes As many as 100 Labour MPs could sign a letter opposing the giant Rosebank oilfield, as discontent among backbenchers looks likely to surge this week, with rebellions also brewing over",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:35:10+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/15/rosebank-oilfield-mps-rebellion",
+      "importance": 1.965
+    },
+    {
+      "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+      "summary": "Authorities say Russian intelligence service ordered attack Estonian PM links to Tallinn’s support for Ukraine Estonia will close all its border crossings with Russia from 1 December after a suspected sabotage attack on a drone maker in the Baltic state over the weekend, which authorities said was ordered by",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:23:12+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+      "importance": 1.962
+    },
+    {
+      "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+      "summary": "Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budget Hundreds of thousands of Czechs have rallied in Prague to protest against a perceived government attempt to stifle media freedom. The gathering on Sunday to save the mandatory licence fees that fund",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:20:36+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+      "importance": 1.962
+    },
+    {
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "summary": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation. Blasts sounded over the",
+      "source": "The Guardian",
+      "published": "2026-11-15T18:03:56+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+      "importance": 1.958
+    },
+    {
+      "title": "Planned asylum seeker detention centre next to Oxfordshire sewage works criticised",
+      "summary": "Thames Water says detainees at proposed accommodation should expect to experience insect swarms and strong smells A Home Office plan to build asylum seeker detention facilities next to a sewage pump is facing objections after water company officials warned that detainees should expect to experience insect",
+      "source": "The Guardian",
+      "published": "2026-11-15T16:47:39+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/15/planned-asylum-seeker-detention-centre-next-to-oxfordshire-sewage-works-criticised",
+      "importance": 1.94
+    },
+    {
+      "title": "Transportation secretary Sean Duffy blames prior presidents and Congress for flight stoppage",
+      "summary": "Democratic senator Chris Van Hollen says Trump administration hasn’t properly invested existing funds Donald Trump’s administration on Sunday blamed the travel chaos stemming from Friday’s four-hour nationwide flight stoppage on prior presidents as well as a lack of congressional funding – though a",
+      "source": "The Guardian",
+      "published": "2026-11-15T16:18:49+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/15/transportation-secretary-sean-duffy-faa-flight-stoppag",
+      "importance": 1.934
+    },
+    {
+      "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+      "summary": "Workers are striking over demands for a minimum wage of 30,000 taka (£182) a month.",
+      "source": "BBC World",
+      "published": "2026-11-15T16:15:20+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.933
+    },
+    {
+      "title": "Judge blocks Trump closure of 'Trash Island' Washington DC golf course on Sunday",
+      "summary": "The temporary order is part of a months-long challenge to the US president's plans to upgrade East Potomac Golf Links into a championship course.",
+      "source": "BBC World",
+      "published": "2026-11-15T15:57:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.929
+    },
+    {
+      "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - as it happened",
+      "summary": "Iran has targeted airbase in Bahrain in latest resumption of strikes since september The state-run Bahrain news agency is also carrying the statements of each country in the region responding to Iran’s actions targeting their Gulf neighbour this morning. Jordan, Egypt, Saudi Arabia, and Qatar have all",
+      "source": "The Guardian",
+      "published": "2026-11-15T15:59:04+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+      "importance": 1.929
     },
     {
       "title": "How telecoms upgrade work sparked US flight chaos",
@@ -89,7 +225,7 @@
       "source": "BBC World",
       "published": "2026-11-15T14:57:15+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.99
+      "importance": 1.915
     },
     {
       "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
@@ -97,31 +233,7 @@
       "source": "BBC World",
       "published": "2026-11-15T14:56:21+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.989
-    },
-    {
-      "title": "New Orleans port files $1m lawsuit over 'miracle on the Mississippi' tanker collision",
-      "summary": "The lawsuit filed by New Orleans officials also requests that the tanker involved in the collision with the cruise ship be seized and sold to pay for damages.",
-      "source": "BBC World",
-      "published": "2026-11-15T14:33:59+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwe89y2r5j20o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.984
-    },
-    {
-      "title": "Two killed in Leeds after car pursued by police crashes into another vehicle",
-      "summary": "Four arrested after BMW collides with Volkswagen on Gelderd Road, with police appealing for witnesses Two people aged 22 and 23 have died after their car was hit by a BMW being pursued by police. West Yorkshire police said four people had been arrested after the crash in Leeds on Sunday and appealed for",
-      "source": "The Guardian",
-      "published": "2026-11-15T14:01:32+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/15/leeds-car-pursued-by-police-crashes-into-another-vehicle",
-      "importance": 1.977
-    },
-    {
-      "title": "Ethnic minority groups in Wales four times more likely to be target of police facial scans",
-      "summary": "Exclusive: South Wales police figures show BAME people accounted for 24% of selected scans in 2025, despite being 7% of population Ethnic minority people are four times more likely than their white counterparts to be chosen for some police facial scans, according to official data, sparking warnings of racial",
-      "source": "The Guardian",
-      "published": "2026-11-15T14:00:17+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/15/ethnic-minorities-wales-police-facial-scans-data",
-      "importance": 1.976
+      "importance": 1.914
     },
     {
       "title": "Iran targets US military base in Bahrain with drone attack",
@@ -129,15 +241,7 @@
       "source": "BBC World",
       "published": "2026-11-15T13:42:58+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.972
-    },
-    {
-      "title": "Poundland pins rescue hopes on Yorkshire Tea, Pot Noodle and Gloria Gaynor",
-      "summary": "Chain restocks stores in operation named after singer of I Will Survive, as US owners release some of withheld funds Poundland’s under-fire US owners have released funds to help the stricken discount chain restock shelves temporarily, keeping hopes of a rescue deal alive in the run-up to crunch talks with",
-      "source": "The Guardian",
-      "published": "2026-11-15T13:41:01+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/15/poundland-pins-rescue-hopes-on-yorkshire-tea-pot-noodle-and-gloria-gaynor",
-      "importance": 1.972
+      "importance": 1.898
     },
     {
       "title": "South Korea's top scorer in tax accountancy exam admits cheating",
@@ -145,7 +249,7 @@
       "source": "BBC World",
       "published": "2026-11-15T13:37:45+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.971
+      "importance": 1.896
     },
     {
       "title": "Minister backs legal right to job support for young people",
@@ -153,39 +257,7 @@
       "source": "BBC Business",
       "published": "2026-11-15T13:06:15+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.964
-    },
-    {
-      "title": "Who’s duping whom? Cut-price versions of luxury items are Christmas hit",
-      "summary": "From Aldi candles to Quince’s cashmere jumpers, cheaper dupes of high-end goods have gone mainstream. But is it fair? For fans of the festive season nothing is more Christmassy than lighting a super-sized botanical candle with its trim of orange slices and berries. But as the notes of cinnamon and clove fill",
-      "source": "The Guardian",
-      "published": "2026-11-15T13:00:14+00:00",
-      "url": "https://www.theguardian.com/money/2026/nov/15/christmas-dupes-gift-aldi-candles-quince-cashmere-jumpers-price",
-      "importance": 1.962
-    },
-    {
-      "title": "Trump administration planning to reimburse doctors treating vaccine ‘injury’",
-      "summary": "Experts warn that sweeping changes elevate health secretary RFK Jr’s anti-vaccine agenda and personal profit The Trump administration is finalizing a rule to reimburse doctors who diagnose, treat and counsel patients with side effects from vaccines in what experts believe is an attempt to undermine trust in",
-      "source": "The Guardian",
-      "published": "2026-11-15T12:00:15+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/15/vaccine-policy-rfk-jr-trump-administration",
-      "importance": 1.949
-    },
-    {
-      "title": "Black voters helped Democrats win in Georgia. Now they expect to be heard",
-      "summary": "Activists have been shouting about economic issues for years – in January they will expect lawmakers to respond Stonecrest is resolutely middle class. About six out of 10 of its voters cast ballots in the 2026 election and about 90% of them voted for Democrats, according to election figures. And they have",
-      "source": "The Guardian",
-      "published": "2026-11-15T12:00:15+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/15/georgia-midterm-elections-black-voters",
-      "importance": 1.949
-    },
-    {
-      "title": "Protest in Prague over media freedom expected to be one of biggest in Czechia’s history",
-      "summary": "Hundreds of thousands rally against plan to scrap licence fees and fund broadcasters from state budget Hundreds of thousands of Czechs are rallying in Prague to protest against what they say is a government attempt to stifle media freedom. The gathering on Sunday to save the mandatory licence fees that fund",
-      "source": "The Guardian",
-      "published": "2026-11-15T11:17:18+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-      "importance": 1.939
+      "importance": 1.889
     },
     {
       "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
@@ -193,7 +265,7 @@
       "source": "BBC World",
       "published": "2026-11-15T11:06:32+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.936
+      "importance": 1.861
     },
     {
       "title": "How to spot November's planetary parade in the pre-dawn sky",
@@ -201,23 +273,7 @@
       "source": "BBC Science",
       "published": "2026-11-15T10:49:57+00:00",
       "url": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.932
-    },
-    {
-      "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-      "summary": "Santa Cruz de Succhabamba is part of the Diocese of Chiclayo, where the Pope served as bishop from 2015 to 2023.",
-      "source": "BBC World",
-      "published": "2026-11-15T09:57:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.92
-    },
-    {
-      "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-      "summary": "Pte William Douglas Dal Bianco died from his injuries on Friday, a month after a fire that tore through CFB Wainwright.",
-      "source": "BBC World",
-      "published": "2026-11-15T09:26:37+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.913
+      "importance": 1.857
     },
     {
       "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
@@ -225,7 +281,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T08:56:11+00:00",
       "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
-      "importance": 1.906
+      "importance": 1.831
     },
     {
       "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
@@ -233,15 +289,7 @@
       "source": "BBC World",
       "published": "2026-11-15T08:17:41+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.897
-    },
-    {
-      "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-      "summary": "The US government is trying to find out whether the chaos was caused by \"incompetence\" or faulty equipment.",
-      "source": "BBC World",
-      "published": "2026-11-15T07:10:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.881
+      "importance": 1.822
     },
     {
       "title": "Anthony Albanese welcomes Trump-Xi-Putin summit – even as European leaders express reservations",
@@ -249,7 +297,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T06:22:32+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-welcomes-trump-xi-putin-summit-even-as-european-leaders-express-reservations",
-      "importance": 1.87
+      "importance": 1.796
     },
     {
       "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
@@ -257,7 +305,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T06:00:05+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj",
-      "importance": 1.865
+      "importance": 1.79
     },
     {
       "title": "World leaders head to Asia for back-to-back diplomatic summits",
@@ -265,7 +313,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T04:00:02+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/15/asia-diplomatic-summits-trump-xi-putin-apec-asean",
-      "importance": 1.837
+      "importance": 1.763
     },
     {
       "title": "Anthony Albanese apologises for hot-mic gaffe after Coalition criticises ‘locker-room talk’",
@@ -273,15 +321,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T03:49:21+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-apologises-for-hot-mic-gaffe-after-coalition-criticises-locker-room-talk",
-      "importance": 1.835
-    },
-    {
-      "title": "Trump barred from closing 'Trash Island' golf course on Sunday",
-      "summary": "It is the latest development in a months-long challenge to the US president's plans for East Potomac Golf Links.",
-      "source": "BBC World",
-      "published": "2026-11-15T03:21:04+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.828
+      "importance": 1.76
     },
     {
       "title": "Katherine Deves among four NSW upper house candidates revealed by One Nation",
@@ -289,7 +329,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T02:13:20+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/15/katherine-deves-among-four-nsw-upper-house-candidates-revealed-by-one-nation-ntwnfb",
-      "importance": 1.813
+      "importance": 1.738
     },
     {
       "title": "Thunderstorms, giant hail and powerful winds forecast for NSW as wild weather hits east coast",
@@ -297,7 +337,7 @@
       "source": "The Guardian",
       "published": "2026-11-15T01:52:37+00:00",
       "url": "https://www.theguardian.com/australia-news/2026/nov/15/australia-weather-east-coast-thunderstorms-giant-hail-and-powerful-winds-ettalong-beach-swimmer-lightning-strike",
-      "importance": 1.808
+      "importance": 1.733
     },
     {
       "title": "Storm Charles causes floods and flight cancellations across southern Europe",
@@ -305,7 +345,7 @@
       "source": "The Guardian",
       "published": "2026-11-13T08:49:19+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
-      "importance": 1.788
+      "importance": 1.713
     },
     {
       "title": "Judo champion shakes up French presidential race with surprise candidacy",
@@ -313,7 +353,7 @@
       "source": "BBC World",
       "published": "2026-11-15T00:06:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6dj1e8wyykmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.783
+      "importance": 1.709
     },
     {
       "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
@@ -321,7 +361,7 @@
       "source": "BBC World",
       "published": "2026-11-15T00:06:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmvg2e2q28w1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.783
+      "importance": 1.709
     },
     {
       "title": "Beauty advent calendars can cost hundreds but are they value for money?",
@@ -329,15 +369,7 @@
       "source": "BBC Business",
       "published": "2026-11-15T00:01:07+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.782
-    },
-    {
-      "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-      "summary": "The US has not confirmed the Ukrainian president's comments - a US official told the BBC \"many ideas continue to be discussed\".",
-      "source": "BBC World",
-      "published": "2026-11-14T22:37:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.763
+      "importance": 1.707
     },
     {
       "title": "Flood victim, 95, lived in Wetherspoons until she died after her home was destroyed",
@@ -345,15 +377,7 @@
       "source": "BBC Science",
       "published": "2026-11-13T06:05:49+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.75
-    },
-    {
-      "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
-      "summary": "Peoria officials said a bomb was found at BioUrja Renewables and later defused; FBI said it is investigating Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol production plant. The discovery reported at BioUrja",
-      "source": "The Guardian",
-      "published": "2026-11-14T20:14:27+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
-      "importance": 1.73
+      "importance": 1.675
     },
     {
       "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
@@ -361,7 +385,7 @@
       "source": "BBC World",
       "published": "2026-11-14T19:14:33+00:00",
       "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.716
+      "importance": 1.641
     },
     {
       "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
@@ -369,39 +393,15 @@
       "source": "The Guardian",
       "published": "2026-11-14T19:01:32+00:00",
       "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
-      "importance": 1.713
+      "importance": 1.638
     },
     {
       "title": "Italy fines Meta €805m over accessing users' photos",
       "summary": "The social media giant is accused of not informing 20 million users it had access to their photos.",
-      "source": "BBC World",
+      "source": "BBC Technology",
       "published": "2026-11-14T18:28:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.705
-    },
-    {
-      "title": "Philippines wins first Eurovision Song Contest Asia",
-      "summary": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
-      "source": "BBC World",
-      "published": "2026-11-14T18:17:58+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.703
-    },
-    {
-      "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
-      "summary": "Sotheby's says it will work with the heirs of a family who had previously owned the artwork to try and reach a solution.",
-      "source": "BBC World",
-      "published": "2026-11-14T18:00:10+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy05gg75lvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.699
-    },
-    {
-      "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
-      "summary": "The prime minister says the deal could be \"more like the Brexit people thought they were voting for\" in 2016.",
-      "source": "BBC Business",
-      "published": "2026-11-13T01:17:58+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.683
+      "importance": 1.63
     }
   ]
 }
