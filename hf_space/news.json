@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-19T07:37:33.276239+00:00",
+  "generated_at": "2026-11-19T17:26:43.269129+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,15 +9,71 @@
       "source": "BBC Science",
       "published": "2026-11-18T00:44:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c63rgqg5l9l2o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.221
+      "importance": 3.085
     },
     {
-      "title": "‘Remarkable luck’: wreck of first Australian-built warship discovered exactly 128 years after sinking",
-      "summary": "HMCS Spitfire was commissioned by colonial government to protect against Russian warships during the Crimean war The wreck of Australia’s first locally built warship has been discovered 128 years after sinking off the coast of far north Queensland. Marine archaeologists found the remains of Ex HMCS Spitfire",
+      "title": "Ukraine allies warn ‘Yalta format’ will not bring about peace – Europe live",
+      "summary": "Meeting comes after Trump declared Putin a ‘friend’ during trilateral meeting with Xi in China For what it’s worth, the China-US-Russia ‘peace declaration’ issued after their meeting, and published by Chinese state media , includes absolutely no mention of Ukraine or Europe whatsoever. There is only one",
       "source": "The Guardian",
-      "published": "2026-11-19T05:22:38+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/first-australian-built-warship-wreck-discovered",
-      "importance": 2.519
+      "published": "2026-11-19T17:06:46+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/19/russia-ukraine-war-coalition-of-the-willing-europe-latest-news-updates",
+      "importance": 2.545
+    },
+    {
+      "title": "BBC Inside Science",
+      "summary": "SpaceX is on the verge of making space affordable.",
+      "source": "BBC Science",
+      "published": "2026-11-19T17:00:00+00:00",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct978m?at_medium=RSS&at_campaign=rss",
+      "importance": 2.544
+    },
+    {
+      "title": "Election date? Brexit reset outcome? Farage’s survival chances? Andrew Sparrow answers your questions",
+      "summary": "The Guardian’s UK politics blogger is conducting a live Q&A These are from my colleague Peter Walker , who was at the Tory event where James Cleverly was named as the party’s candidate for London mayor. Peter posted this before the result was announced. Khan (who may or may not stand a 4th time) has thus far",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:53:35+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/19/kemi-badenoch-andy-burnham-uk-politics-latest-news-updates",
+      "importance": 2.542
+    },
+    {
+      "title": "‘Take temperature down’ over guidance on single-sex spaces, head of UK equalities body urges",
+      "summary": "EHRC chair says ‘misinformation’ about guidance issued after supreme court ruling has created ‘more anxiety’ The head of the UK’s equalities watchdog has urged people to “take the temperature down” on reaction to guidance issued on single-sex spaces. Mary-Ann Stephenson, the chair of the Equality and Human",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:27:10+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/19/ehrc-guidance-single-sex-spaces-transgender-supreme-court",
+      "importance": 2.536
+    },
+    {
+      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
+      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by",
+      "source": "The Guardian",
+      "published": "2026-11-19T15:50:03+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+      "importance": 2.528
+    },
+    {
+      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+      "summary": "The US Secretary of Defence says Venezuela has \"gone from our most aggressive regional threat to a compliant security partner\".",
+      "source": "BBC World",
+      "published": "2026-11-19T13:31:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.496
+    },
+    {
+      "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+      "summary": "The Mrima Hill site is estimated to hold deposits of critical minerals worth more than $60bn (£45bn).",
+      "source": "BBC World",
+      "published": "2026-11-19T12:56:30+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.487
+    },
+    {
+      "title": "Guardian Australia takes home two Walkley awards for excellence in journalism",
+      "summary": "Stories revealing Pauline Hanson’s US trip with Gina Rinehart and the systemic betrayal of Kardell Lomas before her death recognised Guardian Australia journalists have won two Walkley awards, one for a story about the systemic betrayal of a woman who was killed by her partner, and another for an exclusive",
+      "source": "The Guardian",
+      "published": "2026-11-19T11:13:32+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/guardian-australia-takes-home-two-walkley-awards-for-excellence-in-journalism",
+      "importance": 2.464
     },
     {
       "title": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
@@ -25,23 +81,15 @@
       "source": "The Guardian",
       "published": "2026-11-19T05:00:18+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
-      "importance": 2.514
+      "importance": 2.377
     },
     {
-      "title": "Hannah Lillith Assadi wins National book award for ‘visionary’ novel Paradiso 17",
-      "summary": "Assadi’s third novel was inspired by the story of her late father, a Palestinian who escaped the Nakba as a child in 1948 Palestinian-Jewish author Hannah Lillith Assadi has won the National book award for fiction, one of the US’s most prestigious literary prizes, for her novel Paradiso 17. Assadi’s third",
-      "source": "The Guardian",
-      "published": "2026-11-19T04:54:13+00:00",
-      "url": "https://www.theguardian.com/books/2026/nov/19/hannah-lillith-assadi-paradiso-17-wins-national-book-award",
-      "importance": 2.512
-    },
-    {
-      "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
-      "summary": "Von der Leyen says she wants to give Kyiv ‘strong hand’ in talks and is confident all 27 member states will back idea The EU executive has proposed a €45bn (£37.5bn) loan for Ukraine to help with a looming cash crisis and reinforce its defences, as Russia’s relentless bombardment continues. Announcing the",
-      "source": "The Guardian",
-      "published": "2026-11-18T22:34:03+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
-      "importance": 2.424
+      "title": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
+      "summary": "The vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch.",
+      "source": "BBC Business",
+      "published": "2026-11-19T00:05:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.309
     },
     {
       "title": "Torrential rain causes widespread flooding in South Florida",
@@ -49,7 +97,7 @@
       "source": "BBC Science",
       "published": "2026-11-18T20:29:18+00:00",
       "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.395
+      "importance": 2.259
     },
     {
       "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
@@ -57,7 +105,7 @@
       "source": "BBC World",
       "published": "2026-11-18T17:00:40+00:00",
       "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.347
+      "importance": 2.211
     },
     {
       "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
@@ -65,7 +113,7 @@
       "source": "BBC Business",
       "published": "2026-11-18T13:17:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.295
+      "importance": 2.159
     },
     {
       "title": "How important are Nvidia and Jensen Huang to the US economy?",
@@ -73,335 +121,287 @@
       "source": "BBC Technology",
       "published": "2026-11-18T06:04:21+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.195
+      "importance": 2.059
     },
     {
-      "title": "‘I saw a picture of a two-year-old girl buried in mud. I knew we had to do something’ – This is climate breakdown",
-      "summary": "When the floods hit Pakistan he went out to help. Then the water reached his own family. This is Imran Lodhi’s story Location: Dera Ghazi Khan, Pakistan Disaster: Pakistan intense monsoon rainfall Imran Lodhi is a university lecturer with a doctorate in climate change and sustainable development . The",
-      "source": "The Guardian",
-      "published": "2026-11-16T12:00:59+00:00",
-      "url": "https://www.theguardian.com/environment/ng-interactive/2026/nov/16/when-the-sun-came-out-it-felt-like-it-opened-a-scar-this-is-climate-breakdown",
-      "importance": 2.161
-    },
-    {
-      "title": "Crimean Bridge attacked again, Russia says",
-      "summary": "The head of Crimea said traffic was suspended after another attack on the link between Russia and the occupied territory.",
+      "title": "Susan Smith denied parole again 32 years after drowning her two sons",
+      "summary": "At a hearing on the possibility of parole, Smith said she wished she could change the past, and her two children \"did not deserve to die\".",
       "source": "BBC World",
-      "published": "2026-11-19T07:32:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-19T17:23:34+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
       "importance": 1.999
     },
     {
-      "title": "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return",
-      "summary": "Awami League party called for ⁠nationwide protest on Thursday after the government rejected Hasina’s request for passport Parts of Bangladesh were shut down Thursday as protests by supporters of former prime minister Sheikh Hasina sparked clashes, bomb blasts and arson attacks, with the ancestral home ⁠of",
-      "source": "The Guardian",
-      "published": "2026-11-19T06:58:33+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/19/bangladesh-violent-protest-sheikh-hasina-planned-return",
-      "importance": 1.991
+      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+      "summary": "Hamas condemned the incursion, which the Israeli military said was to dismantle a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
+      "source": "BBC World",
+      "published": "2026-11-19T17:03:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "importance": 1.995
     },
     {
-      "title": "Increase in direct cremations since pandemic",
-      "summary": "A 2026 Cost of Dying Report found direct cremation was now chosen for around one in five funerals.",
-      "source": "BBC Business",
-      "published": "2026-11-19T06:23:22+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck5ywnr59z85o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.983
+      "title": "Hakeem Jeffries on brink of House history as he tells Democrats to ‘fight Maga, not each other’ – US politics live",
+      "summary": "Democrats resoundingly nominated Jeffries to serve as speaker of the House when the new Congress is sworn in next year Sign up for the Breaking News US email The National Security Agency is seeing a third day of disruptions to its internal network, NSA Net, which allows staff to share highly classified",
+      "source": "The Guardian",
+      "published": "2026-11-19T17:05:19+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates",
+      "importance": 1.995
     },
     {
-      "title": "Tammy Shipley was supposed to be monitored in prison. Instead she died after drinking 20L of water",
-      "summary": "If the Aboriginal woman had been checked at regular intervals as required, her ‘excess consumption of water’ would have been prevented, inquest finds • Warning: This article contains images of and references to Indigenous Australians who have died Get our breaking news email , free app or daily news podcast",
+      "title": "Cap all political donations, not only those from overseas, Burnham told",
+      "summary": "Experts say ‘insanely complex’ £100,000 limit proposed for overseas donors should be replaced by universal cap Andy Burnham is facing calls to commit to a cap on all political donations when the elections bill is in the House of Lords, instead of the “insanely complex” £100,000 limit on overseas donors. It",
       "source": "The Guardian",
-      "published": "2026-11-19T06:20:46+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/tammy-shipley-was-supposed-to-be-monitored-in-prison-instead-she-died-after-drinking-20l-of-water-ntwnfb",
+      "published": "2026-11-19T17:01:40+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/19/andy-burnham-political-donations-cap-overseas-donors-elections",
+      "importance": 1.994
+    },
+    {
+      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+      "summary": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
+      "source": "BBC World",
+      "published": "2026-11-19T16:55:57+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.993
+    },
+    {
+      "title": "Dutch watchdog tells people not to buy AI smart glasses",
+      "summary": "Tests of glasses showed some misread medicine instructions or pretended to have called an ambulance",
+      "source": "BBC Technology",
+      "published": "2026-11-19T16:33:17+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.988
+    },
+    {
+      "title": "Rare rhino's first steps captured on video at zoo",
+      "summary": "Zookeepers say the rhino's birth is a \"special moment\" for the under-threat one horned species.",
+      "source": "BBC Science",
+      "published": "2026-11-19T16:28:41+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmly7dvjqg8xo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "Southern California braced for fierce storm after record rain in San Francisco",
+      "summary": "Planes temporarily grounded, roads flooded and tens of thousands lose power, with evacuations in south of state Southern California braced for the arrival of a fierce winter storm that already set records for rainfall in the north of the state. Los Angeles authorities urged residents in the Palisades, Hurst",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:21:07+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/19/california-atmospheric-river-san-francisco-rain-record",
+      "importance": 1.985
+    },
+    {
+      "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
+      "summary": "Relief in the immediate aftermath of a landmark ruling, but what happens next is in the hands of governments around the world There were tears in the halls of The Hague in the Netherlands and an eruption of applause in the refugee camps of Bangladesh as the scattered communities of Rohingya watched the UN’s",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:15:52+00:00",
+      "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling",
+      "importance": 1.984
+    },
+    {
+      "title": "Four UK men convicted of sexual assault and rape of drugged woman at invitation of husband",
+      "summary": "Former Tory councillor advertised then wife on swinging websites and drugged and bound her for sex • Spiked nightcaps and invitations to strangers: how Philip Young sexually abused his wife for 15 years Four men have been convicted of sexually assaulting and raping a woman at the invitation of her husband",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:08:06+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/19/men-convicted-sexual-assault-and-rape-woman-at-invitation-of-husband",
       "importance": 1.982
     },
     {
-      "title": "Mother whose twin baby died was determined to have home birth despite advice of experts, NSW inquest hears",
-      "summary": "Inquest into deaths of four babies in northern NSW between 2022 and 2024 told mother refused to give birth in hospital after hearing others’ traumatic stories Get our breaking news email , free app or daily news podcast Baby B’s mother was so determined to have a home birth she ignored the advice of experts",
+      "title": "Prosecutors allege British woman ‘trying to find someone who would kill her’ lured to US and murdered",
+      "summary": "Sonia Exelby’s disappearance sparked an international search. The accused man, Dwain Hall, denies murdering her Prosecutors in Ocala, Florida , have been laying out an extraordinary criminal case against Dwain C Hall, an auto repair and tow truck driver accused of kidnapping and murdering Sonia Exelby, of",
       "source": "The Guardian",
-      "published": "2026-11-19T06:17:12+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mother-whose-twin-baby-died-was-determined-to-have-home-birth-despite-expert-advice-nsw-inquest-hears-ntwnfb",
-      "importance": 1.981
+      "published": "2026-11-19T16:08:17+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/19/british-woman-florida-murder-case-sonia-exelby",
+      "importance": 1.982
     },
     {
-      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
-      "summary": "MSPs have heard both the pros and cons of the government's plan to launch its first ever bond to the market.",
-      "source": "BBC Business",
-      "published": "2026-11-19T06:15:57+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.981
-    },
-    {
-      "title": "Developer accused of 'environmental vandalism'",
-      "summary": "Bellway says the work has been done with an ecologist on site and in compliance with planning consent.",
-      "source": "BBC Science",
-      "published": "2026-11-19T06:09:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmeq4nx95qpdo?at_medium=RSS&at_campaign=rss",
+      "title": "Spiked nightcaps and invitations to strangers: how Philip Young sexually abused his wife for 15 years",
+      "summary": "Joanne Young, who has waived anonymity, was subjected to years of drugging and rape by former Swindon councillor, who invited other men to assault her When Philip Young served as a Conservative party councillor for Swindon council, his contemporaries viewed him as a perfectly normal family man with “no edge",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:00:06+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/19/philip-young-sexual-abuse-spiked-nightcaps-strangers-joanne-young",
       "importance": 1.98
     },
     {
-      "title": "Leftover pumpkins help deliver 1,000th free meal",
-      "summary": "\"It's a really tough time for a lot of people,\" a sustainable food organisation says.",
-      "source": "BBC Business",
-      "published": "2026-11-19T06:04:30+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6x29jxgkjpno?at_medium=RSS&at_campaign=rss",
+      "title": "‘It stings to come close’: Louisiana Democrat’s narrow failure to make it 57 Senate seats",
+      "summary": "Jamie Davis falls just short as Democrats across south wonder whether blue wave could have been even bigger Democrats are celebrating after, with Mary Peltola’s victory in Alaska, they have officially secured 56 Senate seats after the midterm elections. But Jamie Davis, who lost an incredibly close election",
+      "source": "The Guardian",
+      "published": "2026-11-19T16:00:06+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/19/louisiana-senate-seat-democrats-jamie-davis",
+      "importance": 1.98
+    },
+    {
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
+      "source": "BBC Technology",
+      "published": "2026-11-19T15:58:58+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.98
+    },
+    {
+      "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+      "summary": "At least four bodies have been recovered from the boat which was reportedly carrying between 50 and 100 people.",
+      "source": "BBC World",
+      "published": "2026-11-19T15:52:26+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
       "importance": 1.978
     },
     {
-      "title": "Car use in London forecast to rise by 10% in next decade",
-      "summary": "Modelling in draft of 10-year London plan threatens Sadiq Khan’s promises on improving air quality Car use in London will rise by 10% over the next decade with cycling and walking falling as a proportion of trips, according to an official forecast by the city’s mayoralty, putting into doubt Sadiq Khan’s",
+      "title": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+      "summary": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agenda It is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gathering in Shenzhen deserved the description of “historic”. But in terms of",
       "source": "The Guardian",
-      "published": "2026-11-19T06:00:20+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/19/car-use-in-london-forecast-to-rise-by-10-in-next-decade",
-      "importance": 1.977
+      "published": "2026-11-19T15:35:01+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
+      "importance": 1.974
     },
     {
-      "title": "Tulip Siddiq says she is considering legal action against former Bangladesh leader",
-      "summary": "Former minister, who was sentenced to prison in Bangladesh in her absence, says she was victim of ‘malicious prosecution’ The former minister Tulip Siddiq has said she is considering taking legal action against the former interim leader of Bangladesh over corruption allegations made by his administration led",
-      "source": "The Guardian",
-      "published": "2026-11-19T06:00:18+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/19/tulip-siddiq-says-she-is-considering-legal-action-against-former-bangladesh-leader",
-      "importance": 1.977
-    },
-    {
-      "title": "Meet Phil, the bar-tailed godwit tracked on a 6,800-mile round trip to Siberia",
-      "summary": "Scientists use lightweight tracker to map wading bird’s extraordinary migration from Norfolk to the Arctic and back A bar-tailed godwit called Phil has completed a 6,800-mile journey from Norfolk to Siberia and back again, in the first mapping of the endurance feats of this long-distance migrant. A wading",
-      "source": "The Guardian",
-      "published": "2026-11-19T05:01:17+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/19/phil-bar-tailed-godwit-bird-tracked-round-trip-siberia",
-      "importance": 1.964
-    },
-    {
-      "title": "Weight-loss drugs used in nearly one in 10 homes in Great Britain, study finds",
-      "summary": "About 2.6m adults are taking the drugs, fuelled by the regulator’s approval of the pill versions and a rise in male users At least one person is taking weight-loss drugs in 8.5% of households in Great Britain, according to research, meaning there are more homes with GLP-1 users than those containing",
-      "source": "The Guardian",
-      "published": "2026-11-19T05:00:19+00:00",
-      "url": "https://www.theguardian.com/science/2026/nov/19/weight-loss-drugs-nearly-one-in-10-homes-great-britain-study-finds",
-      "importance": 1.964
-    },
-    {
-      "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-      "summary": "The meeting comes with challenges as there are things Xi does not appear keen to discuss with Putin and Trump.",
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "summary": "While the presidents have previously met for one-on-one meetings, this is their first trilateral discussion.",
       "source": "BBC World",
-      "published": "2026-11-19T04:42:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.96
+      "published": "2026-11-19T15:23:34+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.971
     },
     {
-      "title": "General Pants Co enters voluntary administration, putting hundreds of jobs at risk",
-      "summary": "Australian fashion chain becomes latest retailer in trouble after David Jones, Cue and Veronika Maine Get our breaking news email , free app or daily news podcast The youth fashion chain General Pants Co has become the latest major retailer to slide into voluntary administration, putting nearly 500 jobs at",
+      "title": "More support for households reliant on heating oil",
+      "summary": "North Northamptonshire Council is encouraging eligible residents to apply for more support.",
+      "source": "BBC Business",
+      "published": "2026-11-19T15:22:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwm2mj7vezr3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.971
+    },
+    {
+      "title": "UK-EU reset talks will go ‘down to the wire’ as crunch summit approaches",
+      "summary": "Andy Burnham due in Brussels on Friday but sticking points on food rules and tuition fees remain unresolved The UK-EU reset talks will go “down to the wire” as the British government battles to have a say in shaping future European food and farming rules. With less than 24 hours to go before Andy Burnham is",
       "source": "The Guardian",
-      "published": "2026-11-19T04:10:10+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/19/general-pants-co-enters-voluntary-administration-jobs-at-risk",
+      "published": "2026-11-19T15:18:12+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/19/uk-eu-reset-talks-andy-burnham-food-farming-tuition-fees",
+      "importance": 1.97
+    },
+    {
+      "title": "Trump takes 500 actions to weaken cancer protections, new report says",
+      "summary": "Natural Resources Defense Council shows how federal rules changes will increase public’s exposure to carcinogens Amid a rise in early onset cancer , the Trump administration has taken more than 500 actions to systematically dismantle protections against carcinogens once in place across the federal",
+      "source": "The Guardian",
+      "published": "2026-11-19T14:15:15+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
+      "importance": 1.956
+    },
+    {
+      "title": "Australian music industry rejects ‘divide and conquer’ proposal to give musicians exemption from AI scraping",
+      "summary": "Reported proposal to give musicians special treatment is ‘unworkable’, Aria CEO says, vowing to stand with other creatives Get our daily political email , free app or daily news podcast The music industry will not accept an AI carveout deal that leaves other creative sectors behind, rejecting a reported",
+      "source": "The Guardian",
+      "published": "2026-11-19T14:00:52+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping",
       "importance": 1.952
     },
     {
-      "title": "‘Shame old Aussies’ to ‘fresh chaos’: what the UK papers say about Bancroft’s explosive ball tampering claims",
-      "summary": "Sports sections of British newspapers deliver their take on the unfolding Cricket Australia sandpaper saga The sports sections of the UK’s major mastheads are relishing the never-ending crisis engulfing Australian cricketing, after a key player in the ball tampering controversy , Cameron Bancroft, alleged",
+      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
+      "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment involving a snail-paced 1950s elevator, a brick wall",
       "source": "The Guardian",
-      "published": "2026-11-19T04:06:19+00:00",
-      "url": "https://www.theguardian.com/media/2026/nov/19/shame-old-aussies-to-fresh-chaos-what-the-uk-papers-say-about-bancrofts-explosive-ball-tampering-claims-ntwnfb",
-      "importance": 1.951
+      "published": "2026-11-19T14:00:50+00:00",
+      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment",
+      "importance": 1.952
     },
     {
-      "title": "One in four women globally unable to refuse sex within marriage, says UN",
-      "summary": "Almost half of women in west and central Africa cannot withhold consent, with girls worst affected, UNFPA finds One in four women around the world have no power of consent if their husband or partner demands sex, according to a UN report. In west and central Africa, almost half of women (45%) are not able to",
+      "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+      "summary": "Judgment finds ‘intent to destroy a substantial part of the Rohingya population’ after case seen as critical test for dealing with most serious of state crimes Myanmar committed genocide against its Rohingya minority during a 2017 military campaign, the world’s highest court has ruled, in a historic and",
       "source": "The Guardian",
-      "published": "2026-11-19T04:00:16+00:00",
-      "url": "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa",
+      "published": "2026-11-19T13:52:10+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
       "importance": 1.95
     },
     {
-      "title": "Trump downplays US outages and Nvidia security concerns in remarks before China summit – as it happened",
-      "summary": "This live blog is now closed. Follow our live coverage of the Asia-Pacific economic cooperation summit Sign up for US breaking News email Linked to that, the White House held a briefing call with several reporters today about the wave of tech outages affecting several industries. CNN reported that officials",
-      "source": "The Guardian",
-      "published": "2026-11-19T03:11:52+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
-      "importance": 1.938
-    },
-    {
-      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-      "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
-      "source": "BBC World",
-      "published": "2026-11-19T02:59:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.936
-    },
-    {
-      "title": "AI giant Anthropic valued at $1.5 trillion ahead of stock market debut",
-      "summary": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-      "source": "BBC World",
-      "published": "2026-11-19T02:20:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.927
-    },
-    {
-      "title": "Who are the investors ready to jump on Anthropic?",
-      "summary": "The BBC's Samira Hussain speaks to a retail investor eagerly waiting for the AI company's stock to go live on Thursday.",
+      "title": "Viagogo may have broken law on hidden fees, watchdog provisionally finds",
+      "summary": "The UK's competition body says initial findings suggest the ticket-reselling website used drip pricing.",
       "source": "BBC Business",
-      "published": "2026-11-19T01:22:38+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c6y0x84xx22wo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.913
+      "published": "2026-11-19T13:35:52+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg2ex7j30lo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.947
     },
     {
-      "title": "Elon Musk claims ‘I’m not Maga’ and says he regrets vast sums to back Republicans",
-      "summary": "Musk, who aligned with Trump and was frequent White House guest, says he feels ‘pretty foolish’ about record midterm spending Elon Musk denied being Maga on Wednesday, despite aligning himself intensely with Donald Trump’s Make America Great Again movement since 2024. “I’m not Maga,” the world’s richest",
-      "source": "The Guardian",
-      "published": "2026-11-19T01:07:51+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
-      "importance": 1.91
-    },
-    {
-      "title": "Record-breaking rain lashes California’s Bay area as ‘atmospheric river’ arrives",
-      "summary": "Storm expected to move into southern California, with LA residents warned of potential evacuation orders Heavy rain pounded California’s Bay area, with record rainfall in downtown San Francisco and flooding and power outages across the region, as an “atmospheric river” arrived on Wednesday and dumped",
-      "source": "The Guardian",
-      "published": "2026-11-19T01:03:34+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
-      "importance": 1.909
-    },
-    {
-      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-      "summary": "Châtaigniers en fleurs was painted in 1890 in the final two months of Vincent van Gogh's life.",
-      "source": "BBC World",
-      "published": "2026-11-19T00:49:19+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.906
-    },
-    {
-      "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
-      "summary": "India will remain predominantly Hindu, though its Muslim population is projected to grow faster, according to a new survey.",
-      "source": "BBC World",
-      "published": "2026-11-19T00:38:52+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.903
-    },
-    {
-      "title": "Mike Lynch’s superyacht had unidentified vulnerability to high winds, report finds",
-      "summary": "Bayesian, which sank off Sicily killing seven including tech tycoon, had not been fully assessed, say investigators The superyacht Bayesian, which sank in a storm off Sicily killing seven people including the tech tycoon Mike Lynch and his teenage daughter, was vulnerable to knockdown but crew were not aware",
-      "source": "The Guardian",
-      "published": "2026-11-19T00:01:11+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
-      "importance": 1.894
-    },
-    {
-      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
-      "summary": "A former McDonald's worker calls on the firm to “change the way they treat younger employees” as a judge rules a legal case against the chain can go ahead.",
-      "source": "BBC Business",
-      "published": "2026-11-19T00:00:59+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6x2eve321jno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.894
-    },
-    {
-      "title": "Why has Waymo pulled all its driverless cars from US freeways?",
-      "summary": "The vehicles currently operate in 15 US cities, though freeway rides are only offered in a handful, including San Francisco and Los Angeles.",
-      "source": "BBC World",
-      "published": "2026-11-18T23:47:46+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cmx2ryw97x4go?at_medium=RSS&at_campaign=rss",
-      "importance": 1.891
-    },
-    {
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "summary": "The AI company behind Claude is about to sell its shares on the US stock market - making its founders very rich.",
+      "title": "Wading bird called Phil tracked in epic migration to Siberia and back",
+      "summary": "A bird has astonished conservationists by completing a 6,800-mile round trip to Siberia and back.",
       "source": "BBC Science",
-      "published": "2026-11-18T23:42:07+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.89
+      "published": "2026-11-19T13:35:29+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.946
     },
     {
-      "title": "Met Office yellow warning in place as snow could disrupt Tuesday morning travel",
-      "summary": "Snow could bring some transport disruption to the hills of northern England and southern Scotland, as Chris Fawkes explains.",
-      "source": "BBC Science",
-      "published": "2026-11-17T08:01:38+00:00",
-      "url": "https://www.bbc.co.uk/weather/articles/ck5y1g0rnx02o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.889
-    },
-    {
-      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-      "summary": "The suspect followed employees and was found with fake US IDs and two Russian passports, prosecutors say.",
-      "source": "BBC World",
-      "published": "2026-11-18T23:28:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.887
-    },
-    {
-      "title": "Crimea bridge has been attacked again, says Russian-installed governor",
-      "summary": "Assessment of damage is underway, days after two attacks that destroyed road section of key bridge across Kerch strait linking annexed peninsula to Russia A key bridge connecting annexed Crimea to Russia has been attacked again, a Russian-appointed regional governor has said, two days after Ukrainian strikes",
+      "title": "What is at stake at the EU-UK summit in Brussels?",
+      "summary": "Leaders will wrestle with easing Brexit red tape, restoring emissions trading and opening up youth mobility UK politics live – latest updates The EU and UK will hold a long-awaited summit in Brussels on Friday – the second since Brexit – to hammer out the UK’s longer-term relationship with the bloc. It will",
       "source": "The Guardian",
-      "published": "2026-11-18T23:27:37+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
-      "importance": 1.887
+      "published": "2026-11-19T13:11:23+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/19/eu-uk-summit-explainer-burnham-brexit-brussels",
+      "importance": 1.941
+    },
+    {
+      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+      "summary": "The bridge - a symbol of Russia's occupation of the Crimean Peninsula - suffered major damaged following a combined attack by Ukraine earlier this week.",
+      "source": "BBC World",
+      "published": "2026-11-19T13:07:35+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.94
     },
     {
       "title": "Israeli tanks cross ‘yellow line’ boundary into Hamas-controlled central Gaza",
       "summary": "First incursion across boundary since ceasefire deal comes as Eisenkot seeks to form government without Netanyahu The Israeli military crossed into Hamas-controlled central Gaza on Wednesday in its first ground operation across the “yellow line” boundary since a fragile ceasefire was agreed last October",
       "source": "The Guardian",
-      "published": "2026-11-18T23:25:25+00:00",
+      "published": "2026-11-19T12:40:46+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
-      "importance": 1.886
+      "importance": 1.934
     },
     {
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "summary": "No state has ever been found guilty by an international court of committing genocide.",
-      "source": "BBC World",
-      "published": "2026-11-18T23:04:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.881
-    },
-    {
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "summary": "Hamas condemns the incursion, which the Israeli military says is dismantling a \"terror tunnel\", as a \"flagrant\" ceasefire violation.",
-      "source": "BBC World",
-      "published": "2026-11-18T22:34:56+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.874
-    },
-    {
-      "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
-      "summary": "The Prince and Princess of Wales ended their three-day trip to India on Wednesday, the couple's first international tour since 2022.",
-      "source": "BBC World",
-      "published": "2026-11-18T22:32:47+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.874
-    },
-    {
-      "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
-      "summary": "Christian Emmanuel Sanon faces life in prison after conviction on charges arising from killing of Jovenel Moïse A Florida pastor with dual Haitian-American citizenship was convicted on Wednesday of US charges arising from the 2021 assassination of the Haitian president Jovenel Moïse. Christian Emmanuel Sanon",
+      "title": "Eight injured after driver in Israel repeatedly rams car into Palestinians",
+      "summary": "Arab MPs accuse politicians of fuelling hostility as footage shows driver accelerating towards Palestinians at four locations in Kafr Qasim Eight people were injured on Wednesday evening when a driver struck Palestinian residents at four separate locations in Kafr Qasim, a city in central Israel. Footage",
       "source": "The Guardian",
-      "published": "2026-11-18T22:31:41+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
-      "importance": 1.874
+      "published": "2026-11-19T12:36:37+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/19/car-rams-into-palestinian-residents-four-times-in-israeli-city-kafr-qasim",
+      "importance": 1.933
     },
     {
-      "title": "Leaseholders in England and Wales to have ground rent capped in 2028",
-      "summary": "Housing minister hails ‘historic moment’ as he publishes bill to eventually ban almost all new leasehold properties Leaseholders in England and Wales will have their ground rent capped in 2028, the housing minister has said as he publishes a bill that will eventually ban virtually all new leasehold",
+      "title": "Danish MPs approve Greenland security pact with US",
+      "summary": "Danish foreign minister says deal ‘removes all uncertainty’ over territory but warns trust in US needs rebuilding Europe live – latest updates The Danish parliament has unanimously approved a new Arctic security pact between Greenland, Denmark and the US in what it is hoped will mark a new chapter in",
       "source": "The Guardian",
-      "published": "2026-11-18T22:30:09+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/18/leaseholders-in-england-and-wales-to-have-ground-rent-capped-in-2028",
-      "importance": 1.873
+      "published": "2026-11-19T12:33:52+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/19/danish-mps-approve-greenland-security-pact-us",
+      "importance": 1.932
     },
     {
-      "title": "Waymo pulls driverless taxis from freeways across the US after California ban",
-      "summary": "The autonomous driving company suspended driverless taxi rides on US highways days after California banned the vehicles on its own freeways Waymo has stopped offering driverless taxi rides on freeways across the US indefinitely. The Alphabet subsidiary pulled its vehicles from highways nationwide after",
-      "source": "The Guardian",
-      "published": "2026-11-18T22:05:49+00:00",
-      "url": "https://www.theguardian.com/technology/2026/nov/18/waymo-pulls-driverless-taxis-us-freeways",
-      "importance": 1.868
+      "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+      "summary": "The game, which was in development for 13 years, is set become one of the world's most popular entertainment products ever.",
+      "source": "BBC Technology",
+      "published": "2026-11-19T12:26:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.931
     },
     {
-      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "summary": "Anthropic's hotly anticipated IPO is expected to put it in the top 10 most valuable US companies, but the future is uncertain.",
+      "title": "Florida pastor found guilty over role in assassination of Haitian president",
+      "summary": "Christian Emmanuel Sanon is convicted of involvement in the plot that resulted in the killing of Jovenel Moïse.",
       "source": "BBC World",
-      "published": "2026-11-18T21:28:08+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.859
+      "published": "2026-11-19T11:44:57+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
+      "importance": 1.921
     },
     {
-      "title": "Business Daily",
-      "summary": "We examine the business of the Claude chatbot maker as it starts selling shares",
-      "source": "BBC Business",
-      "published": "2026-11-18T21:30:00+00:00",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct8gm9?at_medium=RSS&at_campaign=rss",
-      "importance": 1.859
+      "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
+      "summary": "After winning power in Congress, a Democratic conference in Denver was animated with talk on the best way forward.",
+      "source": "BBC World",
+      "published": "2026-11-19T11:43:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.92
+    },
+    {
+      "title": "Indian driver wins $1.3m in life-changing lottery prize",
+      "summary": "A truck driver's fortunes have changed overnight after he won a Diwali lottery in the northern Indian state of Punjab.",
+      "source": "BBC World",
+      "published": "2026-11-19T11:38:09+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.919
+    },
+    {
+      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader, Mark Speakman, will not contest his seat at the March state election, the latest in a mass",
+      "source": "The Guardian",
+      "published": "2026-11-19T11:23:41+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues",
+      "importance": 1.916
     }
   ]
 }
