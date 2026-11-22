@@ -1,15 +1,55 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T21:42:35.170380+00:00",
+  "generated_at": "2026-11-22T07:03:31.739421+00:00",
   "max_age_hours": 72,
   "items": [
     {
+      "title": "New draft deal aims to avert collapse of talks at climate summit",
+      "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
+      "source": "BBC World",
+      "published": "2026-11-22T06:54:06+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
+      "importance": 3.648
+    },
+    {
+      "title": "Will COP31 end with a new global climate deal?",
+      "summary": "BBC Climate editor Justin Rowlatt reports from the COP 31 UN climate summit in Antalya, Turkey.",
+      "source": "BBC Science",
+      "published": "2026-11-21T22:44:52+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cqn0dwrewrwxo?at_medium=RSS&at_campaign=rss",
+      "importance": 3.535
+    },
+    {
       "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
       "summary": "Countries from nearly 200 countries are in a deadlock to try and get a new global climate agreement.",
-      "source": "BBC World",
-      "published": "2026-11-21T19:33:49+00:00",
+      "source": "BBC Science",
+      "published": "2026-11-21T22:19:43+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
-      "importance": 3.07
+      "importance": 2.979
+    },
+    {
+      "title": "Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations",
+      "summary": "The effects of the continent’s coming polls will be felt far and wide – and could well turn into ‘key tests’ of the bloc’s resilience In late 1998, Tony Blair was prime minister of Britain, Lionel Jospin was prime minister of France, and Gerhard Schröder had just been elected chancellor of Germany. The EU",
+      "source": "The Guardian",
+      "published": "2026-11-22T06:00:18+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/22/europe-elections-supercycle-could-shake-eu-foundations",
+      "importance": 2.535
+    },
+    {
+      "title": "‘No time for a culture war’: Victoria’s electricity supply is at risk. Can it avoid power shortages and bill shocks?",
+      "summary": "State faces electricity supply gap when Yallourn coal-fired power station closes in 2028 as experts warn neither Labor nor the Coalition has adequate plans Sign up for climate and environment editor Adam Morton’s free Clear Air newsletter here Victoria’s electricity supply will be at risk when a major power",
+      "source": "The Guardian",
+      "published": "2026-11-22T01:00:13+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/victoria-election-2026-what-are-parties-promising-energy-policy",
+      "importance": 2.466
+    },
+    {
+      "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+      "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+      "source": "BBC World",
+      "published": "2026-11-22T00:10:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.454
     },
     {
       "title": "More climate money for Africa? Europe says use what's already pledged",
@@ -17,15 +57,7 @@
       "source": "BBC Science",
       "published": "2026-11-20T05:03:43+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko?at_medium=RSS&at_campaign=rss",
-      "importance": 2.535
-    },
-    {
-      "title": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
-      "summary": "A government in office for more than two years is finally forced to take responsibility and seemingly no longer able to blame its Labor predecessors Get our daily political email , free app or daily news podcast At the beginning of another Queensland parliamentary sitting week, anonymous sources were out in",
-      "source": "The Guardian",
-      "published": "2026-11-21T19:00:08+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb",
-      "importance": 2.512
+      "importance": 2.406
     },
     {
       "title": "Hormuz swim highlights environmental cost of war",
@@ -33,7 +65,7 @@
       "source": "BBC Science",
       "published": "2026-11-21T16:12:31+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c95y1gr27xplo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.474
+      "importance": 2.344
     },
     {
       "title": "Cold gives way to rain in parts of UK as weather warning issued for south-west England",
@@ -41,7 +73,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T14:51:37+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/21/uk-weather-cold-rain-warning-south-west-england",
-      "importance": 2.455
+      "importance": 2.325
     },
     {
       "title": "Sessions offer advice on rising energy costs",
@@ -49,15 +81,7 @@
       "source": "BBC Business",
       "published": "2026-11-21T12:09:49+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmy49l3x893jo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.417
-    },
-    {
-      "title": "Rejoining EU ‘on the table’ as UK makes deals on trade and young people",
-      "summary": "All options open in future talks, says Ed Miliband, while prime minister hails ‘a good day for Britain and Europe’ The UK rejoining the EU could be on the table in informal discussions between Andy Burnham and European leaders in Brussels, Ed Miliband has said. The foreign secretary said “all options” would",
-      "source": "The Guardian",
-      "published": "2026-11-21T11:33:01+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
-      "importance": 2.409
+      "importance": 2.288
     },
     {
       "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
@@ -65,15 +89,7 @@
       "source": "BBC World",
       "published": "2026-11-21T09:40:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.383
-    },
-    {
-      "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
-      "summary": "Victoria police say boy, 17, communicated with offenders under username ‘Onepercent’ Get our breaking news email , free app or daily news podcast Victorian police allege a 17-year-old boy tasked others to carry out a series of arsons, home invasions and a mistaken identity kidnapping that resulted in the",
-      "source": "The Guardian",
-      "published": "2026-11-21T04:44:00+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
-      "importance": 2.314
+      "importance": 2.253
     },
     {
       "title": "ANC fights to keep control of South Africa's key cities after election setback",
@@ -81,7 +97,7 @@
       "source": "BBC World",
       "published": "2026-11-21T00:34:51+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.257
+      "importance": 2.127
     },
     {
       "title": "Can AI really help spot Black Friday deals? We put it to the test",
@@ -89,7 +105,7 @@
       "source": "BBC Technology",
       "published": "2026-11-21T00:06:11+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.25
+      "importance": 2.12
     },
     {
       "title": "What the new UK-EU deal could mean for future post-Brexit relations",
@@ -97,7 +113,7 @@
       "source": "BBC World",
       "published": "2026-11-20T21:43:22+00:00",
       "url": "https://www.bbc.co.uk/news/videos/c90k6gl3lyxeo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.217
+      "importance": 2.087
     },
     {
       "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
@@ -105,7 +121,7 @@
       "source": "BBC Business",
       "published": "2026-11-20T17:49:48+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.163
+      "importance": 2.033
     },
     {
       "title": "Faisal Islam: This cost-cutting UK-EU deal doesn't mean lower prices will follow",
@@ -113,7 +129,111 @@
       "source": "BBC Business",
       "published": "2026-11-20T16:41:52+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.147
+      "importance": 2.017
+    },
+    {
+      "title": "Record-breaking sightings of rare moth in Essex",
+      "summary": "There is now a self-sustaining population of the moth at a nature reserve in Essex, a charity says.",
+      "source": "BBC Science",
+      "published": "2026-11-22T06:38:26+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6jrey28gvqxo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.994
+    },
+    {
+      "title": "Dozens missing after fire at Indonesian factory",
+      "summary": "At least three people were killed and four injured in a fire at a confectionary factory over the weekend.",
+      "source": "BBC World",
+      "published": "2026-11-22T06:05:00+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.986
+    },
+    {
+      "title": "‘Serious error of judgment’: outrage over military AI event at Berlin arts complex",
+      "summary": "Kraftwerk Berlin, part of same development as techno club Tresor, transformed into ‘war room’ for arms firm event With their cavernous post-industrial venues, teeth-grinding four-by-four beats and bouncers that look like Blade Runner extras, Berlin’s nightclubs trade on a reputation for bleakness. A recent",
+      "source": "The Guardian",
+      "published": "2026-11-22T06:00:21+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/22/military-ai-event-berlin-kraftwerk-arts-complex",
+      "importance": 1.985
+    },
+    {
+      "title": "Labour MPs sign up for leadership course to counter rightwing populism",
+      "summary": "Course run by former No 10 advisers is funded by Gary Lubner, who has given more than £11m to Labour More than 20 Labour MPs have signed up to a year-long leadership course helping them to counter rightwing populism and deal with hostility, run by two former No 10 advisers and ultimately funded by",
+      "source": "The Guardian",
+      "published": "2026-11-22T06:00:21+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/22/labour-mp-leadership-course-rightwing-populism-gary-lubner",
+      "importance": 1.985
+    },
+    {
+      "title": "Police say man whose body lay undiscovered in Sydney bushland for 12 days was killed in suspected hit-and-run",
+      "summary": "Joshua Howard, 31, is believed to have been struck by a car and thrown over the guardrail as he was walking home from a party in Rouse Hill Get our breaking news email , free app or daily news podcast The twin brother of a man whose body lay undiscovered for 12 days after he was killed in a suspected hit and",
+      "source": "The Guardian",
+      "published": "2026-11-22T05:21:01+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/police-say-man-whose-body-lay-undiscovered-in-sydney-bushland-for-12-days-was-killed-in-suspected-hit-and-run-ntwnfb",
+      "importance": 1.976
+    },
+    {
+      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+      "summary": "Choi Kyo-jin said he ‘failed to prepare adequately’ for entrance exams, which this year had phones banned and checks for cameras hidden in clothing South Korea’s education minister resigned on Sunday after an AI-assisted cheating scandal that erupted in the lead-up to the country’s key university entrance",
+      "source": "The Guardian",
+      "published": "2026-11-22T05:04:39+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "importance": 1.972
+    },
+    {
+      "title": "Man found dead on Flinders Island believed to have been shot by officer, police say",
+      "summary": "The sergeant, who was shot, fired his weapon a number of times after alleged ‘targeted’ attack outside island’s police station Get our breaking news email , free app or daily news podcast A police officer who was shot outside a remote Tasmanian police station is alleged to have shot and killed his attacker",
+      "source": "The Guardian",
+      "published": "2026-11-22T02:44:01+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
+      "importance": 1.94
+    },
+    {
+      "title": "Victorian Greens win injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
+      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instructed people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens have won a supreme court injunction to stop an independent candidate from handing out how to vote",
+      "source": "The Guardian",
+      "published": "2026-11-22T02:08:49+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
+      "importance": 1.932
+    },
+    {
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+      "source": "BBC World",
+      "published": "2026-11-22T01:25:03+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.922
+    },
+    {
+      "title": "Fred Nile, former NSW politician and figurehead of the rightwing Christian Democratic party, dies aged 92",
+      "summary": "Controversial figure frequently took positions against drug use, abortion and homosexuality, but in later years supported legislation expunging homosexual convictions Get our daily political email , free app or daily news podcast The former New South Wales MP and longstanding figurehead of the rightwing",
+      "source": "The Guardian",
+      "published": "2026-11-22T00:26:35+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/fred-nile-former-nsw-politician-and-figurehead-of-the-rightwing-christian-democratic-party-dies-aged-92",
+      "importance": 1.908
+    },
+    {
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "source": "BBC World",
+      "published": "2026-11-22T00:10:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.904
+    },
+    {
+      "title": "How a teen gamer and his mother helped rescue a missing girl",
+      "summary": "When 16-year-old Landon Tresp met a teenage girl in an online game, it led to him and his mother helping the FBI rescue her from kidnapping.",
+      "source": "BBC World",
+      "published": "2026-11-22T00:09:58+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8lyv8lkjwo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.904
+    },
+    {
+      "title": "Lock of former US President George Washington's hair sells for $4,000",
+      "summary": "The hair was given as a sign of friendship shortly before Washington's death in 1799, according to a descendent of its former owner.",
+      "source": "BBC World",
+      "published": "2026-11-21T22:01:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+      "importance": 1.874
     },
     {
       "title": "Social poker with £5 stake is booming, says dealer",
@@ -121,7 +241,7 @@
       "source": "BBC Business",
       "published": "2026-11-20T06:19:25+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm8947dy3kg9o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.003
+      "importance": 1.873
     },
     {
       "title": "Mysterious Mercury is about to get a visitor - after spacecraft's eight-year epic voyage",
@@ -129,15 +249,7 @@
       "source": "BBC Science",
       "published": "2026-11-20T05:59:56+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
-      "importance": 1.998
-    },
-    {
-      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-      "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
-      "source": "BBC World",
-      "published": "2026-11-21T21:05:29+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.991
+      "importance": 1.869
     },
     {
       "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
@@ -145,7 +257,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T20:15:57+00:00",
       "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "importance": 1.98
+      "importance": 1.85
     },
     {
       "title": "Man charged with attempted murder after councillor stabbed in Bradford",
@@ -153,7 +265,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T19:42:42+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
-      "importance": 1.972
+      "importance": 1.842
     },
     {
       "title": "Russia-bound ship attacked in Gulf of Finland",
@@ -161,23 +273,7 @@
       "source": "BBC World",
       "published": "2026-11-21T19:20:22+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.967
-    },
-    {
-      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
-      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irritants” has been referred to state health",
-      "source": "The Guardian",
-      "published": "2026-11-21T19:00:07+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
-      "importance": 1.962
-    },
-    {
-      "title": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
-      "summary": "GiveSendGo has been accused of facilitating the financing of extremism, but the platform says it does not ‘condone racism, discrimination, hate speech, or violence of any kind’ Get our breaking news email , free app or daily news podcast Australian neo-Nazis have raised hundreds of thousands of dollars on",
-      "source": "The Guardian",
-      "published": "2026-11-21T19:00:06+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb",
-      "importance": 1.962
+      "importance": 1.837
     },
     {
       "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
@@ -185,7 +281,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T18:50:00+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
-      "importance": 1.96
+      "importance": 1.83
     },
     {
       "title": "Suffolk village votes to ‘leave the UK’ over plans to house asylum seekers nearby",
@@ -193,7 +289,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T18:20:37+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/21/suffolk-village-votes-to-leave-the-uk-over-plans-to-house-asylum-seekers-nearby",
-      "importance": 1.953
+      "importance": 1.823
     },
     {
       "title": "Trump orders contractors to check with White House over any congressional inquiries",
@@ -201,15 +297,15 @@
       "source": "The Guardian",
       "published": "2026-11-21T18:08:30+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/21/trump-contractors-congress-executive-order",
-      "importance": 1.95
+      "importance": 1.821
     },
     {
       "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s top 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night. Fausto Isidro Meza Flores, known as “El Chapo",
+      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night. Fausto Isidro Meza Flores, known as “El Chapo",
       "source": "The Guardian",
       "published": "2026-11-21T17:46:55+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-      "importance": 1.945
+      "importance": 1.816
     },
     {
       "title": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
@@ -217,15 +313,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T17:24:51+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon",
-      "importance": 1.94
-    },
-    {
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
-      "source": "BBC World",
-      "published": "2026-11-21T16:35:15+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.929
+      "importance": 1.81
     },
     {
       "title": "International UN talks on controlling use of autonomous weapons collapse",
@@ -233,7 +321,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T16:36:11+00:00",
       "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
-      "importance": 1.929
+      "importance": 1.799
     },
     {
       "title": "Virginia child dies in state’s first measles-associated death of 2026",
@@ -241,7 +329,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T15:30:07+00:00",
       "url": "https://www.theguardian.com/us-news/2026/nov/21/virginia-child-dies-measles",
-      "importance": 1.914
+      "importance": 1.784
     },
     {
       "title": "British man recalls ‘despair’ over son’s death after fall from Cyprus window",
@@ -249,7 +337,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T15:19:03+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/21/british-man-recalls-despair-over-sons-death-after-fall-from-cyprus-window",
-      "importance": 1.911
+      "importance": 1.781
     },
     {
       "title": "Princess of Wales speaks about impact of cancer diagnosis in BBC film Heal",
@@ -257,7 +345,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T14:42:56+00:00",
       "url": "https://www.theguardian.com/uk-news/2026/nov/21/princess-of-wales-impact-cancer-diagnosis-bbc-film-heal",
-      "importance": 1.903
+      "importance": 1.773
     },
     {
       "title": "Denmark to expel Russian diplomat over alleged plot to kill US-Ukrainian rapper",
@@ -265,7 +353,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T14:03:50+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
-      "importance": 1.894
+      "importance": 1.764
     },
     {
       "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
@@ -273,7 +361,7 @@
       "source": "BBC World",
       "published": "2026-11-21T13:17:38+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.883
+      "importance": 1.753
     },
     {
       "title": "BBC Inside Science",
@@ -281,7 +369,7 @@
       "source": "BBC Science",
       "published": "2026-11-19T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978m?at_medium=RSS&at_campaign=rss",
-      "importance": 1.873
+      "importance": 1.744
     },
     {
       "title": "How red squirrels made island their home",
@@ -289,15 +377,7 @@
       "source": "BBC Science",
       "published": "2026-11-21T12:18:55+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c61k9mwxmplxo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.87
-    },
-    {
-      "title": "Reform UK considers pact with Restore Britain to overcome stalling performance in polls",
-      "summary": "Thursday’s byelection in Castle Bromwich will be latest test for Nigel Farage’s party as rival eats into support Voters go to the polls in the village of Castle Bromwich in the West Midlands on Thursday in a little-noticed election that is the latest test for Reform at a time when it is particularly",
-      "source": "The Guardian",
-      "published": "2026-11-21T12:22:54+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/21/reform-uk-considers-pact-restore-britain-stalling-performance-polls",
-      "importance": 1.87
+      "importance": 1.74
     },
     {
       "title": "Haitians excited but uneasy as El Salvador troops fight gangs",
@@ -305,7 +385,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T11:00:57+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/21/excitement-unease-haiti-el-salvador-troops-gangs-war-bukele",
-      "importance": 1.851
+      "importance": 1.722
     },
     {
       "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
@@ -313,7 +393,7 @@
       "source": "BBC World",
       "published": "2026-11-21T10:26:36+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-      "importance": 1.844
+      "importance": 1.714
     },
     {
       "title": "China commits to low-carbon electrification and help for others to improve",
@@ -321,87 +401,7 @@
       "source": "The Guardian",
       "published": "2026-11-21T09:47:57+00:00",
       "url": "https://www.theguardian.com/environment/2026/nov/21/china-commits-low-carbon-electrification-help-others-improve",
-      "importance": 1.835
-    },
-    {
-      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-      "summary": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’ China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran caused by",
-      "source": "The Guardian",
-      "published": "2026-11-19T17:13:23+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
-      "importance": 1.821
-    },
-    {
-      "title": "Trafalgar Square Christmas tree felled in Norway",
-      "summary": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
-      "source": "BBC World",
-      "published": "2026-11-21T08:10:03+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.812
-    },
-    {
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "summary": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
-      "source": "BBC World",
-      "published": "2026-11-21T08:10:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.812
-    },
-    {
-      "title": "‘So what if there’s a hole? It hasn’t collapsed’: Kyiv residents unbothered by Russian attacks on city’s bridges",
-      "summary": "Despite dodging tears in the tarmac, people are confident in city’s infrastructure – and will not worry about what has not happened yet Mykola expects to drive his battered beige passenger minibus 20 to 24 times a day past the holes in the road on Kyiv’s damaged Northern Bridge that were caused by a Russian",
-      "source": "The Guardian",
-      "published": "2026-11-21T05:00:50+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/21/kyiv-russian-attacks-bridges",
-      "importance": 1.768
-    },
-    {
-      "title": "Man convicted of starting Palisades fire in Los Angeles",
-      "summary": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
-      "source": "BBC World",
-      "published": "2026-11-21T04:34:00+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.762
-    },
-    {
-      "title": "When you see smoke, run: Rohingya who escaped Myanmar’s genocide tell their stories",
-      "summary": "Survivors recount rivers red with blood and burning nearby villages serving as an urgent warning to flee their homes Smoke was often the signal to run – seen from a distance, it was the indication for Rohingya that a neighbouring village was under attack and that theirs would be next. In other places, they",
-      "source": "The Guardian",
-      "published": "2026-11-21T04:00:47+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
-      "importance": 1.754
-    },
-    {
-      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
-      "summary": "How convicted fraudsters made millions from detained immigrants, evaded efforts to shut down their bail business and left migrants behind bars.",
-      "source": "BBC World",
-      "published": "2026-11-21T01:02:39+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.713
-    },
-    {
-      "title": "Tech Now",
-      "summary": "Alasdair Keane is in Naples exploring how tech is transforming the America's Cup race.",
-      "source": "BBC Technology",
-      "published": "2026-11-21T01:00:00+00:00",
-      "url": "https://www.bbc.co.uk/iplayer/episode/m0034tjc?at_medium=RSS&at_campaign=rss",
-      "importance": 1.712
-    },
-    {
-      "title": "Victorian Greens seek urgent injunction over how-to-vote cards mimicking party’s branding but preferencing it last",
-      "summary": "Exclusive: Independent candidate Tosh-Jake Finnigan’s cards instruct people to vote in a way that would benefit Liberal party Get our daily political email , free app or daily news podcast The Victorian Greens are seeking an urgent injunction from the supreme court to stop an independent candidate",
-      "source": "The Guardian",
-      "published": "2026-11-21T00:26:56+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/21/victorian-greens-seek-urgent-injunction-over-how-to-vote-cards-mimicking-branding-but-preferencing-it-last-ntwnfb",
       "importance": 1.705
-    },
-    {
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "summary": "Plans to shutter the troubled facility date back to 2019, when the city council first voted to close it but delays arose over where to place inmates.",
-      "source": "BBC World",
-      "published": "2026-11-21T00:01:39+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.699
     }
   ]
 }
