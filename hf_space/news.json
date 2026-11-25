@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T00:51:42.816154+00:00",
+  "generated_at": "2026-11-25T18:41:28.802353+00:00",
   "max_age_hours": 72,
   "items": [
     {
@@ -9,71 +9,167 @@
       "source": "BBC Science",
       "published": "2026-11-23T05:15:06+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "importance": 3.044
+      "importance": 2.797
     },
     {
-      "title": "What's next after no deal at COP31 climate summit?",
-      "summary": "The COP31 climate summit in Turkey has formally come to an end after countries failed to agree a deal.",
-      "source": "BBC Science",
-      "published": "2026-11-22T18:28:48+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cx987g7q019go?at_medium=RSS&at_campaign=rss",
-      "importance": 2.895
-    },
-    {
-      "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
-      "summary": "The UN COP31 meeting in Turkey enters a second day of overtime as countries struggle to reach an agreement.",
-      "source": "BBC Science",
-      "published": "2026-11-22T06:54:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.734
-    },
-    {
-      "title": "What will Victoria’s election result mean for nine datacentre projects awaiting approval?",
-      "summary": "Despite community backlash, some firms are confident they’ll get the greenlight as the Coalition says datatecentres ‘will be an important part of Victoria’s future’ Follow our Australia politics live blog for latest updates Get our breaking news email , free app or daily news podcast Nine datacentre projects",
+      "title": "Trump administration approves Elon Musk’s plan for datacenters in space",
+      "summary": "The FCC approved 1m Starmind satellites, with the deployment of 100,000 no later than November 2035 US federal regulators approved a constellation of datacenters to process data in space on Wednesday, saying that they would “support America’s booming super intelligence economy”. The Federal Communications",
       "source": "The Guardian",
-      "published": "2026-11-25T00:42:17+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/24/nine-datacentre-projects-awaiting-approval-victoria-election",
-      "importance": 2.548
-    },
-    {
-      "title": "What will the energy cap changes mean for my bills?",
-      "summary": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households.",
-      "source": "BBC Business",
-      "published": "2026-11-25T00:33:25+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.546
-    },
-    {
-      "title": "Households braced for soaring energy bills with new price cap to be announced",
-      "summary": "Domestic gas prices will rise significantly in January under regulator Ofgem's new price cap.",
-      "source": "BBC Business",
-      "published": "2026-11-25T00:29:58+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T18:21:47+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/spacex-datacenter-satellites-approval",
       "importance": 2.545
+    },
+    {
+      "title": "Martin Lewis' tips on staying warm this winter",
+      "summary": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war.",
+      "source": "BBC Business",
+      "published": "2026-11-25T17:59:14+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cjr4gw12k2lwo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.54
+    },
+    {
+      "title": "Energy price increase 'could put me in hospital'",
+      "summary": "People on Teesside share their views on the news energy bills are expected to increase by 26%.",
+      "source": "BBC Business",
+      "published": "2026-11-25T17:26:13+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1g42x2wzo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.533
+    },
+    {
+      "title": "Scots react to news of rising energy prices",
+      "summary": "Scots describe how an increase in energy bills will affect them.",
+      "source": "BBC Business",
+      "published": "2026-11-25T16:56:47+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmqlq07d71yko?at_medium=RSS&at_campaign=rss",
+      "importance": 2.526
+    },
+    {
+      "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – as it happened",
+      "summary": "German chancellor, in wide-ranging speech, says Moscow is ‘escalating on a massive scale’ If you want to hear more about the new death toll, listen to today’s Today in Focus podcast with our Russia expert, Pjotr Sauer. “Two groups of hackers accessed Russia’s main statistics database last month and",
+      "source": "The Guardian",
+      "published": "2026-11-25T16:20:53+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates",
+      "importance": 2.517
+    },
+    {
+      "title": "Canadian astronaut welcomes baby girl from space station",
+      "summary": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
+      "source": "BBC World",
+      "published": "2026-11-25T15:41:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.508
+    },
+    {
+      "title": "China sends first foreign astronaut to ISS rival as it globalises space operations",
+      "summary": "Muhammad Zeeshan Ali – the first Pakistani to reach orbit – greeted with Chinese ‘space handshake’ at Tiangong station China has flown the first foreign astronaut to its Tiangong space station, starting what it says will be the globalisation of its space operations as the US-led International Space Station",
+      "source": "The Guardian",
+      "published": "2026-11-25T14:18:29+00:00",
+      "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space",
+      "importance": 2.489
+    },
+    {
+      "title": "Energy bills to rise by 26% from January after gas prices surge",
+      "summary": "A household using a typical amount of energy would see its annual bill rise from £1,723 to £2,166 if this level was sustained for a year.",
+      "source": "BBC Business",
+      "published": "2026-11-25T13:42:08+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.481
+    },
+    {
+      "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+      "summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+      "source": "BBC World",
+      "published": "2026-11-25T12:21:49+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.462
     },
     {
       "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
       "summary": "The BBC speaks to three people about steps they take to keep their energy bills under control.",
       "source": "BBC Business",
-      "published": "2026-11-25T00:30:52+00:00",
+      "published": "2026-11-25T12:12:11+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.545
+      "importance": 2.46
     },
     {
-      "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
-      "summary": "Monthly tide records were set across the city, with some expected to hit even higher tomorrow Explainer: What to know about flooding in California over Thanksgiving California is grappling with the stress test of record-high or close to record-high November tides up and down the coast this week, with",
+      "title": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
+      "summary": "Social media campaign fronted by British rapper Shao Dow advises tourists not to let their guard down The British embassy in Tokyo has launched a social media campaign warning visitors to exercise caution after a rise in cases of drink-spiking and credit card fraud against tourists in the Japanese capital.",
       "source": "The Guardian",
-      "published": "2026-11-24T23:20:24+00:00",
-      "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel",
-      "importance": 2.529
+      "published": "2026-11-25T11:59:22+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
+      "importance": 2.457
+    },
+    {
+      "title": "Energy bills will soar - here's how you can ease the pain",
+      "summary": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
+      "source": "BBC Business",
+      "published": "2026-11-25T10:42:20+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.439
+    },
+    {
+      "title": "Why has China sent the first Pakistani astronaut to space?",
+      "summary": "Pakistan's Muhammad Zeeshan Ali has become the first foreign national to board China's Tiangong space station.",
+      "source": "BBC Science",
+      "published": "2026-11-25T10:26:50+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
+      "importance": 2.435
+    },
+    {
+      "title": "What will the energy cap changes mean for my bills?",
+      "summary": "Regulator Ofgem is raising the cap affecting the energy bills of millions of households.",
+      "source": "BBC Business",
+      "published": "2026-11-25T09:54:32+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.428
+    },
+    {
+      "title": "Why China has sent Pakistan's first astronaut into space",
+      "summary": "China launched its Shenzhou-24 space mission on Wednesday carrying three astronauts to its Tiangong space station, including Pakistan's Muhammad Zeeshan Ali, the first foreigner to join a Chinese crewed space mission.",
+      "source": "BBC Science",
+      "published": "2026-11-25T09:37:29+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
+      "importance": 2.424
+    },
+    {
+      "title": "In charts: how power could shift in Europe’s big year of elections",
+      "summary": "More than half of EU voters will go to the polls in the next 12 months, with the far right targeting significant gains. We set out the political landscape and trends Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations Over the coming 12 months, more than",
+      "source": "The Guardian",
+      "published": "2026-11-25T05:00:06+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/25/charts-europe-big-year-of-elections-eu-far-right",
+      "importance": 2.36
+    },
+    {
+      "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+      "summary": "Muhammad Zeeshan Ali, a former fighter pilot, is the first foreigner to join a Chinese crewed space mission.",
+      "source": "BBC Science",
+      "published": "2026-11-25T04:46:23+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.357
+    },
+    {
+      "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+      "summary": "China launched its Shenzhou-24 space mission to bring three astronauts to its Tiangong space station.",
+      "source": "BBC World",
+      "published": "2026-11-25T03:28:37+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.339
+    },
+    {
+      "title": "Clashing political visions reflect a divided Spain ahead of election",
+      "summary": "Sunday’s election could see a far-right party enter the Spanish government for first time.",
+      "source": "BBC World",
+      "published": "2026-11-25T00:58:34+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.304
     },
     {
       "title": "Five takeaways from the failed climate talks COP31",
       "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
-      "source": "BBC World",
+      "source": "BBC Science",
       "published": "2026-11-23T06:33:50+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.513
+      "importance": 2.265
     },
     {
       "title": "Will I get the £100 energy payment and when will I receive it?",
@@ -81,7 +177,7 @@
       "source": "BBC Business",
       "published": "2026-11-24T20:16:24+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.486
+      "importance": 2.239
     },
     {
       "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
@@ -89,31 +185,7 @@
       "source": "The Guardian",
       "published": "2026-11-24T19:07:26+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-      "importance": 2.47
-    },
-    {
-      "title": "Land mine casualties soar in Syria, two years after war",
-      "summary": "Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
-      "source": "BBC World",
-      "published": "2026-11-24T15:17:28+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.417
-    },
-    {
-      "title": "Leftwing coalition leader calls for rental revolution as Spain heads for snap election",
-      "summary": "Exclusive: Ada Colau hopes public anger over housing will transfer into support for her Broad Front coalition in Sunday’s vote The leader of Spain’s leftwing Broad Front coalition has called for a drastic rethink of the country’s entire housing rental system, and described the eviction of an 87-year-old",
-      "source": "The Guardian",
-      "published": "2026-11-24T12:22:04+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/24/spain-election-ada-colau-broad-front-far-right",
-      "importance": 2.376
-    },
-    {
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "summary": "German media said Russia planned to launch a satellite with a nuclear warhead into space in coming weeks.",
-      "source": "BBC World",
-      "published": "2026-11-24T10:58:51+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.357
+      "importance": 2.223
     },
     {
       "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
@@ -121,287 +193,215 @@
       "source": "BBC Technology",
       "published": "2026-11-24T09:33:00+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.337
+      "importance": 2.09
     },
     {
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
-      "source": "BBC World",
-      "published": "2026-11-23T20:48:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.16
-    },
-    {
-      "title": "Barbados town’s three-year deal with Bristol ‘part of the reparative process’",
-      "summary": "Island’s labour minister, Colin Jordan, says agreement acknowledges links between Speightstown and UK city are rooted in slave trade A town in Barbados known as “Little Bristol” has signed a “twinning’” agreement with the UK city, marking a new chapter in a centuries-long relationship rooted in the",
-      "source": "The Guardian",
-      "published": "2026-11-23T16:53:13+00:00",
-      "url": "https://www.theguardian.com/news/2026/nov/23/barbados-minister-speightstown-bristol-deal-slave-trade-reparations",
-      "importance": 2.106
-    },
-    {
-      "title": "Lucy Powell to visit China to promote UK education weeks after MI5 warning",
-      "summary": "Delegation of 50 to accompany minister, with trip criticised after universities were warned about Chinese interference The education secretary, Lucy Powell, is travelling to Beijing this week to promote UK education, weeks after MI5 issued a rare public warning to universities about Chinese interference in",
-      "source": "The Guardian",
-      "published": "2026-11-23T16:42:09+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/23/uk-visit-china-lucy-powell-education-mi5-universities-warning",
-      "importance": 2.103
-    },
-    {
-      "title": "How important are Nvidia and Jensen Huang to the US economy?",
-      "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
-      "source": "BBC Technology",
-      "published": "2026-11-23T16:12:35+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.096
-    },
-    {
-      "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-      "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-      "source": "BBC Technology",
-      "published": "2026-11-23T14:08:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
-      "importance": 2.068
-    },
-    {
-      "title": "Politics live: Marles apologises to LGBTQ+ veterans; Australia and Solomon Islands sign ‘historic’ treaty",
-      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who want to protect their work, Anika Wells says",
-      "source": "The Guardian",
-      "published": "2026-11-25T00:43:42+00:00",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
-      "importance": 1.998
-    },
-    {
-      "title": "US preparing to unveil new tariffs on global trading partners",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
       "source": "BBC Business",
-      "published": "2026-11-25T00:38:01+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-25T18:29:42+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
       "importance": 1.997
     },
     {
-      "title": "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
-      "summary": "Residents warned to stay indoors amid conflicting information about how far the dust plume could travel The US Army is set to detonate 68 barrels – five tons – of lead azide at an ammunition plant in rural Iowa on Wednesday morning, after delays and conflicting information about how far the toxic lead dust",
+      "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
+      "summary": "Controlled blast to dispose of lead azide risks releasing plumes of toxic chemicals in 100-mile radius The US army detonated the nation’s entire stockpile of the the bomb-making material lead azide in Iowa on Wednesday morning, despite an outpouring of public concern about potential health and environmental",
       "source": "The Guardian",
-      "published": "2026-11-25T00:33:16+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+      "published": "2026-11-25T18:24:48+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
       "importance": 1.996
     },
     {
-      "title": "Why tiny cars are taking off across Europe",
-      "summary": "Once seen as a car for elderly, rural people, tiny cars are being embraced by a younger demographic.",
-      "source": "BBC Technology",
-      "published": "2026-11-25T00:34:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy9jne0g7qo?at_medium=RSS&at_campaign=rss",
+      "title": "‘I am leaving with my freedom’: Kilmar Ábrego García lands in Spain after choosing to leave US - live",
+      "summary": "Before his departure, Immigration and Customs Enforcement agents met him at the airport and removed his ankle monitor, an advocacy group reported Sign up for the Breaking News US email to get newsletter alerts in your inbox US trade representative Jamieson Greer claimed this morning that he did not expect",
+      "source": "The Guardian",
+      "published": "2026-11-25T18:23:45+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
       "importance": 1.996
     },
     {
-      "title": "Trump reportedly says he is open to pardoning Jensen Huang ahead of CEO’s planned Senate committee testimony – live",
-      "summary": "President took credit for convincing Nvidia’s board to reinstate Huang, a move that might have made Trump a personal profit of $15m in one day, as Nvidia sticks soared Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the Oval Office",
+      "title": "All hostages rescued after Colombian security forces storm supermarket",
+      "summary": "Operation in which one hostage-taker was killed ends daylong siege in Cartagena shopping centre, where 30 people were initially held Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the hostages were freed and one",
       "source": "The Guardian",
-      "published": "2026-11-25T00:11:54+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-      "importance": 1.991
+      "published": "2026-11-25T18:20:20+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+      "importance": 1.995
     },
     {
-      "title": "Latest review of Met police culture finds little has changed since last one",
-      "summary": "Failure to implement previous reports means institutional racism, misogyny and homophobia still present in force Metropolitan police still institutionally racist and misogynist, says report From the Stephen Lawrence inquiry in 1999 to Louise Casey’s landmark review in 2023, successive reports on the",
+      "title": "EU nationals will pay higher tuition fees than UK students, Burnham indicates",
+      "summary": "Asked by Kemi Badenoch to rule out equal rate for UK and EU students, PM says proposal ‘will not be put on the table’ European students will have to pay higher fees than their domestic equivalents at UK universities under a still-to-be-finalised part of the new deal with the EU, Andy Burnham has indicated.",
       "source": "The Guardian",
-      "published": "2026-11-25T00:01:02+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/25/latest-review-of-met-police-culture-finds-little-has-changed-since-last-one",
+      "published": "2026-11-25T18:19:19+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/eu-nationals-will-pay-higher-tuition-fees-than-uk-students-burnham-indicates",
+      "importance": 1.995
+    },
+    {
+      "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
+      "summary": "Judgment casts doubt on evidence linking aid workers to Hamas and says humanitarian efforts in Gaza were damaged A UN tribunal has cast doubt on the evidence used to justify the sacking of Palestinian UN aid workers in 2024, saying it was based “almost entirely” on unproven assertions from the Israeli",
+      "source": "The Guardian",
+      "published": "2026-11-25T18:14:27+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations",
+      "importance": 1.994
+    },
+    {
+      "title": "US stocks fall further as fears over AI intensify",
+      "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+      "source": "BBC World",
+      "published": "2026-11-25T17:48:09+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
       "importance": 1.988
     },
     {
-      "title": "UK to launch world’s first licensing scheme for knife sales",
-      "summary": "Exclusive: Measures aimed at tackling grey market sellers known to sell dangerous knives to children Ministers will introduce the world’s first licensing scheme for businesses and private individuals selling all types of knives including cutlery, the Home Office announced on Wednesday. In a drive to fulfil",
+      "title": "UK politics: Burnham dismisses Badenoch’s criticism over influencer and declines to apologise for ‘vile video’ – as it happened",
+      "summary": "Pair clashed at PMQs over a video shot outside No 10 by TikToker Max Balegde Diane Taylor is a Guardian reporter who covers migration. Britons get many of the facts about migration wrong and Reform UK voters are the group who get these facts most wrong, according to new research published today by King’s",
       "source": "The Guardian",
-      "published": "2026-11-25T00:01:01+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/25/uk-knife-sales-licensing-scheme",
-      "importance": 1.988
-    },
-    {
-      "title": "Metropolitan police still institutionally racist and misogynist, says report",
-      "summary": "Independent review finds force has ‘fundamental systemic issues’ three years after damning report on Sarah Everard murder Latest review of Met police culture finds little has changed since last one The Metropolitan police remain institutionally racist, misogynistic and homophobic three years after a damning",
-      "source": "The Guardian",
-      "published": "2026-11-25T00:01:01+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/25/metropolitan-police-institutionally-racist-misogynist-fairfield-report",
-      "importance": 1.988
-    },
-    {
-      "title": "England has largest frailty gap out of 31 countries, study finds",
-      "summary": "People from lowest socioeconomic group in all countries studied had higher frailty scores than those in highest socioeconomic group England has the largest gap between higher and lower socioeconomic groups when it comes to frailty compared with 30 other countries, a major study has found. The research, led",
-      "source": "The Guardian",
-      "published": "2026-11-25T00:01:01+00:00",
-      "url": "https://www.theguardian.com/society/2026/nov/25/england-has-largest-frailty-gap-out-of-31-countries-study-finds",
-      "importance": 1.988
-    },
-    {
-      "title": "Coastal areas in England at risk of erosion to receive £11m in new funding",
-      "summary": "Exclusive: Laser-equipped drone surveys and road relocations among schemes to get government support Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas and coastal",
-      "source": "The Guardian",
-      "published": "2026-11-25T00:01:01+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea",
-      "importance": 1.988
-    },
-    {
-      "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaving US",
-      "summary": "Salvadorian man, who was deported in March 2025 and returned to US after supreme court ruling, leaving of own volition for Spain Kilmar Ábrego García is leaving the United States of his own volition, his lawyers confirmed on Tuesday. Ábrego is leaving the US for Spain on Tuesday evening. Continue reading...",
-      "source": "The Guardian",
-      "published": "2026-11-24T23:50:31+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+      "published": "2026-11-25T17:42:31+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/25/andy-burnham-kemi-badenoch-pmqs-energy-bills-tiktok-welfare-benefits-timms-reform-brexit-devolution-latest-news-updates",
       "importance": 1.986
     },
     {
-      "title": "Fort Hood survivors denied bid to witness shooter’s firing-squad execution",
-      "summary": "Army says trio injured in 2009 attack were not direct victims of Nidal Hasan’s and thus cannot attend event Three survivors of the shooting at Fort Hood will not be allowed to witness the execution by military firing squad of Nidal Hasan who shot 13 people dead in the attack at the Texas army post in 2009",
+      "title": "Woman did not believe husband had drugged her for rape by strangers, Manchester trial told",
+      "summary": "Wife said to detectives: ‘I had no knowledge of what you told me had happened and I still can’t believe it’s true’ A woman who was allegedly raped and sexually assaulted by men her husband invited to their home after he drugged her told police she could not believe it happened. In a video interview played to",
       "source": "The Guardian",
-      "published": "2026-11-24T23:45:05+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/24/fort-hood-shooting-survivors-execution",
+      "published": "2026-11-25T17:36:42+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/woman-did-not-believe-husband-drugged-her-for-rape-by-strangers-manchester-trial",
       "importance": 1.985
     },
     {
-      "title": "Jury considers verdicts in Beau Lamarre-Condon double-murder trial",
-      "summary": "After 10-week trial, 12 jurors will decide whether former police officer murdered Jesse Baird and Luke Davies Get our breaking news email , free app or daily news podcast Beau Lamarre-Condon’s fate is in the hands of his peers as the 12-person jury in his double murder trial has been sent off to deliberate.",
-      "source": "The Guardian",
-      "published": "2026-11-24T22:57:35+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/25/beau-lamarre-condon-trial-jury-considers-verdict-ntwnfb",
-      "importance": 1.974
+      "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+      "summary": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+      "source": "BBC World",
+      "published": "2026-11-25T17:30:16+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
     },
     {
-      "title": "Meta and other social media firms are not liable for Buffalo mass shooting, court rules",
-      "summary": "New York’s top court upholds lower court decision to dismiss claims against tech firms in lawsuit over 2022 shooting Facebook, YouTube and other social media companies aren’t liable for the racist mass shooting at a supermarket in Buffalo, New York, the state’s highest court ruled this week in lawsuits over",
+      "title": "Trump open to pardoning Jensen Huang if needed: ‘It’s always an option’",
+      "summary": "The president’s comments came after pressuring Nvidia’s board to reinstall Huang as CEO despite lawmakers’ concerns over national security Donald Trump said on Tuesday he would be open to pardoning Jensen Huang , the recently reinstalled Nvidia CEO , for potential crimes but didn’t think it would be",
       "source": "The Guardian",
-      "published": "2026-11-24T22:30:01+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/24/social-media-not-liable-2022-buffalo-mass-shooting",
+      "published": "2026-11-25T17:21:10+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/trump-open-to-pardoning-jensen-huang-nvidia",
+      "importance": 1.981
+    },
+    {
+      "title": "US Army calls Iowa lead detonation a ‘huge success’ and says threat of spontaneous explosions has been ‘eliminated’ – as it happened",
+      "summary": "This live blog is now closed. For the latest news on this detonation in Iowa, read our full story: Smoke seen from a mile away as army detonates bomb-making chemicals The United States Centers for Disease Control and Prevention (CDC) has activated an emergency response to support the Iowa Department of",
+      "source": "The Guardian",
+      "published": "2026-11-25T17:20:49+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates",
+      "importance": 1.981
+    },
+    {
+      "title": "Does the rise and fall of Raheem Sterling show football is broken? – The Latest",
+      "summary": "Raheem Sterling has been handed a 12-month jail term, suspended for 18 months, for reckless driving and possession of nitrous oxide. It marks a remarkable fall from grace for the former England and Manchester City player, who was awarded an MBE in 2021. Sterling started playing professional football at 16",
+      "source": "The Guardian",
+      "published": "2026-11-25T17:13:12+00:00",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/25/does-the-rise-and-fall-of-raheem-sterling-show-football-is-broken-the-latest",
+      "importance": 1.98
+    },
+    {
+      "title": "What's gone wrong at Poundland?",
+      "summary": "Poundland has collapse into administration. Why?",
+      "source": "BBC Business",
+      "published": "2026-11-25T17:00:32+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.977
+    },
+    {
+      "title": "Poundland collapses into administration, putting 12,000 jobs at risk",
+      "summary": "US owner Gordon Brothers rejected at least two last-ditch bids for UK budget retailer Do you work for Poundland? Tell us how you’re affected Poundland has called in administrators, putting 12,000 jobs at risk in the run-up to Christmas after its owners rejected at least two last-ditch bids for the budget",
+      "source": "The Guardian",
+      "published": "2026-11-25T16:41:08+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/25/poundland-administration-jobs-at-risk-gordon-brothers",
+      "importance": 1.972
+    },
+    {
+      "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
+      "summary": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
+      "source": "BBC Business",
+      "published": "2026-11-25T16:42:11+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.972
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "source": "BBC World",
+      "published": "2026-11-25T16:21:34+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.968
+    },
+    {
+      "title": "Why has Poundland collapsed and what happens next?",
+      "summary": "The retail chain has collapsed just one year after being bought for £1 by an American firm.",
+      "source": "BBC Business",
+      "published": "2026-11-25T16:24:30+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/ckregn0gq2ydo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.968
+    },
+    {
+      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+      "source": "BBC World",
+      "published": "2026-11-25T16:20:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
       "importance": 1.967
     },
     {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "summary": "The verdict follows a months-long trial in New York.",
-      "source": "BBC World",
-      "published": "2026-11-24T22:24:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.966
-    },
-    {
-      "title": "US attorney general dodges questions about Nvidia investigation",
-      "summary": "Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.",
-      "source": "BBC World",
-      "published": "2026-11-24T21:19:42+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.951
-    },
-    {
-      "title": "Armed men hold hostages at supermarket in top Colombian tourist destination",
-      "summary": "President says 15 people released and Cartagena incident stems from botched robbery by ‘common criminals’ Armed and masked men have been holding people hostage in a supermarket since early Tuesday morning in Cartagena, one of Colombia’s most popular tourist cities. The country’s president, Abelardo de la",
+      "title": "Hundreds complain after Mariella Frostrup calls AJ Odudu ‘aggressive’ on I’m a Celebrity",
+      "summary": "Ofcom receives 887 complaints, while media figures accuse Frostrup of using ‘microaggression’ against Odudu Almost 900 people have complained to the UK’s media regulator about an episode of ITV’s I’m A Celebrity … Get Me Out of Here! after the broadcaster Mariella Frostrup called her fellow campmate and",
       "source": "The Guardian",
-      "published": "2026-11-24T21:06:37+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
-      "importance": 1.948
+      "published": "2026-11-25T16:00:19+00:00",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/25/hundreds-complain-ofcom-mariella-frostrup-aj-odudu-im-a-celebrity",
+      "importance": 1.963
     },
     {
-      "title": "Tech Life",
-      "summary": "Experts from around the world plot the progress of AI development every five years.",
-      "source": "BBC Technology",
-      "published": "2026-11-24T21:00:00+00:00",
-      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jyx?at_medium=RSS&at_campaign=rss",
+      "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+      "summary": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
+      "source": "BBC World",
+      "published": "2026-11-25T15:42:50+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.959
+    },
+    {
+      "title": "Brussels on split-screen: where it flexes – and where it bends",
+      "summary": "From a choreographed summit that dominated Westminster but barely registered in Brussels to a climate showdown in Turkey, last week revealed the EU’s priorities – and the limits of its collective power • Don’t get This Is Europe delivered to your inbox? Sign up here Two very different European diplomatic",
+      "source": "The Guardian",
+      "published": "2026-11-25T15:39:54+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/25/this-is-europe-brussels-eu-uk-summit",
+      "importance": 1.958
+    },
+    {
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
+      "source": "BBC World",
+      "published": "2026-11-25T14:46:41+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
       "importance": 1.946
     },
     {
-      "title": "World Chess Championship 2026 Game 1: Gukesh Dommaraju and Javokhir Sindarov play to 38-move draw – as it happened",
-      "summary": "Sindarov and Gukesh play to 38-move draw in Game 1 Explainer: all your pre-match questions, answered Sindarov interview: ‘I can’t play games just for fun’ Play through 22 famous world championship games The players have shaken hands and we’re off! We have a Berlin defense of the Ruy Lopez ( 1 e4 e5 2 Nf3 Nc6",
-      "source": "The Guardian",
-      "published": "2026-11-24T20:04:50+00:00",
-      "url": "https://www.theguardian.com/sport/live/2026/nov/24/chess-world-championship-gukesh-sindarov-game-1-updates",
-      "importance": 1.934
-    },
-    {
-      "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-      "summary": "A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-      "source": "BBC World",
-      "published": "2026-11-24T19:27:23+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.925
-    },
-    {
-      "title": "Nigerian monarch, 92, suspended after sexual assault claims",
-      "summary": "The Emir of Daura is one of Nigeria's best-known monarchs, with politicians often trying to gain his support.",
-      "source": "BBC World",
-      "published": "2026-11-24T19:10:31+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmglrz462nn6o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.921
-    },
-    {
-      "title": "Faisal Islam: Fears over the AI boom haven't gone away",
-      "summary": "There were legitimate fears before Huang's abrupt exit from Nvidia - and his return won't fix it",
-      "source": "BBC Technology",
-      "published": "2026-11-24T18:21:43+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6894evgpel5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.91
-    },
-    {
-      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-      "summary": "Saurav Das says immigration authorities at Delhi airport told him his passport had been flagged.",
-      "source": "BBC World",
-      "published": "2026-11-24T18:07:46+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.906
-    },
-    {
-      "title": "Israel attempts to jail Palestinian student at Hebrew University without trial",
-      "summary": "Mahdi Tounsi appeared to have suffered maltreatment at hearing where he was not allowed to hear prosecution case against him Palestinian student Mahdi Tounsi appeared in a closed-door court hearing in Jerusalem, as academics and activists warned that Israel’s attempt to jail him without trial marked a",
-      "source": "The Guardian",
-      "published": "2026-11-24T18:02:53+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/24/israel-jail-palestinian-student-mahdi-tounsi-hebrew-university-without-trial",
-      "importance": 1.905
-    },
-    {
-      "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
-      "summary": "Hundreds of people from different African countries have been recruited to fight for Russia, according to Ukraine.",
-      "source": "BBC World",
-      "published": "2026-11-24T17:04:00+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.892
-    },
-    {
-      "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
-      "summary": "It is the latest case involving Nicolas Sarkozy who became the first French ex-president to go to jail last year.",
-      "source": "BBC World",
-      "published": "2026-11-24T16:49:07+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.888
-    },
-    {
-      "title": "Badger cull ruled out by Welsh government after speculation",
-      "summary": "Plaid Cymru ministers rule out mass badger cull as part of new plans to tackle bovine tuberculosis.",
+      "title": "New York's annual Thanksgiving Parade threatened by approaching storm",
+      "summary": "Strong winds and heavy rain are expected to impact celebrations across the USA, with the risk that the famous Macy's Thanksgiving Day parade could be impacted.",
       "source": "BBC Science",
-      "published": "2026-11-24T16:47:05+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.888
+      "published": "2026-11-25T14:41:42+00:00",
+      "url": "https://www.bbc.co.uk/weather/articles/cr894e8dd7wqo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.944
     },
     {
-      "title": "Four generations of a family working in one factory",
-      "summary": "Four generations of the Avis family have now worked at Sweetnam & Bradley in Malmesbury.",
+      "title": "Fuel price hike will make life 'almost impossible'",
+      "summary": "The Fuel Bank Foundation says many homes are already cutting back and struggling with bills.",
       "source": "BBC Business",
-      "published": "2026-11-24T16:42:46+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/ck7v2r6j1yl3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.887
+      "published": "2026-11-25T14:37:44+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrgqknw0jlo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.944
     },
     {
-      "title": "Energy bills will soar - here's how you can ease the pain",
-      "summary": "Household energy bills are about to increase but there are ways to keep a lid on your expenditure.",
-      "source": "BBC Business",
-      "published": "2026-11-23T01:05:07+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.886
-    },
-    {
-      "title": "Italy expresses concern to Ukraine over Libya ship attacks – as it happened",
-      "summary": "Ukraine earlier confirmed that it deployed naval drones in strikes on Russian vessels off the coast of Libya The leader of Spain’s leftwing Broad Front coalition has called for a drastic rethink of the country’s entire housing rental system, and described the eviction of an 87-year-old woman – the spark for",
-      "source": "The Guardian",
-      "published": "2026-11-24T16:24:49+00:00",
-      "url": "https://www.theguardian.com/world/live/2026/nov/24/russia-ukraine-poland-drone-patriots-latest-news-updates",
-      "importance": 1.883
+      "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+      "summary": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say.",
+      "source": "BBC World",
+      "published": "2026-11-25T14:06:13+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.936
     }
   ]
 }
