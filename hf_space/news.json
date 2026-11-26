@@ -1,23 +1,87 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T18:41:28.802353+00:00",
+  "generated_at": "2026-11-26T08:34:36.237512+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-      "summary": "The prime minister of Australia, which co-hosted COP31, attributed the failure to \"difficult geopolitical times\".",
-      "source": "BBC Science",
-      "published": "2026-11-23T05:15:06+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.797
+      "title": "UK to invest £9.5m in Ukraine windfarm to bolster war-hit energy system",
+      "summary": "Project capable of powering 300,000 homes, with Britain having offered more than £770m to rebuild energy sector Britain will add to its multimillion pound investments in rebuilding Ukraine’s energy system by funding a windfarm project capable of powering 300,000 Ukrainian households. Ed Miliband, the UK",
+      "source": "The Guardian",
+      "published": "2026-11-26T05:00:46+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/26/uk-to-invest-95m-in-ukraine-windfarm-war-hit-energy-system",
+      "importance": 3.051
     },
     {
-      "title": "Trump administration approves Elon Musk’s plan for datacenters in space",
-      "summary": "The FCC approved 1m Starmind satellites, with the deployment of 100,000 no later than November 2035 US federal regulators approved a constellation of datacenters to process data in space on Wednesday, saying that they would “support America’s booming super intelligence economy”. The Federal Communications",
+      "title": "California warns of flooding as King Tides peak over Thanksgiving",
+      "summary": "Parts of the Canadian province of British Columbia may also be affected by the storms and flooding, which come as millions of people travel for the holiday.",
+      "source": "BBC World",
+      "published": "2026-11-26T01:22:55+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+      "importance": 3.0
+    },
+    {
+      "title": "Coalition to privatise Melbourne sewage plants and sell state land and renewables if it wins election",
+      "summary": "Liberal and Nationals’ policy costings also reveal ‘air rights’ between Richmond train station and MCG to be sold Follow our Australia politics live blog for latest updates Victorian election 2026 guide: what you need to know Confused about who to vote for? Check the parties’ key promises and policies Get",
       "source": "The Guardian",
-      "published": "2026-11-25T18:21:47+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/25/spacex-datacenter-satellites-approval",
-      "importance": 2.545
+      "published": "2026-11-26T08:07:24+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
+      "importance": 2.544
+    },
+    {
+      "title": "Parents cutting basics at Christmas, charity warns",
+      "summary": "The chief executive of Worthing Soup Kitchen says some families choose between food and presents.",
+      "source": "BBC Business",
+      "published": "2026-11-26T06:13:47+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq1k98gpzmy4o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.517
+    },
+    {
+      "title": "Spain’s election: the end of a leftwing icon? - podcast",
+      "summary": "Madrid correspondent Sam Jones and European community affairs correspondent Ashifa Kassam report on a pivotal election in Spain this weekend, which could see longtime PM Pedro Sánchez replaced by a conservative coalition including the far right He has become an icon of the European left. A great political",
+      "source": "The Guardian",
+      "published": "2026-11-26T03:00:43+00:00",
+      "url": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast",
+      "importance": 2.473
+    },
+    {
+      "title": "Spanish elections: What you need to know and what's at stake",
+      "summary": "After eight years of Socialist-led rule, snap elections are taking place on Sunday with conservative Alberto Núñez Feijóo vying to win office.",
+      "source": "BBC World",
+      "published": "2026-11-26T00:23:49+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4ejnyvdyo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.436
+    },
+    {
+      "title": "US approves SpaceX plan to send a million data satellites to space",
+      "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+      "source": "BBC Science",
+      "published": "2026-11-26T00:07:51+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.433
+    },
+    {
+      "title": "Guitar wars - the transatlantic battle over the Stratocaster",
+      "summary": "US company Fender is in dispute with a German firm that makes generic versions of its key model.",
+      "source": "BBC Business",
+      "published": "2026-11-26T00:01:37+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.431
+    },
+    {
+      "title": "Record-breaking California tides cause major flooding of roads and businesses",
+      "summary": "Beaches close as Los Angeles and La Jolla see all-time high tides and big waves batter landmark pier in Pacifica Super El Niño weather brought record-breaking high tides up and down the California coast on Wednesday, sending seawater rushing into beachside communities and flooding roads and businesses. As",
+      "source": "The Guardian",
+      "published": "2026-11-25T22:56:36+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+      "importance": 2.416
+    },
+    {
+      "title": "Moment Nasa spacecraft hit asteroid - and what happened next",
+      "summary": "The crash was \"like something out of a disaster movie\", the BBC's science editor Rebecca Morelle says.",
+      "source": "BBC World",
+      "published": "2026-11-25T20:11:46+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cwe9kxpgz2kpo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.378
     },
     {
       "title": "Martin Lewis' tips on staying warm this winter",
@@ -25,7 +89,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T17:59:14+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cjr4gw12k2lwo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.54
+      "importance": 2.347
     },
     {
       "title": "Energy price increase 'could put me in hospital'",
@@ -33,7 +97,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T17:26:13+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm5y1g42x2wzo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.533
+      "importance": 2.34
     },
     {
       "title": "Scots react to news of rising energy prices",
@@ -41,7 +105,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T16:56:47+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cmqlq07d71yko?at_medium=RSS&at_campaign=rss",
-      "importance": 2.526
+      "importance": 2.333
     },
     {
       "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – as it happened",
@@ -49,15 +113,15 @@
       "source": "The Guardian",
       "published": "2026-11-25T16:20:53+00:00",
       "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates",
-      "importance": 2.517
+      "importance": 2.325
     },
     {
       "title": "Canadian astronaut welcomes baby girl from space station",
       "summary": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
-      "source": "BBC World",
+      "source": "BBC Science",
       "published": "2026-11-25T15:41:39+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.508
+      "importance": 2.316
     },
     {
       "title": "China sends first foreign astronaut to ISS rival as it globalises space operations",
@@ -65,7 +129,7 @@
       "source": "The Guardian",
       "published": "2026-11-25T14:18:29+00:00",
       "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space",
-      "importance": 2.489
+      "importance": 2.296
     },
     {
       "title": "Energy bills to rise by 26% from January after gas prices surge",
@@ -73,7 +137,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T13:42:08+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.481
+      "importance": 2.288
     },
     {
       "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
@@ -81,7 +145,7 @@
       "source": "BBC World",
       "published": "2026-11-25T12:21:49+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.462
+      "importance": 2.269
     },
     {
       "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
@@ -89,7 +153,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T12:12:11+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.46
+      "importance": 2.267
     },
     {
       "title": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
@@ -97,7 +161,7 @@
       "source": "The Guardian",
       "published": "2026-11-25T11:59:22+00:00",
       "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
-      "importance": 2.457
+      "importance": 2.264
     },
     {
       "title": "Energy bills will soar - here's how you can ease the pain",
@@ -105,7 +169,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T10:42:20+00:00",
       "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.439
+      "importance": 2.246
     },
     {
       "title": "Why has China sent the first Pakistani astronaut to space?",
@@ -113,7 +177,7 @@
       "source": "BBC Science",
       "published": "2026-11-25T10:26:50+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
-      "importance": 2.435
+      "importance": 2.243
     },
     {
       "title": "What will the energy cap changes mean for my bills?",
@@ -121,23 +185,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T09:54:32+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.428
-    },
-    {
-      "title": "Why China has sent Pakistan's first astronaut into space",
-      "summary": "China launched its Shenzhou-24 space mission on Wednesday carrying three astronauts to its Tiangong space station, including Pakistan's Muhammad Zeeshan Ali, the first foreigner to join a Chinese crewed space mission.",
-      "source": "BBC Science",
-      "published": "2026-11-25T09:37:29+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
-      "importance": 2.424
-    },
-    {
-      "title": "In charts: how power could shift in Europe’s big year of elections",
-      "summary": "More than half of EU voters will go to the polls in the next 12 months, with the far right targeting significant gains. We set out the political landscape and trends Europe is entering a ‘supercycle’ of national elections. Their outcomes could shake the EU’s foundations Over the coming 12 months, more than",
-      "source": "The Guardian",
-      "published": "2026-11-25T05:00:06+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/25/charts-europe-big-year-of-elections-eu-far-right",
-      "importance": 2.36
+      "importance": 2.235
     },
     {
       "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
@@ -145,7 +193,7 @@
       "source": "BBC Science",
       "published": "2026-11-25T04:46:23+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.357
+      "importance": 2.164
     },
     {
       "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
@@ -153,39 +201,151 @@
       "source": "BBC World",
       "published": "2026-11-25T03:28:37+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.339
+      "importance": 2.146
     },
     {
-      "title": "Clashing political visions reflect a divided Spain ahead of election",
-      "summary": "Sunday’s election could see a far-right party enter the Spanish government for first time.",
-      "source": "BBC World",
-      "published": "2026-11-25T00:58:34+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.304
-    },
-    {
-      "title": "Five takeaways from the failed climate talks COP31",
-      "summary": "The COP31 summit in Antalya was the longest-running climate talks in UN history.",
-      "source": "BBC Science",
-      "published": "2026-11-23T06:33:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.265
-    },
-    {
-      "title": "Will I get the £100 energy payment and when will I receive it?",
-      "summary": "Here is what you need to know about the payment that millions will receive from January.",
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
       "source": "BBC Business",
-      "published": "2026-11-24T20:16:24+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c35yn8x748e9o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.239
+      "published": "2026-11-26T08:24:29+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.998
     },
     {
-      "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
-      "summary": "WHO chief says life expectancy has fallen from 78.8 years in 2020 to 74.4 in 2025, figures that predate US fuel blockade Life expectancy has fallen for the first time in Cuba since 1950 as the island reels from a severe economic crisis, the head of the World Health Organization (WHO) said on Tuesday. On a",
+      "title": "Children’s hospitals close beds to comply with NHS cost-cutting targets",
+      "summary": "Sheffield children’s hospital, Liverpool’s Alder Hey and London’s Great Ormond Street make cuts amid efforts to major savings Children’s hospitals are closing beds and shedding staff to comply with swingeing cost-cutting targets set by NHS chiefs to stop the health service overspending. Great Ormond Street",
       "source": "The Guardian",
-      "published": "2026-11-24T19:07:26+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
-      "importance": 2.223
+      "published": "2026-11-26T08:05:47+00:00",
+      "url": "https://www.theguardian.com/society/2026/nov/26/childrens-hospitals-close-beds-to-comply-with-nhs-cost-cutting-targets",
+      "importance": 1.993
+    },
+    {
+      "title": "New UK-EU treaty has 10-year termination clause, BBC understands",
+      "summary": "Text of the treaties will be published this afternoon, alongside legislation designed to enact the bulk of the deal.",
+      "source": "BBC Business",
+      "published": "2026-11-26T07:40:04+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "FedEx plane overshoots Miami runway, causing brief suspension of flights at airport",
+      "summary": "The brief ground stop came on the eve of the US Thanksgiving holiday, one of the busiest travel days of the year.",
+      "source": "BBC World",
+      "published": "2026-11-26T07:34:47+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.986
+    },
+    {
+      "title": "‘Are they all turncoats?’: Barnaby Joyce says voters are turning to One Nation – and Liberals like Blyth can too",
+      "summary": "South Australian senator Leah Blyth labels One Nation the ‘only party with the bold ideas needed to turn this country around’ Follow our Australia politics live blog for latest updates Get our daily political email , free app or daily news podcast Leah Blyth, federal Liberal senator for South Australia, has",
+      "source": "The Guardian",
+      "published": "2026-11-26T06:55:35+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-senator-leah-blyth-defection-to-one-nation-ntwnfb",
+      "importance": 1.977
+    },
+    {
+      "title": "London commuters braced for disruption as tube strike begins",
+      "summary": "Industrial action by RMT drivers expected to cause severe disruption on Thursday and Friday Severe disruption is expected across the London Underground on Thursday and Friday, when many tube drivers will go on strike. Drivers who are part of the national union of rail, maritime and transport workers (RMT)",
+      "source": "The Guardian",
+      "published": "2026-11-26T06:56:24+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/26/tube-drivers-strike-will-cause-severe-disruption-to-network-on-thursday-and-friday",
+      "importance": 1.977
+    },
+    {
+      "title": "Thursday briefing: Why young people are having less sex than ever",
+      "summary": "In today’s newsletter: A new study of sexual trends in Britain has found that one in three under-25s have never had sex, a flashy headline that obscures the real reasons behind a ‘sex recession’ among young people Good morning. Let’s talk about sex! I know, I know; it’s not 9am yet. But trust me, you’ll",
+      "source": "The Guardian",
+      "published": "2026-11-26T06:45:01+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/26/thursday-briefing-why-young-people-are-having-less-sex-than-ever",
+      "importance": 1.975
+    },
+    {
+      "title": "Senior Liberal slams Blyth in email to members, saying ‘you gave her your trust, she threw it away’ – as it happened",
+      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation – after Barnaby Joyce . Senator Blyth will be One",
+      "source": "The Guardian",
+      "published": "2026-11-26T06:36:53+00:00",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+      "importance": 1.973
+    },
+    {
+      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+      "summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and China accused Washington of “political",
+      "source": "The Guardian",
+      "published": "2026-11-26T06:10:56+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "importance": 1.967
+    },
+    {
+      "title": "Whitehouse calls on PM to help save lake fish",
+      "summary": "The comedian warns extinction beckons for Arctic charr in Windermere after thousands of years.",
+      "source": "BBC Science",
+      "published": "2026-11-26T06:05:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pxrzy5po?at_medium=RSS&at_campaign=rss",
+      "importance": 1.966
+    },
+    {
+      "title": "Welfare overhaul plans put rare focus on improving benefits system for disabled claimants",
+      "summary": "Timms review tackles some big questions about a flawed system – but leaves other issues in the ‘maybe later’ drawer Stephen Timms would be forgiven for feeling his thunder has been stolen. The minister for social security has spent the last year reviewing personal independence payments (Pip) in light of Keir",
+      "source": "The Guardian",
+      "published": "2026-11-26T06:00:47+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/26/timms-review-pip-disability-benefits-claimants",
+      "importance": 1.964
+    },
+    {
+      "title": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
+      "summary": "Yuki Imai being held in Moscow on allegations he conducted ‘espionage’ while working for a newspaper in Sakhalin island in Russia’s far east The wife of a Japanese journalist who has been detained in Russia for more than a month on suspicion of spying has issued an emotive appeal for his release. Yuki Imai",
+      "source": "The Guardian",
+      "published": "2026-11-26T05:16:17+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
+      "importance": 1.954
+    },
+    {
+      "title": "Flinders Island bushfire: Out-of-control fire with flames 10-metres high destroys at least six homes in Tasmania",
+      "summary": "Fire making a ‘significant run’ towards the south-west of Flinders Island on Thursday, Tasmania Fire Service says Get our breaking news email , free app or daily news podcast Residents in the north of Flinders Island in Tasmania have been told to take shelter, as an out-of-control bushfire destroys homes and",
+      "source": "The Guardian",
+      "published": "2026-11-26T04:47:36+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
+      "importance": 1.947
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "source": "BBC World",
+      "published": "2026-11-26T04:10:58+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.939
+    },
+    {
+      "title": "Teen’s homicidal thoughts dismissed as ‘crap’ days before she killed 10-year-old, inquest hears",
+      "summary": "Circumstances surrounding Bridgette ‘Biddy’ Porter’s death on rural NSW property being examined by coroner’s court Get our breaking news email , free app or daily news podcast Two days before a teenager killed a young girl while in the grips of psychosis, her father dismissed her homicidal thoughts",
+      "source": "The Guardian",
+      "published": "2026-11-26T04:11:34+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/teens-homicidal-thoughts-dismissed-as-crap-before-killed-10-year-old-inquest-ntwnfb",
+      "importance": 1.939
+    },
+    {
+      "title": "Macy's postpones Thanksgiving parade due to severe weather",
+      "summary": "The was the first time ever that the iconic celebration was delayed because of storms. New York expects damaging winds and heavy rainfall over the Thanksgiving holiday.",
+      "source": "BBC World",
+      "published": "2026-11-26T04:04:14+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.937
+    },
+    {
+      "title": "Chris Van Hollen picks up more support for Senate majority leader role ahead of Democrats vote next week – as it happened",
+      "summary": "This live blog s now closed. Sign up for the Breaking News US email US trade representative Jamieson Greer claimed this morning that he did not expect the new proposed tariffs to rattle the global economy. “We’ve talked to our trading partners about this — they know what we’re proposing,” Greer told CNBC. “",
+      "source": "The Guardian",
+      "published": "2026-11-26T02:20:52+00:00",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
+      "importance": 1.913
+    },
+    {
+      "title": "As foreign troops withdraw from Somalia, could al-Shabab take over?",
+      "summary": "Somalia relies heavily on foreign funding and military support for its very survival.",
+      "source": "BBC World",
+      "published": "2026-11-26T02:06:10+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ck62y23z58yeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.91
     },
     {
       "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
@@ -193,215 +353,55 @@
       "source": "BBC Technology",
       "published": "2026-11-24T09:33:00+00:00",
       "url": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.09
+      "importance": 1.897
     },
     {
-      "title": "Poundland collapses putting 11,000 jobs at risk",
-      "summary": "The discount chain has fallen into administration after its owners failed to find a buyer.",
-      "source": "BBC Business",
-      "published": "2026-11-25T18:29:42+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.997
-    },
-    {
-      "title": "Smoke seen from a mile away as army detonates US stockpile of bomb-making chemicals in Iowa",
-      "summary": "Controlled blast to dispose of lead azide risks releasing plumes of toxic chemicals in 100-mile radius The US army detonated the nation’s entire stockpile of the the bomb-making material lead azide in Iowa on Wednesday morning, despite an outpouring of public concern about potential health and environmental",
+      "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+      "summary": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charred A crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities said. The blaze on the ring road, a key artery",
       "source": "The Guardian",
-      "published": "2026-11-25T18:24:48+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/25/iowa-controlled-blast-lead-azide",
-      "importance": 1.996
+      "published": "2026-11-26T00:39:10+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+      "importance": 1.89
     },
     {
-      "title": "‘I am leaving with my freedom’: Kilmar Ábrego García lands in Spain after choosing to leave US - live",
-      "summary": "Before his departure, Immigration and Customs Enforcement agents met him at the airport and removed his ankle monitor, an advocacy group reported Sign up for the Breaking News US email to get newsletter alerts in your inbox US trade representative Jamieson Greer claimed this morning that he did not expect",
-      "source": "The Guardian",
-      "published": "2026-11-25T18:23:45+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
-      "importance": 1.996
-    },
-    {
-      "title": "All hostages rescued after Colombian security forces storm supermarket",
-      "summary": "Operation in which one hostage-taker was killed ends daylong siege in Cartagena shopping centre, where 30 people were initially held Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the hostages were freed and one",
-      "source": "The Guardian",
-      "published": "2026-11-25T18:20:20+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
-      "importance": 1.995
-    },
-    {
-      "title": "EU nationals will pay higher tuition fees than UK students, Burnham indicates",
-      "summary": "Asked by Kemi Badenoch to rule out equal rate for UK and EU students, PM says proposal ‘will not be put on the table’ European students will have to pay higher fees than their domestic equivalents at UK universities under a still-to-be-finalised part of the new deal with the EU, Andy Burnham has indicated.",
-      "source": "The Guardian",
-      "published": "2026-11-25T18:19:19+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/25/eu-nationals-will-pay-higher-tuition-fees-than-uk-students-burnham-indicates",
-      "importance": 1.995
-    },
-    {
-      "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
-      "summary": "Judgment casts doubt on evidence linking aid workers to Hamas and says humanitarian efforts in Gaza were damaged A UN tribunal has cast doubt on the evidence used to justify the sacking of Palestinian UN aid workers in 2024, saying it was based “almost entirely” on unproven assertions from the Israeli",
-      "source": "The Guardian",
-      "published": "2026-11-25T18:14:27+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations",
-      "importance": 1.994
-    },
-    {
-      "title": "US stocks fall further as fears over AI intensify",
-      "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+      "title": "The US pastor who wants to see women's right to vote overturned",
+      "summary": "The movement to repeal women's right to vote has gained traction amongst some very conservative Christians.",
       "source": "BBC World",
-      "published": "2026-11-25T17:48:09+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.988
+      "published": "2026-11-26T00:24:25+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwe89jyz4012o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.887
     },
     {
-      "title": "UK politics: Burnham dismisses Badenoch’s criticism over influencer and declines to apologise for ‘vile video’ – as it happened",
-      "summary": "Pair clashed at PMQs over a video shot outside No 10 by TikToker Max Balegde Diane Taylor is a Guardian reporter who covers migration. Britons get many of the facts about migration wrong and Reform UK voters are the group who get these facts most wrong, according to new research published today by King’s",
-      "source": "The Guardian",
-      "published": "2026-11-25T17:42:31+00:00",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/25/andy-burnham-kemi-badenoch-pmqs-energy-bills-tiktok-welfare-benefits-timms-reform-brexit-devolution-latest-news-updates",
-      "importance": 1.986
-    },
-    {
-      "title": "Woman did not believe husband had drugged her for rape by strangers, Manchester trial told",
-      "summary": "Wife said to detectives: ‘I had no knowledge of what you told me had happened and I still can’t believe it’s true’ A woman who was allegedly raped and sexually assaulted by men her husband invited to their home after he drugged her told police she could not believe it happened. In a video interview played to",
-      "source": "The Guardian",
-      "published": "2026-11-25T17:36:42+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/25/woman-did-not-believe-husband-drugged-her-for-rape-by-strangers-manchester-trial",
-      "importance": 1.985
-    },
-    {
-      "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
-      "summary": "The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago",
+      "title": "Has global jihadism failed, or is it simply changing shape?",
+      "summary": "Jihadist groups appear to be focusing on local issues rather than global terror. Does it signify a real change?",
       "source": "BBC World",
-      "published": "2026-11-25T17:30:16+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.984
+      "published": "2026-11-26T00:22:18+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.886
     },
     {
-      "title": "Trump open to pardoning Jensen Huang if needed: ‘It’s always an option’",
-      "summary": "The president’s comments came after pressuring Nvidia’s board to reinstall Huang as CEO despite lawmakers’ concerns over national security Donald Trump said on Tuesday he would be open to pardoning Jensen Huang , the recently reinstalled Nvidia CEO , for potential crimes but didn’t think it would be",
-      "source": "The Guardian",
-      "published": "2026-11-25T17:21:10+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/25/trump-open-to-pardoning-jensen-huang-nvidia",
-      "importance": 1.981
-    },
-    {
-      "title": "US Army calls Iowa lead detonation a ‘huge success’ and says threat of spontaneous explosions has been ‘eliminated’ – as it happened",
-      "summary": "This live blog is now closed. For the latest news on this detonation in Iowa, read our full story: Smoke seen from a mile away as army detonates bomb-making chemicals The United States Centers for Disease Control and Prevention (CDC) has activated an emergency response to support the Iowa Department of",
-      "source": "The Guardian",
-      "published": "2026-11-25T17:20:49+00:00",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/iowa-lead-azide-detonation-army-explosion-bomb-live-updates",
-      "importance": 1.981
-    },
-    {
-      "title": "Does the rise and fall of Raheem Sterling show football is broken? – The Latest",
-      "summary": "Raheem Sterling has been handed a 12-month jail term, suspended for 18 months, for reckless driving and possession of nitrous oxide. It marks a remarkable fall from grace for the former England and Manchester City player, who was awarded an MBE in 2021. Sterling started playing professional football at 16",
-      "source": "The Guardian",
-      "published": "2026-11-25T17:13:12+00:00",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/25/does-the-rise-and-fall-of-raheem-sterling-show-football-is-broken-the-latest",
-      "importance": 1.98
-    },
-    {
-      "title": "What's gone wrong at Poundland?",
-      "summary": "Poundland has collapse into administration. Why?",
-      "source": "BBC Business",
-      "published": "2026-11-25T17:00:32+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.977
-    },
-    {
-      "title": "Poundland collapses into administration, putting 12,000 jobs at risk",
-      "summary": "US owner Gordon Brothers rejected at least two last-ditch bids for UK budget retailer Do you work for Poundland? Tell us how you’re affected Poundland has called in administrators, putting 12,000 jobs at risk in the run-up to Christmas after its owners rejected at least two last-ditch bids for the budget",
-      "source": "The Guardian",
-      "published": "2026-11-25T16:41:08+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/25/poundland-administration-jobs-at-risk-gordon-brothers",
-      "importance": 1.972
-    },
-    {
-      "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
-      "summary": "A review of the US president's financial disclosures shows Donald Trump's investment portfolios have regularly traded shares in the tech giant.",
-      "source": "BBC Business",
-      "published": "2026-11-25T16:42:11+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.972
-    },
-    {
-      "title": "US announces new tariffs on host of countries including China",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+      "summary": "Despite widespread concern from residents ahead of the blast, officials say that lead readings in the area so far have been promising.",
       "source": "BBC World",
-      "published": "2026-11-25T16:21:34+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.968
+      "published": "2026-11-26T00:23:05+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
+      "importance": 1.886
     },
     {
-      "title": "Why has Poundland collapsed and what happens next?",
-      "summary": "The retail chain has collapsed just one year after being bought for £1 by an American firm.",
-      "source": "BBC Business",
-      "published": "2026-11-25T16:24:30+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/ckregn0gq2ydo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.968
-    },
-    {
-      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+      "title": "France's political mainstream risks presidential vote debacle with no clear candidate",
+      "summary": "Hard-right and hard-left candidates dominate the polls ahead of next year's presidential election.",
       "source": "BBC World",
-      "published": "2026-11-25T16:20:14+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.967
+      "published": "2026-11-26T00:23:27+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss",
+      "importance": 1.886
     },
     {
-      "title": "Hundreds complain after Mariella Frostrup calls AJ Odudu ‘aggressive’ on I’m a Celebrity",
-      "summary": "Ofcom receives 887 complaints, while media figures accuse Frostrup of using ‘microaggression’ against Odudu Almost 900 people have complained to the UK’s media regulator about an episode of ITV’s I’m A Celebrity … Get Me Out of Here! after the broadcaster Mariella Frostrup called her fellow campmate and",
-      "source": "The Guardian",
-      "published": "2026-11-25T16:00:19+00:00",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/25/hundreds-complain-ofcom-mariella-frostrup-aj-odudu-im-a-celebrity",
-      "importance": 1.963
-    },
-    {
-      "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
-      "summary": "The break-in happened in 2020, when thieves allegedly stole bundles of US dollar bills hidden inside a sofa at the farm.",
-      "source": "BBC World",
-      "published": "2026-11-25T15:42:50+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.959
-    },
-    {
-      "title": "Brussels on split-screen: where it flexes – and where it bends",
-      "summary": "From a choreographed summit that dominated Westminster but barely registered in Brussels to a climate showdown in Turkey, last week revealed the EU’s priorities – and the limits of its collective power • Don’t get This Is Europe delivered to your inbox? Sign up here Two very different European diplomatic",
-      "source": "The Guardian",
-      "published": "2026-11-25T15:39:54+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/25/this-is-europe-brussels-eu-uk-summit",
-      "importance": 1.958
-    },
-    {
-      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-      "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
-      "source": "BBC World",
-      "published": "2026-11-25T14:46:41+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.946
-    },
-    {
-      "title": "New York's annual Thanksgiving Parade threatened by approaching storm",
-      "summary": "Strong winds and heavy rain are expected to impact celebrations across the USA, with the risk that the famous Macy's Thanksgiving Day parade could be impacted.",
+      "title": "What UK season changes mean for you",
+      "summary": "Frosts will become less common and hot summer days more frequent in the UK, the Met Office says.",
       "source": "BBC Science",
-      "published": "2026-11-25T14:41:42+00:00",
-      "url": "https://www.bbc.co.uk/weather/articles/cr894e8dd7wqo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.944
-    },
-    {
-      "title": "Fuel price hike will make life 'almost impossible'",
-      "summary": "The Fuel Bank Foundation says many homes are already cutting back and struggling with bills.",
-      "source": "BBC Business",
-      "published": "2026-11-25T14:37:44+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrgqknw0jlo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.944
-    },
-    {
-      "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
-      "summary": "Mohammed Abu al-Ouf, head of Hamas's internal security service in northern Gaza, was killed with his wife and two teenage daughters, doctors say.",
-      "source": "BBC World",
-      "published": "2026-11-25T14:06:13+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.936
+      "published": "2026-11-26T00:14:16+00:00",
+      "url": "https://www.bbc.co.uk/weather/videos/c804wd3wwqpyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.884
     }
   ]
 }
