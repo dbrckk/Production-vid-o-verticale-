@@ -1,23 +1,103 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-27T00:39:31.583825+00:00",
+  "generated_at": "2026-11-27T18:15:40.113056+00:00",
   "max_age_hours": 72,
   "items": [
     {
-      "title": "California warns of flooding as King Tides peak over Thanksgiving",
-      "summary": "Parts of the Canadian province of British Columbia may also be affected by the storms and flooding, which come as millions of people travel for the holiday.",
+      "title": "Labour row over Rosebank deepens as dozens of MPs warn PM not to block oilfield",
+      "summary": "After nearly 100 colleagues called on Andy Burnham to block the oilfield, as many as 80 Labour MPs are planning to urge the opposite Dozens of Labour MPs in favour of Rosebank are putting pressure on the prime minister not to block the North Sea oilfield, warning that doing so could spell “lights out for",
+      "source": "The Guardian",
+      "published": "2026-11-27T17:39:10+00:00",
+      "url": "https://www.theguardian.com/politics/2026/nov/27/rosebank-supporting-mps-warn-pm-blocking-the-oilfield-would-mean-lights-out-for-labour-in-scotland",
+      "importance": 2.542
+    },
+    {
+      "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+      "summary": "Hundreds of thousands of people were without power after severe weather hit both coasts of the United States during the Thanksgiving holiday.",
       "source": "BBC Science",
-      "published": "2026-11-26T01:22:55+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-      "importance": 2.777
+      "published": "2026-11-27T16:46:47+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.529
+    },
+    {
+      "title": "Spanish prime minister Pedro Sánchez confident of election victory despite polls – as it happened",
+      "summary": "This blog is now closed Freelance journalist based in Madrid and host of the Sobremesa podcast Vox has often been portrayed in international coverage as a party of Franco nostalgists whose ultraconservative Catholicism and civil-war rhetoric towards the separatist Catalan “enemy within” threatened a return",
+      "source": "The Guardian",
+      "published": "2026-11-27T16:19:50+00:00",
+      "url": "https://www.theguardian.com/world/live/2026/nov/27/zelenskyy-putin-trump-comments-russia-ukraine-latest-news-updates",
+      "importance": 2.523
+    },
+    {
+      "title": "Eastern US recovers from storms that snarled Thanksgiving travel as flooding continues",
+      "summary": "Heavy rains and high winds downed trees and power lines and led to water rescues from New York to Virginia Skies are clearing along the US eastern seaboard, and power was being restored to hundreds of thousands of customers, whose Thanksgiving plans were disrupted by heavy rains and high winds that swept",
+      "source": "The Guardian",
+      "published": "2026-11-27T16:18:56+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+      "importance": 2.523
+    },
+    {
+      "title": "Will new energy fixes cost more in January?",
+      "summary": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war.",
+      "source": "BBC Business",
+      "published": "2026-11-27T16:05:32+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cwjd7y4jk581o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.52
+    },
+    {
+      "title": "NSW Labor is ‘trampling over party principles’ with preselections by captain’s call, members say",
+      "summary": "Exclusive: Ryde councillor Penny Pedersen was asked by Labor head office not to nominate for Lane Cove in March state election Get our breaking news email , free app or daily news podcast Labor’s New South Wales leadership has been accused of alienating members and undermining the democratic process, after",
+      "source": "The Guardian",
+      "published": "2026-11-27T14:00:12+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/28/nsw-labor-is-trampling-over-party-principles-with-preselections-by-captains-call-members-say",
+      "importance": 2.491
+    },
+    {
+      "title": "‘Crisis in empathy’: prison guard was watching TV while Aboriginal man was dying in custody, NSW coroner finds",
+      "summary": "Judge says officers should be banned from screens and phones while on shift after the 33-year-old’s death at Silverwater • Warning: This article contains references to Indigenous Australians who have died The NSW coroner has found the death of an Aboriginal man in custody in 2023 was not only preventable but",
+      "source": "The Guardian",
+      "published": "2026-11-27T11:18:47+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/27/crisis-in-empathy-death-in-custody-of-aboriginal-man-tj-denniss-was-preventable-says-nsw-coroner-ntwnfb",
+      "importance": 2.453
+    },
+    {
+      "title": "'It's impossible': Spain's young people on housing ahead of Sunday's election",
+      "summary": "Europe correspondent Nick Beake speaks to one couple kept apart by high rents in Valencia.",
+      "source": "BBC World",
+      "published": "2026-11-27T06:09:31+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cm9w9y8947xqo?at_medium=RSS&at_campaign=rss",
+      "importance": 2.382
+    },
+    {
+      "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+      "summary": "The struggle many face in buying a home has been the biggest issue of a bitter campaign.",
+      "source": "BBC World",
+      "published": "2026-11-27T06:03:39+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o?at_medium=RSS&at_campaign=rss",
+      "importance": 2.381
     },
     {
       "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-      "summary": "Massive storms are descending on both US coasts, with wind gusts, heavy rain, downed trees, and power outages for hundreds of thousands of customers.",
-      "source": "BBC World",
-      "published": "2026-11-27T00:29:48+00:00",
+      "summary": "Almost one million customers in the US had no power on Thursday evening as storms descended on both US coasts, bringing wind gusts, heavy rain and flooding.",
+      "source": "BBC Science",
+      "published": "2026-11-27T05:15:26+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.548
+      "importance": 2.369
+    },
+    {
+      "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+      "summary": "Incumbent prime minister Christopher Luxon loses majority and needs support of Opportunity party to remain in power, or country faces another election The final results of New Zealand’s general election show the incumbent rightwing coalition will need the support of a centrist newcomer party to form a",
+      "source": "The Guardian",
+      "published": "2026-11-27T02:38:15+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+      "importance": 2.333
+    },
+    {
+      "title": "Threat from China looms large over Taiwan’s local elections",
+      "summary": "Taiwanese officials raise alarm over interference by China in elections that will shape fortunes of ruling party Taiwanese voters go to the polls on Saturday in closely watched local elections that will shape the fortunes of the ruling Democratic Progressive party (DPP) as it navigates an increasingly",
+      "source": "The Guardian",
+      "published": "2026-11-27T01:00:49+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/threat-from-china-looms-large-over-taiwan-local-elections",
+      "importance": 2.31
     },
     {
       "title": "UK to pay 'participation' fee to deliver EU deals",
@@ -25,7 +105,7 @@
       "source": "BBC Business",
       "published": "2026-11-26T23:17:12+00:00",
       "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
-      "importance": 2.531
+      "importance": 2.286
     },
     {
       "title": "BBC Inside Science",
@@ -33,55 +113,119 @@
       "source": "BBC Science",
       "published": "2026-11-26T21:00:00+00:00",
       "url": "https://www.bbc.co.uk/sounds/play/w3ct978n?at_medium=RSS&at_campaign=rss",
-      "importance": 2.499
-    },
-    {
-      "title": "US Senate ‘permitting bill’ threatens clean water protections to speed up energy projects",
-      "summary": "The Bipartisan American Affordability and Jobs Act passed the Senate and is now being debated in the House An industry-backed “permitting bill” approved by the US Senate would gut key clean water protections with changes that would do little to speed up the development of major energy projects, advocates",
-      "source": "The Guardian",
-      "published": "2026-11-26T19:16:35+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/senate-permitting-bill-clean-water",
-      "importance": 2.475
-    },
-    {
-      "title": "What would happen if Russia detonated a nuclear weapon in space?",
-      "summary": "⁠Sputnik-S, a nuclear-enabled satellite, has been assembled by Russia and could be launched in 60 days, reports say Russia is reportedly preparing to launch a nuclear-armed satellite into space later this year, in a scenario that could pose a significant threat to global communications. German media outlets",
-      "source": "The Guardian",
-      "published": "2026-11-26T18:13:33+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/26/what-would-be-the-fallout-from-a-nuclear-armed-satellite-detonated-into-space",
-      "importance": 2.461
-    },
-    {
-      "title": "Labour’s EU reset deal will be ‘floor not ceiling’, says Burnham cabinet ally",
-      "summary": "Scottish secretary Douglas Alexander to say Britain cannot secure the change it needs ‘without changing our relationship with Europe’ Labour’s EU reset deal will be a “floor not a ceiling”, according to a close cabinet ally of Andy Burnham, who says the UK has been a “cork bobbing on the tides of history”",
-      "source": "The Guardian",
-      "published": "2026-11-26T17:00:52+00:00",
-      "url": "https://www.theguardian.com/politics/2026/nov/26/uk-bill-to-implement-eu-deal-closer-future-ties",
-      "importance": 2.444
+      "importance": 2.255
     },
     {
       "title": "Musk's plan to send a million SpaceX data satellites into space approved",
       "summary": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
-      "source": "BBC World",
+      "source": "BBC Science",
       "published": "2026-11-26T09:27:44+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.339
+      "importance": 2.094
     },
     {
-      "title": "Parents cutting basics at Christmas, charity warns",
-      "summary": "The chief executive of Worthing Soup Kitchen says some families choose between food and presents.",
-      "source": "BBC Business",
-      "published": "2026-11-26T06:13:47+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cq1k98gpzmy4o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.294
-    },
-    {
-      "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-      "summary": "Nearly a third of crossings in early 2026 allegedly involved boats or engines from the German man's firm.",
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+      "summary": "Ukraine's president voices frustration with US and says it is not pushing Russia hard enough in peace talks to end the war.",
       "source": "BBC World",
-      "published": "2026-11-26T05:00:24+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.277
+      "published": "2026-11-27T18:00:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.997
+    },
+    {
+      "title": "The Com: the global cybercrime network posing a ‘chilling threat’ to children",
+      "summary": "FBI estimates thousands of people identify as members, or recent members, of group linked to indecent images of girls and blackmail It sounds benign: the Com, short for the Community. But crime agencies around the world warn that it is far from that and the young cybercriminals involved are causing havoc and",
+      "source": "The Guardian",
+      "published": "2026-11-27T17:53:30+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/the-com-global-cybercrime-network-posing-chilling-threat-to-children",
+      "importance": 1.995
+    },
+    {
+      "title": "UK man jailed for online blackmail of vulnerable girls around the world",
+      "summary": "Beau-Jack Mensforth, 20, part of a group known as the Com, coerced girls into self-harm, making indecent images of themselves and physically harming pets The Com: the global cybercrime network posing a ‘chilling threat’ to children A 20-year-old man from north-east England has been jailed for blackmailing",
+      "source": "The Guardian",
+      "published": "2026-11-27T17:27:03+00:00",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/27/man-jailed-in-newcastle-for-blackmailing-vulnerable-girls-online",
+      "importance": 1.989
+    },
+    {
+      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+      "summary": "Paul Mackenzie is found guilty of killing his followers, weeks after being jailed for the mass murder of children.",
+      "source": "BBC World",
+      "published": "2026-11-27T17:19:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.987
+    },
+    {
+      "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
+      "summary": "Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolved Belgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US tech firm’s requests to modify the original terms of the planning",
+      "source": "The Guardian",
+      "published": "2026-11-27T17:21:18+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+      "importance": 1.987
+    },
+    {
+      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "summary": "Pennsylvania and neighbouring states remain badly affected on Friday after both coasts were lashed with wind and rain.",
+      "source": "BBC Science",
+      "published": "2026-11-27T17:06:56+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.984
+    },
+    {
+      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "summary": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their fundamental rights.",
+      "source": "BBC World",
+      "published": "2026-11-27T16:53:46+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.981
+    },
+    {
+      "title": "Jared Kushner’s 70-minute interview shows the peril of treating Putin like a corporate rival",
+      "summary": "Trump’s son-in-law and top negotiator paints Russian invasion of Ukraine as a misunderstanding to be resolved In the space of a 70-minute interview, Jared Kushner – Donald Trump’s son-in-law and a prominent US negotiator in Russia, Gaza and Iran – probably did more to reveal why the world is mired in",
+      "source": "The Guardian",
+      "published": "2026-11-27T16:49:59+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/jared-kushner-interview-peril-putin-corporate-rival",
+      "importance": 1.98
+    },
+    {
+      "title": "UK pensions department hit by ‘serious cyber incident’, minister says – as it happened",
+      "summary": "This blog is now closed, you can read more on this story here According to Downdetector , which tracks online service outages, reports of problems with the government website appeared to begin last night and peaked at about 8am this morning. Tory MP Neil Shastri-Hurst has also commented on the disruption at",
+      "source": "The Guardian",
+      "published": "2026-11-27T16:33:28+00:00",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates",
+      "importance": 1.976
+    },
+    {
+      "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+      "summary": "Closely watched decision exposes tensions between minority rights and the power of government to override those rights Canada’s top court has largely upheld a controversial secularism law in the province of Quebec barring public sector workers from wearing conspicuous religious symbols, in a closely watched",
+      "source": "The Guardian",
+      "published": "2026-11-27T16:13:07+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols",
+      "importance": 1.972
+    },
+    {
+      "title": "British Gas owner seeks urgent government talks over future of storage facility",
+      "summary": "Centrica boss memo to 400 workers at gas plant off Yorkshire coast says utility doing all it can ‘to save your jobs’ The boss of the British Gas owner Centrica has told hundreds of staff at its largest gas storage facility that he was seeking urgent talks with Andy Burnham and would do everything he could to",
+      "source": "The Guardian",
+      "published": "2026-11-27T15:56:32+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/27/british-gas-owner-seeks-urgent-government-talks-gas-storage-faciity-future",
+      "importance": 1.968
+    },
+    {
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "summary": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products.",
+      "source": "BBC World",
+      "published": "2026-11-27T15:54:15+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.967
+    },
+    {
+      "title": "Norse Atlantic Airways files for bankruptcy and cancels all future flights",
+      "summary": "Norwegian airline tells customers not to come to airports after surging fuel costs caused by Iran war ruin finances Norse Atlantic Airways has filed for bankruptcy and cancelled all future flights after surging fuel costs caused by the Iran war ruined its finances. The Norwegian airline said it was entering",
+      "source": "The Guardian",
+      "published": "2026-11-27T15:40:35+00:00",
+      "url": "https://www.theguardian.com/business/2026/nov/27/norse-atlantic-airways-files-for-bankruptcy-cancels-all-future-flights",
+      "importance": 1.964
     },
     {
       "title": "Guitar wars - the transatlantic battle over the Stratocaster",
@@ -89,15 +233,167 @@
       "source": "BBC Business",
       "published": "2026-11-26T00:01:37+00:00",
       "url": "https://www.bbc.co.uk/news/articles/cqd01l9x8k48o?at_medium=RSS&at_campaign=rss",
-      "importance": 2.208
+      "importance": 1.963
+    },
+    {
+      "title": "'Can't control the weather': Sadness as Macy's Thanksgiving parade postponed",
+      "summary": "Macy's postpones its 100th annual Thanksgiving Day Parade in New York because of severe weather.",
+      "source": "BBC Science",
+      "published": "2026-11-27T15:27:00+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cmx29qd8ew4xo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.961
+    },
+    {
+      "title": "Newly released documents suggest CIA did more post-9/11 waterboarding than previously acknowledged",
+      "summary": "Declassified documents appear to support belief that waterboarding was more common and may have occurred beyond two acknowledged sites Newly released documents suggest that the CIA waterboarded more detainees during the post-9/11 “war on terror” than previously acknowledged, utilizing a site north of Kabul",
+      "source": "The Guardian",
+      "published": "2026-11-27T15:25:03+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/newly-released-documents-cia-waterboarding-9-11",
+      "importance": 1.961
+    },
+    {
+      "title": "John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
+      "summary": "Ukraine settles in for another devastating winter as the questions persists: how will it all end?",
+      "source": "BBC World",
+      "published": "2026-11-27T15:18:51+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.959
+    },
+    {
+      "title": "Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "summary": "Stormy weather in New York City prompted organisers to push back the Macy's parade by two days - leaving some musicians stuck.",
+      "source": "BBC World",
+      "published": "2026-11-27T15:15:19+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.958
+    },
+    {
+      "title": "Too old for soft toys? Tell that to kidults booking up the Harrods Jellycat cafe",
+      "summary": "Department stores are hosting in-person events for those who find comfort in collecting the British soft toy brand They’re cute, cuddly and taking over the homes of young adults. Jellycat, a British soft toy brand founded in 1999, is experiencing a rise in interest from adult buyers as they snap up signature",
+      "source": "The Guardian",
+      "published": "2026-11-27T15:12:03+00:00",
+      "url": "https://www.theguardian.com/lifeandstyle/2026/nov/27/jellycat-soft-toys-kidults-harrods-cafe-galerie-lafayette",
+      "importance": 1.957
+    },
+    {
+      "title": "Three studies link glyphosate to cancer, contradicting claims of Trump EPA",
+      "summary": "Experts say NIH research raises concerns about chemical companies’ influence on US agency’s pesticide division The US government’s top medical research agency has released three new studies linking glyphosate, the world’s most widely used pesticide and an active ingredient in Roundup, to cancer . The",
+      "source": "The Guardian",
+      "published": "2026-11-27T15:00:13+00:00",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa",
+      "importance": 1.955
+    },
+    {
+      "title": "‘Mass-casualty event’ in Europe possible amid rise in Russian sabotage, says thinktank",
+      "summary": "Report warns attacks on critical infrastructure could lead to demand for retaliation and expose EU divisions Russian sabotage attacks on Europe are increasing and a “mass-casualty event” is now possible as increasingly skilled operatives target critical infrastructure with ever more complex methods, a",
+      "source": "The Guardian",
+      "published": "2026-11-27T14:46:27+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/mass-casualty-event-europe-possible-russian-sabotage-says-thinktank",
+      "importance": 1.952
+    },
+    {
+      "title": "Hackers reportedly breach US air force’s flagship cloud computing platform",
+      "summary": "Intrusion into Cloud One platform could jeopardize security of sensitive tactical, personnel and logistics data Hackers are reported to have breached the US air force’s flagship cloud computing platform, a break-in that comes days after reports that a CIA database was accessed. Reuters reported on Friday",
+      "source": "The Guardian",
+      "published": "2026-11-27T14:50:15+00:00",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+      "importance": 1.952
+    },
+    {
+      "title": "Jess Wilson’s plan for Melbourne sewage plants risks water and wetlands without bringing debt down, experts say",
+      "summary": "Academic says Victorian Liberal proposal to lease treatment plants and generate profit with no compromise of services ‘a total furphy’ Victorian election 2026 guide: what you need to know Confused about who to vote for? Check the parties’ key promises and policies Get our daily political email , free app or",
+      "source": "The Guardian",
+      "published": "2026-11-27T14:00:14+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/28/jess-wilson-melbourne-sewage-plants-privatisation-risks-water-and-wetlands",
+      "importance": 1.941
+    },
+    {
+      "title": "Labor faces prospect of electoral wipeout in Victoria as voters turn to Liberals and One Nation",
+      "summary": "Former ALP strategist says Ben Carroll government at risk of losing more than 30 seats in Saturday’s election, to fall behind Pauline Hanson’s party Victorian election 2026 guide: what you need to know Confused about who to vote for? Check the parties’ key promises and policies Get our daily political email",
+      "source": "The Guardian",
+      "published": "2026-11-27T14:00:13+00:00",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/28/vic-election-labor-faces-electoral-wipeout-as-voters-turn-to-liberals-and-one-nation-ntwnfb",
+      "importance": 1.941
+    },
+    {
+      "title": "Rare turtles found inside baggage at Amsterdam airport",
+      "summary": "The endangered reptiles were bound with duct tape to prevent them moving, officials say.",
+      "source": "BBC World",
+      "published": "2026-11-27T13:38:07+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1380q3vgo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.936
     },
     {
       "title": "Moment Nasa spacecraft hit asteroid - and what happened next",
       "summary": "The crash was \"like something out of a disaster movie\", the BBC's science editor Rebecca Morelle says.",
-      "source": "BBC World",
+      "source": "BBC Science",
       "published": "2026-11-25T20:11:46+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cwe9kxpgz2kpo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.155
+      "importance": 1.91
+    },
+    {
+      "title": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
+      "summary": "The former Murdoch media executive was overheard at an event referring to the way Grace Tame was dressed.",
+      "source": "BBC World",
+      "published": "2026-11-27T11:44:40+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.909
+    },
+    {
+      "title": "Ex-Kenyan governor jailed for 25 years over pregnant girlfriend's murder",
+      "summary": "The pregnant student was murdered after leaving a hotel with a journalist she had contacted to discuss her affair with the governor.",
+      "source": "BBC World",
+      "published": "2026-11-27T11:22:02+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/crx209ekq5xdo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.904
+    },
+    {
+      "title": "Momentous decision looms after judges call for Netanyahu charges to be dropped",
+      "summary": "Dropping of corruption charges against Israeli PM after unusual intervention could set damaging precedent The Israeli judges presiding over Benjamin Netanyahu’s corruption trial have called on prosecutors to end proceedings, a highly unusual intervention that leaves the attorney general facing a momentous",
+      "source": "The Guardian",
+      "published": "2026-11-27T10:48:29+00:00",
+      "url": "https://www.theguardian.com/world/2026/nov/27/israeli-justice-system-judges-call-drop-netanyahu-charges",
+      "importance": 1.896
+    },
+    {
+      "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
+      "summary": "The Ugandan army is helping the Congolese military fight an Islamist militant group in the east of the country.",
+      "source": "BBC World",
+      "published": "2026-11-27T10:39:31+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.894
+    },
+    {
+      "title": "Clashes mar European games as Macron condemns violence",
+      "summary": "Violent clashes mar a number of European football matches on Thursday night, with French president Emmanuel Macron condemning trouble at Marseille's home game against Levski Sofia.",
+      "source": "BBC World",
+      "published": "2026-11-27T10:24:24+00:00",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.891
+    },
+    {
+      "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
+      "summary": "Solo-dining is being embraced as a self-care trend and it's reshaping the restaurant industry.",
+      "source": "BBC Business",
+      "published": "2026-11-27T10:10:36+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.888
+    },
+    {
+      "title": "Guinea-Bissau's military leaders delay return to civilian rule until 2028",
+      "summary": "The announcement comes a year after a military coup with its leaders promising a return to civilian rule within 12 months.",
+      "source": "BBC World",
+      "published": "2026-11-27T08:58:08+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/cm879e5yxjq5o?at_medium=RSS&at_campaign=rss",
+      "importance": 1.871
+    },
+    {
+      "title": "'We're scared to turn our heating on'",
+      "summary": "Energy bills will soar by 26% for millions of households in January after a surge in gas prices sparked by the Iran war.",
+      "source": "BBC Business",
+      "published": "2026-11-27T08:47:00+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/c6jd7yj4ve9xo?at_medium=RSS&at_campaign=rss",
+      "importance": 1.868
     },
     {
       "title": "Scots react to news of rising energy prices",
@@ -105,303 +401,7 @@
       "source": "BBC Business",
       "published": "2026-11-25T16:56:47+00:00",
       "url": "https://www.bbc.co.uk/news/videos/cmqlq07d71yko?at_medium=RSS&at_campaign=rss",
-      "importance": 2.11
-    },
-    {
-      "title": "Canadian astronaut welcomes baby girl from space station",
-      "summary": "Joshua Kutryk, currently on his first space mission, is just the fourth astronaut in history to miss the birth of a child while aboard the International Space Station.",
-      "source": "BBC Science",
-      "published": "2026-11-25T15:41:39+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-      "importance": 2.092
-    },
-    {
-      "title": "China sends first foreign astronaut to ISS rival as it globalises space operations",
-      "summary": "Muhammad Zeeshan Ali – the first Pakistani to reach orbit – greeted with Chinese ‘space handshake’ at Tiangong station China has flown the first foreign astronaut to its Tiangong space station, starting what it says will be the globalisation of its space operations as the US-led International Space Station",
-      "source": "The Guardian",
-      "published": "2026-11-25T14:18:29+00:00",
-      "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space",
-      "importance": 2.073
-    },
-    {
-      "title": "UK embassy in Japan warns of rise in drink spiking and credit card fraud at Tokyo bars",
-      "summary": "Social media campaign fronted by British rapper Shao Dow advises tourists not to let their guard down The British embassy in Tokyo has launched a social media campaign warning visitors to exercise caution after a rise in cases of drink-spiking and credit card fraud against tourists in the Japanese capital.",
-      "source": "The Guardian",
-      "published": "2026-11-25T11:59:22+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/25/british-embassy-tokyo-warning-tourists-drink-spiking-credit-card-fraud",
-      "importance": 2.041
-    },
-    {
-      "title": "Inside the control room feeding your weather app",
-      "summary": "BBC Weather's Matt Taylor takes us on a tour of the Met Office control room.",
-      "source": "BBC Science",
-      "published": "2026-11-27T00:09:30+00:00",
-      "url": "https://www.bbc.co.uk/weather/videos/c6y0xq8y757ko?at_medium=RSS&at_campaign=rss",
-      "importance": 1.993
-    },
-    {
-      "title": "Qantas and Air New Zealand planes too close at Sydney airport as ‘mental models’ of flight crews to be investigated",
-      "summary": "Aborted descent on Wednesday morning is latest in a series of landing incidents at Sydney airport Get our breaking news email , free app or daily news podcast The Australian Transport Safety Bureau is investigating flight crews’ “mental models” after a Qantas plane aborted its landing at Sydney airport on",
-      "source": "The Guardian",
-      "published": "2026-11-27T00:10:55+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/27/qantas-plane-aborted-landing-sydney-airport-mental-model-investigation",
-      "importance": 1.993
-    },
-    {
-      "title": "Coalition teams up with Labor to pass 20% gas reservation scheme for Australia’s largest exporters",
-      "summary": "Labor passes final major piece of legislation for 2026, denying Greens’ bid for 25% tax on exports Get our daily political email , free app or daily news podcast A federal gas reservation scheme requiring Australia’s largest exporters to keep up to 20% of their product for domestic use will go ahead with the",
-      "source": "The Guardian",
-      "published": "2026-11-27T00:02:10+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters",
-      "importance": 1.991
-    },
-    {
-      "title": "Water firms to identify 250,000 vulnerable households in England eligible for discounts",
-      "summary": "Department for Work and Pensions to provide data about households missing out on WaterSure support scheme Water companies will use government data to identify as many as 250,000 vulnerable households in England eligible for discounts, after criticism that not enough people are aware of the £428 support for",
-      "source": "The Guardian",
-      "published": "2026-11-27T00:01:48+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/27/water-firms-to-identify-250000-vulnerable-households-in-england-eligible-for-discounts",
-      "importance": 1.991
-    },
-    {
-      "title": "Nearly half of ethnic minority people in UK have faced racism at work in last year, survey finds",
-      "summary": "Figures show impact on mental health, with majority having no confidence HR will take their concerns seriously Nearly half of people from minority ethnic backgrounds have experienced racism at work and the majority have no confidence that HR would take their concerns seriously, a survey has found. It also",
-      "source": "The Guardian",
-      "published": "2026-11-27T00:01:47+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/27/nearly-half-of-ethnic-minority-people-in-uk-have-faced-racism-at-work-in-last-year-survey-finds",
-      "importance": 1.991
-    },
-    {
-      "title": "Why is there a shortage of 'wizard' elevator mechanics?",
-      "summary": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
-      "source": "BBC Technology",
-      "published": "2026-11-27T00:02:19+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.991
-    },
-    {
-      "title": "Sam Wood to spend Christmas in jail after again being denied bail over alleged assault of wife Snezana",
-      "summary": "Former Bachelor star and fitness influencer stands accused of choking and assaulting wife at Noosa in Queensland during family holiday in October Get our breaking news email , free app or daily news podcast Reality star Sam Wood will spend Christmas in jail after again being denied bail on domestic violence",
-      "source": "The Guardian",
-      "published": "2026-11-26T23:54:28+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/27/sam-wood-denied-bail-alleged-assault-queensland-ntwnfb",
-      "importance": 1.99
-    },
-    {
-      "title": "Asia made a big AI bet on Nvidia. What happens now?",
-      "summary": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
-      "source": "BBC Technology",
-      "published": "2026-11-26T23:08:12+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.979
-    },
-    {
-      "title": "My dad's watch stopped the moment he died - I found it in the ashes of Hong Kong tower fire",
-      "summary": "The city marks a year since a huge blaze tore through seven apartment blocks, killing 168 people.",
-      "source": "BBC World",
-      "published": "2026-11-26T23:03:16+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/c6evr2y40v0jo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.978
-    },
-    {
-      "title": "Chance of snow forecast for northern England and Scotland in next few days",
-      "summary": "Met Office warns of icy roads and risk of freezing rain on higher ground as weather turns cold and unsettled Parts of England could see snow in the coming days as cold and unsettled weather continues into the weekend, forecasters have said. Heavy rain sweeping eastwards on Friday could turn to snow over",
-      "source": "The Guardian",
-      "published": "2026-11-26T23:01:40+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/26/chance-of-snow-forecast-northern-england-scotland",
-      "importance": 1.977
-    },
-    {
-      "title": "Floating nature islands installed in parks as Glasgow Games legacy",
-      "summary": "The islands, being planted in five Glasgow parks, are designed to encourage wildlife and help clean the water.",
-      "source": "BBC Science",
-      "published": "2026-11-26T22:54:18+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/cwe9kxdm1k4lo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.976
-    },
-    {
-      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-      "summary": "Ukraine's president voices frustration with US and says it is \"strange\" Trump has described Vladimir Putin as a friend.",
-      "source": "BBC World",
-      "published": "2026-11-26T22:49:27+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.975
-    },
-    {
-      "title": "Strobe Talbott, Time magazine reporter and deputy US secretary of state, dies aged 80",
-      "summary": "After 21 years at Time, Talbott joined the Clinton administration and later headed the Brookings Institution Strobe Talbott, a former Time magazine reporter who later served as deputy secretary of state under Bill Clinton and then headed the Brookings Institution, died Thursday. He was 80. His son, Devin",
-      "source": "The Guardian",
-      "published": "2026-11-26T22:36:55+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/strobe-talbott-time-secretary-of-state-dead",
-      "importance": 1.972
-    },
-    {
-      "title": "Zelensky questions 'strange' Trump-Putin friendship in BBC interview",
-      "summary": "The Ukrainian president tells the BBC that Russia's Vladimir Putin should not be treated as a friend.",
-      "source": "BBC World",
-      "published": "2026-11-26T22:06:20+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cm9309nwk7x9o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.965
-    },
-    {
-      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-      "summary": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
-      "source": "BBC World",
-      "published": "2026-11-26T22:01:22+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-      "importance": 1.963
-    },
-    {
-      "title": "Watch: Man and dog narrowly escape powerful king tide in Oregon",
-      "summary": "Both the man and his dog escaped unharmed, the police department says.",
-      "source": "BBC Science",
-      "published": "2026-11-26T21:51:16+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cm4gnje836x2o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.961
-    },
-    {
-      "title": "Southern and central Australia face summer of heightened bushfire risk and heatwaves",
-      "summary": "Fire chiefs say large swathes of the country are at risk from fires driven by high fuel loads, dry soil and hot weather Get our breaking news email , free app or daily news podcast Large parts of southern and central Australia face elevated fire risk this summer, authorities say, while heatwaves and extreme",
-      "source": "The Guardian",
-      "published": "2026-11-26T21:33:36+00:00",
-      "url": "https://www.theguardian.com/environment/2026/nov/27/southern-and-central-australia-face-summer-of-heightened-bushfire-risk-and-heatwaves",
-      "importance": 1.957
-    },
-    {
-      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "summary": "The pair were technicians for German company Rheinmetall, according to Italy's foreign ministry.",
-      "source": "BBC World",
-      "published": "2026-11-26T21:17:53+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.953
-    },
-    {
-      "title": "‘Disaster’ unfolding as Sydney fire ant outbreak partly blamed on ignored biosecurity recommendations",
-      "summary": "Farmers’ Federation president says Australia ‘can’t even keep [illicit] cigarettes out of the country … let alone some of these difficult-to-detect pests’ Get our breaking news email , free app or daily news podcast Years-old recommendations by Australia’s biosecurity watchdog have been ignored or not acted",
-      "source": "The Guardian",
-      "published": "2026-11-26T20:33:26+00:00",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/27/sydney-fire-ants-outbreak-biosecurity-experts-ignored",
-      "importance": 1.943
-    },
-    {
-      "title": "Israeli strikes kill 16 schoolchildren so far this month, Gaza ministry says",
-      "summary": "Statement follows death of sisters, aged 15 and 13, in airstrike on residential apartment in Gaza City Israeli strikes have killed at least 16 schoolchildren in Gaza since the start of November, as young people across the territory face intensifying bombardment and a struggle to find food, clean water and",
-      "source": "The Guardian",
-      "published": "2026-11-26T20:33:07+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/26/gaza-ministry-schoolchildren-killed-this-month-israel-strikes",
-      "importance": 1.943
-    },
-    {
-      "title": "Net migration to UK falls to lowest level since 1997 excluding pandemic",
-      "summary": "Latest figures show difference between number of people arriving and leaving UK was ⁠77,000 in ​year ‌to ‌June Analysis: How much of the fall in UK immigration is due to Labour’s policies? Net migration across the UK has fallen to its lowest level since 1997 with the exclusion of the years of the Covid",
-      "source": "The Guardian",
-      "published": "2026-11-26T20:01:47+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/26/net-migration-to-uk-falls-to-lowest-level-since-1997-excluding-pandemic",
-      "importance": 1.936
-    },
-    {
-      "title": "Nottingham man jailed for 12 years for drugging and sexually assaulting partner",
-      "summary": "‘Depraved’ predator attacked victim while she was under the influence of sleeping tablets he had given her A man has been jailed for 12 years for drugging his long-term partner and sexually assaulting her while she slept. The man, who is in his 30s and from Nottingham, cannot be named in order to protect the",
-      "source": "The Guardian",
-      "published": "2026-11-26T19:54:05+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/26/nottingham-man-jailed-for-12-years-for-drugging-and-sexually-assaulting-partner",
-      "importance": 1.934
-    },
-    {
-      "title": "Faisal Islam: Why Trump's new tariffs are less of a threat",
-      "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
-      "source": "BBC Business",
-      "published": "2026-11-26T19:55:58+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.934
-    },
-    {
-      "title": "Trump alleges ‘fake’ economic figures released before US midterms but doesn’t provide evidence",
-      "summary": "In a Thanksgiving post, the US president seeks investigation after blue wave of Democrats unseat Republicans Donald Trump has alleged without evidence that economic figures published by the US federal government before this month’s midterm elections were “fake” and demanded an investigation after voters",
-      "source": "The Guardian",
-      "published": "2026-11-26T19:41:37+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
-      "importance": 1.931
-    },
-    {
-      "title": "How much of the sharp fall in UK immigration is due to Labour’s policies?",
-      "summary": "Labour is jubilant it has got numbers down to levels the Tories could not but it was helped by factors beyond its control Net migration to UK falls to lowest level since 1997 excluding pandemic David Cameron was the leader of the opposition when he made a comment on overall migration that was used to",
-      "source": "The Guardian",
-      "published": "2026-11-26T19:38:26+00:00",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/26/how-much-sharp-fall-uk-immigration-labour-policies",
-      "importance": 1.93
-    },
-    {
-      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
-      "summary": "Hundreds of thousands have been affected by storms in the country as the Thanksgiving holiday weekend begins.",
-      "source": "BBC World",
-      "published": "2026-11-26T19:26:16+00:00",
-      "url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.927
-    },
-    {
-      "title": "Oxford museum displays seized belongings of Naga freedom fighter Gaidinliu for first time",
-      "summary": "Notebooks, clothes and ritual objects taken by British forces in India in the 1930s go on show at Pitt Rivers Museum In 1932, British forces in north-east India imprisoned a 17-year-old girl called Gaidinliu for leading an uprising against colonial rule. While pursuing the freedom fighter through hills and",
-      "source": "The Guardian",
-      "published": "2026-11-26T19:03:47+00:00",
-      "url": "https://www.theguardian.com/culture/2026/nov/26/oxford-pitt-rivers-museum-naga-gaidinliu",
-      "importance": 1.922
-    },
-    {
-      "title": "Fifa confirms cyber-attack exposed ‘personal and business information’",
-      "summary": "Football’s governing body says hackers accessed a limited set of personal and business data Fifa confirmed that hackers gained access to a “limited set of personal and business information” in a cyber-attack, amid heightened concern over digital vulnerabilities of leading organizations and institutions. The",
-      "source": "The Guardian",
-      "published": "2026-11-26T18:45:44+00:00",
-      "url": "https://www.theguardian.com/football/2026/nov/26/fifa-cyberattack-hack-personal-information",
-      "importance": 1.918
-    },
-    {
-      "title": "Second court defeat for Trump's deep-sea mining ambitions",
-      "summary": "Second judge rules against Trump administration's plans to lease areas of ocean floor and survey for mining.",
-      "source": "BBC Science",
-      "published": "2026-11-26T18:22:28+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6y4jyx2m172o?at_medium=RSS&at_campaign=rss",
-      "importance": 1.913
-    },
-    {
-      "title": "EU leaders wrestle over Ukraine aid as potential Le Pen victory sparks fear",
-      "summary": "Slovakia, Hungary and Czechia want to opt out of €45bn Ukraine loan, as Germany tries to protect funding from possible far-right French presidency Europe live – latest updates EU leaders were bracing for a clash over long-term financial aid for Ukraine amid an effort to finalise high-stakes budget talks by",
-      "source": "The Guardian",
-      "published": "2026-11-26T17:51:17+00:00",
-      "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
-      "importance": 1.905
-    },
-    {
-      "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
-      "summary": "Former Bank of Spain governor chosen to succeed Christine Lagarde after winning support of EU’s biggest countries Spain’s Pablo Hernández de Cos has been chosen as the next president of the European Central Bank, to succeed Christine Lagarde, after winning support from the EU’s biggest countries. The",
-      "source": "The Guardian",
-      "published": "2026-11-26T17:50:54+00:00",
-      "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
-      "importance": 1.905
-    },
-    {
-      "title": "When will Poundland shops close? Five key questions answered",
-      "summary": "Why is Poundland closing down, and what will happen to staff and suppliers?",
-      "source": "BBC Business",
-      "published": "2026-11-26T17:21:21+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.899
-    },
-    {
-      "title": "US army calls detonation of bomb chemicals in Iowa a success after fears of toxic plume",
-      "summary": "The army blows up US stockpile of lead azide, a chemical used for explosives, to avoid uncontrollable explosion The US army blew up the nation’s entire stockpile of lead azide, a chemical used to make explosives, saying the first checks show Wednesday’s controlled detonation in Iowa didn’t spread toxic dust",
-      "source": "The Guardian",
-      "published": "2026-11-26T17:05:02+00:00",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/iowa-chemical-lead-bomb-detonation-toxic-dust-fears",
-      "importance": 1.895
-    },
-    {
-      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-      "summary": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
-      "source": "BBC World",
-      "published": "2026-11-26T16:21:19+00:00",
-      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-      "importance": 1.885
+      "importance": 1.865
     }
   ]
 }
